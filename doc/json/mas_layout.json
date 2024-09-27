@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 44,
     "docstring": "Want a data/behavior object abstraction for screens that lets you do\nmore things without globals? extend this class.\n\nUse properties, and define whatever functions you want.\n\nOnly 1 main function:\n    - loop - this should be called in the loop to do processing.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 55,
         "function_args": {
           "args": [
             "self",
@@ -27,6 +29,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 65,
         "function_args": {
           "args": [
             "self"
@@ -42,6 +45,7 @@
       {
         "type": "function",
         "identifier": "loop",
+        "line": 68,
         "function_args": {
           "args": [
             "self"
@@ -60,6 +64,7 @@
   "findMsg": {
     "type": "function",
     "identifier": "findMsg",
+    "line": 252,
     "function_args": {
       "args": [
         "start_aff",
@@ -77,6 +82,7 @@
   "set_quit_msg": {
     "type": "function",
     "identifier": "set_quit_msg",
+    "line": 273,
     "function_args": {
       "args": [
         "quit_msg",
@@ -99,6 +105,7 @@
   "setupQuits": {
     "type": "function",
     "identifier": "setupQuits",
+    "line": 289,
     "function_args": {
       "args": [],
       "pos_only_args": [],

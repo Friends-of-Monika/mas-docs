@@ -2,6 +2,7 @@
   "_findKeymap": {
     "type": "function",
     "identifier": "_findKeymap",
+    "line": 1355,
     "function_args": {
       "args": [
         "value"
@@ -18,6 +19,7 @@
   "_setKeymap": {
     "type": "function",
     "identifier": "_setKeymap",
+    "line": 1377,
     "function_args": {
       "args": [
         "key",
@@ -35,6 +37,7 @@
   "_strtoN": {
     "type": "function",
     "identifier": "_strtoN",
+    "line": 1407,
     "function_args": {
       "args": [
         "note"
@@ -51,6 +54,7 @@
   "_strtoN_list": {
     "type": "function",
     "identifier": "_strtoN_list",
+    "line": 1420,
     "function_args": {
       "args": [
         "note_list"
@@ -67,6 +71,7 @@
   "_labelCheck": {
     "type": "function",
     "identifier": "_labelCheck",
+    "line": 1442,
     "function_args": {
       "args": [
         "key",
@@ -85,6 +90,7 @@
   "_intCheck_nl": {
     "type": "function",
     "identifier": "_intCheck_nl",
+    "line": 1464,
     "function_args": {
       "args": [
         "key",
@@ -104,6 +110,7 @@
   "_noteCheck": {
     "type": "function",
     "identifier": "_noteCheck",
+    "line": 1482,
     "function_args": {
       "args": [
         "key",
@@ -124,6 +131,7 @@
   "_scCheck": {
     "type": "function",
     "identifier": "_scCheck",
+    "line": 1506,
     "function_args": {
       "args": [
         "key",
@@ -144,6 +152,7 @@
   "_floatCheck": {
     "type": "function",
     "identifier": "_floatCheck",
+    "line": 1530,
     "function_args": {
       "args": [
         "key",
@@ -164,6 +173,7 @@
   "_intCheck": {
     "type": "function",
     "identifier": "_intCheck",
+    "line": 1555,
     "function_args": {
       "args": [
         "key",
@@ -184,6 +194,7 @@
   "_boolCheck": {
     "type": "function",
     "identifier": "_boolCheck",
+    "line": 1580,
     "function_args": {
       "args": [
         "key",
@@ -207,10 +218,12 @@
     "class_bases": [
       "Exception"
     ],
+    "line": 1606,
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 1607,
         "function_args": {
           "args": [
             "self",
@@ -227,6 +240,7 @@
       {
         "type": "function",
         "identifier": "__str__",
+        "line": 1609,
         "function_args": {
           "args": [
             "self"
@@ -247,10 +261,12 @@
     "class_bases": [
       "object"
     ],
+    "line": 1646,
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 1655,
         "function_args": {
           "args": [
             "self",
@@ -286,6 +302,7 @@
       {
         "type": "function",
         "identifier": "isNoteMatch",
+        "line": 1732,
         "function_args": {
           "args": [
             "self",
@@ -305,6 +322,7 @@
       {
         "type": "function",
         "identifier": "isPostMatch",
+        "line": 1748,
         "function_args": {
           "args": [
             "self",
@@ -324,6 +342,7 @@
       {
         "type": "function",
         "identifier": "_is_match",
+        "line": 1764,
         "function_args": {
           "args": [
             "self",
@@ -344,6 +363,7 @@
       {
         "type": "function",
         "identifier": "is_single",
+        "line": 1792,
         "function_args": {
           "args": [
             "self"
@@ -360,6 +380,7 @@
       {
         "type": "function",
         "identifier": "reset",
+        "line": 1799,
         "function_args": {
           "args": [
             "self"
@@ -376,6 +397,7 @@
       {
         "type": "function",
         "identifier": "fromJSON",
+        "line": 1818,
         "function_args": {
           "args": [
             "jobj"
@@ -397,11 +419,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 1881,
     "docstring": "This a wrapper for a list of note matches. WE do this so we can\neasily group note matches with other information.\n\nPROPERTIES:\n    pnm_list - list of piano note matches\n    verse_list - list of verse indexes (must be in order)\n    name - song name (displayed to user in song selection mode)\n    full_combos - number of times the song has been played with no\n        no mistakes\n    wins - number of times the song has been completed\n    losses - number of the times the song has been attempted but not\n        completed\n    win_label - labelt o call to if we played the song well\n    fc_label - label to call to if we full comboed\n    fail_label - label to call to if we failed the song\n    prac_label - label to call if we are practicing\n    end_wait - seconds to wait before continuing to quit phase\n    launch_label - label to call to prepare song launch",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 1910,
         "function_args": {
           "args": [
             "self",
@@ -430,6 +454,7 @@
       {
         "type": "function",
         "identifier": "resetPNM",
+        "line": 1972,
         "function_args": {
           "args": [
             "self"
@@ -446,6 +471,7 @@
       {
         "type": "function",
         "identifier": "_loadTuple",
+        "line": 1979,
         "function_args": {
           "args": [
             "self",
@@ -463,6 +489,7 @@
       {
         "type": "function",
         "identifier": "_saveTuple",
+        "line": 1995,
         "function_args": {
           "args": [
             "self"
@@ -479,6 +506,7 @@
       {
         "type": "function",
         "identifier": "_gen_pnm_sprites",
+        "line": 2006,
         "function_args": {
           "args": [
             "self"
@@ -495,6 +523,7 @@
       {
         "type": "function",
         "identifier": "fromJSON",
+        "line": 2018,
         "function_args": {
           "args": [
             "jobj"
@@ -513,6 +542,7 @@
   "addSong": {
     "type": "function",
     "identifier": "addSong",
+    "line": 2239,
     "function_args": {
       "args": [
         "filepath",
@@ -532,6 +562,7 @@
   "addCustomSongs": {
     "type": "function",
     "identifier": "addCustomSongs",
+    "line": 2275,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -546,6 +577,7 @@
   "addStockSongs": {
     "type": "function",
     "identifier": "addStockSongs",
+    "line": 2301,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -560,6 +592,7 @@
   "getSongChoices": {
     "type": "function",
     "identifier": "getSongChoices",
+    "line": 3036,
     "function_args": {
       "args": [],
       "pos_only_args": [],

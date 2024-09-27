@@ -2,6 +2,7 @@
   "_filterGreeting": {
     "type": "function",
     "identifier": "_filterGreeting",
+    "line": 327,
     "function_args": {
       "args": [
         "ev",
@@ -24,6 +25,7 @@
   "selectGreeting": {
     "type": "function",
     "identifier": "selectGreeting",
+    "line": 427,
     "function_args": {
       "args": [
         "gre_type",
@@ -44,6 +46,7 @@
   "checkTimeout": {
     "type": "function",
     "identifier": "checkTimeout",
+    "line": 485,
     "function_args": {
       "args": [
         "gre_type"

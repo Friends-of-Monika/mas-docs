@@ -5,11 +5,13 @@
     "class_bases": [
       "renpy.display.core.Displayable"
     ],
+    "line": 846,
     "docstring": "Represents a decal, intended to be used with ParallaxSprite,\nmay work not as expected in other cases.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 851,
         "function_args": {
           "args": [
             "self",
@@ -36,6 +38,7 @@
       {
         "type": "function",
         "identifier": "x",
+        "line": 879,
         "function_args": {
           "args": [
             "self"
@@ -51,6 +54,7 @@
       {
         "type": "function",
         "identifier": "x",
+        "line": 883,
         "function_args": {
           "args": [
             "self",
@@ -67,6 +71,7 @@
       {
         "type": "function",
         "identifier": "y",
+        "line": 889,
         "function_args": {
           "args": [
             "self"
@@ -82,6 +87,7 @@
       {
         "type": "function",
         "identifier": "y",
+        "line": 893,
         "function_args": {
           "args": [
             "self",
@@ -98,6 +104,7 @@
       {
         "type": "function",
         "identifier": "z",
+        "line": 899,
         "function_args": {
           "args": [
             "self"
@@ -113,6 +120,7 @@
       {
         "type": "function",
         "identifier": "z",
+        "line": 903,
         "function_args": {
           "args": [
             "self",
@@ -129,6 +137,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 908,
         "function_args": {
           "args": [
             "self"
@@ -145,6 +154,7 @@
       {
         "type": "function",
         "identifier": "event",
+        "line": 920,
         "function_args": {
           "args": [
             "self",
@@ -165,6 +175,7 @@
       {
         "type": "function",
         "identifier": "render",
+        "line": 947,
         "function_args": {
           "args": [
             "self",
@@ -185,6 +196,7 @@
       {
         "type": "function",
         "identifier": "visit",
+        "line": 960,
         "function_args": {
           "args": [
             "self"
@@ -206,11 +218,13 @@
     "class_bases": [
       "renpy.display.core.Displayable"
     ],
+    "line": 967,
     "docstring": "A container displayable. It takes a base (consider it main displayable) and any number of children.\nThe container will be of just enough size to contain the base and the children.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 972,
         "function_args": {
           "args": [
             "self",
@@ -228,6 +242,7 @@
       {
         "type": "function",
         "identifier": "_m1_special0x2deffects__sort_decals",
+        "line": 996,
         "function_args": {
           "args": [
             "self"
@@ -244,6 +259,7 @@
       {
         "type": "function",
         "identifier": "base",
+        "line": 1003,
         "function_args": {
           "args": [
             "self"
@@ -259,6 +275,7 @@
       {
         "type": "function",
         "identifier": "base",
+        "line": 1007,
         "function_args": {
           "args": [
             "self",
@@ -275,6 +292,7 @@
       {
         "type": "function",
         "identifier": "children",
+        "line": 1021,
         "function_args": {
           "args": [
             "self"
@@ -290,6 +308,7 @@
       {
         "type": "function",
         "identifier": "debug",
+        "line": 1025,
         "function_args": {
           "args": [
             "self"
@@ -305,6 +324,7 @@
       {
         "type": "function",
         "identifier": "debug",
+        "line": 1029,
         "function_args": {
           "args": [
             "self",
@@ -321,6 +341,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 1033,
         "function_args": {
           "args": [
             "self"
@@ -337,6 +358,7 @@
       {
         "type": "function",
         "identifier": "add",
+        "line": 1043,
         "function_args": {
           "args": [
             "self"
@@ -353,6 +375,7 @@
       {
         "type": "function",
         "identifier": "remove",
+        "line": 1057,
         "function_args": {
           "args": [
             "self"
@@ -369,6 +392,7 @@
       {
         "type": "function",
         "identifier": "remove_all",
+        "line": 1068,
         "function_args": {
           "args": [
             "self"
@@ -385,6 +409,7 @@
       {
         "type": "function",
         "identifier": "event",
+        "line": 1078,
         "function_args": {
           "args": [
             "self",
@@ -405,6 +430,7 @@
       {
         "type": "function",
         "identifier": "render",
+        "line": 1091,
         "function_args": {
           "args": [
             "self",
@@ -425,6 +451,7 @@
       {
         "type": "function",
         "identifier": "_update_offsets",
+        "line": 1130,
         "function_args": {
           "args": [
             "self"
@@ -441,6 +468,7 @@
       {
         "type": "function",
         "identifier": "update",
+        "line": 1137,
         "function_args": {
           "args": [
             "self"
@@ -457,6 +485,7 @@
       {
         "type": "function",
         "identifier": "visit",
+        "line": 1144,
         "function_args": {
           "args": [
             "self"
@@ -478,11 +507,13 @@
     "class_bases": [
       "renpy.display.core.Displayable"
     ],
+    "line": 1151,
     "docstring": "Represents a sprite with parallax effect",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 1160,
         "function_args": {
           "args": [
             "self",
@@ -514,6 +545,7 @@
       {
         "type": "function",
         "identifier": "x",
+        "line": 1243,
         "function_args": {
           "args": [
             "self"
@@ -529,6 +561,7 @@
       {
         "type": "function",
         "identifier": "x",
+        "line": 1247,
         "function_args": {
           "args": [
             "self",
@@ -545,6 +578,7 @@
       {
         "type": "function",
         "identifier": "y",
+        "line": 1252,
         "function_args": {
           "args": [
             "self"
@@ -560,6 +594,7 @@
       {
         "type": "function",
         "identifier": "y",
+        "line": 1256,
         "function_args": {
           "args": [
             "self",
@@ -576,6 +611,7 @@
       {
         "type": "function",
         "identifier": "z",
+        "line": 1261,
         "function_args": {
           "args": [
             "self"
@@ -591,6 +627,7 @@
       {
         "type": "function",
         "identifier": "z",
+        "line": 1265,
         "function_args": {
           "args": [
             "self",
@@ -607,6 +644,7 @@
       {
         "type": "function",
         "identifier": "zoom",
+        "line": 1270,
         "function_args": {
           "args": [
             "self"
@@ -622,6 +660,7 @@
       {
         "type": "function",
         "identifier": "zoom",
+        "line": 1274,
         "function_args": {
           "args": [
             "self",
@@ -638,6 +677,7 @@
       {
         "type": "function",
         "identifier": "decals",
+        "line": 1280,
         "function_args": {
           "args": [
             "self"
@@ -653,6 +693,7 @@
       {
         "type": "function",
         "identifier": "debug",
+        "line": 1284,
         "function_args": {
           "args": [
             "self"
@@ -668,6 +709,7 @@
       {
         "type": "function",
         "identifier": "debug",
+        "line": 1288,
         "function_args": {
           "args": [
             "self",
@@ -684,6 +726,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 1306,
         "function_args": {
           "args": [
             "self"
@@ -700,6 +743,7 @@
       {
         "type": "function",
         "identifier": "update_mouse_pos",
+        "line": 1319,
         "function_args": {
           "args": [
             "self"
@@ -716,6 +760,7 @@
       {
         "type": "function",
         "identifier": "reset_mouse_pos",
+        "line": 1325,
         "function_args": {
           "args": [
             "self"
@@ -732,6 +777,7 @@
       {
         "type": "function",
         "identifier": "toggle_events",
+        "line": 1332,
         "function_args": {
           "args": [
             "self",
@@ -749,6 +795,7 @@
       {
         "type": "function",
         "identifier": "add_decals",
+        "line": 1341,
         "function_args": {
           "args": [
             "self"
@@ -765,6 +812,7 @@
       {
         "type": "function",
         "identifier": "remove_decals",
+        "line": 1350,
         "function_args": {
           "args": [
             "self"
@@ -781,6 +829,7 @@
       {
         "type": "function",
         "identifier": "clear_decals",
+        "line": 1359,
         "function_args": {
           "args": [
             "self"
@@ -797,6 +846,7 @@
       {
         "type": "function",
         "identifier": "_m1_special0x2deffects__get_transform_placement",
+        "line": 1365,
         "function_args": {
           "args": [
             "self"
@@ -813,6 +863,7 @@
       {
         "type": "function",
         "identifier": "update_offsets",
+        "line": 1380,
         "function_args": {
           "args": [
             "self"
@@ -829,6 +880,7 @@
       {
         "type": "function",
         "identifier": "event",
+        "line": 1441,
         "function_args": {
           "args": [
             "self",
@@ -849,6 +901,7 @@
       {
         "type": "function",
         "identifier": "_m1_special0x2deffects__debug_info_render",
+        "line": 1483,
         "function_args": {
           "args": [
             "self",
@@ -870,6 +923,7 @@
       {
         "type": "function",
         "identifier": "render",
+        "line": 1544,
         "function_args": {
           "args": [
             "self",
@@ -890,6 +944,7 @@
       {
         "type": "function",
         "identifier": "visit",
+        "line": 1565,
         "function_args": {
           "args": [
             "self"
@@ -906,6 +961,7 @@
       {
         "type": "function",
         "identifier": "predict_one",
+        "line": 1574,
         "function_args": {
           "args": [
             "self"
@@ -927,11 +983,13 @@
     "class_bases": [
       "renpy.display.core.Displayable"
     ],
+    "line": 1585,
     "docstring": "A more optimised version of RenPy's Composite.\nIntended to be used when you need multiple ParallaxSprite on the screen.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 1590,
         "function_args": {
           "args": [
             "self"
@@ -948,6 +1006,7 @@
       {
         "type": "function",
         "identifier": "add",
+        "line": 1602,
         "function_args": {
           "args": [
             "self",
@@ -965,6 +1024,7 @@
       {
         "type": "function",
         "identifier": "insert",
+        "line": 1611,
         "function_args": {
           "args": [
             "self",
@@ -983,6 +1043,7 @@
       {
         "type": "function",
         "identifier": "remove",
+        "line": 1624,
         "function_args": {
           "args": [
             "self",
@@ -1000,6 +1061,7 @@
       {
         "type": "function",
         "identifier": "event",
+        "line": 1636,
         "function_args": {
           "args": [
             "self",
@@ -1020,6 +1082,7 @@
       {
         "type": "function",
         "identifier": "render",
+        "line": 1649,
         "function_args": {
           "args": [
             "self",
@@ -1040,6 +1103,7 @@
       {
         "type": "function",
         "identifier": "visit",
+        "line": 1663,
         "function_args": {
           "args": [
             "self"

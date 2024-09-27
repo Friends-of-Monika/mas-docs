@@ -2,6 +2,7 @@
   "checkRandSongDelegate": {
     "type": "function",
     "identifier": "checkRandSongDelegate",
+    "line": 239,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "getUnlockedSongs": {
     "type": "function",
     "identifier": "getUnlockedSongs",
+    "line": 274,
     "function_args": {
       "args": [
         "length"
@@ -34,6 +36,7 @@
   "getRandomSongs": {
     "type": "function",
     "identifier": "getRandomSongs",
+    "line": 298,
     "function_args": {
       "args": [
         "unseen_only"
@@ -52,6 +55,7 @@
   "checkSongAnalysisDelegate": {
     "type": "function",
     "identifier": "checkSongAnalysisDelegate",
+    "line": 326,
     "function_args": {
       "args": [
         "curr_aff"
@@ -70,6 +74,7 @@
   "getUnlockedSongAnalyses": {
     "type": "function",
     "identifier": "getUnlockedSongAnalyses",
+    "line": 339,
     "function_args": {
       "args": [
         "curr_aff"
@@ -88,6 +93,7 @@
   "hasUnlockedSongAnalyses": {
     "type": "function",
     "identifier": "hasUnlockedSongAnalyses",
+    "line": 359,
     "function_args": {
       "args": [
         "curr_aff"
@@ -106,6 +112,7 @@
   "hasUnlockedSongs": {
     "type": "function",
     "identifier": "hasUnlockedSongs",
+    "line": 373,
     "function_args": {
       "args": [
         "length"
@@ -124,6 +131,7 @@
   "hasRandomSongs": {
     "type": "function",
     "identifier": "hasRandomSongs",
+    "line": 386,
     "function_args": {
       "args": [
         "unseen_only"
@@ -142,6 +150,7 @@
   "getPromptSuffix": {
     "type": "function",
     "identifier": "getPromptSuffix",
+    "line": 397,
     "function_args": {
       "args": [
         "ev"

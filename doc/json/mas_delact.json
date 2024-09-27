@@ -2,6 +2,7 @@
   "_MDA_safeadd": {
     "type": "function",
     "identifier": "_MDA_safeadd",
+    "line": 7,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "_MDA_saferm": {
     "type": "function",
     "identifier": "_MDA_saferm",
+    "line": 24,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -30,6 +32,7 @@
   "_mas_birthdate_bad_year_fix_action": {
     "type": "function",
     "identifier": "_mas_birthdate_bad_year_fix_action",
+    "line": 45,
     "function_args": {
       "args": [
         "ev"
@@ -47,6 +50,7 @@
   "_mas_birthdate_bad_year_fix": {
     "type": "function",
     "identifier": "_mas_birthdate_bad_year_fix",
+    "line": 49,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -60,6 +64,7 @@
   "loadDelayedActionMap": {
     "type": "function",
     "identifier": "loadDelayedActionMap",
+    "line": 110,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -74,6 +79,7 @@
   "saveDelayedActionMap": {
     "type": "function",
     "identifier": "saveDelayedActionMap",
+    "line": 120,
     "function_args": {
       "args": [],
       "pos_only_args": [],

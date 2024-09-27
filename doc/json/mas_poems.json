@@ -2,6 +2,7 @@
   "hasUnlockedPoems": {
     "type": "function",
     "identifier": "hasUnlockedPoems",
+    "line": 56,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "getPoemsByCategory": {
     "type": "function",
     "identifier": "getPoemsByCategory",
+    "line": 177,
     "function_args": {
       "args": [
         "category",
@@ -35,6 +37,7 @@
   "getSeenPoems": {
     "type": "function",
     "identifier": "getSeenPoems",
+    "line": 207,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -49,6 +52,7 @@
   "getUnseenPoems": {
     "type": "function",
     "identifier": "getUnseenPoems",
+    "line": 217,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -63,6 +67,7 @@
   "getPoem": {
     "type": "function",
     "identifier": "getPoem",
+    "line": 227,
     "function_args": {
       "args": [
         "poem_id"
@@ -79,6 +84,7 @@
   "getSeenPoemsMenu": {
     "type": "function",
     "identifier": "getSeenPoemsMenu",
+    "line": 240,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -93,6 +99,7 @@
   "getRandomPoem": {
     "type": "function",
     "identifier": "getRandomPoem",
+    "line": 253,
     "function_args": {
       "args": [
         "category",

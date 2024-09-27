@@ -2,6 +2,7 @@
   "reduceRandchatForAff": {
     "type": "function",
     "identifier": "reduceRandchatForAff",
+    "line": 206,
     "function_args": {
       "args": [
         "aff_level"
@@ -18,6 +19,7 @@
   "adjustRandFreq": {
     "type": "function",
     "identifier": "adjustRandFreq",
+    "line": 215,
     "function_args": {
       "args": [
         "slider_value"
@@ -34,6 +36,7 @@
   "getRandChatDisp": {
     "type": "function",
     "identifier": "getRandChatDisp",
+    "line": 237,
     "function_args": {
       "args": [
         "slider_value"
@@ -50,6 +53,7 @@
   "setWaitingTime": {
     "type": "function",
     "identifier": "setWaitingTime",
+    "line": 252,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -64,6 +68,7 @@
   "wait": {
     "type": "function",
     "identifier": "wait",
+    "line": 261,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -78,6 +83,7 @@
   "waitedLongEnough": {
     "type": "function",
     "identifier": "waitedLongEnough",
+    "line": 285,
     "function_args": {
       "args": [],
       "pos_only_args": [],

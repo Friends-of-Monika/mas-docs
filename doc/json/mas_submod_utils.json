@@ -2,6 +2,7 @@
   "writeLog": {
     "type": "function",
     "identifier": "writeLog",
+    "line": 331,
     "function_args": {
       "args": [
         "msg"
@@ -21,10 +22,12 @@
     "class_bases": [
       "Exception"
     ],
+    "line": 342,
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 343,
         "function_args": {
           "args": [
             "self",
@@ -41,6 +44,7 @@
       {
         "type": "function",
         "identifier": "__str__",
+        "line": 345,
         "function_args": {
           "args": [
             "self"
@@ -61,11 +65,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 348,
     "docstring": "Submod class\n\nPROPERTIES:\n    author - submod author\n    name - submod name\n    version - version of the submod installed\n    description - submod description\n    dependencies - dependencies required for the submod\n    settings_pane - string referring to the screen used for the submod's settings\n    version_updates - update labels",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 367,
         "function_args": {
           "args": [
             "self",
@@ -96,6 +102,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 447,
         "function_args": {
           "args": [
             "self"
@@ -112,6 +119,7 @@
       {
         "type": "function",
         "identifier": "getVersionNumberList",
+        "line": 453,
         "function_args": {
           "args": [
             "self"
@@ -128,6 +136,7 @@
       {
         "type": "function",
         "identifier": "hasUpdated",
+        "line": 462,
         "function_args": {
           "args": [
             "self"
@@ -144,6 +153,7 @@
       {
         "type": "function",
         "identifier": "updateFrom",
+        "line": 487,
         "function_args": {
           "args": [
             "self",
@@ -161,6 +171,7 @@
       {
         "type": "function",
         "identifier": "checkVersions",
+        "line": 502,
         "function_args": {
           "args": [
             "self",
@@ -178,6 +189,7 @@
       {
         "type": "function",
         "identifier": "_checkUpdates",
+        "line": 522,
         "function_args": {
           "args": [],
           "pos_only_args": [],
@@ -192,6 +204,7 @@
       {
         "type": "function",
         "identifier": "_checkDependencies",
+        "line": 542,
         "function_args": {
           "args": [],
           "pos_only_args": [],
@@ -206,6 +219,7 @@
       {
         "type": "function",
         "identifier": "_getSubmod",
+        "line": 600,
         "function_args": {
           "args": [
             "name"
@@ -224,6 +238,7 @@
   "isSubmodInstalled": {
     "type": "function",
     "identifier": "isSubmodInstalled",
+    "line": 614,
     "function_args": {
       "args": [
         "name",
@@ -243,6 +258,7 @@
   "functionplugin": {
     "type": "function",
     "identifier": "functionplugin",
+    "line": 947,
     "function_args": {
       "args": [
         "_label",
@@ -266,6 +282,7 @@
   "getAndRunFunctions": {
     "type": "function",
     "identifier": "getAndRunFunctions",
+    "line": 966,
     "function_args": {
       "args": [
         "key"
@@ -284,6 +301,7 @@
   "registerFunction": {
     "type": "function",
     "identifier": "registerFunction",
+    "line": 997,
     "function_args": {
       "args": [
         "key",
@@ -308,6 +326,7 @@
   "_m1_zz_submods__getArgs": {
     "type": "function",
     "identifier": "_m1_zz_submods__getArgs",
+    "line": 1061,
     "function_args": {
       "args": [
         "key",
@@ -325,6 +344,7 @@
   "getArgs": {
     "type": "function",
     "identifier": "getArgs",
+    "line": 1089,
     "function_args": {
       "args": [
         "key",
@@ -342,6 +362,7 @@
   "setArgs": {
     "type": "function",
     "identifier": "setArgs",
+    "line": 1107,
     "function_args": {
       "args": [
         "key",
@@ -362,6 +383,7 @@
   "unregisterFunction": {
     "type": "function",
     "identifier": "unregisterFunction",
+    "line": 1145,
     "function_args": {
       "args": [
         "key",
@@ -379,6 +401,7 @@
   "_m1_zz_submods__prioritySort": {
     "type": "function",
     "identifier": "_m1_zz_submods__prioritySort",
+    "line": 1174,
     "function_args": {
       "args": [
         "_label"
@@ -395,6 +418,7 @@
   "_m1_zz_submods__getOverrideLabel": {
     "type": "function",
     "identifier": "_m1_zz_submods__getOverrideLabel",
+    "line": 1196,
     "function_args": {
       "args": [
         "_label"

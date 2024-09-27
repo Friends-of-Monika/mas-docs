@@ -2,6 +2,7 @@
   "clr_cn": {
     "type": "function",
     "identifier": "clr_cn",
+    "line": 660,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "ex_cn": {
     "type": "function",
     "identifier": "ex_cn",
+    "line": 667,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -30,6 +32,7 @@
   "rst_cn": {
     "type": "function",
     "identifier": "rst_cn",
+    "line": 674,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -44,6 +47,7 @@
   "w_cmd": {
     "type": "function",
     "identifier": "w_cmd",
+    "line": 681,
     "function_args": {
       "args": [
         "cmd"
@@ -60,6 +64,7 @@
   "x_cmd": {
     "type": "function",
     "identifier": "x_cmd",
+    "line": 688,
     "function_args": {
       "args": [
         "context"
@@ -76,6 +81,7 @@
   "wx_cmd": {
     "type": "function",
     "identifier": "wx_cmd",
+    "line": 695,
     "function_args": {
       "args": [
         "cmd",
@@ -93,6 +99,7 @@
   "write_command": {
     "type": "function",
     "identifier": "write_command",
+    "line": 703,
     "function_args": {
       "args": [
         "cmd"
@@ -109,6 +116,7 @@
   "clear_console": {
     "type": "function",
     "identifier": "clear_console",
+    "line": 776,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -123,6 +131,7 @@
   "restart_console": {
     "type": "function",
     "identifier": "restart_console",
+    "line": 790,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -137,6 +146,7 @@
   "exit_console": {
     "type": "function",
     "identifier": "exit_console",
+    "line": 815,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -151,6 +161,7 @@
   "_m1_script0x2dpython__exec_cmd": {
     "type": "function",
     "identifier": "_m1_script0x2dpython__exec_cmd",
+    "line": 823,
     "function_args": {
       "args": [
         "line",
@@ -171,6 +182,7 @@
   "_m1_script0x2dpython__exec_exec": {
     "type": "function",
     "identifier": "_m1_script0x2dpython__exec_exec",
+    "line": 844,
     "function_args": {
       "args": [
         "line",
@@ -188,6 +200,7 @@
   "_m1_script0x2dpython__exec_evalexec": {
     "type": "function",
     "identifier": "_m1_script0x2dpython__exec_evalexec",
+    "line": 864,
     "function_args": {
       "args": [
         "line",
@@ -205,6 +218,7 @@
   "exec_command": {
     "type": "function",
     "identifier": "exec_command",
+    "line": 884,
     "function_args": {
       "args": [
         "context"
@@ -221,6 +235,7 @@
   "get_last_line": {
     "type": "function",
     "identifier": "get_last_line",
+    "line": 1036,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -235,6 +250,7 @@
   "set_local_context": {
     "type": "function",
     "identifier": "set_local_context",
+    "line": 1049,
     "function_args": {
       "args": [
         "context"
@@ -251,6 +267,7 @@
   "_m1_script0x2dpython__pushi": {
     "type": "function",
     "identifier": "_m1_script0x2dpython__pushi",
+    "line": 1059,
     "function_args": {
       "args": [
         "indent_level"
@@ -267,6 +284,7 @@
   "_m1_script0x2dpython__popi": {
     "type": "function",
     "identifier": "_m1_script0x2dpython__popi",
+    "line": 1071,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -281,6 +299,7 @@
   "_m1_script0x2dpython__peeki": {
     "type": "function",
     "identifier": "_m1_script0x2dpython__peeki",
+    "line": 1088,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -295,6 +314,7 @@
   "_exp_toString": {
     "type": "function",
     "identifier": "_exp_toString",
+    "line": 1098,
     "function_args": {
       "args": [
         "exp"
@@ -311,6 +331,7 @@
   "_indent_line": {
     "type": "function",
     "identifier": "_indent_line",
+    "line": 1108,
     "function_args": {
       "args": [
         "line"
@@ -327,6 +348,7 @@
   "_count_sp": {
     "type": "function",
     "identifier": "_count_sp",
+    "line": 1122,
     "function_args": {
       "args": [
         "line"
@@ -343,6 +365,7 @@
   "_update_console_history": {
     "type": "function",
     "identifier": "_update_console_history",
+    "line": 1135,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -357,6 +380,7 @@
   "_update_console_history_list": {
     "type": "function",
     "identifier": "_update_console_history_list",
+    "line": 1145,
     "function_args": {
       "args": [
         "new_items"
@@ -373,6 +397,7 @@
   "_line_break": {
     "type": "function",
     "identifier": "_line_break",
+    "line": 1167,
     "function_args": {
       "args": [
         "line"
@@ -389,6 +414,7 @@
   "has_day_past_tip": {
     "type": "function",
     "identifier": "has_day_past_tip",
+    "line": 1254,
     "function_args": {
       "args": [
         "tip_num"
@@ -405,6 +431,7 @@
   "has_day_past_tips": {
     "type": "function",
     "identifier": "has_day_past_tips",
+    "line": 1282,
     "function_args": {
       "args": [],
       "pos_only_args": [],

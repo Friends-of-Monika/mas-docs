@@ -2,6 +2,7 @@
   "add_deco": {
     "type": "function",
     "identifier": "add_deco",
+    "line": 141,
     "function_args": {
       "args": [
         "s_name",
@@ -19,6 +20,7 @@
   "_add_it_deco": {
     "type": "function",
     "identifier": "_add_it_deco",
+    "line": 163,
     "function_args": {
       "args": [
         "obj"
@@ -35,6 +37,7 @@
   "get_deco": {
     "type": "function",
     "identifier": "get_deco",
+    "line": 185,
     "function_args": {
       "args": [
         "name"

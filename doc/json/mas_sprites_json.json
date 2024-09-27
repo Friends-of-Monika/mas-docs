@@ -5,11 +5,13 @@
     "class_bases": [
       "store.mas_logging.MASNewlineLogAdapter"
     ],
+    "line": 431,
     "docstring": "Speciality logger for sprite jsons.\nThis defaults some props for all log record objects created from this\nlogger.\n\naccepts newlines in logging.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 440,
         "function_args": {
           "args": [
             "self",
@@ -32,11 +34,13 @@
     "class_bases": [
       "store.mas_logging.MASNewlineLogFormatter"
     ],
+    "line": 453,
     "docstring": "Specialty formatter for sprite jsons",
     "class_functions": [
       {
         "type": "function",
         "identifier": "format",
+        "line": 458,
         "function_args": {
           "args": [
             "self",
@@ -56,6 +60,7 @@
   "_add_hair_to_verify": {
     "type": "function",
     "identifier": "_add_hair_to_verify",
+    "line": 506,
     "function_args": {
       "args": [
         "hairname",
@@ -73,6 +78,7 @@
   "writelog": {
     "type": "function",
     "identifier": "writelog",
+    "line": 539,
     "function_args": {
       "args": [
         "msg"
@@ -88,6 +94,7 @@
   "writelogs": {
     "type": "function",
     "identifier": "writelogs",
+    "line": 544,
     "function_args": {
       "args": [
         "msgs"
@@ -103,6 +110,7 @@
   "_verify_sptype": {
     "type": "function",
     "identifier": "_verify_sptype",
+    "line": 718,
     "function_args": {
       "args": [
         "val",
@@ -121,6 +129,7 @@
   "parsewritelog": {
     "type": "function",
     "identifier": "parsewritelog",
+    "line": 2812,
     "function_args": {
       "args": [
         "msg_data"
@@ -137,6 +146,7 @@
   "parsewritelogs": {
     "type": "function",
     "identifier": "parsewritelogs",
+    "line": 2833,
     "function_args": {
       "args": [
         "msgs_data"
@@ -153,6 +163,7 @@
   "_replace_hair_map": {
     "type": "function",
     "identifier": "_replace_hair_map",
+    "line": 2853,
     "function_args": {
       "args": [
         "sp_name",
@@ -170,6 +181,7 @@
   "_remove_sel_list": {
     "type": "function",
     "identifier": "_remove_sel_list",
+    "line": 2874,
     "function_args": {
       "args": [
         "name",
@@ -187,6 +199,7 @@
   "_reset_sp_obj": {
     "type": "function",
     "identifier": "_reset_sp_obj",
+    "line": 2886,
     "function_args": {
       "args": [
         "sp_obj"
@@ -203,6 +216,7 @@
   "_build_loadstrs": {
     "type": "function",
     "identifier": "_build_loadstrs",
+    "line": 2930,
     "function_args": {
       "args": [
         "sp_obj",
@@ -222,6 +236,7 @@
   "_check_giftname": {
     "type": "function",
     "identifier": "_check_giftname",
+    "line": 2980,
     "function_args": {
       "args": [
         "giftname",
@@ -242,6 +257,7 @@
   "_init_giftname": {
     "type": "function",
     "identifier": "_init_giftname",
+    "line": 3019,
     "function_args": {
       "args": [
         "giftname",
@@ -260,6 +276,7 @@
   "_process_giftname": {
     "type": "function",
     "identifier": "_process_giftname",
+    "line": 3034,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -274,6 +291,7 @@
   "_process_progpoint": {
     "type": "function",
     "identifier": "_process_progpoint",
+    "line": 3049,
     "function_args": {
       "args": [
         "sp_type",
@@ -295,6 +313,7 @@
   "_test_loadables": {
     "type": "function",
     "identifier": "_test_loadables",
+    "line": 3102,
     "function_args": {
       "args": [
         "sp_obj",
@@ -313,6 +332,7 @@
   "_validate_type": {
     "type": "function",
     "identifier": "_validate_type",
+    "line": 3128,
     "function_args": {
       "args": [
         "json_obj",
@@ -331,6 +351,7 @@
   "_validate_mux_type": {
     "type": "function",
     "identifier": "_validate_mux_type",
+    "line": 3166,
     "function_args": {
       "args": [
         "json_obj",
@@ -349,6 +370,7 @@
   "_validate_iterstr": {
     "type": "function",
     "identifier": "_validate_iterstr",
+    "line": 3220,
     "function_args": {
       "args": [
         "jobj",
@@ -371,6 +393,7 @@
   "_validate_params": {
     "type": "function",
     "identifier": "_validate_params",
+    "line": 3302,
     "function_args": {
       "args": [
         "jobj",
@@ -392,6 +415,7 @@
   "_validate_acs": {
     "type": "function",
     "identifier": "_validate_acs",
+    "line": 3366,
     "function_args": {
       "args": [
         "jobj",
@@ -412,6 +436,7 @@
   "_validate_fallbacks": {
     "type": "function",
     "identifier": "_validate_fallbacks",
+    "line": 3575,
     "function_args": {
       "args": [
         "jobj",
@@ -432,6 +457,7 @@
   "_validate_hair": {
     "type": "function",
     "identifier": "_validate_hair",
+    "line": 3639,
     "function_args": {
       "args": [
         "jobj",
@@ -452,6 +478,7 @@
   "_validate_clothes": {
     "type": "function",
     "identifier": "_validate_clothes",
+    "line": 3739,
     "function_args": {
       "args": [
         "jobj",
@@ -475,6 +502,7 @@
   "_validate_ex_props": {
     "type": "function",
     "identifier": "_validate_ex_props",
+    "line": 3920,
     "function_args": {
       "args": [
         "jobj",
@@ -495,6 +523,7 @@
   "_validate_highlight": {
     "type": "function",
     "identifier": "_validate_highlight",
+    "line": 3976,
     "function_args": {
       "args": [
         "obj_based",
@@ -515,6 +544,7 @@
   "_validate_highlight_core": {
     "type": "function",
     "identifier": "_validate_highlight_core",
+    "line": 4013,
     "function_args": {
       "args": [
         "jobj",
@@ -535,6 +565,7 @@
   "_validate_selectable": {
     "type": "function",
     "identifier": "_validate_selectable",
+    "line": 4120,
     "function_args": {
       "args": [
         "jobj",
@@ -555,6 +586,7 @@
   "addSpriteObject": {
     "type": "function",
     "identifier": "addSpriteObject",
+    "line": 4206,
     "function_args": {
       "args": [
         "filepath",
@@ -572,6 +604,7 @@
   "addSpriteObjects": {
     "type": "function",
     "identifier": "addSpriteObjects",
+    "line": 4557,
     "function_args": {
       "args": [
         "post_proc_data"
@@ -588,6 +621,7 @@
   "initSpriteObjectProc": {
     "type": "function",
     "identifier": "initSpriteObjectProc",
+    "line": 4583,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -602,6 +636,7 @@
   "verifyHairs": {
     "type": "function",
     "identifier": "verifyHairs",
+    "line": 4589,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -616,6 +651,7 @@
   "processOutfitExtras": {
     "type": "function",
     "identifier": "processOutfitExtras",
+    "line": 4621,
     "function_args": {
       "args": [
         "post_proc_data"
@@ -632,6 +668,7 @@
   "_addGift": {
     "type": "function",
     "identifier": "_addGift",
+    "line": 4666,
     "function_args": {
       "args": [
         "giftname",
@@ -649,6 +686,7 @@
   "processGifts": {
     "type": "function",
     "identifier": "processGifts",
+    "line": 4702,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -663,6 +701,7 @@
   "runSpriteObjAlg": {
     "type": "function",
     "identifier": "runSpriteObjAlg",
+    "line": 4771,
     "function_args": {
       "args": [],
       "pos_only_args": [],

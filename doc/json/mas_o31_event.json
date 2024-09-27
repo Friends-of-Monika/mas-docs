@@ -2,6 +2,7 @@
   "decodeImage": {
     "type": "function",
     "identifier": "decodeImage",
+    "line": 46,
     "function_args": {
       "args": [
         "key"
@@ -18,6 +19,7 @@
   "removeImages": {
     "type": "function",
     "identifier": "removeImages",
+    "line": 58,
     "function_args": {
       "args": [],
       "pos_only_args": [],

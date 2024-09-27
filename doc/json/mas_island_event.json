@@ -2,6 +2,7 @@
   "isFilterSupported": {
     "type": "function",
     "identifier": "isFilterSupported",
+    "line": 1076,
     "function_args": {
       "args": [
         "flt"
@@ -18,6 +19,7 @@
   "_select_img": {
     "type": "function",
     "identifier": "_select_img",
+    "line": 1088,
     "function_args": {
       "args": [
         "st",
@@ -36,6 +38,7 @@
   "IslandFilterWeatherDisplayable": {
     "type": "function",
     "identifier": "IslandFilterWeatherDisplayable",
+    "line": 1108,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -50,6 +53,7 @@
   "_handle_raw_pkg_data": {
     "type": "function",
     "identifier": "_handle_raw_pkg_data",
+    "line": 1125,
     "function_args": {
       "args": [
         "pkg_data",
@@ -67,6 +71,7 @@
   "decode_data": {
     "type": "function",
     "identifier": "decode_data",
+    "line": 1167,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -81,6 +86,7 @@
   "_build_filter_pairs": {
     "type": "function",
     "identifier": "_build_filter_pairs",
+    "line": 1256,
     "function_args": {
       "args": [
         "img_map"
@@ -97,6 +103,7 @@
   "_build_ifwd": {
     "type": "function",
     "identifier": "_build_ifwd",
+    "line": 1294,
     "function_args": {
       "args": [
         "img_map"
@@ -113,6 +120,7 @@
   "_build_fwd": {
     "type": "function",
     "identifier": "_build_fwd",
+    "line": 1302,
     "function_args": {
       "args": [
         "img_map"
@@ -129,6 +137,7 @@
   "_build_weather_overlay_transform": {
     "type": "function",
     "identifier": "_build_weather_overlay_transform",
+    "line": 1310,
     "function_args": {
       "args": [
         "child",
@@ -146,6 +155,7 @@
   "_build_displayables": {
     "type": "function",
     "identifier": "_build_displayables",
+    "line": 1321,
     "function_args": {
       "args": [
         "island_imgs_maps",
@@ -168,6 +178,7 @@
   "_get_room_sprite": {
     "type": "function",
     "identifier": "_get_room_sprite",
+    "line": 1441,
     "function_args": {
       "args": [
         "key",
@@ -185,6 +196,7 @@
   "_apply_flt_on_room_sprite": {
     "type": "function",
     "identifier": "_apply_flt_on_room_sprite",
+    "line": 1460,
     "function_args": {
       "args": [
         "room_img_tag",
@@ -202,6 +214,7 @@
   "_is_unlocked": {
     "type": "function",
     "identifier": "_is_unlocked",
+    "line": 1480,
     "function_args": {
       "args": [
         "id_"
@@ -218,6 +231,7 @@
   "_unlock": {
     "type": "function",
     "identifier": "_unlock",
+    "line": 1492,
     "function_args": {
       "args": [
         "id_"
@@ -234,6 +248,7 @@
   "_lock": {
     "type": "function",
     "identifier": "_lock",
+    "line": 1508,
     "function_args": {
       "args": [
         "id_"
@@ -250,6 +265,7 @@
   "_unlock_one": {
     "type": "function",
     "identifier": "_unlock_one",
+    "line": 1524,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -264,6 +280,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_0": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_0",
+    "line": 1543,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -277,6 +294,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_1": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_1",
+    "line": 1547,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -290,6 +308,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_2": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_2",
+    "line": 1555,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -303,6 +322,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_3": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_3",
+    "line": 1558,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -316,6 +336,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_4": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_4",
+    "line": 1562,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -329,6 +350,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_5": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_5",
+    "line": 1566,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -342,6 +364,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_6": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_6",
+    "line": 1575,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -355,6 +378,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_7": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_7",
+    "line": 1582,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -368,6 +392,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_8": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_8",
+    "line": 1601,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -381,6 +406,7 @@
   "_final_unlocks": {
     "type": "function",
     "identifier": "_final_unlocks",
+    "line": 1614,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -394,6 +420,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_9": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_9",
+    "line": 1631,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -407,6 +434,7 @@
   "_m1_script0x2dislands0x2devent__unlocks_for_lvl_10": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_10",
+    "line": 1639,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -420,6 +448,7 @@
   "_m1_script0x2dislands0x2devent__handle_unlocks": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__handle_unlocks",
+    "line": 1650,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -434,6 +463,7 @@
   "_calc_progress": {
     "type": "function",
     "identifier": "_calc_progress",
+    "line": 1662,
     "function_args": {
       "args": [
         "curr_lvl",
@@ -451,6 +481,7 @@
   "advance_progression": {
     "type": "function",
     "identifier": "advance_progression",
+    "line": 1703,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -465,6 +496,7 @@
   "_get_progression": {
     "type": "function",
     "identifier": "_get_progression",
+    "line": 1740,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -479,6 +511,7 @@
   "start_progression": {
     "type": "function",
     "identifier": "start_progression",
+    "line": 1746,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -493,6 +526,7 @@
   "_reset_progression": {
     "type": "function",
     "identifier": "_reset_progression",
+    "line": 1754,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -507,6 +541,7 @@
   "play_music": {
     "type": "function",
     "identifier": "play_music",
+    "line": 1762,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -521,6 +556,7 @@
   "stop_music": {
     "type": "function",
     "identifier": "stop_music",
+    "line": 1781,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -535,6 +571,7 @@
   "get_islands_displayable": {
     "type": "function",
     "identifier": "get_islands_displayable",
+    "line": 1792,
     "function_args": {
       "args": [
         "enable_interaction",
@@ -555,6 +592,7 @@
   "is_winter_weather": {
     "type": "function",
     "identifier": "is_winter_weather",
+    "line": 1928,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -569,6 +607,7 @@
   "is_cloudy_weather": {
     "type": "function",
     "identifier": "is_cloudy_weather",
+    "line": 1939,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -586,11 +625,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 2686,
     "docstring": "A generalised abstraction around raw data for the islands sprites",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 2716,
         "function_args": {
           "args": [
             "self",
@@ -619,6 +660,7 @@
       {
         "type": "function",
         "identifier": "_getType",
+        "line": 2778,
         "function_args": {
           "args": [
             "self"
@@ -635,6 +677,7 @@
       {
         "type": "function",
         "identifier": "_buildFPMap",
+        "line": 2787,
         "function_args": {
           "args": [
             "self"
@@ -651,6 +694,7 @@
       {
         "type": "function",
         "identifier": "_split_id",
+        "line": 2811,
         "function_args": {
           "args": [
             "self"
@@ -667,6 +711,7 @@
       {
         "type": "function",
         "identifier": "_m1_script0x2dislands0x2devent__split_id",
+        "line": 2818,
         "function_args": {
           "args": [
             "cls",
@@ -684,6 +729,7 @@
       {
         "type": "function",
         "identifier": "getDataFor",
+        "line": 2825,
         "function_args": {
           "args": [
             "cls",
@@ -701,6 +747,7 @@
       {
         "type": "function",
         "identifier": "getDefaultUnlocks",
+        "line": 2836,
         "function_args": {
           "args": [
             "cls"
@@ -717,6 +764,7 @@
       {
         "type": "function",
         "identifier": "getFilepathsForType",
+        "line": 2850,
         "function_args": {
           "args": [
             "cls",
@@ -736,6 +784,7 @@
   "_m1_script0x2dislands0x2devent__isld_1_transform_func": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__isld_1_transform_func",
+    "line": 2874,
     "function_args": {
       "args": [
         "transform",
@@ -754,6 +803,7 @@
   "_m1_script0x2dislands0x2devent__isld_2_transform_func": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__isld_2_transform_func",
+    "line": 2890,
     "function_args": {
       "args": [
         "transform",
@@ -772,6 +822,7 @@
   "_m1_script0x2dislands0x2devent__isld_3_transform_func": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__isld_3_transform_func",
+    "line": 2908,
     "function_args": {
       "args": [
         "transform",
@@ -790,6 +841,7 @@
   "_m1_script0x2dislands0x2devent__isld_5_transform_func": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__isld_5_transform_func",
+    "line": 2922,
     "function_args": {
       "args": [
         "transform",
@@ -808,6 +860,7 @@
   "_m1_script0x2dislands0x2devent__chibi_transform_func": {
     "type": "function",
     "identifier": "_m1_script0x2dislands0x2devent__chibi_transform_func",
+    "line": 2940,
     "function_args": {
       "args": [
         "transform",
@@ -826,6 +879,7 @@
   "_play_thunder": {
     "type": "function",
     "identifier": "_play_thunder",
+    "line": 2955,
     "function_args": {
       "args": [
         "transform",
@@ -844,6 +898,7 @@
   "_living_room_entry": {
     "type": "function",
     "identifier": "_living_room_entry",
+    "line": 3545,
     "function_args": {
       "args": [
         "_old"
@@ -860,6 +915,7 @@
   "_living_room_exit": {
     "type": "function",
     "identifier": "_living_room_exit",
+    "line": 3553,
     "function_args": {
       "args": [
         "_new"
@@ -876,6 +932,7 @@
   "register_room": {
     "type": "function",
     "identifier": "register_room",
+    "line": 3560,
     "function_args": {
       "args": [
         "id_"

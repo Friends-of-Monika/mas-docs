@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 3989,
     "docstring": "A class to represent a shedding card game - NOU\nTotal cards in the deck: 108\nThe one who first gets rid of cards wins the round\nThe one who first reaches the points cap (default 200) wins the game\nOne game takes about 5-10 minutes, you keep your points through sessions\n    so you can start the game in one sesh and finish it later if you wish",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 4460,
         "function_args": {
           "args": [
             "self"
@@ -26,6 +28,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__can_drag",
+        "line": 4528,
         "function_args": {
           "args": [
             "self",
@@ -45,6 +48,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__springback_cards",
+        "line": 4538,
         "function_args": {
           "args": [
             "self",
@@ -62,6 +66,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__say_quip",
+        "line": 4548,
         "function_args": {
           "args": [
             "self",
@@ -84,6 +89,7 @@
       {
         "type": "function",
         "identifier": "_reset_sfx",
+        "line": 4568,
         "function_args": {
           "args": [
             "cls"
@@ -100,6 +106,7 @@
       {
         "type": "function",
         "identifier": "_load_sfx",
+        "line": 4578,
         "function_args": {
           "args": [
             "cls"
@@ -116,6 +123,7 @@
       {
         "type": "function",
         "identifier": "_play_sfx",
+        "line": 4609,
         "function_args": {
           "args": [
             "sfx_files",
@@ -135,6 +143,7 @@
       {
         "type": "function",
         "identifier": "_play_shuffle_sfx",
+        "line": 4625,
         "function_args": {
           "args": [
             "cls"
@@ -151,6 +160,7 @@
       {
         "type": "function",
         "identifier": "_play_move_sfx",
+        "line": 4632,
         "function_args": {
           "args": [
             "cls"
@@ -167,6 +177,7 @@
       {
         "type": "function",
         "identifier": "_play_draw_sfx",
+        "line": 4639,
         "function_args": {
           "args": [
             "cls"
@@ -183,6 +194,7 @@
       {
         "type": "function",
         "identifier": "_play_play_sfx",
+        "line": 4646,
         "function_args": {
           "args": [
             "cls"
@@ -199,6 +211,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__calculate_xoffset",
+        "line": 4652,
         "function_args": {
           "args": [
             "self",
@@ -219,6 +232,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__set_xoffset",
+        "line": 4693,
         "function_args": {
           "args": [
             "self",
@@ -239,6 +253,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__calculate_xpos",
+        "line": 4705,
         "function_args": {
           "args": [
             "self",
@@ -256,6 +271,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__set_xpos",
+        "line": 4738,
         "function_args": {
           "args": [
             "self",
@@ -273,6 +289,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__update_cards_positions",
+        "line": 4754,
         "function_args": {
           "args": [
             "self",
@@ -293,6 +310,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__get_card_filename",
+        "line": 4766,
         "function_args": {
           "args": [
             "self",
@@ -310,6 +328,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__load_card_asset",
+        "line": 4803,
         "function_args": {
           "args": [
             "self",
@@ -327,6 +346,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_cardgames__fill_deck",
+        "line": 4815,
         "function_args": {
           "args": [
             "self"
@@ -343,6 +363,7 @@
       {
         "type": "function",
         "identifier": "_update_drawpile",
+        "line": 4850,
         "function_args": {
           "args": [
             "self",
@@ -364,6 +385,7 @@
       {
         "type": "function",
         "identifier": "_update_game_log",
+        "line": 4891,
         "function_args": {
           "args": [
             "self",
@@ -382,6 +404,7 @@
       {
         "type": "function",
         "identifier": "end_turn",
+        "line": 4925,
         "function_args": {
           "args": [
             "self",
@@ -400,6 +423,7 @@
       {
         "type": "function",
         "identifier": "_win_check",
+        "line": 5006,
         "function_args": {
           "args": [
             "self",
@@ -417,6 +441,7 @@
       {
         "type": "function",
         "identifier": "_is_matching_card",
+        "line": 5032,
         "function_args": {
           "args": [
             "self",
@@ -435,6 +460,7 @@
       {
         "type": "function",
         "identifier": "play_card",
+        "line": 5119,
         "function_args": {
           "args": [
             "self",
@@ -454,6 +480,7 @@
       {
         "type": "function",
         "identifier": "_actually_deal_cards",
+        "line": 5178,
         "function_args": {
           "args": [
             "self",
@@ -474,6 +501,7 @@
       {
         "type": "function",
         "identifier": "deal_cards",
+        "line": 5216,
         "function_args": {
           "args": [
             "self",
@@ -502,6 +530,7 @@
       {
         "type": "function",
         "identifier": "_get_current_next_players",
+        "line": 5278,
         "function_args": {
           "args": [
             "self"
@@ -518,6 +547,7 @@
       {
         "type": "function",
         "identifier": "_deal_initial_cards",
+        "line": 5307,
         "function_args": {
           "args": [
             "self",
@@ -535,6 +565,7 @@
       {
         "type": "function",
         "identifier": "prepare_game",
+        "line": 5334,
         "function_args": {
           "args": [
             "self"
@@ -551,6 +582,7 @@
       {
         "type": "function",
         "identifier": "reset_game",
+        "line": 5464,
         "function_args": {
           "args": [
             "self"
@@ -567,6 +599,7 @@
       {
         "type": "function",
         "identifier": "player_turn_loop",
+        "line": 5471,
         "function_args": {
           "args": [
             "self"
@@ -583,6 +616,7 @@
       {
         "type": "function",
         "identifier": "monika_turn_loop",
+        "line": 5616,
         "function_args": {
           "args": [
             "self"
@@ -599,6 +633,7 @@
       {
         "type": "function",
         "identifier": "game_loop",
+        "line": 5636,
         "function_args": {
           "args": [
             "self"
@@ -615,6 +650,7 @@
       {
         "type": "function",
         "identifier": "set_visible",
+        "line": 5643,
         "function_args": {
           "args": [
             "self",
@@ -632,6 +668,7 @@
       {
         "type": "function",
         "identifier": "set_sensitive",
+        "line": 5655,
         "function_args": {
           "args": [
             "self",
@@ -649,6 +686,7 @@
       {
         "type": "function",
         "identifier": "is_sensitive",
+        "line": 5664,
         "function_args": {
           "args": [
             "self"
@@ -665,6 +703,7 @@
       {
         "type": "function",
         "identifier": "shuffle_drawpile",
+        "line": 5673,
         "function_args": {
           "args": [
             "self",
@@ -686,6 +725,7 @@
       {
         "type": "function",
         "identifier": "handle_nou_logic",
+        "line": 5733,
         "function_args": {
           "args": [
             "self",
@@ -703,6 +743,7 @@
       {
         "type": "function",
         "identifier": "_select_help",
+        "line": 5784,
         "function_args": {
           "args": [
             "self"
@@ -719,6 +760,7 @@
       {
         "type": "function",
         "identifier": "say_help",
+        "line": 5972,
         "function_args": {
           "args": [
             "self"
@@ -740,11 +782,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 5982,
     "docstring": "A class to represent a card\n\nPROPERTIES:\n    type - (str) number, action or wild\n    label - (str) number/action on card '0'-'9', \"Draw Two\", etc\n    color - (str/None) red, blue, green, yellow or None\n        (Default: None (colorless))\n    value - (int) how much points the card gives",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 5993,
         "function_args": {
           "args": [
             "self",
@@ -766,6 +810,7 @@
       {
         "type": "function",
         "identifier": "value",
+        "line": 6008,
         "function_args": {
           "args": [
             "self"
@@ -782,6 +827,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 6023,
         "function_args": {
           "args": [
             "self"
@@ -802,11 +848,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 6033,
     "docstring": "A class to represent players\n\nPROPERTIES:\n    leftie - (bool) is player leftie or rightie\n    isAI - (bool) is it the Player or Monika\n    hand - (stack) represents player's hand (a Stack object)\n    drew_card - (bool) has player drew a card in this turn\n    plays_turn - (bool) is it player's turn\n    should_draw_cards - (int) should player draw cards and how much\n    played_card - (bool) has player played a card in this turn\n    should_skip_turn - (bool) should player skip their turn\n    yelled_nou - (bool) has player yelled \"NOU\" before playing their last card\n    should_play_card - (bool) do we expect this player to play a card (after saying 'NOU')\n    nou_reminder_timeout - (int) the turn when this player cannot be caught for not saying 'NOU' any longer",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 6050,
         "function_args": {
           "args": [
             "self",
@@ -826,6 +874,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 6069,
         "function_args": {
           "args": [
             "self"
@@ -846,10 +895,12 @@
     "class_bases": [
       "object"
     ],
+    "line": 6073,
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 6074,
         "function_args": {
           "args": [
             "self",
@@ -878,6 +929,7 @@
       {
         "type": "function",
         "identifier": "tier",
+        "line": 6091,
         "function_args": {
           "args": [
             "self"
@@ -893,6 +945,7 @@
       {
         "type": "function",
         "identifier": "tier",
+        "line": 6095,
         "function_args": {
           "args": [
             "self",
@@ -909,6 +962,7 @@
       {
         "type": "function",
         "identifier": "__getitem__",
+        "line": 6101,
         "function_args": {
           "args": [
             "self",
@@ -925,6 +979,7 @@
       {
         "type": "function",
         "identifier": "__setitem__",
+        "line": 6104,
         "function_args": {
           "args": [
             "self",
@@ -942,6 +997,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 6107,
         "function_args": {
           "args": [
             "self"
@@ -962,11 +1018,13 @@
     "class_bases": [
       "_NOUPlayer"
     ],
+    "line": 6118,
     "docstring": "AI variation of player\n\nPROPERTIES:\n    everything from _NOUPlayer\n    game - (NOU) pointer for internal use\n    cards_data - (dict) data about our cards (amount, values, ids)\n    queued_card - (_NOUCard) the card Monika wants to play on the next turn\n    player_cards_data - (dict) potentially the most common color (or None)\n        and most rare colors (or an empty list) in the Player's hand\n        'reset_in' shows how much turns left until we reset 'has_color'\n    reactions - (list) all reactions that monika had during this game\n        (even if they didn't trigger)",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 6139,
         "function_args": {
           "args": [
             "self",
@@ -987,6 +1045,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 6162,
         "function_args": {
           "args": [
             "self"
@@ -1002,6 +1061,7 @@
       {
         "type": "function",
         "identifier": "thonk_pause",
+        "line": 6165,
         "function_args": {
           "args": [
             "self"
@@ -1018,6 +1078,7 @@
       {
         "type": "function",
         "identifier": "_randomise_color",
+        "line": 6177,
         "function_args": {
           "args": [
             "self"
@@ -1034,6 +1095,7 @@
       {
         "type": "function",
         "identifier": "guess_player_cards",
+        "line": 6197,
         "function_args": {
           "args": [
             "self"
@@ -1050,6 +1112,7 @@
       {
         "type": "function",
         "identifier": "_sort_cards_data",
+        "line": 6297,
         "function_args": {
           "args": [
             "self",
@@ -1074,6 +1137,7 @@
       {
         "type": "function",
         "identifier": "_get_cards_data",
+        "line": 6375,
         "function_args": {
           "args": [
             "self",
@@ -1093,6 +1157,7 @@
       {
         "type": "function",
         "identifier": "shuffle_hand",
+        "line": 6484,
         "function_args": {
           "args": [
             "self"
@@ -1109,6 +1174,7 @@
       {
         "type": "function",
         "identifier": "choose_color",
+        "line": 6551,
         "function_args": {
           "args": [
             "self",
@@ -1128,6 +1194,7 @@
       {
         "type": "function",
         "identifier": "choose_card",
+        "line": 6680,
         "function_args": {
           "args": [
             "self",
@@ -1149,6 +1216,7 @@
       {
         "type": "function",
         "identifier": "play_card",
+        "line": 7092,
         "function_args": {
           "args": [
             "self",
@@ -1166,6 +1234,7 @@
       {
         "type": "function",
         "identifier": "choose_reaction",
+        "line": 7116,
         "function_args": {
           "args": [
             "self",
@@ -1183,6 +1252,7 @@
       {
         "type": "function",
         "identifier": "_handle_nou_logic",
+        "line": 7417,
         "function_args": {
           "args": [
             "self",
@@ -1200,6 +1270,7 @@
       {
         "type": "function",
         "identifier": "announce_reaction",
+        "line": 7504,
         "function_args": {
           "args": [
             "self",
@@ -1219,6 +1290,7 @@
   "get_default_house_rules": {
     "type": "function",
     "identifier": "get_default_house_rules",
+    "line": 7648,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1233,6 +1305,7 @@
   "update_house_rules": {
     "type": "function",
     "identifier": "update_house_rules",
+    "line": 7657,
     "function_args": {
       "args": [
         "force"
@@ -1251,6 +1324,7 @@
   "are_default_house_rules": {
     "type": "function",
     "identifier": "are_default_house_rules",
+    "line": 7673,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1265,6 +1339,7 @@
   "get_house_rule": {
     "type": "function",
     "identifier": "get_house_rule",
+    "line": 7689,
     "function_args": {
       "args": [
         "name"
@@ -1281,6 +1356,7 @@
   "set_house_rule": {
     "type": "function",
     "identifier": "set_house_rule",
+    "line": 7717,
     "function_args": {
       "args": [
         "name",
@@ -1298,6 +1374,7 @@
   "reverse_house_rule": {
     "type": "function",
     "identifier": "reverse_house_rule",
+    "line": 7736,
     "function_args": {
       "args": [
         "name"
@@ -1314,6 +1391,7 @@
   "visit_game_ev": {
     "type": "function",
     "identifier": "visit_game_ev",
+    "line": 7747,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1328,6 +1406,7 @@
   "does_want_suggest_play": {
     "type": "function",
     "identifier": "does_want_suggest_play",
+    "line": 7759,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1342,6 +1421,7 @@
   "give_points": {
     "type": "function",
     "identifier": "give_points",
+    "line": 7783,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1356,6 +1436,7 @@
   "reset_points": {
     "type": "function",
     "identifier": "reset_points",
+    "line": 7817,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1370,6 +1451,7 @@
   "get_player_points_percentage": {
     "type": "function",
     "identifier": "get_player_points_percentage",
+    "line": 7824,
     "function_args": {
       "args": [
         "player_persist_key"
@@ -1386,6 +1468,7 @@
   "get_wins_for": {
     "type": "function",
     "identifier": "get_wins_for",
+    "line": 7843,
     "function_args": {
       "args": [
         "player"
@@ -1402,6 +1485,7 @@
   "get_total_games": {
     "type": "function",
     "identifier": "get_total_games",
+    "line": 7858,
     "function_args": {
       "args": [],
       "pos_only_args": [],

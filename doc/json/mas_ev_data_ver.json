@@ -2,6 +2,7 @@
   "_strict_can_pickle": {
     "type": "function",
     "identifier": "_strict_can_pickle",
+    "line": 244,
     "function_args": {
       "args": [
         "val"
@@ -18,6 +19,7 @@
   "_m1_event0x2dhandler__strict_can_pickle": {
     "type": "function",
     "identifier": "_m1_event0x2dhandler__strict_can_pickle",
+    "line": 272,
     "function_args": {
       "args": [
         "val"
@@ -34,6 +36,7 @@
   "_verify_bool": {
     "type": "function",
     "identifier": "_verify_bool",
+    "line": 335,
     "function_args": {
       "args": [
         "val",
@@ -52,6 +55,7 @@
   "_verify_dict": {
     "type": "function",
     "identifier": "_verify_dict",
+    "line": 339,
     "function_args": {
       "args": [
         "val",
@@ -70,6 +74,7 @@
   "_verify_list": {
     "type": "function",
     "identifier": "_verify_list",
+    "line": 343,
     "function_args": {
       "args": [
         "val",
@@ -88,6 +93,7 @@
   "_verify_dt": {
     "type": "function",
     "identifier": "_verify_dt",
+    "line": 347,
     "function_args": {
       "args": [
         "val",
@@ -106,6 +112,7 @@
   "_verify_dt_nn": {
     "type": "function",
     "identifier": "_verify_dt_nn",
+    "line": 356,
     "function_args": {
       "args": [
         "val"
@@ -121,6 +128,7 @@
   "_verify_evact": {
     "type": "function",
     "identifier": "_verify_evact",
+    "line": 360,
     "function_args": {
       "args": [
         "val",
@@ -139,6 +147,7 @@
   "_verify_int": {
     "type": "function",
     "identifier": "_verify_int",
+    "line": 367,
     "function_args": {
       "args": [
         "val",
@@ -157,6 +166,7 @@
   "_verify_int_nn": {
     "type": "function",
     "identifier": "_verify_int_nn",
+    "line": 371,
     "function_args": {
       "args": [
         "val"
@@ -172,6 +182,7 @@
   "_verify_str": {
     "type": "function",
     "identifier": "_verify_str",
+    "line": 375,
     "function_args": {
       "args": [
         "val",
@@ -190,6 +201,7 @@
   "_verify_td": {
     "type": "function",
     "identifier": "_verify_td",
+    "line": 382,
     "function_args": {
       "args": [
         "val",
@@ -208,6 +220,7 @@
   "_verify_td_nn": {
     "type": "function",
     "identifier": "_verify_td_nn",
+    "line": 388,
     "function_args": {
       "args": [
         "val"
@@ -223,6 +236,7 @@
   "_verify_tuli": {
     "type": "function",
     "identifier": "_verify_tuli",
+    "line": 392,
     "function_args": {
       "args": [
         "val",
@@ -241,6 +255,7 @@
   "_verify_tuli_nn": {
     "type": "function",
     "identifier": "_verify_tuli_nn",
+    "line": 399,
     "function_args": {
       "args": [
         "val"
@@ -256,6 +271,7 @@
   "_verify_tuli_aff": {
     "type": "function",
     "identifier": "_verify_tuli_aff",
+    "line": 403,
     "function_args": {
       "args": [
         "val",
@@ -274,6 +290,7 @@
   "_verify_item": {
     "type": "function",
     "identifier": "_verify_item",
+    "line": 410,
     "function_args": {
       "args": [
         "val",
@@ -297,11 +314,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 431,
     "docstring": "Allows for currying of a verification function",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 436,
         "function_args": {
           "args": [
             "self",
@@ -320,6 +339,7 @@
       {
         "type": "function",
         "identifier": "__call__",
+        "line": 449,
         "function_args": {
           "args": [
             "self",
@@ -339,6 +359,7 @@
   "_verify_per_mtime": {
     "type": "function",
     "identifier": "_verify_per_mtime",
+    "line": 506,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -353,6 +374,7 @@
   "_verify_data_line": {
     "type": "function",
     "identifier": "_verify_data_line",
+    "line": 642,
     "function_args": {
       "args": [
         "ev_line"
@@ -369,6 +391,7 @@
   "verify_event_data": {
     "type": "function",
     "identifier": "verify_event_data",
+    "line": 663,
     "function_args": {
       "args": [
         "per_db"

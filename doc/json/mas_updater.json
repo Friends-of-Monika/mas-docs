@@ -2,6 +2,7 @@
   "checkUpdate": {
     "type": "function",
     "identifier": "checkUpdate",
+    "line": 67,
     "function_args": {
       "args": [],
       "pos_only_args": [],

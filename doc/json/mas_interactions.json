@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 424,
     "docstring": "Manages clickzones, with varying zoom levels.\nUse to automate caching and stuff with clickzones.\n\nACCESSING ZONES:\n    use backet notation to access a clickzone:\n    zonemanager[zone_key]\n\n    This takes current zoom into account, and auto zooms something\n    if no clickzone exists.\n\n    NOTE: use get to get for a specific zoom level\n\nCONTAINS:\n    'in' is allowed for checking zone_keys.\n\nITERABLE:\n    this will iterate over zone_keys and clickzones at the current\n    zoom level.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 446,
         "function_args": {
           "args": [
             "self"
@@ -25,6 +27,7 @@
       {
         "type": "function",
         "identifier": "__contains__",
+        "line": 458,
         "function_args": {
           "args": [
             "self",
@@ -41,6 +44,7 @@
       {
         "type": "function",
         "identifier": "__getitem__",
+        "line": 461,
         "function_args": {
           "args": [
             "self",
@@ -58,6 +62,7 @@
       {
         "type": "function",
         "identifier": "__iter__",
+        "line": 469,
         "function_args": {
           "args": [
             "self"
@@ -73,6 +78,7 @@
       {
         "type": "function",
         "identifier": "add",
+        "line": 473,
         "function_args": {
           "args": [
             "self",
@@ -91,6 +97,7 @@
       {
         "type": "function",
         "identifier": "_cz_iter",
+        "line": 496,
         "function_args": {
           "args": [
             "self"
@@ -107,6 +114,7 @@
       {
         "type": "function",
         "identifier": "_debug",
+        "line": 510,
         "function_args": {
           "args": [
             "self",
@@ -124,6 +132,7 @@
       {
         "type": "function",
         "identifier": "get",
+        "line": 520,
         "function_args": {
           "args": [
             "self",
@@ -142,6 +151,7 @@
       {
         "type": "function",
         "identifier": "remove",
+        "line": 539,
         "function_args": {
           "args": [
             "self",
@@ -159,6 +169,7 @@
       {
         "type": "function",
         "identifier": "set_disabled",
+        "line": 557,
         "function_args": {
           "args": [
             "self",
@@ -177,6 +188,7 @@
       {
         "type": "function",
         "identifier": "zoom_to",
+        "line": 570,
         "function_args": {
           "args": [
             "self",
@@ -196,6 +208,7 @@
   "get_vx": {
     "type": "function",
     "identifier": "get_vx",
+    "line": 683,
     "function_args": {
       "args": [
         "zone_enum"
@@ -212,6 +225,7 @@
   "z_vx_list_zoom": {
     "type": "function",
     "identifier": "z_vx_list_zoom",
+    "line": 695,
     "function_args": {
       "args": [
         "zoom_level",
@@ -229,6 +243,7 @@
   "vx_list_zoom": {
     "type": "function",
     "identifier": "vx_list_zoom",
+    "line": 713,
     "function_args": {
       "args": [
         "zoom_level",
@@ -246,6 +261,7 @@
   "_vx_list_zoom": {
     "type": "function",
     "identifier": "_vx_list_zoom",
+    "line": 737,
     "function_args": {
       "args": [
         "zoom_level",

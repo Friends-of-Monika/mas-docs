@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 395,
     "docstring": "Simple class to represent a test",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 400,
         "function_args": {
           "args": [
             "self",
@@ -33,6 +35,7 @@
       {
         "type": "function",
         "identifier": "__str__",
+        "line": 418,
         "function_args": {
           "args": [
             "self"
@@ -49,6 +52,7 @@
       {
         "type": "function",
         "identifier": "failed",
+        "line": 442,
         "function_args": {
           "args": [
             "self"
@@ -65,6 +69,7 @@
       {
         "type": "function",
         "identifier": "passed",
+        "line": 448,
         "function_args": {
           "args": [
             "self"
@@ -86,11 +91,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 454,
     "docstring": "Simple class for running asserts",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 462,
         "function_args": {
           "args": [
             "self"
@@ -106,6 +113,7 @@
       {
         "type": "function",
         "identifier": "__str__",
+        "line": 465,
         "function_args": {
           "args": [
             "self"
@@ -121,6 +129,7 @@
       {
         "type": "function",
         "identifier": "_assertDictEqual",
+        "line": 468,
         "function_args": {
           "args": [
             "self",
@@ -139,6 +148,7 @@
       {
         "type": "function",
         "identifier": "_assertListEqual",
+        "line": 521,
         "function_args": {
           "args": [
             "self",
@@ -157,6 +167,7 @@
       {
         "type": "function",
         "identifier": "assertDictEqual",
+        "line": 549,
         "function_args": {
           "args": [
             "self",
@@ -175,6 +186,7 @@
       {
         "type": "function",
         "identifier": "assertEqual",
+        "line": 565,
         "function_args": {
           "args": [
             "self",
@@ -193,6 +205,7 @@
       {
         "type": "function",
         "identifier": "assertFalse",
+        "line": 598,
         "function_args": {
           "args": [
             "self",
@@ -210,6 +223,7 @@
       {
         "type": "function",
         "identifier": "assertIdentity",
+        "line": 616,
         "function_args": {
           "args": [
             "self",
@@ -228,6 +242,7 @@
       {
         "type": "function",
         "identifier": "assertIsNone",
+        "line": 635,
         "function_args": {
           "args": [
             "self",
@@ -245,6 +260,7 @@
       {
         "type": "function",
         "identifier": "assertIsNotNone",
+        "line": 653,
         "function_args": {
           "args": [
             "self",
@@ -262,6 +278,7 @@
       {
         "type": "function",
         "identifier": "assertListEqual",
+        "line": 671,
         "function_args": {
           "args": [
             "self",
@@ -280,6 +297,7 @@
       {
         "type": "function",
         "identifier": "assertTrue",
+        "line": 693,
         "function_args": {
           "args": [
             "self",
@@ -297,6 +315,7 @@
       {
         "type": "function",
         "identifier": "cleanTest",
+        "line": 711,
         "function_args": {
           "args": [
             "self"
@@ -313,6 +332,7 @@
       {
         "type": "function",
         "identifier": "concludeTests",
+        "line": 717,
         "function_args": {
           "args": [
             "self"
@@ -329,6 +349,7 @@
       {
         "type": "function",
         "identifier": "prepareTest",
+        "line": 736,
         "function_args": {
           "args": [
             "self",
@@ -346,6 +367,7 @@
       {
         "type": "function",
         "identifier": "setupTests",
+        "line": 745,
         "function_args": {
           "args": [
             "self"

@@ -2,6 +2,7 @@
   "ch30_reset": {
     "type": "function",
     "identifier": "ch30_reset",
+    "line": 31,
     "function_args": {
       "args": [
         "priority"
@@ -20,6 +21,7 @@
   "start": {
     "type": "function",
     "identifier": "start",
+    "line": 657,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -34,6 +36,7 @@
   "xp": {
     "type": "function",
     "identifier": "xp",
+    "line": 667,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -48,6 +51,7 @@
   "name_eggs": {
     "type": "function",
     "identifier": "name_eggs",
+    "line": 690,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -62,6 +66,7 @@
   "topic_lists": {
     "type": "function",
     "identifier": "topic_lists",
+    "line": 700,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -76,6 +81,7 @@
   "rpy_file_check": {
     "type": "function",
     "identifier": "rpy_file_check",
+    "line": 717,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -90,6 +96,7 @@
   "games": {
     "type": "function",
     "identifier": "games",
+    "line": 733,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -104,6 +111,7 @@
   "sprites": {
     "type": "function",
     "identifier": "sprites",
+    "line": 761,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -118,6 +126,7 @@
   "_sprites_init": {
     "type": "function",
     "identifier": "_sprites_init",
+    "line": 775,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -132,6 +141,7 @@
   "_sprites_fixes": {
     "type": "function",
     "identifier": "_sprites_fixes",
+    "line": 795,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -146,6 +156,7 @@
   "_sprites_setup": {
     "type": "function",
     "identifier": "_sprites_setup",
+    "line": 824,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -160,6 +171,7 @@
   "random_chatter": {
     "type": "function",
     "identifier": "random_chatter",
+    "line": 862,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -174,6 +186,7 @@
   "returned_home": {
     "type": "function",
     "identifier": "returned_home",
+    "line": 871,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -188,6 +201,7 @@
   "playtime": {
     "type": "function",
     "identifier": "playtime",
+    "line": 883,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -202,6 +216,7 @@
   "affection": {
     "type": "function",
     "identifier": "affection",
+    "line": 918,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -216,6 +231,7 @@
   "deco": {
     "type": "function",
     "identifier": "deco",
+    "line": 927,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -230,6 +246,7 @@
   "_deco_bday": {
     "type": "function",
     "identifier": "_deco_bday",
+    "line": 944,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -244,6 +261,7 @@
   "_deco_d25": {
     "type": "function",
     "identifier": "_deco_d25",
+    "line": 964,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -258,6 +276,7 @@
   "_deco_o31": {
     "type": "function",
     "identifier": "_deco_o31",
+    "line": 982,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -272,6 +291,7 @@
   "farewells": {
     "type": "function",
     "identifier": "farewells",
+    "line": 998,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -286,6 +306,7 @@
   "file_reactions": {
     "type": "function",
     "identifier": "file_reactions",
+    "line": 1010,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -300,6 +321,7 @@
   "events": {
     "type": "function",
     "identifier": "events",
+    "line": 1041,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -314,6 +336,7 @@
   "songs": {
     "type": "function",
     "identifier": "songs",
+    "line": 1080,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -328,6 +351,7 @@
   "holidays": {
     "type": "function",
     "identifier": "holidays",
+    "line": 1092,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -342,6 +366,7 @@
   "backgrounds": {
     "type": "function",
     "identifier": "backgrounds",
+    "line": 1111,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -356,6 +381,7 @@
   "window_reactions": {
     "type": "function",
     "identifier": "window_reactions",
+    "line": 1130,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -370,6 +396,7 @@
   "islands": {
     "type": "function",
     "identifier": "islands",
+    "line": 1139,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -384,6 +411,7 @@
   "bath_cleanup": {
     "type": "function",
     "identifier": "bath_cleanup",
+    "line": 1148,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -398,6 +426,7 @@
   "chr_removal": {
     "type": "function",
     "identifier": "chr_removal",
+    "line": 1169,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -412,6 +441,7 @@
   "backups": {
     "type": "function",
     "identifier": "backups",
+    "line": 1179,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -426,6 +456,7 @@
   "final": {
     "type": "function",
     "identifier": "final",
+    "line": 1189,
     "function_args": {
       "args": [],
       "pos_only_args": [],

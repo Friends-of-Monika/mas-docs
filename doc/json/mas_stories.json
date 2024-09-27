@@ -2,6 +2,7 @@
   "check_can_unlock_new_story": {
     "type": "function",
     "identifier": "check_can_unlock_new_story",
+    "line": 148,
     "function_args": {
       "args": [
         "story_type",
@@ -22,6 +23,7 @@
   "get_new_stories_for_type": {
     "type": "function",
     "identifier": "get_new_stories_for_type",
+    "line": 184,
     "function_args": {
       "args": [
         "story_type"
@@ -38,6 +40,7 @@
   "get_and_unlock_random_story": {
     "type": "function",
     "identifier": "get_and_unlock_random_story",
+    "line": 203,
     "function_args": {
       "args": [
         "story_type"
@@ -56,6 +59,7 @@
   "dev_unlock_all_stories": {
     "type": "function",
     "identifier": "dev_unlock_all_stories",
+    "line": 226,
     "function_args": {
       "args": [],
       "pos_only_args": [],

@@ -2,6 +2,7 @@
   "is_eggable_name": {
     "type": "function",
     "identifier": "is_eggable_name",
+    "line": 70,
     "function_args": {
       "args": [
         "name"
@@ -18,6 +19,7 @@
   "name_eggs_enabled": {
     "type": "function",
     "identifier": "name_eggs_enabled",
+    "line": 82,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -32,6 +34,7 @@
   "natsuki_enabled": {
     "type": "function",
     "identifier": "natsuki_enabled",
+    "line": 91,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -46,6 +49,7 @@
   "sayori_enabled": {
     "type": "function",
     "identifier": "sayori_enabled",
+    "line": 103,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -60,6 +64,7 @@
   "yuri_enabled": {
     "type": "function",
     "identifier": "yuri_enabled",
+    "line": 115,
     "function_args": {
       "args": [],
       "pos_only_args": [],

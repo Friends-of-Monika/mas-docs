@@ -2,6 +2,7 @@
   "_pp_spring": {
     "type": "function",
     "identifier": "_pp_spring",
+    "line": 206,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "_pp_summer": {
     "type": "function",
     "identifier": "_pp_summer",
+    "line": 242,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -30,6 +32,7 @@
   "_pp_fall": {
     "type": "function",
     "identifier": "_pp_fall",
+    "line": 255,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -44,6 +47,7 @@
   "_pp_winter": {
     "type": "function",
     "identifier": "_pp_winter",
+    "line": 266,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -58,6 +62,7 @@
   "_currentSeason": {
     "type": "function",
     "identifier": "_currentSeason",
+    "line": 330,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -72,6 +77,7 @@
   "_seasonalCatchup": {
     "type": "function",
     "identifier": "_seasonalCatchup",
+    "line": 342,
     "function_args": {
       "args": [
         "prev_season"

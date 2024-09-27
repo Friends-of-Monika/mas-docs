@@ -2,6 +2,7 @@
   "_compareAff": {
     "type": "function",
     "identifier": "_compareAff",
+    "line": 1130,
     "function_args": {
       "args": [
         "aff_1",
@@ -19,6 +20,7 @@
   "_compareAffG": {
     "type": "function",
     "identifier": "_compareAffG",
+    "line": 1149,
     "function_args": {
       "args": [
         "affg_1",
@@ -36,6 +38,7 @@
   "_betweenAff": {
     "type": "function",
     "identifier": "_betweenAff",
+    "line": 1168,
     "function_args": {
       "args": [
         "aff_low",
@@ -54,6 +57,7 @@
   "_isValidAff": {
     "type": "function",
     "identifier": "_isValidAff",
+    "line": 1218,
     "function_args": {
       "args": [
         "aff_check"
@@ -70,6 +74,7 @@
   "_isValidAffRange": {
     "type": "function",
     "identifier": "_isValidAffRange",
+    "line": 1230,
     "function_args": {
       "args": [
         "aff_range"
@@ -86,6 +91,7 @@
   "_m1_script0x2daffection__verify_data": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__verify_data",
+    "line": 1256,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -99,6 +105,7 @@
   "_m1_script0x2daffection__set_pers_data": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__set_pers_data",
+    "line": 1276,
     "function_args": {
       "args": [
         "value"
@@ -114,6 +121,7 @@
   "_m1_script0x2daffection__get_pers_data": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__get_pers_data",
+    "line": 1300,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -127,6 +135,7 @@
   "_m1_script0x2daffection__to_struct": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__to_struct",
+    "line": 1307,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -141,6 +150,7 @@
   "_m1_script0x2daffection__from_struct": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__from_struct",
+    "line": 1322,
     "function_args": {
       "args": [
         "struct_"
@@ -157,6 +167,7 @@
   "_m1_script0x2daffection__hexlify": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__hexlify",
+    "line": 1334,
     "function_args": {
       "args": [
         "bytes_"
@@ -173,6 +184,7 @@
   "_m1_script0x2daffection__unhexlify": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__unhexlify",
+    "line": 1340,
     "function_args": {
       "args": [
         "bytes_"
@@ -189,6 +201,7 @@
   "_m1_script0x2daffection__handle_str2bytes": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__handle_str2bytes",
+    "line": 1346,
     "function_args": {
       "args": [
         "value"
@@ -205,6 +218,7 @@
   "_m1_script0x2daffection__intob64": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__intob64",
+    "line": 1354,
     "function_args": {
       "args": [
         "bytes_"
@@ -221,6 +235,7 @@
   "_m1_script0x2daffection__fromb64": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__fromb64",
+    "line": 1360,
     "function_args": {
       "args": [
         "bytes_"
@@ -237,6 +252,7 @@
   "_m1_script0x2daffection__decode_data": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__decode_data",
+    "line": 1366,
     "function_args": {
       "args": [
         "data"
@@ -253,6 +269,7 @@
   "_m1_script0x2daffection__encode_data": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__encode_data",
+    "line": 1399,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -267,6 +284,7 @@
   "get_default_data": {
     "type": "function",
     "identifier": "get_default_data",
+    "line": 1429,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -281,6 +299,7 @@
   "_m1_script0x2daffection__reset_pers_data": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__reset_pers_data",
+    "line": 1438,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -295,6 +314,7 @@
   "_m1_script0x2daffection__get_data": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__get_data",
+    "line": 1447,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -309,6 +329,7 @@
   "_get_aff": {
     "type": "function",
     "identifier": "_get_aff",
+    "line": 1468,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -323,6 +344,7 @@
   "_get_today_cap": {
     "type": "function",
     "identifier": "_get_today_cap",
+    "line": 1482,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -337,6 +359,7 @@
   "_m1_script0x2daffection__validate_timestamp": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__validate_timestamp",
+    "line": 1495,
     "function_args": {
       "args": [
         "ts",
@@ -354,6 +377,7 @@
   "_grant_aff": {
     "type": "function",
     "identifier": "_grant_aff",
+    "line": 1521,
     "function_args": {
       "args": [
         "amount",
@@ -374,6 +398,7 @@
   "_remove_aff": {
     "type": "function",
     "identifier": "_remove_aff",
+    "line": 1607,
     "function_args": {
       "args": [
         "amount",
@@ -393,6 +418,7 @@
   "_withdraw_aff": {
     "type": "function",
     "identifier": "_withdraw_aff",
+    "line": 1664,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -407,6 +433,7 @@
   "_absence_decay_aff": {
     "type": "function",
     "identifier": "_absence_decay_aff",
+    "line": 1697,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -421,6 +448,7 @@
   "_reset_aff": {
     "type": "function",
     "identifier": "_reset_aff",
+    "line": 1726,
     "function_args": {
       "args": [
         "reason"
@@ -439,6 +467,7 @@
   "_transfer_aff_2nd_gen": {
     "type": "function",
     "identifier": "_transfer_aff_2nd_gen",
+    "line": 1733,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -453,6 +482,7 @@
   "_m1_script0x2daffection__set_aff": {
     "type": "function",
     "identifier": "_m1_script0x2daffection__set_aff",
+    "line": 1776,
     "function_args": {
       "args": [
         "amount",
@@ -472,6 +502,7 @@
   "_set_aff": {
     "type": "function",
     "identifier": "_set_aff",
+    "line": 1804,
     "function_args": {
       "args": [
         "value",
@@ -488,6 +519,7 @@
   "save_aff": {
     "type": "function",
     "identifier": "save_aff",
+    "line": 1808,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -502,6 +534,7 @@
   "load_aff": {
     "type": "function",
     "identifier": "load_aff",
+    "line": 1829,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -516,6 +549,7 @@
   "_make_backup": {
     "type": "function",
     "identifier": "_make_backup",
+    "line": 1898,
     "function_args": {
       "args": [
         "force"
@@ -534,6 +568,7 @@
   "_has_mismatch": {
     "type": "function",
     "identifier": "_has_mismatch",
+    "line": 1927,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -548,6 +583,7 @@
   "_remove_backups": {
     "type": "function",
     "identifier": "_remove_backups",
+    "line": 1937,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -562,6 +598,7 @@
   "_restore_backup": {
     "type": "function",
     "identifier": "_restore_backup",
+    "line": 1945,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -576,6 +613,7 @@
   "audit": {
     "type": "function",
     "identifier": "audit",
+    "line": 2195,
     "function_args": {
       "args": [
         "attempted_change",
@@ -602,6 +640,7 @@
   "raw_audit": {
     "type": "function",
     "identifier": "raw_audit",
+    "line": 2251,
     "function_args": {
       "args": [
         "old",
@@ -621,6 +660,7 @@
   "txt_audit": {
     "type": "function",
     "identifier": "txt_audit",
+    "line": 2268,
     "function_args": {
       "args": [
         "tag",
@@ -638,6 +678,7 @@
   "_force_exp": {
     "type": "function",
     "identifier": "_force_exp",
+    "line": 2282,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -652,6 +693,7 @@
   "_brokenToDis": {
     "type": "function",
     "identifier": "_brokenToDis",
+    "line": 3105,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -666,6 +708,7 @@
   "_disToBroken": {
     "type": "function",
     "identifier": "_disToBroken",
+    "line": 3121,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -680,6 +723,7 @@
   "_disToUpset": {
     "type": "function",
     "identifier": "_disToUpset",
+    "line": 3140,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -694,6 +738,7 @@
   "_upsetToDis": {
     "type": "function",
     "identifier": "_upsetToDis",
+    "line": 3154,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -708,6 +753,7 @@
   "_upsetToNormal": {
     "type": "function",
     "identifier": "_upsetToNormal",
+    "line": 3178,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -722,6 +768,7 @@
   "_normalToUpset": {
     "type": "function",
     "identifier": "_normalToUpset",
+    "line": 3195,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -736,6 +783,7 @@
   "_normalToHappy": {
     "type": "function",
     "identifier": "_normalToHappy",
+    "line": 3212,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -750,6 +798,7 @@
   "_happyToNormal": {
     "type": "function",
     "identifier": "_happyToNormal",
+    "line": 3243,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -764,6 +813,7 @@
   "_happyToAff": {
     "type": "function",
     "identifier": "_happyToAff",
+    "line": 3267,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -778,6 +828,7 @@
   "_affToHappy": {
     "type": "function",
     "identifier": "_affToHappy",
+    "line": 3288,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -792,6 +843,7 @@
   "_affToEnamored": {
     "type": "function",
     "identifier": "_affToEnamored",
+    "line": 3319,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -806,6 +858,7 @@
   "_enamoredToAff": {
     "type": "function",
     "identifier": "_enamoredToAff",
+    "line": 3332,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -820,6 +873,7 @@
   "_enamoredToLove": {
     "type": "function",
     "identifier": "_enamoredToLove",
+    "line": 3348,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -834,6 +888,7 @@
   "_loveToEnamored": {
     "type": "function",
     "identifier": "_loveToEnamored",
+    "line": 3367,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -848,6 +903,7 @@
   "_gSadToNormal": {
     "type": "function",
     "identifier": "_gSadToNormal",
+    "line": 3384,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -862,6 +918,7 @@
   "_gNormalToSad": {
     "type": "function",
     "identifier": "_gNormalToSad",
+    "line": 3391,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -876,6 +933,7 @@
   "_gNormalToHappy": {
     "type": "function",
     "identifier": "_gNormalToHappy",
+    "line": 3398,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -890,6 +948,7 @@
   "_gHappyToNormal": {
     "type": "function",
     "identifier": "_gHappyToNormal",
+    "line": 3405,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -904,6 +963,7 @@
   "runAffPPs": {
     "type": "function",
     "identifier": "runAffPPs",
+    "line": 3439,
     "function_args": {
       "args": [
         "start_aff",
@@ -921,6 +981,7 @@
   "runAffGPPs": {
     "type": "function",
     "identifier": "runAffGPPs",
+    "line": 3472,
     "function_args": {
       "args": [
         "start_affg",
@@ -938,6 +999,7 @@
   "_isMoniState": {
     "type": "function",
     "identifier": "_isMoniState",
+    "line": 3502,
     "function_args": {
       "args": [
         "aff_1",
@@ -960,6 +1022,7 @@
   "_isMoniStateG": {
     "type": "function",
     "identifier": "_isMoniStateG",
+    "line": 3533,
     "function_args": {
       "args": [
         "affg_1",
@@ -982,6 +1045,7 @@
   "_init_talk_quips": {
     "type": "function",
     "identifier": "_init_talk_quips",
+    "line": 3573,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -996,6 +1060,7 @@
   "_init_play_quips": {
     "type": "function",
     "identifier": "_init_play_quips",
+    "line": 3710,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1010,6 +1075,7 @@
   "_dict_quip": {
     "type": "function",
     "identifier": "_dict_quip",
+    "line": 3801,
     "function_args": {
       "args": [
         "_quips"
@@ -1026,6 +1092,7 @@
   "talk_quip": {
     "type": "function",
     "identifier": "talk_quip",
+    "line": 3819,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1040,6 +1107,7 @@
   "play_quip": {
     "type": "function",
     "identifier": "play_quip",
+    "line": 3829,
     "function_args": {
       "args": [],
       "pos_only_args": [],

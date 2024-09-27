@@ -2,6 +2,7 @@
   "shouldUseD25ReactToGifts": {
     "type": "function",
     "identifier": "shouldUseD25ReactToGifts",
+    "line": 115,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "react_to_gifts": {
     "type": "function",
     "identifier": "react_to_gifts",
+    "line": 131,
     "function_args": {
       "args": [
         "found_map"

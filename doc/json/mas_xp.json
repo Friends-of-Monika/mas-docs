@@ -2,6 +2,7 @@
   "_calc": {
     "type": "function",
     "identifier": "_calc",
+    "line": 333,
     "function_args": {
       "args": [
         "xp_rate",
@@ -21,6 +22,7 @@
   "calc": {
     "type": "function",
     "identifier": "calc",
+    "line": 375,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -35,6 +37,7 @@
   "calc_by_hours": {
     "type": "function",
     "identifier": "calc_by_hours",
+    "line": 402,
     "function_args": {
       "args": [
         "duration",
@@ -52,6 +55,7 @@
   "calc_by_time": {
     "type": "function",
     "identifier": "calc_by_time",
+    "line": 445,
     "function_args": {
       "args": [
         "duration",
@@ -69,6 +73,7 @@
   "_grant": {
     "type": "function",
     "identifier": "_grant",
+    "line": 461,
     "function_args": {
       "args": [
         "xp",
@@ -86,6 +91,7 @@
   "_grant_on_pt": {
     "type": "function",
     "identifier": "_grant_on_pt",
+    "line": 484,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -100,6 +106,7 @@
   "_grant_xp": {
     "type": "function",
     "identifier": "_grant_xp",
+    "line": 507,
     "function_args": {
       "args": [
         "xp"
@@ -116,6 +123,7 @@
   "grant": {
     "type": "function",
     "identifier": "grant",
+    "line": 526,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -130,6 +138,7 @@
   "_level": {
     "type": "function",
     "identifier": "_level",
+    "line": 537,
     "function_args": {
       "args": [
         "xp"
@@ -146,6 +155,7 @@
   "_level_rxp": {
     "type": "function",
     "identifier": "_level_rxp",
+    "line": 553,
     "function_args": {
       "args": [
         "xp"
@@ -162,6 +172,7 @@
   "level": {
     "type": "function",
     "identifier": "level",
+    "line": 568,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -176,6 +187,7 @@
   "set_xp_rate": {
     "type": "function",
     "identifier": "set_xp_rate",
+    "line": 577,
     "function_args": {
       "args": [],
       "pos_only_args": [],

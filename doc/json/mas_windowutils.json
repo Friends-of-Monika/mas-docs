@@ -5,11 +5,13 @@
     "class_bases": [
       "Exception"
     ],
+    "line": 656,
     "docstring": "Custom exception class to flag a window found during a window enum\n\nHas the hwnd as a property",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 662,
         "function_args": {
           "args": [
             "self",
@@ -26,6 +28,7 @@
       {
         "type": "function",
         "identifier": "__str__",
+        "line": 665,
         "function_args": {
           "args": [
             "self"
@@ -43,6 +46,7 @@
   "_m1_zz_windowutils__getActiveWindowObj_Linux": {
     "type": "function",
     "identifier": "_m1_zz_windowutils__getActiveWindowObj_Linux",
+    "line": 673,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -57,6 +61,7 @@
   "_m1_zz_windowutils__getMASWindowLinux": {
     "type": "function",
     "identifier": "_m1_zz_windowutils__getMASWindowLinux",
+    "line": 700,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -71,6 +76,7 @@
   "_m1_zz_windowutils__getMASWindowHWND": {
     "type": "function",
     "identifier": "_m1_zz_windowutils__getMASWindowHWND",
+    "line": 735,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -85,6 +91,7 @@
   "_m1_zz_windowutils__getAbsoluteGeometry": {
     "type": "function",
     "identifier": "_m1_zz_windowutils__getAbsoluteGeometry",
+    "line": 764,
     "function_args": {
       "args": [
         "win"
@@ -101,6 +108,7 @@
   "_setMASWindow": {
     "type": "function",
     "identifier": "_setMASWindow",
+    "line": 806,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -115,6 +123,7 @@
   "_getActiveWindowHandle_Windows": {
     "type": "function",
     "identifier": "_getActiveWindowHandle_Windows",
+    "line": 824,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -129,6 +138,7 @@
   "_getActiveWindowHandle_Linux": {
     "type": "function",
     "identifier": "_getActiveWindowHandle_Linux",
+    "line": 835,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -143,6 +153,7 @@
   "_getActiveWindowHandle_OSX": {
     "type": "function",
     "identifier": "_getActiveWindowHandle_OSX",
+    "line": 869,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -157,6 +168,7 @@
   "_tryShowNotification_Windows": {
     "type": "function",
     "identifier": "_tryShowNotification_Windows",
+    "line": 879,
     "function_args": {
       "args": [
         "title",
@@ -174,6 +186,7 @@
   "_tryShowNotification_Linux": {
     "type": "function",
     "identifier": "_tryShowNotification_Linux",
+    "line": 898,
     "function_args": {
       "args": [
         "title",
@@ -191,6 +204,7 @@
   "_tryShowNotification_OSX": {
     "type": "function",
     "identifier": "_tryShowNotification_OSX",
+    "line": 918,
     "function_args": {
       "args": [
         "title",
@@ -208,6 +222,7 @@
   "_getAbsoluteMousePos_Windows": {
     "type": "function",
     "identifier": "_getAbsoluteMousePos_Windows",
+    "line": 934,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -222,6 +237,7 @@
   "_getAbsoluteMousePos_Linux": {
     "type": "function",
     "identifier": "_getAbsoluteMousePos_Linux",
+    "line": 953,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -236,6 +252,7 @@
   "_getMASWindowPos_Windows": {
     "type": "function",
     "identifier": "_getMASWindowPos_Windows",
+    "line": 961,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -250,6 +267,7 @@
   "_getMASWindowPos_Linux": {
     "type": "function",
     "identifier": "_getMASWindowPos_Linux",
+    "line": 982,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -264,6 +282,7 @@
   "getMousePosRelative": {
     "type": "function",
     "identifier": "getMousePosRelative",
+    "line": 1000,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -278,6 +297,7 @@
   "isCursorInMASWindow": {
     "type": "function",
     "identifier": "isCursorInMASWindow",
+    "line": 1046,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -292,6 +312,7 @@
   "isCursorLeftOfMASWindow": {
     "type": "function",
     "identifier": "isCursorLeftOfMASWindow",
+    "line": 1056,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -306,6 +327,7 @@
   "isCursorRightOfMASWindow": {
     "type": "function",
     "identifier": "isCursorRightOfMASWindow",
+    "line": 1066,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -320,6 +342,7 @@
   "isCursorAboveMASWindow": {
     "type": "function",
     "identifier": "isCursorAboveMASWindow",
+    "line": 1076,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -334,6 +357,7 @@
   "isCursorBelowMASWindow": {
     "type": "function",
     "identifier": "isCursorBelowMASWindow",
+    "line": 1086,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -348,6 +372,7 @@
   "return_true": {
     "type": "function",
     "identifier": "return_true",
+    "line": 1097,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -362,6 +387,7 @@
   "return_false": {
     "type": "function",
     "identifier": "return_false",
+    "line": 1103,
     "function_args": {
       "args": [],
       "pos_only_args": [],

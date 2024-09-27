@@ -2,6 +2,7 @@
   "_auto_mode_toggle": {
     "type": "function",
     "identifier": "_auto_mode_toggle",
+    "line": 60,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "_dark_mode_toggle": {
     "type": "function",
     "identifier": "_dark_mode_toggle",
+    "line": 75,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -30,6 +32,7 @@
   "_ui_change_wrapper": {
     "type": "function",
     "identifier": "_ui_change_wrapper",
+    "line": 89,
     "function_args": {
       "args": [],
       "pos_only_args": [],

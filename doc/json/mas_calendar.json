@@ -2,6 +2,7 @@
   "getZodiacSign": {
     "type": "function",
     "identifier": "getZodiacSign",
+    "line": 859,
     "function_args": {
       "args": [
         "date"
@@ -18,6 +19,7 @@
   "_formatDay": {
     "type": "function",
     "identifier": "_formatDay",
+    "line": 880,
     "function_args": {
       "args": [
         "day"
@@ -34,6 +36,7 @@
   "_formatYears": {
     "type": "function",
     "identifier": "_formatYears",
+    "line": 900,
     "function_args": {
       "args": [
         "years"
@@ -50,6 +53,7 @@
   "genFriendlyDispDate": {
     "type": "function",
     "identifier": "genFriendlyDispDate",
+    "line": 925,
     "function_args": {
       "args": [
         "_datetime"
@@ -66,6 +70,7 @@
   "genFriendlyDispDate_d": {
     "type": "function",
     "identifier": "genFriendlyDispDate_d",
+    "line": 937,
     "function_args": {
       "args": [
         "_date"
@@ -82,6 +87,7 @@
   "genFormalDispDate": {
     "type": "function",
     "identifier": "genFormalDispDate",
+    "line": 1021,
     "function_args": {
       "args": [
         "_date"
@@ -98,6 +104,7 @@
   "saveCalendarDatabase": {
     "type": "function",
     "identifier": "saveCalendarDatabase",
+    "line": 1048,
     "function_args": {
       "args": [
         "encoder"
@@ -114,6 +121,7 @@
   "loadCalendarDatabase": {
     "type": "function",
     "identifier": "loadCalendarDatabase",
+    "line": 1061,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -128,6 +136,7 @@
   "_m1_zz_calendar__addEvent_md": {
     "type": "function",
     "identifier": "_m1_zz_calendar__addEvent_md",
+    "line": 1078,
     "function_args": {
       "args": [
         "ev_label",
@@ -146,6 +155,7 @@
   "_addRepeatable_md": {
     "type": "function",
     "identifier": "_addRepeatable_md",
+    "line": 1094,
     "function_args": {
       "args": [
         "identifier",
@@ -166,6 +176,7 @@
   "addEvent": {
     "type": "function",
     "identifier": "addEvent",
+    "line": 1114,
     "function_args": {
       "args": [
         "ev"
@@ -182,6 +193,7 @@
   "addEvent_evd": {
     "type": "function",
     "identifier": "addEvent_evd",
+    "line": 1141,
     "function_args": {
       "args": [
         "ev",
@@ -199,6 +211,7 @@
   "addEvent_evdt": {
     "type": "function",
     "identifier": "addEvent_evdt",
+    "line": 1156,
     "function_args": {
       "args": [
         "ev",
@@ -216,6 +229,7 @@
   "addRepeatable": {
     "type": "function",
     "identifier": "addRepeatable",
+    "line": 1166,
     "function_args": {
       "args": [
         "identifier",
@@ -236,6 +250,7 @@
   "addRepeatable_d": {
     "type": "function",
     "identifier": "addRepeatable_d",
+    "line": 1182,
     "function_args": {
       "args": [
         "identifier",
@@ -255,6 +270,7 @@
   "addRepeatable_dt": {
     "type": "function",
     "identifier": "addRepeatable_dt",
+    "line": 1201,
     "function_args": {
       "args": [
         "identifier",
@@ -274,6 +290,7 @@
   "_findEvent_md": {
     "type": "function",
     "identifier": "_findEvent_md",
+    "line": 1220,
     "function_args": {
       "args": [
         "ev_label",
@@ -292,6 +309,7 @@
   "_findRepeatable_md": {
     "type": "function",
     "identifier": "_findRepeatable_md",
+    "line": 1248,
     "function_args": {
       "args": [
         "identifier",
@@ -310,6 +328,7 @@
   "_removeEvent": {
     "type": "function",
     "identifier": "_removeEvent",
+    "line": 1276,
     "function_args": {
       "args": [
         "ev_label",
@@ -329,6 +348,7 @@
   "_removeEvent_d": {
     "type": "function",
     "identifier": "_removeEvent_d",
+    "line": 1290,
     "function_args": {
       "args": [
         "ev_label",
@@ -349,6 +369,7 @@
   "_removeEvent_m": {
     "type": "function",
     "identifier": "_removeEvent_m",
+    "line": 1307,
     "function_args": {
       "args": [
         "ev_label",
@@ -369,6 +390,7 @@
   "_removeEvent_md": {
     "type": "function",
     "identifier": "_removeEvent_md",
+    "line": 1324,
     "function_args": {
       "args": [
         "ev_label",
@@ -387,6 +409,7 @@
   "_removeRepeatable": {
     "type": "function",
     "identifier": "_removeRepeatable",
+    "line": 1347,
     "function_args": {
       "args": [
         "identifier"
@@ -403,6 +426,7 @@
   "_removeRepeatable_d": {
     "type": "function",
     "identifier": "_removeRepeatable_d",
+    "line": 1360,
     "function_args": {
       "args": [
         "identifier",
@@ -420,6 +444,7 @@
   "_removeRepeatable_m": {
     "type": "function",
     "identifier": "_removeRepeatable_m",
+    "line": 1375,
     "function_args": {
       "args": [
         "identifier",
@@ -437,6 +462,7 @@
   "_removeRepeatable_md": {
     "type": "function",
     "identifier": "_removeRepeatable_md",
+    "line": 1390,
     "function_args": {
       "args": [
         "identifier",
@@ -455,6 +481,7 @@
   "removeEvent": {
     "type": "function",
     "identifier": "removeEvent",
+    "line": 1413,
     "function_args": {
       "args": [
         "ev"
@@ -471,6 +498,7 @@
   "removeEvent_eld": {
     "type": "function",
     "identifier": "removeEvent_eld",
+    "line": 1438,
     "function_args": {
       "args": [
         "ev_label",
@@ -488,6 +516,7 @@
   "removeEvent_evd": {
     "type": "function",
     "identifier": "removeEvent_evd",
+    "line": 1449,
     "function_args": {
       "args": [
         "ev",
@@ -505,6 +534,7 @@
   "removeEvent_eldt": {
     "type": "function",
     "identifier": "removeEvent_eldt",
+    "line": 1460,
     "function_args": {
       "args": [
         "ev_label",
@@ -522,6 +552,7 @@
   "removeEvent_evdt": {
     "type": "function",
     "identifier": "removeEvent_evdt",
+    "line": 1471,
     "function_args": {
       "args": [
         "ev",
@@ -539,6 +570,7 @@
   "removeEvent_el": {
     "type": "function",
     "identifier": "removeEvent_el",
+    "line": 1482,
     "function_args": {
       "args": [
         "ev_label",
@@ -562,6 +594,7 @@
   "removeEvent_ev": {
     "type": "function",
     "identifier": "removeEvent_ev",
+    "line": 1532,
     "function_args": {
       "args": [
         "ev",
@@ -585,6 +618,7 @@
   "removeRepeatable": {
     "type": "function",
     "identifier": "removeRepeatable",
+    "line": 1552,
     "function_args": {
       "args": [
         "identifier",
@@ -606,6 +640,7 @@
   "removeRepeatable_d": {
     "type": "function",
     "identifier": "removeRepeatable_d",
+    "line": 1595,
     "function_args": {
       "args": [
         "identifier",
@@ -623,6 +658,7 @@
   "removeRepeatable_dt": {
     "type": "function",
     "identifier": "removeRepeatable_dt",
+    "line": 1606,
     "function_args": {
       "args": [
         "identifier",
@@ -640,6 +676,7 @@
   "addSeasonEvents": {
     "type": "function",
     "identifier": "addSeasonEvents",
+    "line": 1674,
     "function_args": {
       "args": [],
       "pos_only_args": [],

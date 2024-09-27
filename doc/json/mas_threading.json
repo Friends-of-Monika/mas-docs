@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 180,
     "docstring": "Class designed for calling a function asynchronously and returning\nthe result.\n\nThis uses threading.\n\nNOTE: we are not using context managers because we might have an\nissue with them on macs\n\nTODO: you cannot use this to spawm multiple calls of the same function\nif we need that, then we make extension of this class\n\nMain things are:\n1. storing the function to call when threading\n2. not spawning a new thread if the previous one isn't done yet\n    (adjustable)\n3. check function that checks status of thread's return value\n4. closing the spawn'ed thread\n\nPROPERTIES:\n    ready - True means we are ready to spawn a thread, False means we\n        are either waiting for the thread or waiting for main thread\n        to retrieve the value.\n\nPRIVATE PROPERTIES:\n    _th_lock - the threading lock we are using for var checking\n    _th_cond - the threading condition for var checking\n    _th_result - data returned from the function\n    _th_function - the function we are calling\n    _th_args - args to pass into the function\n    _th_kwargs - kwargs to pass into the function\n    _th_thread - thread object\n    _th_done - True means the thread has returned and set the value\n        False means thread is still running",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 217,
         "function_args": {
           "args": [
             "self",
@@ -32,6 +34,7 @@
       {
         "type": "function",
         "identifier": "done",
+        "line": 251,
         "function_args": {
           "args": [
             "self"
@@ -48,6 +51,7 @@
       {
         "type": "function",
         "identifier": "end",
+        "line": 269,
         "function_args": {
           "args": [
             "self"
@@ -64,6 +68,7 @@
       {
         "type": "function",
         "identifier": "get",
+        "line": 282,
         "function_args": {
           "args": [
             "self"
@@ -80,6 +85,7 @@
       {
         "type": "function",
         "identifier": "start",
+        "line": 307,
         "function_args": {
           "args": [
             "self"
@@ -96,6 +102,7 @@
       {
         "type": "function",
         "identifier": "_th_start",
+        "line": 323,
         "function_args": {
           "args": [
             "self"
@@ -112,6 +119,7 @@
       {
         "type": "function",
         "identifier": "_m1_zz_threading__end",
+        "line": 337,
         "function_args": {
           "args": [
             "self"

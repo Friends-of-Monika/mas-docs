@@ -2,6 +2,7 @@
   "glitchtext": {
     "type": "function",
     "identifier": "glitchtext",
+    "line": 160,
     "function_args": {
       "args": [
         "length"
@@ -17,6 +18,7 @@
   "mangleFile": {
     "type": "function",
     "identifier": "mangleFile",
+    "line": 167,
     "function_args": {
       "args": [
         "filepath",
@@ -36,6 +38,7 @@
   "resetPlayerData": {
     "type": "function",
     "identifier": "resetPlayerData",
+    "line": 185,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -50,6 +53,7 @@
   "initialSessionData": {
     "type": "function",
     "identifier": "initialSessionData",
+    "line": 272,
     "function_args": {
       "args": [],
       "pos_only_args": [],

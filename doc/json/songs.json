@@ -2,6 +2,7 @@
   "adjustVolume": {
     "type": "function",
     "identifier": "adjustVolume",
+    "line": 806,
     "function_args": {
       "args": [
         "channel",
@@ -21,6 +22,7 @@
   "getVolume": {
     "type": "function",
     "identifier": "getVolume",
+    "line": 824,
     "function_args": {
       "args": [
         "channel"
@@ -37,6 +39,7 @@
   "getUserVolume": {
     "type": "function",
     "identifier": "getUserVolume",
+    "line": 837,
     "function_args": {
       "args": [
         "channel"
@@ -53,6 +56,7 @@
   "hasMusicMuted": {
     "type": "function",
     "identifier": "hasMusicMuted",
+    "line": 854,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -67,6 +71,7 @@
   "getPlayingMusicName": {
     "type": "function",
     "identifier": "getPlayingMusicName",
+    "line": 863,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -80,6 +85,7 @@
   "initMusicChoices": {
     "type": "function",
     "identifier": "initMusicChoices",
+    "line": 903,
     "function_args": {
       "args": [
         "sayori"
@@ -97,6 +103,7 @@
   "setUserVolume": {
     "type": "function",
     "identifier": "setUserVolume",
+    "line": 950,
     "function_args": {
       "args": [
         "value",
@@ -114,6 +121,7 @@
   "_sanitizeVolume": {
     "type": "function",
     "identifier": "_sanitizeVolume",
+    "line": 965,
     "function_args": {
       "args": [
         "value"
@@ -130,6 +138,7 @@
   "_m1_zz_music_selector__paginate": {
     "type": "function",
     "identifier": "_m1_zz_music_selector__paginate",
+    "line": 982,
     "function_args": {
       "args": [
         "music_list"
@@ -146,6 +155,7 @@
   "_m1_zz_music_selector__genPage": {
     "type": "function",
     "identifier": "_m1_zz_music_selector__genPage",
+    "line": 1007,
     "function_args": {
       "args": [
         "music_list"
@@ -162,6 +172,7 @@
   "_m1_zz_music_selector__scanCustomBGM": {
     "type": "function",
     "identifier": "_m1_zz_music_selector__scanCustomBGM",
+    "line": 1022,
     "function_args": {
       "args": [
         "music_list"
@@ -178,6 +189,7 @@
   "_getAudioFile": {
     "type": "function",
     "identifier": "_getAudioFile",
+    "line": 1075,
     "function_args": {
       "args": [
         "filepath"
@@ -194,6 +206,7 @@
   "_getDispName": {
     "type": "function",
     "identifier": "_getDispName",
+    "line": 1100,
     "function_args": {
       "args": [
         "_audio_file",
@@ -212,6 +225,7 @@
   "_getLoopData": {
     "type": "function",
     "identifier": "_getLoopData",
+    "line": 1133,
     "function_args": {
       "args": [
         "_audio_file",
@@ -229,6 +243,7 @@
   "_getMP3": {
     "type": "function",
     "identifier": "_getMP3",
+    "line": 1161,
     "function_args": {
       "args": [
         "filepath"
@@ -245,6 +260,7 @@
   "_getMP3Name": {
     "type": "function",
     "identifier": "_getMP3Name",
+    "line": 1177,
     "function_args": {
       "args": [
         "_audio_file"
@@ -261,6 +277,7 @@
   "_getOgg": {
     "type": "function",
     "identifier": "_getOgg",
+    "line": 1192,
     "function_args": {
       "args": [
         "filepath"
@@ -277,6 +294,7 @@
   "_getOggName": {
     "type": "function",
     "identifier": "_getOggName",
+    "line": 1208,
     "function_args": {
       "args": [
         "_audio_file"
@@ -293,6 +311,7 @@
   "_getOggLoop": {
     "type": "function",
     "identifier": "_getOggLoop",
+    "line": 1237,
     "function_args": {
       "args": [
         "_audio_file",
@@ -310,6 +329,7 @@
   "_getOggLoopMAS": {
     "type": "function",
     "identifier": "_getOggLoopMAS",
+    "line": 1269,
     "function_args": {
       "args": [
         "loopstart",
@@ -328,6 +348,7 @@
   "_getOggLoopRPG": {
     "type": "function",
     "identifier": "_getOggLoopRPG",
+    "line": 1324,
     "function_args": {
       "args": [
         "loopstart",
@@ -346,6 +367,7 @@
   "_getOpus": {
     "type": "function",
     "identifier": "_getOpus",
+    "line": 1389,
     "function_args": {
       "args": [
         "filepath"
@@ -362,6 +384,7 @@
   "isValidExt": {
     "type": "function",
     "identifier": "isValidExt",
+    "line": 1405,
     "function_args": {
       "args": [
         "filename"
@@ -378,6 +401,7 @@
   "cleanGUIText": {
     "type": "function",
     "identifier": "cleanGUIText",
+    "line": 1422,
     "function_args": {
       "args": [
         "unclean"
@@ -394,6 +418,7 @@
   "isInMusicList": {
     "type": "function",
     "identifier": "isInMusicList",
+    "line": 1443,
     "function_args": {
       "args": [
         "filepath"

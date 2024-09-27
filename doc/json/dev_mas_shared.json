@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 298,
     "docstring": "class for analyzing persistent data objects\n\nPROPERTIES:\n    event_db - all events database\n        key: eventlabel\n        value: EventDBData object\n    property_index - index of all event objects\n        key: property name\n        value: dictionary:\n            key: the value of the property\n                (for category, each tag is a separate value)\n            value: dictionary:\n                key: eventlabel\n                value: EventDBData object",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 316,
         "function_args": {
           "args": [
             "self",
@@ -27,6 +29,7 @@
       {
         "type": "function",
         "identifier": "analyze",
+        "line": 327,
         "function_args": {
           "args": [
             "self"
@@ -43,6 +46,7 @@
       {
         "type": "function",
         "identifier": "analyze_and_report",
+        "line": 360,
         "function_args": {
           "args": [
             "in_char",
@@ -60,6 +64,7 @@
       {
         "type": "function",
         "identifier": "clear",
+        "line": 374,
         "function_args": {
           "args": [
             "self"
@@ -76,6 +81,7 @@
       {
         "type": "function",
         "identifier": "cmp_none_handler",
+        "line": 382,
         "function_args": {
           "args": [
             "arg1",
@@ -93,6 +99,7 @@
       {
         "type": "function",
         "identifier": "get_all_and_file",
+        "line": 399,
         "function_args": {
           "args": [
             "self",
@@ -117,6 +124,7 @@
       {
         "type": "function",
         "identifier": "get_all_for_prop",
+        "line": 444,
         "function_args": {
           "args": [
             "self",
@@ -139,6 +147,7 @@
       {
         "type": "function",
         "identifier": "get_matching_value",
+        "line": 485,
         "function_args": {
           "args": [
             "self",
@@ -160,6 +169,7 @@
       {
         "type": "function",
         "identifier": "multi_val_filter",
+        "line": 521,
         "function_args": {
           "args": [
             "self"
@@ -176,6 +186,7 @@
       {
         "type": "function",
         "identifier": "report_on_unlocked_pools",
+        "line": 545,
         "function_args": {
           "args": [
             "in_char",
@@ -195,6 +206,7 @@
       {
         "type": "function",
         "identifier": "report_on_unlocked_randoms",
+        "line": 562,
         "function_args": {
           "args": [
             "in_char",

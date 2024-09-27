@@ -2,6 +2,7 @@
   "add_steps": {
     "type": "function",
     "identifier": "add_steps",
+    "line": 366,
     "function_args": {
       "args": [
         "version_struct"
@@ -18,6 +19,7 @@
   "clear": {
     "type": "function",
     "identifier": "clear",
+    "line": 385,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -32,6 +34,7 @@
   "init": {
     "type": "function",
     "identifier": "init",
+    "line": 393,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -46,6 +49,7 @@
   "_vdot2vstr": {
     "type": "function",
     "identifier": "_vdot2vstr",
+    "line": 686,
     "function_args": {
       "args": [
         "version_str"

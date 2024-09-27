@@ -2,6 +2,7 @@
   "allowdismiss": {
     "type": "function",
     "identifier": "allowdismiss",
+    "line": 44,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "set_dismiss": {
     "type": "function",
     "identifier": "set_dismiss",
+    "line": 51,
     "function_args": {
       "args": [
         "value"

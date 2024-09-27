@@ -2,6 +2,7 @@
   "can_use_https": {
     "type": "function",
     "identifier": "can_use_https",
+    "line": 31,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "all_none": {
     "type": "function",
     "identifier": "all_none",
+    "line": 85,
     "function_args": {
       "args": [
         "data",
@@ -36,6 +38,7 @@
   "clean_gui_text": {
     "type": "function",
     "identifier": "clean_gui_text",
+    "line": 111,
     "function_args": {
       "args": [
         "text"
@@ -52,6 +55,7 @@
   "eqfloat": {
     "type": "function",
     "identifier": "eqfloat",
+    "line": 126,
     "function_args": {
       "args": [
         "left",
@@ -72,6 +76,7 @@
   "truncround": {
     "type": "function",
     "identifier": "truncround",
+    "line": 145,
     "function_args": {
       "args": [
         "value",
@@ -91,6 +96,7 @@
   "floatcombine_i": {
     "type": "function",
     "identifier": "floatcombine_i",
+    "line": 160,
     "function_args": {
       "args": [
         "value",
@@ -110,6 +116,7 @@
   "floatsplit": {
     "type": "function",
     "identifier": "floatsplit",
+    "line": 176,
     "function_args": {
       "args": [
         "value"
@@ -126,6 +133,7 @@
   "floatsplit_i": {
     "type": "function",
     "identifier": "floatsplit_i",
+    "line": 193,
     "function_args": {
       "args": [
         "value",
@@ -145,6 +153,7 @@
   "pdget": {
     "type": "function",
     "identifier": "pdget",
+    "line": 212,
     "function_args": {
       "args": [
         "key",
@@ -167,6 +176,7 @@
   "td2hr": {
     "type": "function",
     "identifier": "td2hr",
+    "line": 238,
     "function_args": {
       "args": [
         "duration"
@@ -183,6 +193,7 @@
   "get_localzone": {
     "type": "function",
     "identifier": "get_localzone",
+    "line": 250,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -197,6 +208,7 @@
   "reload_localzone": {
     "type": "function",
     "identifier": "reload_localzone",
+    "line": 275,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -211,6 +223,7 @@
   "local_to_utc": {
     "type": "function",
     "identifier": "local_to_utc",
+    "line": 289,
     "function_args": {
       "args": [
         "local_dt",
@@ -230,6 +243,7 @@
   "utc_to_any": {
     "type": "function",
     "identifier": "utc_to_any",
+    "line": 317,
     "function_args": {
       "args": [
         "utc_dt",
@@ -247,6 +261,7 @@
   "utc_to_local": {
     "type": "function",
     "identifier": "utc_to_local",
+    "line": 332,
     "function_args": {
       "args": [
         "utc_dt",
@@ -266,6 +281,7 @@
   "stdout_as": {
     "type": "function",
     "identifier": "stdout_as",
+    "line": 356,
     "function_args": {
       "args": [
         "outstream"
@@ -282,6 +298,7 @@
   "tryparsedt": {
     "type": "function",
     "identifier": "tryparsedt",
+    "line": 371,
     "function_args": {
       "args": [
         "_datetime",
@@ -303,6 +320,7 @@
   "is_file_present": {
     "type": "function",
     "identifier": "is_file_present",
+    "line": 417,
     "function_args": {
       "args": [
         "filename"
@@ -319,6 +337,7 @@
   "weightedChoice": {
     "type": "function",
     "identifier": "weightedChoice",
+    "line": 431,
     "function_args": {
       "args": [
         "choice_weight_tuple_list"
@@ -335,6 +354,7 @@
   "tryparsefloat": {
     "type": "function",
     "identifier": "tryparsefloat",
+    "line": 489,
     "function_args": {
       "args": [
         "value",
@@ -354,6 +374,7 @@
   "bullet_list": {
     "type": "function",
     "identifier": "bullet_list",
+    "line": 507,
     "function_args": {
       "args": [
         "_list",
@@ -373,6 +394,7 @@
   "nested_defaultdict": {
     "type": "function",
     "identifier": "nested_defaultdict",
+    "line": 523,
     "function_args": {
       "args": [
         "final_factory",
@@ -393,6 +415,7 @@
   "add_years": {
     "type": "function",
     "identifier": "add_years",
+    "line": 549,
     "function_args": {
       "args": [
         "initial_date",
@@ -410,6 +433,7 @@
   "add_months": {
     "type": "function",
     "identifier": "add_months",
+    "line": 573,
     "function_args": {
       "args": [
         "starting_date",
@@ -427,6 +451,7 @@
   "sod": {
     "type": "function",
     "identifier": "sod",
+    "line": 627,
     "function_args": {
       "args": [
         "starting_date"
@@ -442,6 +467,7 @@
   "mdnt": {
     "type": "function",
     "identifier": "mdnt",
+    "line": 631,
     "function_args": {
       "args": [
         "starting_date"
@@ -458,6 +484,7 @@
   "am3": {
     "type": "function",
     "identifier": "am3",
+    "line": 650,
     "function_args": {
       "args": [
         "_datetime"
@@ -474,6 +501,7 @@
   "secInDay": {
     "type": "function",
     "identifier": "secInDay",
+    "line": 669,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -488,6 +516,7 @@
   "time2sec": {
     "type": "function",
     "identifier": "time2sec",
+    "line": 676,
     "function_args": {
       "args": [
         "_time"
@@ -504,6 +533,7 @@
   "fli_indk": {
     "type": "function",
     "identifier": "fli_indk",
+    "line": 688,
     "function_args": {
       "args": [
         "lst",
@@ -521,6 +551,7 @@
   "insert_sort": {
     "type": "function",
     "identifier": "insert_sort",
+    "line": 714,
     "function_args": {
       "args": [
         "sort_list",
@@ -539,6 +570,7 @@
   "insert_sort_compare": {
     "type": "function",
     "identifier": "insert_sort_compare",
+    "line": 734,
     "function_args": {
       "args": [
         "sort_list",
@@ -557,6 +589,7 @@
   "insert_sort_keyless": {
     "type": "function",
     "identifier": "insert_sort_keyless",
+    "line": 757,
     "function_args": {
       "args": [
         "sort_list",
@@ -574,6 +607,7 @@
   "normalize_points": {
     "type": "function",
     "identifier": "normalize_points",
+    "line": 776,
     "function_args": {
       "args": [
         "points",
@@ -594,6 +628,7 @@
   "nz_count": {
     "type": "function",
     "identifier": "nz_count",
+    "line": 806,
     "function_args": {
       "args": [
         "value_list"
@@ -610,6 +645,7 @@
   "ev_distribute": {
     "type": "function",
     "identifier": "ev_distribute",
+    "line": 824,
     "function_args": {
       "args": [
         "value_list",
@@ -630,6 +666,7 @@
   "fz_distribute": {
     "type": "function",
     "identifier": "fz_distribute",
+    "line": 861,
     "function_args": {
       "args": [
         "value_list"
@@ -646,6 +683,7 @@
   "ip_distribute": {
     "type": "function",
     "identifier": "ip_distribute",
+    "line": 900,
     "function_args": {
       "args": [
         "value_list",
@@ -663,6 +701,7 @@
   "lo_distribute": {
     "type": "function",
     "identifier": "lo_distribute",
+    "line": 922,
     "function_args": {
       "args": [
         "value_list",
@@ -685,6 +724,7 @@
   "_EVgenY": {
     "type": "function",
     "identifier": "_EVgenY",
+    "line": 972,
     "function_args": {
       "args": [
         "_start",
@@ -704,6 +744,7 @@
   "randomblob": {
     "type": "function",
     "identifier": "randomblob",
+    "line": 1004,
     "function_args": {
       "args": [
         "size",
@@ -723,6 +764,7 @@
   "randomblob_fast": {
     "type": "function",
     "identifier": "randomblob_fast",
+    "line": 1041,
     "function_args": {
       "args": [
         "size"
@@ -739,6 +781,7 @@
   "intersperse": {
     "type": "function",
     "identifier": "intersperse",
+    "line": 1071,
     "function_args": {
       "args": [
         "_list",
@@ -756,6 +799,7 @@
   "log_entry": {
     "type": "function",
     "identifier": "log_entry",
+    "line": 1080,
     "function_args": {
       "args": [
         "entry_log",
@@ -776,6 +820,7 @@
     "class_bases": [
       "ctypes.BigEndianStructure"
     ],
+    "line": 1094,
     "class_functions": []
   },
   "FSCRAM": {
@@ -784,11 +829,13 @@
     "class_bases": [
       "ctypes.BigEndianStructure"
     ],
+    "line": 1114,
     "class_functions": []
   },
   "_ntoub": {
     "type": "function",
     "identifier": "_ntoub",
+    "line": 1124,
     "function_args": {
       "args": [
         "num",
@@ -806,6 +853,7 @@
   "_itoIS": {
     "type": "function",
     "identifier": "_itoIS",
+    "line": 1138,
     "function_args": {
       "args": [
         "num"
@@ -822,6 +870,7 @@
   "_IStoi": {
     "type": "function",
     "identifier": "_IStoi",
+    "line": 1163,
     "function_args": {
       "args": [
         "packednum"
@@ -838,6 +887,7 @@
   "_ftoFS": {
     "type": "function",
     "identifier": "_ftoFS",
+    "line": 1181,
     "function_args": {
       "args": [
         "num"
@@ -854,6 +904,7 @@
   "_FStof": {
     "type": "function",
     "identifier": "_FStof",
+    "line": 1198,
     "function_args": {
       "args": [
         "packednum"
@@ -870,6 +921,7 @@
   "_splitfloat": {
     "type": "function",
     "identifier": "_splitfloat",
+    "line": 1214,
     "function_args": {
       "args": [
         "num"
@@ -886,6 +938,7 @@
   "sanitize_filename": {
     "type": "function",
     "identifier": "sanitize_filename",
+    "line": 1230,
     "function_args": {
       "args": [
         "s"

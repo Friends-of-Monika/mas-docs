@@ -2,6 +2,7 @@
   "check_scr_menu_return_values": {
     "type": "function",
     "identifier": "check_scr_menu_return_values",
+    "line": 446,
     "function_args": {
       "args": [
         "buttons_data",
@@ -19,6 +20,7 @@
   "check_scr_menu_choose_prompt": {
     "type": "function",
     "identifier": "check_scr_menu_choose_prompt",
+    "line": 459,
     "function_args": {
       "args": [
         "buttons_data",
@@ -37,6 +39,7 @@
   "twopane_menu_delegate_callback": {
     "type": "function",
     "identifier": "twopane_menu_delegate_callback",
+    "line": 489,
     "function_args": {
       "args": [
         "ev_label"
@@ -53,6 +56,7 @@
   "_twopane_menu_filter_events": {
     "type": "function",
     "identifier": "_twopane_menu_filter_events",
+    "line": 505,
     "function_args": {
       "args": [
         "ev",
@@ -75,6 +79,7 @@
   "_twopane_menu_sort_events": {
     "type": "function",
     "identifier": "_twopane_menu_sort_events",
+    "line": 563,
     "function_args": {
       "args": [
         "ev",
@@ -93,6 +98,7 @@
   "_twopane_menu_search_events": {
     "type": "function",
     "identifier": "_twopane_menu_search_events",
+    "line": 617,
     "function_args": {
       "args": [
         "search_query"
@@ -109,6 +115,7 @@
   "twopane_menu_adj_ranged_callback": {
     "type": "function",
     "identifier": "twopane_menu_adj_ranged_callback",
+    "line": 665,
     "function_args": {
       "args": [
         "adj"
@@ -125,6 +132,7 @@
   "twopane_menu_search_callback": {
     "type": "function",
     "identifier": "twopane_menu_search_callback",
+    "line": 686,
     "function_args": {
       "args": [
         "search_query"

@@ -2,6 +2,7 @@
   "resetDefaultValues": {
     "type": "function",
     "identifier": "resetDefaultValues",
+    "line": 203,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "getLabelPrefix": {
     "type": "function",
     "identifier": "getLabelPrefix",
+    "line": 216,
     "function_args": {
       "args": [
         "test_str"
@@ -32,6 +34,7 @@
   "getDerandomedEVLs": {
     "type": "function",
     "identifier": "getDerandomedEVLs",
+    "line": 235,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -46,6 +49,7 @@
   "shouldRandom": {
     "type": "function",
     "identifier": "shouldRandom",
+    "line": 260,
     "function_args": {
       "args": [
         "eventlabel"
@@ -62,6 +66,7 @@
   "wrappedGainAffection": {
     "type": "function",
     "identifier": "wrappedGainAffection",
+    "line": 273,
     "function_args": {
       "args": [
         "amount",
@@ -84,6 +89,7 @@
   "removeDerand": {
     "type": "function",
     "identifier": "removeDerand",
+    "line": 281,
     "function_args": {
       "args": [
         "eventlabel"

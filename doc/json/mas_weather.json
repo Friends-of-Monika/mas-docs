@@ -2,6 +2,7 @@
   "_generate_old_image": {
     "type": "function",
     "identifier": "_generate_old_image",
+    "line": 105,
     "function_args": {
       "args": [
         "disp"
@@ -18,6 +19,7 @@
   "weatherProgress": {
     "type": "function",
     "identifier": "weatherProgress",
+    "line": 354,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -32,6 +34,7 @@
   "loadMWData": {
     "type": "function",
     "identifier": "loadMWData",
+    "line": 409,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -46,6 +49,7 @@
   "saveMWData": {
     "type": "function",
     "identifier": "saveMWData",
+    "line": 424,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -60,6 +64,7 @@
   "unlockedWeathers": {
     "type": "function",
     "identifier": "unlockedWeathers",
+    "line": 432,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -74,6 +79,7 @@
   "_weather_rain_entry": {
     "type": "function",
     "identifier": "_weather_rain_entry",
+    "line": 448,
     "function_args": {
       "args": [
         "_old"
@@ -90,6 +96,7 @@
   "_weather_rain_exit": {
     "type": "function",
     "identifier": "_weather_rain_exit",
+    "line": 471,
     "function_args": {
       "args": [
         "_new"
@@ -106,6 +113,7 @@
   "_weather_snow_entry": {
     "type": "function",
     "identifier": "_weather_snow_entry",
+    "line": 488,
     "function_args": {
       "args": [
         "_old"
@@ -122,6 +130,7 @@
   "_weather_snow_exit": {
     "type": "function",
     "identifier": "_weather_snow_exit",
+    "line": 505,
     "function_args": {
       "args": [
         "_new"
@@ -138,6 +147,7 @@
   "_weather_thunder_entry": {
     "type": "function",
     "identifier": "_weather_thunder_entry",
+    "line": 513,
     "function_args": {
       "args": [
         "_old"
@@ -154,6 +164,7 @@
   "_weather_thunder_exit": {
     "type": "function",
     "identifier": "_weather_thunder_exit",
+    "line": 526,
     "function_args": {
       "args": [
         "_new"
@@ -170,6 +181,7 @@
   "_weather_overcast_entry": {
     "type": "function",
     "identifier": "_weather_overcast_entry",
+    "line": 539,
     "function_args": {
       "args": [
         "_old"
@@ -186,6 +198,7 @@
   "_weather_overcast_exit": {
     "type": "function",
     "identifier": "_weather_overcast_exit",
+    "line": 547,
     "function_args": {
       "args": [
         "_new"
@@ -202,6 +215,7 @@
   "shouldRainToday": {
     "type": "function",
     "identifier": "shouldRainToday",
+    "line": 643,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -215,6 +229,7 @@
   "_determineCloudyWeather": {
     "type": "function",
     "identifier": "_determineCloudyWeather",
+    "line": 673,
     "function_args": {
       "args": [
         "rain_chance",

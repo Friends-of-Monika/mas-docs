@@ -2,6 +2,7 @@
   "build_anni": {
     "type": "function",
     "identifier": "build_anni",
+    "line": 207,
     "function_args": {
       "args": [
         "years",
@@ -26,6 +27,7 @@
   "build_anni_end": {
     "type": "function",
     "identifier": "build_anni_end",
+    "line": 257,
     "function_args": {
       "args": [
         "years",
@@ -48,6 +50,7 @@
   "isAnni": {
     "type": "function",
     "identifier": "isAnni",
+    "line": 265,
     "function_args": {
       "args": [
         "milestone"
@@ -66,6 +69,7 @@
   "isAnniWeek": {
     "type": "function",
     "identifier": "isAnniWeek",
+    "line": 323,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -79,6 +83,7 @@
   "isAnniOneMonth": {
     "type": "function",
     "identifier": "isAnniOneMonth",
+    "line": 326,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -92,6 +97,7 @@
   "isAnniThreeMonth": {
     "type": "function",
     "identifier": "isAnniThreeMonth",
+    "line": 329,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -105,6 +111,7 @@
   "isAnniSixMonth": {
     "type": "function",
     "identifier": "isAnniSixMonth",
+    "line": 332,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -118,6 +125,7 @@
   "isAnniAny": {
     "type": "function",
     "identifier": "isAnniAny",
+    "line": 335,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -131,6 +139,7 @@
   "anniCount": {
     "type": "function",
     "identifier": "anniCount",
+    "line": 338,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -145,6 +154,7 @@
   "pastOneWeek": {
     "type": "function",
     "identifier": "pastOneWeek",
+    "line": 362,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -159,6 +169,7 @@
   "pastOneMonth": {
     "type": "function",
     "identifier": "pastOneMonth",
+    "line": 370,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -173,6 +184,7 @@
   "pastThreeMonths": {
     "type": "function",
     "identifier": "pastThreeMonths",
+    "line": 378,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -187,6 +199,7 @@
   "pastSixMonths": {
     "type": "function",
     "identifier": "pastSixMonths",
+    "line": 386,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -201,6 +214,7 @@
   "_month_adjuster": {
     "type": "function",
     "identifier": "_month_adjuster",
+    "line": 576,
     "function_args": {
       "args": [
         "ev",
@@ -220,6 +234,7 @@
   "_day_adjuster": {
     "type": "function",
     "identifier": "_day_adjuster",
+    "line": 594,
     "function_args": {
       "args": [
         "ev",
@@ -239,6 +254,7 @@
   "add_cal_annis": {
     "type": "function",
     "identifier": "add_cal_annis",
+    "line": 612,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -253,6 +269,7 @@
   "clean_cal_annis": {
     "type": "function",
     "identifier": "clean_cal_annis",
+    "line": 620,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -267,6 +284,7 @@
   "reset_annis": {
     "type": "function",
     "identifier": "reset_annis",
+    "line": 629,
     "function_args": {
       "args": [
         "new_start_dt"
@@ -283,6 +301,7 @@
   "unlock_past_annis": {
     "type": "function",
     "identifier": "unlock_past_annis",
+    "line": 682,
     "function_args": {
       "args": [],
       "pos_only_args": [],

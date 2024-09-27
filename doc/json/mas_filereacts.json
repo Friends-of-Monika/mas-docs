@@ -2,6 +2,7 @@
   "addReaction": {
     "type": "function",
     "identifier": "addReaction",
+    "line": 730,
     "function_args": {
       "args": [
         "ev_label",
@@ -26,6 +27,7 @@
   "_initConnectorQuips": {
     "type": "function",
     "identifier": "_initConnectorQuips",
+    "line": 776,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -40,6 +42,7 @@
   "_initStarterQuips": {
     "type": "function",
     "identifier": "_initStarterQuips",
+    "line": 787,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -54,6 +57,7 @@
   "build_gift_react_labels": {
     "type": "function",
     "identifier": "build_gift_react_labels",
+    "line": 798,
     "function_args": {
       "args": [
         "evb_details",
@@ -84,6 +88,7 @@
   "build_exclusion_list": {
     "type": "function",
     "identifier": "build_exclusion_list",
+    "line": 917,
     "function_args": {
       "args": [
         "_key"
@@ -100,6 +105,7 @@
   "check_for_gifts": {
     "type": "function",
     "identifier": "check_for_gifts",
+    "line": 933,
     "function_args": {
       "args": [
         "found_map",
@@ -124,6 +130,7 @@
   "process_gifts": {
     "type": "function",
     "identifier": "process_gifts",
+    "line": 998,
     "function_args": {
       "args": [
         "gifts",
@@ -147,6 +154,7 @@
   "react_to_gifts": {
     "type": "function",
     "identifier": "react_to_gifts",
+    "line": 1075,
     "function_args": {
       "args": [
         "found_map",
@@ -166,6 +174,7 @@
   "register_gen_grds": {
     "type": "function",
     "identifier": "register_gen_grds",
+    "line": 1130,
     "function_args": {
       "args": [
         "details"
@@ -182,6 +191,7 @@
   "register_sp_grds": {
     "type": "function",
     "identifier": "register_sp_grds",
+    "line": 1142,
     "function_args": {
       "args": [
         "details"
@@ -198,6 +208,7 @@
   "_pick_starter_label": {
     "type": "function",
     "identifier": "_pick_starter_label",
+    "line": 1154,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -212,6 +223,7 @@
   "_core_delete": {
     "type": "function",
     "identifier": "_core_delete",
+    "line": 1170,
     "function_args": {
       "args": [
         "_filename",
@@ -229,6 +241,7 @@
   "_core_delete_list": {
     "type": "function",
     "identifier": "_core_delete_list",
+    "line": 1198,
     "function_args": {
       "args": [
         "_filename_list",
@@ -246,6 +259,7 @@
   "_register_received_gift": {
     "type": "function",
     "identifier": "_register_received_gift",
+    "line": 1210,
     "function_args": {
       "args": [
         "eventlabel"
@@ -262,6 +276,7 @@
   "_get_full_stats_for_date": {
     "type": "function",
     "identifier": "_get_full_stats_for_date",
+    "line": 1226,
     "function_args": {
       "args": [
         "date"
@@ -280,6 +295,7 @@
   "delete_file": {
     "type": "function",
     "identifier": "delete_file",
+    "line": 1243,
     "function_args": {
       "args": [
         "_filename"
@@ -296,6 +312,7 @@
   "delete_files": {
     "type": "function",
     "identifier": "delete_files",
+    "line": 1254,
     "function_args": {
       "args": [
         "_filename_list"
@@ -312,6 +329,7 @@
   "th_delete_file": {
     "type": "function",
     "identifier": "th_delete_file",
+    "line": 1265,
     "function_args": {
       "args": [
         "_filename"
@@ -328,6 +346,7 @@
   "th_delete_files": {
     "type": "function",
     "identifier": "th_delete_files",
+    "line": 1276,
     "function_args": {
       "args": [
         "_filename_list"
@@ -344,6 +363,7 @@
   "delete_all": {
     "type": "function",
     "identifier": "delete_all",
+    "line": 1287,
     "function_args": {
       "args": [
         "_map"
@@ -360,6 +380,7 @@
   "get_report_for_date": {
     "type": "function",
     "identifier": "get_report_for_date",
+    "line": 1299,
     "function_args": {
       "args": [
         "date"

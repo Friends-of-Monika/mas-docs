@@ -2,6 +2,7 @@
   "has_day_past_tip": {
     "type": "function",
     "identifier": "has_day_past_tip",
+    "line": 45,
     "function_args": {
       "args": [
         "tip_num"

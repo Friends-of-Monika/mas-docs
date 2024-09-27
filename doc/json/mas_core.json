@@ -2,6 +2,7 @@
   "show_display_say": {
     "type": "function",
     "identifier": "show_display_say",
+    "line": 30,
     "function_args": {
       "args": [
         "who",

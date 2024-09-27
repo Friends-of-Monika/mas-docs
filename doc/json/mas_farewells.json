@@ -2,6 +2,7 @@
   "resetDockstatFlowVars": {
     "type": "function",
     "identifier": "resetDockstatFlowVars",
+    "line": 189,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "_filterFarewell": {
     "type": "function",
     "identifier": "_filterFarewell",
+    "line": 200,
     "function_args": {
       "args": [
         "ev",
@@ -35,6 +37,7 @@
   "selectFarewell": {
     "type": "function",
     "identifier": "selectFarewell",
+    "line": 268,
     "function_args": {
       "args": [
         "check_time"

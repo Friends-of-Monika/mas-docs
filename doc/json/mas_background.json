@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 268,
     "docstring": "Encapsulation class that knows the information needed for a bg change\nto go smoothly.\n\nPROPERTIES:\n    hides - dict:\n        key: image tag (override)\n        value: MASAdvancedDecoFrame to hide\n    shows - dict:\n        key: image tag (override)\n        value: tuple:\n            [0] - image tag (actual)\n            [1] - MASAdvancedDecoFrame to show",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 284,
         "function_args": {
           "args": [
             "self",
@@ -31,6 +33,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 304,
         "function_args": {
           "args": [
             "self"
@@ -47,6 +50,7 @@
       {
         "type": "function",
         "identifier": "__len__",
+        "line": 310,
         "function_args": {
           "args": [
             "self"
@@ -64,6 +68,7 @@
   "build": {
     "type": "function",
     "identifier": "build",
+    "line": 313,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -78,6 +83,7 @@
   "buildupdate": {
     "type": "function",
     "identifier": "buildupdate",
+    "line": 321,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -92,6 +98,7 @@
   "default_MBGFM": {
     "type": "function",
     "identifier": "default_MBGFM",
+    "line": 332,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -106,6 +113,7 @@
   "loadMBGData": {
     "type": "function",
     "identifier": "loadMBGData",
+    "line": 367,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -120,6 +128,7 @@
   "saveMBGData": {
     "type": "function",
     "identifier": "saveMBGData",
+    "line": 381,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -134,6 +143,7 @@
   "getUnlockedBGCount": {
     "type": "function",
     "identifier": "getUnlockedBGCount",
+    "line": 388,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -148,6 +158,7 @@
   "hasXUnlockedBGs": {
     "type": "function",
     "identifier": "hasXUnlockedBGs",
+    "line": 398,
     "function_args": {
       "args": [
         "min_amt_unlocked"
@@ -164,6 +175,7 @@
   "getBackground": {
     "type": "function",
     "identifier": "getBackground",
+    "line": 410,
     "function_args": {
       "args": [
         "id_"
@@ -180,6 +192,7 @@
   "_toggleBackgroundUnlock": {
     "type": "function",
     "identifier": "_toggleBackgroundUnlock",
+    "line": 423,
     "function_args": {
       "args": [
         "id_",
@@ -197,6 +210,7 @@
   "unlockBackground": {
     "type": "function",
     "identifier": "unlockBackground",
+    "line": 436,
     "function_args": {
       "args": [
         "id_"
@@ -213,6 +227,7 @@
   "lockBackground": {
     "type": "function",
     "identifier": "lockBackground",
+    "line": 445,
     "function_args": {
       "args": [
         "id_"
@@ -229,6 +244,7 @@
   "isBackgroundUnlocked": {
     "type": "function",
     "identifier": "isBackgroundUnlocked",
+    "line": 454,
     "function_args": {
       "args": [
         "id_"
@@ -245,6 +261,7 @@
   "log_bg": {
     "type": "function",
     "identifier": "log_bg",
+    "line": 469,
     "function_args": {
       "args": [
         "bg_obj",
@@ -264,6 +281,7 @@
   "run_gbl_flt_change": {
     "type": "function",
     "identifier": "run_gbl_flt_change",
+    "line": 673,
     "function_args": {
       "args": [
         "old_flt",
@@ -282,6 +300,7 @@
   "_gbl_flt_change": {
     "type": "function",
     "identifier": "_gbl_flt_change",
+    "line": 692,
     "function_args": {
       "args": [
         "old_flt",
@@ -300,6 +319,7 @@
   "_gbl_chunk_change": {
     "type": "function",
     "identifier": "_gbl_chunk_change",
+    "line": 720,
     "function_args": {
       "args": [
         "old_chunk",
@@ -318,6 +338,7 @@
   "_def_background_entry": {
     "type": "function",
     "identifier": "_def_background_entry",
+    "line": 749,
     "function_args": {
       "args": [
         "_old"
@@ -334,6 +355,7 @@
   "_def_background_exit": {
     "type": "function",
     "identifier": "_def_background_exit",
+    "line": 772,
     "function_args": {
       "args": [
         "_new"

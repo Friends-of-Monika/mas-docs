@@ -2,6 +2,7 @@
   "_checkInProgressGame": {
     "type": "function",
     "identifier": "_checkInProgressGame",
+    "line": 700,
     "function_args": {
       "args": [
         "pgn_game",
@@ -19,6 +20,7 @@
   "isInProgressGame": {
     "type": "function",
     "identifier": "isInProgressGame",
+    "line": 743,
     "function_args": {
       "args": [
         "filename",
@@ -36,6 +38,7 @@
   "_increment_chess_difficulty": {
     "type": "function",
     "identifier": "_increment_chess_difficulty",
+    "line": 771,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -50,6 +53,7 @@
   "_decrement_chess_difficulty": {
     "type": "function",
     "identifier": "_decrement_chess_difficulty",
+    "line": 789,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -64,6 +68,7 @@
   "_get_player_color": {
     "type": "function",
     "identifier": "_get_player_color",
+    "line": 806,
     "function_args": {
       "args": [
         "loaded_game"
@@ -80,6 +85,7 @@
   "_get_piece_chance": {
     "type": "function",
     "identifier": "_get_piece_chance",
+    "line": 820,
     "function_args": {
       "args": [
         "piece_type",
@@ -98,6 +104,7 @@
   "select_piece": {
     "type": "function",
     "identifier": "select_piece",
+    "line": 837,
     "function_args": {
       "args": [
         "remaining_points",
@@ -115,6 +122,7 @@
   "_gen_side": {
     "type": "function",
     "identifier": "_gen_side",
+    "line": 870,
     "function_args": {
       "args": [
         "white",
@@ -135,6 +143,7 @@
   "_validate_sides": {
     "type": "function",
     "identifier": "_validate_sides",
+    "line": 931,
     "function_args": {
       "args": [
         "white_front",
@@ -154,6 +163,7 @@
   "generate_random_fen": {
     "type": "function",
     "identifier": "generate_random_fen",
+    "line": 1024,
     "function_args": {
       "args": [
         "is_player_white"
@@ -172,6 +182,7 @@
   "generate_960_fen": {
     "type": "function",
     "identifier": "generate_960_fen",
+    "line": 1090,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -186,6 +197,7 @@
   "enqueue_output": {
     "type": "function",
     "identifier": "enqueue_output",
+    "line": 1157,
     "function_args": {
       "args": [
         "out",

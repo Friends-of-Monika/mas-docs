@@ -2,6 +2,7 @@
   "_m1_script0x2dcompliments__set_wait_time": {
     "type": "function",
     "identifier": "_m1_script0x2dcompliments__set_wait_time",
+    "line": 88,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "compliment_delegate_callback": {
     "type": "function",
     "identifier": "compliment_delegate_callback",
+    "line": 95,
     "function_args": {
       "args": [],
       "pos_only_args": [],

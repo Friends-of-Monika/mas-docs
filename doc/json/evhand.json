@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 523,
     "docstring": "Representation of an EventListItem (ELI)",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 540,
         "function_args": {
           "args": [
             "self",
@@ -27,6 +29,7 @@
       {
         "type": "function",
         "identifier": "__repr__",
+        "line": 549,
         "function_args": {
           "args": [
             "self"
@@ -42,6 +45,7 @@
       {
         "type": "function",
         "identifier": "build",
+        "line": 556,
         "function_args": {
           "args": [
             "evl"
@@ -58,6 +62,7 @@
       {
         "type": "function",
         "identifier": "_build_raw",
+        "line": 569,
         "function_args": {
           "args": [
             "evl"
@@ -74,6 +79,7 @@
       {
         "type": "function",
         "identifier": "_raw",
+        "line": 588,
         "function_args": {
           "args": [
             "self"
@@ -90,6 +96,7 @@
       {
         "type": "function",
         "identifier": "event_label",
+        "line": 598,
         "function_args": {
           "args": [
             "self"
@@ -106,6 +113,7 @@
       {
         "type": "function",
         "identifier": "notify",
+        "line": 614,
         "function_args": {
           "args": [
             "self"
@@ -122,6 +130,7 @@
       {
         "type": "function",
         "identifier": "context",
+        "line": 623,
         "function_args": {
           "args": [
             "self"
@@ -140,6 +149,7 @@
   "addIfNew": {
     "type": "function",
     "identifier": "addIfNew",
+    "line": 638,
     "function_args": {
       "args": [
         "items",
@@ -156,6 +166,7 @@
   "tuplizeEventLabelList": {
     "type": "function",
     "identifier": "tuplizeEventLabelList",
+    "line": 655,
     "function_args": {
       "args": [
         "key_list",
@@ -172,6 +183,7 @@
   "_isFuture": {
     "type": "function",
     "identifier": "_isFuture",
+    "line": 671,
     "function_args": {
       "args": [
         "ev",
@@ -191,6 +203,7 @@
   "_isPast": {
     "type": "function",
     "identifier": "_isPast",
+    "line": 703,
     "function_args": {
       "args": [
         "ev",
@@ -210,6 +223,7 @@
   "_isPresent": {
     "type": "function",
     "identifier": "_isPresent",
+    "line": 735,
     "function_args": {
       "args": [
         "ev"
@@ -226,6 +240,7 @@
   "_hideEvent": {
     "type": "function",
     "identifier": "_hideEvent",
+    "line": 763,
     "function_args": {
       "args": [
         "event",
@@ -251,6 +266,7 @@
   "_hideEventLabel": {
     "type": "function",
     "identifier": "_hideEventLabel",
+    "line": 788,
     "function_args": {
       "args": [
         "eventlabel",
@@ -278,6 +294,7 @@
   "_lockEvent": {
     "type": "function",
     "identifier": "_lockEvent",
+    "line": 810,
     "function_args": {
       "args": [
         "ev"
@@ -294,6 +311,7 @@
   "_lockEventLabel": {
     "type": "function",
     "identifier": "_lockEventLabel",
+    "line": 817,
     "function_args": {
       "args": [
         "evlabel",
@@ -313,6 +331,7 @@
   "_unlockEvent": {
     "type": "function",
     "identifier": "_unlockEvent",
+    "line": 824,
     "function_args": {
       "args": [
         "ev"
@@ -329,6 +348,7 @@
   "_unlockEventLabel": {
     "type": "function",
     "identifier": "_unlockEventLabel",
+    "line": 832,
     "function_args": {
       "args": [
         "evlabel",
@@ -348,6 +368,7 @@
   "addYearsetBlacklist": {
     "type": "function",
     "identifier": "addYearsetBlacklist",
+    "line": 839,
     "function_args": {
       "args": [
         "evl",
@@ -365,6 +386,7 @@
   "cleanYearsetBlacklist": {
     "type": "function",
     "identifier": "cleanYearsetBlacklist",
+    "line": 852,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -379,6 +401,7 @@
   "isYearsetBlacklisted": {
     "type": "function",
     "identifier": "isYearsetBlacklisted",
+    "line": 862,
     "function_args": {
       "args": [
         "evl"
@@ -395,6 +418,7 @@
   "actionPush": {
     "type": "function",
     "identifier": "actionPush",
+    "line": 973,
     "function_args": {
       "args": [
         "ev"
@@ -411,6 +435,7 @@
   "actionQueue": {
     "type": "function",
     "identifier": "actionQueue",
+    "line": 983,
     "function_args": {
       "args": [
         "ev"
@@ -427,6 +452,7 @@
   "actionUnlock": {
     "type": "function",
     "identifier": "actionUnlock",
+    "line": 993,
     "function_args": {
       "args": [
         "ev"
@@ -443,6 +469,7 @@
   "actionRandom": {
     "type": "function",
     "identifier": "actionRandom",
+    "line": 1006,
     "function_args": {
       "args": [
         "ev"
@@ -459,6 +486,7 @@
   "actionPool": {
     "type": "function",
     "identifier": "actionPool",
+    "line": 1019,
     "function_args": {
       "args": [
         "ev"

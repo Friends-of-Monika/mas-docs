@@ -2,6 +2,7 @@
   "_add_monika_words": {
     "type": "function",
     "identifier": "_add_monika_words",
+    "line": 265,
     "function_args": {
       "args": [
         "wordlist"
@@ -17,6 +18,7 @@
   "copyWordsList": {
     "type": "function",
     "identifier": "copyWordsList",
+    "line": 278,
     "function_args": {
       "args": [
         "_mode"
@@ -33,6 +35,7 @@
   "_buildWordList": {
     "type": "function",
     "identifier": "_buildWordList",
+    "line": 297,
     "function_args": {
       "args": [
         "filepath",
@@ -50,6 +53,7 @@
   "buildEasyList": {
     "type": "function",
     "identifier": "buildEasyList",
+    "line": 312,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -64,6 +68,7 @@
   "buildNormalList": {
     "type": "function",
     "identifier": "buildNormalList",
+    "line": 337,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -78,6 +83,7 @@
   "buildHardList": {
     "type": "function",
     "identifier": "buildHardList",
+    "line": 348,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -92,6 +98,7 @@
   "addPlayername": {
     "type": "function",
     "identifier": "addPlayername",
+    "line": 359,
     "function_args": {
       "args": [
         "_mode"
@@ -108,6 +115,7 @@
   "removePlayername": {
     "type": "function",
     "identifier": "removePlayername",
+    "line": 376,
     "function_args": {
       "args": [
         "_mode"
@@ -124,6 +132,7 @@
   "randomSelect": {
     "type": "function",
     "identifier": "randomSelect",
+    "line": 388,
     "function_args": {
       "args": [
         "_mode"
@@ -140,6 +149,7 @@
   "wordToDisplay": {
     "type": "function",
     "identifier": "wordToDisplay",
+    "line": 411,
     "function_args": {
       "args": [
         "word"

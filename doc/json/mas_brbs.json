@@ -2,6 +2,7 @@
   "get_wb_quip": {
     "type": "function",
     "identifier": "get_wb_quip",
+    "line": 230,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "was_idle_for_at_least": {
     "type": "function",
     "identifier": "was_idle_for_at_least",
+    "line": 240,
     "function_args": {
       "args": [
         "idle_time",

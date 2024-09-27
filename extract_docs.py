@@ -11,8 +11,8 @@ import json
 import ast
 import re
 
-ClassStruct = Tuple[str, List[ast.expr], str | None, List[ast.FunctionDef]]
-FuncStruct = Tuple[str, ast.arguments, str | None]
+ClassStruct = Tuple[str, List[ast.expr], str | None, List[ast.FunctionDef], int]
+FuncStruct = Tuple[str, ast.arguments, str | None, int]
 DocDict = Dict[str, Any]
 
 
@@ -38,7 +38,7 @@ def decompose_func(node: ast.FunctionDef) -> FuncStruct:
         if isinstance(node.body[0].value, ast.Constant):
             docstring = node.body[0].value.value
 
-    return f_name, f_args, docstring
+    return f_name, f_args, docstring, node.lineno
 
 def decompose_class(node: ast.ClassDef) -> ClassStruct:
     """Decomposes class definition to name, bases, docstring and methods."""
@@ -52,7 +52,7 @@ def decompose_class(node: ast.ClassDef) -> ClassStruct:
 
     methods = [decompose_func(child) for child in node.body
                if isinstance(child, ast.FunctionDef)]
-    return c_name, c_bases, docstring, methods
+    return c_name, c_bases, docstring, methods, node.lineno
 
 def unwind_attr(node: ast.Attribute) -> str:
     """Unwinds attribute chain and returns it in dot notation."""
@@ -86,6 +86,7 @@ def export_class_doc(struct: ClassStruct) -> Dict[str, Any]:
     data["type"] = "class"
     data["identifier"] = struct[0]
     data["class_bases"] = export_class_bases(struct[1])
+    data["line"] = struct[4]
 
     if struct[2] is not None:
         data["docstring"] = dedent(struct[2]).strip()
@@ -99,6 +100,7 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
     data: Dict[str, Any] = {}
     data["type"] = "function"
     data["identifier"] = struct[0]
+    data["line"] = struct[3]
 
     data["function_args"] = {
         "args": [arg.arg for arg in struct[1].args],

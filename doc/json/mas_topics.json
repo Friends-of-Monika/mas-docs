@@ -2,6 +2,7 @@
   "topSeenEvents": {
     "type": "function",
     "identifier": "topSeenEvents",
+    "line": 65,
     "function_args": {
       "args": [
         "sorted_ev_list",

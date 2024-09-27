@@ -2,6 +2,7 @@
   "feature_registered": {
     "type": "function",
     "identifier": "feature_registered",
+    "line": 316,
     "function_args": {
       "args": [
         "feature"
@@ -18,6 +19,7 @@
   "register_feature": {
     "type": "function",
     "identifier": "register_feature",
+    "line": 328,
     "function_args": {
       "args": [
         "feature",
@@ -35,6 +37,7 @@
   "features_for_display": {
     "type": "function",
     "identifier": "features_for_display",
+    "line": 339,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -49,6 +52,7 @@
   "has_features": {
     "type": "function",
     "identifier": "has_features",
+    "line": 364,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -63,6 +67,7 @@
   "clean_key": {
     "type": "function",
     "identifier": "clean_key",
+    "line": 373,
     "function_args": {
       "args": [
         "dirty_key"
@@ -79,6 +84,7 @@
   "_run_on_change": {
     "type": "function",
     "identifier": "_run_on_change",
+    "line": 385,
     "function_args": {
       "args": [
         "feature",
@@ -96,6 +102,7 @@
   "screen_clear": {
     "type": "function",
     "identifier": "screen_clear",
+    "line": 435,
     "function_args": {
       "args": [
         "feature"
@@ -112,6 +119,7 @@
   "screen_paste": {
     "type": "function",
     "identifier": "screen_paste",
+    "line": 453,
     "function_args": {
       "args": [
         "feature"
@@ -128,6 +136,7 @@
   "screen_update_cert": {
     "type": "function",
     "identifier": "screen_update_cert",
+    "line": 491,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -142,6 +151,7 @@
   "load_keys": {
     "type": "function",
     "identifier": "load_keys",
+    "line": 505,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -156,6 +166,7 @@
   "save_keys": {
     "type": "function",
     "identifier": "save_keys",
+    "line": 535,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -173,11 +184,13 @@
     "class_bases": [
       "mas_layout.MASScreenData"
     ],
+    "line": 774,
     "docstring": "screen data for the mas_update_cert screen",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 779,
         "function_args": {
           "args": [
             "self"
@@ -193,6 +206,7 @@
       {
         "type": "function",
         "identifier": "main_text",
+        "line": 791,
         "function_args": {
           "args": [
             "self"
@@ -209,6 +223,7 @@
       {
         "type": "function",
         "identifier": "show_cancel",
+        "line": 798,
         "function_args": {
           "args": [
             "self"
@@ -225,6 +240,7 @@
       {
         "type": "function",
         "identifier": "show_ok",
+        "line": 805,
         "function_args": {
           "args": [
             "self"
@@ -241,6 +257,7 @@
       {
         "type": "function",
         "identifier": "show_retry",
+        "line": 812,
         "function_args": {
           "args": [
             "self"
@@ -257,6 +274,7 @@
       {
         "type": "function",
         "identifier": "loop",
+        "line": 818,
         "function_args": {
           "args": [
             "self"
@@ -273,6 +291,7 @@
       {
         "type": "function",
         "identifier": "start",
+        "line": 854,
         "function_args": {
           "args": [
             "self"
@@ -289,6 +308,7 @@
       {
         "type": "function",
         "identifier": "action_cancel",
+        "line": 869,
         "function_args": {
           "args": [
             "self"
@@ -305,6 +325,7 @@
       {
         "type": "function",
         "identifier": "action_ok",
+        "line": 877,
         "function_args": {
           "args": [
             "self"
@@ -321,6 +342,7 @@
       {
         "type": "function",
         "identifier": "action_retry",
+        "line": 883,
         "function_args": {
           "args": [
             "self"
@@ -337,6 +359,7 @@
       {
         "type": "function",
         "identifier": "_hide_all_buttons",
+        "line": 889,
         "function_args": {
           "args": [
             "self"
@@ -353,6 +376,7 @@
       {
         "type": "function",
         "identifier": "_set_buttons_ok",
+        "line": 897,
         "function_args": {
           "args": [
             "self"
@@ -369,6 +393,7 @@
       {
         "type": "function",
         "identifier": "_set_buttons_retrycancel",
+        "line": 904,
         "function_args": {
           "args": [
             "self"
@@ -385,6 +410,7 @@
       {
         "type": "function",
         "identifier": "_set_state_checking_update",
+        "line": 912,
         "function_args": {
           "args": [
             "self"
@@ -401,6 +427,7 @@
       {
         "type": "function",
         "identifier": "_set_state_error",
+        "line": 923,
         "function_args": {
           "args": [
             "self"
@@ -417,6 +444,7 @@
       {
         "type": "function",
         "identifier": "_set_state_no_update",
+        "line": 956,
         "function_args": {
           "args": [
             "self"
@@ -433,6 +461,7 @@
       {
         "type": "function",
         "identifier": "_set_state_updated",
+        "line": 965,
         "function_args": {
           "args": [
             "self"

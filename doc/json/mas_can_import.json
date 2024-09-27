@@ -5,11 +5,13 @@
     "class_bases": [
       "object"
     ],
+    "line": 176,
     "docstring": "Wrapper around import checks for MAS-based imports.\nAll conditional imports should extend this class and implement all \nrequired functions.\nUse this before actually running a third-party import. \nAll functionality that relies on third-party imports should be capable\nof being turned off.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 187,
         "function_args": {
           "args": [
             "self",
@@ -30,6 +32,7 @@
       {
         "type": "function",
         "identifier": "__call__",
+        "line": 211,
         "function_args": {
           "args": [
             "self"
@@ -46,6 +49,7 @@
       {
         "type": "function",
         "identifier": "enabled",
+        "line": 218,
         "function_args": {
           "args": [
             "self"
@@ -62,6 +66,7 @@
       {
         "type": "function",
         "identifier": "module_name",
+        "line": 225,
         "function_args": {
           "args": [
             "self"
@@ -78,6 +83,7 @@
       {
         "type": "function",
         "identifier": "set_sys",
+        "line": 232,
         "function_args": {
           "args": [
             "self"
@@ -94,6 +100,7 @@
       {
         "type": "function",
         "identifier": "log_import_error",
+        "line": 238,
         "function_args": {
           "args": [
             "self",
@@ -113,6 +120,7 @@
       {
         "type": "function",
         "identifier": "import_try",
+        "line": 252,
         "function_args": {
           "args": [
             "self"
@@ -129,6 +137,7 @@
       {
         "type": "function",
         "identifier": "import_except",
+        "line": 263,
         "function_args": {
           "args": [
             "self",
@@ -146,6 +155,7 @@
       {
         "type": "function",
         "identifier": "load",
+        "line": 278,
         "function_args": {
           "args": [
             "self"
@@ -162,6 +172,7 @@
       {
         "type": "function",
         "identifier": "_set_sys_module",
+        "line": 307,
         "function_args": {
           "args": [
             "self",
@@ -181,6 +192,7 @@
   "check_imports": {
     "type": "function",
     "identifier": "check_imports",
+    "line": 323,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -198,11 +210,13 @@
     "class_bases": [
       "MASImport"
     ],
+    "line": 632,
     "docstring": "certifi import\n\nThis also can do cert updating:\n    1. call `start_cert_update` to begin the cert update.\n        - this will return the promise, but you can also use\n            the following cert update functions to check the status\n            if you don't want to keep the promise.\n    2. call `check_cert_update` to determine if the update is still\n        running or is completed.\n        - once the update is completed, all appropriate vars will be\n            set automatically.\n    3. call `get_cert_update` to get the returned value from the \n        cert update promise.\n    4. call `reset_cert_update` to cleanup the cert updater thread.\n        this must be called before doing another cert update.\n\nAuto (startup) cert updating happens once every 6 months.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 653,
         "function_args": {
           "args": [
             "self"
@@ -219,6 +233,7 @@
       {
         "type": "function",
         "identifier": "cert_available",
+        "line": 668,
         "function_args": {
           "args": [
             "self"
@@ -235,6 +250,7 @@
       {
         "type": "function",
         "identifier": "import_try",
+        "line": 674,
         "function_args": {
           "args": [
             "self"
@@ -251,6 +267,7 @@
       {
         "type": "function",
         "identifier": "import_except",
+        "line": 687,
         "function_args": {
           "args": [
             "self",
@@ -267,6 +284,7 @@
       {
         "type": "function",
         "identifier": "load",
+        "line": 692,
         "function_args": {
           "args": [
             "self"
@@ -282,6 +300,7 @@
       {
         "type": "function",
         "identifier": "start_cert_update",
+        "line": 698,
         "function_args": {
           "args": [
             "self",
@@ -301,6 +320,7 @@
       {
         "type": "function",
         "identifier": "check_cert_update",
+        "line": 720,
         "function_args": {
           "args": [
             "self"
@@ -317,6 +337,7 @@
       {
         "type": "function",
         "identifier": "get_cert_update",
+        "line": 728,
         "function_args": {
           "args": [
             "self"
@@ -333,6 +354,7 @@
       {
         "type": "function",
         "identifier": "reset_cert_update",
+        "line": 740,
         "function_args": {
           "args": [
             "self"
@@ -349,6 +371,7 @@
       {
         "type": "function",
         "identifier": "is_cert_update_running",
+        "line": 747,
         "function_args": {
           "args": [
             "self"
@@ -365,6 +388,7 @@
       {
         "type": "function",
         "identifier": "ch30_day_cert_update",
+        "line": 755,
         "function_args": {
           "args": [
             "self"
@@ -381,6 +405,7 @@
       {
         "type": "function",
         "identifier": "_update_cert",
+        "line": 771,
         "function_args": {
           "args": [
             "self",
@@ -400,6 +425,7 @@
       {
         "type": "function",
         "identifier": "_m1_0imports__th_get_cert_avail",
+        "line": 807,
         "function_args": {
           "args": [
             "self"
@@ -416,6 +442,7 @@
       {
         "type": "function",
         "identifier": "_m1_0imports__th_set_cert_avail",
+        "line": 819,
         "function_args": {
           "args": [
             "self",
@@ -438,11 +465,13 @@
     "class_bases": [
       "MASImport"
     ],
+    "line": 831,
     "docstring": "SSL Import",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 836,
         "function_args": {
           "args": [
             "self"
@@ -459,6 +488,7 @@
       {
         "type": "function",
         "identifier": "import_try",
+        "line": 842,
         "function_args": {
           "args": [
             "self"

@@ -2,6 +2,7 @@
   "getUnseenFactsEVL": {
     "type": "function",
     "identifier": "getUnseenFactsEVL",
+    "line": 36,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "getAllFactsEVL": {
     "type": "function",
     "identifier": "getAllFactsEVL",
+    "line": 49,
     "function_args": {
       "args": [],
       "pos_only_args": [],

@@ -2,6 +2,7 @@
   "_rule_ribbon": {
     "type": "function",
     "identifier": "_rule_ribbon",
+    "line": 35,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -16,6 +17,7 @@
   "_add_prompt": {
     "type": "function",
     "identifier": "_add_prompt",
+    "line": 366,
     "function_args": {
       "args": [
         "key",
@@ -42,6 +44,7 @@
   "check_prompt": {
     "type": "function",
     "identifier": "check_prompt",
+    "line": 414,
     "function_args": {
       "args": [
         "key"
@@ -58,6 +61,7 @@
   "get_prompt": {
     "type": "function",
     "identifier": "get_prompt",
+    "line": 431,
     "function_args": {
       "args": [
         "key",
@@ -77,6 +81,7 @@
   "get_minitems": {
     "type": "function",
     "identifier": "get_minitems",
+    "line": 447,
     "function_args": {
       "args": [
         "key",
@@ -96,6 +101,7 @@
   "in_prompt_map": {
     "type": "function",
     "identifier": "in_prompt_map",
+    "line": 460,
     "function_args": {
       "args": [
         "key"
@@ -112,6 +118,7 @@
   "iter_prompt": {
     "type": "function",
     "identifier": "iter_prompt",
+    "line": 472,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -126,6 +133,7 @@
   "iter_prompt_data": {
     "type": "function",
     "identifier": "iter_prompt_data",
+    "line": 482,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -140,6 +148,7 @@
   "lock_prompt": {
     "type": "function",
     "identifier": "lock_prompt",
+    "line": 495,
     "function_args": {
       "args": [
         "key"
@@ -156,6 +165,7 @@
   "set_prompt": {
     "type": "function",
     "identifier": "set_prompt",
+    "line": 507,
     "function_args": {
       "args": [
         "key",
@@ -175,6 +185,7 @@
   "unlock_prompt": {
     "type": "function",
     "identifier": "unlock_prompt",
+    "line": 528,
     "function_args": {
       "args": [
         "key"
@@ -191,6 +202,7 @@
   "startup_prompt_check": {
     "type": "function",
     "identifier": "startup_prompt_check",
+    "line": 540,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -205,6 +217,7 @@
   "selectable_key": {
     "type": "function",
     "identifier": "selectable_key",
+    "line": 2130,
     "function_args": {
       "args": [
         "selectable"
@@ -221,6 +234,7 @@
   "_validate_group_topics": {
     "type": "function",
     "identifier": "_validate_group_topics",
+    "line": 2142,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -235,6 +249,7 @@
   "_switch_to_wear_prompts": {
     "type": "function",
     "identifier": "_switch_to_wear_prompts",
+    "line": 2161,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -249,6 +264,7 @@
   "_has_remover": {
     "type": "function",
     "identifier": "_has_remover",
+    "line": 2169,
     "function_args": {
       "args": [
         "group"
@@ -265,6 +281,7 @@
   "_unlock_removers": {
     "type": "function",
     "identifier": "_unlock_removers",
+    "line": 2186,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -279,6 +296,7 @@
   "_rm_remover": {
     "type": "function",
     "identifier": "_rm_remover",
+    "line": 2195,
     "function_args": {
       "args": [
         "item_list"
@@ -295,6 +313,7 @@
   "create_selectable_remover": {
     "type": "function",
     "identifier": "create_selectable_remover",
+    "line": 2213,
     "function_args": {
       "args": [
         "acs_type",
@@ -315,6 +334,7 @@
   "rm_selectable_remover": {
     "type": "function",
     "identifier": "rm_selectable_remover",
+    "line": 2250,
     "function_args": {
       "args": [
         "remover_sel"
@@ -331,6 +351,7 @@
   "init_selectable_acs": {
     "type": "function",
     "identifier": "init_selectable_acs",
+    "line": 2277,
     "function_args": {
       "args": [
         "acs",
@@ -361,6 +382,7 @@
   "init_selectable_clothes": {
     "type": "function",
     "identifier": "init_selectable_clothes",
+    "line": 2328,
     "function_args": {
       "args": [
         "clothes",
@@ -389,6 +411,7 @@
   "init_selectable_hair": {
     "type": "function",
     "identifier": "init_selectable_hair",
+    "line": 2377,
     "function_args": {
       "args": [
         "hair",
@@ -417,6 +440,7 @@
   "_adjust_monika": {
     "type": "function",
     "identifier": "_adjust_monika",
+    "line": 2426,
     "function_args": {
       "args": [
         "moni_chr",
@@ -444,6 +468,7 @@
   "_fill_select_map": {
     "type": "function",
     "identifier": "_fill_select_map",
+    "line": 2561,
     "function_args": {
       "args": [
         "moni_chr",
@@ -463,6 +488,7 @@
   "_fill_select_map_and_set_remover": {
     "type": "function",
     "identifier": "_fill_select_map_and_set_remover",
+    "line": 2609,
     "function_args": {
       "args": [
         "moni_chr",
@@ -485,6 +511,7 @@
   "_clean_select_map": {
     "type": "function",
     "identifier": "_clean_select_map",
+    "line": 2641,
     "function_args": {
       "args": [
         "select_map",
@@ -507,6 +534,7 @@
   "valid_select_type": {
     "type": "function",
     "identifier": "valid_select_type",
+    "line": 2671,
     "function_args": {
       "args": [
         "sel_con"
@@ -523,6 +551,7 @@
   "is_same": {
     "type": "function",
     "identifier": "is_same",
+    "line": 2685,
     "function_args": {
       "args": [
         "old_map_view",
@@ -540,6 +569,7 @@
   "_save_selectable": {
     "type": "function",
     "identifier": "_save_selectable",
+    "line": 2709,
     "function_args": {
       "args": [
         "source",
@@ -557,6 +587,7 @@
   "save_selectables": {
     "type": "function",
     "identifier": "save_selectables",
+    "line": 2721,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -571,6 +602,7 @@
   "_load_selectable": {
     "type": "function",
     "identifier": "_load_selectable",
+    "line": 2736,
     "function_args": {
       "args": [
         "source",
@@ -588,6 +620,7 @@
   "load_selectables": {
     "type": "function",
     "identifier": "load_selectables",
+    "line": 2749,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -602,6 +635,7 @@
   "_filter_sel_single": {
     "type": "function",
     "identifier": "_filter_sel_single",
+    "line": 2760,
     "function_args": {
       "args": [
         "item",
@@ -620,6 +654,7 @@
   "_filter_sel": {
     "type": "function",
     "identifier": "_filter_sel",
+    "line": 2780,
     "function_args": {
       "args": [
         "select_list",
@@ -640,6 +675,7 @@
   "filter_acs": {
     "type": "function",
     "identifier": "filter_acs",
+    "line": 2800,
     "function_args": {
       "args": [
         "unlocked",
@@ -659,6 +695,7 @@
   "filter_clothes": {
     "type": "function",
     "identifier": "filter_clothes",
+    "line": 2815,
     "function_args": {
       "args": [
         "unlocked",
@@ -678,6 +715,7 @@
   "filter_hair": {
     "type": "function",
     "identifier": "filter_hair",
+    "line": 2830,
     "function_args": {
       "args": [
         "unlocked",
@@ -697,6 +735,7 @@
   "_get_sel": {
     "type": "function",
     "identifier": "_get_sel",
+    "line": 2845,
     "function_args": {
       "args": [
         "item",
@@ -714,6 +753,7 @@
   "get_sel": {
     "type": "function",
     "identifier": "get_sel",
+    "line": 2867,
     "function_args": {
       "args": [
         "item"
@@ -730,6 +770,7 @@
   "get_sel_acs": {
     "type": "function",
     "identifier": "get_sel_acs",
+    "line": 2889,
     "function_args": {
       "args": [
         "acs"
@@ -746,6 +787,7 @@
   "get_sel_clothes": {
     "type": "function",
     "identifier": "get_sel_clothes",
+    "line": 2901,
     "function_args": {
       "args": [
         "clothes"
@@ -762,6 +804,7 @@
   "get_sel_hair": {
     "type": "function",
     "identifier": "get_sel_hair",
+    "line": 2913,
     "function_args": {
       "args": [
         "hair"
@@ -778,6 +821,7 @@
   "is_hairacs_compatible": {
     "type": "function",
     "identifier": "is_hairacs_compatible",
+    "line": 2925,
     "function_args": {
       "args": [
         "hair",
@@ -795,6 +839,7 @@
   "is_clotheshair_compatible": {
     "type": "function",
     "identifier": "is_clotheshair_compatible",
+    "line": 2942,
     "function_args": {
       "args": [
         "clothes",
@@ -812,6 +857,7 @@
   "_lock_item": {
     "type": "function",
     "identifier": "_lock_item",
+    "line": 2959,
     "function_args": {
       "args": [
         "item",
@@ -829,6 +875,7 @@
   "lock_acs": {
     "type": "function",
     "identifier": "lock_acs",
+    "line": 2972,
     "function_args": {
       "args": [
         "acs"
@@ -845,6 +892,7 @@
   "lock_clothes": {
     "type": "function",
     "identifier": "lock_clothes",
+    "line": 2982,
     "function_args": {
       "args": [
         "clothes"
@@ -861,6 +909,7 @@
   "lock_hair": {
     "type": "function",
     "identifier": "lock_hair",
+    "line": 2992,
     "function_args": {
       "args": [
         "hair"
@@ -877,6 +926,7 @@
   "set_compat_acs": {
     "type": "function",
     "identifier": "set_compat_acs",
+    "line": 3002,
     "function_args": {
       "args": [
         "acs_sels",
@@ -894,6 +944,7 @@
   "set_compat_hair": {
     "type": "function",
     "identifier": "set_compat_hair",
+    "line": 3021,
     "function_args": {
       "args": [
         "hair_sels",
@@ -911,6 +962,7 @@
   "_unlock_item": {
     "type": "function",
     "identifier": "_unlock_item",
+    "line": 3040,
     "function_args": {
       "args": [
         "item",
@@ -928,6 +980,7 @@
   "unlock_acs": {
     "type": "function",
     "identifier": "unlock_acs",
+    "line": 3053,
     "function_args": {
       "args": [
         "acs"
@@ -944,6 +997,7 @@
   "unlock_clothes": {
     "type": "function",
     "identifier": "unlock_clothes",
+    "line": 3063,
     "function_args": {
       "args": [
         "clothes"
@@ -960,6 +1014,7 @@
   "unlock_hair": {
     "type": "function",
     "identifier": "unlock_hair",
+    "line": 3073,
     "function_args": {
       "args": [
         "hair"
@@ -976,6 +1031,7 @@
   "unlock_selector": {
     "type": "function",
     "identifier": "unlock_selector",
+    "line": 3083,
     "function_args": {
       "args": [
         "group"
@@ -992,6 +1048,7 @@
   "json_sprite_unlock": {
     "type": "function",
     "identifier": "json_sprite_unlock",
+    "line": 3093,
     "function_args": {
       "args": [
         "sp_obj",
@@ -1011,6 +1068,7 @@
   "_selector_filter_items": {
     "type": "function",
     "identifier": "_selector_filter_items",
+    "line": 3118,
     "function_args": {
       "args": [
         "item",
@@ -1029,6 +1087,7 @@
   "_selector_sort_items": {
     "type": "function",
     "identifier": "_selector_sort_items",
+    "line": 3147,
     "function_args": {
       "args": [
         "item",
@@ -1047,6 +1106,7 @@
   "_selector_search_items": {
     "type": "function",
     "identifier": "_selector_search_items",
+    "line": 3202,
     "function_args": {
       "args": [
         "items",
@@ -1064,6 +1124,7 @@
   "selector_adj_ranged_callback": {
     "type": "function",
     "identifier": "selector_adj_ranged_callback",
+    "line": 3228,
     "function_args": {
       "args": [
         "adj"
@@ -1080,6 +1141,7 @@
   "selector_search_callback": {
     "type": "function",
     "identifier": "selector_search_callback",
+    "line": 3249,
     "function_args": {
       "args": [
         "search_query"
@@ -1096,6 +1158,7 @@
   "mas_item_name_format": {
     "type": "function",
     "identifier": "mas_item_name_format",
+    "line": 3267,
     "function_args": {
       "args": [
         "item_name"
@@ -1115,11 +1178,13 @@
     "class_bases": [
       "store.MASMailbox"
     ],
+    "line": 3288,
     "docstring": "SelectableSprite extension of the mailbox\n\nPROPERTIES:\n    (no additional)\n\nSee MASMailbox for properties.",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 3297,
         "function_args": {
           "args": [
             "self",
@@ -1139,6 +1204,7 @@
       {
         "type": "function",
         "identifier": "_get",
+        "line": 3312,
         "function_args": {
           "args": [
             "self",
@@ -1156,6 +1222,7 @@
       {
         "type": "function",
         "identifier": "_read",
+        "line": 3320,
         "function_args": {
           "args": [
             "self",
@@ -1173,6 +1240,7 @@
       {
         "type": "function",
         "identifier": "_send",
+        "line": 3328,
         "function_args": {
           "args": [
             "self",
@@ -1191,6 +1259,7 @@
       {
         "type": "function",
         "identifier": "read_conf_enable",
+        "line": 3336,
         "function_args": {
           "args": [
             "self"
@@ -1207,6 +1276,7 @@
       {
         "type": "function",
         "identifier": "read_def_disp_text",
+        "line": 3346,
         "function_args": {
           "args": [
             "self"
@@ -1223,6 +1293,7 @@
       {
         "type": "function",
         "identifier": "read_frame_vsize",
+        "line": 3356,
         "function_args": {
           "args": [
             "self"
@@ -1239,6 +1310,7 @@
       {
         "type": "function",
         "identifier": "read_outfit_checkbox_checked",
+        "line": 3362,
         "function_args": {
           "args": [
             "self"
@@ -1255,6 +1327,7 @@
       {
         "type": "function",
         "identifier": "read_outfit_checkbox_visible",
+        "line": 3371,
         "function_args": {
           "args": [
             "self"
@@ -1271,6 +1344,7 @@
       {
         "type": "function",
         "identifier": "read_prev_state",
+        "line": 3380,
         "function_args": {
           "args": [
             "self"
@@ -1287,6 +1361,7 @@
       {
         "type": "function",
         "identifier": "read_restore_enable",
+        "line": 3388,
         "function_args": {
           "args": [
             "self"
@@ -1303,6 +1378,7 @@
       {
         "type": "function",
         "identifier": "read_restore_visible",
+        "line": 3397,
         "function_args": {
           "args": [
             "self"
@@ -1319,6 +1395,7 @@
       {
         "type": "function",
         "identifier": "get_disp_fast",
+        "line": 3406,
         "function_args": {
           "args": [
             "self"
@@ -1335,6 +1412,7 @@
       {
         "type": "function",
         "identifier": "get_disp_text",
+        "line": 3414,
         "function_args": {
           "args": [
             "self"
@@ -1351,6 +1429,7 @@
       {
         "type": "function",
         "identifier": "send_conf_enable",
+        "line": 3422,
         "function_args": {
           "args": [
             "self",
@@ -1368,6 +1447,7 @@
       {
         "type": "function",
         "identifier": "send_def_disp_text",
+        "line": 3431,
         "function_args": {
           "args": [
             "self",
@@ -1385,6 +1465,7 @@
       {
         "type": "function",
         "identifier": "send_disp_fast",
+        "line": 3440,
         "function_args": {
           "args": [
             "self"
@@ -1401,6 +1482,7 @@
       {
         "type": "function",
         "identifier": "send_disp_text",
+        "line": 3446,
         "function_args": {
           "args": [
             "self",
@@ -1418,6 +1500,7 @@
       {
         "type": "function",
         "identifier": "send_frame_vsize",
+        "line": 3455,
         "function_args": {
           "args": [
             "self",
@@ -1435,6 +1518,7 @@
       {
         "type": "function",
         "identifier": "send_outfit_checkbox_checked",
+        "line": 3464,
         "function_args": {
           "args": [
             "self",
@@ -1452,6 +1536,7 @@
       {
         "type": "function",
         "identifier": "send_outfit_checkbox_visible",
+        "line": 3473,
         "function_args": {
           "args": [
             "self",
@@ -1469,6 +1554,7 @@
       {
         "type": "function",
         "identifier": "send_prev_state",
+        "line": 3483,
         "function_args": {
           "args": [
             "self",
@@ -1486,6 +1572,7 @@
       {
         "type": "function",
         "identifier": "send_restore_enable",
+        "line": 3492,
         "function_args": {
           "args": [
             "self",

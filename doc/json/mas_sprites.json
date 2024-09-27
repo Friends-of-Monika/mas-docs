@@ -5,11 +5,13 @@
     "class_bases": [
       "renpy.store.object"
     ],
+    "line": 5,
     "docstring": "ACS template object\nEstablishes guidelines for defauling properties for an ACS\n\nPROPERTIES:\n    acs_type - the acs type associated with this template\n    mux_type - the default mux type list for this template\n    ex_props - default exprops dict for this template\n    keep_on_desk - default keep on desk flag for this templat",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 17,
         "function_args": {
           "args": [
             "self",
@@ -34,6 +36,7 @@
       {
         "type": "function",
         "identifier": "_apply_ex_props",
+        "line": 43,
         "function_args": {
           "args": [
             "self",
@@ -51,6 +54,7 @@
       {
         "type": "function",
         "identifier": "_apply_keep_on_desk",
+        "line": 61,
         "function_args": {
           "args": [
             "self",
@@ -68,6 +72,7 @@
       {
         "type": "function",
         "identifier": "_apply_mux_type",
+        "line": 75,
         "function_args": {
           "args": [
             "self",
@@ -85,6 +90,7 @@
       {
         "type": "function",
         "identifier": "apply",
+        "line": 95,
         "function_args": {
           "args": [
             "self",
@@ -104,6 +110,7 @@
   "apply_ACSTemplate": {
     "type": "function",
     "identifier": "apply_ACSTemplate",
+    "line": 459,
     "function_args": {
       "args": [
         "acs"
@@ -120,6 +127,7 @@
   "apply_ACSTemplates": {
     "type": "function",
     "identifier": "apply_ACSTemplates",
+    "line": 471,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -134,6 +142,7 @@
   "get_ACSTemplate": {
     "type": "function",
     "identifier": "get_ACSTemplate",
+    "line": 479,
     "function_args": {
       "args": [
         "acs"
@@ -150,6 +159,7 @@
   "get_ACSTemplate_by_type": {
     "type": "function",
     "identifier": "get_ACSTemplate_by_type",
+    "line": 493,
     "function_args": {
       "args": [
         "acs_type"
@@ -166,6 +176,7 @@
   "add_filter": {
     "type": "function",
     "identifier": "add_filter",
+    "line": 736,
     "function_args": {
       "args": [
         "flt_enum",
@@ -186,6 +197,7 @@
   "_decide_filter": {
     "type": "function",
     "identifier": "_decide_filter",
+    "line": 785,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -200,6 +212,7 @@
   "get_filter": {
     "type": "function",
     "identifier": "get_filter",
+    "line": 792,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -214,6 +227,7 @@
   "is_filter": {
     "type": "function",
     "identifier": "is_filter",
+    "line": 801,
     "function_args": {
       "args": [
         "flt"
@@ -230,6 +244,7 @@
   "_rslv_flt": {
     "type": "function",
     "identifier": "_rslv_flt",
+    "line": 813,
     "function_args": {
       "args": [
         "flt"
@@ -246,6 +261,7 @@
   "set_filter": {
     "type": "function",
     "identifier": "set_filter",
+    "line": 825,
     "function_args": {
       "args": [
         "flt_enum"
@@ -262,6 +278,7 @@
   "_test_filter": {
     "type": "function",
     "identifier": "_test_filter",
+    "line": 838,
     "function_args": {
       "args": [
         "flt_enum"
@@ -278,6 +295,7 @@
   "alt_bcode": {
     "type": "function",
     "identifier": "alt_bcode",
+    "line": 1011,
     "function_args": {
       "args": [
         "v_list",
@@ -296,6 +314,7 @@
   "alt_hsplit": {
     "type": "function",
     "identifier": "alt_hsplit",
+    "line": 1033,
     "function_args": {
       "args": [
         "v_list",
@@ -314,6 +333,7 @@
   "adjust_zoom": {
     "type": "function",
     "identifier": "adjust_zoom",
+    "line": 1072,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -328,6 +348,7 @@
   "reset_zoom": {
     "type": "function",
     "identifier": "reset_zoom",
+    "line": 1098,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -342,6 +363,7 @@
   "zoom_out": {
     "type": "function",
     "identifier": "zoom_out",
+    "line": 1108,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -356,6 +378,7 @@
   "tryparsehair": {
     "type": "function",
     "identifier": "tryparsehair",
+    "line": 1120,
     "function_args": {
       "args": [
         "_hair",
@@ -375,6 +398,7 @@
   "tryparseclothes": {
     "type": "function",
     "identifier": "tryparseclothes",
+    "line": 1138,
     "function_args": {
       "args": [
         "_clothes",
@@ -394,6 +418,7 @@
   "_genLK": {
     "type": "function",
     "identifier": "_genLK",
+    "line": 1256,
     "function_args": {
       "args": [
         "keys"
@@ -410,6 +435,7 @@
   "_verify_uprightpose": {
     "type": "function",
     "identifier": "_verify_uprightpose",
+    "line": 1274,
     "function_args": {
       "args": [
         "val"
@@ -425,6 +451,7 @@
   "_verify_lean": {
     "type": "function",
     "identifier": "_verify_lean",
+    "line": 1278,
     "function_args": {
       "args": [
         "val"
@@ -440,6 +467,7 @@
   "_verify_leaningpose": {
     "type": "function",
     "identifier": "_verify_leaningpose",
+    "line": 1282,
     "function_args": {
       "args": [
         "val"
@@ -455,6 +483,7 @@
   "_verify_pose": {
     "type": "function",
     "identifier": "_verify_pose",
+    "line": 1286,
     "function_args": {
       "args": [
         "val",
@@ -473,6 +502,7 @@
   "acs_lean_mode": {
     "type": "function",
     "identifier": "acs_lean_mode",
+    "line": 1292,
     "function_args": {
       "args": [
         "sprite_list",
@@ -490,6 +520,7 @@
   "face_lean_mode": {
     "type": "function",
     "identifier": "face_lean_mode",
+    "line": 1313,
     "function_args": {
       "args": [
         "lean"
@@ -506,6 +537,7 @@
   "create_remover": {
     "type": "function",
     "identifier": "create_remover",
+    "line": 1333,
     "function_args": {
       "args": [
         "acs_type",
@@ -524,6 +556,7 @@
   "get_acs": {
     "type": "function",
     "identifier": "get_acs",
+    "line": 1360,
     "function_args": {
       "args": [
         "acs_name"
@@ -540,6 +573,7 @@
   "get_acs_of_type": {
     "type": "function",
     "identifier": "get_acs_of_type",
+    "line": 1372,
     "function_args": {
       "args": [
         "acs_type"
@@ -556,6 +590,7 @@
   "init_acs": {
     "type": "function",
     "identifier": "init_acs",
+    "line": 1388,
     "function_args": {
       "args": [
         "mas_acs"
@@ -572,6 +607,7 @@
   "init_hair": {
     "type": "function",
     "identifier": "init_hair",
+    "line": 1404,
     "function_args": {
       "args": [
         "mas_hair"
@@ -588,6 +624,7 @@
   "init_clothes": {
     "type": "function",
     "identifier": "init_clothes",
+    "line": 1420,
     "function_args": {
       "args": [
         "mas_cloth"
@@ -604,6 +641,7 @@
   "rm_acs": {
     "type": "function",
     "identifier": "rm_acs",
+    "line": 1436,
     "function_args": {
       "args": [
         "acs"
@@ -620,6 +658,7 @@
   "lock_exprop_topics": {
     "type": "function",
     "identifier": "lock_exprop_topics",
+    "line": 1447,
     "function_args": {
       "args": [
         "exprop"
@@ -636,6 +675,7 @@
   "lock_acstype_topics": {
     "type": "function",
     "identifier": "lock_acstype_topics",
+    "line": 1460,
     "function_args": {
       "args": [
         "acs_type"
@@ -652,6 +692,7 @@
   "unlock_exprop_topics": {
     "type": "function",
     "identifier": "unlock_exprop_topics",
+    "line": 1472,
     "function_args": {
       "args": [
         "exprop"
@@ -668,6 +709,7 @@
   "unlock_acstype_topics": {
     "type": "function",
     "identifier": "unlock_acstype_topics",
+    "line": 1485,
     "function_args": {
       "args": [
         "acs_type"
@@ -684,6 +726,7 @@
   "should_disable_lean": {
     "type": "function",
     "identifier": "should_disable_lean",
+    "line": 1497,
     "function_args": {
       "args": [
         "lean",
@@ -702,6 +745,7 @@
   "build_loc": {
     "type": "function",
     "identifier": "build_loc",
+    "line": 1530,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -716,6 +760,7 @@
   "build_loc_val": {
     "type": "function",
     "identifier": "build_loc_val",
+    "line": 1537,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -730,6 +775,7 @@
   "get_sprite": {
     "type": "function",
     "identifier": "get_sprite",
+    "line": 1544,
     "function_args": {
       "args": [
         "sprite_type",
@@ -747,6 +793,7 @@
   "get_installed_sprites": {
     "type": "function",
     "identifier": "get_installed_sprites",
+    "line": 1557,
     "function_args": {
       "args": [
         "sprite_type",
@@ -766,6 +813,7 @@
   "get_installed_acs": {
     "type": "function",
     "identifier": "get_installed_acs",
+    "line": 1585,
     "function_args": {
       "args": [
         "predicate"
@@ -784,6 +832,7 @@
   "get_installed_hair": {
     "type": "function",
     "identifier": "get_installed_hair",
+    "line": 1601,
     "function_args": {
       "args": [
         "predicate"
@@ -802,6 +851,7 @@
   "get_installed_clothes": {
     "type": "function",
     "identifier": "get_installed_clothes",
+    "line": 1617,
     "function_args": {
       "args": [
         "predicate"
@@ -820,6 +870,7 @@
   "acs_rm_exit_pre_change": {
     "type": "function",
     "identifier": "acs_rm_exit_pre_change",
+    "line": 1657,
     "function_args": {
       "args": [
         "temp_space",
@@ -839,6 +890,7 @@
   "acs_rm_exit_pst_change": {
     "type": "function",
     "identifier": "acs_rm_exit_pst_change",
+    "line": 1670,
     "function_args": {
       "args": [
         "temp_space",
@@ -858,6 +910,7 @@
   "acs_rm_exit_pst_removal": {
     "type": "function",
     "identifier": "acs_rm_exit_pst_removal",
+    "line": 1684,
     "function_args": {
       "args": [
         "temp_space",
@@ -877,6 +930,7 @@
   "acs_wear_mux_pre_change": {
     "type": "function",
     "identifier": "acs_wear_mux_pre_change",
+    "line": 1699,
     "function_args": {
       "args": [
         "temp_space",
@@ -896,6 +950,7 @@
   "acs_wear_mux_pst_change": {
     "type": "function",
     "identifier": "acs_wear_mux_pst_change",
+    "line": 1715,
     "function_args": {
       "args": [
         "temp_space",
@@ -915,6 +970,7 @@
   "acs_wear_entry_pre_change": {
     "type": "function",
     "identifier": "acs_wear_entry_pre_change",
+    "line": 1728,
     "function_args": {
       "args": [
         "temp_space",
@@ -934,6 +990,7 @@
   "acs_wear_entry_pst_change": {
     "type": "function",
     "identifier": "acs_wear_entry_pst_change",
+    "line": 1741,
     "function_args": {
       "args": [
         "temp_space",
@@ -953,6 +1010,7 @@
   "clothes_exit_pre_change": {
     "type": "function",
     "identifier": "clothes_exit_pre_change",
+    "line": 1755,
     "function_args": {
       "args": [
         "temp_space",
@@ -972,6 +1030,7 @@
   "clothes_exit_pst_change": {
     "type": "function",
     "identifier": "clothes_exit_pst_change",
+    "line": 1769,
     "function_args": {
       "args": [
         "temp_space",
@@ -991,6 +1050,7 @@
   "clothes_entry_pre_change": {
     "type": "function",
     "identifier": "clothes_entry_pre_change",
+    "line": 1801,
     "function_args": {
       "args": [
         "temp_space",
@@ -1010,6 +1070,7 @@
   "clothes_entry_pst_change": {
     "type": "function",
     "identifier": "clothes_entry_pst_change",
+    "line": 1818,
     "function_args": {
       "args": [
         "temp_space",
@@ -1029,6 +1090,7 @@
   "hair_exit_pre_change": {
     "type": "function",
     "identifier": "hair_exit_pre_change",
+    "line": 1861,
     "function_args": {
       "args": [
         "temp_space",
@@ -1048,6 +1110,7 @@
   "hair_exit_pst_change": {
     "type": "function",
     "identifier": "hair_exit_pst_change",
+    "line": 1883,
     "function_args": {
       "args": [
         "temp_space",
@@ -1067,6 +1130,7 @@
   "hair_entry_pre_change": {
     "type": "function",
     "identifier": "hair_entry_pre_change",
+    "line": 1896,
     "function_args": {
       "args": [
         "temp_space",
@@ -1086,6 +1150,7 @@
   "hair_entry_pst_change": {
     "type": "function",
     "identifier": "hair_entry_pst_change",
+    "line": 1909,
     "function_args": {
       "args": [
         "temp_space",
@@ -1105,6 +1170,7 @@
   "is_hairacs_compatible": {
     "type": "function",
     "identifier": "is_hairacs_compatible",
+    "line": 1963,
     "function_args": {
       "args": [
         "hair",
@@ -1122,6 +1188,7 @@
   "is_clotheshair_compatible": {
     "type": "function",
     "identifier": "is_clotheshair_compatible",
+    "line": 1990,
     "function_args": {
       "args": [
         "clothes",
@@ -1139,6 +1206,7 @@
   "_ms_head": {
     "type": "function",
     "identifier": "_ms_head",
+    "line": 2019,
     "function_args": {
       "args": [
         "clothing",
@@ -1157,6 +1225,7 @@
   "_ms_left": {
     "type": "function",
     "identifier": "_ms_left",
+    "line": 2046,
     "function_args": {
       "args": [
         "clothing",
@@ -1175,6 +1244,7 @@
   "_ms_right": {
     "type": "function",
     "identifier": "_ms_right",
+    "line": 2073,
     "function_args": {
       "args": [
         "clothing",
@@ -1193,6 +1263,7 @@
   "_ms_standing": {
     "type": "function",
     "identifier": "_ms_standing",
+    "line": 2100,
     "function_args": {
       "args": [
         "clothing",
@@ -1214,6 +1285,7 @@
   "_ms_standingstock": {
     "type": "function",
     "identifier": "_ms_standingstock",
+    "line": 2134,
     "function_args": {
       "args": [
         "head",
@@ -1236,6 +1308,7 @@
   "_clear_caches": {
     "type": "function",
     "identifier": "_clear_caches",
+    "line": 4101,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1253,11 +1326,13 @@
     "class_bases": [
       "store.MASFilterable"
     ],
+    "line": 4113,
     "docstring": "custom rendering class for MASMonika. This does caching and rendering\nat the same time.\n\nINHERED PROPS:\n    flt - filter we are using (string)\n\nPROPERTIES:\n    render_keys - list of tuples of the following format:\n        [0] - key of an image to generate. used to check cache\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image, IF NOT IN CACHE.\n            This should be set to None if we are sure a surf\n            object is in the cache.\n        [3] - ImageBase to build the highlight. Set to None if no\n            no highlight or in cache.\n    xpos - xposition to blit objects with\n    ypos - yposition to blit objects with\n    width - width to render objects with\n    height - height to render objects with",
     "class_functions": [
       {
         "type": "function",
         "identifier": "__init__",
+        "line": 4136,
         "function_args": {
           "args": [
             "self",
@@ -1280,6 +1355,7 @@
       {
         "type": "function",
         "identifier": "_l_render_hl",
+        "line": 4157,
         "function_args": {
           "args": [
             "self",
@@ -1300,6 +1376,7 @@
       {
         "type": "function",
         "identifier": "_render_surf",
+        "line": 4201,
         "function_args": {
           "args": [
             "self",
@@ -1319,6 +1396,7 @@
       {
         "type": "function",
         "identifier": "render",
+        "line": 4233,
         "function_args": {
           "args": [
             "self",
@@ -1339,6 +1417,7 @@
       {
         "type": "function",
         "identifier": "visit",
+        "line": 4252,
         "function_args": {
           "args": [
             "self"
@@ -1357,6 +1436,7 @@
   "_add_arms_rk": {
     "type": "function",
     "identifier": "_add_arms_rk",
+    "line": 4265,
     "function_args": {
       "args": [
         "rk_list",
@@ -1379,6 +1459,7 @@
   "_bhli": {
     "type": "function",
     "identifier": "_bhli",
+    "line": 4373,
     "function_args": {
       "args": [
         "img_list",
@@ -1396,6 +1477,7 @@
   "_bhlifp": {
     "type": "function",
     "identifier": "_bhlifp",
+    "line": 4398,
     "function_args": {
       "args": [
         "img_path",
@@ -1413,6 +1495,7 @@
   "_cgen_im": {
     "type": "function",
     "identifier": "_cgen_im",
+    "line": 4421,
     "function_args": {
       "args": [
         "flt",
@@ -1432,6 +1515,7 @@
   "_cgha_im": {
     "type": "function",
     "identifier": "_cgha_im",
+    "line": 4448,
     "function_args": {
       "args": [
         "render_list",
@@ -1450,6 +1534,7 @@
   "_cs_im": {
     "type": "function",
     "identifier": "_cs_im",
+    "line": 4504,
     "function_args": {
       "args": [
         "key",
@@ -1468,6 +1553,7 @@
   "_dayify": {
     "type": "function",
     "identifier": "_dayify",
+    "line": 4525,
     "function_args": {
       "args": [
         "img_key"
@@ -1484,6 +1570,7 @@
   "_gc": {
     "type": "function",
     "identifier": "_gc",
+    "line": 4540,
     "function_args": {
       "args": [
         "cid"
@@ -1500,6 +1587,7 @@
   "_gen_im": {
     "type": "function",
     "identifier": "_gen_im",
+    "line": 4553,
     "function_args": {
       "args": [
         "flt",
@@ -1517,6 +1605,7 @@
   "_hlify": {
     "type": "function",
     "identifier": "_hlify",
+    "line": 4569,
     "function_args": {
       "args": [
         "key",
@@ -1534,6 +1623,7 @@
   "_rk_accessory": {
     "type": "function",
     "identifier": "_rk_accessory",
+    "line": 4584,
     "function_args": {
       "args": [
         "rk_list",
@@ -1556,6 +1646,7 @@
   "_rk_accessory_list": {
     "type": "function",
     "identifier": "_rk_accessory_list",
+    "line": 4681,
     "function_args": {
       "args": [
         "rk_list",
@@ -1579,6 +1670,7 @@
   "_rk_arms_base_nh": {
     "type": "function",
     "identifier": "_rk_arms_base_nh",
+    "line": 4716,
     "function_args": {
       "args": [
         "rk_list",
@@ -1599,6 +1691,7 @@
   "_rk_arms_base_lean_nh": {
     "type": "function",
     "identifier": "_rk_arms_base_lean_nh",
+    "line": 4744,
     "function_args": {
       "args": [
         "rk_list",
@@ -1620,6 +1713,7 @@
   "_rk_arms_nh": {
     "type": "function",
     "identifier": "_rk_arms_nh",
+    "line": 4775,
     "function_args": {
       "args": [
         "rk_list",
@@ -1641,6 +1735,7 @@
   "_rk_arms_lean_nh": {
     "type": "function",
     "identifier": "_rk_arms_lean_nh",
+    "line": 4806,
     "function_args": {
       "args": [
         "rk_list",
@@ -1663,6 +1758,7 @@
   "_rk_arms_nh_wbase": {
     "type": "function",
     "identifier": "_rk_arms_nh_wbase",
+    "line": 4840,
     "function_args": {
       "args": [
         "rk_list",
@@ -1687,6 +1783,7 @@
   "_rk_base_body_nh": {
     "type": "function",
     "identifier": "_rk_base_body_nh",
+    "line": 4898,
     "function_args": {
       "args": [
         "rk_list",
@@ -1705,6 +1802,7 @@
   "_rk_base_body_lean_nh": {
     "type": "function",
     "identifier": "_rk_base_body_lean_nh",
+    "line": 4926,
     "function_args": {
       "args": [
         "rk_list",
@@ -1724,6 +1822,7 @@
   "_rk_body_nh": {
     "type": "function",
     "identifier": "_rk_body_nh",
+    "line": 4957,
     "function_args": {
       "args": [
         "rk_list",
@@ -1743,6 +1842,7 @@
   "_rk_body_lean_nh": {
     "type": "function",
     "identifier": "_rk_body_lean_nh",
+    "line": 4996,
     "function_args": {
       "args": [
         "rk_list",
@@ -1763,6 +1863,7 @@
   "_rk_body_nh_wbase": {
     "type": "function",
     "identifier": "_rk_body_nh_wbase",
+    "line": 5039,
     "function_args": {
       "args": [
         "rk_list",
@@ -1787,6 +1888,7 @@
   "_rk_chair": {
     "type": "function",
     "identifier": "_rk_chair",
+    "line": 5083,
     "function_args": {
       "args": [
         "rk_list",
@@ -1805,6 +1907,7 @@
   "_rk_face": {
     "type": "function",
     "identifier": "_rk_face",
+    "line": 5121,
     "function_args": {
       "args": [
         "rk_list",
@@ -1831,6 +1934,7 @@
   "_rk_face_pre": {
     "type": "function",
     "identifier": "_rk_face_pre",
+    "line": 5263,
     "function_args": {
       "args": [
         "rk_list",
@@ -1851,6 +1955,7 @@
   "_rk_hair": {
     "type": "function",
     "identifier": "_rk_hair",
+    "line": 5316,
     "function_args": {
       "args": [
         "rk_list",
@@ -1872,6 +1977,7 @@
   "_rk_head": {
     "type": "function",
     "identifier": "_rk_head",
+    "line": 5380,
     "function_args": {
       "args": [
         "rk_list",
@@ -1890,6 +1996,7 @@
   "_rk_table": {
     "type": "function",
     "identifier": "_rk_table",
+    "line": 5419,
     "function_args": {
       "args": [
         "rk_list",
@@ -1909,6 +2016,7 @@
   "_rk_sitting": {
     "type": "function",
     "identifier": "_rk_sitting",
+    "line": 5493,
     "function_args": {
       "args": [
         "clothing",
@@ -1957,6 +2065,7 @@
   "_acs_wear_if_found": {
     "type": "function",
     "identifier": "_acs_wear_if_found",
+    "line": 5794,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -1974,6 +2083,7 @@
   "_acs_wear_if_gifted": {
     "type": "function",
     "identifier": "_acs_wear_if_gifted",
+    "line": 5810,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -1991,6 +2101,7 @@
   "_acs_wear_if_in_tempstorage": {
     "type": "function",
     "identifier": "_acs_wear_if_in_tempstorage",
+    "line": 5827,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2008,6 +2119,7 @@
   "_acs_wear_if_in_tempstorage_s": {
     "type": "function",
     "identifier": "_acs_wear_if_in_tempstorage_s",
+    "line": 5841,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2025,6 +2137,7 @@
   "_acs_wear_if_wearing_acs": {
     "type": "function",
     "identifier": "_acs_wear_if_wearing_acs",
+    "line": 5854,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2043,6 +2156,7 @@
   "_acs_wear_if_wearing_type": {
     "type": "function",
     "identifier": "_acs_wear_if_wearing_type",
+    "line": 5867,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2061,6 +2175,7 @@
   "_acs_wear_if_not_wearing_type": {
     "type": "function",
     "identifier": "_acs_wear_if_not_wearing_type",
+    "line": 5880,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2079,6 +2194,7 @@
   "_acs_remove_if_found": {
     "type": "function",
     "identifier": "_acs_remove_if_found",
+    "line": 5893,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2096,6 +2212,7 @@
   "_acs_ribbon_save_and_remove": {
     "type": "function",
     "identifier": "_acs_ribbon_save_and_remove",
+    "line": 5909,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2112,6 +2229,7 @@
   "_acs_ribbon_like_save_and_remove": {
     "type": "function",
     "identifier": "_acs_ribbon_like_save_and_remove",
+    "line": 5929,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2128,6 +2246,7 @@
   "_acs_save_and_remove_exprop": {
     "type": "function",
     "identifier": "_acs_save_and_remove_exprop",
+    "line": 5943,
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2147,6 +2266,7 @@
   "_hair_unlock_select_if_needed": {
     "type": "function",
     "identifier": "_hair_unlock_select_if_needed",
+    "line": 5965,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -2161,6 +2281,7 @@
   "_clothes_baked_entry": {
     "type": "function",
     "identifier": "_clothes_baked_entry",
+    "line": 5973,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2177,6 +2298,7 @@
   "_hair_def_entry": {
     "type": "function",
     "identifier": "_hair_def_entry",
+    "line": 5999,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2193,6 +2315,7 @@
   "_hair_def_exit": {
     "type": "function",
     "identifier": "_hair_def_exit",
+    "line": 6005,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2209,6 +2332,7 @@
   "_hair_down_entry": {
     "type": "function",
     "identifier": "_hair_down_entry",
+    "line": 6011,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2225,6 +2349,7 @@
   "_hair_down_exit": {
     "type": "function",
     "identifier": "_hair_down_exit",
+    "line": 6017,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2241,6 +2366,7 @@
   "_hair_bun_entry": {
     "type": "function",
     "identifier": "_hair_bun_entry",
+    "line": 6023,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2257,6 +2383,7 @@
   "_hair_orcaramelo_bunbraid_exit": {
     "type": "function",
     "identifier": "_hair_orcaramelo_bunbraid_exit",
+    "line": 6029,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2273,6 +2400,7 @@
   "_hair_braided_entry": {
     "type": "function",
     "identifier": "_hair_braided_entry",
+    "line": 6036,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2289,6 +2417,7 @@
   "_hair_braided_exit": {
     "type": "function",
     "identifier": "_hair_braided_exit",
+    "line": 6043,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2305,6 +2434,7 @@
   "_hair_wet_entry": {
     "type": "function",
     "identifier": "_hair_wet_entry",
+    "line": 6052,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2321,6 +2451,7 @@
   "_clothes_def_entry": {
     "type": "function",
     "identifier": "_clothes_def_entry",
+    "line": 6067,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2337,6 +2468,7 @@
   "_clothes_def_exit": {
     "type": "function",
     "identifier": "_clothes_def_exit",
+    "line": 6077,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2353,6 +2485,7 @@
   "_clothes_rin_exit": {
     "type": "function",
     "identifier": "_clothes_rin_exit",
+    "line": 6085,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2369,6 +2502,7 @@
   "_clothes_marisa_exit": {
     "type": "function",
     "identifier": "_clothes_marisa_exit",
+    "line": 6092,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2385,6 +2519,7 @@
   "_clothes_orcaramelo_hatsune_miku_entry": {
     "type": "function",
     "identifier": "_clothes_orcaramelo_hatsune_miku_entry",
+    "line": 6099,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2401,6 +2536,7 @@
   "_clothes_orcaramelo_hatsune_miku_exit": {
     "type": "function",
     "identifier": "_clothes_orcaramelo_hatsune_miku_exit",
+    "line": 6125,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2417,6 +2553,7 @@
   "_clothes_orcaramelo_sakuya_izayoi_entry": {
     "type": "function",
     "identifier": "_clothes_orcaramelo_sakuya_izayoi_entry",
+    "line": 6140,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2433,6 +2570,7 @@
   "_clothes_orcaramelo_sakuya_izayoi_exit": {
     "type": "function",
     "identifier": "_clothes_orcaramelo_sakuya_izayoi_exit",
+    "line": 6171,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2449,6 +2587,7 @@
   "_clothes_dress_newyears_entry": {
     "type": "function",
     "identifier": "_clothes_dress_newyears_entry",
+    "line": 6186,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2465,6 +2604,7 @@
   "_clothes_dress_newyears_exit": {
     "type": "function",
     "identifier": "_clothes_dress_newyears_exit",
+    "line": 6205,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2481,6 +2621,7 @@
   "_clothes_sundress_white_exit": {
     "type": "function",
     "identifier": "_clothes_sundress_white_exit",
+    "line": 6213,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2497,6 +2638,7 @@
   "_clothes_velius94_dress_whitenavyblue_entry": {
     "type": "function",
     "identifier": "_clothes_velius94_dress_whitenavyblue_entry",
+    "line": 6222,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2513,6 +2655,7 @@
   "_clothes_bath_towel_white_entry": {
     "type": "function",
     "identifier": "_clothes_bath_towel_white_entry",
+    "line": 6238,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2529,6 +2672,7 @@
   "_clothes_bath_towel_white_exit": {
     "type": "function",
     "identifier": "_clothes_bath_towel_white_exit",
+    "line": 6249,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2545,6 +2689,7 @@
   "_clothes_briaryoung_shuchiin_academy_uniform_entry": {
     "type": "function",
     "identifier": "_clothes_briaryoung_shuchiin_academy_uniform_entry",
+    "line": 6256,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2561,6 +2706,7 @@
   "_clothes_briaryoung_shuchiin_academy_uniform_exit": {
     "type": "function",
     "identifier": "_clothes_briaryoung_shuchiin_academy_uniform_exit",
+    "line": 6276,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2577,6 +2723,7 @@
   "_clothes_hatana_2b_entry": {
     "type": "function",
     "identifier": "_clothes_hatana_2b_entry",
+    "line": 6283,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2593,6 +2740,7 @@
   "_clothes_hatana_2b_exit": {
     "type": "function",
     "identifier": "_clothes_hatana_2b_exit",
+    "line": 6301,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2609,6 +2757,7 @@
   "_acs_quetzalplushie_entry": {
     "type": "function",
     "identifier": "_acs_quetzalplushie_entry",
+    "line": 6314,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2625,6 +2774,7 @@
   "_acs_quetzalplushie_exit": {
     "type": "function",
     "identifier": "_acs_quetzalplushie_exit",
+    "line": 6324,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2641,6 +2791,7 @@
   "_acs_center_quetzalplushie_entry": {
     "type": "function",
     "identifier": "_acs_center_quetzalplushie_entry",
+    "line": 6336,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2657,6 +2808,7 @@
   "_acs_center_quetzalplushie_exit": {
     "type": "function",
     "identifier": "_acs_center_quetzalplushie_exit",
+    "line": 6345,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2673,6 +2825,7 @@
   "_acs_quetzalplushie_santahat_entry": {
     "type": "function",
     "identifier": "_acs_quetzalplushie_santahat_entry",
+    "line": 6355,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2689,6 +2842,7 @@
   "_acs_center_quetzalplushie_santahat_entry": {
     "type": "function",
     "identifier": "_acs_center_quetzalplushie_santahat_entry",
+    "line": 6362,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2705,6 +2859,7 @@
   "_acs_quetzalplushie_antlers_entry": {
     "type": "function",
     "identifier": "_acs_quetzalplushie_antlers_entry",
+    "line": 6368,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2721,6 +2876,7 @@
   "_acs_heartchoc_entry": {
     "type": "function",
     "identifier": "_acs_heartchoc_entry",
+    "line": 6375,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2737,6 +2893,7 @@
   "_acs_heartchoc_exit": {
     "type": "function",
     "identifier": "_acs_heartchoc_exit",
+    "line": 6392,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2753,6 +2910,7 @@
   "use_bma": {
     "type": "function",
     "identifier": "use_bma",
+    "line": 6524,
     "function_args": {
       "args": [
         "arm_id"
@@ -2769,6 +2927,7 @@
   "use_bmpm": {
     "type": "function",
     "identifier": "use_bmpm",
+    "line": 6535,
     "function_args": {
       "args": [
         "posenum"
@@ -2785,6 +2944,7 @@
   "use_bmpm_s": {
     "type": "function",
     "identifier": "use_bmpm_s",
+    "line": 6548,
     "function_args": {
       "args": [
         "leanpose"
@@ -2801,6 +2961,7 @@
   "_hair__testingxcp_entry": {
     "type": "function",
     "identifier": "_hair__testingxcp_entry",
+    "line": 6564,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2816,6 +2977,7 @@
   "_hair__testingxcp_exit": {
     "type": "function",
     "identifier": "_hair__testingxcp_exit",
+    "line": 6567,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2831,6 +2993,7 @@
   "_clothes__testingxcp_entry": {
     "type": "function",
     "identifier": "_clothes__testingxcp_entry",
+    "line": 6570,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2846,6 +3009,7 @@
   "_clothes__testingxcp_exit": {
     "type": "function",
     "identifier": "_clothes__testingxcp_exit",
+    "line": 6573,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2861,6 +3025,7 @@
   "_acs__testingxcp_entry": {
     "type": "function",
     "identifier": "_acs__testingxcp_entry",
+    "line": 6576,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2876,6 +3041,7 @@
   "_acs__testingxcp_exit": {
     "type": "function",
     "identifier": "_acs__testingxcp_exit",
+    "line": 6579,
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2891,6 +3057,7 @@
   "show_empty_desk": {
     "type": "function",
     "identifier": "show_empty_desk",
+    "line": 6602,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -2905,6 +3072,7 @@
   "register_image": {
     "type": "function",
     "identifier": "register_image",
+    "line": 6619,
     "function_args": {
       "args": [
         "name",
@@ -2922,6 +3090,7 @@
   "needs_closed_eye_variant": {
     "type": "function",
     "identifier": "needs_closed_eye_variant",
+    "line": 6644,
     "function_args": {
       "args": [
         "exp"
@@ -2938,6 +3107,7 @@
   "is_wink_sprite": {
     "type": "function",
     "identifier": "is_wink_sprite",
+    "line": 6656,
     "function_args": {
       "args": [
         "exp"
@@ -2954,6 +3124,7 @@
   "is_follow_sprite": {
     "type": "function",
     "identifier": "is_follow_sprite",
+    "line": 6668,
     "function_args": {
       "args": [
         "exp"
@@ -2970,6 +3141,7 @@
   "needs_tear_atl": {
     "type": "function",
     "identifier": "needs_tear_atl",
+    "line": 6680,
     "function_args": {
       "args": [
         "exp"
@@ -2986,6 +3158,7 @@
   "replace_eyes": {
     "type": "function",
     "identifier": "replace_eyes",
+    "line": 6692,
     "function_args": {
       "args": [
         "exp",
@@ -3003,6 +3176,7 @@
   "generate_static_sprite": {
     "type": "function",
     "identifier": "generate_static_sprite",
+    "line": 6707,
     "function_args": {
       "args": [
         "exp"
@@ -3019,6 +3193,7 @@
   "generate_follow_sprite": {
     "type": "function",
     "identifier": "generate_follow_sprite",
+    "line": 6723,
     "function_args": {
       "args": [
         "exp"
@@ -3035,6 +3210,7 @@
   "add_static_sprite_alias": {
     "type": "function",
     "identifier": "add_static_sprite_alias",
+    "line": 6750,
     "function_args": {
       "args": [
         "exp"
@@ -3051,6 +3227,7 @@
   "generate_normal_sprite": {
     "type": "function",
     "identifier": "generate_normal_sprite",
+    "line": 6765,
     "function_args": {
       "args": [
         "exp"
@@ -3067,6 +3244,7 @@
   "generate_wink_sprite": {
     "type": "function",
     "identifier": "generate_wink_sprite",
+    "line": 6818,
     "function_args": {
       "args": [
         "exp"
@@ -3083,6 +3261,7 @@
   "generate_images": {
     "type": "function",
     "identifier": "generate_images",
+    "line": 6840,
     "function_args": {
       "args": [
         "exp"
@@ -3099,6 +3278,7 @@
   "_verify_fwm_db": {
     "type": "function",
     "identifier": "_verify_fwm_db",
+    "line": 7051,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -3113,6 +3293,7 @@
   "_verify_mfwm": {
     "type": "function",
     "identifier": "_verify_mfwm",
+    "line": 7067,
     "function_args": {
       "args": [
         "mfwm_id",
@@ -3130,6 +3311,7 @@
   "_mfwm_find_fb_def": {
     "type": "function",
     "identifier": "_mfwm_find_fb_def",
+    "line": 7112,
     "function_args": {
       "args": [
         "mfwm",
@@ -3148,6 +3330,7 @@
   "_find_circ_fb": {
     "type": "function",
     "identifier": "_find_circ_fb",
+    "line": 7159,
     "function_args": {
       "args": [
         "flt",
@@ -3165,6 +3348,7 @@
   "_find_next_fb": {
     "type": "function",
     "identifier": "_find_next_fb",
+    "line": 7191,
     "function_args": {
       "args": [
         "flt",
@@ -3183,6 +3367,7 @@
   "_verify_flt_fb": {
     "type": "function",
     "identifier": "_verify_flt_fb",
+    "line": 7212,
     "function_args": {
       "args": [],
       "pos_only_args": [],

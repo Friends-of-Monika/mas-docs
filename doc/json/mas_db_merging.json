@@ -2,6 +2,7 @@
   "merge_db": {
     "type": "function",
     "identifier": "merge_db",
+    "line": 36,
     "function_args": {
       "args": [
         "source",
@@ -19,6 +20,7 @@
   "merge_post0810": {
     "type": "function",
     "identifier": "merge_post0810",
+    "line": 47,
     "function_args": {
       "args": [],
       "pos_only_args": [],
