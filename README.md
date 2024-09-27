@@ -26,3 +26,9 @@ it will only start if first hardlinked inside `renpy` directory, where RenPy SDK
 
 After it completes, you'll have `pysrc` directory with `init python` scripts compiled
 into `<store name>.py` Python files.
+
+## Generating docs
+
+Run `./extract_docs.py` script when you've done all previous steps.
+
+After it completes, new/updated doc `.json` files will be placed in `doc/json` directory.
