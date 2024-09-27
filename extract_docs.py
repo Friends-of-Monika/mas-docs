@@ -141,7 +141,7 @@ doc_dir.mkdir(parents=True, exist_ok=True)
 
 print("Parsing Python files...")
 for py_path in pysrc_dir.glob("*.py"):
-    print(f"  - Processing {py_path}...")
+    print(f"  - Processing {py_path.relative_to(Path(__file__).parent)}...")
     docs = extract_docs(py_path)
 
     script_name = ".".join(py_path.name.split(".")[:-1]) # pylint: disable=invalid-name
