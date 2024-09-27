@@ -1,0 +1,16 @@
+{
+  "checkUpdate": {
+    "type": "function",
+    "identifier": "checkUpdate",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "RETURNS:\n    update_link if theres update available\n    None if no update avaiable, or no need to update rn"
+  }
+}

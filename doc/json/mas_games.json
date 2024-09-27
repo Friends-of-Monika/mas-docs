@@ -1,0 +1,49 @@
+{
+  "is_platform_good_for_chess": {
+    "type": "function",
+    "identifier": "is_platform_good_for_chess",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "_total_games_played": {
+    "type": "function",
+    "identifier": "_total_games_played",
+    "function_args": {
+      "args": [
+        "exclude_list"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "[]"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns the total number of games played by adding up the shown_count of each game\n\nIN:\n    exclude_list - A list of event_label strings for games we want to exclude from the number of games played\n        defaults to an empty list"
+  },
+  "getGameEVByPrompt": {
+    "type": "function",
+    "identifier": "getGameEVByPrompt",
+    "function_args": {
+      "args": [
+        "gamename"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets the game ev using the prompt of its event (gamename)\n\nIN:\n    gamename - Name of the game we want to get\n\nOUT:\n    event object for the game entered if found. None if not found"
+  }
+}

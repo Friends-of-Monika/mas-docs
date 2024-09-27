@@ -1,0 +1,92 @@
+{
+  "reduceRandchatForAff": {
+    "type": "function",
+    "identifier": "reduceRandchatForAff",
+    "function_args": {
+      "args": [
+        "aff_level"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Reduces the randchat setting if we're too high for the current affection level"
+  },
+  "adjustRandFreq": {
+    "type": "function",
+    "identifier": "adjustRandFreq",
+    "function_args": {
+      "args": [
+        "slider_value"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Properly adjusts the random limits given the slider value\n\nIN:\n    slider_value - slider value given from the slider\n        Should be between 0 - 6"
+  },
+  "getRandChatDisp": {
+    "type": "function",
+    "identifier": "getRandChatDisp",
+    "function_args": {
+      "args": [
+        "slider_value"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Retrieves the random chatter display string using the given slider\nvalue\n\nIN:\n    slider_value - slider value given from the slider\n\nRETURNS:\n    displayable string that reprsents the current random chatter\n    setting"
+  },
+  "setWaitingTime": {
+    "type": "function",
+    "identifier": "setWaitingTime",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Sets up the waiting time for the next random chat, depending on the current random chatter selection."
+  },
+  "wait": {
+    "type": "function",
+    "identifier": "wait",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Pauses renpy for a small amount of seconds.\nThis helps adapting fast to a new random chatter selection.\nAll events before a random chat can also be handled rather than to keep waiting the whole time at once."
+  },
+  "waitedLongEnough": {
+    "type": "function",
+    "identifier": "waitedLongEnough",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks whether the waiting time is up yet.\n\nRETURNS:\n    boolean to determine whether the wait is over"
+  }
+}

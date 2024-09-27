@@ -1,0 +1,996 @@
+{
+  "_m1_zz_cardgames__scanDeskSprites": {
+    "type": "function",
+    "identifier": "_m1_zz_cardgames__scanDeskSprites",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Scans the folder with the desk sprites and fills the desk sprites map"
+  },
+  "DeskSpriteSwitch": {
+    "type": "class",
+    "identifier": "DeskSpriteSwitch",
+    "class_bases": [
+      "renpy.display.core.Displayable"
+    ],
+    "docstring": "This displayable represents a desk for card games;\nIt takes care of different backgrounds, too, using the map for desk sprites.",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": "props",
+          "var_arg": null
+        },
+        "docstring": "Constructor\n\nIN:\n    **props - general props for renpy displayable"
+      },
+      {
+        "type": "function",
+        "identifier": "render",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Render of this disp\n\nASSUMES:\n    store.mas_current_background"
+      },
+      {
+        "type": "function",
+        "identifier": "per_interact",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Interact callback\nWhile technically I doubt the background can be changed while the game is on\nand the disp seems to update when switching the bg\n(probably because of a different filter)\nI think it's more safe to just redraw after every interaction"
+      },
+      {
+        "type": "function",
+        "identifier": "visit",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns imgs for prediction\n\nOUT:\n    list of displayables\n\nASSUMES:\n    store.mas_current_background"
+      }
+    ]
+  },
+  "_m1_zz_cardgames__rect_overlap_area": {
+    "type": "function",
+    "identifier": "_m1_zz_cardgames__rect_overlap_area",
+    "function_args": {
+      "args": [
+        "r1",
+        "r2"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if 2 given rectangles overlap\n\nIN:\n    r1, r2 - tuples of the following format: (x, y, w, h)\n\nOUT:\n    overlap between the 2 rectangles (False if they don't overlap)"
+  },
+  "_m1_zz_cardgames__default_can_drag": {
+    "type": "function",
+    "identifier": "_m1_zz_cardgames__default_can_drag",
+    "function_args": {
+      "args": [
+        "table",
+        "stack",
+        "card"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Function to check if the player can drag card\nNOTE: You can use yours in the constructor,\n    but it must always take 3 arguments\n    and return True or False\n\nIN:\n    table - the table the card belongs to\n    stack - the stack the card belongs to\n    card - the card the player tries to drag\n\nOUT:\n    True if the card is set faceup, False otherwise"
+  },
+  "Table": {
+    "type": "class",
+    "identifier": "Table",
+    "class_bases": [
+      "renpy.display.core.Displayable"
+    ],
+    "docstring": "Table class to represent a \"table\" for card games\n\nPROPERTIES:\n    back - the back of cards that don't have a more specific back defined\n    base - the base of stacks that don't have a more specific base defined\n    springback - the amount of time it takes for cards to springback into their rightful place\n    rotate - the amount of time it takes for cards to rotate into their proper orientation\n    can_drag - a function that is called to tell if we can drag a particular card\n    doubleclick - the time between clicks for the click to be considered a double-click\n    cards - a map from card value to the card object corresponding to that value\n    stacks - a list of the stacks that have been defined\n    sensitive - weather or not we're sensetive to the user's input\n    last_event - last click event (CardEvent() obj)\n    click_card - the card that has been clicked\n    click_stack - the stack that has been clicked\n    drag_cards - the list of cards that are being dragged\n    dragging - weather or not we're dragging some cards\n    click_x - the x position where we clicked\n    click_y - the y position where we clicked\n    st - the amount of time we've been shown for",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "back",
+            "base",
+            "springback",
+            "rotate",
+            "can_drag",
+            "doubleclick"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None",
+            "None",
+            "0.1",
+            "0.1",
+            "_m1_zz_cardgames__default_can_drag",
+            "0.33"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": "kwargs",
+          "var_arg": null
+        },
+        "docstring": "Constructor for Table objects\n\nIN:\n    back - the back of cards that don't have a more specific back defined\n        (Default: None)\n    base - the base of stacks that don't have a more specific base defined\n        (Default: None)\n    springback - the amount of time it takes for cards to springback into their rightful place\n        (Default: 0.1)\n    rotate - the amount of time it takes for cards to rotate into their proper orientation\n        (Default: 0.1)\n    can_drag - a function that is called to tell if we can drag a particular card\n        (Default: _m1_zz_cardgames__default_can_drag)\n    doubleclick - the time between clicks for the click to be considered a double-click\n        (Default: 0.33)"
+      },
+      {
+        "type": "function",
+        "identifier": "show",
+        "function_args": {
+          "args": [
+            "self",
+            "layer"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "'minigames'"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Shows the table on the given layer\n\nIN:\n    layer - the layer we'll render our table on\n        (Default: \"minigames\")"
+      },
+      {
+        "type": "function",
+        "identifier": "hide",
+        "function_args": {
+          "args": [
+            "self",
+            "layer"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "'minigames'"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Hides the table on the given layer\n\nIN:\n    layer - the layer we rendered our table on\n        (Default: \"minigames\")"
+      },
+      {
+        "type": "function",
+        "identifier": "set_sensitive",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Changes the table's sensetivity\n\nIN:\n    value - True if we set to sensetive, False otherwise"
+      },
+      {
+        "type": "function",
+        "identifier": "get_card",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Gets the table's card object corresponding to the given value\n\nIN:\n    value - your custom card object\n\nOUT:\n    table's card object"
+      },
+      {
+        "type": "function",
+        "identifier": "set_faceup",
+        "function_args": {
+          "args": [
+            "self",
+            "card",
+            "faceup"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "True"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets the given card faceup/down and makes renpy redraw the table\n\nin:\n    card - card\n    faceup - True if we set it faceup, False otherwise\n        (Default: True)"
+      },
+      {
+        "type": "function",
+        "identifier": "get_faceup",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Checks if the given card is faceup\n\nIN:\n    card - card\n\nOUT:\n    True if the card is set faceup, False otherwise"
+      },
+      {
+        "type": "function",
+        "identifier": "set_rotate",
+        "function_args": {
+          "args": [
+            "self",
+            "card",
+            "rotation"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets the rotation of the given card and makes renpy redraw the table\n\nIN:\n    card - card\n    rotation - rotation for the card"
+      },
+      {
+        "type": "function",
+        "identifier": "get_rotate",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns card rotation\n\nIN:\n    card - card\n\nOUT:\n    card's rotation"
+      },
+      {
+        "type": "function",
+        "identifier": "add_marker",
+        "function_args": {
+          "args": [
+            "self",
+            "card",
+            "marker"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Adds marker on card and redraws the table\n\nIN:\n    card - card\n    marker - marker"
+      },
+      {
+        "type": "function",
+        "identifier": "remove_marker",
+        "function_args": {
+          "args": [
+            "self",
+            "card",
+            "marker"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Removes marker from card and redraws the table\n\nIN:\n    card - card\n    marker - marker"
+      },
+      {
+        "type": "function",
+        "identifier": "card",
+        "function_args": {
+          "args": [
+            "self",
+            "value",
+            "face",
+            "back"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Creates a card and adds it to the table's cards map\n\nIN:\n    value - your custom card object\n    face - is the card face up or face down\n    back - the card's back\n        (Default: None)"
+      },
+      {
+        "type": "function",
+        "identifier": "stack",
+        "function_args": {
+          "args": [
+            "self",
+            "x",
+            "y",
+            "xoff",
+            "yoff",
+            "show",
+            "base",
+            "click",
+            "drag",
+            "drop",
+            "hover",
+            "hidden"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "0",
+            "0",
+            "1024",
+            "None",
+            "False",
+            "DRAG_NONE",
+            "False",
+            "False",
+            "False"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Creates a stack and adds it to the table's stacks list\n\nIN:\n    x - the x position for the stack\n    y - the y position for the stack\n    xoff - the offset x for the stack\n        (Default: 0)\n    yoff - the offset y for the stack\n        (Default: 0)\n    show - maximum cards to render\n        (Default: 1024)\n    base - img for the stack's base\n        (Default: None)\n    click - whether or not the user can click on the stack\n        (Default: False)\n    drag - the drag mode for the stack\n        (Default: DRAG_NONE)\n    drop - whether or not the user can drop cards on the stack\n        (Default: False)\n    hover - whether or not we respond to user hovering mouse over the stack\n        (Default: False)\n    hidden - whether or not we hide the stack\n        (Default: False)\n\nOUT:\n    new stack object"
+      },
+      {
+        "type": "function",
+        "identifier": "per_interact",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Forces redraw on each interaction"
+      },
+      {
+        "type": "function",
+        "identifier": "render",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Renders the table's stacks and cards that should be rendered"
+      },
+      {
+        "type": "function",
+        "identifier": "visit",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns a list of all displayable objects we use"
+      },
+      {
+        "type": "function",
+        "identifier": "event",
+        "function_args": {
+          "args": [
+            "self",
+            "ev",
+            "x",
+            "y",
+            "st"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Event handler\nThis framework allows you to work with 5 event types\n    each event has its own attributes (they share some of them):\n        'drag' - the user dragged 1 or more cards:\n            table\n            stack\n            card\n            drag_cards\n            drop_stack (can be None)\n            drop_card (can be None)\n            time\n        'click' and 'doubleclick' - the user\n            clicked somewhere:\n            table\n            stack\n            card (can be None)\n            time\n        'hover' and 'unhover' - the user started/ended\n            hovering mouse over card:\n            table\n            stack\n            card\n            time\n    if the event doesn't have an attribute, it means the attribute is None\n\nOUT:\n    list of events happened during this interaction"
+      }
+    ]
+  },
+  "CardEvent": {
+    "type": "class",
+    "identifier": "CardEvent",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Represents cards events\nPROPERTIES:\n    type - the type of the event\n    stack - the stack where the event started\n    card - the card that triggered the event\n    drag_cards - the cards we're dragging\n    drop_stack - the stack we're dropping our cards on\n    drop_card - the bottom card we're dropping\n    time - the event time",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  "_m1_zz_cardgames__Stack": {
+    "type": "class",
+    "identifier": "_m1_zz_cardgames__Stack",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Represents a stack of one or more cards, which can be placed on the table.\n\nPROPERTIES:\n    table - the table the stack belongs to\n    x/y - coordinates of the center of the top card of the stack\n    xoff/yoff - the offset in the x and y directions of each successive card\n    show - the number of cards to render\n    base - the image that is shown behind the stack\n    click - whether or not we report click events on the stack\n    drag - the drag mode for the stack\n    drop - whether or not the user can drop cards on the stack\n    hover - whether or not we report hover/unhover events for the stack\n    hidden - whether or not we render the stack\n    cards - the list of cards in the stack\n    rect - the rectangle for the background",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "table",
+            "x",
+            "y",
+            "xoff",
+            "yoff",
+            "show",
+            "base",
+            "click",
+            "drag",
+            "drop",
+            "hover",
+            "hidden"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor for a stack\nNOTE: since we define stacks via the table method,\n    they don't have default parameters in the init method\n\nIN:\n    table - the table of this stack\n    x - x of the center of the top card\n    y - y of the center of the top card\n    xoff - x offset of each successive card\n    yoff - y offset of each successive card\n    show - maximum cards to render\n    base - the image for the base of this stack\n    click - whether or not we report the user's clicks\n    drag - the drag mode for this stack\n    drop - whether or not the user's can drop cards on this stack\n    hover -  whether or not we report hover events for the stack\n    hidden - whether or not we render the stack"
+      },
+      {
+        "type": "function",
+        "identifier": "insert",
+        "function_args": {
+          "args": [
+            "self",
+            "index",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Inserts card in the stack at index\n\nIN:\n    index - the index to insert the card at\n    card - card to move"
+      },
+      {
+        "type": "function",
+        "identifier": "append",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Places card on the top of the stack\n\nIN:\n    card - card to move"
+      },
+      {
+        "type": "function",
+        "identifier": "remove",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Removes card from the stack\nNOTE: cards that don't have a stack won't be rendered!\n\nIN:\n    card - card to remove"
+      },
+      {
+        "type": "function",
+        "identifier": "index",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns card index in the stack\n\nIN:\n    card - the card which index we're trying to find\n\nOUT:\n    int as card index\n    or None if no such card in the stack"
+      },
+      {
+        "type": "function",
+        "identifier": "deal",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Removes the card at the top of the stack from the stack\n\nOUT:\n    the card that was removed\n    or None if the stack si empty"
+      },
+      {
+        "type": "function",
+        "identifier": "shuffle",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Shuffles the cards in the stack"
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__len__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__getitem__",
+        "function_args": {
+          "args": [
+            "self",
+            "idx"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__iter__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__contains__",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "render_to",
+        "function_args": {
+          "args": [
+            "self",
+            "rv",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Blits the stack to the table's render"
+      }
+    ]
+  },
+  "_m1_zz_cardgames__Card": {
+    "type": "class",
+    "identifier": "_m1_zz_cardgames__Card",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Represent a card for our table\nNOTE: THIS IS NOT THE CLASS FOR YOUR CARDS\nThis is only for internal use only\n\nPROPERTIES:\n    table - the table the card belongs to\n    value - value of the card (your card object)\n    face - the face for the card\n    back - the back for the card\n    faceup - whether or not this card is set face up\n    rotate - an object for cards rotation\n    markers - a list of marker that will be rendered over the card\n    stack - the stack the card belongs to\n    _offset - an object that gives the offset of this card relative to\n        where it would normally be placed. THIS IS THE PRIVATE VARIANT FOR INTERNAL USE\n    rect - the rectangle where this card was last drawn to the screen at\n    hovered - whether or not the user hovered over this card\n    positional_offset - the offsets which you can use to change the card positions (PUBLIC)",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "table",
+            "value",
+            "face",
+            "back"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The constructor for a card\nNOTE: no default values since we use the table method for defining cards\n\ntable - the table of this card\nvalue - your card object corresponding to this card\nface - the face of this card\nback - the back of this card"
+      },
+      {
+        "type": "function",
+        "identifier": "set_offset",
+        "function_args": {
+          "args": [
+            "self",
+            "x",
+            "y"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "0",
+            "0"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets ofsets for this card to x and y\n\nIN:\n    x - x offset\n        (Default: 0)\n    y - y offset\n        (Default: 0)"
+      },
+      {
+        "type": "function",
+        "identifier": "place",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns the base x and y placement of this card\n\nOUT:\n    tuple with x and y coordinates of this card"
+      },
+      {
+        "type": "function",
+        "identifier": "springback",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Makes this card to springback"
+      },
+      {
+        "type": "function",
+        "identifier": "render_to",
+        "function_args": {
+          "args": [
+            "self",
+            "rv",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Blits the card to the table's render"
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  "_m1_zz_cardgames__Springback": {
+    "type": "class",
+    "identifier": "_m1_zz_cardgames__Springback",
+    "class_bases": [
+      "object"
+    ],
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "offset",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  "_m1_zz_cardgames__Fixed": {
+    "type": "class",
+    "identifier": "_m1_zz_cardgames__Fixed",
+    "class_bases": [
+      "object"
+    ],
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "x",
+            "y"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "offset",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  "_m1_zz_cardgames__Rotate": {
+    "type": "class",
+    "identifier": "_m1_zz_cardgames__Rotate",
+    "class_bases": [
+      "object"
+    ],
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "card",
+            "amount"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "rotate",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "rotate_limit",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  }
+}

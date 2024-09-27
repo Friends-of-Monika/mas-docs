@@ -1,0 +1,113 @@
+{
+  "MASScreenData": {
+    "type": "class",
+    "identifier": "MASScreenData",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Want a data/behavior object abstraction for screens that lets you do\nmore things without globals? extend this class.\n\nUse properties, and define whatever functions you want.\n\nOnly 1 main function:\n    - loop - this should be called in the loop to do processing.",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "screen_name"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor\n\nIN:\n    screen_name - name of this screen this data is for. ACts like\n        an identifier, but is currently only used for repr"
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "loop",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "If you use this, only call it once in your screen code.\nExpect this to be called multiple times by renpy as apart of\nscreen execution.\n\nThis should be used to avoid screen code clutter."
+      }
+    ]
+  },
+  "findMsg": {
+    "type": "function",
+    "identifier": "findMsg",
+    "function_args": {
+      "args": [
+        "start_aff",
+        "index"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Finds first non-None quit message we need\n\nThis uses the cascade map from affection\n\nIN:\n    start_aff - starting affection\n    index - index of the tuple we need to look at\n\nRETURNS:\n    first non-None quit message found."
+  },
+  "set_quit_msg": {
+    "type": "function",
+    "identifier": "set_quit_msg",
+    "function_args": {
+      "args": [
+        "quit_msg",
+        "quit_yes",
+        "quit_no"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None",
+        "None",
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Sets text for the quit dialogue box\n\nFor documentation, see mas_setQuitMsg"
+  },
+  "setupQuits": {
+    "type": "function",
+    "identifier": "setupQuits",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Sets up quit message based on the current affection state"
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "EventListItem": {
+    "type": "class",
+    "identifier": "EventListItem",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Representation of an EventListItem (ELI)",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "data"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor\n\nIN:\n    data - the data directly from event list"
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "build",
+        "function_args": {
+          "args": [
+            "evl"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "args"
+        },
+        "docstring": "Builds an ELI.\n\nIN:\n    evl - event label\n    *args - the other args for an EventListItem.\n\nRETURNS: EventListItem object"
+      },
+      {
+        "type": "function",
+        "identifier": "_build_raw",
+        "function_args": {
+          "args": [
+            "evl"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "args"
+        },
+        "docstring": "Builds raw data for an ELI.\n\nargs are same as EventListItem.build\n\nRETURNS: raw data"
+      },
+      {
+        "type": "function",
+        "identifier": "_raw",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Gets the data for this EventListItem that is ready for\nthe actual event list.\n\nRETURNS: raw event list data"
+      },
+      {
+        "type": "function",
+        "identifier": "event_label",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Gets the event label from this EventListItem\n\nAliases: ev_label, evl\n\nRETURNS: event label"
+      },
+      {
+        "type": "function",
+        "identifier": "notify",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Gets the notify value from this EventListItem\n\nRETURNS: notify"
+      },
+      {
+        "type": "function",
+        "identifier": "context",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Gets the context from this EventListItem\n\nAliases: ctx\n\nRETURNS: context (MASEventContext object)"
+      }
+    ]
+  },
+  "addIfNew": {
+    "type": "function",
+    "identifier": "addIfNew",
+    "function_args": {
+      "args": [
+        "items",
+        "pool"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "tuplizeEventLabelList": {
+    "type": "function",
+    "identifier": "tuplizeEventLabelList",
+    "function_args": {
+      "args": [
+        "key_list",
+        "db"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "_isFuture": {
+    "type": "function",
+    "identifier": "_isFuture",
+    "function_args": {
+      "args": [
+        "ev",
+        "date"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "INTERNAL\n        Checks if the start_date of the given event happens after the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's start_date is in the future, False otherwise"
+  },
+  "_isPast": {
+    "type": "function",
+    "identifier": "_isPast",
+    "function_args": {
+      "args": [
+        "ev",
+        "date"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "INTERNAL\n        Checks if the end_date of the given event happens before the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's end_date is in the past, False otherwise"
+  },
+  "_isPresent": {
+    "type": "function",
+    "identifier": "_isPresent",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "INTERNAL\n        Checks if current date falls within the given event's start/end date\n        range\n\n        IN:\n            ev - Event to check the start_time and end_time\n\n        RETURNS:\n            True if current time is inside the  Event's start_date/end_date\n            interval, False otherwise"
+  },
+  "_hideEvent": {
+    "type": "function",
+    "identifier": "_hideEvent",
+    "function_args": {
+      "args": [
+        "event",
+        "lock",
+        "derandom",
+        "depool",
+        "decond"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False",
+        "False",
+        "False",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Internalized hideEvent"
+  },
+  "_hideEventLabel": {
+    "type": "function",
+    "identifier": "_hideEventLabel",
+    "function_args": {
+      "args": [
+        "eventlabel",
+        "lock",
+        "derandom",
+        "depool",
+        "decond",
+        "eventdb"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False",
+        "False",
+        "False",
+        "False",
+        "event_database"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Internalized hideEventLabel"
+  },
+  "_lockEvent": {
+    "type": "function",
+    "identifier": "_lockEvent",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Internalized lockEvent"
+  },
+  "_lockEventLabel": {
+    "type": "function",
+    "identifier": "_lockEventLabel",
+    "function_args": {
+      "args": [
+        "evlabel",
+        "eventdb"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "event_database"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Internalized lockEventLabel"
+  },
+  "_unlockEvent": {
+    "type": "function",
+    "identifier": "_unlockEvent",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Internalized unlockEvent"
+  },
+  "_unlockEventLabel": {
+    "type": "function",
+    "identifier": "_unlockEventLabel",
+    "function_args": {
+      "args": [
+        "evlabel",
+        "eventdb"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "event_database"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Internalized unlockEventLabel"
+  },
+  "addYearsetBlacklist": {
+    "type": "function",
+    "identifier": "addYearsetBlacklist",
+    "function_args": {
+      "args": [
+        "evl",
+        "expire_dt"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds the given evl to the yearset blacklist, with the given expiration\ndt\n\nIN:\n    evl - event label\n    expire_dt - when the evl should be removed from the blacklist"
+  },
+  "cleanYearsetBlacklist": {
+    "type": "function",
+    "identifier": "cleanYearsetBlacklist",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Goes through the year setblacklist and removes expired entries"
+  },
+  "isYearsetBlacklisted": {
+    "type": "function",
+    "identifier": "isYearsetBlacklisted",
+    "function_args": {
+      "args": [
+        "evl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the given evl is yearset blacklisted. Also checks expiration\ndate and removes if needed.\n\nIN:\n    evl - event label\n\nRETURNS: True if blacklisted, false if not"
+  },
+  "actionPush": {
+    "type": "function",
+    "identifier": "actionPush",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    },
+    "docstring": "Runs Push Event action for the given event\n\nIN:\n    ev - event to push to event stack"
+  },
+  "actionQueue": {
+    "type": "function",
+    "identifier": "actionQueue",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    },
+    "docstring": "Runs Queue event action for the given event\n\nIN:\n    ev - event to queue to event stack"
+  },
+  "actionUnlock": {
+    "type": "function",
+    "identifier": "actionUnlock",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    },
+    "docstring": "Unlocks an event. Also setse the unlock_date to the given\n    unlock time\n\nIN:\n    ev - event to unlock\n    unlock_time - time to set unlock_date to"
+  },
+  "actionRandom": {
+    "type": "function",
+    "identifier": "actionRandom",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    },
+    "docstring": "Randos an event.\n\nIN:\n    ev - event to random\n    rebuild_ev - True if we wish to notify idle to rebuild events"
+  },
+  "actionPool": {
+    "type": "function",
+    "identifier": "actionPool",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    },
+    "docstring": "Pools an event.\n\nIN:\n    ev - event to pool"
+  }
+}

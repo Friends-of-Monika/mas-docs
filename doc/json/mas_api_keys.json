@@ -1,0 +1,451 @@
+{
+  "feature_registered": {
+    "type": "function",
+    "identifier": "feature_registered",
+    "function_args": {
+      "args": [
+        "feature"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if a feature is registered for API keys\n\nIN:\n    feature - feature to check (string)\n\nRETURNS: True if the feature is registered for API keys"
+  },
+  "register_feature": {
+    "type": "function",
+    "identifier": "register_feature",
+    "function_args": {
+      "args": [
+        "feature",
+        "data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Registers a feature for API key usage\n\nIN:\n    feature - name of the feature\n    data - data to associate with the feature"
+  },
+  "features_for_display": {
+    "type": "function",
+    "identifier": "features_for_display",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns list of the features for display\n\nRETURNS: list of the features as tuples, sorted for display:\n    [0] - the display name of the feature\n    [1] - the on_change function to run"
+  },
+  "has_features": {
+    "type": "function",
+    "identifier": "has_features",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Do we have API-key based features?\n\nRETURNS: True if we have api key based features"
+  },
+  "clean_key": {
+    "type": "function",
+    "identifier": "clean_key",
+    "function_args": {
+      "args": [
+        "dirty_key"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Cleans an aPI key\n\nIN:\n    dirty_key - key to clean\n\nRETURNS: cleaned key"
+  },
+  "_run_on_change": {
+    "type": "function",
+    "identifier": "_run_on_change",
+    "function_args": {
+      "args": [
+        "feature",
+        "api_key"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs on change for a feature with api key\n\nIN:\n    feature - feature to run on change for\n    api_key - api key to run on change with\n\nRETURNS: tuple of the following format:\n    [0] - True if valid key, False if not\n    [1] - error message to show"
+  },
+  "screen_clear": {
+    "type": "function",
+    "identifier": "screen_clear",
+    "function_args": {
+      "args": [
+        "feature"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Called when the clear button is used on the api key screen\n\nIN:\n    feature - the feature whose key is being cleared"
+  },
+  "screen_paste": {
+    "type": "function",
+    "identifier": "screen_paste",
+    "function_args": {
+      "args": [
+        "feature"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Called when the paste button is used on the api key screen.\n\nIN:\n    feature - the feature whose key is being pasted"
+  },
+  "screen_update_cert": {
+    "type": "function",
+    "identifier": "screen_update_cert",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Called when the update cert button is used on the api key screen"
+  },
+  "load_keys": {
+    "type": "function",
+    "identifier": "load_keys",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Loads API keys from config file"
+  },
+  "save_keys": {
+    "type": "function",
+    "identifier": "save_keys",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Saves API keys to disk"
+  },
+  "MASUpdateCertScreenData": {
+    "type": "class",
+    "identifier": "MASUpdateCertScreenData",
+    "class_bases": [
+      "mas_layout.MASScreenData"
+    ],
+    "docstring": "screen data for the mas_update_cert screen",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "main_text",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Primary text to show in screen describing current state"
+      },
+      {
+        "type": "function",
+        "identifier": "show_cancel",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "True if the cancel button be shown"
+      },
+      {
+        "type": "function",
+        "identifier": "show_ok",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "True if the ok button should be shown"
+      },
+      {
+        "type": "function",
+        "identifier": "show_retry",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "True if the retry button should be shown"
+      },
+      {
+        "type": "function",
+        "identifier": "loop",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Main loop should just do update promise checking.\nAssumes Cert update promise was started."
+      },
+      {
+        "type": "function",
+        "identifier": "start",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Call this before showing the update cert screen. This will\nrun initializations and stuff."
+      },
+      {
+        "type": "function",
+        "identifier": "action_cancel",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Called when the cancel button is clicked."
+      },
+      {
+        "type": "function",
+        "identifier": "action_ok",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Called when the ok button is clicked"
+      },
+      {
+        "type": "function",
+        "identifier": "action_retry",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Called when the retry button is clicked"
+      },
+      {
+        "type": "function",
+        "identifier": "_hide_all_buttons",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Hides all buttons"
+      },
+      {
+        "type": "function",
+        "identifier": "_set_buttons_ok",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets button flags for ok available"
+      },
+      {
+        "type": "function",
+        "identifier": "_set_buttons_retrycancel",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets button flags for retrycancel available"
+      },
+      {
+        "type": "function",
+        "identifier": "_set_state_checking_update",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets text and button flags for when an update is in progress.\nThis includes checking for an update."
+      },
+      {
+        "type": "function",
+        "identifier": "_set_state_error",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets text and button flags for when update failed"
+      },
+      {
+        "type": "function",
+        "identifier": "_set_state_no_update",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets text and button flags for when no update is found"
+      },
+      {
+        "type": "function",
+        "identifier": "_set_state_updated",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets text and button flags for whe cert was updated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "is_eggable_name": {
+    "type": "function",
+    "identifier": "is_eggable_name",
+    "function_args": {
+      "args": [
+        "name"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the given name is eggable\n\nIN:\n    name - the name to check (string)\n\nRETURNS: True if the name is eggable"
+  },
+  "name_eggs_enabled": {
+    "type": "function",
+    "identifier": "name_eggs_enabled",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if name eggs are enabled\n\nRETURNS: True if name eggs are enabled"
+  },
+  "natsuki_enabled": {
+    "type": "function",
+    "identifier": "natsuki_enabled",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the natsuki egg should be enabled\n\nRETURNS: True if natsuki egg should be enabled"
+  },
+  "sayori_enabled": {
+    "type": "function",
+    "identifier": "sayori_enabled",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the sayori egg should be enabled\n\nRETURNS: True if the sayori egg should be enabled"
+  },
+  "yuri_enabled": {
+    "type": "function",
+    "identifier": "yuri_enabled",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the yuri egg should be enabled\n\nRETURNS: True if yuri egg should be enabled"
+  }
+}

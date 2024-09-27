@@ -1,0 +1,1058 @@
+{
+  "ParallaxDecal": {
+    "type": "class",
+    "identifier": "ParallaxDecal",
+    "class_bases": [
+      "renpy.display.core.Displayable"
+    ],
+    "docstring": "Represents a decal, intended to be used with ParallaxSprite,\nmay work not as expected in other cases.",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "img",
+            "x",
+            "y",
+            "z",
+            "on_click"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "0",
+            "0",
+            "0",
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor for decals\n\nIN:\n    img - the img/disp for this decal\n    x - the x offset in the container\n        (Default: 0)\n    y - the y offset in the container\n        (Default: 0)\n    z - basically zorder\n        (Default: 0)\n    on_click - a callable to call on click events, or just a non-None value to return\n        (Default: None)"
+      },
+      {
+        "type": "function",
+        "identifier": "x",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "x",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "y",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "y",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "z",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "z",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Representation of this object"
+      },
+      {
+        "type": "function",
+        "identifier": "event",
+        "function_args": {
+          "args": [
+            "self",
+            "ev",
+            "x",
+            "y",
+            "st"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The event handler"
+      },
+      {
+        "type": "function",
+        "identifier": "render",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The render method"
+      },
+      {
+        "type": "function",
+        "identifier": "visit",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns the img for prediction"
+      }
+    ]
+  },
+  "_ParallaxDecalContainer": {
+    "type": "class",
+    "identifier": "_ParallaxDecalContainer",
+    "class_bases": [
+      "renpy.display.core.Displayable"
+    ],
+    "docstring": "A container displayable. It takes a base (consider it main displayable) and any number of children.\nThe container will be of just enough size to contain the base and the children.",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "base"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "children"
+        },
+        "docstring": "Constructor for containers\n\nIN:\n    base - the base img (must be ParallaxDecal)\n    children - children imgs (must be ParallaxDecal)"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_special0x2deffects__sort_decals",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sorts inner list of images, ensures the base is being the last"
+      },
+      {
+        "type": "function",
+        "identifier": "base",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "base",
+        "function_args": {
+          "args": [
+            "self",
+            "decal"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "children",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "debug",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "debug",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Representation of this object"
+      },
+      {
+        "type": "function",
+        "identifier": "add",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "decals"
+        },
+        "docstring": "Adds a ParallaxDecal to this container"
+      },
+      {
+        "type": "function",
+        "identifier": "remove",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "decals"
+        },
+        "docstring": "Removes a ParallaxDecal instance from this container"
+      },
+      {
+        "type": "function",
+        "identifier": "remove_all",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Removes all decals from this container"
+      },
+      {
+        "type": "function",
+        "identifier": "event",
+        "function_args": {
+          "args": [
+            "self",
+            "ev",
+            "x",
+            "y",
+            "st"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The event handler for this container,\npropagates events to its children"
+      },
+      {
+        "type": "function",
+        "identifier": "render",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The render method where we do the meth logic to align everything properly"
+      },
+      {
+        "type": "function",
+        "identifier": "_update_offsets",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "HACK: Runs the render method and updates offsets,\nthis is terrible, but has to be done. Blame RenPy."
+      },
+      {
+        "type": "function",
+        "identifier": "update",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Updates this disp"
+      },
+      {
+        "type": "function",
+        "identifier": "visit",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns images of this disp for prediction"
+      }
+    ]
+  },
+  "ParallaxSprite": {
+    "type": "class",
+    "identifier": "ParallaxSprite",
+    "class_bases": [
+      "renpy.display.core.Displayable"
+    ],
+    "docstring": "Represents a sprite with parallax effect",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "img",
+            "x",
+            "y",
+            "z",
+            "function",
+            "decals",
+            "on_click",
+            "min_zoom",
+            "max_zoom"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None",
+            "()",
+            "None",
+            "1.0",
+            "4.0"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor for parallax sprites\n\nIN:\n    img - path to the img/Displayable\n    x - the sprite x pos on the screen\n    y - the sprite y pos on the screen\n    z - the sprite z pos\n        NOTE: treat this as zorder, it also determines the maximum amount of parallax effect\n        NOTE: MUST BE > 0\n    function - a function for the sprite's transform,\n        use it if you need additional effects\n        (Default: None)\n    decals - list of decals for this sprite\n        (Default: empty tuple)\n    on_click - if it's a callable object, it'll be called on click (LMB) events,\n        otherwise it'll be returned on those events\n        (Default: None)\n    min_zoom - min zoom value\n        (Default: 1.0)\n    max_zoom - max zoom value\n        (Default: 4.0)\n        NOTE: if min_zoom == max_zoom, the user won't be able to zoom in/out"
+      },
+      {
+        "type": "function",
+        "identifier": "x",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "x",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "y",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "y",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "z",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "z",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "zoom",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "zoom",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "decals",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "debug",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "debug",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Representation of this object"
+      },
+      {
+        "type": "function",
+        "identifier": "update_mouse_pos",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Updates mouse pos"
+      },
+      {
+        "type": "function",
+        "identifier": "reset_mouse_pos",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Resets mouse pos"
+      },
+      {
+        "type": "function",
+        "identifier": "toggle_events",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Toggles events (and hence the parallax effect)\n\nIN:\n    value - the value to set"
+      },
+      {
+        "type": "function",
+        "identifier": "add_decals",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "decals"
+        },
+        "docstring": "Adds decals to this sprite\n\nIN:\n    decals - ParallaxDecal objects"
+      },
+      {
+        "type": "function",
+        "identifier": "remove_decals",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "decals"
+        },
+        "docstring": "Removes decals from this sprite\n\nIN:\n    decals - ParallaxDecal objects"
+      },
+      {
+        "type": "function",
+        "identifier": "clear_decals",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Removes all decals from this sprite"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_special0x2deffects__get_transform_placement",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns placement of the transform according\nto renpy placement algo\n\nOUT:\n    tuple of 2 items"
+      },
+      {
+        "type": "function",
+        "identifier": "update_offsets",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Updates the offsets of this parallax sprite"
+      },
+      {
+        "type": "function",
+        "identifier": "event",
+        "function_args": {
+          "args": [
+            "self",
+            "ev",
+            "x",
+            "y",
+            "st"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The event handler\nTODO: allow to move around and zoom in/out with keyboard"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_special0x2deffects__debug_info_render",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at",
+            "render"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Renders debug info on a render. This is slow,\nbut it's only for debugging (obviously)\n\nIN:\n    width - render width\n    height - render height\n    st - current st\n    at - current at\n    render - the render to render onto\n\nASSUMES:\n    Debug mode is on"
+      },
+      {
+        "type": "function",
+        "identifier": "render",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The render method"
+      },
+      {
+        "type": "function",
+        "identifier": "visit",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns the transform for prediction\n\nOUT:\n    list with the disp to predict"
+      },
+      {
+        "type": "function",
+        "identifier": "predict_one",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Called to ask this displayable to call the callback with all\nthe images it may want to load."
+      }
+    ]
+  },
+  "ParallaxBackground": {
+    "type": "class",
+    "identifier": "ParallaxBackground",
+    "class_bases": [
+      "renpy.display.core.Displayable"
+    ],
+    "docstring": "A more optimised version of RenPy's Composite.\nIntended to be used when you need multiple ParallaxSprite on the screen.",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": "children"
+        },
+        "docstring": "Constructor for parallax background\n\nIN:\n    children - ParallaxSprite objects for this background to compose together,\n        but technically can be any displayables (for example if you need something static)"
+      },
+      {
+        "type": "function",
+        "identifier": "add",
+        "function_args": {
+          "args": [
+            "self",
+            "sprite"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Adds a sprite to this background\n\nIN:\n    sprite - perhaps a ParallaxSprite or other kind of displayable"
+      },
+      {
+        "type": "function",
+        "identifier": "insert",
+        "function_args": {
+          "args": [
+            "self",
+            "index",
+            "sprite"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Inserts a sprite in this background\n\nIN:\n    index - the index to insert at\n    sprite - the sprite to insert\n\nASSUMES:\n    the index exists"
+      },
+      {
+        "type": "function",
+        "identifier": "remove",
+        "function_args": {
+          "args": [
+            "self",
+            "sprite"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Removes a sprite from this background\n\nIN:\n    sprite - the sprite to remove\n\nASSUMES:\n    the sprite IS in the background"
+      },
+      {
+        "type": "function",
+        "identifier": "event",
+        "function_args": {
+          "args": [
+            "self",
+            "ev",
+            "x",
+            "y",
+            "st"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The event handler"
+      },
+      {
+        "type": "function",
+        "identifier": "render",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "The render method"
+      },
+      {
+        "type": "function",
+        "identifier": "visit",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns the children for prediction\n\nOUT:\n    list of ParallaxSprite"
+      }
+    ]
+  }
+}

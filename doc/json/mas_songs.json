@@ -1,0 +1,158 @@
+{
+  "checkRandSongDelegate": {
+    "type": "function",
+    "identifier": "checkRandSongDelegate",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Handles locking/unlocking of the random song delegate\n\nEnsures that songs cannot be repeated (derandoms the delegate) if the repeat topics flag is disabled and there's no unseen songs\nAnd that songs can be repeated if the flag is enabled (re-randoms the delegate)"
+  },
+  "getUnlockedSongs": {
+    "type": "function",
+    "identifier": "getUnlockedSongs",
+    "function_args": {
+      "args": [
+        "length"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a list of unlocked songs\nIN:\n    length - a filter for the type of song we want. \"long\" for songs of TYPE_LONG\n        \"short\" for TYPE_SHORT or None for all songs. (Default None)\n\nOUT:\n    list of unlocked all songs of the desired length in tuple format for a scrollable menu"
+  },
+  "getRandomSongs": {
+    "type": "function",
+    "identifier": "getRandomSongs",
+    "function_args": {
+      "args": [
+        "unseen_only"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a list of all random songs\n\nIN:\n    unseen_only - Whether or not the list of random songs should contain unseen only songs\n    (Default: False)\n\nOUT: list of all random songs within aff_range"
+  },
+  "checkSongAnalysisDelegate": {
+    "type": "function",
+    "identifier": "checkSongAnalysisDelegate",
+    "function_args": {
+      "args": [
+        "curr_aff"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks to see if the song analysis topic should be unlocked or locked and does the appropriate action\n\nIN:\n    curr_aff - Affection level to ev.checkAffection with. If none, mas_curr_affection is assumed\n        (Default: None)"
+  },
+  "getUnlockedSongAnalyses": {
+    "type": "function",
+    "identifier": "getUnlockedSongAnalyses",
+    "function_args": {
+      "args": [
+        "curr_aff"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a list of all song analysis evs in scrollable menu format\n\nIN:\n    curr_aff - Affection level to ev.checkAffection with. If none, mas_curr_affection is assumed\n        (Default: None)\n\nOUT:\n    List of unlocked song analysis topics in mas_gen_scrollable_menu format"
+  },
+  "hasUnlockedSongAnalyses": {
+    "type": "function",
+    "identifier": "hasUnlockedSongAnalyses",
+    "function_args": {
+      "args": [
+        "curr_aff"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if there's any unlocked song analysis topics available\n\nIN:\n    curr_aff - Affection level to ev.checkAffection with. If none, mas_curr_affection is assumed\n        (Default: None)\nOUT:\n    boolean:\n        True if we have unlocked song analyses\n        False otherwise"
+  },
+  "hasUnlockedSongs": {
+    "type": "function",
+    "identifier": "hasUnlockedSongs",
+    "function_args": {
+      "args": [
+        "length"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the player has unlocked a song at any point via the random selection\n\nIN:\n    length - a filter for the type of song we want. \"long\" for songs of TYPE_LONG\n        \"short\" for TYPE_SHORT or None for all songs. (Default None)\n\nOUT:\n    True if there's an unlocked song, False otherwise"
+  },
+  "hasRandomSongs": {
+    "type": "function",
+    "identifier": "hasRandomSongs",
+    "function_args": {
+      "args": [
+        "unseen_only"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if there are any songs with the random property\n\nIN:\n    unseen_only - Whether or not we should check for only unseen songs\nOUT:\n    True if there are songs which are random, False otherwise"
+  },
+  "getPromptSuffix": {
+    "type": "function",
+    "identifier": "getPromptSuffix",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets the suffix for songs to display in the bookmarks menu\n\nIN:\n    ev - event object to get the prompt suffix for\n\nOUT:\n    Suffix for song prompt\n\nASSUMES:\n    - ev.category isn't an empty list\n    - ev.category contains only one type"
+  }
+}

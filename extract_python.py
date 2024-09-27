@@ -1,4 +1,5 @@
 # NOTE: this script must be in RenPy SDK dir (next to renpy.py)
+# Pylint is off because _don't ask me_ how I made it work. Pylint would have no clue as well.
 # pylint: skip-file
 
 # We'll need this to stub renpy.game.args
@@ -64,7 +65,7 @@ def dump_init_blocks(all_dict):
         with open(Path(src_dir, f"{store_name}.py"), "w") as f:
             for block in blocks:
                 rel_path = Path(block[2]).relative_to(mas_dir)
-                f.write(f"# Extracted from: {rel_path}\n"
+                f.write(f"# *** Extracted from [{rel_path}] ***\n"
                         f"# init {block[0]} python in {store_name}:\n")
                 f.write(block[4])
                 f.write("\n\n")

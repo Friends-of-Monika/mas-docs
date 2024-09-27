@@ -1,0 +1,70 @@
+{
+  "check_can_unlock_new_story": {
+    "type": "function",
+    "identifier": "check_can_unlock_new_story",
+    "function_args": {
+      "args": [
+        "story_type",
+        "ignore_cooldown"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "TYPE_NORMAL",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if it has been at least one day since we've seen the last story or the initial story\n\nIN:\n    story_type - story type to check if we can unlock a new one\n        (Default: TYPE_NORMAL)\n    ignore_cooldown - Whether or not we ignore the cooldown or time between new stories\n        (Default: False)"
+  },
+  "get_new_stories_for_type": {
+    "type": "function",
+    "identifier": "get_new_stories_for_type",
+    "function_args": {
+      "args": [
+        "story_type"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets all new (unseen) stories of the given ype\n\nIN:\n    story_type - story type to get\n\nOUT:\n    list of locked stories for the given story type"
+  },
+  "get_and_unlock_random_story": {
+    "type": "function",
+    "identifier": "get_and_unlock_random_story",
+    "function_args": {
+      "args": [
+        "story_type"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "TYPE_NORMAL"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Unlocks and returns a random story of the provided type\n\nIN:\n    story_type - Type of story to unlock.\n        (Default: TYPE_NORMAL)"
+  },
+  "dev_unlock_all_stories": {
+    "type": "function",
+    "identifier": "dev_unlock_all_stories",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Dev function, unlocks all stories"
+  }
+}

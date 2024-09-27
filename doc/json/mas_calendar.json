@@ -1,0 +1,654 @@
+{
+  "getZodiacSign": {
+    "type": "function",
+    "identifier": "getZodiacSign",
+    "function_args": {
+      "args": [
+        "date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a zodiac sign for a date\nIdea from https://stackoverflow.com/questions/3274597\n\nIN:\n    date - datetime.date\n\nOUT:\n    string with the sign"
+  },
+  "_formatDay": {
+    "type": "function",
+    "identifier": "_formatDay",
+    "function_args": {
+      "args": [
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Properly formats the given day so it displays with the correct\nsuffixes.\n\nIN:\n    day - day to get a nice display string\n\nRETURNS:\n    nice display string for the day"
+  },
+  "_formatYears": {
+    "type": "function",
+    "identifier": "_formatYears",
+    "function_args": {
+      "args": [
+        "years"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Properly formats the given years var so it says a user friendly\nway to show years.\n\nBasically if years is:\n0 - \"\"\n1 - \"last year\"\n2+ - \"x years ago\"\n\nIN:\n    years - number of years to get a nice display string\n\nRETURNS:\n    nice display string for the years"
+  },
+  "genFriendlyDispDate": {
+    "type": "function",
+    "identifier": "genFriendlyDispDate",
+    "function_args": {
+      "args": [
+        "_datetime"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "NOTE: DEPRECATED\n\nGenerates a display date using the given datetime\n\nIN:\n    _datetime - datetime object to create good display date"
+  },
+  "genFriendlyDispDate_d": {
+    "type": "function",
+    "identifier": "genFriendlyDispDate_d",
+    "function_args": {
+      "args": [
+        "_date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Generates a display date using the given date\nThis creates a display date in the format:\n    Month Day, Year\nHowever, this is somewhat variable.\n\nIf it is the same as the current year, the year is not provided.\nIf the date is whithin a year of the current date, year is not\nprovided.\nIf the year is last year and greater than a year of the current date,\n\"last year on <month> <day>\"\nIf the year is within 2-10 years ago, then \"x years ago on <month>\n<day>\" is used.\nOtherwise, the actual 4 digit year is used.\n\nIf the days / months are the same, then \"x years ago to this date\"\nis used.\n\nIN:\n    _date - date object to create good display date\n\nRETURNS:\n    tuple of the following format:\n    [0]: nicely formatted display date, suitable for conversation\n    [1]: timedelta between today and the given _date"
+  },
+  "genFormalDispDate": {
+    "type": "function",
+    "identifier": "genFormalDispDate",
+    "function_args": {
+      "args": [
+        "_date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Generates a display date using the given date\n\nThis is considered \"formal\", in that it's not really realisitc when\nused in normal conversation. For example, if today is august 24, you\ndon't say 'this happened august 24th, 2016', you normally would say\n'this happened x years ago today'.\n\nIN:\n    _date - date object to create good display date\n\nRETURNS:\n    tuple of the following format:\n    [0]: nicely formtted display date, suitable for text\n    [1]: timedelta between today and the given _date"
+  },
+  "saveCalendarDatabase": {
+    "type": "function",
+    "identifier": "saveCalendarDatabase",
+    "function_args": {
+      "args": [
+        "encoder"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Saves the passed database as a json file named db.mcal\n\nIN:\n    - encoder a json.JSONEncoder to be used for encoding\n        the database\n    - database a dict containing the events"
+  },
+  "loadCalendarDatabase": {
+    "type": "function",
+    "identifier": "loadCalendarDatabase",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns the database read from the file renpy.config.savedir + '/db.mcal'\nas a dict\n\nRETURNS:\n    a dict containing the events for the calendar"
+  },
+  "_m1_zz_calendar__addEvent_md": {
+    "type": "function",
+    "identifier": "_m1_zz_calendar__addEvent_md",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds an event to the calendar at a precise month / day\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    ev_label - eventlabel of the event to add\n    month - month to add to\n    day - day to add to"
+  },
+  "_addRepeatable_md": {
+    "type": "function",
+    "identifier": "_addRepeatable_md",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "month",
+        "day",
+        "year_param"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds a repeatable to the calendar at a precise month / day\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    identifier - label of the event that it's unique\n    display_label - label that will be displayed\n    month - month to add to\n    day - day to add to\n    year_param - data to put in the year part of the tuple"
+  },
+  "addEvent": {
+    "type": "function",
+    "identifier": "addEvent",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds an event to the calendar accoridng to its start_date and end_date\nproperties. If start_date is not set in the given event,\nthis function will do nothing.\n\nIN:\n    ev - event to add"
+  },
+  "addEvent_evd": {
+    "type": "function",
+    "identifier": "addEvent_evd",
+    "function_args": {
+      "args": [
+        "ev",
+        "_date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds an event to the calendar at a preicse date.\n\nIN:\n    ev - event to add\n    _date - datetime.date to add to"
+  },
+  "addEvent_evdt": {
+    "type": "function",
+    "identifier": "addEvent_evdt",
+    "function_args": {
+      "args": [
+        "ev",
+        "_datetime"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds an event to the calendar at a precise datetime.\n\nIN:\n    ev - event to add"
+  },
+  "addRepeatable": {
+    "type": "function",
+    "identifier": "addRepeatable",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "month",
+        "day",
+        "year_param"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds a repeatable to the calendar at a precise month / day\nSanity checks are done for month / day\n\nIN:\n    identifier - label of the event that it's unique\n    display_label - label that will be displayed\n    month - month to add to\n    day - day to add to\n    year_param - data to put in the year part of the tuple"
+  },
+  "addRepeatable_d": {
+    "type": "function",
+    "identifier": "addRepeatable_d",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "_date",
+        "year_param"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds a repeatable to the calendar at precise datetime.date\n\nIN:\n    identifier - identifier of the repeatable to add\n    display_label - label that will be displayed\n    _date - datetime.date to add to\n    year_param - data to put in the year part of the tuple"
+  },
+  "addRepeatable_dt": {
+    "type": "function",
+    "identifier": "addRepeatable_dt",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "_datetime",
+        "year_param"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds a repeatable to the calendar at a precise datetime\n\nIN:\n    identifier - identifier of the repeatable to add\n    display_label - label that will be displayed\n    _datetime - datetime to add to\n    year_param - data to put in the year part of the tuple"
+  },
+  "_findEvent_md": {
+    "type": "function",
+    "identifier": "_findEvent_md",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Finds the event tuple from the calendar at a precise month / day.\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    ev_label - eventlabel of the event to find\n    month - month we should look at for finding\n    day - day we should look at for finding\n\nRETURNS:\n    the event tuple if it was found, None otherwise"
+  },
+  "_findRepeatable_md": {
+    "type": "function",
+    "identifier": "_findRepeatable_md",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month",
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Finds the repeatable dtuple from the calendar at a precise month / day\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    identifier - the id of the repeatable to find\n    month - month we should look at for finding\n    day - day we should look at for finding\n\nRETURNS:\n    the repeatable tuple if itw as found, None otherwise"
+  },
+  "_removeEvent": {
+    "type": "function",
+    "identifier": "_removeEvent",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "remove_all"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removs an event from the calendar.\n\nNOTE: O(n^2) efficieny, please avoid using this.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    remove_all - SEE removeEvent_el"
+  },
+  "_removeEvent_d": {
+    "type": "function",
+    "identifier": "_removeEvent_d",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "day",
+        "remove_all"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar on a particular day.\n\nNOTE:\n    no sanity checks are done for day.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    day - day we should look at for removal\n    remove_all - SEE removeEvent_el"
+  },
+  "_removeEvent_m": {
+    "type": "function",
+    "identifier": "_removeEvent_m",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "remove_all"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar in a particular month.\n\nNOTE:\n    no sanity checks are done for month\n\nIN:\n    ev_label - eventlabel of the event to remove\n    month - month we should look at for removal\n    remove_all - SEE removeEvent_el"
+  },
+  "_removeEvent_md": {
+    "type": "function",
+    "identifier": "_removeEvent_md",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar at a precise month / day.\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    ev_label - eventlabel of the event to remove\n    month - month we should look at for removal\n    day - day we should look at for removal\n\nRETURNS:\n    True if we removed something, False otherwise"
+  },
+  "_removeRepeatable": {
+    "type": "function",
+    "identifier": "_removeRepeatable",
+    "function_args": {
+      "args": [
+        "identifier"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a repeatable from teh calendar.\n\nNOTE: O(n^2) efficiency, please avoid using this.\n\nIN:\n    identifier - identifier of the repeatable to remove"
+  },
+  "_removeRepeatable_d": {
+    "type": "function",
+    "identifier": "_removeRepeatable_d",
+    "function_args": {
+      "args": [
+        "identifier",
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a repeatable from teh calendar in a particular month.\n\nNOTE: no sanity checks are done for day\n\nIN:\n    identifier - identifier of the repeatable to remove\n    day - day we should look at for removal"
+  },
+  "_removeRepeatable_m": {
+    "type": "function",
+    "identifier": "_removeRepeatable_m",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a repeatable from the calendar in a particular month.\n\nNOTE: no sanity checks are done for month\n\nIN:\n    identifier - identifier of the repeatable to remove\n    month - month we should look at for removal"
+  },
+  "_removeRepeatable_md": {
+    "type": "function",
+    "identifier": "_removeRepeatable_md",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month",
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a repeatable from teh calendar at a precise month / day.\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    identifider - identifier of the repeatable to remove\n    month - month we should look at for removal\n    day - day we should look at for removal\n\nRETURNS:\n    True if we removed somethign, False otherwise"
+  },
+  "removeEvent": {
+    "type": "function",
+    "identifier": "removeEvent",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar using it's start_date and end_date\nproperties.\n\nIN:\n    ev - event to remove"
+  },
+  "removeEvent_eld": {
+    "type": "function",
+    "identifier": "removeEvent_eld",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "_date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar at a precise date.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    _date - datetime.date we should look at for event removal"
+  },
+  "removeEvent_evd": {
+    "type": "function",
+    "identifier": "removeEvent_evd",
+    "function_args": {
+      "args": [
+        "ev",
+        "_date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar at a precise date.\n\nIN:\n    ev - event to remove\n    _date - datetime.date we should look at for event removal"
+  },
+  "removeEvent_eldt": {
+    "type": "function",
+    "identifier": "removeEvent_eldt",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "_datetime"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar at a precise datetime.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    _datetime - datetime we should look at for event removal"
+  },
+  "removeEvent_evdt": {
+    "type": "function",
+    "identifier": "removeEvent_evdt",
+    "function_args": {
+      "args": [
+        "ev",
+        "_datetime"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes and event from the calendar at a precise datetime.\n\nIN:\n    ev - event to remove\n    _datetime - datetime.date we should look at for removal"
+  },
+  "removeEvent_el": {
+    "type": "function",
+    "identifier": "removeEvent_el",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day",
+        "remove_all"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None",
+        "None",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar.\n\nNOTE: The default params will check EVERY SINGLE calendar spot for the\nevent to remove. It is considered HIGHLY INEFFICIENT. Try to use the\nother removeEvent functions if possible, or narrow the search using\nmonth and day.\n\nNOTE:\n    Using both month and day will do the same check as removeEvent_eld\n\nIN:\n    ev_label - eventlabel of the event to remove\n    month - If given (and a valid month), will only check the calendar\n        in the given month.\n        (Default: None)\n    day - If given (and a valid day), will only check the calendar\n        for the given day for each month\n        (Default: None)\n    remove_all - True means we remove every single occurence of the\n        given eventlabel. False means we only remove the first one we\n        find.\n        (Default: False)"
+  },
+  "removeEvent_ev": {
+    "type": "function",
+    "identifier": "removeEvent_ev",
+    "function_args": {
+      "args": [
+        "ev",
+        "month",
+        "day",
+        "remove_all"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None",
+        "None",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes an event from the calendar.\n\nSEE removeEvent_el for important NOTES regarding this function.\n\nIN:\n    ev - event to remove\n    month - SEE removeEvent_el\n    day - SEE removeEvent_el\n    remove_all - SEE removeEvent_el"
+  },
+  "removeRepeatable": {
+    "type": "function",
+    "identifier": "removeRepeatable",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month",
+        "day"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None",
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a repeatable from the calendar.\n\nNOTE: The default params will check EVERY SINGLE calendar spot for the\nrepeatable to remove. It is considered HIGHLY INEFFICIENT. Try to use\nthe other removeRepeatable functions if possible, or narrow the search\nusing month and day.\n\nIN:\n    identifier - identifier of the repeatable to remove\n    month - If given (and a valid month), will only check the calendar\n        in the given month.\n        (Default: None)\n    day - If given (and a valid day), will only check the calendar for\n        the given day for reach month\n        (Default: None)"
+  },
+  "removeRepeatable_d": {
+    "type": "function",
+    "identifier": "removeRepeatable_d",
+    "function_args": {
+      "args": [
+        "identifier",
+        "_date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a repeatable from teh calendar at a precise datetime.date\n\nIN:\n    identifier - identifier of the repeatable to remove\n    _date - datetime.date we should look at for removal"
+  },
+  "removeRepeatable_dt": {
+    "type": "function",
+    "identifier": "removeRepeatable_dt",
+    "function_args": {
+      "args": [
+        "identifier",
+        "_datetime"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a repeatable from teh calendar at aprecise datetime\n\nIN:\n    identifier - identifier of the repeatable to remove\n    _datetime - datetime we should look at for removal"
+  },
+  "addSeasonEvents": {
+    "type": "function",
+    "identifier": "addSeasonEvents",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds season change events to the calendar.\nIf the changed param is True it changes the old events.\nIN:\n    changed - flag to specify that we need to change the\n        old events from the calendar"
+  }
+}

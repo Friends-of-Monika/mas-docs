@@ -1,0 +1,364 @@
+{
+  "MASUnitTest": {
+    "type": "class",
+    "identifier": "MASUnitTest",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Simple class to represent a test",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "test_name",
+            "outcome",
+            "expected",
+            "actual",
+            "ovrstr"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor for a MASUnitTest\n\nIN:\n    test_name - name of the test\n    outcome - outcome of the test (True or false)\n    expected - expected value of the test\n    actual - actual value of the test\n    ovrstr - if passed, then we display this instead of\n        the standard expected/actual string"
+      },
+      {
+        "type": "function",
+        "identifier": "__str__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "toString. Format is:\n<testname>: (pass/FAIL) | <expected> -> <actual>"
+      },
+      {
+        "type": "function",
+        "identifier": "failed",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns True if this test failed, false if passsed"
+      },
+      {
+        "type": "function",
+        "identifier": "passed",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns True if this test passed, false if failed"
+      }
+    ]
+  },
+  "MASUnitTester": {
+    "type": "class",
+    "identifier": "MASUnitTester",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Simple class for running asserts",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__str__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "_assertDictEqual",
+        "function_args": {
+          "args": [
+            "self",
+            "expected",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Internal dict assertion. Assumes that given items are dicts.\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "_assertListEqual",
+        "function_args": {
+          "args": [
+            "self",
+            "expected",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Internal list assertion. Assumes that the given items are lists.\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "assertDictEqual",
+        "function_args": {
+          "args": [
+            "self",
+            "expected",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if two dicts are equal and contain equal items\n\nIf expected/actual are not dict, assertListEqual is used\nthis is recursive."
+      },
+      {
+        "type": "function",
+        "identifier": "assertEqual",
+        "function_args": {
+          "args": [
+            "self",
+            "expected",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if the two items are equal\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "assertFalse",
+        "function_args": {
+          "args": [
+            "self",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if the given value is False\n\nIN:\n    actual - value to check\n\nRETURNS: True if False, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "assertIdentity",
+        "function_args": {
+          "args": [
+            "self",
+            "expected",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if the two items point to the same thing\n\nIN:\n    expected - expected item\n    actual - actual item\n\nRETURNS: True if the same reference, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "assertIsNone",
+        "function_args": {
+          "args": [
+            "self",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if the given item is None\n\nIN:\n    actual - value to check\n\nRETURNS: True if None, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "assertIsNotNone",
+        "function_args": {
+          "args": [
+            "self",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if the given item is not None\n\nIN:\n    actual - value to check\n\nRETURNS: True if not None, False if None"
+      },
+      {
+        "type": "function",
+        "identifier": "assertListEqual",
+        "function_args": {
+          "args": [
+            "self",
+            "expected",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if two lists are equal and contain equal items\n\nif expected/actual are not list, we use assertEqual.\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "assertTrue",
+        "function_args": {
+          "args": [
+            "self",
+            "actual"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Asserts if the given value is True\n\nIN:\n    actual - value to check\n\nRETURNS: True if True, False if not"
+      },
+      {
+        "type": "function",
+        "identifier": "cleanTest",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Cleans up the last test"
+      },
+      {
+        "type": "function",
+        "identifier": "concludeTests",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Concludes testing by sorting tests by results\n\nRETURNS:\n    tuple of the following format:\n    [0] - list of passed tests\n    [1] - list of failed tests"
+      },
+      {
+        "type": "function",
+        "identifier": "prepareTest",
+        "function_args": {
+          "args": [
+            "self",
+            "test_name"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Prepares a test by setting test name\n\nIN:\n    test_name - name of next test"
+      },
+      {
+        "type": "function",
+        "identifier": "setupTests",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sets up testing"
+      }
+    ]
+  }
+}

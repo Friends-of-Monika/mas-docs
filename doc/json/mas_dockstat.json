@@ -1,0 +1,370 @@
+{
+  "decodeImages": {
+    "type": "function",
+    "identifier": "decodeImages",
+    "function_args": {
+      "args": [
+        "dockstat",
+        "image_dict",
+        "selective"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "[]"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Attempts to decode the iamges\n\nIN:\n    dockstat - docking station to use\n    image_dict - image map to use\n    selective - list of images keys to decode\n        If not passed in, we decode EVERYTHINg\n        (DEfault: [])\n\nReturns TRUE upon success, False otherwise"
+  },
+  "removeImages": {
+    "type": "function",
+    "identifier": "removeImages",
+    "function_args": {
+      "args": [
+        "dockstat",
+        "image_dict",
+        "selective",
+        "log"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "[]",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes the decoded images at the end of their lifecycle\n\nIN:\n    dockstat - docking station\n    image_dict - image map to use\n    selective - list of image keys to delete\n        If not passed in, we delete everything in the image dict\n        (Default: [])\n    log - should we log a delete failure?\n        (Default: False)\n\nAKA quitting"
+  },
+  "setMoniSize": {
+    "type": "function",
+    "identifier": "setMoniSize",
+    "function_args": {
+      "args": [
+        "tdelta"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Sets the appropriate persistent size for monika\n\nIN:\n    tdelta - timedelta to use"
+  },
+  "_buildMetaDataList": {
+    "type": "function",
+    "identifier": "_buildMetaDataList",
+    "function_args": {
+      "args": [
+        "_outbuffer"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Writes out a pipe-delimeted metadata list to the given buffer\n\nOUT:\n    _outbuffer - buffer to write metadata to"
+  },
+  "_buildMetaDataPer": {
+    "type": "function",
+    "identifier": "_buildMetaDataPer",
+    "function_args": {
+      "args": [
+        "_outbuffer",
+        "log"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Writes out the persistent's data into the given buffer\n\nExceptions are logged\n\nOUT:\n    _outbuffer - buffer to write persistent data to\n    log - log to write messages to, if needed\n\nRETURNS:\n    True on success, False if failed"
+  },
+  "checkMonika": {
+    "type": "function",
+    "identifier": "checkMonika",
+    "function_args": {
+      "args": [
+        "status",
+        "moni_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Parses if a given set of monika data is a rogue monika, our monika,\nand so on, and does checkins and more for the appropriate case.\n\nIN:\n    status - findMonika's return status\n    moni_data - findMonika's return data\n\nRETURNS:\n    TBD"
+  },
+  "checkinMonika": {
+    "type": "function",
+    "identifier": "checkinMonika",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds entry to checkin log that monika has returned to the spaceroom.\nAlso clears the global checksum var."
+  },
+  "checkoutMonika": {
+    "type": "function",
+    "identifier": "checkoutMonika",
+    "function_args": {
+      "args": [
+        "chksum"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds entry to checkout log that monika has left the spaceroom.\nAlso sets the chk to the global checksum var.\nAlso removes monikas that had the same checksum\n\nIN:\n    chksum - monika's checksum when checking her out."
+  },
+  "triageMonika": {
+    "type": "function",
+    "identifier": "triageMonika",
+    "function_args": {
+      "args": [
+        "from_empty"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Jumps to an appropriate label based on retmoni_status and retmoni_data.\nIf retmoni_status is None, we dont do anything.\n\nIN:\n    from_empty - True if we should assume from empty desk, False\n        otherwise."
+  },
+  "packageCheck": {
+    "type": "function",
+    "identifier": "packageCheck",
+    "function_args": {
+      "args": [
+        "dockstat",
+        "pkg_name",
+        "pkg_slip",
+        "on_succ",
+        "on_fail",
+        "sign"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "True"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks for existence of a package that matches the pkg name and slip.\n\nThis acts as a wrapper around the signForPackage that can encapsulate\nreturn values with different values.\n\nSuccess is when signForPackage returns 1. All other values are\nconsidered failures.\n\nNOTE: if sign is False, then we use createPackageSlip + getPackage\ninstead. use this if you don't want to delete the package once you\nhave checked them in.\n\nIN:\n    dockstat - docking station to check packag ein\n    pkg_name - name of the package to check\n    pkg_slip - checksum of this package\n    on_succ - value to return on successful package check\n    on_fail - value to return on failed package check\n    sign - True to use signForPackage (aka delete after checking),\n        False uses getPackage + createPackageSlip (aka no delete after\n        checking)\n        (Default: True)"
+  },
+  "generateMonika": {
+    "type": "function",
+    "identifier": "generateMonika",
+    "function_args": {
+      "args": [
+        "dockstat",
+        "logpath"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Generates / writes a monika blob file.\n\nNOTE: This does both generation and integretiy checking\nNOTE: exceptions are logged\n\nIN:\n    dockstat - the docking station to generate Monika in\n    logpath - path of log to write messagse to\n\nRETURNS:\n    checksum of monika\n    -1 if checksums didnt match (and we cant verify data integrity of\n        the generated moinika file)\n    None otherwise\n\nASSUMES:\n    blocksize - this is a constant in this store"
+  },
+  "init_findMonika": {
+    "type": "function",
+    "identifier": "init_findMonika",
+    "function_args": {
+      "args": [
+        "dockstat"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "findMonika variation that is meant to be run at init time.\n\nIN:\n    dockstat - MASDockingStation to use"
+  },
+  "findMonika": {
+    "type": "function",
+    "identifier": "findMonika",
+    "function_args": {
+      "args": [
+        "dockstat",
+        "logpath",
+        "at_init"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Attempts to find monika in the giving docking station\n\nIN:\n    dockstat - MASDockingStation to use\n    logpath - path of log to write messages to\n    at_init - True if we are in init, False if not\n\nRETURNS: tuple of the following format:\n    [0]: MAS_PKG_* constants depending on the state of monika\n    [1]: either list of data or persistent object of data. Will be\n        None if no data or errors occured"
+  },
+  "parseMoniData": {
+    "type": "function",
+    "identifier": "parseMoniData",
+    "function_args": {
+      "args": [
+        "data_line",
+        "log"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Parses monika data into its components\n\nNOTE: all exceptions are logged\n\nIN:\n    data_line - PIPE delimeted data line\n    log - log to write messages to, if needed\n\nRETURNS: list of the following format:\n    [0]: datetime of first sessin\n    [1]: playername\n    [2]: monika's nickname (could be Monika)\n    [3]: affection, integer value (dont really rely on this for much)\n    [4]: monika's hair setting\n    [5]: monika's clothes setting\n\n    OR None if general (not item-specific) parse errors occurs)"
+  },
+  "parseMoniDataPer": {
+    "type": "function",
+    "identifier": "parseMoniDataPer",
+    "function_args": {
+      "args": [
+        "data_line",
+        "log"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Parses persitent data into a persitent object.\n\nNOTE: all exceptions are loggeed\n\nIN:\n    data_line - the data portion that may contain a persitent\n    log - log to write messages to, if needed\n\nRETURNS: a persistent object, or None if failure"
+  },
+  "selectReturnHomeGreeting": {
+    "type": "function",
+    "identifier": "selectReturnHomeGreeting",
+    "function_args": {
+      "args": [
+        "gre_type"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Selects the correct Return Home greeting.\n\nIf None was selected, we return the default returned home gre\n\nWe also default type to TYPE_GENERIC_RET if no type is given\n\nIN:\n    gre_type - greeting type to find\n        If None, we use TYPE_GENERIC_RET\n        (Default: None)\n\nRETURNS:\n    Event object representing the selected greeting"
+  },
+  "getCheckTimes": {
+    "type": "function",
+    "identifier": "getCheckTimes",
+    "function_args": {
+      "args": [
+        "chksum"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets the corresponding checkin/out times for the given chksum.\n\nIN:\n    chksum - chksum to retrieve checkin/checkout times.\n        If None, then we simply get the latest checkin/checkout,\n        regardless if they match or not.\n        (Default: None)\n\nRETURNS tuple of the following format:\n    [0] - checkout time\n    [1] - checkin time\nIf any param is None, then we couldn't find the matching chksum or\nthere were no entries"
+  },
+  "diffCheckTimes": {
+    "type": "function",
+    "identifier": "diffCheckTimes",
+    "function_args": {
+      "args": [
+        "index"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns the difference between the latest checkout and check in times\nWe do checkin - checkout.\n\nIN:\n    index - the index of checkout/checkin to use when diffing\n        If None, we use the latest one\n        (Default: None)\n\nRETURNS: timedelta of the difference between checkin and checkout"
+  },
+  "timeOut": {
+    "type": "function",
+    "identifier": "timeOut",
+    "function_args": {
+      "args": [
+        "_date"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Given a date, return how long monika has been out\n\nWe assume that checkout logs are the source of truth\n\nIN:\n    _date - date to check"
+  },
+  "_ds_aff_for_tout": {
+    "type": "function",
+    "identifier": "_ds_aff_for_tout",
+    "function_args": {
+      "args": [
+        "_time_out",
+        "max_hour_out",
+        "max_aff_gain",
+        "min_aff_gain",
+        "aff_mult"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "1"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Grants an amount of affection based on time out. This is designed for\nuse ONLY with the returned home greeting.\n\nNOTE: this also sets the monika_returned_home persistent\n\nIN:\n    _time_out - timedelta we want to treat as monika being out\n    max_hour_out - how many hours is considered max\n        (anthing OVER this will be maxxed)\n    max_aff_gain - amount of aff to be gained when max+\n    min_aff_gain - smallest amount of aff gain\n    aff_mult - multipler to hours to use as aff gain when between min\n        and max\n        (Default: 1)"
+  },
+  "abortGenPromise": {
+    "type": "function",
+    "identifier": "abortGenPromise",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Attempts to about the monikagen promise and properly delete the\nmonika package."
+  }
+}

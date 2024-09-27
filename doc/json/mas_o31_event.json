@@ -1,0 +1,32 @@
+{
+  "decodeImage": {
+    "type": "function",
+    "identifier": "decodeImage",
+    "function_args": {
+      "args": [
+        "key"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Attempts to decode a cg image\n\nIN:\n    key - o31 cg key to decode\n\nRETURNS True upon success, False otherwise"
+  },
+  "removeImages": {
+    "type": "function",
+    "identifier": "removeImages",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes decoded images at the end of their lifecycle"
+  }
+}

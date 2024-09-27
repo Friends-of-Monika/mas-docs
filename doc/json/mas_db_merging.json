@@ -1,0 +1,33 @@
+{
+  "merge_db": {
+    "type": "function",
+    "identifier": "merge_db",
+    "function_args": {
+      "args": [
+        "source",
+        "dest"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Merges the given source database into the given destination db\n\nIN:\n    source - source database to merge from\n    dest - destination database to merge into"
+  },
+  "merge_post0810": {
+    "type": "function",
+    "identifier": "merge_post0810",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs a specific set of merges, particularly for the merge that\nhappend after version 0.8.10."
+  }
+}

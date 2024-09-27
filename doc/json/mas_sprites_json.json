@@ -1,0 +1,676 @@
+{
+  "SpriteJsonLogAdapter": {
+    "type": "class",
+    "identifier": "SpriteJsonLogAdapter",
+    "class_bases": [
+      "store.mas_logging.MASNewlineLogAdapter"
+    ],
+    "docstring": "Speciality logger for sprite jsons.\nThis defaults some props for all log record objects created from this\nlogger.\n\naccepts newlines in logging.",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "logger"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "IN:\n    logger - the logger to adapt"
+      }
+    ]
+  },
+  "SpriteJsonFormatter": {
+    "type": "class",
+    "identifier": "SpriteJsonFormatter",
+    "class_bases": [
+      "store.mas_logging.MASNewlineLogFormatter"
+    ],
+    "docstring": "Specialty formatter for sprite jsons",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "format",
+        "function_args": {
+          "args": [
+            "self",
+            "record"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "override of logging.Formatter.format\n\nIN:\n    record - LogRecord object\n\nRETURNS: string to be logged"
+      }
+    ]
+  },
+  "_add_hair_to_verify": {
+    "type": "function",
+    "identifier": "_add_hair_to_verify",
+    "function_args": {
+      "args": [
+        "hairname",
+        "verimap",
+        "name"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "writelog": {
+    "type": "function",
+    "identifier": "writelog",
+    "function_args": {
+      "args": [
+        "msg"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "writelogs": {
+    "type": "function",
+    "identifier": "writelogs",
+    "function_args": {
+      "args": [
+        "msgs"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "_verify_sptype": {
+    "type": "function",
+    "identifier": "_verify_sptype",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "True"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "parsewritelog": {
+    "type": "function",
+    "identifier": "parsewritelog",
+    "function_args": {
+      "args": [
+        "msg_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "write log using specially formatted data.\n\nIN:\n    msg_data - tuple of the following format:\n        [0] - log constant\n        [1] - indentation level\n        [2] - msg to write\n\nRETURNS: True if an ERR constant was found, False if not"
+  },
+  "parsewritelogs": {
+    "type": "function",
+    "identifier": "parsewritelogs",
+    "function_args": {
+      "args": [
+        "msgs_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Write logs using specially formatted data\n\nIN:\n    msgs_data - list of tuples of the following format:\n        [0] - log constant\n        [1] - indentation level\n        [2] - msg to write\n\nRETURNS: True if an ERR constnat was found, False if not"
+  },
+  "_replace_hair_map": {
+    "type": "function",
+    "identifier": "_replace_hair_map",
+    "function_args": {
+      "args": [
+        "sp_name",
+        "hair_to_replace"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Replaces the hair vals of the given sprite object with the given name\nof the given hair with defaults.\n\nIN:\n    sp_name - name of the clothing sprite object to replace hair\n        map values in\n    hair_to_replace - hair name to replace with defaults"
+  },
+  "_remove_sel_list": {
+    "type": "function",
+    "identifier": "_remove_sel_list",
+    "function_args": {
+      "args": [
+        "name",
+        "sel_list"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes selectable from selectbale list\n\nOnly intended for json usage. DO not use elsewhere. In general, you\nshould NEVER need to remove a selectable from the selectable list."
+  },
+  "_reset_sp_obj": {
+    "type": "function",
+    "identifier": "_reset_sp_obj",
+    "function_args": {
+      "args": [
+        "sp_obj"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Uninits the given sprite object. This is meant only for json\nsprite usage if we need to back out.\n\nIN:\n    sp_obj - sprite object to remove"
+  },
+  "_build_loadstrs": {
+    "type": "function",
+    "identifier": "_build_loadstrs",
+    "function_args": {
+      "args": [
+        "sp_obj",
+        "sel_obj"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Builds list of strings that need to be verified via loadable.\n\nIN:\n    sp_obj - sprite object to build strings from\n    sel_obj - selectable to build thumb string from.\n        Ignored if None\n        (Default: None)\n\nRETURNS: list of strings that would need to be loadable verified"
+  },
+  "_check_giftname": {
+    "type": "function",
+    "identifier": "_check_giftname",
+    "function_args": {
+      "args": [
+        "giftname",
+        "sp_type",
+        "sp_name",
+        "msg_log",
+        "ind_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Initializes the giftname with the sprite info\n\nIN:\n    giftname - giftname we want to use\n    sp_type - sprite type we want to init\n    sp_name - name of the sprite object to associated with this gift\n        (use the sprite's name property == ID)\n    ind_lvl - indentation level to use\n\nOUT:\n    msg_log - list to log messages to"
+  },
+  "_init_giftname": {
+    "type": "function",
+    "identifier": "_init_giftname",
+    "function_args": {
+      "args": [
+        "giftname",
+        "sp_type",
+        "sp_name"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Initializes the giftname with the sprite info\ndoes not check for valid giftname.\n\nIN:\n    giftname - giftname we want to use\n    sp_type - sprite type we want to init\n    sp_name - name of the sprite object to associate with this gift"
+  },
+  "_process_giftname": {
+    "type": "function",
+    "identifier": "_process_giftname",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Process the gift maps by cleaning the persistent vars"
+  },
+  "_process_progpoint": {
+    "type": "function",
+    "identifier": "_process_progpoint",
+    "function_args": {
+      "args": [
+        "sp_type",
+        "name",
+        "save_obj",
+        "msg_log",
+        "ind_lvl",
+        "progname"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Attempts to find a prop point for a sprite object with the given\nsp_type and name\n\nIN:\n    sp_type - sprite object type\n    name - name of sprite object\n    ind_lvl - indent level\n    progname - name of progpoint (do not include suffix)\n\nOUT:\n    save_obj - dict to save progpoint to\n    msg_log - list to save messages to"
+  },
+  "_test_loadables": {
+    "type": "function",
+    "identifier": "_test_loadables",
+    "function_args": {
+      "args": [
+        "sp_obj",
+        "msg_log",
+        "ind_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Tests loadable images and errs if an image is not loadable.\n\nIN:\n    sp_obj - sprite object to test\n    ind_lvl - indentation level\n\nOUT:\n    msg_log - list to add messages to"
+  },
+  "_validate_type": {
+    "type": "function",
+    "identifier": "_validate_type",
+    "function_args": {
+      "args": [
+        "json_obj",
+        "msg_log",
+        "ind_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates the type of this json object.\n\nLogs errors. Also pops type off\n\nIN:\n    json_obj - json object to validate\n    ind_lvl - indentation level\n\nOUT:\n    msg_log - list to add messages to\n\nRETURNS: SP constant if valid type, None otherwise"
+  },
+  "_validate_mux_type": {
+    "type": "function",
+    "identifier": "_validate_mux_type",
+    "function_args": {
+      "args": [
+        "json_obj",
+        "msg_log",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates mux_type of this json object\n\nIN:\n    json_obj - json object to validate\n    indent_lvl - indtenation lvl to use\n\nOUT:\n    msg_log - list to save error messages to\n        if nothing was addeed to this list, the mux_type is valid\n\nRETURNS: mux_type found. May be None"
+  },
+  "_validate_iterstr": {
+    "type": "function",
+    "identifier": "_validate_iterstr",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "propname",
+        "required",
+        "allow_none",
+        "msg_log",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates an iterable if it consists solely of strings\n\nan empty list is considered bad.\n\nIN:\n    jobj - json object to parse\n    propname - property name for error messages\n    required - True if this property is required, False if not\n    allow_none - True if None is valid value, False if not\n    indent_lvl - indentation level\n\nOUT:\n    save_obj - dict to save to\n    msg_log - list to save messages to\n\nRETURNS: True if good, False if bad"
+  },
+  "_validate_params": {
+    "type": "function",
+    "identifier": "_validate_params",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "param_dict",
+        "required",
+        "msg_log",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates a list of parameters, while also saving said params into\ngiven save object.\n\nErrors/Warnings are logged to given lists\n\nIN:\n    jobj - json object to parse\n    param_dict - dict of params + verification functiosn\n    required - True if the given params are required, False otherwise.\n    indent_lvl - indentation level to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - log to save messages to\n\nRETURNS: True if success, False if not"
+  },
+  "_validate_acs": {
+    "type": "function",
+    "identifier": "_validate_acs",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "obj_based",
+        "msg_log",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates ACS-specific properties, as well as acs pose map\n\nProps validated:\n    - rec_layer\n    - priority\n    - acs_type\n    - dlg_desc\n    - dlg_plural\n    - mux_type\n    - pose_map\n    - giftname\n    - arm_split\n    - highlight\n\nIN:\n    jobj - json object to pasrse\n    obj_based - dict of object-based items\n        (contains pose_map)\n    indent_lvl - indentation lvl to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if validation success, False if not"
+  },
+  "_validate_fallbacks": {
+    "type": "function",
+    "identifier": "_validate_fallbacks",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "obj_based",
+        "msg_log",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates fallback related properties and pose map\n\nProps validated:\n    - fallback\n    - pose_map\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains pose_map)\n    indent_lvl - indentation lvl to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to\n\nRETURNS: True if success, False if not"
+  },
+  "_validate_hair": {
+    "type": "function",
+    "identifier": "_validate_hair",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "obj_based",
+        "msg_log",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates HAIR related properties\n\nProps validated:\n    - unlock\n    - highlight\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n    indent_lvl - indentation lvl\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messagse to\n\nRETURNS: True on success, False if not"
+  },
+  "_validate_clothes": {
+    "type": "function",
+    "identifier": "_validate_clothes",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "obj_based",
+        "sp_name",
+        "dry_run",
+        "msg_log",
+        "indent_lvl",
+        "post_proc_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates CLOTHES related properties\n\nProps validated:\n    - hair_map\n    - giftname\n    - pose_arms\n    - highlight\n    - outfit_hair\n    - outfit_acs\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of objected-baesd items\n        (contains split)\n    sp_name - name of the clothes we are validating\n    dry_run - true if we are dry running, False if not\n    indent_lvl - indentation lvl\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to\n    post_proc_data - dict to store data for post proccessing\n\nRETURNS: True if good, False if not"
+  },
+  "_validate_ex_props": {
+    "type": "function",
+    "identifier": "_validate_ex_props",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "obj_based",
+        "msg_log",
+        "ind_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates ex_props proprety\n\nProps validated:\n    - ex_props\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains ex_props)\n    ind_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to"
+  },
+  "_validate_highlight": {
+    "type": "function",
+    "identifier": "_validate_highlight",
+    "function_args": {
+      "args": [
+        "obj_based",
+        "save_obj",
+        "msg_log",
+        "ind_lvl",
+        "hl_keys"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates highlight objects\n\nProps validated:\n    - highlight\n\nIN:\n    obj_based - dict of object-based props\n    hl_keys - the keys that this highlight object should be using\n    ind_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if valid, False if not"
+  },
+  "_validate_highlight_core": {
+    "type": "function",
+    "identifier": "_validate_highlight_core",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "msg_log",
+        "ind_lvl",
+        "hl_keys"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Primary portion of highlight validation. This is so it can be\nused seamlessly with highlight split object validation logs.\n\nProps validated:\n    - highlight\n\nIN:\n    jobj - json object to parse\n    hl_keys - the keys this highlight object should be using\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if valid, False if not"
+  },
+  "_validate_selectable": {
+    "type": "function",
+    "identifier": "_validate_selectable",
+    "function_args": {
+      "args": [
+        "jobj",
+        "save_obj",
+        "obj_based",
+        "msg_log",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates selectable\n\nProps validated:\n    - select_info\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains select_info)\n    indent_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to write messages to\n\nRETURNS: True if success, false if failure"
+  },
+  "addSpriteObject": {
+    "type": "function",
+    "identifier": "addSpriteObject",
+    "function_args": {
+      "args": [
+        "filepath",
+        "post_proc_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds a sprite object, given its json filepath\n\nNOTE: most exceptions logged\nNOTE: may raise exceptions\n\nIN:\n    filepath - filepath to the JSON we want to load\n\nOUT:\n    post_proc_data - dict to store post processing data in"
+  },
+  "addSpriteObjects": {
+    "type": "function",
+    "identifier": "addSpriteObjects",
+    "function_args": {
+      "args": [
+        "post_proc_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds sprite objects if we find any\n\nAlso does delayed validation rules:\n    - hair\n\nOUT:\n    post_proc_data - data to be used in post processing code\n        (should be a dict)"
+  },
+  "initSpriteObjectProc": {
+    "type": "function",
+    "identifier": "initSpriteObjectProc",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Prepares internal data for sprite object processing"
+  },
+  "verifyHairs": {
+    "type": "function",
+    "identifier": "verifyHairs",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Verifies all hair items that we encountered"
+  },
+  "processOutfitExtras": {
+    "type": "function",
+    "identifier": "processOutfitExtras",
+    "function_args": {
+      "args": [
+        "post_proc_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Processes outfit extras for sprites\n\nIN:\n    post_proc_data - data set by the sprite object add alg"
+  },
+  "_addGift": {
+    "type": "function",
+    "identifier": "_addGift",
+    "function_args": {
+      "args": [
+        "giftname",
+        "indent_lvl"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds the reaction for this gift, using the correct label depending on\ngift label existence.\n\nIN:\n    giftname - giftname to add reaction for\n    indent_lvl - indentation level to use"
+  },
+  "processGifts": {
+    "type": "function",
+    "identifier": "processGifts",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Processes giftnames that were loaded, adding/removing them from\ncertain dicts."
+  },
+  "runSpriteObjAlg": {
+    "type": "function",
+    "identifier": "runSpriteObjAlg",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  }
+}

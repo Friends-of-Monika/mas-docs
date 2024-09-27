@@ -1,0 +1,1054 @@
+{
+  "_compareAff": {
+    "type": "function",
+    "identifier": "_compareAff",
+    "function_args": {
+      "args": [
+        "aff_1",
+        "aff_2"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "See mas_compareAff for explanation"
+  },
+  "_compareAffG": {
+    "type": "function",
+    "identifier": "_compareAffG",
+    "function_args": {
+      "args": [
+        "affg_1",
+        "affg_2"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "See mas_compareAffG for explanation"
+  },
+  "_betweenAff": {
+    "type": "function",
+    "identifier": "_betweenAff",
+    "function_args": {
+      "args": [
+        "aff_low",
+        "aff_check",
+        "aff_high"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "checks if the given affection level is between the given low and high.\nSee mas_betweenAff for explanation"
+  },
+  "_isValidAff": {
+    "type": "function",
+    "identifier": "_isValidAff",
+    "function_args": {
+      "args": [
+        "aff_check"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns true if the given affection is a valid affection state\n\nNOTE: None is considered valid"
+  },
+  "_isValidAffRange": {
+    "type": "function",
+    "identifier": "_isValidAffRange",
+    "function_args": {
+      "args": [
+        "aff_range"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns True if the given aff range is a valid aff range.\n\nIN:\n    aff_range - tuple of the following format:\n        [0]: lower bound\n        [1]: upper bound\n    NOTE: Nones are considerd valid."
+  },
+  "_m1_script0x2daffection__verify_data": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__verify_data",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "_m1_script0x2daffection__set_pers_data": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__set_pers_data",
+    "function_args": {
+      "args": [
+        "value"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "_m1_script0x2daffection__get_pers_data": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__get_pers_data",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "_m1_script0x2daffection__to_struct": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__to_struct",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": "args"
+    },
+    "docstring": "Packs passed args into a struct\n\nIN:\n    *args - the arguments to pass into the struct\n\nOUT:\n    PY2:\n        str\n    PY3:\n        bytes"
+  },
+  "_m1_script0x2daffection__from_struct": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__from_struct",
+    "function_args": {
+      "args": [
+        "struct_"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Upacks passed struct into a tuple of values\n\nIN:\n    struct_ - bytes - the struct to unpack\n\nOUT:\n    tuple with values"
+  },
+  "_m1_script0x2daffection__hexlify": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__hexlify",
+    "function_args": {
+      "args": [
+        "bytes_"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Converts binary data into a hexadecimal string"
+  },
+  "_m1_script0x2daffection__unhexlify": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__unhexlify",
+    "function_args": {
+      "args": [
+        "bytes_"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Converts a hexadecimal string into pure binary data"
+  },
+  "_m1_script0x2daffection__handle_str2bytes": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__handle_str2bytes",
+    "function_args": {
+      "args": [
+        "value"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Verifies we return the expected type,\nif not, converts it\nTODO: ME"
+  },
+  "_m1_script0x2daffection__intob64": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__intob64",
+    "function_args": {
+      "args": [
+        "bytes_"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Encodes a string using b64"
+  },
+  "_m1_script0x2daffection__fromb64": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__fromb64",
+    "function_args": {
+      "args": [
+        "bytes_"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Decodes an encoded string using b64"
+  },
+  "_m1_script0x2daffection__decode_data": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__decode_data",
+    "function_args": {
+      "args": [
+        "data"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns decoded data\nIn case the data has been corrupted in a way,\n    returns default values\n\nOUT:\n    - tuple with the data\n    - None if an error happened"
+  },
+  "_m1_script0x2daffection__encode_data": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__encode_data",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": "data"
+    },
+    "docstring": "Encodes data\nIf it's unable to encode data, returns None\n\nOUT:\n    - bytes\n    - None if an error happened"
+  },
+  "get_default_data": {
+    "type": "function",
+    "identifier": "get_default_data",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns default encoded data for aff when first loading the mod\n\nOUT:\n    bytes"
+  },
+  "_m1_script0x2daffection__reset_pers_data": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__reset_pers_data",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Resets pers data to the default value\nDangerous, think twice before using"
+  },
+  "_m1_script0x2daffection__get_data": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__get_data",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns current data (decoded),\nALWAYS use this accessor\n\nOUT:\n    - list with the data\n    - None if an error happened"
+  },
+  "_get_aff": {
+    "type": "function",
+    "identifier": "_get_aff",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Private getter that handles errors,\nyou should probably use public version\n\nOUT:\n    float - current affection"
+  },
+  "_get_today_cap": {
+    "type": "function",
+    "identifier": "_get_today_cap",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns today's aff cap\n\nOUT:\n    tuple[float, float] - current aff cap"
+  },
+  "_m1_script0x2daffection__validate_timestamp": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__validate_timestamp",
+    "function_args": {
+      "args": [
+        "ts",
+        "now_ts"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Verifies the given time against current time\n\nIN:\n    ts - the timestamp to validate\n    now_ts - the current time\n\nOUT:\n    float:\n        original timestamp if it's valid\n        or modified timestamp"
+  },
+  "_grant_aff": {
+    "type": "function",
+    "identifier": "_grant_aff",
+    "function_args": {
+      "args": [
+        "amount",
+        "bypass",
+        "reason"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Grants some affection\n\nIN:\n    amount - float - amount of affection to grant\n    bypass - bool - is this bypass gain or not\n    reason - str/None - the reason for this bonus,\n        MUST be current topic label or None\n        (Default: None)"
+  },
+  "_remove_aff": {
+    "type": "function",
+    "identifier": "_remove_aff",
+    "function_args": {
+      "args": [
+        "amount",
+        "reason"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes some affection\n\nIN:\n    amount - float - amount of affection to remove\n    reason - str/None - the reason for this lose,\n        MUST be current topic label or None\n        (Default: None)"
+  },
+  "_withdraw_aff": {
+    "type": "function",
+    "identifier": "_withdraw_aff",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Withdraws some aff daily\nfrom the bank to the main pool"
+  },
+  "_absence_decay_aff": {
+    "type": "function",
+    "identifier": "_absence_decay_aff",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes some aff during absence"
+  },
+  "_reset_aff": {
+    "type": "function",
+    "identifier": "_reset_aff",
+    "function_args": {
+      "args": [
+        "reason"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "'RESET'"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Resets aff value (and only it)\nThis is a dangerous func, use with care"
+  },
+  "_transfer_aff_2nd_gen": {
+    "type": "function",
+    "identifier": "_transfer_aff_2nd_gen",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Transfers aff from the first gen to the second gen\nThis may be dangerous, use wisely, don't fook up"
+  },
+  "_m1_script0x2daffection__set_aff": {
+    "type": "function",
+    "identifier": "_m1_script0x2daffection__set_aff",
+    "function_args": {
+      "args": [
+        "amount",
+        "reason"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "'SET'"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Sets affection to a value\n\nNOTE: never use this to add / lower affection unless its to\n    strictly set affection to a level for some reason.\n\nIN:\n    amount - amount to set affection to\n    logmsg - msg to show in the log\n        (Default: 'SET')"
+  },
+  "_set_aff": {
+    "type": "function",
+    "identifier": "_set_aff",
+    "function_args": {
+      "args": [
+        "value",
+        "reason"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "save_aff": {
+    "type": "function",
+    "identifier": "save_aff",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs saving logic"
+  },
+  "load_aff": {
+    "type": "function",
+    "identifier": "load_aff",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs loading logic"
+  },
+  "_make_backup": {
+    "type": "function",
+    "identifier": "_make_backup",
+    "function_args": {
+      "args": [
+        "force"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs backup algo for affection\n\nIN:\n    force - boolean - should we force this?"
+  },
+  "_has_mismatch": {
+    "type": "function",
+    "identifier": "_has_mismatch",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the last backup mismatches with the current aff"
+  },
+  "_remove_backups": {
+    "type": "function",
+    "identifier": "_remove_backups",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes all backups"
+  },
+  "_restore_backup": {
+    "type": "function",
+    "identifier": "_restore_backup",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Uses available aff backup\nUse wisely\n\nOUT:\n    boolean - whether or not a backup was restored"
+  },
+  "audit": {
+    "type": "function",
+    "identifier": "audit",
+    "function_args": {
+      "args": [
+        "attempted_change",
+        "change",
+        "old",
+        "new",
+        "frozen",
+        "bypass",
+        "ldsv"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False",
+        "False",
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Audits a change in affection.\n\nIN:\n    attempted_change - the attempted aff change\n    change - the amount we are changing by\n    old -the old value of affection\n    new - what the new affection value will be\n    frozen - True means we were frozen, false measn we are not\n    bypass - True means we bypassed, false means we did not\n    ldsv - Set to the string to use instead of monikatopic\n        NOTE: for load / save operations ONLY"
+  },
+  "raw_audit": {
+    "type": "function",
+    "identifier": "raw_audit",
+    "function_args": {
+      "args": [
+        "old",
+        "new",
+        "change",
+        "tag"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Non affection-dependent auditing for general usage.\n\nIN:\n    old - the \"old\" value\n    new - the \"new\" value\n    change - the chnage amount\n    tag - a string to label this audit change"
+  },
+  "txt_audit": {
+    "type": "function",
+    "identifier": "txt_audit",
+    "function_args": {
+      "args": [
+        "tag",
+        "msg"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Generic auditing in the aff log\n\nIN:\n    tag - a string to label thsi audit\n    msg - message to show"
+  },
+  "_force_exp": {
+    "type": "function",
+    "identifier": "_force_exp",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Determines appropriate forced expression for current affection."
+  },
+  "_brokenToDis": {
+    "type": "function",
+    "identifier": "_brokenToDis",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from broken to distressed"
+  },
+  "_disToBroken": {
+    "type": "function",
+    "identifier": "_disToBroken",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from distressed to broken"
+  },
+  "_disToUpset": {
+    "type": "function",
+    "identifier": "_disToUpset",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from distressed to upset"
+  },
+  "_upsetToDis": {
+    "type": "function",
+    "identifier": "_upsetToDis",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from upset to distressed"
+  },
+  "_upsetToNormal": {
+    "type": "function",
+    "identifier": "_upsetToNormal",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from upset to normal"
+  },
+  "_normalToUpset": {
+    "type": "function",
+    "identifier": "_normalToUpset",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from normal to upset"
+  },
+  "_normalToHappy": {
+    "type": "function",
+    "identifier": "_normalToHappy",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from noraml to happy"
+  },
+  "_happyToNormal": {
+    "type": "function",
+    "identifier": "_happyToNormal",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitinong from happy to normal"
+  },
+  "_happyToAff": {
+    "type": "function",
+    "identifier": "_happyToAff",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from happy to affectionate"
+  },
+  "_affToHappy": {
+    "type": "function",
+    "identifier": "_affToHappy",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from affectionate to happy"
+  },
+  "_affToEnamored": {
+    "type": "function",
+    "identifier": "_affToEnamored",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from affectionate to enamored"
+  },
+  "_enamoredToAff": {
+    "type": "function",
+    "identifier": "_enamoredToAff",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from enamored to affectionate"
+  },
+  "_enamoredToLove": {
+    "type": "function",
+    "identifier": "_enamoredToLove",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from enamored to love"
+  },
+  "_loveToEnamored": {
+    "type": "function",
+    "identifier": "_loveToEnamored",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from love to enamored"
+  },
+  "_gSadToNormal": {
+    "type": "function",
+    "identifier": "_gSadToNormal",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from sad group to normal group"
+  },
+  "_gNormalToSad": {
+    "type": "function",
+    "identifier": "_gNormalToSad",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from normal group to sad group"
+  },
+  "_gNormalToHappy": {
+    "type": "function",
+    "identifier": "_gNormalToHappy",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from normal group to happy group"
+  },
+  "_gHappyToNormal": {
+    "type": "function",
+    "identifier": "_gHappyToNormal",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs when transitioning from happy group to normal group"
+  },
+  "runAffPPs": {
+    "type": "function",
+    "identifier": "runAffPPs",
+    "function_args": {
+      "args": [
+        "start_aff",
+        "end_aff"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs programming points to transition from the starting affection\nto the ending affection\n\nIN:\n    start_aff - starting affection\n    end_aff - ending affection"
+  },
+  "runAffGPPs": {
+    "type": "function",
+    "identifier": "runAffGPPs",
+    "function_args": {
+      "args": [
+        "start_affg",
+        "end_affg"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs programming points to transition from the starting affection group\nto the ending affection group\n\nIN:\n    start_affg - starting affection group\n    end_affg - ending affection group"
+  },
+  "_isMoniState": {
+    "type": "function",
+    "identifier": "_isMoniState",
+    "function_args": {
+      "args": [
+        "aff_1",
+        "aff_2",
+        "lower",
+        "higher"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Compares the given affection values according to the affection\nstate system\n\nBy default, this will check if aff_1 == aff_2\n\nIN:\n    aff_1 - affection to compare\n    aff_2 - affection to compare\n    lower - True means we want to check aff_1 <= aff_2\n    higher - True means we want to check aff_1 >= aff_2\n\nRETURNS:\n    True if the given affections pass the test we want to do.\n    False otherwise"
+  },
+  "_isMoniStateG": {
+    "type": "function",
+    "identifier": "_isMoniStateG",
+    "function_args": {
+      "args": [
+        "affg_1",
+        "affg_2",
+        "lower",
+        "higher"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Compares the given affection groups according to the affection group\nsystem\n\nBy default, this will check if affg_1 == affg_2\n\nIN:\n    affg_1 - affection group to compare\n    affg_2 - affection group to compare\n    lower - True means we want to check affg_1 <= affg_2\n    higher - True means we want to check affg_1 >= affg_2\n\nRETURNS:\n    true if the given affections pass the test we want to do.\n    False otherwise"
+  },
+  "_init_talk_quips": {
+    "type": "function",
+    "identifier": "_init_talk_quips",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Initializes the talk quiplists"
+  },
+  "_init_play_quips": {
+    "type": "function",
+    "identifier": "_init_play_quips",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Initializes the play quipliust"
+  },
+  "_dict_quip": {
+    "type": "function",
+    "identifier": "_dict_quip",
+    "function_args": {
+      "args": [
+        "_quips"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns a quip based on the current affection using the given quip\ndict\n\nIN:\n    _quips - quip dict to pull from\n\nRETURNS:\n    quip or empty string if failure"
+  },
+  "talk_quip": {
+    "type": "function",
+    "identifier": "talk_quip",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns a talk quip based on the current affection"
+  },
+  "play_quip": {
+    "type": "function",
+    "identifier": "play_quip",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns a play quip based on the current affection"
+  }
+}

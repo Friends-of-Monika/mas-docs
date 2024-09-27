@@ -1,0 +1,130 @@
+{
+  "MASAsyncWrapper": {
+    "type": "class",
+    "identifier": "MASAsyncWrapper",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Class designed for calling a function asynchronously and returning\nthe result.\n\nThis uses threading.\n\nNOTE: we are not using context managers because we might have an\nissue with them on macs\n\nTODO: you cannot use this to spawm multiple calls of the same function\nif we need that, then we make extension of this class\n\nMain things are:\n1. storing the function to call when threading\n2. not spawning a new thread if the previous one isn't done yet\n    (adjustable)\n3. check function that checks status of thread's return value\n4. closing the spawn'ed thread\n\nPROPERTIES:\n    ready - True means we are ready to spawn a thread, False means we\n        are either waiting for the thread or waiting for main thread\n        to retrieve the value.\n\nPRIVATE PROPERTIES:\n    _th_lock - the threading lock we are using for var checking\n    _th_cond - the threading condition for var checking\n    _th_result - data returned from the function\n    _th_function - the function we are calling\n    _th_args - args to pass into the function\n    _th_kwargs - kwargs to pass into the function\n    _th_thread - thread object\n    _th_done - True means the thread has returned and set the value\n        False means thread is still running",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "async_fun",
+            "async_args",
+            "async_kwargs"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "[]",
+            "{}"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "IN:\n    async_fun - function to call asynchronously\n    async_args - list of arguments to send to the async function\n        (Default: [])\n    async_kwargs - dict of keyword args to send to the async\n        function\n        (Default: {})"
+      },
+      {
+        "type": "function",
+        "identifier": "done",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns true if the thread is Done and has returned data, False\notherwise."
+      },
+      {
+        "type": "function",
+        "identifier": "end",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Resets thread status vars and more so we can spawn a new thread.\n\nChecks if the thread is done before doing any resets"
+      },
+      {
+        "type": "function",
+        "identifier": "get",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Retrieves value set by thread and resets everything so we can\nspawn a new thread.\n\nRETURNS:\n    value returned from async call.\n    or None if the async call is still returning. (or if your\n        async call returned None)"
+      },
+      {
+        "type": "function",
+        "identifier": "start",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Starts the threaded function call."
+      },
+      {
+        "type": "function",
+        "identifier": "_th_start",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Actually runs the async function and sets the result var\nappropriately."
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_threading__end",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Resets vars so we can spawn a new thred. Does NOT check if the\nthread is done."
+      }
+    ]
+  }
+}

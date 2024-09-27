@@ -1,0 +1,19 @@
+{
+  "show_display_say": {
+    "type": "function",
+    "identifier": "show_display_say",
+    "function_args": {
+      "args": [
+        "who",
+        "what_string"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    },
+    "docstring": "semi-override of show_display_say so we can force text to render\nimmediately."
+  }
+}

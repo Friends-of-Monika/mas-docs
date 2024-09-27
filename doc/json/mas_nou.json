@@ -1,0 +1,1416 @@
+{
+  "NOU": {
+    "type": "class",
+    "identifier": "NOU",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "A class to represent a shedding card game - NOU\nTotal cards in the deck: 108\nThe one who first gets rid of cards wins the round\nThe one who first reaches the points cap (default 200) wins the game\nOne game takes about 5-10 minutes, you keep your points through sessions\n    so you can start the game in one sesh and finish it later if you wish",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__can_drag",
+        "function_args": {
+          "args": [
+            "self",
+            "table",
+            "stack",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Checks if you can drag card from stack\n\nOUT:\n    True if you can, False otherwise"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__springback_cards",
+        "function_args": {
+          "args": [
+            "self",
+            "hand"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Makes all cards in the given hand to spring back\n\nIN:\n    hand - hand to spring back cards in"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__say_quip",
+        "function_args": {
+          "args": [
+            "self",
+            "what",
+            "interact",
+            "new_context"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "True",
+            "False"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Wrapper around renpy.say\n\nIN:\n    what - a list/tuple of quips or a single quip to say"
+      },
+      {
+        "type": "function",
+        "identifier": "_reset_sfx",
+        "function_args": {
+          "args": [
+            "cls"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Resets sfx data"
+      },
+      {
+        "type": "function",
+        "identifier": "_load_sfx",
+        "function_args": {
+          "args": [
+            "cls"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "'Loads' sound assets from the disk\nThis should be called on init, but after class creation"
+      },
+      {
+        "type": "function",
+        "identifier": "_play_sfx",
+        "function_args": {
+          "args": [
+            "sfx_files",
+            "channel"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "'sound'"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Plays a random sound from the given list\n\nIN:\n    sfx_files - the list with the filepaths to the sounds"
+      },
+      {
+        "type": "function",
+        "identifier": "_play_shuffle_sfx",
+        "function_args": {
+          "args": [
+            "cls"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Plays an sfx for shuffling"
+      },
+      {
+        "type": "function",
+        "identifier": "_play_move_sfx",
+        "function_args": {
+          "args": [
+            "cls"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Plays an sfx for moving the deck"
+      },
+      {
+        "type": "function",
+        "identifier": "_play_draw_sfx",
+        "function_args": {
+          "args": [
+            "cls"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Plays an sfx for drawing a card"
+      },
+      {
+        "type": "function",
+        "identifier": "_play_play_sfx",
+        "function_args": {
+          "args": [
+            "cls"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Plays an sfx for playing a card"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__calculate_xoffset",
+        "function_args": {
+          "args": [
+            "self",
+            "player",
+            "shift"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "0"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Determines the x offset depending on quantity of cards in player's hand\n\nIN:\n    player - the player in whose hand we change the offset\n    shift - extra offset\n        (Default: 0)\n\nOUT:\n    integer as the offset\n\nASSUMES:\n    Monika is a leftie"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__set_xoffset",
+        "function_args": {
+          "args": [
+            "self",
+            "player",
+            "shift"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "0"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Changes cards offset depending on quantity of cards in hand\n\nIN:\n    player - the player in whose hand we change the offset\n    shift - extra offset\n        (Default: 0)"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__calculate_xpos",
+        "function_args": {
+          "args": [
+            "self",
+            "player"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Determines position of the first card\ndepending on quantity of cards in player's hand\n\nIN:\n    player - the player in whose hand we change\n        the x attribute of the card\n\nOUT:\n    integer as the x coordinate for the hand\n\nASSUMES:\n    we updated (if needed) the x offset for the hand before calling this"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__set_xpos",
+        "function_args": {
+          "args": [
+            "self",
+            "player"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Changes the placement of the first card\ndepending on quantity of cards in player's hand\n\nIN:\n    player - the player in whose hand we set\n        the x attribute of the card\n\nASSUMES:\n    we updated (if needed) the x offset for the hand before calling this"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__update_cards_positions",
+        "function_args": {
+          "args": [
+            "self",
+            "player",
+            "shift"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "0"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Updates cards positions in player's hand\n\nIN:\n    player - the player for whose hand we update cards positions\n    shift - extra offset (see _m1_zz_cardgames__calculate_xoffset)\n        (Default: 0)"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__get_card_filename",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Generates filename for a card based on its color and type\n\nIN:\n    card - card object\n\nOUT:\n    string with filename w/o extension"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__load_card_asset",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Associates a card object with its asset, adds it to the deck and sets it face down\n# NOTE: Thanks to Velius aka big pout booplicate for these cool cards\n\nIN:\n    card - card object"
+      },
+      {
+        "type": "function",
+        "identifier": "_m1_zz_cardgames__fill_deck",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Fills the deck with cards and adds them to the drawpile\n\nNOTE: does not shuffles the drawpile"
+      },
+      {
+        "type": "function",
+        "identifier": "_update_drawpile",
+        "function_args": {
+          "args": [
+            "self",
+            "smooth",
+            "sound"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "True",
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Moves all - except the top one - cards from the discardpile\nonto the drawpile, then shuffles drawpile\n\nIN:\n    smooth - bool, if True we use pause\n    sound - bool, if True we play sfx, if None, defaults to smooth\n        (Default: None)"
+      },
+      {
+        "type": "function",
+        "identifier": "_update_game_log",
+        "function_args": {
+          "args": [
+            "self",
+            "current_player",
+            "next_player"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Updates the log with the actions/attributes of the current and next players\nWe can back in to any turn and check what happened there\n\nNOTE: have to do fill the log in 2 steps:\n    1. write first bits when the previous player ends their turn\n    2. add more data after the current player ends their turn\n    and so on\n\nNOTE: for the reason above we update the log in prepare_game()\n    for the 1st time\n\nIN:\n    current_player - the player who ends their turn\n    next_player - next played"
+      },
+      {
+        "type": "function",
+        "identifier": "end_turn",
+        "function_args": {
+          "args": [
+            "self",
+            "current_player",
+            "next_player"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Updates players' attributes at the end of turn\nAlso switches sensitivity and makes sure that the drawpile has cards\n\nIN:\n    current_player - the player who ends their turn\n    next_player - next player\n\nASSUMES:\n    mas_nou.disable_remind_button\n    mas_nou.disable_yell_button"
+      },
+      {
+        "type": "function",
+        "identifier": "_win_check",
+        "function_args": {
+          "args": [
+            "self",
+            "player"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Checks if player can win the game (has no cards left)\nIf we have a winner, we update wins and jump to the end game label\nThe rest will be handled in the label\n\nIN:\n    player - the player we check"
+      },
+      {
+        "type": "function",
+        "identifier": "_is_matching_card",
+        "function_args": {
+          "args": [
+            "self",
+            "player",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Checks if the given card matches the top card in the discardpile\n\nIN:\n    player - the player who tries to play the card\n    card - the card the player wants to play\n\nOUT:\n    True if the player can play the card, False otherwise\n\nASSUMES:\n    len(discardpile) > 0"
+      },
+      {
+        "type": "function",
+        "identifier": "play_card",
+        "function_args": {
+          "args": [
+            "self",
+            "current_player",
+            "next_player",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "A method to play cards and change players' attributes\nNOTE: this doesn't check if the card matches\n\nIN:\n    current_player - the player who plays card\n    next_player - the player who will be affected by card if any\n    card - card to play"
+      },
+      {
+        "type": "function",
+        "identifier": "_actually_deal_cards",
+        "function_args": {
+          "args": [
+            "self",
+            "player",
+            "amount",
+            "smooth",
+            "sound"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Moves cards from the drawpile into player's hand,\nupdates offsets, rotation and sets cards faceup if needed\n\nNOTE: Unsafe to use this directly, we use deal_cards\n\nIN:\n    player - the player who will get the cards\n    amount - amount of cards to deal\n    smooth - whether or not we use a little pause between dealing cards\n    sound - whether or not we play sfx"
+      },
+      {
+        "type": "function",
+        "identifier": "deal_cards",
+        "function_args": {
+          "args": [
+            "self",
+            "player",
+            "amount",
+            "smooth",
+            "sound",
+            "mark_as_drew_card",
+            "reset_nou_var"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "1",
+            "True",
+            "None",
+            "True",
+            "True"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Deals cards to players\nAlso refreshing the drawpile if there're not enough cards\n\nIN:\n    player - the player whose hand we deal cards in\n    amount - amount of cards to deal\n        (Default: 1)\n    smooth - whether or not we use a little pause between dealing cards\n        (Default: True)\n    sound - whether or not we play sfx, if None defaults to smooth\n        (Default: None)\n    mark_as_drew_card - whether or not we set the var for the player\n        (Default: True)\n    reset_nou_var - whether or not we reset the nou var for the player who draws cards\n        (Default: True)"
+      },
+      {
+        "type": "function",
+        "identifier": "_get_current_next_players",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Returns current and next player for the first turn\n\nOUT:\n    tuple of 2 items"
+      },
+      {
+        "type": "function",
+        "identifier": "_deal_initial_cards",
+        "function_args": {
+          "args": [
+            "self",
+            "current_player",
+            "next_player"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "prepare_game",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "This method sets up everything we need to start a game of NOU:\n    1. Chooses who plays first\n    2. Shuffles the deck\n    3. Deals cards\n    4. Places first card onto the discardpile\n        and handles if it's an action/wild card\n    5. Fills first bits in the log\n    6. Makes our table sensetive to the user's imput\n        if needed"
+      },
+      {
+        "type": "function",
+        "identifier": "reset_game",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Reinitialize the game so you can start another round"
+      },
+      {
+        "type": "function",
+        "identifier": "player_turn_loop",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Tracks the player's actions and responds to their interactions"
+      },
+      {
+        "type": "function",
+        "identifier": "monika_turn_loop",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Monika's actions during her turn\nYes, I know that this isn't a loop"
+      },
+      {
+        "type": "function",
+        "identifier": "game_loop",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "This wrapper is supposed to be called in the main while loop"
+      },
+      {
+        "type": "function",
+        "identifier": "set_visible",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Shows/Hides cards on the table\n\nIN:\n    value - True/False"
+      },
+      {
+        "type": "function",
+        "identifier": "set_sensitive",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Make cards (in-)sensitive to the player's input\n\nIN:\n    value - True/False"
+      },
+      {
+        "type": "function",
+        "identifier": "is_sensitive",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Checks if the table is sensitive to the input\n\nOUT:\n    True if sensitive, False otherwise"
+      },
+      {
+        "type": "function",
+        "identifier": "shuffle_drawpile",
+        "function_args": {
+          "args": [
+            "self",
+            "smooth",
+            "sound"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "True",
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Shuffles the drawpile and animates cards shuffling\n\nIN:\n    smooth - bool, if True we use pause for animation\n        (Default: True)\n    sound - bool, if True, we play sfx, if None, defaults to smooth\n        (Default: None)\n\nASSUMES:\n    len(drawpile) > 15"
+      },
+      {
+        "type": "function",
+        "identifier": "handle_nou_logic",
+        "function_args": {
+          "args": [
+            "self",
+            "player"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "A method that handles \"yelling system\" from the player side\nNOTE: Everything here must be called in a new context\n    since we 100% will have an active interaction when we get here.\n    We also toggle the sensitivity so you don't skip the dlg\n\nIN:\n    player - 'name' of the player we will check for nou\n        (either 'monika' or 'player')\n\nASSUMES:\n    the player didn't start to play their turn"
+      },
+      {
+        "type": "function",
+        "identifier": "_select_help",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Method to help the player if they are \"stuck\"\n\nOUT:\n    string"
+      },
+      {
+        "type": "function",
+        "identifier": "say_help",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Method to say the selected advice"
+      }
+    ]
+  },
+  "_NOUCard": {
+    "type": "class",
+    "identifier": "_NOUCard",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "A class to represent a card\n\nPROPERTIES:\n    type - (str) number, action or wild\n    label - (str) number/action on card '0'-'9', \"Draw Two\", etc\n    color - (str/None) red, blue, green, yellow or None\n        (Default: None (colorless))\n    value - (int) how much points the card gives",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "t",
+            "l",
+            "c"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor\n\nIN:\n    t - type of the card\n    l - the card's label\n    c - the card's color\n        (Default: None)"
+      },
+      {
+        "type": "function",
+        "identifier": "value",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Cards values can be dynamically calculated"
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  "_NOUPlayer": {
+    "type": "class",
+    "identifier": "_NOUPlayer",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "A class to represent players\n\nPROPERTIES:\n    leftie - (bool) is player leftie or rightie\n    isAI - (bool) is it the Player or Monika\n    hand - (stack) represents player's hand (a Stack object)\n    drew_card - (bool) has player drew a card in this turn\n    plays_turn - (bool) is it player's turn\n    should_draw_cards - (int) should player draw cards and how much\n    played_card - (bool) has player played a card in this turn\n    should_skip_turn - (bool) should player skip their turn\n    yelled_nou - (bool) has player yelled \"NOU\" before playing their last card\n    should_play_card - (bool) do we expect this player to play a card (after saying 'NOU')\n    nou_reminder_timeout - (int) the turn when this player cannot be caught for not saying 'NOU' any longer",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "leftie"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "False"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor\n\nIN:\n    leftie - is player leftie or rightie"
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  "_NOUReaction": {
+    "type": "class",
+    "identifier": "_NOUReaction",
+    "class_bases": [
+      "object"
+    ],
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "type_",
+            "turn",
+            "monika_card",
+            "player_card",
+            "tier",
+            "shown"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "NOU.NO_REACTION",
+            "-1",
+            "None",
+            "None",
+            "0",
+            "False"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "tier",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "tier",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__getitem__",
+        "function_args": {
+          "args": [
+            "self",
+            "key"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__setitem__",
+        "function_args": {
+          "args": [
+            "self",
+            "key",
+            "value"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  "_NOUPlayerAI": {
+    "type": "class",
+    "identifier": "_NOUPlayerAI",
+    "class_bases": [
+      "_NOUPlayer"
+    ],
+    "docstring": "AI variation of player\n\nPROPERTIES:\n    everything from _NOUPlayer\n    game - (NOU) pointer for internal use\n    cards_data - (dict) data about our cards (amount, values, ids)\n    queued_card - (_NOUCard) the card Monika wants to play on the next turn\n    player_cards_data - (dict) potentially the most common color (or None)\n        and most rare colors (or an empty list) in the Player's hand\n        'reset_in' shows how much turns left until we reset 'has_color'\n    reactions - (list) all reactions that monika had during this game\n        (even if they didn't trigger)",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "game",
+            "leftie"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "False"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Constructor\n\nIN:\n    leftie - is this player leftie or rightie\n    game - pointer to our NOU object"
+      },
+      {
+        "type": "function",
+        "identifier": "__repr__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "identifier": "thonk_pause",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Pauses the game giving some time to Monika to thonk out her next turn"
+      },
+      {
+        "type": "function",
+        "identifier": "_randomise_color",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Chooses one of the colors at random\nExcludes the potential color that the player may have\nIf we know what the colors the player doesn't have,\nwe will return one of them at random\n\nOUT:\n    string with one of 4 colors"
+      },
+      {
+        "type": "function",
+        "identifier": "guess_player_cards",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Guesses cards' colors in the player's hand\nNOTE: must run this before anything else\nNOTE: this method is quite a mess"
+      },
+      {
+        "type": "function",
+        "identifier": "_sort_cards_data",
+        "function_args": {
+          "args": [
+            "self",
+            "cards_data",
+            "keys_sort_order",
+            "values_sort_order",
+            "consider_player_cards_data"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "['num', 'act']",
+            "['value', 'amount']",
+            "True"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sorts (by keys and then values) the cards data dict\nand returns it as a list of tuples\n\nExample:\n    [\n        ('num_red', {'amount': 5, 'ids': [6, 1, 3, 12], 'value': 26}),\n        ('num_yellow', {'amount': 4, 'ids': [5, 10, 8, 11], 'value': 9}),\n        ...\n        ('act_yellow', {'amount': 2, 'ids': [2, 9], 'value': -1}),\n        ('wcc', {'amount': 0, 'ids': [], 'value': -1}),\n        ('wd4', {'amount': 1, 'ids': [4], 'value': -1})\n    ]\n\nIN:\n    cards_data - dict with info about Monika's cards\n    NOTE: check sortKey for these\n    keys_sort_order - the dict's keys we're sorting by\n    values_sort_order - the dict's values (inner dict's keys) we're sorting by\n    consider_player_cards_data - whether or not we consider player's cards in sorting\n\nOUT:\n    sorted list of tuples"
+      },
+      {
+        "type": "function",
+        "identifier": "_get_cards_data",
+        "function_args": {
+          "args": [
+            "self",
+            "cards"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "A method that builds a dict that represents cards in a Monika-friendly way (c)\n    NOTE: ids of number and action cards are sorted by cards values\n    NOTE: This should be called after any change in Monika's hand,\n        and before she'll do anything with cards so Monika has an actual info about her cards\n\nIN:\n    cards - cards whose data we will return, if None, uses the current Monika's cards\n        (Default: None)\n\nOUT:\n    dict with various data about Monika's cards"
+      },
+      {
+        "type": "function",
+        "identifier": "shuffle_hand",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Sorts some cards in Monika's hand\nThis is just for visuals\nNOTE: Since this changes cards' ids,\n    either do this at the start of the turn (optimal),\n    or update cards data again after shuffling."
+      },
+      {
+        "type": "function",
+        "identifier": "choose_color",
+        "function_args": {
+          "args": [
+            "self",
+            "ignored_card"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Monika chooses color to set for Wild cards\n\nignored_card - card that will be ignored in calculation of the color\n    (Default: None)\n\nOUT:\n    string with color"
+      },
+      {
+        "type": "function",
+        "identifier": "choose_card",
+        "function_args": {
+          "args": [
+            "self",
+            "should_draw",
+            "should_choose_color"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "True",
+            "True"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Monika chooses a card to play\n\nIN:\n    should_draw - should Monika draw a card\n        if she's not found one to play?\n        (Default: True)\n    should_choose_color - should Monika choose a color\n        if the chosen card is a wild card?\n        (Default: True)\n\nOUT:\n    card if we found or drew one\n    or None if we don't want to (or can't) play a card this turn"
+      },
+      {
+        "type": "function",
+        "identifier": "play_card",
+        "function_args": {
+          "args": [
+            "self",
+            "card"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Inner wrapper around play_card\nNOTE: we do only certain checks here\n\nIN:\n    card - card to play"
+      },
+      {
+        "type": "function",
+        "identifier": "choose_reaction",
+        "function_args": {
+          "args": [
+            "self",
+            "next_card_to_play"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Helps Monika choose a dialogue based on the state of the game\nNOTE: 'NOU' is handled differently, right in announce_reaction(), w/o corresponding reactions from here\n\nTODO: reaction when you both are drawing cards\n    because no one has a card with the current color\nTODO: reactions when Monika reflected a card on her 1st turn\n    (the player had (had not) to skip their turn)\nTODO: reactions when the player reflected a card on their 1st turn\n\nIN:\n    next_card_to_play - the next card Monika's going to play\n        (we base reaction on it)"
+      },
+      {
+        "type": "function",
+        "identifier": "_handle_nou_logic",
+        "function_args": {
+          "args": [
+            "self",
+            "current_reaction"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Handles nou logic for Monika\n\nIN:\n    current_reaction - current Monika's reaction\n\nOUT:\n    tuple of 2 booleans:\n        has_yelled_nou - whether or not Monika yelled 'NOU' this turn\n        has_reminded_yell_nou - whether or not Monika reminded the player to yell 'NOU' this turn"
+      },
+      {
+        "type": "function",
+        "identifier": "announce_reaction",
+        "function_args": {
+          "args": [
+            "self",
+            "reaction"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "A wrapper around renpy.say for Monika's reactions\n\nHere we check if the reaction passes rng check, add modifiers to it,\n    and handle 'NOU' quips\n\nIN:\n    reaction - reaction to announce"
+      }
+    ]
+  },
+  "get_default_house_rules": {
+    "type": "function",
+    "identifier": "get_default_house_rules",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns default house rules\n\nOUT:\n    dict"
+  },
+  "update_house_rules": {
+    "type": "function",
+    "identifier": "update_house_rules",
+    "function_args": {
+      "args": [
+        "force"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds keys from the def values dict to the persistent dict\nUseful after updates\n\nIN:\n    force - bool, do we want to rewrite existing keys?"
+  },
+  "are_default_house_rules": {
+    "type": "function",
+    "identifier": "are_default_house_rules",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the current settings are default\n\nOUT:\n    bool"
+  },
+  "get_house_rule": {
+    "type": "function",
+    "identifier": "get_house_rule",
+    "function_args": {
+      "args": [
+        "name"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns a house rule for the given name\n\nThis WILL raise KeyError if you enter invalid name\n\nBut this WILL try to fall back to a sane value if the key isn't\nin the persistent for some reason\n\nIN:\n    name - the string with the rule key\n\nOUT:\n    rule value\n    or None in the worst case"
+  },
+  "set_house_rule": {
+    "type": "function",
+    "identifier": "set_house_rule",
+    "function_args": {
+      "args": [
+        "name",
+        "value"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Sets a new value for a house rule\n\nThis WILL raise KeyError if you enter invalid name\n\nIN:\n    name - the string with the rule key\n    value - the new value for the rule"
+  },
+  "reverse_house_rule": {
+    "type": "function",
+    "identifier": "reverse_house_rule",
+    "function_args": {
+      "args": [
+        "name"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Reversed a value of a house rule\nOnly useful for bools"
+  },
+  "visit_game_ev": {
+    "type": "function",
+    "identifier": "visit_game_ev",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Updates game ev props like if it was seen by the player now\nIncrements show count\nSets last seen"
+  },
+  "does_want_suggest_play": {
+    "type": "function",
+    "identifier": "does_want_suggest_play",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "A func to check if Monika wants to suggest play nou\nYes if:\n    NEVER played nou before\n    played in the last 15 mins\n    NOT played in the past 3 days\n    otherwise 30% to say yes\n\nOUT:\n    bool"
+  },
+  "give_points": {
+    "type": "function",
+    "identifier": "give_points",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gives points to the winner\n\nASSUMES:\n    mas_nou.game\n    mas_nou.winner"
+  },
+  "reset_points": {
+    "type": "function",
+    "identifier": "reset_points",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Resets the persistent var to 0 for both Monika and the player"
+  },
+  "get_player_points_percentage": {
+    "type": "function",
+    "identifier": "get_player_points_percentage",
+    "function_args": {
+      "args": [
+        "player_persist_key"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns proportion of the corrent points of a player to the maximum possible score\n\nIN:\n    player_persist_key - persistent key for the player\n        ('Monika' or 'Player')\n\nOUT:\n    float as proportion (0.0 - 1.0)\n\nASSUMES:\n    persistent._mas_game_nou_house_rules['points_to_win'] > 0"
+  },
+  "get_wins_for": {
+    "type": "function",
+    "identifier": "get_wins_for",
+    "function_args": {
+      "args": [
+        "player"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns wins in nou\n\nIN:\n    player - the player key to return the stats for\n\nOUT:\n    int"
+  },
+  "get_total_games": {
+    "type": "function",
+    "identifier": "get_total_games",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns total nou games\n\nOUT:\n    int"
+  }
+}

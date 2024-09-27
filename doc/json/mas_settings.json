@@ -1,0 +1,44 @@
+{
+  "_auto_mode_toggle": {
+    "type": "function",
+    "identifier": "_auto_mode_toggle",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Handles the toggling of fields so the menu options become mutually exclusive"
+  },
+  "_dark_mode_toggle": {
+    "type": "function",
+    "identifier": "_dark_mode_toggle",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Handles the toggling of fields so the menu options become mutually exclusive"
+  },
+  "_ui_change_wrapper": {
+    "type": "function",
+    "identifier": "_ui_change_wrapper",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": "args"
+    },
+    "docstring": "Wrapper around UI changes\n\nIN:\n    *args - values to pass to dark mode"
+  }
+}

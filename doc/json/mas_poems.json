@@ -1,0 +1,112 @@
+{
+  "hasUnlockedPoems": {
+    "type": "function",
+    "identifier": "hasUnlockedPoems",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if we have any poems that we've unlocked."
+  },
+  "getPoemsByCategory": {
+    "type": "function",
+    "identifier": "getPoemsByCategory",
+    "function_args": {
+      "args": [
+        "category",
+        "unseen"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns a list of poems by the category provided\n\nIN:\n    category:\n        category to search for\n\n    unseen:\n        whether or not we only want unseen poems\n\nOUT:\n    A list of poems based on the specifications above"
+  },
+  "getSeenPoems": {
+    "type": "function",
+    "identifier": "getSeenPoems",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns a list of all seen poems ordered by category"
+  },
+  "getUnseenPoems": {
+    "type": "function",
+    "identifier": "getUnseenPoems",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Returns a list of all unseen poems ordered by category"
+  },
+  "getPoem": {
+    "type": "function",
+    "identifier": "getPoem",
+    "function_args": {
+      "args": [
+        "poem_id"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a poem by id\n\nIN:\n    poem_id - poem id of the poem to get\n\nOUT:\n    MASPoem if there's a poem with the id\n    None if no poem with the id exists"
+  },
+  "getSeenPoemsMenu": {
+    "type": "function",
+    "identifier": "getSeenPoemsMenu",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a list of seen poems in scrollable menu format (ordered by category)\n\nOUT:\n    A list of seen poems in the format for a mas gen scrollable menu"
+  },
+  "getRandomPoem": {
+    "type": "function",
+    "identifier": "getRandomPoem",
+    "function_args": {
+      "args": [
+        "category",
+        "unseen"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "True"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a random poem from the specified category\nIN:\n    category:\n        category to search for\n\n    unseen:\n        whether or not we only want unseen poems\n        defaults to True\n\nOUT:\n    A random poem"
+  }
+}

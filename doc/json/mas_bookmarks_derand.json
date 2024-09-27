@@ -1,0 +1,100 @@
+{
+  "resetDefaultValues": {
+    "type": "function",
+    "identifier": "resetDefaultValues",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Resets the globals to their default values"
+  },
+  "getLabelPrefix": {
+    "type": "function",
+    "identifier": "getLabelPrefix",
+    "function_args": {
+      "args": [
+        "test_str"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if test_str starts with anything in the list of prefixes, and if so, returns the matching prefix\n\nIN:\n    test_str - string to test\n\nOUT:\n    string:\n        - label_prefix if test_string starts with a prefix in list_prefixes\n        - empty string otherwise"
+  },
+  "getDerandomedEVLs": {
+    "type": "function",
+    "identifier": "getDerandomedEVLs",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets a list of derandomed eventlabels\n\nOUT:\n    list of derandomed eventlabels"
+  },
+  "shouldRandom": {
+    "type": "function",
+    "identifier": "shouldRandom",
+    "function_args": {
+      "args": [
+        "eventlabel"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if we should random the given eventlabel\nThis is determined by whether or not the event is in any derandom list\n\nIN:\n    eventlabel to check if we should random_seen\n\nOUT:\n    boolean: True if we should random this event, False otherwise"
+  },
+  "wrappedGainAffection": {
+    "type": "function",
+    "identifier": "wrappedGainAffection",
+    "function_args": {
+      "args": [
+        "amount",
+        "modifier",
+        "bypass"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None",
+        "1.0",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Wrapper function for mas_gainAffection which allows it to be used in event rules at init 5\n\nSee mas_gainAffection for documentation"
+  },
+  "removeDerand": {
+    "type": "function",
+    "identifier": "removeDerand",
+    "function_args": {
+      "args": [
+        "eventlabel"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Removes a derandomed eventlabel from ALL derandom dbs\n\nIN:\n    eventlabel - Eventlabel to remove"
+  }
+}

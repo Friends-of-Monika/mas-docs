@@ -1,0 +1,216 @@
+{
+  "MASPersistentAnalyzer": {
+    "type": "class",
+    "identifier": "MASPersistentAnalyzer",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "class for analyzing persistent data objects\n\nPROPERTIES:\n    event_db - all events database\n        key: eventlabel\n        value: EventDBData object\n    property_index - index of all event objects\n        key: property name\n        value: dictionary:\n            key: the value of the property\n                (for category, each tag is a separate value)\n            value: dictionary:\n                key: eventlabel\n                value: EventDBData object",
+    "class_functions": [
+      {
+        "type": "function",
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "in_char"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "IN:\n    in_char - pass True if the persisten file is int \n    eh user's charactesr dir. Otherwise we use the \n    loaded persistent"
+      },
+      {
+        "type": "function",
+        "identifier": "analyze",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Loads and analyzes persistent data"
+      },
+      {
+        "type": "function",
+        "identifier": "analyze_and_report",
+        "function_args": {
+          "args": [
+            "in_char",
+            "sort_asc"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Quickly creates an analysis and outputs it for every property.\n\nIN:\n    in_char - True to use persistent from characters, otherwise use ours\n    sort_acs - see get_all_and_file"
+      },
+      {
+        "type": "function",
+        "identifier": "clear",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Clears data"
+      },
+      {
+        "type": "function",
+        "identifier": "cmp_none_handler",
+        "function_args": {
+          "args": [
+            "arg1",
+            "arg2"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Specialized cmp function that can handle Nones\n\nIn general, we push Nones to the back."
+      },
+      {
+        "type": "function",
+        "identifier": "get_all_and_file",
+        "function_args": {
+          "args": [
+            "self",
+            "prop",
+            "sort_asc",
+            "file_name",
+            "only_incl"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None",
+            "'per-analysis.txt'",
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Does get_all_for_prop but saves the results directly to file \n\nSee get_all_for_prop for param doc"
+      },
+      {
+        "type": "function",
+        "identifier": "get_all_for_prop",
+        "function_args": {
+          "args": [
+            "self",
+            "prop",
+            "sort_asc",
+            "only_incl"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None",
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Gets all entries for a prop\n\nIN:\n    prop - the property to get\n    sort_asc - True to sort ascending\n        False to sort descending\n        None to not sort\n        (Default: None)\n    only_incl - pass this in as a dictionary of eventlabels to \n        only include these in the prop\n\nRETURNS: tuple:\n    [0] - list of sorted event labels\n    [1] - dictionary of data:\n        key: eventlabel\n        value: EventDBDAta object"
+      },
+      {
+        "type": "function",
+        "identifier": "get_matching_value",
+        "function_args": {
+          "args": [
+            "self",
+            "prop",
+            "value",
+            "only_incl"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Gets index entries for a prop and value\n\nIN:\n    prop - the property to get\n    value - the value to get\n    only_incl - if passed in, only include entries with \n        eventlabel in this dict\n\nRETURNS: dictionary containing all items that match the value for\n    a prop:\n    key: event label\n    value: EventDBData object\n    If None is returned, then something was invalid."
+      },
+      {
+        "type": "function",
+        "identifier": "multi_val_filter",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "pos_only_args": [],
+          "defaults": [],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": "prop_values",
+          "var_arg": null
+        },
+        "docstring": "Runs get_matching_value multiple times to narrow down based on the given prop values.\n\nRETURNS: get_matching_vaue return value"
+      },
+      {
+        "type": "function",
+        "identifier": "report_on_unlocked_pools",
+        "function_args": {
+          "args": [
+            "in_char",
+            "sort_asc"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Runs a report on unlocked pools\nSAved as unlocked-pools.txt\n\nSee analyze_and_report for param doc"
+      },
+      {
+        "type": "function",
+        "identifier": "report_on_unlocked_randoms",
+        "function_args": {
+          "args": [
+            "in_char",
+            "sort_asc"
+          ],
+          "pos_only_args": [],
+          "defaults": [
+            "None"
+          ],
+          "kw_defaults": [],
+          "kw_only_args": [],
+          "kw_arg": null,
+          "var_arg": null
+        },
+        "docstring": "Runs a report on unlocked randoms\nSaved as unlocked-rands.txt"
+      }
+    ]
+  }
+}

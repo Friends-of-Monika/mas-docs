@@ -1,0 +1,378 @@
+{
+  "addReaction": {
+    "type": "function",
+    "identifier": "addReaction",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "fname",
+        "_action",
+        "is_good",
+        "exclude_on"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "store.EV_ACT_QUEUE",
+        "None",
+        "[]"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds a reaction to the file reactions database.\n\nIN:\n    ev_label - label of this event\n    fname - filename to react to\n    _action - the EV_ACT to do\n        (Default: EV_ACT_QUEUE)\n    is_good - if the gift is good(True), neutral(None) or bad(False)\n        (Default: None)\n    exclude_on - keys marking times to exclude this gift\n    (Need to check ev.rules in a respective react_to_gifts to exclude with)\n        (Default: [])"
+  },
+  "_initConnectorQuips": {
+    "type": "function",
+    "identifier": "_initConnectorQuips",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Initializes the connector quips"
+  },
+  "_initStarterQuips": {
+    "type": "function",
+    "identifier": "_initStarterQuips",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Initializes the starter quips"
+  },
+  "build_gift_react_labels": {
+    "type": "function",
+    "identifier": "build_gift_react_labels",
+    "function_args": {
+      "args": [
+        "evb_details",
+        "gsp_details",
+        "gen_details",
+        "gift_cntrs",
+        "ending_label",
+        "starting_label",
+        "prepare_data"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "[]",
+        "[]",
+        "[]",
+        "None",
+        "None",
+        "None",
+        "True"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Processes gift details into a list of labels to show\nlabels to queue/push whatever.\n\nIN:\n    evb_details - list of GiftReactDetails objects of event-based\n        reactions. If empty list, then we don't build event-based\n        reaction labels.\n        (Default: [])\n    gsp_details - list of GiftReactDetails objects of generic sprite\n        object reactions. If empty list, then we don't build generic\n        sprite object reaction labels.\n        (Default: [])\n    gen_details - list of GiftReactDetails objects of generic gift\n        reactions. If empty list, then we don't build generic gift\n        reaction labels.\n        (Default: [])\n    gift_cntrs - MASQuipList of gift connectors to use. If None,\n        then we don't add any connectors.\n        (Default: [])\n    ending_label - label to use when finished reacting.\n        (Default: None)\n    starting_label - label to use when starting reacting\n        (Default: None)\n    prepare_data - True will also setup the appropriate data\n        elements for when dialogue is shown. False will not.\n        (Default: True)\n\nRETURNS: list of labels. Evb reactions are first, followed by\n    gsp reactions, then gen reactions"
+  },
+  "build_exclusion_list": {
+    "type": "function",
+    "identifier": "build_exclusion_list",
+    "function_args": {
+      "args": [
+        "_key"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Builds a list of excluded gifts based on the key provided\n\nIN:\n    _key - key to build an exclusion list for\n\nOUT:\n    list of giftnames which are excluded by the key"
+  },
+  "check_for_gifts": {
+    "type": "function",
+    "identifier": "check_for_gifts",
+    "function_args": {
+      "args": [
+        "found_map",
+        "exclusion_list",
+        "exclusion_found_map",
+        "override_react_map"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "{}",
+        "[]",
+        "{}",
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Finds gifts.\n\nIN:\n    exclusion_list - list of giftnames to exclude from the search\n    override_react_map - True will skip the last reacted date check,\n        False will not\n        (Default: False)\n\nOUT:\n    found_map - contains all gifts that were found:\n        key: lowercase giftname, no extension\n        val: full giftname wtih extension\n    exclusion_found_map - contains all gifts that were found but\n        are excluded.\n        key: lowercase giftname, no extension\n        val: full giftname with extension\n\nRETURNS: list of found giftnames"
+  },
+  "process_gifts": {
+    "type": "function",
+    "identifier": "process_gifts",
+    "function_args": {
+      "args": [
+        "gifts",
+        "evb_details",
+        "gsp_details",
+        "gen_details"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "[]",
+        "[]",
+        "[]"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Processes list of giftnames into types of gift\n\nIN:\n    gifts - list of giftnames to process. This is copied so it wont\n        be modified.\n\nOUT:\n    evb_details - list of GiftReactDetails objects regarding\n        event-based reactions\n    spo_details - list of GiftReactDetails objects regarding\n        generic sprite object reactions\n    gen_details - list of GiftReactDetails objects regarding\n        generic gift reactions"
+  },
+  "react_to_gifts": {
+    "type": "function",
+    "identifier": "react_to_gifts",
+    "function_args": {
+      "args": [
+        "found_map",
+        "connect"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "True"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Reacts to gifts using the standard protocol (no exclusions)\n\nIN:\n    connect - true will apply connectors, FAlse will not\n\nOUT:\n    found_map - map of found reactions\n        key: lowercaes giftname, no extension\n        val: giftname with extension\n\nRETURNS:\n    list of labels to be queued/pushed"
+  },
+  "register_gen_grds": {
+    "type": "function",
+    "identifier": "register_gen_grds",
+    "function_args": {
+      "args": [
+        "details"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "registers gifts given a generic GiftReactDetails list\n\nIN:\n    details - list of GiftReactDetails objects to register"
+  },
+  "register_sp_grds": {
+    "type": "function",
+    "identifier": "register_sp_grds",
+    "function_args": {
+      "args": [
+        "details"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "registers gifts given sprite-based GiftReactDetails list\n\nIN:\n    details - list of GiftReactDetails objcts to register"
+  },
+  "_pick_starter_label": {
+    "type": "function",
+    "identifier": "_pick_starter_label",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Internal function that returns the appropriate starter label for reactions\n\nRETURNS:\n    - The label as a string, that should be used today."
+  },
+  "_core_delete": {
+    "type": "function",
+    "identifier": "_core_delete",
+    "function_args": {
+      "args": [
+        "_filename",
+        "_map"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Core deletion file function.\n\nIN:\n    _filename - name of file to delete, if None, we delete one randomly\n    _map - the map to use when deleting file."
+  },
+  "_core_delete_list": {
+    "type": "function",
+    "identifier": "_core_delete_list",
+    "function_args": {
+      "args": [
+        "_filename_list",
+        "_map"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Core deletion filename list function\n\nIN:\n    _filename - list of filenames to delete.\n    _map - the map to use when deleting files"
+  },
+  "_register_received_gift": {
+    "type": "function",
+    "identifier": "_register_received_gift",
+    "function_args": {
+      "args": [
+        "eventlabel"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Registers when player gave a gift successfully\nIN:\n    eventlabel - the event label for the gift reaction"
+  },
+  "_get_full_stats_for_date": {
+    "type": "function",
+    "identifier": "_get_full_stats_for_date",
+    "function_args": {
+      "args": [
+        "date"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Getter for the full stats dict for gifts on a given date\nIN:\n    date - the date to get the report for, if None is given will check\n        today's date\n        (Defaults to None)\n\nRETURNS:\n    The dict containing the full stats or None if it's empty"
+  },
+  "delete_file": {
+    "type": "function",
+    "identifier": "delete_file",
+    "function_args": {
+      "args": [
+        "_filename"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Deletes a file off the found_react map\n\nIN:\n    _filename - the name of the file to delete. If None, we delete\n        one randomly"
+  },
+  "delete_files": {
+    "type": "function",
+    "identifier": "delete_files",
+    "function_args": {
+      "args": [
+        "_filename_list"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Deletes multiple files off the found_react map\n\nIN:\n    _filename_list - list of filenames to delete."
+  },
+  "th_delete_file": {
+    "type": "function",
+    "identifier": "th_delete_file",
+    "function_args": {
+      "args": [
+        "_filename"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Deletes a file off the threaded found_react map\n\nIN:\n    _filename - the name of the file to delete. If None, we delete one\n        randomly"
+  },
+  "th_delete_files": {
+    "type": "function",
+    "identifier": "th_delete_files",
+    "function_args": {
+      "args": [
+        "_filename_list"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Deletes multiple files off the threaded foundreact map\n\nIN:\n    _filename_list - list of ilenames to delete"
+  },
+  "delete_all": {
+    "type": "function",
+    "identifier": "delete_all",
+    "function_args": {
+      "args": [
+        "_map"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Attempts to delete all files in the given map.\nRemoves files in that map if they dont exist no more\n\nIN:\n    _map - map to delete all"
+  },
+  "get_report_for_date": {
+    "type": "function",
+    "identifier": "get_report_for_date",
+    "function_args": {
+      "args": [
+        "date"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "None"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Generates a report for all the gifts given on the input date.\nThe report is in tuple form (total, good_gifts, neutral_gifts, bad_gifts)\nit contains the totals of each type of gift."
+  }
+}

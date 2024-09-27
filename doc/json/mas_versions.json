@@ -1,0 +1,62 @@
+{
+  "add_steps": {
+    "type": "function",
+    "identifier": "add_steps",
+    "function_args": {
+      "args": [
+        "version_struct"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Adds versions to the version updates dict.\n\nIN:\n    version_struct - dict with versions in special version notation.\n        Keys: version to update to, as string\n        Vals: versions to update from, as string or tuple of strings"
+  },
+  "clear": {
+    "type": "function",
+    "identifier": "clear",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Clears the update data structures"
+  },
+  "init": {
+    "type": "function",
+    "identifier": "init",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Initializes the update data structures"
+  },
+  "_vdot2vstr": {
+    "type": "function",
+    "identifier": "_vdot2vstr",
+    "function_args": {
+      "args": [
+        "version_str"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Converts a version string that uses dots to the v#_#_# notation\n\nIN:\n    version_str - version string with dots #.#.#.#\n\nRETURNS: version string in the standard version notation:\n    v#_#_#_#"
+  }
+}

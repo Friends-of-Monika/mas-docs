@@ -1,0 +1,88 @@
+{
+  "_pp_spring": {
+    "type": "function",
+    "identifier": "_pp_spring",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Programming point for spring"
+  },
+  "_pp_summer": {
+    "type": "function",
+    "identifier": "_pp_summer",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Programming point for summer"
+  },
+  "_pp_fall": {
+    "type": "function",
+    "identifier": "_pp_fall",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Programming point for fall"
+  },
+  "_pp_winter": {
+    "type": "function",
+    "identifier": "_pp_winter",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Programming point for winter"
+  },
+  "_currentSeason": {
+    "type": "function",
+    "identifier": "_currentSeason",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Determins the current season and returns appropriate season ID"
+  },
+  "_seasonalCatchup": {
+    "type": "function",
+    "identifier": "_seasonalCatchup",
+    "function_args": {
+      "args": [
+        "prev_season"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Runs through seasonal programming points from the given prevoius\nseason to now. Returns the ID of the current season.\n\nIN:\n    prev_season - previously saved season\n\nRETURNS: current season ID"
+  }
+}

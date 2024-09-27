@@ -1,0 +1,203 @@
+{
+  "_checkInProgressGame": {
+    "type": "function",
+    "identifier": "_checkInProgressGame",
+    "function_args": {
+      "args": [
+        "pgn_game",
+        "mth"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the given pgn game is valid and in progress.\n\nIN:\n    pgn_game - pgn game to check\n    mth - monika twitter handle. pass it in since I'm too lazy to\n        find context from a store\n\nRETURNS:\n    SEE isInProgressGame"
+  },
+  "isInProgressGame": {
+    "type": "function",
+    "identifier": "isInProgressGame",
+    "function_args": {
+      "args": [
+        "filename",
+        "mth"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the pgn game with the given filename is valid and\nin progress.\n\nIN:\n    filename - filename of the pgn game\n    mth - monika twitter handle. pass it in since I'm too lazy to\n        find context from a store\n\nRETURNS:\n    tuple of the following format:\n        [0]: Text to display on button\n        [1]: chess.pgn.Game of the game\n    OR NONE if this is not a valid pgn game"
+  },
+  "_increment_chess_difficulty": {
+    "type": "function",
+    "identifier": "_increment_chess_difficulty",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Increments chess difficulty"
+  },
+  "_decrement_chess_difficulty": {
+    "type": "function",
+    "identifier": "_decrement_chess_difficulty",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Decrements chess difficulty"
+  },
+  "_get_player_color": {
+    "type": "function",
+    "identifier": "_get_player_color",
+    "function_args": {
+      "args": [
+        "loaded_game"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets player color\n\nIN:\n    loaded_game - pgn representing the loaded game\n\nOUT:\n    The player's color"
+  },
+  "_get_piece_chance": {
+    "type": "function",
+    "identifier": "_get_piece_chance",
+    "function_args": {
+      "args": [
+        "piece_type",
+        "selected_pieces_count_dict",
+        "available_points"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Gets the piece chance and returns the piece and weight in tuple form for a `mas_utils.weightedChoice` selection\n\nIN:\n    piece_type - type of the piece ('b', 'r', 'n', 'q')\n\nOUT:\n    tuple - (piece_type, weight) of the piece"
+  },
+  "select_piece": {
+    "type": "function",
+    "identifier": "select_piece",
+    "function_args": {
+      "args": [
+        "remaining_points",
+        "selected_pieces_count_dict"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Selects a piece according to random\n\nIN:\n    remaining_points - amount of points left to be allocated\n\nOUT:\n    a chess piece (str) based on available"
+  },
+  "_gen_side": {
+    "type": "function",
+    "identifier": "_gen_side",
+    "function_args": {
+      "args": [
+        "white",
+        "max_side_value"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "True",
+        "14"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Generates a player's side\n\nIN:\n    white - whether or not we should generate for white\n        (Default: True)\n    max_side_value - The current upper limit for piece selection\n        (Default: 14 -- minimum weight, most pieces are pawns)\n\nOUT:\n    2 strings representing a random assortment of pieces (front row and back row)"
+  },
+  "_validate_sides": {
+    "type": "function",
+    "identifier": "_validate_sides",
+    "function_args": {
+      "args": [
+        "white_front",
+        "white_back",
+        "black_front",
+        "black_back"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Validates sides for really bad chess\nso we don't end up in a check/check mate after the first turn\n\nIN:\n    white_front - front row for white\n    white_back - back row for white\n    black_front - front row for black\n    black_back - back row for black\n\nOUT:\n    boolean, whether or not both sides are good to go"
+  },
+  "generate_random_fen": {
+    "type": "function",
+    "identifier": "generate_random_fen",
+    "function_args": {
+      "args": [
+        "is_player_white"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "True"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Generates a random fen\n\nIN:\n    is_player_white - whether or not the player is playing white this game"
+  },
+  "generate_960_fen": {
+    "type": "function",
+    "identifier": "generate_960_fen",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "This function returns a random chess960 opening fen.\n\nChess960 rules are basically:\n1. One rook must stay on the left side of king, and another one stay on the right side.\n   Due to this, the king can never be placed on a-file or h-file.\n2. Bishops must stay on different color square.\n3. Pawns must stay like the normal chess game.\n4. The position of player A's pieces must be the 'reversed version' of player B's.\nSee chess960 wiki to get more exact information.\n\nOUT:\n    A random chess960 opening fen."
+  },
+  "enqueue_output": {
+    "type": "function",
+    "identifier": "enqueue_output",
+    "function_args": {
+      "args": [
+        "out",
+        "queue",
+        "lock"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  }
+}

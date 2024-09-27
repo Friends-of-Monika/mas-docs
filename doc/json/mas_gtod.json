@@ -1,0 +1,18 @@
+{
+  "has_day_past_tip": {
+    "type": "function",
+    "identifier": "has_day_past_tip",
+    "function_args": {
+      "args": [
+        "tip_num"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Checks if the tip with the given number has already been seen and\na day has past since it was unlocked.\nNOTE: by day, we mean date has changd, not 24 hours\n\nIN:\n    tip_num - number of the tip to check\n\nRETURNS:\n    true if the tip has been seen and a day has past since it was\n    unlocked, False otherwise"
+  }
+}

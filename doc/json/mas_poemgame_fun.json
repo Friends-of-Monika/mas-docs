@@ -1,0 +1,55 @@
+{
+  "getPointValue": {
+    "type": "function",
+    "identifier": "getPointValue",
+    "function_args": {
+      "args": [
+        "condition",
+        "point"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "getWinner": {
+    "type": "function",
+    "identifier": "getWinner",
+    "function_args": {
+      "args": [
+        "word",
+        "sayori",
+        "natsuki",
+        "yuri",
+        "monika",
+        "mas"
+      ],
+      "pos_only_args": [],
+      "defaults": [
+        "False"
+      ],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  "validateFlow": {
+    "type": "function",
+    "identifier": "validateFlow",
+    "function_args": {
+      "args": [
+        "flow"
+      ],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  }
+}

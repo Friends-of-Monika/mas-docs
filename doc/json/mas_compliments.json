@@ -1,0 +1,30 @@
+{
+  "_m1_script0x2dcompliments__set_wait_time": {
+    "type": "function",
+    "identifier": "_m1_script0x2dcompliments__set_wait_time",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "Sets new wait time"
+  },
+  "compliment_delegate_callback": {
+    "type": "function",
+    "identifier": "compliment_delegate_callback",
+    "function_args": {
+      "args": [],
+      "pos_only_args": [],
+      "defaults": [],
+      "kw_defaults": [],
+      "kw_only_args": [],
+      "kw_arg": null,
+      "var_arg": null
+    },
+    "docstring": "A callback for the compliments delegate label"
+  }
+}
