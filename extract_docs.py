@@ -16,6 +16,8 @@ FuncStruct = Tuple[str, ast.arguments, str | None, int]
 DocDict = Dict[str, Any]
 
 
+# Python 2 syntax incompatibilities (quick) fixes
+
 def remove_ur_ru_prefix(src: str) -> str:
     """Removes ur/ru string literal prefix from py2 source code."""
     pattern = r'\b([uU][rR]|[rR][uU])(["\'])'
@@ -27,6 +29,9 @@ def convert_octal_literals(src: str) -> str:
     pattern = r'(?<![-\d.])\b0([0-7]+)\b(?!\.\d)'
     modified_code = re.sub(pattern, r'0o\1', src)
     return modified_code
+
+
+# AST node decomposition
 
 def decompose_func(node: ast.FunctionDef) -> FuncStruct:
     """Decomposes function definition to name, args, and docstring."""
@@ -66,6 +71,8 @@ def unwind_attr(node: ast.Attribute) -> str:
     chain.append(current.id)
     return ".".join(chain[::-1])
 
+
+# Data exporting (e.g. converting to renderable parameters)
 
 def export_class_bases(base_nodes: List[ast.Name | ast.Attribute]) -> List[str]:
     """Serializes class bases to list of strings."""
@@ -117,6 +124,8 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
 
     return data
 
+
+# Python parsing
 
 def extract_docs(path: str) -> Dict[str, DocDict]:
     """Parses Python code at given path and returns dictionary of documented
