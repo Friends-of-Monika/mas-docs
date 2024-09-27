@@ -59,7 +59,7 @@ def decompose_class(node: ast.ClassDef) -> ClassStruct:
 
     methods = [decompose_func(child) for child in node.body
                if isinstance(child, ast.FunctionDef)]
-    return c_name, c_bases, docstring, methods, node.lineno, c_deco
+    return c_name, c_bases, docstring, methods, c_deco
 
 
 # Data exporting (e.g. converting to renderable parameters)
@@ -69,10 +69,9 @@ def export_class_doc(struct: ClassStruct) -> Dict[str, Any]:
 
     data: Dict[str, Any] = {}
     data["type"] = "class"
-    data["class_decorators"] = [ast.unparse(node) for node in struct[5]]
+    data["class_decorators"] = [ast.unparse(node) for node in struct[4]]
     data["identifier"] = struct[0]
     data["class_bases"] = [ast.unparse(node) for node in struct[1]]
-    data["line"] = struct[4]
 
     if struct[2] is not None:
         data["docstring"] = dedent(struct[2]).strip()
@@ -88,7 +87,6 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
     data["type"] = "function"
     data["function_decorators"] = [ast.unparse(node) for node in struct[4]]
     data["identifier"] = struct[0]
-    data["line"] = struct[3]
 
     if struct[2] is not None:
         data["docstring"] = dedent(struct[2]).strip()
@@ -108,7 +106,7 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
 
 # Python parsing
 
-def extract_docs(path: str) -> Dict[str, DocDict]:
+def extract_docs(path: Path) -> Dict[str, DocDict]:
     """Parses Python code at given path and returns dictionary of documented
        members (identifier -> doc dict)."""
 
@@ -123,14 +121,20 @@ def extract_docs(path: str) -> Dict[str, DocDict]:
     doc_dicts: Dict[str, DocDict] = {}
 
     for node in src_ast.body:
+        doc_type: str | None = None
+        doc_dict: DocDict | None = None
+
         if isinstance(node, ast.FunctionDef):
             st = decompose_func(node)
-            doc = export_func_doc(st)
-            doc_dicts[st[0]] = doc
+            doc_dict = export_func_doc(st)
+            doc_type = st[0]
         elif isinstance(node, ast.ClassDef):
             st = decompose_class(node)
-            doc = export_class_doc
-            doc_dicts[st[0]] = doc(st)
+            doc_dict = export_class_doc(st)
+            doc_type = st[0]
+
+        if doc_type is not None and doc_dict is not None:
+            doc_dicts[doc_type] = doc_dict
 
     return doc_dicts
 

@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "topSeenEvents",
-    "line": 65,
     "docstring": "counts the number of events with a > shown_count than the given\nshown_count\n\nIN:\n    sorted_ev_list - an event list sorted by shown_counts\n    shown_count - shown_count to compare to\n\nRETURNS:\n    number of events with shown_counts that are higher than the given\n    shown_count",
     "function_args": {
       "args": [

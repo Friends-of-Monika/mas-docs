@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "decodeImage",
-    "line": 46,
     "docstring": "Attempts to decode a cg image\n\nIN:\n    key - o31 cg key to decode\n\nRETURNS True upon success, False otherwise",
     "function_args": {
       "args": [
@@ -21,7 +20,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "removeImages",
-    "line": 58,
     "docstring": "Removes decoded images at the end of their lifecycle",
     "function_args": {
       "args": [],

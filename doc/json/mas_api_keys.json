@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "feature_registered",
-    "line": 316,
     "docstring": "Checks if a feature is registered for API keys\n\nIN:\n    feature - feature to check (string)\n\nRETURNS: True if the feature is registered for API keys",
     "function_args": {
       "args": [
@@ -21,7 +20,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "register_feature",
-    "line": 328,
     "docstring": "Registers a feature for API key usage\n\nIN:\n    feature - name of the feature\n    data - data to associate with the feature",
     "function_args": {
       "args": [
@@ -40,7 +38,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "features_for_display",
-    "line": 339,
     "docstring": "Returns list of the features for display\n\nRETURNS: list of the features as tuples, sorted for display:\n    [0] - the display name of the feature\n    [1] - the on_change function to run",
     "function_args": {
       "args": [],
@@ -56,7 +53,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "has_features",
-    "line": 364,
     "docstring": "Do we have API-key based features?\n\nRETURNS: True if we have api key based features",
     "function_args": {
       "args": [],
@@ -72,7 +68,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "clean_key",
-    "line": 373,
     "docstring": "Cleans an aPI key\n\nIN:\n    dirty_key - key to clean\n\nRETURNS: cleaned key",
     "function_args": {
       "args": [
@@ -90,7 +85,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_run_on_change",
-    "line": 385,
     "docstring": "Runs on change for a feature with api key\n\nIN:\n    feature - feature to run on change for\n    api_key - api key to run on change with\n\nRETURNS: tuple of the following format:\n    [0] - True if valid key, False if not\n    [1] - error message to show",
     "function_args": {
       "args": [
@@ -109,7 +103,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "screen_clear",
-    "line": 435,
     "docstring": "Called when the clear button is used on the api key screen\n\nIN:\n    feature - the feature whose key is being cleared",
     "function_args": {
       "args": [
@@ -127,7 +120,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "screen_paste",
-    "line": 453,
     "docstring": "Called when the paste button is used on the api key screen.\n\nIN:\n    feature - the feature whose key is being pasted",
     "function_args": {
       "args": [
@@ -145,7 +137,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "screen_update_cert",
-    "line": 491,
     "docstring": "Called when the update cert button is used on the api key screen",
     "function_args": {
       "args": [],
@@ -161,7 +152,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "load_keys",
-    "line": 505,
     "docstring": "Loads API keys from config file",
     "function_args": {
       "args": [],
@@ -177,7 +167,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "save_keys",
-    "line": 535,
     "docstring": "Saves API keys to disk",
     "function_args": {
       "args": [],
@@ -196,14 +185,12 @@
     "class_bases": [
       "mas_layout.MASScreenData"
     ],
-    "line": 774,
     "docstring": "screen data for the mas_update_cert screen",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 779,
         "function_args": {
           "args": [
             "self"
@@ -222,7 +209,6 @@
           "property"
         ],
         "identifier": "main_text",
-        "line": 791,
         "docstring": "Primary text to show in screen describing current state",
         "function_args": {
           "args": [
@@ -242,7 +228,6 @@
           "property"
         ],
         "identifier": "show_cancel",
-        "line": 798,
         "docstring": "True if the cancel button be shown",
         "function_args": {
           "args": [
@@ -262,7 +247,6 @@
           "property"
         ],
         "identifier": "show_ok",
-        "line": 805,
         "docstring": "True if the ok button should be shown",
         "function_args": {
           "args": [
@@ -282,7 +266,6 @@
           "property"
         ],
         "identifier": "show_retry",
-        "line": 812,
         "docstring": "True if the retry button should be shown",
         "function_args": {
           "args": [
@@ -300,7 +283,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "loop",
-        "line": 818,
         "docstring": "Main loop should just do update promise checking.\nAssumes Cert update promise was started.",
         "function_args": {
           "args": [
@@ -318,7 +300,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "start",
-        "line": 854,
         "docstring": "Call this before showing the update cert screen. This will\nrun initializations and stuff.",
         "function_args": {
           "args": [
@@ -336,7 +317,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "action_cancel",
-        "line": 869,
         "docstring": "Called when the cancel button is clicked.",
         "function_args": {
           "args": [
@@ -354,7 +334,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "action_ok",
-        "line": 877,
         "docstring": "Called when the ok button is clicked",
         "function_args": {
           "args": [
@@ -372,7 +351,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "action_retry",
-        "line": 883,
         "docstring": "Called when the retry button is clicked",
         "function_args": {
           "args": [
@@ -390,7 +368,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_hide_all_buttons",
-        "line": 889,
         "docstring": "Hides all buttons",
         "function_args": {
           "args": [
@@ -408,7 +385,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_set_buttons_ok",
-        "line": 897,
         "docstring": "Sets button flags for ok available",
         "function_args": {
           "args": [
@@ -426,7 +402,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_set_buttons_retrycancel",
-        "line": 904,
         "docstring": "Sets button flags for retrycancel available",
         "function_args": {
           "args": [
@@ -444,7 +419,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_set_state_checking_update",
-        "line": 912,
         "docstring": "Sets text and button flags for when an update is in progress.\nThis includes checking for an update.",
         "function_args": {
           "args": [
@@ -462,7 +436,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_set_state_error",
-        "line": 923,
         "docstring": "Sets text and button flags for when update failed",
         "function_args": {
           "args": [
@@ -480,7 +453,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_set_state_no_update",
-        "line": 956,
         "docstring": "Sets text and button flags for when no update is found",
         "function_args": {
           "args": [
@@ -498,7 +470,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_set_state_updated",
-        "line": 965,
         "docstring": "Sets text and button flags for whe cert was updated",
         "function_args": {
           "args": [

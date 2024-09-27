@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "add_deco",
-    "line": 141,
     "docstring": "Adds deco object to the deco db. Raises an exception if there are\nduplicates. All deco objects get prefixed wtih text to prevent\ncollisions with standard sprite objects.\n\nIN:\n    s_name - shorthand name to apply to this deco object\n    obj - MASDecoration object to add to the deco db",
     "function_args": {
       "args": [
@@ -22,7 +21,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_add_it_deco",
-    "line": 163,
     "docstring": "Adds a MASImageTagDecoration object to the deco db. Raises exceptions\nif a duplicate was found OR if the object is not a\nMASImageTagDecoration.\n\nIN:\n    obj - MASImageTagDecoration object to add to the deco db",
     "function_args": {
       "args": [
@@ -40,7 +38,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "get_deco",
-    "line": 185,
     "docstring": "Gets a deco object by name. This accepts shortname or regular deco name\n\nIN:\n    name - can either be shortname or actual deco name\n\nRETURNS: MASDecoration object, or None if not valid name",
     "function_args": {
       "args": [

@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "glitchtext",
-    "line": 160,
     "function_args": {
       "args": [
         "length"
@@ -20,7 +19,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mangleFile",
-    "line": 167,
     "docstring": "Mangles the file at the given filepath. Will create the file if it\ndoesnt exists\n\nIN:\n    filepath - path of the file to mangle\n    mangle_length - how many characters to use to mangle\n        (Default: 1000)",
     "function_args": {
       "args": [
@@ -41,7 +39,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "resetPlayerData",
-    "line": 185,
     "docstring": "Completely resets player data in persistents.\n\nNOTE: Not all player-related persistent values may be reset by this\nfunction. If there are more player-related data in persistent that is\nnot reset by this function, PLEASE LET US KNOW\n\nASSUMES: a ton of persistent stuff",
     "function_args": {
       "args": [],
@@ -57,7 +54,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "initialSessionData",
-    "line": 272,
     "docstring": "Completely resets session data to usable initial values.\nNOTE: these are not the defaults, but rather what they would be set to\non a first load.",
     "function_args": {
       "args": [],

@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "hasUnlockedPoems",
-    "line": 56,
     "docstring": "Checks if we have any poems that we've unlocked.",
     "function_args": {
       "args": [],
@@ -19,7 +18,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getPoemsByCategory",
-    "line": 177,
     "docstring": "Returns a list of poems by the category provided\n\nIN:\n    category:\n        category to search for\n\n    unseen:\n        whether or not we only want unseen poems\n\nOUT:\n    A list of poems based on the specifications above",
     "function_args": {
       "args": [
@@ -40,7 +38,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getSeenPoems",
-    "line": 207,
     "docstring": "Returns a list of all seen poems ordered by category",
     "function_args": {
       "args": [],
@@ -56,7 +53,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getUnseenPoems",
-    "line": 217,
     "docstring": "Returns a list of all unseen poems ordered by category",
     "function_args": {
       "args": [],
@@ -72,7 +68,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getPoem",
-    "line": 227,
     "docstring": "Gets a poem by id\n\nIN:\n    poem_id - poem id of the poem to get\n\nOUT:\n    MASPoem if there's a poem with the id\n    None if no poem with the id exists",
     "function_args": {
       "args": [
@@ -90,7 +85,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getSeenPoemsMenu",
-    "line": 240,
     "docstring": "Gets a list of seen poems in scrollable menu format (ordered by category)\n\nOUT:\n    A list of seen poems in the format for a mas gen scrollable menu",
     "function_args": {
       "args": [],
@@ -106,7 +100,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getRandomPoem",
-    "line": 253,
     "docstring": "Gets a random poem from the specified category\nIN:\n    category:\n        category to search for\n\n    unseen:\n        whether or not we only want unseen poems\n        defaults to True\n\nOUT:\n    A random poem",
     "function_args": {
       "args": [

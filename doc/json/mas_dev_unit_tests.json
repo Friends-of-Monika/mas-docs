@@ -6,14 +6,12 @@
     "class_bases": [
       "object"
     ],
-    "line": 395,
     "docstring": "Simple class to represent a test",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 400,
         "docstring": "Constructor for a MASUnitTest\n\nIN:\n    test_name - name of the test\n    outcome - outcome of the test (True or false)\n    expected - expected value of the test\n    actual - actual value of the test\n    ovrstr - if passed, then we display this instead of\n        the standard expected/actual string",
         "function_args": {
           "args": [
@@ -38,7 +36,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__str__",
-        "line": 418,
         "docstring": "toString. Format is:\n<testname>: (pass/FAIL) | <expected> -> <actual>",
         "function_args": {
           "args": [
@@ -56,7 +53,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "failed",
-        "line": 442,
         "docstring": "Returns True if this test failed, false if passsed",
         "function_args": {
           "args": [
@@ -74,7 +70,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "passed",
-        "line": 448,
         "docstring": "Returns True if this test passed, false if failed",
         "function_args": {
           "args": [
@@ -97,14 +92,12 @@
     "class_bases": [
       "object"
     ],
-    "line": 454,
     "docstring": "Simple class for running asserts",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 462,
         "function_args": {
           "args": [
             "self"
@@ -121,7 +114,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__str__",
-        "line": 465,
         "function_args": {
           "args": [
             "self"
@@ -138,7 +130,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_assertDictEqual",
-        "line": 468,
         "docstring": "Internal dict assertion. Assumes that given items are dicts.\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not",
         "function_args": {
           "args": [
@@ -158,7 +149,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_assertListEqual",
-        "line": 521,
         "docstring": "Internal list assertion. Assumes that the given items are lists.\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not",
         "function_args": {
           "args": [
@@ -178,7 +168,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertDictEqual",
-        "line": 549,
         "docstring": "Asserts if two dicts are equal and contain equal items\n\nIf expected/actual are not dict, assertListEqual is used\nthis is recursive.",
         "function_args": {
           "args": [
@@ -198,7 +187,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertEqual",
-        "line": 565,
         "docstring": "Asserts if the two items are equal\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not",
         "function_args": {
           "args": [
@@ -218,7 +206,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertFalse",
-        "line": 598,
         "docstring": "Asserts if the given value is False\n\nIN:\n    actual - value to check\n\nRETURNS: True if False, False if not",
         "function_args": {
           "args": [
@@ -237,7 +224,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertIdentity",
-        "line": 616,
         "docstring": "Asserts if the two items point to the same thing\n\nIN:\n    expected - expected item\n    actual - actual item\n\nRETURNS: True if the same reference, False if not",
         "function_args": {
           "args": [
@@ -257,7 +243,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertIsNone",
-        "line": 635,
         "docstring": "Asserts if the given item is None\n\nIN:\n    actual - value to check\n\nRETURNS: True if None, False if not",
         "function_args": {
           "args": [
@@ -276,7 +261,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertIsNotNone",
-        "line": 653,
         "docstring": "Asserts if the given item is not None\n\nIN:\n    actual - value to check\n\nRETURNS: True if not None, False if None",
         "function_args": {
           "args": [
@@ -295,7 +279,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertListEqual",
-        "line": 671,
         "docstring": "Asserts if two lists are equal and contain equal items\n\nif expected/actual are not list, we use assertEqual.\n\nIN:\n    expected - expected value\n    actual - actual value\n\nRETURNS: True if equal, False if not",
         "function_args": {
           "args": [
@@ -315,7 +298,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "assertTrue",
-        "line": 693,
         "docstring": "Asserts if the given value is True\n\nIN:\n    actual - value to check\n\nRETURNS: True if True, False if not",
         "function_args": {
           "args": [
@@ -334,7 +316,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "cleanTest",
-        "line": 711,
         "docstring": "Cleans up the last test",
         "function_args": {
           "args": [
@@ -352,7 +333,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "concludeTests",
-        "line": 717,
         "docstring": "Concludes testing by sorting tests by results\n\nRETURNS:\n    tuple of the following format:\n    [0] - list of passed tests\n    [1] - list of failed tests",
         "function_args": {
           "args": [
@@ -370,7 +350,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "prepareTest",
-        "line": 736,
         "docstring": "Prepares a test by setting test name\n\nIN:\n    test_name - name of next test",
         "function_args": {
           "args": [
@@ -389,7 +368,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "setupTests",
-        "line": 745,
         "docstring": "Sets up testing",
         "function_args": {
           "args": [

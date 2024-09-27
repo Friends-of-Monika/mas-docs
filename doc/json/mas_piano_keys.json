@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_findKeymap",
-    "line": 1355,
     "docstring": "Finds the key that points to value in the keymap. Effectively a dict\nvalue search\n\nIN:\n    value - value to find\n\nRETURNS:\n    key in persistent._mas_piano_keymaps that returns value, or None\n    if value not found\n\nASSUMES:\n    persistent._mas_piano_keymaps",
     "function_args": {
       "args": [
@@ -21,7 +20,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_setKeymap",
-    "line": 1377,
     "docstring": "Sets a keymap. Checks for existing keymap and will remove it.\nWill NOT set the keymap if key == new\n\nIN:\n    key - the key we are mapping\n    new - the new key item to map to\n\nRETURNS: tuple of the following format:\n    [0] - new key that was set (could be None)\n    [1] - old key that was originally set (could be None)\n\nASSUMES:\n    persistent._mas_piano_keymaps",
     "function_args": {
       "args": [
@@ -40,7 +38,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_strtoN",
-    "line": 1407,
     "docstring": "Converts a stringified note to a regular note\n\nIN:\n    note - note string to convert\n\nRETURNS:\n    piano note version, or None if this wasnt a real ntoe",
     "function_args": {
       "args": [
@@ -58,7 +55,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_strtoN_list",
-    "line": 1420,
     "docstring": "Versin of strtoN that can handle a full list\n\nIN:\n    note_list - list of notes to convert\n\nRETURNS:\n    list of piano notes. or None if at least note wasnt real",
     "function_args": {
       "args": [
@@ -76,7 +72,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_labelCheck",
-    "line": 1442,
     "docstring": "specialized json label checking function\nNOTE: only use this for optional params\n\nIN:\n    key - key of label to check\n    _params - params dict, also using key\n    jobj - json object, also using key",
     "function_args": {
       "args": [
@@ -96,7 +91,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_intCheck_nl",
-    "line": 1464,
     "docstring": "Specialized json int checking function\nNOTE: only use this for optinal params\nNOTE: non warning list varient of _intCheck\n\nIN:\n    key - key of the integer to check\n    _params - params dict, also using key\n    jobj - json object, also using key\n    warn_msg - warning message",
     "function_args": {
       "args": [
@@ -117,7 +111,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_noteCheck",
-    "line": 1482,
     "docstring": "Specialized json note list checking function\nNOTE: only use this for optional params\n\nIN:\n    key - key of notes to check\n    _params - params dict, also using key\n    _warns - warnings list\n    jobj - json object, also using key\n    warn_msg - message to use for warning",
     "function_args": {
       "args": [
@@ -139,7 +132,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_scCheck",
-    "line": 1506,
     "docstring": "Specialized json spritecode / expression checking function\nNOTE: only use this for optional params\n\nIN:\n    key - key of sprite code to check\n    _params - params dict, also using key\n    _warns - warning list\n    jobj - json object, also using key\n    warn_msg - message to use for warning",
     "function_args": {
       "args": [
@@ -161,7 +153,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_floatCheck",
-    "line": 1530,
     "docstring": "Specialized json float checking function\nNOTE: only use this for optional params\n\nIN:\n    key - key of the float to check\n    _params - params dict, also using key\n    _warns - warning list\n    jobj - json object also using keuy\n    warn_msg - message to use for warning",
     "function_args": {
       "args": [
@@ -183,7 +174,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_intCheck",
-    "line": 1555,
     "docstring": "Specialized json int checking function\nNOTE: only use this for optional params\n\nIN:\n    key - key of the int to check\n    _params - params dict, also using key\n    _warns - warning list\n    jobj - json object also using keuy\n    warn_msg - message to use for warning",
     "function_args": {
       "args": [
@@ -205,7 +195,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_boolCheck",
-    "line": 1580,
     "docstring": "Specialized json bool checking function\nNOTE: only use this for optional params\n\nIN:\n    key - key of the bool to check\n    _params - params dict, also using key\n    _warns - warning list\n    jobj - json object also using keuy\n    warn_msg - message to use for warning",
     "function_args": {
       "args": [
@@ -230,13 +219,11 @@
     "class_bases": [
       "Exception"
     ],
-    "line": 1606,
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 1607,
         "function_args": {
           "args": [
             "self",
@@ -254,7 +241,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__str__",
-        "line": 1609,
         "function_args": {
           "args": [
             "self"
@@ -276,13 +262,11 @@
     "class_bases": [
       "object"
     ],
-    "line": 1646,
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 1655,
         "function_args": {
           "args": [
             "self",
@@ -319,7 +303,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "isNoteMatch",
-        "line": 1732,
         "function_args": {
           "args": [
             "self",
@@ -340,7 +323,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "isPostMatch",
-        "line": 1748,
         "function_args": {
           "args": [
             "self",
@@ -361,7 +343,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_is_match",
-        "line": 1764,
         "function_args": {
           "args": [
             "self",
@@ -383,7 +364,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "is_single",
-        "line": 1792,
         "docstring": "RETURNS True if this notematch consists of a single note",
         "function_args": {
           "args": [
@@ -401,7 +381,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "reset",
-        "line": 1799,
         "docstring": "Resets this piano note match to its default values.\n\nNOTE: this only clears the following values:\n    misses - 0\n    fails - 0\n    passes - 0\n    matchdex - 0\n    matched - False",
         "function_args": {
           "args": [
@@ -421,7 +400,6 @@
           "staticmethod"
         ],
         "identifier": "fromJSON",
-        "line": 1818,
         "docstring": "Creates a PianoNoteMatch from a given json object (which is just\na dict)\n\nMay add warnings to log file\n\nIN:\n    jobj - JSON object (as a dict)\n\nRETURNS:\n    Tuple of the following format:\n    [0]: PianoNoteMatch associated with the given json object\n        Or NONE if the Json object is missing required information\n    [1]: List of warning strings\n        Or error message string if fatal error occurs",
         "function_args": {
           "args": [
@@ -444,14 +422,12 @@
     "class_bases": [
       "object"
     ],
-    "line": 1881,
     "docstring": "This a wrapper for a list of note matches. WE do this so we can\neasily group note matches with other information.\n\nPROPERTIES:\n    pnm_list - list of piano note matches\n    verse_list - list of verse indexes (must be in order)\n    name - song name (displayed to user in song selection mode)\n    full_combos - number of times the song has been played with no\n        no mistakes\n    wins - number of times the song has been completed\n    losses - number of the times the song has been attempted but not\n        completed\n    win_label - labelt o call to if we played the song well\n    fc_label - label to call to if we full comboed\n    fail_label - label to call to if we failed the song\n    prac_label - label to call if we are practicing\n    end_wait - seconds to wait before continuing to quit phase\n    launch_label - label to call to prepare song launch",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 1910,
         "docstring": "Creates a PianoNoteMatchList\n\nIN:\n    pnm_list - list of piano note matches\n    verse_list - list of verse indexes (must be in order)\n    name - song name (displayed to user in song selection mode)\n    win_label - label to call to if we played the song well\n    fc_label - label to call to if we full comboed the song\n    fail_label - label to call to if we failed the song\n    prac_label - label to call if we are practicing\n    end_wait - number of seoncds to wait before actually quitting\n        (Integers pleaes)\n        (Default: 0)\n    launch_label - label to call to prepare this song for play\n        (Default: None)",
         "function_args": {
           "args": [
@@ -481,7 +457,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "resetPNM",
-        "line": 1972,
         "docstring": "Resets the piano note matches in this Piano Note Match List",
         "function_args": {
           "args": [
@@ -499,7 +474,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_loadTuple",
-        "line": 1979,
         "docstring": "Fills in the data of this PianoNoteMatchList using the given data\ntup. (which was probably pickeled)\n\nIN:\n    data_tup - tuple of the following format:\n        [0] -> name\n        [1] -> full_combos\n        [2] -> wins\n        [3] -> losses",
         "function_args": {
           "args": [
@@ -518,7 +492,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_saveTuple",
-        "line": 1995,
         "docstring": "Generates a tuple of key data in this PianoNoteMatchList for\npickling\n\nRETURNS:\n    a tuple of the following format:\n        See _loadTuple",
         "function_args": {
           "args": [
@@ -536,7 +509,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_gen_pnm_sprites",
-        "line": 2006,
         "docstring": "Generates sprites from pnm's in this list",
         "function_args": {
           "args": [
@@ -556,7 +528,6 @@
           "staticmethod"
         ],
         "identifier": "fromJSON",
-        "line": 2018,
         "docstring": "Creats a PianoNoteMatchList from a given JSON object (which is\njust a dict)\n\nMay add warnings to logg file\n\nIN:\n    jobj - JSON object (As a dict)\n\nRETURNS:\n    PianoNoteMatchList associated with given JSON object, or\n    None if JSON object is missing required information",
         "function_args": {
           "args": [
@@ -576,7 +547,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "addSong",
-    "line": 2239,
     "docstring": "Adds a song to the pnml db, given its json filepath\n\nNOTE: may raise exceptions\n\nIN:\n    filepath - filepath to the JSON we want to load in\n        - Assumed to be clean and ready to go\n    add_main - True means we should add this to the main pnml db too\n        (Default: False)",
     "function_args": {
       "args": [
@@ -597,7 +567,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "addCustomSongs",
-    "line": 2275,
     "docstring": "Adds the custom songs (if we find any) to the game",
     "function_args": {
       "args": [],
@@ -613,7 +582,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "addStockSongs",
-    "line": 2301,
     "docstring": "Adds the stock songs to the game",
     "function_args": {
       "args": [],
@@ -629,7 +597,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getSongChoices",
-    "line": 3036,
     "docstring": "Creates a list of tuples appropriate to display as a piano song\nselection menu.\n\nRETURNS:\n    Tuple of the following format:\n    [0]: list of tuples for song selection. May be an empty list\n    [1]: Last item (the nvm) for the song selection\n\nASSUMES:\n    pnml_db",
     "function_args": {
       "args": [],

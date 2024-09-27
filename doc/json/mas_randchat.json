@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "reduceRandchatForAff",
-    "line": 206,
     "docstring": "Reduces the randchat setting if we're too high for the current affection level",
     "function_args": {
       "args": [
@@ -21,7 +20,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "adjustRandFreq",
-    "line": 215,
     "docstring": "Properly adjusts the random limits given the slider value\n\nIN:\n    slider_value - slider value given from the slider\n        Should be between 0 - 6",
     "function_args": {
       "args": [
@@ -39,7 +37,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getRandChatDisp",
-    "line": 237,
     "docstring": "Retrieves the random chatter display string using the given slider\nvalue\n\nIN:\n    slider_value - slider value given from the slider\n\nRETURNS:\n    displayable string that reprsents the current random chatter\n    setting",
     "function_args": {
       "args": [
@@ -57,7 +54,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "setWaitingTime",
-    "line": 252,
     "docstring": "Sets up the waiting time for the next random chat, depending on the current random chatter selection.",
     "function_args": {
       "args": [],
@@ -73,7 +69,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "wait",
-    "line": 261,
     "docstring": "Pauses renpy for a small amount of seconds.\nThis helps adapting fast to a new random chatter selection.\nAll events before a random chat can also be handled rather than to keep waiting the whole time at once.",
     "function_args": {
       "args": [],
@@ -89,7 +84,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "waitedLongEnough",
-    "line": 285,
     "docstring": "Checks whether the waiting time is up yet.\n\nRETURNS:\n    boolean to determine whether the wait is over",
     "function_args": {
       "args": [],

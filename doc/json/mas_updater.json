@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "checkUpdate",
-    "line": 67,
     "docstring": "RETURNS:\n    update_link if theres update available\n    None if no update avaiable, or no need to update rn",
     "function_args": {
       "args": [],

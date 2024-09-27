@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "resetDefaultValues",
-    "line": 203,
     "docstring": "Resets the globals to their default values",
     "function_args": {
       "args": [],
@@ -19,7 +18,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getLabelPrefix",
-    "line": 216,
     "docstring": "Checks if test_str starts with anything in the list of prefixes, and if so, returns the matching prefix\n\nIN:\n    test_str - string to test\n\nOUT:\n    string:\n        - label_prefix if test_string starts with a prefix in list_prefixes\n        - empty string otherwise",
     "function_args": {
       "args": [
@@ -37,7 +35,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getDerandomedEVLs",
-    "line": 235,
     "docstring": "Gets a list of derandomed eventlabels\n\nOUT:\n    list of derandomed eventlabels",
     "function_args": {
       "args": [],
@@ -53,7 +50,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "shouldRandom",
-    "line": 260,
     "docstring": "Checks if we should random the given eventlabel\nThis is determined by whether or not the event is in any derandom list\n\nIN:\n    eventlabel to check if we should random_seen\n\nOUT:\n    boolean: True if we should random this event, False otherwise",
     "function_args": {
       "args": [
@@ -71,7 +67,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "wrappedGainAffection",
-    "line": 273,
     "docstring": "Wrapper function for mas_gainAffection which allows it to be used in event rules at init 5\n\nSee mas_gainAffection for documentation",
     "function_args": {
       "args": [
@@ -95,7 +90,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "removeDerand",
-    "line": 281,
     "docstring": "Removes a derandomed eventlabel from ALL derandom dbs\n\nIN:\n    eventlabel - Eventlabel to remove",
     "function_args": {
       "args": [

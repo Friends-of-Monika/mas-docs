@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_calc",
-    "line": 333,
     "docstring": "Calculates xp gained within a range\n\nIN:\n    xp_rate - starting rate to calc xp with\n    start - datetime to begin calculating xp with\n    end - datetime to end calculating xp with\n    hrx - hours today that have already been applied to xp\n\nRETURNS: tuple:\n    [0] - xp gained\n    [1] - new xp_rate to use\n    [2] - new amount of hours that we have applied xp rate to",
     "function_args": {
       "args": [
@@ -24,7 +23,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "calc",
-    "line": 375,
     "docstring": "Calculates xp gained since last call to calc\n\nSets globals as needed\n\nRETURN: amt of xp gained since last call to calc",
     "function_args": {
       "args": [],
@@ -40,7 +38,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "calc_by_hours",
-    "line": 402,
     "docstring": "Calculates toatl xp gain given a duration (in hours) and starting rate\nusing the new XP model\n\nIN:\n    duration - amt of time to grant xp for (hours)\n    start_rate - the rate to start calculating with\n\nRETURNS: tuple of the following format:\n    [0] - amt of xp gained (float)\n    [1] - new rate (float)",
     "function_args": {
       "args": [
@@ -59,7 +56,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "calc_by_time",
-    "line": 445,
     "docstring": "Calculates total xp gain given a duration and starting rate using\nthe new XP model\n\nIN:\n    duration - amount of time to grant xp for (timedelta)\n    start_rate - the rate to start calctuing with\n\nRETURNS: tuple of the following format:\n    [0] - amt of xp gained (float)\n    [1] - new rate (float)",
     "function_args": {
       "args": [
@@ -78,7 +74,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_grant",
-    "line": 461,
     "docstring": "Internal version of grant. dont use\n\nIN:\n    xp - amount of xp to grant\n    xptnl - current xp to next level\n\nRETURNS: tuple:\n    [0] - lvls gained\n    [1] - new xp tnl",
     "function_args": {
       "args": [
@@ -97,7 +92,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_grant_on_pt",
-    "line": 484,
     "docstring": "Grants xp by calcuating avgs using the current playtime\n\nRETURNS: tuple:\n    [0] - lvls gained\n    [1] - new xp tnl",
     "function_args": {
       "args": [],
@@ -113,7 +107,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_grant_xp",
-    "line": 507,
     "docstring": "Grant abitrary xp. You better have a good reason to use this.\n\nIN:\n    xp - arbitrary xp to grant",
     "function_args": {
       "args": [
@@ -131,7 +124,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "grant",
-    "line": 526,
     "docstring": "Grants xp based on current state. Meant for use by ch30 code",
     "function_args": {
       "args": [],
@@ -147,7 +139,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_level",
-    "line": 537,
     "docstring": "gets level using based on an amt of xp\n\nNOTE: do NOT use this to determine level. use level() instead\n\nIN:\n    xp - amt of xp to calculate level for\n\nRETURNS: level based on xp",
     "function_args": {
       "args": [
@@ -165,7 +156,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_level_rxp",
-    "line": 553,
     "docstring": "Gets gained levels and remaining xp\n\nIN:\n    xp - amt of xp to calculate level for\n\nRETURNS: tuple of the following format:\n    [0] - lvls gained\n    [1] - remainig xp",
     "function_args": {
       "args": [
@@ -183,7 +173,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "level",
-    "line": 568,
     "docstring": "Gets current level\n\nRETURNS: current level",
     "function_args": {
       "args": [],
@@ -199,7 +188,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "set_xp_rate",
-    "line": 577,
     "docstring": "Sets xp rate based on session time today\nAlso resets reset date if appropriate\n\nNOTE: assumes that we are calling this once at a new session start",
     "function_args": {
       "args": [],

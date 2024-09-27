@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_MDA_safeadd",
-    "line": 7,
     "docstring": "Adds MASDelayedAction ids to the persistent mas delayed action list.\n\nNOTE: this is only meant for code that runs super early yet needs to\nadd MASDelayedActions.\n\nNOTE: This will NOT add duplicates.\n\nIN:\n    ids - ids to add to the delayed action list",
     "function_args": {
       "args": [],
@@ -19,7 +18,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_MDA_saferm",
-    "line": 24,
     "docstring": "Removes MASDelayedActions from the persistent mas delayed action list.\n\nNOTE: this is only meant for code that runs super early yet needs to\nremove MASDelayedActions\n\nNOTE: this will check for existence before removing\n\nIN:\n    ids - ids to remove from the delayed action list",
     "function_args": {
       "args": [],
@@ -35,7 +33,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_mas_birthdate_bad_year_fix_action",
-    "line": 45,
     "function_args": {
       "args": [
         "ev"
@@ -54,7 +51,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_mas_birthdate_bad_year_fix",
-    "line": 49,
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -69,7 +65,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "loadDelayedActionMap",
-    "line": 110,
     "docstring": "Checks the persistent delayed action list and generates the\nruntime map of delayed actions",
     "function_args": {
       "args": [],
@@ -85,7 +80,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "saveDelayedActionMap",
-    "line": 120,
     "docstring": "Checks the runtime map of delayed actions and saves them into the\npersistent value.\n\nNOTE: this does not ADD to the persistent's list. This recreates it\n    entirely.",
     "function_args": {
       "args": [],

@@ -6,13 +6,11 @@
     "class_bases": [
       "Exception"
     ],
-    "line": 351,
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 352,
         "function_args": {
           "args": [
             "self",
@@ -30,7 +28,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__str__",
-        "line": 355,
         "function_args": {
           "args": [
             "self"
@@ -49,7 +46,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__loadSpriteMapData",
-    "line": 358,
     "docstring": "Loads sprite map data from the sprite map json file",
     "function_args": {
       "args": [],
@@ -65,7 +61,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_blush",
-    "line": 398,
     "docstring": "Processes a blush off the given sprite code at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the blush was valid, False if not\n        [1] - the number of spots to increase the index by",
     "function_args": {
       "args": [
@@ -85,7 +80,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_s",
-    "line": 426,
     "docstring": "Processes the s-prefixed spcodes at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the processes were valid, False if not\n        [1] - the number of spots to increase the index by",
     "function_args": {
       "args": [
@@ -105,7 +99,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_sweatdrop",
-    "line": 465,
     "docstring": "Processes a sweatdrop off the given spcode at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the sweatdrops were valid, False if not\n        [1] - the number of spots to increase the index by",
     "function_args": {
       "args": [
@@ -125,7 +118,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_tears",
-    "line": 493,
     "docstring": "Processes a tear off the given spcode at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the tears were valid, False if not\n        [1] - the number of spots to increase the index by",
     "function_args": {
       "args": [
@@ -145,7 +137,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "parse_exp_to_kwargs",
-    "line": 539,
     "docstring": "Converts exp codes to kwargs to pass into mas_drawmonika_rk\n\nIN:\n    exp - spritecode to convert\n\nOUT:\n    dict representing the exp as kwargs for mas_drawmonika_rk\n\nASSUMES:\n    exp is not in the staticsprite format (not exp_static)\n\nRAISES:\n    - KeyError if pose, eyes, eyebrows, or mouth is invalid\n    - Exception if optional sprite is invalid",
     "function_args": {
       "args": [
@@ -163,7 +154,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isValidSpritecode",
-    "line": 620,
     "docstring": "Spritecode validity tester\n\nIN:\n    exp - exp to check validity\n\nOUT:\n    boolean:\n        - True if code is valid\n        - False otherwise",
     "function_args": {
       "args": [

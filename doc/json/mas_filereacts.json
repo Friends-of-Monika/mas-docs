@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "addReaction",
-    "line": 730,
     "docstring": "Adds a reaction to the file reactions database.\n\nIN:\n    ev_label - label of this event\n    fname - filename to react to\n    _action - the EV_ACT to do\n        (Default: EV_ACT_QUEUE)\n    is_good - if the gift is good(True), neutral(None) or bad(False)\n        (Default: None)\n    exclude_on - keys marking times to exclude this gift\n    (Need to check ev.rules in a respective react_to_gifts to exclude with)\n        (Default: [])",
     "function_args": {
       "args": [
@@ -29,7 +28,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_initConnectorQuips",
-    "line": 776,
     "docstring": "Initializes the connector quips",
     "function_args": {
       "args": [],
@@ -45,7 +43,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_initStarterQuips",
-    "line": 787,
     "docstring": "Initializes the starter quips",
     "function_args": {
       "args": [],
@@ -61,7 +58,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "build_gift_react_labels",
-    "line": 798,
     "docstring": "Processes gift details into a list of labels to show\nlabels to queue/push whatever.\n\nIN:\n    evb_details - list of GiftReactDetails objects of event-based\n        reactions. If empty list, then we don't build event-based\n        reaction labels.\n        (Default: [])\n    gsp_details - list of GiftReactDetails objects of generic sprite\n        object reactions. If empty list, then we don't build generic\n        sprite object reaction labels.\n        (Default: [])\n    gen_details - list of GiftReactDetails objects of generic gift\n        reactions. If empty list, then we don't build generic gift\n        reaction labels.\n        (Default: [])\n    gift_cntrs - MASQuipList of gift connectors to use. If None,\n        then we don't add any connectors.\n        (Default: [])\n    ending_label - label to use when finished reacting.\n        (Default: None)\n    starting_label - label to use when starting reacting\n        (Default: None)\n    prepare_data - True will also setup the appropriate data\n        elements for when dialogue is shown. False will not.\n        (Default: True)\n\nRETURNS: list of labels. Evb reactions are first, followed by\n    gsp reactions, then gen reactions",
     "function_args": {
       "args": [
@@ -93,7 +89,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "build_exclusion_list",
-    "line": 917,
     "docstring": "Builds a list of excluded gifts based on the key provided\n\nIN:\n    _key - key to build an exclusion list for\n\nOUT:\n    list of giftnames which are excluded by the key",
     "function_args": {
       "args": [
@@ -111,7 +106,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "check_for_gifts",
-    "line": 933,
     "docstring": "Finds gifts.\n\nIN:\n    exclusion_list - list of giftnames to exclude from the search\n    override_react_map - True will skip the last reacted date check,\n        False will not\n        (Default: False)\n\nOUT:\n    found_map - contains all gifts that were found:\n        key: lowercase giftname, no extension\n        val: full giftname wtih extension\n    exclusion_found_map - contains all gifts that were found but\n        are excluded.\n        key: lowercase giftname, no extension\n        val: full giftname with extension\n\nRETURNS: list of found giftnames",
     "function_args": {
       "args": [
@@ -137,7 +131,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "process_gifts",
-    "line": 998,
     "docstring": "Processes list of giftnames into types of gift\n\nIN:\n    gifts - list of giftnames to process. This is copied so it wont\n        be modified.\n\nOUT:\n    evb_details - list of GiftReactDetails objects regarding\n        event-based reactions\n    spo_details - list of GiftReactDetails objects regarding\n        generic sprite object reactions\n    gen_details - list of GiftReactDetails objects regarding\n        generic gift reactions",
     "function_args": {
       "args": [
@@ -162,7 +155,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "react_to_gifts",
-    "line": 1075,
     "docstring": "Reacts to gifts using the standard protocol (no exclusions)\n\nIN:\n    connect - true will apply connectors, FAlse will not\n\nOUT:\n    found_map - map of found reactions\n        key: lowercaes giftname, no extension\n        val: giftname with extension\n\nRETURNS:\n    list of labels to be queued/pushed",
     "function_args": {
       "args": [
@@ -183,7 +175,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "register_gen_grds",
-    "line": 1130,
     "docstring": "registers gifts given a generic GiftReactDetails list\n\nIN:\n    details - list of GiftReactDetails objects to register",
     "function_args": {
       "args": [
@@ -201,7 +192,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "register_sp_grds",
-    "line": 1142,
     "docstring": "registers gifts given sprite-based GiftReactDetails list\n\nIN:\n    details - list of GiftReactDetails objcts to register",
     "function_args": {
       "args": [
@@ -219,7 +209,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_pick_starter_label",
-    "line": 1154,
     "docstring": "Internal function that returns the appropriate starter label for reactions\n\nRETURNS:\n    - The label as a string, that should be used today.",
     "function_args": {
       "args": [],
@@ -235,7 +224,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_core_delete",
-    "line": 1170,
     "docstring": "Core deletion file function.\n\nIN:\n    _filename - name of file to delete, if None, we delete one randomly\n    _map - the map to use when deleting file.",
     "function_args": {
       "args": [
@@ -254,7 +242,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_core_delete_list",
-    "line": 1198,
     "docstring": "Core deletion filename list function\n\nIN:\n    _filename - list of filenames to delete.\n    _map - the map to use when deleting files",
     "function_args": {
       "args": [
@@ -273,7 +260,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_register_received_gift",
-    "line": 1210,
     "docstring": "Registers when player gave a gift successfully\nIN:\n    eventlabel - the event label for the gift reaction",
     "function_args": {
       "args": [
@@ -291,7 +277,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_get_full_stats_for_date",
-    "line": 1226,
     "docstring": "Getter for the full stats dict for gifts on a given date\nIN:\n    date - the date to get the report for, if None is given will check\n        today's date\n        (Defaults to None)\n\nRETURNS:\n    The dict containing the full stats or None if it's empty",
     "function_args": {
       "args": [
@@ -311,7 +296,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "delete_file",
-    "line": 1243,
     "docstring": "Deletes a file off the found_react map\n\nIN:\n    _filename - the name of the file to delete. If None, we delete\n        one randomly",
     "function_args": {
       "args": [
@@ -329,7 +313,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "delete_files",
-    "line": 1254,
     "docstring": "Deletes multiple files off the found_react map\n\nIN:\n    _filename_list - list of filenames to delete.",
     "function_args": {
       "args": [
@@ -347,7 +330,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "th_delete_file",
-    "line": 1265,
     "docstring": "Deletes a file off the threaded found_react map\n\nIN:\n    _filename - the name of the file to delete. If None, we delete one\n        randomly",
     "function_args": {
       "args": [
@@ -365,7 +347,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "th_delete_files",
-    "line": 1276,
     "docstring": "Deletes multiple files off the threaded foundreact map\n\nIN:\n    _filename_list - list of ilenames to delete",
     "function_args": {
       "args": [
@@ -383,7 +364,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "delete_all",
-    "line": 1287,
     "docstring": "Attempts to delete all files in the given map.\nRemoves files in that map if they dont exist no more\n\nIN:\n    _map - map to delete all",
     "function_args": {
       "args": [
@@ -401,7 +381,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "get_report_for_date",
-    "line": 1299,
     "docstring": "Generates a report for all the gifts given on the input date.\nThe report is in tuple form (total, good_gifts, neutral_gifts, bad_gifts)\nit contains the totals of each type of gift.",
     "function_args": {
       "args": [

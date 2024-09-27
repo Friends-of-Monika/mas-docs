@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_auto_mode_toggle",
-    "line": 60,
     "docstring": "Handles the toggling of fields so the menu options become mutually exclusive",
     "function_args": {
       "args": [],
@@ -19,7 +18,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dark_mode_toggle",
-    "line": 75,
     "docstring": "Handles the toggling of fields so the menu options become mutually exclusive",
     "function_args": {
       "args": [],
@@ -35,7 +33,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_ui_change_wrapper",
-    "line": 89,
     "docstring": "Wrapper around UI changes\n\nIN:\n    *args - values to pass to dark mode",
     "function_args": {
       "args": [],

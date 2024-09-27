@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "merge_db",
-    "line": 36,
     "docstring": "Merges the given source database into the given destination db\n\nIN:\n    source - source database to merge from\n    dest - destination database to merge into",
     "function_args": {
       "args": [
@@ -22,7 +21,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "merge_post0810",
-    "line": 47,
     "docstring": "Runs a specific set of merges, particularly for the merge that\nhappend after version 0.8.10.",
     "function_args": {
       "args": [],

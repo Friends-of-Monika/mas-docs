@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getUnseenFactsEVL",
-    "line": 36,
     "docstring": "Gets all unseen (locked) fun facts as eventlabels\n\nOUT:\n    List of all unseen fun fact eventlabels",
     "function_args": {
       "args": [],
@@ -19,7 +18,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getAllFactsEVL",
-    "line": 49,
     "docstring": "Gets all fun facts regardless of unlocked as eventlabels\n\nOUT:\n    List of all fun fact eventlabels",
     "function_args": {
       "args": [],

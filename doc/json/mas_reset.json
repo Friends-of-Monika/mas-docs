@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "ch30_reset",
-    "line": 31,
     "docstring": "decorator that marks function to run as part of ch30_reset.\n\nIN:\n    func - function to register\n    priority - priority to run function\n        Default: 0\n        PLEASE USE POSITIVE PRIORITIES. If you need to slip\n        something between existing reset code, be mindful of where you\n        plugin your reset code. Take a look at the reset functions\n        below for the correct placement.",
     "function_args": {
       "args": [
@@ -25,7 +24,6 @@
       "ch30_reset(-980)"
     ],
     "identifier": "start",
-    "line": 657,
     "docstring": "Reset code that should always be first",
     "function_args": {
       "args": [],
@@ -43,7 +41,6 @@
       "ch30_reset(-960)"
     ],
     "identifier": "xp",
-    "line": 667,
     "docstring": "Runs reset code specific for xp stuff",
     "function_args": {
       "args": [],
@@ -61,7 +58,6 @@
       "ch30_reset(-940)"
     ],
     "identifier": "name_eggs",
-    "line": 690,
     "docstring": "Runs reset code specific for name eggs",
     "function_args": {
       "args": [],
@@ -79,7 +75,6 @@
       "ch30_reset(-920)"
     ],
     "identifier": "topic_lists",
-    "line": 700,
     "docstring": "Runs reset code specific for topic lists",
     "function_args": {
       "args": [],
@@ -97,7 +92,6 @@
       "ch30_reset(-900)"
     ],
     "identifier": "rpy_file_check",
-    "line": 717,
     "docstring": "Runs reset code specific for the rpy file check",
     "function_args": {
       "args": [],
@@ -115,7 +109,6 @@
       "ch30_reset(-880)"
     ],
     "identifier": "games",
-    "line": 733,
     "docstring": "Runs reset code specific for games",
     "function_args": {
       "args": [],
@@ -133,7 +126,6 @@
       "ch30_reset(-860)"
     ],
     "identifier": "sprites",
-    "line": 761,
     "docstring": "Runs reset code for sprites",
     "function_args": {
       "args": [],
@@ -149,7 +141,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_sprites_init",
-    "line": 775,
     "docstring": "Runs reset code for initializing sprites",
     "function_args": {
       "args": [],
@@ -165,7 +156,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_sprites_fixes",
-    "line": 795,
     "docstring": "Runs reset code for fixing sprite issues",
     "function_args": {
       "args": [],
@@ -181,7 +171,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_sprites_setup",
-    "line": 824,
     "docstring": "Runs other sprite setup that is not init or fixes",
     "function_args": {
       "args": [],
@@ -199,7 +188,6 @@
       "ch30_reset(-840)"
     ],
     "identifier": "random_chatter",
-    "line": 862,
     "docstring": "Runs reset code for random chatter",
     "function_args": {
       "args": [],
@@ -217,7 +205,6 @@
       "ch30_reset(-820)"
     ],
     "identifier": "returned_home",
-    "line": 871,
     "docstring": "Runs reset code for returned home",
     "function_args": {
       "args": [],
@@ -235,7 +222,6 @@
       "ch30_reset(-800)"
     ],
     "identifier": "playtime",
-    "line": 883,
     "docstring": "Runs reset code for playtime",
     "function_args": {
       "args": [],
@@ -253,7 +239,6 @@
       "ch30_reset(-780)"
     ],
     "identifier": "affection",
-    "line": 918,
     "docstring": "Runs reset code for affection",
     "function_args": {
       "args": [],
@@ -271,7 +256,6 @@
       "ch30_reset(-760)"
     ],
     "identifier": "deco",
-    "line": 927,
     "docstring": "Runs reset code for deco",
     "function_args": {
       "args": [],
@@ -287,7 +271,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_deco_bday",
-    "line": 944,
     "docstring": "Runs reset code for bday deco",
     "function_args": {
       "args": [],
@@ -303,7 +286,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_deco_d25",
-    "line": 964,
     "docstring": "Runs reset code for d25 deco",
     "function_args": {
       "args": [],
@@ -319,7 +301,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_deco_o31",
-    "line": 982,
     "docstring": "Runs reset code for o31 deco",
     "function_args": {
       "args": [],
@@ -337,7 +318,6 @@
       "ch30_reset(-740)"
     ],
     "identifier": "farewells",
-    "line": 998,
     "docstring": "Runs reset code for farewells",
     "function_args": {
       "args": [],
@@ -355,7 +335,6 @@
       "ch30_reset(-720)"
     ],
     "identifier": "file_reactions",
-    "line": 1010,
     "docstring": "Runs reset code for file reactions",
     "function_args": {
       "args": [],
@@ -373,7 +352,6 @@
       "ch30_reset(-700)"
     ],
     "identifier": "events",
-    "line": 1041,
     "docstring": "Runs reset code for general events + events list stuff",
     "function_args": {
       "args": [],
@@ -391,7 +369,6 @@
       "ch30_reset(-680)"
     ],
     "identifier": "songs",
-    "line": 1080,
     "docstring": "Runs reset code for songs",
     "function_args": {
       "args": [],
@@ -409,7 +386,6 @@
       "ch30_reset(-660)"
     ],
     "identifier": "holidays",
-    "line": 1092,
     "docstring": "Runs reset code for holidays that do not fall under the other\ncategories.",
     "function_args": {
       "args": [],
@@ -427,7 +403,6 @@
       "ch30_reset(-640)"
     ],
     "identifier": "backgrounds",
-    "line": 1111,
     "docstring": "Runs reset code for backgrounds",
     "function_args": {
       "args": [],
@@ -445,7 +420,6 @@
       "ch30_reset(-620)"
     ],
     "identifier": "window_reactions",
-    "line": 1130,
     "docstring": "Runs reset code for window reactions",
     "function_args": {
       "args": [],
@@ -463,7 +437,6 @@
       "ch30_reset(-600)"
     ],
     "identifier": "islands",
-    "line": 1139,
     "docstring": "Runs reset code for islands",
     "function_args": {
       "args": [],
@@ -481,7 +454,6 @@
       "ch30_reset(-580)"
     ],
     "identifier": "bath_cleanup",
-    "line": 1148,
     "docstring": "Cleanup code for bath stuff",
     "function_args": {
       "args": [],
@@ -499,7 +471,6 @@
       "ch30_reset(-560)"
     ],
     "identifier": "chr_removal",
-    "line": 1169,
     "docstring": "Remove .chr files in the characters folder",
     "function_args": {
       "args": [],
@@ -517,7 +488,6 @@
       "ch30_reset(-560)"
     ],
     "identifier": "backups",
-    "line": 1179,
     "docstring": "Runs reset for backup code",
     "function_args": {
       "args": [],
@@ -533,7 +503,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "final",
-    "line": 1189,
     "docstring": "Runs reset code that should run after everythign else",
     "function_args": {
       "args": [],

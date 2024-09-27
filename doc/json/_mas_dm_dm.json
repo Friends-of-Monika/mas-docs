@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__add_idxs",
-    "line": 423,
     "docstring": "INTERNAL ONLY\n        adds indexes to the given key to the given db",
     "function_args": {
       "args": [
@@ -24,7 +23,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__rm_idxs",
-    "line": 439,
     "docstring": "INTERNAL ONLY\n        removes indexes off the given key off the given db",
     "function_args": {
       "args": [
@@ -45,7 +43,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "add_idxs",
-    "line": 457,
     "docstring": "Adds indexes to the given key\n\nNOTE: indxs_d is added in reverse order.\n\nIN:\n    _db - database to add indexes to\n    _key - key of the item to add indexes to\n    _exp_len - the length the item should have prior to addition\n        Pass in less than 0 to ignore length checks\n    *idxs_d - tuples of the following format:\n        [0]: index to add\n        [1]: data to add at index",
     "function_args": {
       "args": [
@@ -65,7 +62,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "add_idxs_db",
-    "line": 478,
     "docstring": "Adds indexes to items in the given db\n\nIN:\n    _db - database to add indexes to\n    _exp_len - the length the item shoudl have prior to additoin\n        Pass in 0 or less to ignore length checks\n    *idxs_d - tuples of the following format:\n        [0]: index to add\n        [1]: data to add at index",
     "function_args": {
       "args": [
@@ -84,7 +80,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "rm_idxs",
-    "line": 500,
     "docstring": "removes indexes off the given key off the given db\n\nIN:\n    _db - database to remove indexes off of\n    _key - key of the item to remove indexes off of\n    _exp_len - the length the item should have prior to removal.\n        Pass in 0 or less to ignore length checks.\n    *idxs - indexes to remove\n        If nothing is passed, nothing happens.",
     "function_args": {
       "args": [
@@ -104,7 +99,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "rm_idxs_db",
-    "line": 519,
     "docstring": "Removes indexes off items in the given db\n\nIN:\n    _db - database to remove indexes off of\n    _exp_len - the length the item should have prior to removal\n        Pass in 0 or less to ignore length checks\n    *idxs - indexes to remove\n        if Nothing is passsed, nothing happens",
     "function_args": {
       "args": [
@@ -123,7 +117,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__dm_1_to_2_helper",
-    "line": 541,
     "function_args": {
       "args": [
         "curr_len"
@@ -140,7 +133,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dm_1_to_2",
-    "line": 555,
     "docstring": "Data migration from version 1 to 2\n\nGOALS:\n    - remove rules property from events and shrink the tuples.",
     "function_args": {
       "args": [],
@@ -156,7 +148,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dm_0811_to_2",
-    "line": 566,
     "docstring": "Data migration from version 0811-0814 to 2\n\nGOALS:\n    - remove rules property from events and shrink the tuples",
     "function_args": {
       "args": [],
@@ -172,7 +163,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dm_089_to_2",
-    "line": 577,
     "docstring": "Data migration from version 089-0810 to 2\n\nGOALS:\n    - remove rules property from events and shrink the tuples",
     "function_args": {
       "args": [],
@@ -188,7 +178,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dm_082_to_2",
-    "line": 588,
     "docstring": "Data migration from version 082-088 to 2\n\nGOALS:\n    - remove rules property from events and shrink the tuples",
     "function_args": {
       "args": [],
@@ -204,7 +193,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dm_080_to_2",
-    "line": 599,
     "docstring": "Data migration from version 080-081 to 2\n\nGOALS:\n    - remove rules property from events and shrink the tuples",
     "function_args": {
       "args": [],
@@ -220,7 +208,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dm_073_to_2",
-    "line": 610,
     "docstring": "Data migration from version 0o73-074 to 2\n\nGOALS:\n    - remove rules property from events and shrink the tuples",
     "function_args": {
       "args": [],
@@ -236,7 +223,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_dm_2_to_1",
-    "line": 621,
     "docstring": "Data migration from version 2 to 1\n\nGOALS:\n    - add rules property to events, expand tuples",
     "function_args": {
       "args": [],
@@ -252,7 +238,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_determine_version",
-    "line": 663,
     "docstring": "This returns an  appropriate dm version based on version\nNOTE: this should only be used if migrating from versions 0814 and\nbelow.",
     "function_args": {
       "args": [],
@@ -268,7 +253,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__lessthan",
-    "line": 700,
     "function_args": {
       "args": [
         "val_a",
@@ -286,7 +270,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__morethan",
-    "line": 704,
     "function_args": {
       "args": [
         "val_a",
@@ -304,7 +287,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_find_dm_fun",
-    "line": 708,
     "docstring": "Iterates until we find a dm function and returns it.\n\nIN:\n    piv_ver - the verion number we dont want to change when searching\n    adj_ver - the verison number we change when searching\n    direction - the direction to change adj_ver\n\nRETURNS tuple of the following format:\n    [0]: data migration function found, Or none if not found\n    [1]: value of adj_ver when data migration found",
     "function_args": {
       "args": [
@@ -324,7 +306,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "run",
-    "line": 739,
     "docstring": "Runs the data migration algorithms.\n\nASSUMES: start_ver != end_ver\n\nIN:\n    start_ver - start version to start\n    end_ver - ending version number",
     "function_args": {
       "args": [

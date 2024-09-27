@@ -6,14 +6,12 @@
     "class_bases": [
       "object"
     ],
-    "line": 424,
     "docstring": "Manages clickzones, with varying zoom levels.\nUse to automate caching and stuff with clickzones.\n\nACCESSING ZONES:\n    use backet notation to access a clickzone:\n    zonemanager[zone_key]\n\n    This takes current zoom into account, and auto zooms something\n    if no clickzone exists.\n\n    NOTE: use get to get for a specific zoom level\n\nCONTAINS:\n    'in' is allowed for checking zone_keys.\n\nITERABLE:\n    this will iterate over zone_keys and clickzones at the current\n    zoom level.",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 446,
         "function_args": {
           "args": [
             "self"
@@ -30,7 +28,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__contains__",
-        "line": 458,
         "function_args": {
           "args": [
             "self",
@@ -48,7 +45,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__getitem__",
-        "line": 461,
         "docstring": "Key should be the zone_key.\nThis will get the clickzone for the current zoom level, generating\nit if not found.",
         "function_args": {
           "args": [
@@ -67,7 +63,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__iter__",
-        "line": 469,
         "function_args": {
           "args": [
             "self"
@@ -84,7 +79,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "add",
-        "line": 473,
         "docstring": "Adds a clickzone to this manager.\nNOTE: will NOt override an existing zone_key\nNOTE: you must add the clickzone at the default zoom level for\n    zoom algs to work.\n\nIN:\n    zone_key - key to use to represnt this zone\n    cz - MASClickZone to add.\n        Assumed to work for default zoom level",
         "function_args": {
           "args": [
@@ -104,7 +98,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_cz_iter",
-        "line": 496,
         "docstring": "Iterates over all clickzones in this clickzone manager, for\nall zoom levels.\n\nOutput is a tuple of:\n    [0] zone_key\n    [1] zoom level\n    [2] clickzone",
         "function_args": {
           "args": [
@@ -122,7 +115,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_debug",
-        "line": 510,
         "docstring": "Sets the debug_back value for all clickzones\n\nIN:\n    value - value to set to _debug_back",
         "function_args": {
           "args": [
@@ -141,7 +133,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "get",
-        "line": 520,
         "docstring": "Gets a clickzone from this manager, from a zoom level.\n\nGenerates the clickzone if not exist for this zoom level.\nNOTE: this will generate ALL clickzones for a zoom level for\nconsistency and speed.\n\nIN:\n    zone_key - key of zone to get\n    zl - zoom level of zone to get\n\nRETURNS: MASClickZone object, or None if failed to get",
         "function_args": {
           "args": [
@@ -161,7 +152,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "remove",
-        "line": 539,
         "docstring": "Removes a clickzone from this manager.\n\nIN:\n    zone_key - key of the zone to remove",
         "function_args": {
           "args": [
@@ -180,7 +170,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "set_disabled",
-        "line": 557,
         "docstring": "Sets all clickzones with the given zonekey's disabled prop.\n\nIN:\n    zone_key - key of the clickzone to change\n    value - value to set disabled to",
         "function_args": {
           "args": [
@@ -200,7 +189,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "zoom_to",
-        "line": 570,
         "docstring": "Fills zoom cache with Clickzones for a zoom level\n\nIN:\n    zoom_level - zoom level to generate clickzones for",
         "function_args": {
           "args": [
@@ -221,7 +209,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "get_vx",
-    "line": 683,
     "docstring": "Get vx list of a zone enum\n\nIN:\n    zone_enum - zone enum to get vertex list for\n\nRETURNS: vertex list, or empty if not found",
     "function_args": {
       "args": [
@@ -239,7 +226,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "z_vx_list_zoom",
-    "line": 695,
     "docstring": "Generates a vertex list from the given zoom and zone enum\n\nIN:\n    zoom_level - zoom level to generate vertex list for\n    zone_enum - zone enum to generate vertex list for\n\nRETURNS:\n    list of vertexes. May be empty if not valid zone enum",
     "function_args": {
       "args": [
@@ -258,7 +244,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "vx_list_zoom",
-    "line": 713,
     "docstring": "Generates a vertex list from the given zoom\n\nIN:\n    zoom_level - zoom level to generate vertex list\n    vx_list - list of vertexes to geneate new list for\n\nRETURNS: list of vertexes",
     "function_args": {
       "args": [
@@ -277,7 +262,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_vx_list_zoom",
-    "line": 737,
     "docstring": "Generates vertex list for zooming.\n\nIN:\n    zoom_level zoom level to generate vertex list for\n    vx_list - list of vetex points to adjust for zoom.\n        NOTE: we generate a new list, so dont worry about this changing\n    zoom_out - True if we are zooming out, False if zooming in\n\nRETURNS: adjustd list of vertexes",
     "function_args": {
       "args": [

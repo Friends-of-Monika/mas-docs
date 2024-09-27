@@ -6,14 +6,12 @@
     "class_bases": [
       "object"
     ],
-    "line": 523,
     "docstring": "Representation of an EventListItem (ELI)",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 540,
         "docstring": "Constructor\n\nIN:\n    data - the data directly from event list",
         "function_args": {
           "args": [
@@ -32,7 +30,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__repr__",
-        "line": 549,
         "function_args": {
           "args": [
             "self"
@@ -51,7 +48,6 @@
           "staticmethod"
         ],
         "identifier": "build",
-        "line": 556,
         "docstring": "Builds an ELI.\n\nIN:\n    evl - event label\n    *args - the other args for an EventListItem.\n\nRETURNS: EventListItem object",
         "function_args": {
           "args": [
@@ -71,7 +67,6 @@
           "staticmethod"
         ],
         "identifier": "_build_raw",
-        "line": 569,
         "docstring": "Builds raw data for an ELI.\n\nargs are same as EventListItem.build\n\nRETURNS: raw data",
         "function_args": {
           "args": [
@@ -89,7 +84,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "_raw",
-        "line": 588,
         "docstring": "Gets the data for this EventListItem that is ready for\nthe actual event list.\n\nRETURNS: raw event list data",
         "function_args": {
           "args": [
@@ -109,7 +103,6 @@
           "property"
         ],
         "identifier": "event_label",
-        "line": 598,
         "docstring": "Gets the event label from this EventListItem\n\nAliases: ev_label, evl\n\nRETURNS: event label",
         "function_args": {
           "args": [
@@ -129,7 +122,6 @@
           "property"
         ],
         "identifier": "notify",
-        "line": 614,
         "docstring": "Gets the notify value from this EventListItem\n\nRETURNS: notify",
         "function_args": {
           "args": [
@@ -149,7 +141,6 @@
           "property"
         ],
         "identifier": "context",
-        "line": 623,
         "docstring": "Gets the context from this EventListItem\n\nAliases: ctx\n\nRETURNS: context (MASEventContext object)",
         "function_args": {
           "args": [
@@ -169,7 +160,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "addIfNew",
-    "line": 638,
     "function_args": {
       "args": [
         "items",
@@ -187,7 +177,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "tuplizeEventLabelList",
-    "line": 655,
     "function_args": {
       "args": [
         "key_list",
@@ -205,7 +194,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isFuture",
-    "line": 671,
     "docstring": "INTERNAL\n        Checks if the start_date of the given event happens after the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's start_date is in the future, False otherwise",
     "function_args": {
       "args": [
@@ -226,7 +214,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isPast",
-    "line": 703,
     "docstring": "INTERNAL\n        Checks if the end_date of the given event happens before the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's end_date is in the past, False otherwise",
     "function_args": {
       "args": [
@@ -247,7 +234,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isPresent",
-    "line": 735,
     "docstring": "INTERNAL\n        Checks if current date falls within the given event's start/end date\n        range\n\n        IN:\n            ev - Event to check the start_time and end_time\n\n        RETURNS:\n            True if current time is inside the  Event's start_date/end_date\n            interval, False otherwise",
     "function_args": {
       "args": [
@@ -265,7 +251,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_hideEvent",
-    "line": 763,
     "docstring": "Internalized hideEvent",
     "function_args": {
       "args": [
@@ -292,7 +277,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_hideEventLabel",
-    "line": 788,
     "docstring": "Internalized hideEventLabel",
     "function_args": {
       "args": [
@@ -321,7 +305,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_lockEvent",
-    "line": 810,
     "docstring": "Internalized lockEvent",
     "function_args": {
       "args": [
@@ -339,7 +322,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_lockEventLabel",
-    "line": 817,
     "docstring": "Internalized lockEventLabel",
     "function_args": {
       "args": [
@@ -360,7 +342,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_unlockEvent",
-    "line": 824,
     "docstring": "Internalized unlockEvent",
     "function_args": {
       "args": [
@@ -378,7 +359,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_unlockEventLabel",
-    "line": 832,
     "docstring": "Internalized unlockEventLabel",
     "function_args": {
       "args": [
@@ -399,7 +379,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "addYearsetBlacklist",
-    "line": 839,
     "docstring": "Adds the given evl to the yearset blacklist, with the given expiration\ndt\n\nIN:\n    evl - event label\n    expire_dt - when the evl should be removed from the blacklist",
     "function_args": {
       "args": [
@@ -418,7 +397,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "cleanYearsetBlacklist",
-    "line": 852,
     "docstring": "Goes through the year setblacklist and removes expired entries",
     "function_args": {
       "args": [],
@@ -434,7 +412,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isYearsetBlacklisted",
-    "line": 862,
     "docstring": "Checks if the given evl is yearset blacklisted. Also checks expiration\ndate and removes if needed.\n\nIN:\n    evl - event label\n\nRETURNS: True if blacklisted, false if not",
     "function_args": {
       "args": [
@@ -452,7 +429,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "actionPush",
-    "line": 973,
     "docstring": "Runs Push Event action for the given event\n\nIN:\n    ev - event to push to event stack",
     "function_args": {
       "args": [
@@ -470,7 +446,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "actionQueue",
-    "line": 983,
     "docstring": "Runs Queue event action for the given event\n\nIN:\n    ev - event to queue to event stack",
     "function_args": {
       "args": [
@@ -488,7 +463,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "actionUnlock",
-    "line": 993,
     "docstring": "Unlocks an event. Also setse the unlock_date to the given\n    unlock time\n\nIN:\n    ev - event to unlock\n    unlock_time - time to set unlock_date to",
     "function_args": {
       "args": [
@@ -506,7 +480,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "actionRandom",
-    "line": 1006,
     "docstring": "Randos an event.\n\nIN:\n    ev - event to random\n    rebuild_ev - True if we wish to notify idle to rebuild events",
     "function_args": {
       "args": [
@@ -524,7 +497,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "actionPool",
-    "line": 1019,
     "docstring": "Pools an event.\n\nIN:\n    ev - event to pool",
     "function_args": {
       "args": [

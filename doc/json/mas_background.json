@@ -6,14 +6,12 @@
     "class_bases": [
       "object"
     ],
-    "line": 268,
     "docstring": "Encapsulation class that knows the information needed for a bg change\nto go smoothly.\n\nPROPERTIES:\n    hides - dict:\n        key: image tag (override)\n        value: MASAdvancedDecoFrame to hide\n    shows - dict:\n        key: image tag (override)\n        value: tuple:\n            [0] - image tag (actual)\n            [1] - MASAdvancedDecoFrame to show",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 284,
         "docstring": "Constructor\n\nIN:\n    hides - dict of image tags and MASAdvancedDecoFrames to\n        hide in the dissolve\n        (Default: None)\n    shows - dict of image tags and MASAdvancedDecoFrames to\n        show in the dissolve\n        (Default: None)",
         "function_args": {
           "args": [
@@ -36,7 +34,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__repr__",
-        "line": 304,
         "docstring": "Returns description of this object",
         "function_args": {
           "args": [
@@ -54,7 +51,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__len__",
-        "line": 310,
         "function_args": {
           "args": [
             "self"
@@ -73,7 +69,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "build",
-    "line": 313,
     "docstring": "Builds all background objects using current time settings.",
     "function_args": {
       "args": [],
@@ -89,7 +84,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "buildupdate",
-    "line": 321,
     "docstring": "Builds all background objects and updates current time settings.\nThis properly saves prev_flt.",
     "function_args": {
       "args": [],
@@ -105,7 +99,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "default_MBGFM",
-    "line": 332,
     "docstring": "Generates a MASBackgroundFilterManager using the default\n(aka pre0.11.3) settings.\n\nRETURNS: MASBackgroundFilterManager object",
     "function_args": {
       "args": [],
@@ -121,7 +114,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "loadMBGData",
-    "line": 367,
     "docstring": "Loads persistent MASBackground data into the weather map\n\nASSUMES: background map is already filled",
     "function_args": {
       "args": [],
@@ -137,7 +129,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "saveMBGData",
-    "line": 381,
     "docstring": "Saves MASBackground data from bg map into persistent",
     "function_args": {
       "args": [],
@@ -153,7 +144,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getUnlockedBGCount",
-    "line": 388,
     "docstring": "Gets the number of unlocked backgrounds",
     "function_args": {
       "args": [],
@@ -169,7 +159,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "hasXUnlockedBGs",
-    "line": 398,
     "docstring": "Checks if we have at least min_amt_unlocked bgs unlocked\n\nIN:\n    min_amt_unlocked - minimum number of BGs which should be unlocked to return true\n\nOUT:\n    True if we have at least min_amt_unlocked BGs unlocked, False otherwise",
     "function_args": {
       "args": [
@@ -187,7 +176,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getBackground",
-    "line": 410,
     "docstring": "Returns a bg object\n\nIN:\n    id_ - str - background id\n\nOUT:\n    background object\n    or None if not found",
     "function_args": {
       "args": [
@@ -205,7 +193,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_toggleBackgroundUnlock",
-    "line": 423,
     "docstring": "Locks/unlocks a bg\n\nIN:\n    id_ - str - background id\n    value - bool - the value for the unlocked field",
     "function_args": {
       "args": [
@@ -224,7 +211,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "unlockBackground",
-    "line": 436,
     "docstring": "Unlocks a bg\n\nIN:\n    id_ - str - background id",
     "function_args": {
       "args": [
@@ -242,7 +228,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "lockBackground",
-    "line": 445,
     "docstring": "Locks a bg\n\nIN:\n    id_ - str - background id",
     "function_args": {
       "args": [
@@ -260,7 +245,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isBackgroundUnlocked",
-    "line": 454,
     "docstring": "Checks if a background is unlocked\n\nIN:\n    id_ - str - background id\n\nOUT:\n    boolean",
     "function_args": {
       "args": [
@@ -278,7 +262,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "log_bg",
-    "line": 469,
     "docstring": "Logs the given BG object to standard bg log\n\nIN:\n    bg_obj - bg object to log\n    exc_info - exception info. Should be tuple:\n        [0] - exception type\n        [1] - exception value\n        [2] - traceback\n        (Default: None)",
     "function_args": {
       "args": [
@@ -299,7 +282,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "run_gbl_flt_change",
-    "line": 673,
     "docstring": "Runs global filter change progpoint, logging for errors\n\nIN:\n    See _gbl_flt_change",
     "function_args": {
       "args": [
@@ -319,7 +301,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_gbl_flt_change",
-    "line": 692,
     "docstring": "Runs when a filter change occurs\n\nIN:\n    old_flt - outgoing filter. Will be None on startup.\n    new_flt - incoming filter.\n    curr_time - current time as datetime.time",
     "function_args": {
       "args": [
@@ -339,7 +320,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_gbl_chunk_change",
-    "line": 720,
     "docstring": "Runs when a chunk change occurs\n\nIN:\n    old_chunk - outgoing chunk, will be None on startup\n    new_flt - incoming chunk\n    curr_time - current time as datetime.time",
     "function_args": {
       "args": [
@@ -359,7 +339,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_def_background_entry",
-    "line": 749,
     "docstring": "Entry programming point for default background",
     "function_args": {
       "args": [
@@ -377,7 +356,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_def_background_exit",
-    "line": 772,
     "docstring": "Exit programming point for default background",
     "function_args": {
       "args": [

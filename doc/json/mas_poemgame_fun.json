@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getPointValue",
-    "line": 95,
     "function_args": {
       "args": [
         "condition",
@@ -21,7 +20,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getWinner",
-    "line": 111,
     "function_args": {
       "args": [
         "word",
@@ -45,7 +43,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "validateFlow",
-    "line": 161,
     "function_args": {
       "args": [
         "flow"

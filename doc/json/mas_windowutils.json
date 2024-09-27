@@ -6,14 +6,12 @@
     "class_bases": [
       "Exception"
     ],
-    "line": 656,
     "docstring": "Custom exception class to flag a window found during a window enum\n\nHas the hwnd as a property",
     "class_functions": [
       {
         "type": "function",
         "function_decorators": [],
         "identifier": "__init__",
-        "line": 662,
         "function_args": {
           "args": [
             "self",
@@ -31,7 +29,6 @@
         "type": "function",
         "function_decorators": [],
         "identifier": "__str__",
-        "line": 665,
         "function_args": {
           "args": [
             "self"
@@ -50,7 +47,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getActiveWindowObj_Linux",
-    "line": 673,
     "docstring": "Gets the active window object\n\nOUT:\n    Xlib.display.Window, or None if errors occur (or not possible to get window obj)",
     "function_args": {
       "args": [],
@@ -66,7 +62,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getMASWindowLinux",
-    "line": 700,
     "docstring": "Funtion to get the MAS window on Linux systems\n\nOUT:\n    Xlib.display.Window representing the MAS window\n\nASSUMES: OS IS LINUX (renpy.linux)",
     "function_args": {
       "args": [],
@@ -82,7 +77,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getMASWindowHWND",
-    "line": 735,
     "docstring": "Gets the hWnd of the MAS window\n\nNOTE: Windows ONLY\n\nOUT:\n    int - represents the hWnd of the MAS window",
     "function_args": {
       "args": [],
@@ -98,7 +92,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getAbsoluteGeometry",
-    "line": 764,
     "docstring": "Returns the (x, y, height, width) of a window relative to the top-left\nof the screen.\n\nIN:\n    win - Xlib.display.Window object representing the window we wish to get absolute geometry of\n\nOUT:\n    tuple, (x, y, width, height) if possible, otherwise None",
     "function_args": {
       "args": [
@@ -116,7 +109,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_setMASWindow",
-    "line": 806,
     "docstring": "Sets the MAS_WINDOW global on Linux systems\n\nOUT:\n    the window object",
     "function_args": {
       "args": [],
@@ -132,7 +124,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_getActiveWindowHandle_Windows",
-    "line": 824,
     "docstring": "Funtion to get the active window on Windows systems\n\nOUT:\n    string representing the active window handle\n\nASSUMES: OS IS WINDOWS (renpy.windows)",
     "function_args": {
       "args": [],
@@ -148,7 +139,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_getActiveWindowHandle_Linux",
-    "line": 835,
     "docstring": "Funtion to get the active window on Linux systems\n\nOUT:\n    string representing the active window handle\n\nASSUMES: OS IS LINUX (renpy.linux)",
     "function_args": {
       "args": [],
@@ -164,7 +154,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_getActiveWindowHandle_OSX",
-    "line": 869,
     "docstring": "Gets the active window on macOS\n\nNOTE: This currently just returns an empty string, this is because we do not have active window detection\nfor MacOS",
     "function_args": {
       "args": [],
@@ -180,7 +169,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_tryShowNotification_Windows",
-    "line": 879,
     "docstring": "Tries to push a notification to the notification center on Windows.\nIf it can't it should fail silently to the user.\n\nIN:\n    title - notification title\n    body - notification body\n\nOUT:\n    bool. True if the notification was successfully sent, False otherwise",
     "function_args": {
       "args": [
@@ -199,7 +187,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_tryShowNotification_Linux",
-    "line": 898,
     "docstring": "Tries to push a notification to the notification center on Linux.\nIf it can't it should fail silently to the user.\n\nIN:\n    title - notification title\n    body - notification body\n\nOUT:\n    bool - True, representing the notification's success",
     "function_args": {
       "args": [
@@ -218,7 +205,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_tryShowNotification_OSX",
-    "line": 918,
     "docstring": "Tries to push a notification to the notification center on macOS.\nIf it can't it should fail silently to the user.\n\nIN:\n    title - notification title\n    body - notification body\n\nOUT:\n    bool - True, representing the notification's success",
     "function_args": {
       "args": [
@@ -237,7 +223,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_getAbsoluteMousePos_Windows",
-    "line": 934,
     "docstring": "Returns an (x, y) co-ord tuple for the mouse position\n\nOUT:\n    tuple representing the absolute position of the mouse",
     "function_args": {
       "args": [],
@@ -253,7 +238,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_getAbsoluteMousePos_Linux",
-    "line": 953,
     "docstring": "Returns an (x, y) co-ord tuple represening the absolute mouse position",
     "function_args": {
       "args": [],
@@ -269,7 +253,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_getMASWindowPos_Windows",
-    "line": 961,
     "docstring": "Gets the window position for MAS as a tuple of (left, top, right, bottom)\n\nOUT:\n    tuple representing window geometry or None if the window's hWnd could not be found",
     "function_args": {
       "args": [],
@@ -285,7 +268,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_getMASWindowPos_Linux",
-    "line": 982,
     "docstring": "Returns (x1, y1, x2, y2) relative to the top-left of the screen.\n\nOUT:\n    tuple representing (left, top, right, bottom) of the window bounds, or None if not possible to get",
     "function_args": {
       "args": [],
@@ -301,7 +283,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "getMousePosRelative",
-    "line": 1000,
     "docstring": "Gets the mouse position relative to the MAS window.\nReturned as a set of coordinates (0, 0) being within the MAS window, (1, 0) being to the left, (0, 1) being above, etc.\n\nOUT:\n    Tuple representing the location of the mouse relative to the MAS window in terms of coordinates",
     "function_args": {
       "args": [],
@@ -317,7 +298,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorInMASWindow",
-    "line": 1046,
     "docstring": "Checks if the cursor is within the MAS window\n\nOUT:\n    True if cursor is within the mas window (within x/y), False otherwise\n    Also returns True if we cannot get window position",
     "function_args": {
       "args": [],
@@ -333,7 +313,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorLeftOfMASWindow",
-    "line": 1056,
     "docstring": "Checks if the cursor is to the left of the MAS window (must be explicitly to the left of the left window bound)\n\nOUT:\n    True if cursor is to the left of the window, False otherwise\n    Also returns False if we cannot get window position",
     "function_args": {
       "args": [],
@@ -349,7 +328,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorRightOfMASWindow",
-    "line": 1066,
     "docstring": "Checks if the cursor is to the right of the MAS window (must be explicitly to the right of the right window bound)\n\nOUT:\n    True if cursor is to the right of the window, False otherwise\n    Also returns False if we cannot get window position",
     "function_args": {
       "args": [],
@@ -365,7 +343,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorAboveMASWindow",
-    "line": 1076,
     "docstring": "Checks if the cursor is above the MAS window (must be explicitly above the window bound)\n\nOUT:\n    True if cursor is above the window, False otherwise\n    False as well if we're unable to get a window position",
     "function_args": {
       "args": [],
@@ -381,7 +358,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorBelowMASWindow",
-    "line": 1086,
     "docstring": "Checks if the cursor is above the MAS window (must be explicitly above the window bound)\n\nOUT:\n    True if cursor is above the window, False otherwise\n    False as well if we're unable to get a window position",
     "function_args": {
       "args": [],
@@ -397,7 +373,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "return_true",
-    "line": 1097,
     "docstring": "Literally returns True",
     "function_args": {
       "args": [],
@@ -413,7 +388,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "return_false",
-    "line": 1103,
     "docstring": "Literally returns False",
     "function_args": {
       "args": [],

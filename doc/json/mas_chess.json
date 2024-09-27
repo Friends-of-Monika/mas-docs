@@ -3,7 +3,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_checkInProgressGame",
-    "line": 700,
     "docstring": "Checks if the given pgn game is valid and in progress.\n\nIN:\n    pgn_game - pgn game to check\n    mth - monika twitter handle. pass it in since I'm too lazy to\n        find context from a store\n\nRETURNS:\n    SEE isInProgressGame",
     "function_args": {
       "args": [
@@ -22,7 +21,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "isInProgressGame",
-    "line": 743,
     "docstring": "Checks if the pgn game with the given filename is valid and\nin progress.\n\nIN:\n    filename - filename of the pgn game\n    mth - monika twitter handle. pass it in since I'm too lazy to\n        find context from a store\n\nRETURNS:\n    tuple of the following format:\n        [0]: Text to display on button\n        [1]: chess.pgn.Game of the game\n    OR NONE if this is not a valid pgn game",
     "function_args": {
       "args": [
@@ -41,7 +39,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_increment_chess_difficulty",
-    "line": 771,
     "docstring": "Increments chess difficulty",
     "function_args": {
       "args": [],
@@ -57,7 +54,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_decrement_chess_difficulty",
-    "line": 789,
     "docstring": "Decrements chess difficulty",
     "function_args": {
       "args": [],
@@ -73,7 +69,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_get_player_color",
-    "line": 806,
     "docstring": "Gets player color\n\nIN:\n    loaded_game - pgn representing the loaded game\n\nOUT:\n    The player's color",
     "function_args": {
       "args": [
@@ -91,7 +86,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_get_piece_chance",
-    "line": 820,
     "docstring": "Gets the piece chance and returns the piece and weight in tuple form for a `mas_utils.weightedChoice` selection\n\nIN:\n    piece_type - type of the piece ('b', 'r', 'n', 'q')\n\nOUT:\n    tuple - (piece_type, weight) of the piece",
     "function_args": {
       "args": [
@@ -111,7 +105,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "select_piece",
-    "line": 837,
     "docstring": "Selects a piece according to random\n\nIN:\n    remaining_points - amount of points left to be allocated\n\nOUT:\n    a chess piece (str) based on available",
     "function_args": {
       "args": [
@@ -130,7 +123,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_gen_side",
-    "line": 870,
     "docstring": "Generates a player's side\n\nIN:\n    white - whether or not we should generate for white\n        (Default: True)\n    max_side_value - The current upper limit for piece selection\n        (Default: 14 -- minimum weight, most pieces are pawns)\n\nOUT:\n    2 strings representing a random assortment of pieces (front row and back row)",
     "function_args": {
       "args": [
@@ -152,7 +144,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_validate_sides",
-    "line": 931,
     "docstring": "Validates sides for really bad chess\nso we don't end up in a check/check mate after the first turn\n\nIN:\n    white_front - front row for white\n    white_back - back row for white\n    black_front - front row for black\n    black_back - back row for black\n\nOUT:\n    boolean, whether or not both sides are good to go",
     "function_args": {
       "args": [
@@ -173,7 +164,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "generate_random_fen",
-    "line": 1024,
     "docstring": "Generates a random fen\n\nIN:\n    is_player_white - whether or not the player is playing white this game",
     "function_args": {
       "args": [
@@ -193,7 +183,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "generate_960_fen",
-    "line": 1090,
     "docstring": "This function returns a random chess960 opening fen.\n\nChess960 rules are basically:\n1. One rook must stay on the left side of king, and another one stay on the right side.\n   Due to this, the king can never be placed on a-file or h-file.\n2. Bishops must stay on different color square.\n3. Pawns must stay like the normal chess game.\n4. The position of player A's pieces must be the 'reversed version' of player B's.\nSee chess960 wiki to get more exact information.\n\nOUT:\n    A random chess960 opening fen.",
     "function_args": {
       "args": [],
@@ -209,7 +198,6 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "enqueue_output",
-    "line": 1157,
     "function_args": {
       "args": [
         "out",
