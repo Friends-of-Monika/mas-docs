@@ -17,12 +17,17 @@ src_dir.mkdir(parents=True, exist_ok=True)
 
 
 def parse_rpy(fn):
+    # Can't really use renpy.parser.parse because it relies on game context
+    # However, just adding add_lines=True skips the offending line
     lines = renpy.parser.list_logical_lines(fn, None, 1, add_lines=True)
     nested = renpy.parser.group_logical_lines(lines)
 
+    # Haven't tested if it works with True, but it does with False
     renpy.game.args = Namespace(compile_python=False)
+    # Won't work unless .script is set, luckily doesn't ask for any parameters
     renpy.game.script = renpy.script.Script()
 
+    # Just normally parse it here with lexer + parse_block
     l = renpy.lexer.Lexer(nested)
     rv = renpy.parser.parse_block(l)
     return rv
