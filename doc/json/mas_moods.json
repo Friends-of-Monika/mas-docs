@@ -1,8 +1,10 @@
 {
   "getMoodType": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "getMoodType",
     "line": 55,
+    "docstring": "Gets the mood type for the given mood label\n\nIN:\n    mood_label - label of a mood\n\nRETURNS:\n    type of the mood, or None if no type found",
     "function_args": {
       "args": [
         "mood_label"
@@ -13,7 +15,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the mood type for the given mood label\n\nIN:\n    mood_label - label of a mood\n\nRETURNS:\n    type of the mood, or None if no type found"
+    }
   }
 }

@@ -1,8 +1,10 @@
 {
   "add_steps": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "add_steps",
     "line": 366,
+    "docstring": "Adds versions to the version updates dict.\n\nIN:\n    version_struct - dict with versions in special version notation.\n        Keys: version to update to, as string\n        Vals: versions to update from, as string or tuple of strings",
     "function_args": {
       "args": [
         "version_struct"
@@ -13,13 +15,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds versions to the version updates dict.\n\nIN:\n    version_struct - dict with versions in special version notation.\n        Keys: version to update to, as string\n        Vals: versions to update from, as string or tuple of strings"
+    }
   },
   "clear": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clear",
     "line": 385,
+    "docstring": "Clears the update data structures",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -28,13 +31,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Clears the update data structures"
+    }
   },
   "init": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "init",
     "line": 393,
+    "docstring": "Initializes the update data structures",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -43,13 +47,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Initializes the update data structures"
+    }
   },
   "_vdot2vstr": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_vdot2vstr",
     "line": 686,
+    "docstring": "Converts a version string that uses dots to the v#_#_# notation\n\nIN:\n    version_str - version string with dots #.#.#.#\n\nRETURNS: version string in the standard version notation:\n    v#_#_#_#",
     "function_args": {
       "args": [
         "version_str"
@@ -60,7 +65,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts a version string that uses dots to the v#_#_# notation\n\nIN:\n    version_str - version string with dots #.#.#.#\n\nRETURNS: version string in the standard version notation:\n    v#_#_#_#"
+    }
   }
 }

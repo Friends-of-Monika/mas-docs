@@ -1,6 +1,7 @@
 {
   "MASImport": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASImport",
     "class_bases": [
       "object"
@@ -10,8 +11,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 187,
+        "docstring": "Constructor\n\nIN:\n    module_name - the name of the module to import\n    set_sys - pass True to allow this to overwrite the sys modules.\n        This should only be used in cases where you need to \n        override a system (aka built-in) module.\n        (Default: False)",
         "function_args": {
           "args": [
             "self",
@@ -26,13 +29,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor\n\nIN:\n    module_name - the name of the module to import\n    set_sys - pass True to allow this to overwrite the sys modules.\n        This should only be used in cases where you need to \n        override a system (aka built-in) module.\n        (Default: False)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__call__",
         "line": 211,
+        "docstring": "Just returns if this is enabled or not",
         "function_args": {
           "args": [
             "self"
@@ -43,13 +47,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Just returns if this is enabled or not"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "enabled",
         "line": 218,
+        "docstring": "True if this import is enabled (can be imported)",
         "function_args": {
           "args": [
             "self"
@@ -60,13 +67,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "True if this import is enabled (can be imported)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "module_name",
         "line": 225,
+        "docstring": "module name for this import",
         "function_args": {
           "args": [
             "self"
@@ -77,13 +87,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "module name for this import"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "set_sys",
         "line": 232,
+        "docstring": "True if sys module can be overwritten by this.",
         "function_args": {
           "args": [
             "self"
@@ -94,13 +107,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "True if sys module can be overwritten by this."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "log_import_error",
         "line": 238,
+        "docstring": "Logs import error message.\n\nIN:\n    exp - current exception if available.\n        (Default: None)",
         "function_args": {
           "args": [
             "self",
@@ -114,13 +128,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Logs import error message.\n\nIN:\n    exp - current exception if available.\n        (Default: None)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "import_try",
         "line": 252,
+        "docstring": "DERIVED CLASSES MUST IMPLEMENT THIS\n\nThis should check if the import should be enabled.\nFor more info, see `load`.\n\nRETURNS: True if the import should be enabled, False otherwise.",
         "function_args": {
           "args": [
             "self"
@@ -131,13 +146,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "DERIVED CLASSES MUST IMPLEMENT THIS\n\nThis should check if the import should be enabled.\nFor more info, see `load`.\n\nRETURNS: True if the import should be enabled, False otherwise."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "import_except",
         "line": 263,
+        "docstring": "Runs if an ImportError is encountered. The import will always\nbe disabled and an import error is logged after this runs.\n\nIf you need to run additional behavior or set other vars on a \nfailed import, override this function.\n\nFor more info, see `load`.\n\nIN:\n    err - the exception that was raised",
         "function_args": {
           "args": [
             "self",
@@ -149,13 +165,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Runs if an ImportError is encountered. The import will always\nbe disabled and an import error is logged after this runs.\n\nIf you need to run additional behavior or set other vars on a \nfailed import, override this function.\n\nFor more info, see `load`.\n\nIN:\n    err - the exception that was raised"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "load",
         "line": 278,
+        "docstring": "Loads the import and checks that it works. This is called \nsometime before init level -1000.\n\nThis will call `import_try` and mark the this import as enabled if\nappropriate.\n\nIf an ImportError/AttributeError/NameError is triggered,\ndisable this import, log an import error, and call `import_except.\n\nIf any other errors occur, the import will be disabled and\nan import error will be logged, but the error will percolate up.\nIf you wish to catch those errors, override this function and wrap\na try-except block around the base call.",
         "function_args": {
           "args": [
             "self"
@@ -166,13 +183,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Loads the import and checks that it works. This is called \nsometime before init level -1000.\n\nThis will call `import_try` and mark the this import as enabled if\nappropriate.\n\nIf an ImportError/AttributeError/NameError is triggered,\ndisable this import, log an import error, and call `import_except.\n\nIf any other errors occur, the import will be disabled and\nan import error will be logged, but the error will percolate up.\nIf you wish to catch those errors, override this function and wrap\na try-except block around the base call."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_set_sys_module",
         "line": 307,
+        "docstring": "Sets the system module so this import can be used elsewhere.\nNot called by the load system - you must call this manually\nif desired.\n\nThis is also guardrailed on construction so no injection.\n\nIN:\n    module - the imported module",
         "function_args": {
           "args": [
             "self",
@@ -184,15 +202,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sets the system module so this import can be used elsewhere.\nNot called by the load system - you must call this manually\nif desired.\n\nThis is also guardrailed on construction so no injection.\n\nIN:\n    module - the imported module"
+        }
       }
     ]
   },
   "check_imports": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "check_imports",
     "line": 323,
+    "docstring": "checks import availability",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -201,11 +220,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "checks import availability"
+    }
   },
   "MASImport_certifi": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASImport_certifi",
     "class_bases": [
       "MASImport"
@@ -215,8 +234,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 653,
+        "docstring": "Constructor",
         "function_args": {
           "args": [
             "self"
@@ -227,13 +248,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "cert_available",
         "line": 668,
+        "docstring": "True if cert is available.",
         "function_args": {
           "args": [
             "self"
@@ -244,13 +268,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "True if cert is available."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "import_try",
         "line": 674,
+        "docstring": "Also checks if a cert is available.",
         "function_args": {
           "args": [
             "self"
@@ -261,11 +286,11 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Also checks if a cert is available."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "import_except",
         "line": 687,
         "function_args": {
@@ -283,6 +308,7 @@
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "load",
         "line": 692,
         "function_args": {
@@ -299,8 +325,10 @@
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "start_cert_update",
         "line": 698,
+        "docstring": "Starts the cert update process. \n\nNOTE: will NOT start the process if the updater is currently\n    running. The promise is still returned though.\n\nIN:\n    force - True to force the cert to update now.\n\nRETURNS: the cert update promise",
         "function_args": {
           "args": [
             "self",
@@ -314,13 +342,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Starts the cert update process. \n\nNOTE: will NOT start the process if the updater is currently\n    running. The promise is still returned though.\n\nIN:\n    force - True to force the cert to update now.\n\nRETURNS: the cert update promise"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "check_cert_update",
         "line": 720,
+        "docstring": "checks the status of the cert update.\n\nRETURNS: True if the cert update is done, False if not",
         "function_args": {
           "args": [
             "self"
@@ -331,13 +360,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "checks the status of the cert update.\n\nRETURNS: True if the cert update is done, False if not"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "get_cert_update",
         "line": 728,
+        "docstring": "Gets the result from the cert update.\n\nRETURNS: certifi RV value of the check_update function, or None if\n    the check_update function could not run. THIS WILL ALSO RETURN\n    NONE IF THE CERT UPDATE IS NOT FINISHED.\n    Use `check_cert_update` to check that the update is done\n    before calling this.",
         "function_args": {
           "args": [
             "self"
@@ -348,13 +378,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Gets the result from the cert update.\n\nRETURNS: certifi RV value of the check_update function, or None if\n    the check_update function could not run. THIS WILL ALSO RETURN\n    NONE IF THE CERT UPDATE IS NOT FINISHED.\n    Use `check_cert_update` to check that the update is done\n    before calling this."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "reset_cert_update",
         "line": 740,
+        "docstring": "Resets the cert update thread. This may fail if the cert update is\nnot done yet.",
         "function_args": {
           "args": [
             "self"
@@ -365,13 +396,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Resets the cert update thread. This may fail if the cert update is\nnot done yet."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "is_cert_update_running",
         "line": 747,
+        "docstring": "Determines if the cert update is running.\n\nRETURNS: True if the cert update is running.",
         "function_args": {
           "args": [
             "self"
@@ -382,13 +414,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Determines if the cert update is running.\n\nRETURNS: True if the cert update is running."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "ch30_day_cert_update",
         "line": 755,
+        "docstring": "Call this during ch30_day to handle cert update checks",
         "function_args": {
           "args": [
             "self"
@@ -399,13 +432,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Call this during ch30_day to handle cert update checks"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_update_cert",
         "line": 771,
+        "docstring": "Updates the cert and sets appropriate vars.\n\nCerts will only be updated if the last cert update was at least\n6 months ago.\n\nIN:\n    force - True to force the cert to update right now\n\nRETURNS: certifi RV value of the check_update function, or None if\n    the check_update function could not run.",
         "function_args": {
           "args": [
             "self",
@@ -419,13 +453,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Updates the cert and sets appropriate vars.\n\nCerts will only be updated if the last cert update was at least\n6 months ago.\n\nIN:\n    force - True to force the cert to update right now\n\nRETURNS: certifi RV value of the check_update function, or None if\n    the check_update function could not run."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_m1_0imports__th_get_cert_avail",
         "line": 807,
+        "docstring": "thread-safe get cert available - for internal use only\n\nRETURNS: cert_available value",
         "function_args": {
           "args": [
             "self"
@@ -436,13 +471,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "thread-safe get cert available - for internal use only\n\nRETURNS: cert_available value"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_m1_0imports__th_set_cert_avail",
         "line": 819,
+        "docstring": "Thread-safe set cert available - for internal use only\n\nIN:\n    value - value to set to cert_available",
         "function_args": {
           "args": [
             "self",
@@ -454,13 +490,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Thread-safe set cert available - for internal use only\n\nIN:\n    value - value to set to cert_available"
+        }
       }
     ]
   },
   "MASImport_ssl": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASImport_ssl",
     "class_bases": [
       "MASImport"
@@ -470,8 +506,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 836,
+        "docstring": "Constructor",
         "function_args": {
           "args": [
             "self"
@@ -482,13 +520,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "import_try",
         "line": 842,
+        "docstring": "Also adjusts httplib.\n\nthis is a hack.",
         "function_args": {
           "args": [
             "self"
@@ -499,8 +538,7 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Also adjusts httplib.\n\nthis is a hack."
+        }
       }
     ]
   }

@@ -1,8 +1,10 @@
 {
   "_generate_old_image": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_generate_old_image",
     "line": 105,
+    "docstring": "Generates an image for the old-style weather.\n\nIN:\n    disp - displayable to pass to renpy.image\n\nRETURNS: the created image tag",
     "function_args": {
       "args": [
         "disp"
@@ -13,13 +15,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates an image for the old-style weather.\n\nIN:\n    disp - displayable to pass to renpy.image\n\nRETURNS: the created image tag"
+    }
   },
   "weatherProgress": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "weatherProgress",
     "line": 354,
+    "docstring": "Runs a roll on mas_shouldRain() to pick a new weather to change to after a time between half an hour - one and a half hour\n\nRETURNS:\n    - True or false on whether or not to call spaceroom",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -28,13 +31,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs a roll on mas_shouldRain() to pick a new weather to change to after a time between half an hour - one and a half hour\n\nRETURNS:\n    - True or false on whether or not to call spaceroom"
+    }
   },
   "loadMWData": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "loadMWData",
     "line": 409,
+    "docstring": "Loads persistent MASWeather data into the weather map\n\nASSUMES: weather map is already filled",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -43,13 +47,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Loads persistent MASWeather data into the weather map\n\nASSUMES: weather map is already filled"
+    }
   },
   "saveMWData": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "saveMWData",
     "line": 424,
+    "docstring": "Saves MASWeather data from weather map into persistent",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -58,13 +63,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Saves MASWeather data from weather map into persistent"
+    }
   },
   "unlockedWeathers": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlockedWeathers",
     "line": 432,
+    "docstring": "Returns number of unlocked weather items",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -73,13 +79,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns number of unlocked weather items"
+    }
   },
   "_weather_rain_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_rain_entry",
     "line": 448,
+    "docstring": "Rain start programming point",
     "function_args": {
       "args": [
         "_old"
@@ -90,13 +97,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Rain start programming point"
+    }
   },
   "_weather_rain_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_rain_exit",
     "line": 471,
+    "docstring": "RAIN stop programming point",
     "function_args": {
       "args": [
         "_new"
@@ -107,13 +115,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RAIN stop programming point"
+    }
   },
   "_weather_snow_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_snow_entry",
     "line": 488,
+    "docstring": "Snow entry programming point",
     "function_args": {
       "args": [
         "_old"
@@ -124,13 +133,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Snow entry programming point"
+    }
   },
   "_weather_snow_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_snow_exit",
     "line": 505,
+    "docstring": "Snow exit programming point",
     "function_args": {
       "args": [
         "_new"
@@ -141,13 +151,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Snow exit programming point"
+    }
   },
   "_weather_thunder_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_thunder_entry",
     "line": 513,
+    "docstring": "Thunder entry programming point",
     "function_args": {
       "args": [
         "_old"
@@ -158,13 +169,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Thunder entry programming point"
+    }
   },
   "_weather_thunder_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_thunder_exit",
     "line": 526,
+    "docstring": "Thunder exit programming point",
     "function_args": {
       "args": [
         "_new"
@@ -175,13 +187,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Thunder exit programming point"
+    }
   },
   "_weather_overcast_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_overcast_entry",
     "line": 539,
+    "docstring": "Overcast entry programming point",
     "function_args": {
       "args": [
         "_old"
@@ -192,13 +205,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Overcast entry programming point"
+    }
   },
   "_weather_overcast_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_weather_overcast_exit",
     "line": 547,
+    "docstring": "Overcast exit programming point",
     "function_args": {
       "args": [
         "_new"
@@ -209,11 +223,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Overcast exit programming point"
+    }
   },
   "shouldRainToday": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "shouldRainToday",
     "line": 643,
     "function_args": {
@@ -228,8 +242,10 @@
   },
   "_determineCloudyWeather": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_determineCloudyWeather",
     "line": 673,
+    "docstring": "Determines if weather should be rainiy/thunder/overcase, or none of\nthose.\n\nIN:\n    rain_chance - chance of rain out of 100\n    thunder_chance - chance of thunder out of 100\n        NOTE: this should be percentage based on rain chance, i.e.:\n        thunder_chance * (rain_chance as %)\n    overcast_chance - chance of overcast out of 100\n    rolled_chance - if passed, then we use that chance instead of\n        generating a random chance. None means we generate our\n        own chance.\n        (Default: None)\n\nRETURNS:\n    appropriate weather type, or None if neither of these weathers.",
     "function_args": {
       "args": [
         "rain_chance",
@@ -245,7 +261,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Determines if weather should be rainiy/thunder/overcase, or none of\nthose.\n\nIN:\n    rain_chance - chance of rain out of 100\n    thunder_chance - chance of thunder out of 100\n        NOTE: this should be percentage based on rain chance, i.e.:\n        thunder_chance * (rain_chance as %)\n    overcast_chance - chance of overcast out of 100\n    rolled_chance - if passed, then we use that chance instead of\n        generating a random chance. None means we generate our\n        own chance.\n        (Default: None)\n\nRETURNS:\n    appropriate weather type, or None if neither of these weathers."
+    }
   }
 }

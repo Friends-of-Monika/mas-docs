@@ -1,8 +1,10 @@
 {
   "_rule_ribbon": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rule_ribbon",
     "line": 35,
+    "docstring": "Ribbon selector should only be unocked if:\n    1 - outfit is not baked\n    2 - hair supports ribbon",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -11,13 +13,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Ribbon selector should only be unocked if:\n    1 - outfit is not baked\n    2 - hair supports ribbon"
+    }
   },
   "_add_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_add_prompt",
     "line": 366,
+    "docstring": "Adds a prompt to the prompt map - basically like registering a\nselector.\n\nNOTE: this is private for now - should consider an actual\n\"register selector\" function as a public API instead.\n\nNOTE: this will overwrite existing data\n\nIN:\n    key - the prompt key - for ACS, this should be group type\n    ev_label - event label associated with the selector\n    change - prompt to use when Monika currently wearing the ACS\n    wear - prompt to use when Monika not wearing the ACS\n    _min_items - minimum number of items to unlock the selector\n        (Default: 1)\n    _rule - function evaluated whenever unocking a selector -\n        should return True if the selector should be unlocked\n        (Default: None)\n    _not_group - True if this is prompt is not associated with an ACS\n        group\n        (Default: False)",
     "function_args": {
       "args": [
         "key",
@@ -38,13 +41,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds a prompt to the prompt map - basically like registering a\nselector.\n\nNOTE: this is private for now - should consider an actual\n\"register selector\" function as a public API instead.\n\nNOTE: this will overwrite existing data\n\nIN:\n    key - the prompt key - for ACS, this should be group type\n    ev_label - event label associated with the selector\n    change - prompt to use when Monika currently wearing the ACS\n    wear - prompt to use when Monika not wearing the ACS\n    _min_items - minimum number of items to unlock the selector\n        (Default: 1)\n    _rule - function evaluated whenever unocking a selector -\n        should return True if the selector should be unlocked\n        (Default: None)\n    _not_group - True if this is prompt is not associated with an ACS\n        group\n        (Default: False)"
+    }
   },
   "check_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "check_prompt",
     "line": 414,
+    "docstring": "Checks if the prompt's rule passes.\n\nIN:\n    key - select key\n\nRETURNS: True if prompt's rule passes (or doesnt exist), False if not.",
     "function_args": {
       "args": [
         "key"
@@ -55,13 +59,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the prompt's rule passes.\n\nIN:\n    key - select key\n\nRETURNS: True if prompt's rule passes (or doesnt exist), False if not."
+    }
   },
   "get_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_prompt",
     "line": 431,
+    "docstring": "Gets prompt with the given key and prompt key\n\nIN:\n    key - select key\n    prompt_key - key to get prompt\n\nRETURNS: prompt. \"\" if invalid",
     "function_args": {
       "args": [
         "key",
@@ -75,13 +80,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets prompt with the given key and prompt key\n\nIN:\n    key - select key\n    prompt_key - key to get prompt\n\nRETURNS: prompt. \"\" if invalid"
+    }
   },
   "get_minitems": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_minitems",
     "line": 447,
+    "docstring": "Gets minimum number of items required to unlock this selector.\n\nIN:\n    key - select key\n    defval - default value to return\n\nRETURNS: minimum number of items to unlock the selector.",
     "function_args": {
       "args": [
         "key",
@@ -95,13 +101,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets minimum number of items required to unlock this selector.\n\nIN:\n    key - select key\n    defval - default value to return\n\nRETURNS: minimum number of items to unlock the selector."
+    }
   },
   "in_prompt_map": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "in_prompt_map",
     "line": 460,
+    "docstring": "Checks if a key is in the prompt select map\n\nIN:\n    key - select key to check\n\nRETURNS: True if in the map, FAlse if not",
     "function_args": {
       "args": [
         "key"
@@ -112,13 +119,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if a key is in the prompt select map\n\nIN:\n    key - select key to check\n\nRETURNS: True if in the map, FAlse if not"
+    }
   },
   "iter_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "iter_prompt",
     "line": 472,
+    "docstring": "Creates an interable of prompt keys\n\nRETURNS: iter (generator) of prompt keys",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -127,13 +135,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates an interable of prompt keys\n\nRETURNS: iter (generator) of prompt keys"
+    }
   },
   "iter_prompt_data": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "iter_prompt_data",
     "line": 482,
+    "docstring": "Creates an iterable of prompt map data\n\nRETURNS: iter (generator) of tuples:\n    [0]: prompt key\n    [1]: prompt data",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -142,13 +151,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates an iterable of prompt map data\n\nRETURNS: iter (generator) of tuples:\n    [0]: prompt key\n    [1]: prompt data"
+    }
   },
   "lock_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lock_prompt",
     "line": 495,
+    "docstring": "Locks ev with the given key\n\nIN:\n    key - select key",
     "function_args": {
       "args": [
         "key"
@@ -159,13 +169,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Locks ev with the given key\n\nIN:\n    key - select key"
+    }
   },
   "set_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "set_prompt",
     "line": 507,
+    "docstring": "Sets prompt of ev with the given key with one associatd with given\nprompt key.\n\nIN:\n    key - select key\n    prompt_key - key to get propmt. if _ev, then no change",
     "function_args": {
       "args": [
         "key",
@@ -179,13 +190,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets prompt of ev with the given key with one associatd with given\nprompt key.\n\nIN:\n    key - select key\n    prompt_key - key to get propmt. if _ev, then no change"
+    }
   },
   "unlock_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlock_prompt",
     "line": 528,
+    "docstring": "Unlocks ev with the given key\n\nIN:\n    key - select key",
     "function_args": {
       "args": [
         "key"
@@ -196,13 +208,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks ev with the given key\n\nIN:\n    key - select key"
+    }
   },
   "startup_prompt_check": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "startup_prompt_check",
     "line": 540,
+    "docstring": "Checks all prompts and adjusts them if needed",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -211,13 +224,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks all prompts and adjusts them if needed"
+    }
   },
   "selectable_key": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "selectable_key",
     "line": 2130,
+    "docstring": "Returns the display name of a selectable. meant for sorting.\n\nIN:\n    selectable - the selectbale to get key for\n\nRETURNS the display name of the selectable",
     "function_args": {
       "args": [
         "selectable"
@@ -228,13 +242,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns the display name of a selectable. meant for sorting.\n\nIN:\n    selectable - the selectbale to get key for\n\nRETURNS the display name of the selectable"
+    }
   },
   "_validate_group_topics": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_group_topics",
     "line": 2142,
+    "docstring": "Locks selector topics if there are no unlocked selectables with the\nappropriate group.\nUnlocks selector topics if they are unlocked selectables.\nNOTE: also checks the prompt rule",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -243,13 +258,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Locks selector topics if there are no unlocked selectables with the\nappropriate group.\nUnlocks selector topics if they are unlocked selectables.\nNOTE: also checks the prompt rule"
+    }
   },
   "_switch_to_wear_prompts": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_switch_to_wear_prompts",
     "line": 2161,
+    "docstring": "Switches all prompts for groups to use their wear prompt.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -258,13 +274,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Switches all prompts for groups to use their wear prompt."
+    }
   },
   "_has_remover": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_has_remover",
     "line": 2169,
+    "docstring": "Checks if acs of the given group have a remover\n\nIN:\n    group - group to check\n\nRETURNS: True if this group already has a remover, False otherwise",
     "function_args": {
       "args": [
         "group"
@@ -275,13 +292,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if acs of the given group have a remover\n\nIN:\n    group - group to check\n\nRETURNS: True if this group already has a remover, False otherwise"
+    }
   },
   "_unlock_removers": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_unlock_removers",
     "line": 2186,
+    "docstring": "Unlocks remover ACS selectables",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -290,13 +308,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks remover ACS selectables"
+    }
   },
   "_rm_remover": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rm_remover",
     "line": 2195,
+    "docstring": "Gets the remover from a given list of items, takes it out of the list\nand reutrns it.\n\nIN:\n    item_list - list of ACS\n\nRETURNS:\n    remover selectable, or None if not found",
     "function_args": {
       "args": [
         "item_list"
@@ -307,13 +326,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the remover from a given list of items, takes it out of the list\nand reutrns it.\n\nIN:\n    item_list - list of ACS\n\nRETURNS:\n    remover selectable, or None if not found"
+    }
   },
   "create_selectable_remover": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "create_selectable_remover",
     "line": 2213,
+    "docstring": "Creates a selectable remover for acs\n\nIN:\n    acs_type - acs type of the acs/remover to make\n    group - group of selectables this ACS remover should be linked to\n    remover_name - the name to use for the remover. If None, we use\n        \"Remove\"\n\nRETURNS: remover ACS selectable",
     "function_args": {
       "args": [
         "acs_type",
@@ -328,13 +348,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates a selectable remover for acs\n\nIN:\n    acs_type - acs type of the acs/remover to make\n    group - group of selectables this ACS remover should be linked to\n    remover_name - the name to use for the remover. If None, we use\n        \"Remove\"\n\nRETURNS: remover ACS selectable"
+    }
   },
   "rm_selectable_remover": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "rm_selectable_remover",
     "line": 2250,
+    "docstring": "Removes a selectable remover for acs.\nNOTE: also removes the ACS associated with this selectable.\nNOTE: only does this for remover type seelctables\n\nIN:\n    remover_sel - remover selectable to remove",
     "function_args": {
       "args": [
         "remover_sel"
@@ -345,13 +366,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Removes a selectable remover for acs.\nNOTE: also removes the ACS associated with this selectable.\nNOTE: only does this for remover type seelctables\n\nIN:\n    remover_sel - remover selectable to remove"
+    }
   },
   "init_selectable_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "init_selectable_acs",
     "line": 2277,
+    "docstring": "Inits the selectable acs\n\nIN:\n    acs - the acs to create a selectable from\n    display_name - display name to use\n    thumb - thumbnail image\n    group - grouping id\n    visible_when_locked - True if this should be visible even if locked\n        (Default: True)\n    hover_dlg - list of dialogue to say when the item is hovered over\n        (Default: None)\n    first_select_dlg - list of dialogue to say when the item is\n        selected for the first time\n        (Default: None)\n    select_dlg - list of dialogue to say when the item is selected\n        after the first time\n        (Default: None)\n    remover - True if this ACS is a blank one, False otherwise\n        (Default: False)",
     "function_args": {
       "args": [
         "acs",
@@ -376,13 +398,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Inits the selectable acs\n\nIN:\n    acs - the acs to create a selectable from\n    display_name - display name to use\n    thumb - thumbnail image\n    group - grouping id\n    visible_when_locked - True if this should be visible even if locked\n        (Default: True)\n    hover_dlg - list of dialogue to say when the item is hovered over\n        (Default: None)\n    first_select_dlg - list of dialogue to say when the item is\n        selected for the first time\n        (Default: None)\n    select_dlg - list of dialogue to say when the item is selected\n        after the first time\n        (Default: None)\n    remover - True if this ACS is a blank one, False otherwise\n        (Default: False)"
+    }
   },
   "init_selectable_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "init_selectable_clothes",
     "line": 2328,
+    "docstring": "Inits the selectable clothes\n\nIN:\n    clothes - the clothes to create selectable from\n    display_name - display name to use\n    thumb - thumbnail image\n    group - grouping id\n    visible_when_locked - True if this should be visible even if locked\n        (Default: True)\n    hover_dlg - list of dialogue to say when the item is hovered over\n        (Default: None)\n    first_select_dlg - list of dialogue to say when the item is\n        selected for the first time\n        (Default: None)\n    select_dlg - list of dialogue to say when the item is selected\n        after the first time\n        (Default: None)",
     "function_args": {
       "args": [
         "clothes",
@@ -405,13 +428,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Inits the selectable clothes\n\nIN:\n    clothes - the clothes to create selectable from\n    display_name - display name to use\n    thumb - thumbnail image\n    group - grouping id\n    visible_when_locked - True if this should be visible even if locked\n        (Default: True)\n    hover_dlg - list of dialogue to say when the item is hovered over\n        (Default: None)\n    first_select_dlg - list of dialogue to say when the item is\n        selected for the first time\n        (Default: None)\n    select_dlg - list of dialogue to say when the item is selected\n        after the first time\n        (Default: None)"
+    }
   },
   "init_selectable_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "init_selectable_hair",
     "line": 2377,
+    "docstring": "Inits the selectable hair\n\nIN:\n    hair - the hair to create a selectable from\n    display_name - display name to use\n    thumb - thumbnail image\n    group - grouping id\n    visible_when_locked - True if this should be visible even if locked\n        (Default: True)\n    hover_dlg - list of dialogue to say when the item is hovered over\n        (Default: None)\n    first_select_dlg - list of dialogue to say when the item is\n        selected for the first time\n        (Default: None)\n    select_dlg - list of dialogue to say when the item is selected\n        after the first time\n        (Default: None)",
     "function_args": {
       "args": [
         "hair",
@@ -434,13 +458,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Inits the selectable hair\n\nIN:\n    hair - the hair to create a selectable from\n    display_name - display name to use\n    thumb - thumbnail image\n    group - grouping id\n    visible_when_locked - True if this should be visible even if locked\n        (Default: True)\n    hover_dlg - list of dialogue to say when the item is hovered over\n        (Default: None)\n    first_select_dlg - list of dialogue to say when the item is\n        selected for the first time\n        (Default: None)\n    select_dlg - list of dialogue to say when the item is selected\n        after the first time\n        (Default: None)"
+    }
   },
   "_adjust_monika": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_adjust_monika",
     "line": 2426,
+    "docstring": "Adjusts an aspect of monika based on the select type\n\nNOTE: this also logs exceptions if they occur. Also will undo\n    a chnage that causes crash.\n\nIN:\n    moni_chr - MASMonika object to adjust\n    old_map - the old select map (what was loaded in)\n    prev_map - the old select mpa (what was previously selected)\n    new_map - the new select map (what is currently selected)\n    select_type - the select type, which determins what parts of\n        monika to adjust\n    use_old - True means we are reverting back to the old map,\n        False meanse use the old map\n        (Default: False)\n    outfit_mode - True means we are in outfit mode, False if not\n        This is used in the clothing changes\n        (Default: False)\n    force_run - True means run even if we old and new matches.\n        (Default: False)",
     "function_args": {
       "args": [
         "moni_chr",
@@ -462,13 +487,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adjusts an aspect of monika based on the select type\n\nNOTE: this also logs exceptions if they occur. Also will undo\n    a chnage that causes crash.\n\nIN:\n    moni_chr - MASMonika object to adjust\n    old_map - the old select map (what was loaded in)\n    prev_map - the old select mpa (what was previously selected)\n    new_map - the new select map (what is currently selected)\n    select_type - the select type, which determins what parts of\n        monika to adjust\n    use_old - True means we are reverting back to the old map,\n        False meanse use the old map\n        (Default: False)\n    outfit_mode - True means we are in outfit mode, False if not\n        This is used in the clothing changes\n        (Default: False)\n    force_run - True means run even if we old and new matches.\n        (Default: False)"
+    }
   },
   "_fill_select_map": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_fill_select_map",
     "line": 2561,
+    "docstring": "Fills the select map with what monika is currently wearing, based on\nthe given select type\n\nIN:\n    moni_chr - MASMonika object to read from\n    select_type - the select type, which determins what part of monika\n        to read\n    items - list of displayables we should check if monika is wearing\n\nOUT:\n    select_map - select map filled with appropriate selectbales.\n\nRETURNS: true if Monika was found wearing something in the list,\n    False if not.",
     "function_args": {
       "args": [
         "moni_chr",
@@ -482,13 +508,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Fills the select map with what monika is currently wearing, based on\nthe given select type\n\nIN:\n    moni_chr - MASMonika object to read from\n    select_type - the select type, which determins what part of monika\n        to read\n    items - list of displayables we should check if monika is wearing\n\nOUT:\n    select_map - select map filled with appropriate selectbales.\n\nRETURNS: true if Monika was found wearing something in the list,\n    False if not."
+    }
   },
   "_fill_select_map_and_set_remover": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_fill_select_map_and_set_remover",
     "line": 2609,
+    "docstring": "Fills select map and sets remover item if passed in.\nIf remover item is not passsed in, this functions exactly the same as\nfill_select_map\n\nIN:\n    moni_chr - See _fill_select_map\n    select_type - see _fill_select_map\n    items - see _fill_select_map\n    remover_disp_item - if not None, set this selector if no item is\n        found.\n\nOUT:\n    select_map - see _fill_select_map\n\nRETURNS: see _fill_select_map",
     "function_args": {
       "args": [
         "moni_chr",
@@ -505,13 +532,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Fills select map and sets remover item if passed in.\nIf remover item is not passsed in, this functions exactly the same as\nfill_select_map\n\nIN:\n    moni_chr - See _fill_select_map\n    select_type - see _fill_select_map\n    items - see _fill_select_map\n    remover_disp_item - if not None, set this selector if no item is\n        found.\n\nOUT:\n    select_map - see _fill_select_map\n\nRETURNS: see _fill_select_map"
+    }
   },
   "_clean_select_map": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clean_select_map",
     "line": 2641,
+    "docstring": "Cleans the select map of non-selected items.\n\nIN:\n    select_map - select map to clean\n    select_type - select type, only used if remove_items is True\n    remove_items - True means we also remove items from monika chr\n    moni_chr - MASMonika object to modify.\n    force - if True, we deselect and remove regardless.\n\nOUT:\n    select_map - select map cleaned of non-selectd items",
     "function_args": {
       "args": [
         "select_map",
@@ -528,13 +556,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Cleans the select map of non-selected items.\n\nIN:\n    select_map - select map to clean\n    select_type - select type, only used if remove_items is True\n    remove_items - True means we also remove items from monika chr\n    moni_chr - MASMonika object to modify.\n    force - if True, we deselect and remove regardless.\n\nOUT:\n    select_map - select map cleaned of non-selectd items"
+    }
   },
   "valid_select_type": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "valid_select_type",
     "line": 2671,
+    "docstring": "Returns True if valid selection constant, False otherwise\n\nIN:\n    sel_con - selection constnat to check\n\nRETURNS: True if vali dselection constant",
     "function_args": {
       "args": [
         "sel_con"
@@ -545,13 +574,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns True if valid selection constant, False otherwise\n\nIN:\n    sel_con - selection constnat to check\n\nRETURNS: True if vali dselection constant"
+    }
   },
   "is_same": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_same",
     "line": 2685,
+    "docstring": "Compares the given select map views for differences.\n\nNOTE: we only check key existence. Use this after you clean the\nmap.\n\nIN:\n    old_map_view - viewkeys view of the old map\n    new_map_view - viewkeys view of the new map\n\nRETURNS:\n    True if the maps are the same, false if different.",
     "function_args": {
       "args": [
         "old_map_view",
@@ -563,13 +593,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Compares the given select map views for differences.\n\nNOTE: we only check key existence. Use this after you clean the\nmap.\n\nIN:\n    old_map_view - viewkeys view of the old map\n    new_map_view - viewkeys view of the new map\n\nRETURNS:\n    True if the maps are the same, false if different."
+    }
   },
   "_save_selectable": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_save_selectable",
     "line": 2709,
+    "docstring": "Saves selectable data from the given source into the destination.\n\nIN:\n    source - source data to read\n    dest - data place to save",
     "function_args": {
       "args": [
         "source",
@@ -581,13 +612,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Saves selectable data from the given source into the destination.\n\nIN:\n    source - source data to read\n    dest - data place to save"
+    }
   },
   "save_selectables": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "save_selectables",
     "line": 2721,
+    "docstring": "Goes through the selectables and saves their unlocked property.\n\nNOTE: we do this by adding the name into the appropriate persistent.\nalso the data we want to save",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -596,13 +628,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Goes through the selectables and saves their unlocked property.\n\nNOTE: we do this by adding the name into the appropriate persistent.\nalso the data we want to save"
+    }
   },
   "_load_selectable": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_load_selectable",
     "line": 2736,
+    "docstring": "Loads selectable data from the given source into the destination.\n\nIN:\n    source - source data to load from\n    dest - data to save the loaded data into",
     "function_args": {
       "args": [
         "source",
@@ -614,13 +647,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Loads selectable data from the given source into the destination.\n\nIN:\n    source - source data to load from\n    dest - data to save the loaded data into"
+    }
   },
   "load_selectables": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "load_selectables",
     "line": 2749,
+    "docstring": "Loads the persistent data into selectables.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -629,13 +663,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Loads the persistent data into selectables."
+    }
   },
   "_filter_sel_single": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_filter_sel_single",
     "line": 2760,
+    "docstring": "Checks if the given item matches the given criteria\n\nIN:\n    item - selectable to check\n    unlocked - True means item matches if its unlocked\n    group - if not None, then item matches if the group matches\n\nRETURNS:\n    True if the item matches the criteria, False otherwise",
     "function_args": {
       "args": [
         "item",
@@ -648,13 +683,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the given item matches the given criteria\n\nIN:\n    item - selectable to check\n    unlocked - True means item matches if its unlocked\n    group - if not None, then item matches if the group matches\n\nRETURNS:\n    True if the item matches the criteria, False otherwise"
+    }
   },
   "_filter_sel": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_filter_sel",
     "line": 2780,
+    "docstring": "Filters the selectable list based on criteria\n\nIN:\n    select_list - list of Selectables to filter\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this\n        group. If None, we dont check group at all.\n        (Default: None)\n\nRETURNS: list of selectables that match criteria",
     "function_args": {
       "args": [
         "select_list",
@@ -669,13 +705,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Filters the selectable list based on criteria\n\nIN:\n    select_list - list of Selectables to filter\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this\n        group. If None, we dont check group at all.\n        (Default: None)\n\nRETURNS: list of selectables that match criteria"
+    }
   },
   "filter_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "filter_acs",
     "line": 2800,
+    "docstring": "Filters the selectable acs based on criteria\n\nIN:\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this group\n        if None, we don't check group at all.\n        (Default: None)\n\nRETURNS: list of selectable acs that match criteria",
     "function_args": {
       "args": [
         "unlocked",
@@ -689,13 +726,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Filters the selectable acs based on criteria\n\nIN:\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this group\n        if None, we don't check group at all.\n        (Default: None)\n\nRETURNS: list of selectable acs that match criteria"
+    }
   },
   "filter_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "filter_clothes",
     "line": 2815,
+    "docstring": "Filters the selectable clothes based on critera\n\nIN:\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this group\n        if None, we don't check group at all\n        (Default: None)\n\nRETURNS: list of selectable clothes that match criteria",
     "function_args": {
       "args": [
         "unlocked",
@@ -709,13 +747,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Filters the selectable clothes based on critera\n\nIN:\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this group\n        if None, we don't check group at all\n        (Default: None)\n\nRETURNS: list of selectable clothes that match criteria"
+    }
   },
   "filter_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "filter_hair",
     "line": 2830,
+    "docstring": "Filters the selectable hair based on critera\n\nIN:\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this group\n        if None, we don't check group at all\n        (Default: None)\n\nRETURNS: list of selectable hair that match criteria",
     "function_args": {
       "args": [
         "unlocked",
@@ -729,13 +768,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Filters the selectable hair based on critera\n\nIN:\n    unlocked - True means we only match unlocked selectables\n    group - non-None means we match selectables that match this group\n        if None, we don't check group at all\n        (Default: None)\n\nRETURNS: list of selectable hair that match criteria"
+    }
   },
   "_get_sel": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_get_sel",
     "line": 2845,
+    "docstring": "Retreives the selectable for the given item.\n\nIN:\n    item - item to find Selectable for\n    select_type - the type of selectable we are trying to find\n\nRETURNS the selectable for the item, or None if not found",
     "function_args": {
       "args": [
         "item",
@@ -747,13 +787,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Retreives the selectable for the given item.\n\nIN:\n    item - item to find Selectable for\n    select_type - the type of selectable we are trying to find\n\nRETURNS the selectable for the item, or None if not found"
+    }
   },
   "get_sel": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_sel",
     "line": 2867,
+    "docstring": "Retrieves the selectable for the given item\nThis uses sprite object type from jsons.\n\nIN:\n    item - sprite objct to find the Selectable for\n\nRETURNS: selectable for the given item",
     "function_args": {
       "args": [
         "item"
@@ -764,13 +805,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Retrieves the selectable for the given item\nThis uses sprite object type from jsons.\n\nIN:\n    item - sprite objct to find the Selectable for\n\nRETURNS: selectable for the given item"
+    }
   },
   "get_sel_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_sel_acs",
     "line": 2889,
+    "docstring": "Retrieves the selectable for the given accessory.\n\nIN:\n    acs - MASAccessory object to find selectable for\n\nRETURNS the selectable for this acs, or None if not found.",
     "function_args": {
       "args": [
         "acs"
@@ -781,13 +823,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Retrieves the selectable for the given accessory.\n\nIN:\n    acs - MASAccessory object to find selectable for\n\nRETURNS the selectable for this acs, or None if not found."
+    }
   },
   "get_sel_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_sel_clothes",
     "line": 2901,
+    "docstring": "Retrieves the selectable for the given clothes\n\nIN:\n    clothes - MASClothes object to find selectable for\n\nRETURNS the selectable for these clothes, or None if not found",
     "function_args": {
       "args": [
         "clothes"
@@ -798,13 +841,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Retrieves the selectable for the given clothes\n\nIN:\n    clothes - MASClothes object to find selectable for\n\nRETURNS the selectable for these clothes, or None if not found"
+    }
   },
   "get_sel_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_sel_hair",
     "line": 2913,
+    "docstring": "Retrieves the selectable for the given hair\n\nIN:\n    hair - MASHair object to find selectbale for\n\nRETURNS the selectable for this hair, or none if not found",
     "function_args": {
       "args": [
         "hair"
@@ -815,13 +859,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Retrieves the selectable for the given hair\n\nIN:\n    hair - MASHair object to find selectbale for\n\nRETURNS the selectable for this hair, or none if not found"
+    }
   },
   "is_hairacs_compatible": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_hairacs_compatible",
     "line": 2925,
+    "docstring": "Wrapper around mas_sprites.is_hairacs_compatible that uses an ACS\nselector.\n\nIN:\n    hair - hair to check\n    acs_sel - ACS selector to check\n\nRETURNS: True if hair+acs is compatible, False if not",
     "function_args": {
       "args": [
         "hair",
@@ -833,13 +878,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wrapper around mas_sprites.is_hairacs_compatible that uses an ACS\nselector.\n\nIN:\n    hair - hair to check\n    acs_sel - ACS selector to check\n\nRETURNS: True if hair+acs is compatible, False if not"
+    }
   },
   "is_clotheshair_compatible": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_clotheshair_compatible",
     "line": 2942,
+    "docstring": "Wrapper around mas_sprites.is_clotheshair_compatible that uses a\nhair selector.\n\nIN:\n    clothes - clothes to check\n    hair_sel - hair selector to check\n\nRETURNS: True if clothes+hair is compatible, false if not",
     "function_args": {
       "args": [
         "clothes",
@@ -851,13 +897,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wrapper around mas_sprites.is_clotheshair_compatible that uses a\nhair selector.\n\nIN:\n    clothes - clothes to check\n    hair_sel - hair selector to check\n\nRETURNS: True if clothes+hair is compatible, false if not"
+    }
   },
   "_lock_item": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_lock_item",
     "line": 2959,
+    "docstring": "Locks the given item's selectable.\n\nIN:\n    item - item to find selectable for\n    select_type - the type of selectable we are trying to find",
     "function_args": {
       "args": [
         "item",
@@ -869,13 +916,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Locks the given item's selectable.\n\nIN:\n    item - item to find selectable for\n    select_type - the type of selectable we are trying to find"
+    }
   },
   "lock_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lock_acs",
     "line": 2972,
+    "docstring": "Locks the given accessory's selectable\n\nIN:\n    acs - MASAccessory object to lock",
     "function_args": {
       "args": [
         "acs"
@@ -886,13 +934,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Locks the given accessory's selectable\n\nIN:\n    acs - MASAccessory object to lock"
+    }
   },
   "lock_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lock_clothes",
     "line": 2982,
+    "docstring": "Locks the given clothes' selectable\n\nIN:\n    clothes - MASClothes object to lock",
     "function_args": {
       "args": [
         "clothes"
@@ -903,13 +952,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Locks the given clothes' selectable\n\nIN:\n    clothes - MASClothes object to lock"
+    }
   },
   "lock_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lock_hair",
     "line": 2992,
+    "docstring": "locks the given hair's selectable\n\nIN:\n    hair - MASHair object to lock",
     "function_args": {
       "args": [
         "hair"
@@ -920,13 +970,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "locks the given hair's selectable\n\nIN:\n    hair - MASHair object to lock"
+    }
   },
   "set_compat_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "set_compat_acs",
     "line": 3002,
+    "docstring": "Checks compatibility of the given list of acs selectors to the given\nhair sprite object and sets appropriate flags\n\nIN:\n    acs_sels - list of acs selectors to check\n    hair - hair sprite object to check\n\nOUT:\n    acs_sels - acs selectors with modified flags for compatibility",
     "function_args": {
       "args": [
         "acs_sels",
@@ -938,13 +989,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks compatibility of the given list of acs selectors to the given\nhair sprite object and sets appropriate flags\n\nIN:\n    acs_sels - list of acs selectors to check\n    hair - hair sprite object to check\n\nOUT:\n    acs_sels - acs selectors with modified flags for compatibility"
+    }
   },
   "set_compat_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "set_compat_hair",
     "line": 3021,
+    "docstring": "Checks compatiblity of the given list of hair selectors to the given\nclothing sprite object and sets appropriate flags.\n\nIN:\n    hair_sels - list of hair selectors to check\n    clothes - clothing sprite object to check\n\nOUT:\n    hair_sels - hair selectors with modified flags for compatibility",
     "function_args": {
       "args": [
         "hair_sels",
@@ -956,13 +1008,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks compatiblity of the given list of hair selectors to the given\nclothing sprite object and sets appropriate flags.\n\nIN:\n    hair_sels - list of hair selectors to check\n    clothes - clothing sprite object to check\n\nOUT:\n    hair_sels - hair selectors with modified flags for compatibility"
+    }
   },
   "_unlock_item": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_unlock_item",
     "line": 3040,
+    "docstring": "Unlocks the given item's selectable\n\nIN:\n    item - item to find selectable for\n    select_type - the type of selectable we are trying to find",
     "function_args": {
       "args": [
         "item",
@@ -974,13 +1027,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks the given item's selectable\n\nIN:\n    item - item to find selectable for\n    select_type - the type of selectable we are trying to find"
+    }
   },
   "unlock_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlock_acs",
     "line": 3053,
+    "docstring": "Unlocks the given accessory's selectable\n\nIN:\n    acs - MASAccessory object to unlock",
     "function_args": {
       "args": [
         "acs"
@@ -991,13 +1045,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks the given accessory's selectable\n\nIN:\n    acs - MASAccessory object to unlock"
+    }
   },
   "unlock_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlock_clothes",
     "line": 3063,
+    "docstring": "Unlocks the given clothes' selectable\n\nIN:\n    clothes - MASClothes object to unlock",
     "function_args": {
       "args": [
         "clothes"
@@ -1008,13 +1063,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks the given clothes' selectable\n\nIN:\n    clothes - MASClothes object to unlock"
+    }
   },
   "unlock_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlock_hair",
     "line": 3073,
+    "docstring": "Unlocks the given hair's selectable\n\nIN:\n    hair - MASHair object to unlock",
     "function_args": {
       "args": [
         "hair"
@@ -1025,13 +1081,16 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks the given hair's selectable\n\nIN:\n    hair - MASHair object to unlock"
+    }
   },
   "unlock_selector": {
     "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated(use_instead='unlock_prompt', should_raise=True)"
+    ],
     "identifier": "unlock_selector",
     "line": 3083,
+    "docstring": "DEPRECATED - Use unlock_prompt instead\n        Unlocks the selector of the given group.\n\n        IN:\n            group - group to unlock selector topic.",
     "function_args": {
       "args": [
         "group"
@@ -1042,13 +1101,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "DEPRECATED - Use unlock_prompt instead\n        Unlocks the selector of the given group.\n\n        IN:\n            group - group to unlock selector topic."
+    }
   },
   "json_sprite_unlock": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "json_sprite_unlock",
     "line": 3093,
+    "docstring": "RUNTIME ONLY\n        Unlocks selectable for the given sprite, as ewll as the selector\n        topic for that sprite.\n\n        NOTE: checks if the prompt's rules passes before unlocking.\n\n        IN:\n            sp_obj - sprite object to unlock selectbale+\n            unlock_label - True will unlock the selector lable, False will not\n                (Default: True)",
     "function_args": {
       "args": [
         "sp_obj",
@@ -1062,13 +1122,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RUNTIME ONLY\n        Unlocks selectable for the given sprite, as ewll as the selector\n        topic for that sprite.\n\n        NOTE: checks if the prompt's rules passes before unlocking.\n\n        IN:\n            sp_obj - sprite object to unlock selectbale+\n            unlock_label - True will unlock the selector lable, False will not\n                (Default: True)"
+    }
   },
   "_selector_filter_items": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_selector_filter_items",
     "line": 3118,
+    "docstring": "The filter key we use in the selector screen.\n\nIN:\n    item - MASSelectableImagebuttonDisplayables object\n    search_query - search query to filter by\n    search_kws - search_query split using spaces\n\nOUT:\n    boolean whether or not the event pass the criteria",
     "function_args": {
       "args": [
         "item",
@@ -1081,13 +1142,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The filter key we use in the selector screen.\n\nIN:\n    item - MASSelectableImagebuttonDisplayables object\n    search_query - search query to filter by\n    search_kws - search_query split using spaces\n\nOUT:\n    boolean whether or not the event pass the criteria"
+    }
   },
   "_selector_sort_items": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_selector_sort_items",
     "line": 3147,
+    "docstring": "The sort key we use in the selector screen.\n\nIN:\n    item - MASSelectableImagebuttonDisplayables object\n    search_query - search query to sort by\n    search_kws - search_query split using spaces\n\nOUT:\n    weight as int",
     "function_args": {
       "args": [
         "item",
@@ -1100,13 +1162,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The sort key we use in the selector screen.\n\nIN:\n    item - MASSelectableImagebuttonDisplayables object\n    search_query - search query to sort by\n    search_kws - search_query split using spaces\n\nOUT:\n    weight as int"
+    }
   },
   "_selector_search_items": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_selector_search_items",
     "line": 3202,
+    "docstring": "The method for filtering and sorting items in the selector screen.\n\nIN:\n    items - the items to search in\n    search_query - the search query to filter and sort by\n\nOUT:\n    list of event objects or None if empty query was given",
     "function_args": {
       "args": [
         "items",
@@ -1118,13 +1181,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The method for filtering and sorting items in the selector screen.\n\nIN:\n    items - the items to search in\n    search_query - the search query to filter and sort by\n\nOUT:\n    list of event objects or None if empty query was given"
+    }
   },
   "selector_adj_ranged_callback": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "selector_adj_ranged_callback",
     "line": 3228,
+    "docstring": "This is called by an adjustment of the twopane menu\nwhen its range is being changed (set)\n\nIN:\n    adj - the adj object",
     "function_args": {
       "args": [
         "adj"
@@ -1135,13 +1199,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "This is called by an adjustment of the twopane menu\nwhen its range is being changed (set)\n\nIN:\n    adj - the adj object"
+    }
   },
   "selector_search_callback": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "selector_search_callback",
     "line": 3249,
+    "docstring": "The selector screen input callback.\n\nIN:\n    search_query - search query to filter and sort by",
     "function_args": {
       "args": [
         "search_query"
@@ -1152,13 +1217,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The selector screen input callback.\n\nIN:\n    search_query - search query to filter and sort by"
+    }
   },
   "mas_item_name_format": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "mas_item_name_format",
     "line": 3267,
+    "docstring": "Formats acs name to be sentence case, with spaces, and pluralized\n\nIN:\n    item_name - the text to be formatted\nOUT:\n    item_name - formatted",
     "function_args": {
       "args": [
         "item_name"
@@ -1169,11 +1235,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Formats acs name to be sentence case, with spaces, and pluralized\n\nIN:\n    item_name - the text to be formatted\nOUT:\n    item_name - formatted"
+    }
   },
   "MASSelectableSpriteMailbox": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASSelectableSpriteMailbox",
     "class_bases": [
       "store.MASMailbox"
@@ -1183,8 +1249,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 3297,
+        "docstring": "Constructor for the selectable sprite mailbox",
         "function_args": {
           "args": [
             "self",
@@ -1198,13 +1266,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor for the selectable sprite mailbox"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_get",
         "line": 3312,
+        "docstring": "Class the super class's get\n\nThis is just for ease of use",
         "function_args": {
           "args": [
             "self",
@@ -1216,13 +1285,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Class the super class's get\n\nThis is just for ease of use"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_read",
         "line": 3320,
+        "docstring": "Calls the super class read\n\nTHis is just for ease of us",
         "function_args": {
           "args": [
             "self",
@@ -1234,13 +1304,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Calls the super class read\n\nTHis is just for ease of us"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_send",
         "line": 3328,
+        "docstring": "Calls the super classs's send\n\nThis is just for ease of use.",
         "function_args": {
           "args": [
             "self",
@@ -1253,13 +1324,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Calls the super classs's send\n\nThis is just for ease of use."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_conf_enable",
         "line": 3336,
+        "docstring": "Returns the value of the conf enable message\n\nRETURNS:\n    True if the confirmation button should be enabled, False\n    otherwise",
         "function_args": {
           "args": [
             "self"
@@ -1270,13 +1342,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the value of the conf enable message\n\nRETURNS:\n    True if the confirmation button should be enabled, False\n    otherwise"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_def_disp_text",
         "line": 3346,
+        "docstring": "Returns the default display text message\n\nNOTE: does NOT remove.\n\nRETURNS: display text, default",
         "function_args": {
           "args": [
             "self"
@@ -1287,13 +1360,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the default display text message\n\nNOTE: does NOT remove.\n\nRETURNS: display text, default"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_frame_vsize",
         "line": 3356,
+        "docstring": "Returns frame fsize",
         "function_args": {
           "args": [
             "self"
@@ -1304,13 +1378,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns frame fsize"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_outfit_checkbox_checked",
         "line": 3362,
+        "docstring": "Returns the value of the outfit checkbox checked message\n\nRETURNS:\n    True if the outfit checkbox is checked, False otherwise",
         "function_args": {
           "args": [
             "self"
@@ -1321,13 +1396,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the value of the outfit checkbox checked message\n\nRETURNS:\n    True if the outfit checkbox is checked, False otherwise"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_outfit_checkbox_visible",
         "line": 3371,
+        "docstring": "Returns the value of the outfit checkbox visible message\n\nRETURNS:\n    True if the outfit checkbox should be visible, False otherwise",
         "function_args": {
           "args": [
             "self"
@@ -1338,13 +1414,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the value of the outfit checkbox visible message\n\nRETURNS:\n    True if the outfit checkbox should be visible, False otherwise"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_prev_state",
         "line": 3380,
+        "docstring": "Returns value of the prev_state message\n\nRETURNS: previous MASMOnika state.",
         "function_args": {
           "args": [
             "self"
@@ -1355,13 +1432,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns value of the prev_state message\n\nRETURNS: previous MASMOnika state."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_restore_enable",
         "line": 3388,
+        "docstring": "Returns the value of the restore enable message\n\nRETURNS: True if the restore button should be enabled, False\n    otherwise",
         "function_args": {
           "args": [
             "self"
@@ -1372,13 +1450,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the value of the restore enable message\n\nRETURNS: True if the restore button should be enabled, False\n    otherwise"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "read_restore_visible",
         "line": 3397,
+        "docstring": "Returns the value of the restore visible message\n\nRETURNS: True if the restore button should be visible, false\n    otherwise",
         "function_args": {
           "args": [
             "self"
@@ -1389,13 +1468,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the value of the restore visible message\n\nRETURNS: True if the restore button should be visible, false\n    otherwise"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "get_disp_fast",
         "line": 3406,
+        "docstring": "Removes and returns the fast flag\n\nRETURNS: True if we want to append fast, False/None if not",
         "function_args": {
           "args": [
             "self"
@@ -1406,13 +1486,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Removes and returns the fast flag\n\nRETURNS: True if we want to append fast, False/None if not"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "get_disp_text",
         "line": 3414,
+        "docstring": "Removes and returns the display text message\n\nRETURNS: display text",
         "function_args": {
           "args": [
             "self"
@@ -1423,13 +1504,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Removes and returns the display text message\n\nRETURNS: display text"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_conf_enable",
         "line": 3422,
+        "docstring": "Sends enable message\n\nIN:\n    enable - True means to enable, False means to disable",
         "function_args": {
           "args": [
             "self",
@@ -1441,13 +1523,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends enable message\n\nIN:\n    enable - True means to enable, False means to disable"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_def_disp_text",
         "line": 3431,
+        "docstring": "Sends default display message\n\nIN:\n    txt - txt to display",
         "function_args": {
           "args": [
             "self",
@@ -1459,13 +1542,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends default display message\n\nIN:\n    txt - txt to display"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_disp_fast",
         "line": 3440,
+        "docstring": "Sends default fast flag",
         "function_args": {
           "args": [
             "self"
@@ -1476,13 +1560,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends default fast flag"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_disp_text",
         "line": 3446,
+        "docstring": "Sends display text message\n\nIN:\n    txt - txt to display",
         "function_args": {
           "args": [
             "self",
@@ -1494,13 +1579,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends display text message\n\nIN:\n    txt - txt to display"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_frame_vsize",
         "line": 3455,
+        "docstring": "Sends frame vsize message\n\nIN:\n    vsize - vsize",
         "function_args": {
           "args": [
             "self",
@@ -1512,13 +1598,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends frame vsize message\n\nIN:\n    vsize - vsize"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_outfit_checkbox_checked",
         "line": 3464,
+        "docstring": "Sends ocb checked message\n\nIN:\n    checked - True means checkbox checked, False means not checked",
         "function_args": {
           "args": [
             "self",
@@ -1530,13 +1617,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends ocb checked message\n\nIN:\n    checked - True means checkbox checked, False means not checked"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_outfit_checkbox_visible",
         "line": 3473,
+        "docstring": "Sends ocb visible message\n\nIN:\n    visible - True means to show the outfit checkbox, False means\n        hide",
         "function_args": {
           "args": [
             "self",
@@ -1548,13 +1636,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends ocb visible message\n\nIN:\n    visible - True means to show the outfit checkbox, False means\n        hide"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_prev_state",
         "line": 3483,
+        "docstring": "Sends previous MASMonika state\n\nIN:\n    prev_state - previous MASMonika state",
         "function_args": {
           "args": [
             "self",
@@ -1566,13 +1655,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sends previous MASMonika state\n\nIN:\n    prev_state - previous MASMonika state"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "send_restore_enable",
         "line": 3492,
+        "docstring": "sends restore enable messgae\n\nIN:\n    enable - True means to enable the restore button, False means\n        disable",
         "function_args": {
           "args": [
             "self",
@@ -1584,8 +1674,7 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "sends restore enable messgae\n\nIN:\n    enable - True means to enable the restore button, False means\n        disable"
+        }
       }
     ]
   }

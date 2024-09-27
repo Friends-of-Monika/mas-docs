@@ -1,6 +1,7 @@
 {
   "SpriteJsonLogAdapter": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "SpriteJsonLogAdapter",
     "class_bases": [
       "store.mas_logging.MASNewlineLogAdapter"
@@ -10,8 +11,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 440,
+        "docstring": "IN:\n    logger - the logger to adapt",
         "function_args": {
           "args": [
             "self",
@@ -23,13 +26,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "IN:\n    logger - the logger to adapt"
+        }
       }
     ]
   },
   "SpriteJsonFormatter": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "SpriteJsonFormatter",
     "class_bases": [
       "store.mas_logging.MASNewlineLogFormatter"
@@ -39,8 +42,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "format",
         "line": 458,
+        "docstring": "override of logging.Formatter.format\n\nIN:\n    record - LogRecord object\n\nRETURNS: string to be logged",
         "function_args": {
           "args": [
             "self",
@@ -52,13 +57,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "override of logging.Formatter.format\n\nIN:\n    record - LogRecord object\n\nRETURNS: string to be logged"
+        }
       }
     ]
   },
   "_add_hair_to_verify": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_add_hair_to_verify",
     "line": 506,
     "function_args": {
@@ -77,6 +82,9 @@
   },
   "writelog": {
     "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated(use_instead='log.info, log.warning, log.error, log.exception')"
+    ],
     "identifier": "writelog",
     "line": 539,
     "function_args": {
@@ -93,6 +101,9 @@
   },
   "writelogs": {
     "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated()"
+    ],
     "identifier": "writelogs",
     "line": 544,
     "function_args": {
@@ -109,6 +120,7 @@
   },
   "_verify_sptype": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_sptype",
     "line": 718,
     "function_args": {
@@ -128,8 +140,10 @@
   },
   "parsewritelog": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "parsewritelog",
     "line": 2812,
+    "docstring": "write log using specially formatted data.\n\nIN:\n    msg_data - tuple of the following format:\n        [0] - log constant\n        [1] - indentation level\n        [2] - msg to write\n\nRETURNS: True if an ERR constant was found, False if not",
     "function_args": {
       "args": [
         "msg_data"
@@ -140,13 +154,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "write log using specially formatted data.\n\nIN:\n    msg_data - tuple of the following format:\n        [0] - log constant\n        [1] - indentation level\n        [2] - msg to write\n\nRETURNS: True if an ERR constant was found, False if not"
+    }
   },
   "parsewritelogs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "parsewritelogs",
     "line": 2833,
+    "docstring": "Write logs using specially formatted data\n\nIN:\n    msgs_data - list of tuples of the following format:\n        [0] - log constant\n        [1] - indentation level\n        [2] - msg to write\n\nRETURNS: True if an ERR constnat was found, False if not",
     "function_args": {
       "args": [
         "msgs_data"
@@ -157,13 +172,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Write logs using specially formatted data\n\nIN:\n    msgs_data - list of tuples of the following format:\n        [0] - log constant\n        [1] - indentation level\n        [2] - msg to write\n\nRETURNS: True if an ERR constnat was found, False if not"
+    }
   },
   "_replace_hair_map": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_replace_hair_map",
     "line": 2853,
+    "docstring": "Replaces the hair vals of the given sprite object with the given name\nof the given hair with defaults.\n\nIN:\n    sp_name - name of the clothing sprite object to replace hair\n        map values in\n    hair_to_replace - hair name to replace with defaults",
     "function_args": {
       "args": [
         "sp_name",
@@ -175,13 +191,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Replaces the hair vals of the given sprite object with the given name\nof the given hair with defaults.\n\nIN:\n    sp_name - name of the clothing sprite object to replace hair\n        map values in\n    hair_to_replace - hair name to replace with defaults"
+    }
   },
   "_remove_sel_list": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_remove_sel_list",
     "line": 2874,
+    "docstring": "Removes selectable from selectbale list\n\nOnly intended for json usage. DO not use elsewhere. In general, you\nshould NEVER need to remove a selectable from the selectable list.",
     "function_args": {
       "args": [
         "name",
@@ -193,13 +210,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Removes selectable from selectbale list\n\nOnly intended for json usage. DO not use elsewhere. In general, you\nshould NEVER need to remove a selectable from the selectable list."
+    }
   },
   "_reset_sp_obj": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_reset_sp_obj",
     "line": 2886,
+    "docstring": "Uninits the given sprite object. This is meant only for json\nsprite usage if we need to back out.\n\nIN:\n    sp_obj - sprite object to remove",
     "function_args": {
       "args": [
         "sp_obj"
@@ -210,13 +228,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Uninits the given sprite object. This is meant only for json\nsprite usage if we need to back out.\n\nIN:\n    sp_obj - sprite object to remove"
+    }
   },
   "_build_loadstrs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_build_loadstrs",
     "line": 2930,
+    "docstring": "Builds list of strings that need to be verified via loadable.\n\nIN:\n    sp_obj - sprite object to build strings from\n    sel_obj - selectable to build thumb string from.\n        Ignored if None\n        (Default: None)\n\nRETURNS: list of strings that would need to be loadable verified",
     "function_args": {
       "args": [
         "sp_obj",
@@ -230,13 +249,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds list of strings that need to be verified via loadable.\n\nIN:\n    sp_obj - sprite object to build strings from\n    sel_obj - selectable to build thumb string from.\n        Ignored if None\n        (Default: None)\n\nRETURNS: list of strings that would need to be loadable verified"
+    }
   },
   "_check_giftname": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_check_giftname",
     "line": 2980,
+    "docstring": "Initializes the giftname with the sprite info\n\nIN:\n    giftname - giftname we want to use\n    sp_type - sprite type we want to init\n    sp_name - name of the sprite object to associated with this gift\n        (use the sprite's name property == ID)\n    ind_lvl - indentation level to use\n\nOUT:\n    msg_log - list to log messages to",
     "function_args": {
       "args": [
         "giftname",
@@ -251,13 +271,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Initializes the giftname with the sprite info\n\nIN:\n    giftname - giftname we want to use\n    sp_type - sprite type we want to init\n    sp_name - name of the sprite object to associated with this gift\n        (use the sprite's name property == ID)\n    ind_lvl - indentation level to use\n\nOUT:\n    msg_log - list to log messages to"
+    }
   },
   "_init_giftname": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_init_giftname",
     "line": 3019,
+    "docstring": "Initializes the giftname with the sprite info\ndoes not check for valid giftname.\n\nIN:\n    giftname - giftname we want to use\n    sp_type - sprite type we want to init\n    sp_name - name of the sprite object to associate with this gift",
     "function_args": {
       "args": [
         "giftname",
@@ -270,13 +291,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Initializes the giftname with the sprite info\ndoes not check for valid giftname.\n\nIN:\n    giftname - giftname we want to use\n    sp_type - sprite type we want to init\n    sp_name - name of the sprite object to associate with this gift"
+    }
   },
   "_process_giftname": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_process_giftname",
     "line": 3034,
+    "docstring": "Process the gift maps by cleaning the persistent vars",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -285,13 +307,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Process the gift maps by cleaning the persistent vars"
+    }
   },
   "_process_progpoint": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_process_progpoint",
     "line": 3049,
+    "docstring": "Attempts to find a prop point for a sprite object with the given\nsp_type and name\n\nIN:\n    sp_type - sprite object type\n    name - name of sprite object\n    ind_lvl - indent level\n    progname - name of progpoint (do not include suffix)\n\nOUT:\n    save_obj - dict to save progpoint to\n    msg_log - list to save messages to",
     "function_args": {
       "args": [
         "sp_type",
@@ -307,13 +330,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to find a prop point for a sprite object with the given\nsp_type and name\n\nIN:\n    sp_type - sprite object type\n    name - name of sprite object\n    ind_lvl - indent level\n    progname - name of progpoint (do not include suffix)\n\nOUT:\n    save_obj - dict to save progpoint to\n    msg_log - list to save messages to"
+    }
   },
   "_test_loadables": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_test_loadables",
     "line": 3102,
+    "docstring": "Tests loadable images and errs if an image is not loadable.\n\nIN:\n    sp_obj - sprite object to test\n    ind_lvl - indentation level\n\nOUT:\n    msg_log - list to add messages to",
     "function_args": {
       "args": [
         "sp_obj",
@@ -326,13 +350,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Tests loadable images and errs if an image is not loadable.\n\nIN:\n    sp_obj - sprite object to test\n    ind_lvl - indentation level\n\nOUT:\n    msg_log - list to add messages to"
+    }
   },
   "_validate_type": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_type",
     "line": 3128,
+    "docstring": "Validates the type of this json object.\n\nLogs errors. Also pops type off\n\nIN:\n    json_obj - json object to validate\n    ind_lvl - indentation level\n\nOUT:\n    msg_log - list to add messages to\n\nRETURNS: SP constant if valid type, None otherwise",
     "function_args": {
       "args": [
         "json_obj",
@@ -345,13 +370,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates the type of this json object.\n\nLogs errors. Also pops type off\n\nIN:\n    json_obj - json object to validate\n    ind_lvl - indentation level\n\nOUT:\n    msg_log - list to add messages to\n\nRETURNS: SP constant if valid type, None otherwise"
+    }
   },
   "_validate_mux_type": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_mux_type",
     "line": 3166,
+    "docstring": "Validates mux_type of this json object\n\nIN:\n    json_obj - json object to validate\n    indent_lvl - indtenation lvl to use\n\nOUT:\n    msg_log - list to save error messages to\n        if nothing was addeed to this list, the mux_type is valid\n\nRETURNS: mux_type found. May be None",
     "function_args": {
       "args": [
         "json_obj",
@@ -364,13 +390,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates mux_type of this json object\n\nIN:\n    json_obj - json object to validate\n    indent_lvl - indtenation lvl to use\n\nOUT:\n    msg_log - list to save error messages to\n        if nothing was addeed to this list, the mux_type is valid\n\nRETURNS: mux_type found. May be None"
+    }
   },
   "_validate_iterstr": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_iterstr",
     "line": 3220,
+    "docstring": "Validates an iterable if it consists solely of strings\n\nan empty list is considered bad.\n\nIN:\n    jobj - json object to parse\n    propname - property name for error messages\n    required - True if this property is required, False if not\n    allow_none - True if None is valid value, False if not\n    indent_lvl - indentation level\n\nOUT:\n    save_obj - dict to save to\n    msg_log - list to save messages to\n\nRETURNS: True if good, False if bad",
     "function_args": {
       "args": [
         "jobj",
@@ -387,13 +414,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates an iterable if it consists solely of strings\n\nan empty list is considered bad.\n\nIN:\n    jobj - json object to parse\n    propname - property name for error messages\n    required - True if this property is required, False if not\n    allow_none - True if None is valid value, False if not\n    indent_lvl - indentation level\n\nOUT:\n    save_obj - dict to save to\n    msg_log - list to save messages to\n\nRETURNS: True if good, False if bad"
+    }
   },
   "_validate_params": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_params",
     "line": 3302,
+    "docstring": "Validates a list of parameters, while also saving said params into\ngiven save object.\n\nErrors/Warnings are logged to given lists\n\nIN:\n    jobj - json object to parse\n    param_dict - dict of params + verification functiosn\n    required - True if the given params are required, False otherwise.\n    indent_lvl - indentation level to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - log to save messages to\n\nRETURNS: True if success, False if not",
     "function_args": {
       "args": [
         "jobj",
@@ -409,13 +437,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates a list of parameters, while also saving said params into\ngiven save object.\n\nErrors/Warnings are logged to given lists\n\nIN:\n    jobj - json object to parse\n    param_dict - dict of params + verification functiosn\n    required - True if the given params are required, False otherwise.\n    indent_lvl - indentation level to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - log to save messages to\n\nRETURNS: True if success, False if not"
+    }
   },
   "_validate_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_acs",
     "line": 3366,
+    "docstring": "Validates ACS-specific properties, as well as acs pose map\n\nProps validated:\n    - rec_layer\n    - priority\n    - acs_type\n    - dlg_desc\n    - dlg_plural\n    - mux_type\n    - pose_map\n    - giftname\n    - arm_split\n    - highlight\n\nIN:\n    jobj - json object to pasrse\n    obj_based - dict of object-based items\n        (contains pose_map)\n    indent_lvl - indentation lvl to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if validation success, False if not",
     "function_args": {
       "args": [
         "jobj",
@@ -430,13 +459,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates ACS-specific properties, as well as acs pose map\n\nProps validated:\n    - rec_layer\n    - priority\n    - acs_type\n    - dlg_desc\n    - dlg_plural\n    - mux_type\n    - pose_map\n    - giftname\n    - arm_split\n    - highlight\n\nIN:\n    jobj - json object to pasrse\n    obj_based - dict of object-based items\n        (contains pose_map)\n    indent_lvl - indentation lvl to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if validation success, False if not"
+    }
   },
   "_validate_fallbacks": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_fallbacks",
     "line": 3575,
+    "docstring": "Validates fallback related properties and pose map\n\nProps validated:\n    - fallback\n    - pose_map\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains pose_map)\n    indent_lvl - indentation lvl to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to\n\nRETURNS: True if success, False if not",
     "function_args": {
       "args": [
         "jobj",
@@ -451,13 +481,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates fallback related properties and pose map\n\nProps validated:\n    - fallback\n    - pose_map\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains pose_map)\n    indent_lvl - indentation lvl to use\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to\n\nRETURNS: True if success, False if not"
+    }
   },
   "_validate_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_hair",
     "line": 3639,
+    "docstring": "Validates HAIR related properties\n\nProps validated:\n    - unlock\n    - highlight\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n    indent_lvl - indentation lvl\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messagse to\n\nRETURNS: True on success, False if not",
     "function_args": {
       "args": [
         "jobj",
@@ -472,13 +503,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates HAIR related properties\n\nProps validated:\n    - unlock\n    - highlight\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n    indent_lvl - indentation lvl\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messagse to\n\nRETURNS: True on success, False if not"
+    }
   },
   "_validate_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_clothes",
     "line": 3739,
+    "docstring": "Validates CLOTHES related properties\n\nProps validated:\n    - hair_map\n    - giftname\n    - pose_arms\n    - highlight\n    - outfit_hair\n    - outfit_acs\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of objected-baesd items\n        (contains split)\n    sp_name - name of the clothes we are validating\n    dry_run - true if we are dry running, False if not\n    indent_lvl - indentation lvl\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to\n    post_proc_data - dict to store data for post proccessing\n\nRETURNS: True if good, False if not",
     "function_args": {
       "args": [
         "jobj",
@@ -496,13 +528,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates CLOTHES related properties\n\nProps validated:\n    - hair_map\n    - giftname\n    - pose_arms\n    - highlight\n    - outfit_hair\n    - outfit_acs\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of objected-baesd items\n        (contains split)\n    sp_name - name of the clothes we are validating\n    dry_run - true if we are dry running, False if not\n    indent_lvl - indentation lvl\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to\n    post_proc_data - dict to store data for post proccessing\n\nRETURNS: True if good, False if not"
+    }
   },
   "_validate_ex_props": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_ex_props",
     "line": 3920,
+    "docstring": "Validates ex_props proprety\n\nProps validated:\n    - ex_props\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains ex_props)\n    ind_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to",
     "function_args": {
       "args": [
         "jobj",
@@ -517,13 +550,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates ex_props proprety\n\nProps validated:\n    - ex_props\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains ex_props)\n    ind_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to save messages to"
+    }
   },
   "_validate_highlight": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_highlight",
     "line": 3976,
+    "docstring": "Validates highlight objects\n\nProps validated:\n    - highlight\n\nIN:\n    obj_based - dict of object-based props\n    hl_keys - the keys that this highlight object should be using\n    ind_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if valid, False if not",
     "function_args": {
       "args": [
         "obj_based",
@@ -538,13 +572,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates highlight objects\n\nProps validated:\n    - highlight\n\nIN:\n    obj_based - dict of object-based props\n    hl_keys - the keys that this highlight object should be using\n    ind_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if valid, False if not"
+    }
   },
   "_validate_highlight_core": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_highlight_core",
     "line": 4013,
+    "docstring": "Primary portion of highlight validation. This is so it can be\nused seamlessly with highlight split object validation logs.\n\nProps validated:\n    - highlight\n\nIN:\n    jobj - json object to parse\n    hl_keys - the keys this highlight object should be using\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if valid, False if not",
     "function_args": {
       "args": [
         "jobj",
@@ -559,13 +594,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Primary portion of highlight validation. This is so it can be\nused seamlessly with highlight split object validation logs.\n\nProps validated:\n    - highlight\n\nIN:\n    jobj - json object to parse\n    hl_keys - the keys this highlight object should be using\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to add messages to\n\nRETURNS: True if valid, False if not"
+    }
   },
   "_validate_selectable": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_validate_selectable",
     "line": 4120,
+    "docstring": "Validates selectable\n\nProps validated:\n    - select_info\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains select_info)\n    indent_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to write messages to\n\nRETURNS: True if success, false if failure",
     "function_args": {
       "args": [
         "jobj",
@@ -580,13 +616,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Validates selectable\n\nProps validated:\n    - select_info\n\nIN:\n    jobj - json object to parse\n    obj_based - dict of object-based items\n        (contains select_info)\n    indent_lvl - indentation level\n\nOUT:\n    save_obj - dict to save data to\n    msg_log - list to write messages to\n\nRETURNS: True if success, false if failure"
+    }
   },
   "addSpriteObject": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "addSpriteObject",
     "line": 4206,
+    "docstring": "Adds a sprite object, given its json filepath\n\nNOTE: most exceptions logged\nNOTE: may raise exceptions\n\nIN:\n    filepath - filepath to the JSON we want to load\n\nOUT:\n    post_proc_data - dict to store post processing data in",
     "function_args": {
       "args": [
         "filepath",
@@ -598,13 +635,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds a sprite object, given its json filepath\n\nNOTE: most exceptions logged\nNOTE: may raise exceptions\n\nIN:\n    filepath - filepath to the JSON we want to load\n\nOUT:\n    post_proc_data - dict to store post processing data in"
+    }
   },
   "addSpriteObjects": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "addSpriteObjects",
     "line": 4557,
+    "docstring": "Adds sprite objects if we find any\n\nAlso does delayed validation rules:\n    - hair\n\nOUT:\n    post_proc_data - data to be used in post processing code\n        (should be a dict)",
     "function_args": {
       "args": [
         "post_proc_data"
@@ -615,13 +653,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds sprite objects if we find any\n\nAlso does delayed validation rules:\n    - hair\n\nOUT:\n    post_proc_data - data to be used in post processing code\n        (should be a dict)"
+    }
   },
   "initSpriteObjectProc": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "initSpriteObjectProc",
     "line": 4583,
+    "docstring": "Prepares internal data for sprite object processing",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -630,13 +669,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Prepares internal data for sprite object processing"
+    }
   },
   "verifyHairs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "verifyHairs",
     "line": 4589,
+    "docstring": "Verifies all hair items that we encountered",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -645,13 +685,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Verifies all hair items that we encountered"
+    }
   },
   "processOutfitExtras": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "processOutfitExtras",
     "line": 4621,
+    "docstring": "Processes outfit extras for sprites\n\nIN:\n    post_proc_data - data set by the sprite object add alg",
     "function_args": {
       "args": [
         "post_proc_data"
@@ -662,13 +703,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Processes outfit extras for sprites\n\nIN:\n    post_proc_data - data set by the sprite object add alg"
+    }
   },
   "_addGift": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_addGift",
     "line": 4666,
+    "docstring": "Adds the reaction for this gift, using the correct label depending on\ngift label existence.\n\nIN:\n    giftname - giftname to add reaction for\n    indent_lvl - indentation level to use",
     "function_args": {
       "args": [
         "giftname",
@@ -680,13 +722,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds the reaction for this gift, using the correct label depending on\ngift label existence.\n\nIN:\n    giftname - giftname to add reaction for\n    indent_lvl - indentation level to use"
+    }
   },
   "processGifts": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "processGifts",
     "line": 4702,
+    "docstring": "Processes giftnames that were loaded, adding/removing them from\ncertain dicts.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -695,11 +738,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Processes giftnames that were loaded, adding/removing them from\ncertain dicts."
+    }
   },
   "runSpriteObjAlg": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "runSpriteObjAlg",
     "line": 4771,
     "function_args": {

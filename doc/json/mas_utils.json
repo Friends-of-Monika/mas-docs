@@ -1,8 +1,10 @@
 {
   "can_use_https": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "can_use_https",
     "line": 31,
+    "docstring": "Checks if we can safely use https in general - this combines several\nchecks, mainly:\n    - ssl\n    - a cert\n\nNOTE: https can still be used with sites that do not require SSL verify\neven if no cert is found.\n\nRETURNS: True if https can be used.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -11,13 +13,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if we can safely use https in general - this combines several\nchecks, mainly:\n    - ssl\n    - a cert\n\nNOTE: https can still be used with sites that do not require SSL verify\neven if no cert is found.\n\nRETURNS: True if https can be used."
+    }
   },
   "all_none": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "all_none",
     "line": 85,
+    "docstring": "Checks if a dict and/or list is all None\n\nIN:\n    data - Dict of data. values are checked for None-ness\n        (Default: None)\n    lata - List of data. values are checked for None-ness\n        (Default: None)\n\nRETURNS: True if all data is None, False otherwise",
     "function_args": {
       "args": [
         "data",
@@ -32,13 +35,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if a dict and/or list is all None\n\nIN:\n    data - Dict of data. values are checked for None-ness\n        (Default: None)\n    lata - List of data. values are checked for None-ness\n        (Default: None)\n\nRETURNS: True if all data is None, False otherwise"
+    }
   },
   "clean_gui_text": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clean_gui_text",
     "line": 111,
+    "docstring": "Cleans the given text so its suitable for GUI usage\n\nIN:\n    text - text to clean\n\nRETURNS:\n    cleaned text",
     "function_args": {
       "args": [
         "text"
@@ -49,13 +53,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Cleans the given text so its suitable for GUI usage\n\nIN:\n    text - text to clean\n\nRETURNS:\n    cleaned text"
+    }
   },
   "eqfloat": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "eqfloat",
     "line": 126,
+    "docstring": "Float comparisons thatcan handle accuracy errors.\nThis uses checks equivalence within a given amount of decimal places\n\nIN:\n    left - value to compare\n    right - other value to compare\n\nRETURNS: True if values are equal, False if not",
     "function_args": {
       "args": [
         "left",
@@ -70,13 +75,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Float comparisons thatcan handle accuracy errors.\nThis uses checks equivalence within a given amount of decimal places\n\nIN:\n    left - value to compare\n    right - other value to compare\n\nRETURNS: True if values are equal, False if not"
+    }
   },
   "truncround": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "truncround",
     "line": 145,
+    "docstring": "Does \"truncated rounding\" for floats. This is done via a floatsplit_i\nthat reassembles into a float.\n\nIN:\n    value - float to round\n    places - number of decimal places to truncate round to\n        (Default: 6)\n\nRETURNS: truncate-rounded float",
     "function_args": {
       "args": [
         "value",
@@ -90,13 +96,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Does \"truncated rounding\" for floats. This is done via a floatsplit_i\nthat reassembles into a float.\n\nIN:\n    value - float to round\n    places - number of decimal places to truncate round to\n        (Default: 6)\n\nRETURNS: truncate-rounded float"
+    }
   },
   "floatcombine_i": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "floatcombine_i",
     "line": 160,
+    "docstring": "Combines output of floatsplit_i back into a float\n\nIN:\n    value - tuple of the following format:\n        [0]: integer part of the float\n        [1]: float part of the float as integer\n    places - number of places to apply to the float part\n        (Default: 6)\n\nRETURNS: float",
     "function_args": {
       "args": [
         "value",
@@ -110,13 +117,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Combines output of floatsplit_i back into a float\n\nIN:\n    value - tuple of the following format:\n        [0]: integer part of the float\n        [1]: float part of the float as integer\n    places - number of places to apply to the float part\n        (Default: 6)\n\nRETURNS: float"
+    }
   },
   "floatsplit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "floatsplit",
     "line": 176,
+    "docstring": "Splits a float into int and float parts (unlike _splitfloat which\nreturns three ints, or floatsplit_i which returns two ints with\nrounding)\n\nIN:\n    value - float to split\n\nRETURNS: tuple of the following format:\n    [0] - integer portion of float (int)\n    [1] - float portion of float (float)",
     "function_args": {
       "args": [
         "value"
@@ -127,13 +135,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Splits a float into int and float parts (unlike _splitfloat which\nreturns three ints, or floatsplit_i which returns two ints with\nrounding)\n\nIN:\n    value - float to split\n\nRETURNS: tuple of the following format:\n    [0] - integer portion of float (int)\n    [1] - float portion of float (float)"
+    }
   },
   "floatsplit_i": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "floatsplit_i",
     "line": 193,
+    "docstring": "Similar to floatsplit, but converts the float portion into an int\n\nIN:\n    value - float to split\n    places - number of decimal places to keep when converting the\n        float to an int\n        (Default: 6)\n\nRETURNS: tuple of the following format:\n    [0] - integer portion of float\n    [1] - float portion of float, multiplied by 10^places",
     "function_args": {
       "args": [
         "value",
@@ -147,13 +156,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Similar to floatsplit, but converts the float portion into an int\n\nIN:\n    value - float to split\n    places - number of decimal places to keep when converting the\n        float to an int\n        (Default: 6)\n\nRETURNS: tuple of the following format:\n    [0] - integer portion of float\n    [1] - float portion of float, multiplied by 10^places"
+    }
   },
   "pdget": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "pdget",
     "line": 212,
+    "docstring": "Protected Dict GET\nGets an item from a dict, using protections to ensure this item is\nvalid\n\nIN:\n    key - key of item to get\n    table - dict to get from\n    validator - function to call with the item to validate it\n        If None, no validating done\n        (Default: None)\n    defval - default value to return if could not get from dict",
     "function_args": {
       "args": [
         "key",
@@ -170,13 +180,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Protected Dict GET\nGets an item from a dict, using protections to ensure this item is\nvalid\n\nIN:\n    key - key of item to get\n    table - dict to get from\n    validator - function to call with the item to validate it\n        If None, no validating done\n        (Default: None)\n    defval - default value to return if could not get from dict"
+    }
   },
   "td2hr": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "td2hr",
     "line": 238,
+    "docstring": "Converts a timedetla to hours (fractional)\n\nIN:\n    duration - timedelta to convert\n\nRETURNS: hours as float",
     "function_args": {
       "args": [
         "duration"
@@ -187,13 +198,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts a timedetla to hours (fractional)\n\nIN:\n    duration - timedelta to convert\n\nRETURNS: hours as float"
+    }
   },
   "get_localzone": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_localzone",
     "line": 250,
+    "docstring": "Wrapper around tzlocal.get_localzone() that won't raise exceptions\n\nNOTE: this caches the timezone. Call reload_localzone() to gurantee\ntimezone is updated.\n\nRETURNS: pytz tzinfo object of the local time zone.\n    if system timezone info is configured wrong, then a special-MAS\n    version of a timezone is returned instead. This version works\n    like a static, unchanging timezone, using the time.timezone/altzone\n    values.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -202,13 +214,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wrapper around tzlocal.get_localzone() that won't raise exceptions\n\nNOTE: this caches the timezone. Call reload_localzone() to gurantee\ntimezone is updated.\n\nRETURNS: pytz tzinfo object of the local time zone.\n    if system timezone info is configured wrong, then a special-MAS\n    version of a timezone is returned instead. This version works\n    like a static, unchanging timezone, using the time.timezone/altzone\n    values."
+    }
   },
   "reload_localzone": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "reload_localzone",
     "line": 275,
+    "docstring": "Reloads the cached localzone.\n\nRETURNS: see get_localzone()",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -217,13 +230,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Reloads the cached localzone.\n\nRETURNS: see get_localzone()"
+    }
   },
   "local_to_utc": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "local_to_utc",
     "line": 289,
+    "docstring": "Converts the given local datetime into a UTC datetime.\n\nNOTE: you shouldn't be using this. UTC time should be where you do\ndt manipulations and use utc_to_local to get a localized dt for human\nreading. datetime has a utcnow() function so use that to get started\ninstead of now()\n\nIN:\n    local_dt - datetime to convert, should be naive (no tzinfo)\n    latest - True will attempt to reload the local timezone before\n        doing the conversion. If dealing with an old datetime, you\n        might want to pass False\n        (Default: True)\n\nRETURNS:\n    UTC-based naive datetime (no tzinfo).\n    This is safe for pickling/saving to persistent.",
     "function_args": {
       "args": [
         "local_dt",
@@ -237,13 +251,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts the given local datetime into a UTC datetime.\n\nNOTE: you shouldn't be using this. UTC time should be where you do\ndt manipulations and use utc_to_local to get a localized dt for human\nreading. datetime has a utcnow() function so use that to get started\ninstead of now()\n\nIN:\n    local_dt - datetime to convert, should be naive (no tzinfo)\n    latest - True will attempt to reload the local timezone before\n        doing the conversion. If dealing with an old datetime, you\n        might want to pass False\n        (Default: True)\n\nRETURNS:\n    UTC-based naive datetime (no tzinfo).\n    This is safe for pickling/saving to persistent."
+    }
   },
   "utc_to_any": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "utc_to_any",
     "line": 317,
+    "docstring": "Converts the given UTC datetime into any tz datetime\n\nIN:\n    utc_dt - datetime to convert, should be naive (no tzinfo)\n    target_tz - pytz.tzinfo object of the timezone to convert to\n\nRETURNS:\n    datetime converted to the target timezone.\n    NOTE: DO NOT PICKLE THIS OR SAVE TO PERSISTENT.",
     "function_args": {
       "args": [
         "utc_dt",
@@ -255,13 +270,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts the given UTC datetime into any tz datetime\n\nIN:\n    utc_dt - datetime to convert, should be naive (no tzinfo)\n    target_tz - pytz.tzinfo object of the timezone to convert to\n\nRETURNS:\n    datetime converted to the target timezone.\n    NOTE: DO NOT PICKLE THIS OR SAVE TO PERSISTENT."
+    }
   },
   "utc_to_local": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "utc_to_local",
     "line": 332,
+    "docstring": "Converts the given UTC datetime into a local datetime\n\nIN:\n    utc_dt - datetime to convert, should be naive (no tzinfo)\n    latest - True will attempt to reload the local timezone before\n        doing the conversion. If dealing with an old datetime, you\n        might want to pass False\n        (Default: True)\n\nRETURNS:\n    localized datetime with tzinfo of this zone (see pytz docs)\n    NOTE: DO NOT PICKLE THIS or SAVE TO PERSISTENT. While pytz can\n        safely pickle, we do not want to force a dependency on the\n        persistent.",
     "function_args": {
       "args": [
         "utc_dt",
@@ -275,13 +291,16 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts the given UTC datetime into a local datetime\n\nIN:\n    utc_dt - datetime to convert, should be naive (no tzinfo)\n    latest - True will attempt to reload the local timezone before\n        doing the conversion. If dealing with an old datetime, you\n        might want to pass False\n        (Default: True)\n\nRETURNS:\n    localized datetime with tzinfo of this zone (see pytz docs)\n    NOTE: DO NOT PICKLE THIS or SAVE TO PERSISTENT. While pytz can\n        safely pickle, we do not want to force a dependency on the\n        persistent."
+    }
   },
   "stdout_as": {
     "type": "function",
+    "function_decorators": [
+      "contextmanager"
+    ],
     "identifier": "stdout_as",
     "line": 356,
+    "docstring": "Context manager that can replace stdout temporarily. Use with the\nwith statement (python).\n\nIN:\n    outstream - the stream to temporarily replace sys.stdout with",
     "function_args": {
       "args": [
         "outstream"
@@ -292,13 +311,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Context manager that can replace stdout temporarily. Use with the\nwith statement (python).\n\nIN:\n    outstream - the stream to temporarily replace sys.stdout with"
+    }
   },
   "tryparsedt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "tryparsedt",
     "line": 371,
+    "docstring": "Trys to parse a datetime isoformat string into a datetime object\n\nIN:\n    _datetime - datetime iso format string to parse\n    default - default value to return if parsing fails\n    sep - separator used when converting to isoformat\n\nRETURNS:\n    datetime object, or default if parsing failed",
     "function_args": {
       "args": [
         "_datetime",
@@ -314,13 +334,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Trys to parse a datetime isoformat string into a datetime object\n\nIN:\n    _datetime - datetime iso format string to parse\n    default - default value to return if parsing fails\n    sep - separator used when converting to isoformat\n\nRETURNS:\n    datetime object, or default if parsing failed"
+    }
   },
   "is_file_present": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_file_present",
     "line": 417,
+    "docstring": "Checks if a file is present (exists)",
     "function_args": {
       "args": [
         "filename"
@@ -331,13 +352,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if a file is present (exists)"
+    }
   },
   "weightedChoice": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "weightedChoice",
     "line": 431,
+    "docstring": "Returns a random item based on weighting.\nNOTE: That weight essentially corresponds to the equivalent of how many times to duplicate the choice\n\nIN:\n    choice_weight_tuple_list - List of tuples with the form (choice, weighting)\n\nOUT:\n    random choice value picked using choice weights",
     "function_args": {
       "args": [
         "choice_weight_tuple_list"
@@ -348,13 +370,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns a random item based on weighting.\nNOTE: That weight essentially corresponds to the equivalent of how many times to duplicate the choice\n\nIN:\n    choice_weight_tuple_list - List of tuples with the form (choice, weighting)\n\nOUT:\n    random choice value picked using choice weights"
+    }
   },
   "tryparsefloat": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "tryparsefloat",
     "line": 489,
+    "docstring": "Attempts to parse the given value into a float. Returns the default if\nthat parse failed.\n\nIN:\n    value - value to parse\n    default - value to return if parse fails\n    (Default: 0)\n\nRETURNS: a float representation of the given value, or default if\n    the given value could not be parsed into an float",
     "function_args": {
       "args": [
         "value",
@@ -368,13 +391,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to parse the given value into a float. Returns the default if\nthat parse failed.\n\nIN:\n    value - value to parse\n    default - value to return if parse fails\n    (Default: 0)\n\nRETURNS: a float representation of the given value, or default if\n    the given value could not be parsed into an float"
+    }
   },
   "bullet_list": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "bullet_list",
     "line": 507,
+    "docstring": "Converts a list of items into a bulleted list of strings.\n\nIN:\n    _list - list to convert into bulleted list\n    bullet - the bullet to use. A space is added between the bullet and\n        the item.\n        (Default: 2 spaces and a dash)\n\nRETURNS: a list of strings where each string is an item with a bullet.",
     "function_args": {
       "args": [
         "_list",
@@ -388,13 +412,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts a list of items into a bulleted list of strings.\n\nIN:\n    _list - list to convert into bulleted list\n    bullet - the bullet to use. A space is added between the bullet and\n        the item.\n        (Default: 2 spaces and a dash)\n\nRETURNS: a list of strings where each string is an item with a bullet."
+    }
   },
   "nested_defaultdict": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "nested_defaultdict",
     "line": 523,
+    "docstring": "Generates a nested defaultdict. Basically good for creating an n-level\ndict of defaults.\n\nIN:\n    final_factory - the constructor/object factory to use for the\n        innermost defaultdict\n        (Default: None)\n    levels - the number of nested defaultdicts to use. Must be greater\n        than 0 but less than 10.\n        The default value is equivalent to just calling defaultdict\n        (Default: 1)\n\nRETURNS: a nested defaultdict implementation",
     "function_args": {
       "args": [
         "final_factory",
@@ -409,13 +434,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates a nested defaultdict. Basically good for creating an n-level\ndict of defaults.\n\nIN:\n    final_factory - the constructor/object factory to use for the\n        innermost defaultdict\n        (Default: None)\n    levels - the number of nested defaultdicts to use. Must be greater\n        than 0 but less than 10.\n        The default value is equivalent to just calling defaultdict\n        (Default: 1)\n\nRETURNS: a nested defaultdict implementation"
+    }
   },
   "add_years": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "add_years",
     "line": 549,
+    "docstring": "ASSUMES:\n    initial_date as datetime\n    years as an int\n\nIN:\n    initial_date: the date to add years to\n    years : the number of years to add\n\nRETURNS:\n    the date with the years added, if it's feb 29th it goes to mar 1st,\n    if feb 29 doesn't exists in the new year",
     "function_args": {
       "args": [
         "initial_date",
@@ -427,13 +453,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "ASSUMES:\n    initial_date as datetime\n    years as an int\n\nIN:\n    initial_date: the date to add years to\n    years : the number of years to add\n\nRETURNS:\n    the date with the years added, if it's feb 29th it goes to mar 1st,\n    if feb 29 doesn't exists in the new year"
+    }
   },
   "add_months": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "add_months",
     "line": 573,
+    "docstring": "Takes a datetime object and add a number of months\nHandles the case where the new month doesn't have that day\n\nIN:\n    starting_date - date representing the date to add months to\n    months - amount of months to add\n\nOUT:\n    datetime.date representing the inputted date with the corresponding months added",
     "function_args": {
       "args": [
         "starting_date",
@@ -445,11 +472,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Takes a datetime object and add a number of months\nHandles the case where the new month doesn't have that day\n\nIN:\n    starting_date - date representing the date to add months to\n    months - amount of months to add\n\nOUT:\n    datetime.date representing the inputted date with the corresponding months added"
+    }
   },
   "sod": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "sod",
     "line": 627,
     "function_args": {
@@ -466,8 +493,10 @@
   },
   "mdnt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "mdnt",
     "line": 631,
+    "docstring": "Takes a datetime object and returns a new datetime with the same date\nat midnight\n\nIN:\n    starting_date - date to change\n\nRETURNS:\n    starting_date but at midnight",
     "function_args": {
       "args": [
         "starting_date"
@@ -478,13 +507,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Takes a datetime object and returns a new datetime with the same date\nat midnight\n\nIN:\n    starting_date - date to change\n\nRETURNS:\n    starting_date but at midnight"
+    }
   },
   "am3": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "am3",
     "line": 650,
+    "docstring": "Takes a datetime object and returns a new datetime with the same date\nat 3 am.\n\nIN:\n    _datetime - datetime to change\n\nRETURNS:\n    _datetime but at 3am",
     "function_args": {
       "args": [
         "_datetime"
@@ -495,13 +525,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Takes a datetime object and returns a new datetime with the same date\nat 3 am.\n\nIN:\n    _datetime - datetime to change\n\nRETURNS:\n    _datetime but at 3am"
+    }
   },
   "secInDay": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "secInDay",
     "line": 669,
+    "docstring": "RETURNS: number of seconds in a day",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -510,13 +541,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS: number of seconds in a day"
+    }
   },
   "time2sec": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "time2sec",
     "line": 676,
+    "docstring": "Converts a time value to seconds\n\nIN:\n    time - datetime.time object to convert\n\nRETURNS: number of seconds",
     "function_args": {
       "args": [
         "_time"
@@ -527,13 +559,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts a time value to seconds\n\nIN:\n    time - datetime.time object to convert\n\nRETURNS: number of seconds"
+    }
   },
   "fli_indk": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "fli_indk",
     "line": 688,
+    "docstring": "Find\nList\nItem\nIN\nDictionary\nKeys\n\nFinds index of an item in the list if it is a key in the given dict.\n\nIN:\n    lst - list to cehck\n    d - dictionary to check\n\nRETURNS: The index of the first item in the list that is a key in the\n    dict. There are no checks of if the item can be a valid key.\n    -1 is returned if no item in the list is a key in the dict.",
     "function_args": {
       "args": [
         "lst",
@@ -545,13 +578,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Find\nList\nItem\nIN\nDictionary\nKeys\n\nFinds index of an item in the list if it is a key in the given dict.\n\nIN:\n    lst - list to cehck\n    d - dictionary to check\n\nRETURNS: The index of the first item in the list that is a key in the\n    dict. There are no checks of if the item can be a valid key.\n    -1 is returned if no item in the list is a key in the dict."
+    }
   },
   "insert_sort": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "insert_sort",
     "line": 714,
+    "docstring": "Performs a round of insertion sort.\nThis does least to greatest sorting\n\nIN:\n    sort_list - list to insert + sort\n    item - item to sort and insert\n    key - function to call using the given item to retrieve sort key\n\nOUT:\n    sort_list - list with 1 additonal element, sorted",
     "function_args": {
       "args": [
         "sort_list",
@@ -564,13 +598,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Performs a round of insertion sort.\nThis does least to greatest sorting\n\nIN:\n    sort_list - list to insert + sort\n    item - item to sort and insert\n    key - function to call using the given item to retrieve sort key\n\nOUT:\n    sort_list - list with 1 additonal element, sorted"
+    }
   },
   "insert_sort_compare": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "insert_sort_compare",
     "line": 734,
+    "docstring": "Performs a round of insertion sort using comparison function\n\nIN:\n    sort_list - list to insert + sort\n    item - item to sort and insert\n    cmp_func - function to compare items with.\n        first arg will be item in the list\n        second arg will always be the item being inserted\n        This should return True if the item is not in the correct place\n        False when the item is in the correct place\n\nOUT:\n    sort_list - list with 1 additional element, sorted",
     "function_args": {
       "args": [
         "sort_list",
@@ -583,13 +618,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Performs a round of insertion sort using comparison function\n\nIN:\n    sort_list - list to insert + sort\n    item - item to sort and insert\n    cmp_func - function to compare items with.\n        first arg will be item in the list\n        second arg will always be the item being inserted\n        This should return True if the item is not in the correct place\n        False when the item is in the correct place\n\nOUT:\n    sort_list - list with 1 additional element, sorted"
+    }
   },
   "insert_sort_keyless": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "insert_sort_keyless",
     "line": 757,
+    "docstring": "Performs a round of insertion sort for natural comparison objects.\nThis does least to greatest sorting.\n\nIN:\n    sort_list - list to insert + sort\n    item - item to sort and insert\n\nOUT:\n    sort_list - list with 1 additional element, sorted",
     "function_args": {
       "args": [
         "sort_list",
@@ -601,13 +637,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Performs a round of insertion sort for natural comparison objects.\nThis does least to greatest sorting.\n\nIN:\n    sort_list - list to insert + sort\n    item - item to sort and insert\n\nOUT:\n    sort_list - list with 1 additional element, sorted"
+    }
   },
   "normalize_points": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "normalize_points",
     "line": 776,
+    "docstring": "normalizes a list of points using the given offsets\n\nIN:\n    points - list of points to normalize\n    offsets - Tuple of the following format:\n        [0] - amount to offset x coords\n        [1] - amount to offset y coords\n    add - True will add offsets, False will subtract offsets\n\nRETURNS: list of normalized points",
     "function_args": {
       "args": [
         "points",
@@ -622,13 +659,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "normalizes a list of points using the given offsets\n\nIN:\n    points - list of points to normalize\n    offsets - Tuple of the following format:\n        [0] - amount to offset x coords\n        [1] - amount to offset y coords\n    add - True will add offsets, False will subtract offsets\n\nRETURNS: list of normalized points"
+    }
   },
   "nz_count": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "nz_count",
     "line": 806,
+    "docstring": "NonZero Count\n\nCounts all non-zero values in the given list\n\nIN:\n    value_list - list to count nonzero values for\n\nRETURNS: number of nonzero values in list",
     "function_args": {
       "args": [
         "value_list"
@@ -639,13 +677,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "NonZero Count\n\nCounts all non-zero values in the given list\n\nIN:\n    value_list - list to count nonzero values for\n\nRETURNS: number of nonzero values in list"
+    }
   },
   "ev_distribute": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "ev_distribute",
     "line": 824,
+    "docstring": "EVen Distribute\n\nEvenly distributes the given value to a given value list.\nNOTE: only for ints\n\nIN:\n    value_list - list of numbers to distribute to\n    amt - amount to evenly distribute\n    nz - True will make distribution only apply to non-zero values,\n        False will distribute to all\n        (Default: False)\n\nOUT:\n    value_list - even distribution amount added to each appropriate\n        item in this list\n\nRETURNS: leftover amount",
     "function_args": {
       "args": [
         "value_list",
@@ -660,13 +699,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "EVen Distribute\n\nEvenly distributes the given value to a given value list.\nNOTE: only for ints\n\nIN:\n    value_list - list of numbers to distribute to\n    amt - amount to evenly distribute\n    nz - True will make distribution only apply to non-zero values,\n        False will distribute to all\n        (Default: False)\n\nOUT:\n    value_list - even distribution amount added to each appropriate\n        item in this list\n\nRETURNS: leftover amount"
+    }
   },
   "fz_distribute": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "fz_distribute",
     "line": 861,
+    "docstring": "Flipped Zero Distribute\n\nRedistributes values in the given list such that:\n1. any index with a value larger than 0 is set to 0\n2. any index with a value of 0 now has a nonzero value\n3. the nonzero is evenly divided among the appropriate indexes\n\nIN:\n    value_list - list of numbers to flip zero distribute\n\nOUT:\n    value_list - flip-zero distributed list of numbers\n\nRETURNS: any leftover amount",
     "function_args": {
       "args": [
         "value_list"
@@ -677,13 +717,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Flipped Zero Distribute\n\nRedistributes values in the given list such that:\n1. any index with a value larger than 0 is set to 0\n2. any index with a value of 0 now has a nonzero value\n3. the nonzero is evenly divided among the appropriate indexes\n\nIN:\n    value_list - list of numbers to flip zero distribute\n\nOUT:\n    value_list - flip-zero distributed list of numbers\n\nRETURNS: any leftover amount"
+    }
   },
   "ip_distribute": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "ip_distribute",
     "line": 900,
+    "docstring": "In Place Distribute\n\nDistributes values from one list to the other list, based on index.\nMismatched list sizes are allowed. There is no concept of leftovers\nhere.\n\nIN:\n    value_list - list of numbers to distribute to\n    amt_list - list of amounts to distribute\n\nOUT:\n    value_list - each corresponding index in amt_list added to\n        corresponding index in value_list",
     "function_args": {
       "args": [
         "value_list",
@@ -695,13 +736,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "In Place Distribute\n\nDistributes values from one list to the other list, based on index.\nMismatched list sizes are allowed. There is no concept of leftovers\nhere.\n\nIN:\n    value_list - list of numbers to distribute to\n    amt_list - list of amounts to distribute\n\nOUT:\n    value_list - each corresponding index in amt_list added to\n        corresponding index in value_list"
+    }
   },
   "lo_distribute": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lo_distribute",
     "line": 922,
+    "docstring": "LeftOver Distribute\nApplies leftovers to the given value list.\n\nIf leftovers are larger than the value list, we do ev_distribute first\n\nIN:\n    value_list - list of numbers to distribute to\n    leftovers - amount of leftover to distribute\n    reverse - True will add in reverse order, false will not\n        (Default: False)\n    nz - True will only apply leftovers to non-zero values\n        False will not\n        (Default: False)\n\nOUT:\n    value_list - some items will have leftovers added to them",
     "function_args": {
       "args": [
         "value_list",
@@ -718,13 +760,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "LeftOver Distribute\nApplies leftovers to the given value list.\n\nIf leftovers are larger than the value list, we do ev_distribute first\n\nIN:\n    value_list - list of numbers to distribute to\n    leftovers - amount of leftover to distribute\n    reverse - True will add in reverse order, false will not\n        (Default: False)\n    nz - True will only apply leftovers to non-zero values\n        False will not\n        (Default: False)\n\nOUT:\n    value_list - some items will have leftovers added to them"
+    }
   },
   "_EVgenY": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_EVgenY",
     "line": 972,
+    "docstring": "Generates/decides if a given start/end datetime/date should have its\nyear incremented or not.\n\nNOTE: specialized for Event creation datetime selection\nNOTE: this only modifies year.\n\nIN:\n    _start - datetime/date that begins this period\n    _end - datetime/date that ends this period\n    current - datetime/date to compare with (should be either today\n        or now)\n    for_start - True if we want the next valid start, False for end\n\nRETURNS either next valid _start or next valid _end.",
     "function_args": {
       "args": [
         "_start",
@@ -738,13 +781,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates/decides if a given start/end datetime/date should have its\nyear incremented or not.\n\nNOTE: specialized for Event creation datetime selection\nNOTE: this only modifies year.\n\nIN:\n    _start - datetime/date that begins this period\n    _end - datetime/date that ends this period\n    current - datetime/date to compare with (should be either today\n        or now)\n    for_start - True if we want the next valid start, False for end\n\nRETURNS either next valid _start or next valid _end."
+    }
   },
   "randomblob": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "randomblob",
     "line": 1004,
+    "docstring": "Generates a blob of StringIO data with the given size\n\nNOTE: if seed is given, the current random state will be restored\n    after this function ends\n\nNOTE: generated bytes are in range of 0-255\n\nIN:\n    size - size in bytes of the blob to make\n    seed - seed to use\n        if None, curent time is used (as per random documentation)\n        (Default: None)\n\nRETURNS:\n    a cStringIO buffer of the random blob",
     "function_args": {
       "args": [
         "size",
@@ -758,13 +802,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates a blob of StringIO data with the given size\n\nNOTE: if seed is given, the current random state will be restored\n    after this function ends\n\nNOTE: generated bytes are in range of 0-255\n\nIN:\n    size - size in bytes of the blob to make\n    seed - seed to use\n        if None, curent time is used (as per random documentation)\n        (Default: None)\n\nRETURNS:\n    a cStringIO buffer of the random blob"
+    }
   },
   "randomblob_fast": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "randomblob_fast",
     "line": 1041,
+    "docstring": "Generates a randomb blob of stringIO data more efficientally and with\ntrue random using urandom\n\nNOTE: to prevent errors, we only generate bytes at 4M per iteration\n\nIN:\n    size - size in bytes of the blob to make\n\nRETURNS:\n    a cStringIO buffer of the random blob",
     "function_args": {
       "args": [
         "size"
@@ -775,13 +820,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates a randomb blob of stringIO data more efficientally and with\ntrue random using urandom\n\nNOTE: to prevent errors, we only generate bytes at 4M per iteration\n\nIN:\n    size - size in bytes of the blob to make\n\nRETURNS:\n    a cStringIO buffer of the random blob"
+    }
   },
   "intersperse": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "intersperse",
     "line": 1071,
+    "docstring": "Intersperses a list with the given separator",
     "function_args": {
       "args": [
         "_list",
@@ -793,13 +839,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Intersperses a list with the given separator"
+    }
   },
   "log_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "log_entry",
     "line": 1080,
+    "docstring": "Generic entry add to the given log.\nStores both time and given value as a tuple:\n    [0]: datetime.now()\n    [1]: value\n\nIN:\n    entry_log - list to log entry to\n    value - value to log in this entry",
     "function_args": {
       "args": [
         "entry_log",
@@ -811,11 +858,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generic entry add to the given log.\nStores both time and given value as a tuple:\n    [0]: datetime.now()\n    [1]: value\n\nIN:\n    entry_log - list to log entry to\n    value - value to log in this entry"
+    }
   },
   "ISCRAM": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "ISCRAM",
     "class_bases": [
       "ctypes.BigEndianStructure"
@@ -825,6 +872,7 @@
   },
   "FSCRAM": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "FSCRAM",
     "class_bases": [
       "ctypes.BigEndianStructure"
@@ -834,8 +882,10 @@
   },
   "_ntoub": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_ntoub",
     "line": 1124,
+    "docstring": "Partial packing.",
     "function_args": {
       "args": [
         "num",
@@ -847,13 +897,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Partial packing."
+    }
   },
   "_itoIS": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_itoIS",
     "line": 1138,
+    "docstring": "integer packing",
     "function_args": {
       "args": [
         "num"
@@ -864,13 +915,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "integer packing"
+    }
   },
   "_IStoi": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_IStoi",
     "line": 1163,
+    "docstring": "integer unpacking",
     "function_args": {
       "args": [
         "packednum"
@@ -881,13 +933,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "integer unpacking"
+    }
   },
   "_ftoFS": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_ftoFS",
     "line": 1181,
+    "docstring": "Float packing",
     "function_args": {
       "args": [
         "num"
@@ -898,13 +951,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Float packing"
+    }
   },
   "_FStof": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_FStof",
     "line": 1198,
+    "docstring": "Float unpacking",
     "function_args": {
       "args": [
         "packednum"
@@ -915,13 +969,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Float unpacking"
+    }
   },
   "_splitfloat": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_splitfloat",
     "line": 1214,
+    "docstring": "Splits a float into integer parts:\n\n[0]: integer\n[1]: numerator\n[2]: denominator",
     "function_args": {
       "args": [
         "num"
@@ -932,13 +987,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Splits a float into integer parts:\n\n[0]: integer\n[1]: numerator\n[2]: denominator"
+    }
   },
   "sanitize_filename": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "sanitize_filename",
     "line": 1230,
+    "docstring": "Sanitizes a filename by removing characters that might have special\nmeaning on certain platforms.\n\nIN:\n    s:\n        String to sanitize.\n\nOUT:\n    str:\n        Sanitized string, stripped of special characters.",
     "function_args": {
       "args": [
         "s"
@@ -949,7 +1005,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sanitizes a filename by removing characters that might have special\nmeaning on certain platforms.\n\nIN:\n    s:\n        String to sanitize.\n\nOUT:\n    str:\n        Sanitized string, stripped of special characters."
+    }
   }
 }

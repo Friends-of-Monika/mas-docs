@@ -1,8 +1,10 @@
 {
   "lookup": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lookup",
     "line": 252,
+    "docstring": "Looks up data in the historical archives.\n\nIN:\n    key - data key to lookup\n    year - year to look up data\n\nRETURNS: a tuple of the following format:\n    [0]: Lookup constant\n    [1]: retrieved data (which may be None). This is always None if\n        we could not find year or key",
     "function_args": {
       "args": [
         "key",
@@ -14,13 +16,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Looks up data in the historical archives.\n\nIN:\n    key - data key to lookup\n    year - year to look up data\n\nRETURNS: a tuple of the following format:\n    [0]: Lookup constant\n    [1]: retrieved data (which may be None). This is always None if\n        we could not find year or key"
+    }
   },
   "lookup_ot": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lookup_ot",
     "line": 280,
+    "docstring": "Looks up data overtime in the historical archives.\n\nIN:\n    key - data key to lookup\n    years - years to look up data\n\nRETURNS: SEE lookup_ot_l",
     "function_args": {
       "args": [
         "key"
@@ -31,13 +34,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": "years"
-    },
-    "docstring": "Looks up data overtime in the historical archives.\n\nIN:\n    key - data key to lookup\n    years - years to look up data\n\nRETURNS: SEE lookup_ot_l"
+    }
   },
   "lookup_otl": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lookup_otl",
     "line": 293,
+    "docstring": "Looks up data overtime in the historical archives.\n\nIN:\n    key - data key to look up\n    years_list - list of years to lookup data\n\nRETURNS: dict of the following format:\n    year: tuple (SEE lookup)",
     "function_args": {
       "args": [
         "key",
@@ -49,13 +53,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Looks up data overtime in the historical archives.\n\nIN:\n    key - data key to look up\n    years_list - list of years to lookup data\n\nRETURNS: dict of the following format:\n    year: tuple (SEE lookup)"
+    }
   },
   "verify": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "verify",
     "line": 312,
+    "docstring": "Internali version of mas_HistVerify",
     "function_args": {
       "args": [
         "key",
@@ -68,13 +73,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Internali version of mas_HistVerify"
+    }
   },
   "_valid_year_range": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_valid_year_range",
     "line": 331,
+    "docstring": "generates the range of years that are valid for historical lookups.\n\nRETURNS: range of years from 2017 to todays year.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -83,13 +89,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "generates the range of years that are valid for historical lookups.\n\nRETURNS: range of years from 2017 to todays year."
+    }
   },
   "_store": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_store",
     "line": 341,
+    "docstring": "Stores data in the historical archives.\n\nNOTE: will OVERWRITE data that already exists.\n\nIN:\n    value - value to store\n    key - data key to store value\n    year - year to store value",
     "function_args": {
       "args": [
         "value",
@@ -102,13 +109,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Stores data in the historical archives.\n\nNOTE: will OVERWRITE data that already exists.\n\nIN:\n    value - value to store\n    key - data key to store value\n    year - year to store value"
+    }
   },
   "_store_all": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_store_all",
     "line": 355,
+    "docstring": "Stores multiple year's worth of data in the historical archives.\n\nNOTE: will OVERWRITE data that already exists.\n\nIN:\n    year_data - dictionary of the following format:\n        year: data tuple from mas_HistLookup\n    key - data key to store values",
     "function_args": {
       "args": [
         "year_data",
@@ -120,13 +128,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Stores multiple year's worth of data in the historical archives.\n\nNOTE: will OVERWRITE data that already exists.\n\nIN:\n    year_data - dictionary of the following format:\n        year: data tuple from mas_HistLookup\n    key - data key to store values"
+    }
   },
   "loadMHSData": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "loadMHSData",
     "line": 373,
+    "docstring": "Loads persistent MASHistorySaver data into the mhs_db\n\nAlso adds MHS to the sorted list and sorts it.\n\nASSUMES: the mhs database is already filled",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -135,13 +144,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Loads persistent MASHistorySaver data into the mhs_db\n\nAlso adds MHS to the sorted list and sorts it.\n\nASSUMES: the mhs database is already filled"
+    }
   },
   "saveMHSData": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "saveMHSData",
     "line": 390,
+    "docstring": "Saves MASHistorySaver data from mhs_db into persistent",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -150,13 +160,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Saves MASHistorySaver data from mhs_db into persistent"
+    }
   },
   "addMHS": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "addMHS",
     "line": 399,
+    "docstring": "Adds the given mhs to the database.\n\nIN:\n    mhs - MASHistorySaver object to add\n\nASSUMES that the given mhs does not conflict with existing",
     "function_args": {
       "args": [
         "mhs"
@@ -167,13 +178,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds the given mhs to the database.\n\nIN:\n    mhs - MASHistorySaver object to add\n\nASSUMES that the given mhs does not conflict with existing"
+    }
   },
   "getMHS": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "getMHS",
     "line": 411,
+    "docstring": "Gets the MASHistorySaver object with the given id\n\nIN:\n    mhs_id - id of the MASHistorySaver object to get\n\nRETURNS: MASHistorySaver object, or None if not found",
     "function_args": {
       "args": [
         "mhs_id"
@@ -184,11 +196,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the MASHistorySaver object with the given id\n\nIN:\n    mhs_id - id of the MASHistorySaver object to get\n\nRETURNS: MASHistorySaver object, or None if not found"
+    }
   },
   "_bday_exit_pp": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_bday_exit_pp",
     "line": 475,
     "function_args": {
@@ -205,8 +217,10 @@
   },
   "_pm_holdme_adj_times": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_pm_holdme_adj_times",
     "line": 484,
+    "docstring": "Sets the appropraite persistent vars according to the elasped time\nfor the hold me topic",
     "function_args": {
       "args": [
         "elapsed"
@@ -217,13 +231,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets the appropraite persistent vars according to the elasped time\nfor the hold me topic"
+    }
   },
   "_runMHSAlg": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_runMHSAlg",
     "line": 585,
+    "docstring": "Runs the historical data saving algorithm\n\nASSUMES:\n    - mhs_db is filled with MASHistorySaver objects",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -232,13 +247,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs the historical data saving algorithm\n\nASSUMES:\n    - mhs_db is filled with MASHistorySaver objects"
+    }
   },
   "_runMHSResetAlg": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_runMHSResetAlg",
     "line": 603,
+    "docstring": "Runs special resets in the case of TT. Do NOT call if TT not detected.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -247,7 +263,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs special resets in the case of TT. Do NOT call if TT not detected."
+    }
   }
 }

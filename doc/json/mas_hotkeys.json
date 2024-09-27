@@ -1,8 +1,10 @@
 {
   "allowdismiss": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "allowdismiss",
     "line": 44,
+    "docstring": "Justreturns current state of no_dismiss",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -11,13 +13,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Justreturns current state of no_dismiss"
+    }
   },
   "set_dismiss": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "set_dismiss",
     "line": 51,
+    "docstring": "Sets dismiss to the given value, if it is not locked.\n\nIN:\n    value - True will allow dismiss, False will not",
     "function_args": {
       "args": [
         "value"
@@ -28,7 +31,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets dismiss to the given value, if it is not locked.\n\nIN:\n    value - True will allow dismiss, False will not"
+    }
   }
 }

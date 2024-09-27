@@ -1,8 +1,10 @@
 {
   "_pp_spring": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_pp_spring",
     "line": 206,
+    "docstring": "Programming point for spring",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -11,13 +13,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Programming point for spring"
+    }
   },
   "_pp_summer": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_pp_summer",
     "line": 242,
+    "docstring": "Programming point for summer",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -26,13 +29,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Programming point for summer"
+    }
   },
   "_pp_fall": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_pp_fall",
     "line": 255,
+    "docstring": "Programming point for fall",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -41,13 +45,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Programming point for fall"
+    }
   },
   "_pp_winter": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_pp_winter",
     "line": 266,
+    "docstring": "Programming point for winter",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -56,13 +61,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Programming point for winter"
+    }
   },
   "_currentSeason": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_currentSeason",
     "line": 330,
+    "docstring": "Determins the current season and returns appropriate season ID",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -71,13 +77,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Determins the current season and returns appropriate season ID"
+    }
   },
   "_seasonalCatchup": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_seasonalCatchup",
     "line": 342,
+    "docstring": "Runs through seasonal programming points from the given prevoius\nseason to now. Returns the ID of the current season.\n\nIN:\n    prev_season - previously saved season\n\nRETURNS: current season ID",
     "function_args": {
       "args": [
         "prev_season"
@@ -88,7 +95,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs through seasonal programming points from the given prevoius\nseason to now. Returns the ID of the current season.\n\nIN:\n    prev_season - previously saved season\n\nRETURNS: current season ID"
+    }
   }
 }

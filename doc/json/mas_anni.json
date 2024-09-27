@@ -1,8 +1,10 @@
 {
   "build_anni": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "build_anni",
     "line": 207,
+    "docstring": "Builds an anniversary date.\n\nNOTE:\n    years / months / weeks are mutually exclusive\n\nIN:\n    years - number of years to make this anni date\n    months - number of months to make thsi anni date\n    weeks - number of weeks to make this anni date\n    isstart - True means this should be a starting date, False\n        means ending date\n\nASSUMES:\n    _m1_script0x2danniversary__persistent",
     "function_args": {
       "args": [
         "years",
@@ -21,13 +23,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds an anniversary date.\n\nNOTE:\n    years / months / weeks are mutually exclusive\n\nIN:\n    years - number of years to make this anni date\n    months - number of months to make thsi anni date\n    weeks - number of weeks to make this anni date\n    isstart - True means this should be a starting date, False\n        means ending date\n\nASSUMES:\n    _m1_script0x2danniversary__persistent"
+    }
   },
   "build_anni_end": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "build_anni_end",
     "line": 257,
+    "docstring": "Variant of build_anni that auto ends the bool\n\nSEE build_anni for params",
     "function_args": {
       "args": [
         "years",
@@ -44,13 +47,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Variant of build_anni that auto ends the bool\n\nSEE build_anni for params"
+    }
   },
   "isAnni": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isAnni",
     "line": 265,
+    "docstring": "INPUTS:\n    milestone:\n        Expected values|Operation:\n\n            None|Checks if today is a yearly anniversary\n            1w|Checks if today is a 1 week anniversary\n            1m|Checks if today is a 1 month anniversary\n            3m|Checks if today is a 3 month anniversary\n            6m|Checks if today is a 6 month anniversary\n            any|Checks if today is any of the above annis\n\nRETURNS:\n    True if datetime.date.today() is an anniversary date\n    False if today is not an anniversary date",
     "function_args": {
       "args": [
         "milestone"
@@ -63,11 +67,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "INPUTS:\n    milestone:\n        Expected values|Operation:\n\n            None|Checks if today is a yearly anniversary\n            1w|Checks if today is a 1 week anniversary\n            1m|Checks if today is a 1 month anniversary\n            3m|Checks if today is a 3 month anniversary\n            6m|Checks if today is a 6 month anniversary\n            any|Checks if today is any of the above annis\n\nRETURNS:\n    True if datetime.date.today() is an anniversary date\n    False if today is not an anniversary date"
+    }
   },
   "isAnniWeek": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isAnniWeek",
     "line": 323,
     "function_args": {
@@ -82,6 +86,7 @@
   },
   "isAnniOneMonth": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isAnniOneMonth",
     "line": 326,
     "function_args": {
@@ -96,6 +101,7 @@
   },
   "isAnniThreeMonth": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isAnniThreeMonth",
     "line": 329,
     "function_args": {
@@ -110,6 +116,7 @@
   },
   "isAnniSixMonth": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isAnniSixMonth",
     "line": 332,
     "function_args": {
@@ -124,6 +131,7 @@
   },
   "isAnniAny": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isAnniAny",
     "line": 335,
     "function_args": {
@@ -138,8 +146,10 @@
   },
   "anniCount": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "anniCount",
     "line": 338,
+    "docstring": "RETURNS:\n    Integer value representing how many years the player has been with Monika",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -148,13 +158,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS:\n    Integer value representing how many years the player has been with Monika"
+    }
   },
   "pastOneWeek": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "pastOneWeek",
     "line": 362,
+    "docstring": "RETURNS:\n    True if current date is past the 1 week threshold\n    False if below the 1 week threshold",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -163,13 +174,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS:\n    True if current date is past the 1 week threshold\n    False if below the 1 week threshold"
+    }
   },
   "pastOneMonth": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "pastOneMonth",
     "line": 370,
+    "docstring": "RETURNS:\n    True if current date is past the 1 month threshold\n    False if below the 1 month threshold",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -178,13 +190,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS:\n    True if current date is past the 1 month threshold\n    False if below the 1 month threshold"
+    }
   },
   "pastThreeMonths": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "pastThreeMonths",
     "line": 378,
+    "docstring": "RETURNS:\n    True if current date is past the 3 month threshold\n    False if below the 3 month threshold",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -193,13 +206,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS:\n    True if current date is past the 3 month threshold\n    False if below the 3 month threshold"
+    }
   },
   "pastSixMonths": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "pastSixMonths",
     "line": 386,
+    "docstring": "RETURNS:\n    True if current date is past the 6 month threshold\n    False if below the 6 month threshold",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -208,13 +222,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS:\n    True if current date is past the 6 month threshold\n    False if below the 6 month threshold"
+    }
   },
   "_month_adjuster": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_month_adjuster",
     "line": 576,
+    "docstring": "Adjusts the start_date / end_date of an anniversary event.\n\nNOTE: do not use this for a non anniversary date\n\nIN:\n    ev - event to adjust\n    new_start_date - new start date to calculate the event's dates\n    months - number of months to advance\n    span - the time from the event's new start_date to end_date",
     "function_args": {
       "args": [
         "ev",
@@ -228,13 +243,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adjusts the start_date / end_date of an anniversary event.\n\nNOTE: do not use this for a non anniversary date\n\nIN:\n    ev - event to adjust\n    new_start_date - new start date to calculate the event's dates\n    months - number of months to advance\n    span - the time from the event's new start_date to end_date"
+    }
   },
   "_day_adjuster": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_day_adjuster",
     "line": 594,
+    "docstring": "Adjusts the start_date / end_date of an anniversary event.\n\nNOTE: do not use this for a non anniversary date\n\nIN:\n    ev - event to adjust\n    new_start_date - new start date to calculate the event's dates\n    days - number of months to advance\n    span - the time from the event's new start_date to end_date",
     "function_args": {
       "args": [
         "ev",
@@ -248,13 +264,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adjusts the start_date / end_date of an anniversary event.\n\nNOTE: do not use this for a non anniversary date\n\nIN:\n    ev - event to adjust\n    new_start_date - new start date to calculate the event's dates\n    days - number of months to advance\n    span - the time from the event's new start_date to end_date"
+    }
   },
   "add_cal_annis": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "add_cal_annis",
     "line": 612,
+    "docstring": "Goes through the anniversary database and adds them to the calendar",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -263,13 +280,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Goes through the anniversary database and adds them to the calendar"
+    }
   },
   "clean_cal_annis": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clean_cal_annis",
     "line": 620,
+    "docstring": "Goes through the calendar and cleans anniversary dates",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -278,13 +296,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Goes through the calendar and cleans anniversary dates"
+    }
   },
   "reset_annis": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "reset_annis",
     "line": 629,
+    "docstring": "Reset the anniversaries according to the new start date.\n\nIN:\n    new_start_dt - new start datetime to reset anniversaries",
     "function_args": {
       "args": [
         "new_start_dt"
@@ -295,13 +314,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Reset the anniversaries according to the new start date.\n\nIN:\n    new_start_dt - new start datetime to reset anniversaries"
+    }
   },
   "unlock_past_annis": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlock_past_annis",
     "line": 682,
+    "docstring": "Goes through the anniversary database and unlocks the events that\nalready past.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -310,7 +330,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Goes through the anniversary database and unlocks the events that\nalready past."
+    }
   }
 }

@@ -1,8 +1,10 @@
 {
   "shouldUseD25ReactToGifts": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "shouldUseD25ReactToGifts",
     "line": 115,
+    "docstring": "checks whether or not we should use the d25 react to gifts method\n\nConditions:\n    1. Must be in d25 gift range\n    2. Must be at normal+ aff (since that's when the topics which will open these gifts will show)\n    3. Must have deco active. No point otherwise as no tree to put gifts under",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -11,13 +13,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "checks whether or not we should use the d25 react to gifts method\n\nConditions:\n    1. Must be in d25 gift range\n    2. Must be at normal+ aff (since that's when the topics which will open these gifts will show)\n    3. Must have deco active. No point otherwise as no tree to put gifts under"
+    }
   },
   "react_to_gifts": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "react_to_gifts",
     "line": 131,
+    "docstring": "Reacts to gifts using the d25 protocol (exclusions)\n\nOUT:\n    found_map - map of found reactions\n        key: lowercase giftname, no extension\n        val: giftname wtih extension",
     "function_args": {
       "args": [
         "found_map"
@@ -28,7 +31,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Reacts to gifts using the d25 protocol (exclusions)\n\nOUT:\n    found_map - map of found reactions\n        key: lowercase giftname, no extension\n        val: giftname wtih extension"
+    }
   }
 }

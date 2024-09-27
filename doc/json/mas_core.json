@@ -1,8 +1,10 @@
 {
   "show_display_say": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "show_display_say",
     "line": 30,
+    "docstring": "semi-override of show_display_say so we can force text to render\nimmediately.",
     "function_args": {
       "args": [
         "who",
@@ -14,7 +16,6 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "semi-override of show_display_say so we can force text to render\nimmediately."
+    }
   }
 }

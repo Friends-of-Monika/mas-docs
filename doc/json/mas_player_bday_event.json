@@ -1,8 +1,10 @@
 {
   "correct_pbday_mhs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "correct_pbday_mhs",
     "line": 61,
+    "docstring": "fixes the pbday mhs usin gthe given date as pbday\n\nIN:\n    d_pbday - player birthdate",
     "function_args": {
       "args": [
         "d_pbday"
@@ -13,7 +15,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "fixes the pbday mhs usin gthe given date as pbday\n\nIN:\n    d_pbday - player birthdate"
+    }
   }
 }

@@ -1,6 +1,7 @@
 {
   "getPointValue": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "getPointValue",
     "line": 95,
     "function_args": {
@@ -18,6 +19,7 @@
   },
   "getWinner": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "getWinner",
     "line": 111,
     "function_args": {
@@ -41,6 +43,7 @@
   },
   "validateFlow": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "validateFlow",
     "line": 161,
     "function_args": {

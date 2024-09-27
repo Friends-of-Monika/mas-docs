@@ -1,6 +1,7 @@
 {
   "_add_monika_words": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_add_monika_words",
     "line": 265,
     "function_args": {
@@ -17,8 +18,10 @@
   },
   "copyWordsList": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "copyWordsList",
     "line": 278,
+    "docstring": "Does a deepcopy of the words for the given mode.\n\nSets the hm_words dict for that mode\n\nNOTE: does a list clear, so old references will still work\n\nRETURNS: the copied list of words. This is the same reference as\n    hm_words's list. (empty list if mode is invalid)",
     "function_args": {
       "args": [
         "_mode"
@@ -29,13 +32,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Does a deepcopy of the words for the given mode.\n\nSets the hm_words dict for that mode\n\nNOTE: does a list clear, so old references will still work\n\nRETURNS: the copied list of words. This is the same reference as\n    hm_words's list. (empty list if mode is invalid)"
+    }
   },
   "_buildWordList": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_buildWordList",
     "line": 297,
+    "docstring": "Builds a list of words given the filepath and mode\n\nIN:\n    filepath - filepath of words to load in\n    _mode - mode to build word list for",
     "function_args": {
       "args": [
         "filepath",
@@ -47,13 +51,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds a list of words given the filepath and mode\n\nIN:\n    filepath - filepath of words to load in\n    _mode - mode to build word list for"
+    }
   },
   "buildEasyList": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "buildEasyList",
     "line": 312,
+    "docstring": "Builds the easy word list\n\nSets hm_words and all_hm_words appropritaley\n\nNOTE: clears the list (noticable in all references)",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -62,13 +67,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds the easy word list\n\nSets hm_words and all_hm_words appropritaley\n\nNOTE: clears the list (noticable in all references)"
+    }
   },
   "buildNormalList": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "buildNormalList",
     "line": 337,
+    "docstring": "Builds the normal word list\n\nSets hm_words and all_hm_words appropraitely\n\nNOTE: clears the list (noticable in all references)",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -77,13 +83,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds the normal word list\n\nSets hm_words and all_hm_words appropraitely\n\nNOTE: clears the list (noticable in all references)"
+    }
   },
   "buildHardList": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "buildHardList",
     "line": 348,
+    "docstring": "Builds the hard word list\n\nSets hm_words and all_hm_words appropraitely\n\nNOTE: cleras the list (noticable in all references)",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -92,13 +99,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds the hard word list\n\nSets hm_words and all_hm_words appropraitely\n\nNOTE: cleras the list (noticable in all references)"
+    }
   },
   "addPlayername": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "addPlayername",
     "line": 359,
+    "docstring": "Adds playername to the given mode if appropriate\n\nIN:\n    _mode - mode to add playername to",
     "function_args": {
       "args": [
         "_mode"
@@ -109,13 +117,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds playername to the given mode if appropriate\n\nIN:\n    _mode - mode to add playername to"
+    }
   },
   "removePlayername": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "removePlayername",
     "line": 376,
+    "docstring": "Removes the playername from the given mode if found\n\nIN:\n    _mode - mode to remove in",
     "function_args": {
       "args": [
         "_mode"
@@ -126,13 +135,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Removes the playername from the given mode if found\n\nIN:\n    _mode - mode to remove in"
+    }
   },
   "randomSelect": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "randomSelect",
     "line": 388,
+    "docstring": "Randomly selects and pulls a word from the hm_words, given the mode\n\nWill refill the words list if it is empty\n\nIN:\n    _mode - mode to pull word from\n\nRETURNS: tuple of the following format:\n    [0]: word\n    [1]: winner (for hint)",
     "function_args": {
       "args": [
         "_mode"
@@ -143,13 +153,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Randomly selects and pulls a word from the hm_words, given the mode\n\nWill refill the words list if it is empty\n\nIN:\n    _mode - mode to pull word from\n\nRETURNS: tuple of the following format:\n    [0]: word\n    [1]: winner (for hint)"
+    }
   },
   "wordToDisplay": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "wordToDisplay",
     "line": 411,
+    "docstring": "Formats a word so it can be displayed in hangman\n\nIN:\n    word - word to format (string)\n\nRETURNS: display word",
     "function_args": {
       "args": [
         "word"
@@ -160,7 +171,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Formats a word so it can be displayed in hangman\n\nIN:\n    word - word to format (string)\n\nRETURNS: display word"
+    }
   }
 }

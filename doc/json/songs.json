@@ -1,6 +1,7 @@
 {
   "adjustVolume": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "adjustVolume",
     "line": 806,
     "function_args": {
@@ -21,8 +22,10 @@
   },
   "getVolume": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "getVolume",
     "line": 824,
+    "docstring": "Gets the volume of the given audio channel.\nNOTE: gets the real volume, not user-defined slider volume.\n\nIN:\n    channel - audio channel to get volume for (string)\n\nRETURNS: volume of the audio channel as double/float",
     "function_args": {
       "args": [
         "channel"
@@ -33,13 +36,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the volume of the given audio channel.\nNOTE: gets the real volume, not user-defined slider volume.\n\nIN:\n    channel - audio channel to get volume for (string)\n\nRETURNS: volume of the audio channel as double/float"
+    }
   },
   "getUserVolume": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "getUserVolume",
     "line": 837,
+    "docstring": "Gets user-defined slider volume of the given channel.\nNOTE: this is indepenent of the actual channel volume.\n    Using set_volume will NOT affect this.\n\nIN:\n    channel - audio channel to get volume for (string)\n\nRETURNS: value of the user slider for the audio channel (double/float)",
     "function_args": {
       "args": [
         "channel"
@@ -50,13 +54,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets user-defined slider volume of the given channel.\nNOTE: this is indepenent of the actual channel volume.\n    Using set_volume will NOT affect this.\n\nIN:\n    channel - audio channel to get volume for (string)\n\nRETURNS: value of the user slider for the audio channel (double/float)"
+    }
   },
   "hasMusicMuted": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "hasMusicMuted",
     "line": 854,
+    "docstring": "Checks if the player has the music channel muted or the 'Mute All' option enabled.\n\nRETURNS: True if the music channel is muted or the 'Mute All' option is enabled, False otherwise",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -65,11 +70,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the player has the music channel muted or the 'Mute All' option enabled.\n\nRETURNS: True if the music channel is muted or the 'Mute All' option is enabled, False otherwise"
+    }
   },
   "getPlayingMusicName": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "getPlayingMusicName",
     "line": 863,
     "function_args": {
@@ -84,6 +89,7 @@
   },
   "initMusicChoices": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "initMusicChoices",
     "line": 903,
     "function_args": {
@@ -102,8 +108,10 @@
   },
   "setUserVolume": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "setUserVolume",
     "line": 950,
+    "docstring": "Sets user volume to the given value.\nNOTE: this does a preference edit, so there's no delay options.\nNOTE: this changes mixer volume, so it may affect other channels.\n\nIN:\n    value - value to set volume to. Should be between 0.0 and 1.0.\n    channel - channel to set.",
     "function_args": {
       "args": [
         "value",
@@ -115,13 +123,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets user volume to the given value.\nNOTE: this does a preference edit, so there's no delay options.\nNOTE: this changes mixer volume, so it may affect other channels.\n\nIN:\n    value - value to set volume to. Should be between 0.0 and 1.0.\n    channel - channel to set."
+    }
   },
   "_sanitizeVolume": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_sanitizeVolume",
     "line": 965,
+    "docstring": "Santizes the given value as if it were a volume.\nNOTE: does not check if its a number.\n\nIN:\n    value - value to sanitize\n\nRETURNS: valid volume value",
     "function_args": {
       "args": [
         "value"
@@ -132,13 +141,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Santizes the given value as if it were a volume.\nNOTE: does not check if its a number.\n\nIN:\n    value - value to sanitize\n\nRETURNS: valid volume value"
+    }
   },
   "_m1_zz_music_selector__paginate": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_zz_music_selector__paginate",
     "line": 982,
+    "docstring": "Paginates the music list and returns a dict of the pages.\n\nIN:\n    music_list - list of music choice tuples (see initMusicChoices)\n\nRETURNS:\n    dict of music choices, paginated nicely:\n    [0]: first page of music\n    [1]: next page of music\n    ...\n    [n]: last page of music",
     "function_args": {
       "args": [
         "music_list"
@@ -149,13 +159,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Paginates the music list and returns a dict of the pages.\n\nIN:\n    music_list - list of music choice tuples (see initMusicChoices)\n\nRETURNS:\n    dict of music choices, paginated nicely:\n    [0]: first page of music\n    [1]: next page of music\n    ...\n    [n]: last page of music"
+    }
   },
   "_m1_zz_music_selector__genPage": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_zz_music_selector__genPage",
     "line": 1007,
+    "docstring": "Generates the a page of music choices\n\nIN:\n    music_list - list of music choice tuples (see initMusicChoices)\n\nRETURNS:\n    tuple of the following format:\n        [0] - page of the music choices\n        [1] - reamining items in the music_list",
     "function_args": {
       "args": [
         "music_list"
@@ -166,13 +177,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates the a page of music choices\n\nIN:\n    music_list - list of music choice tuples (see initMusicChoices)\n\nRETURNS:\n    tuple of the following format:\n        [0] - page of the music choices\n        [1] - reamining items in the music_list"
+    }
   },
   "_m1_zz_music_selector__scanCustomBGM": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_zz_music_selector__scanCustomBGM",
     "line": 1022,
+    "docstring": "Scans the custom music directory for custom musics and adds them to\nthe given music_list.\n\nIN/OUT:\n    music_list - list of music tuples to append to",
     "function_args": {
       "args": [
         "music_list"
@@ -183,13 +195,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Scans the custom music directory for custom musics and adds them to\nthe given music_list.\n\nIN/OUT:\n    music_list - list of music tuples to append to"
+    }
   },
   "_getAudioFile": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getAudioFile",
     "line": 1075,
+    "docstring": "Atteempts to retrive the correct audio object based on file extension\n\nIN:\n    filepath - full filepath to the audio file we want\n\nRETURNS:\n    tuple of the following format:\n    [0]: audio object we want (May be None if this failed to load)\n    [1]: extension of this audio object",
     "function_args": {
       "args": [
         "filepath"
@@ -200,13 +213,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Atteempts to retrive the correct audio object based on file extension\n\nIN:\n    filepath - full filepath to the audio file we want\n\nRETURNS:\n    tuple of the following format:\n    [0]: audio object we want (May be None if this failed to load)\n    [1]: extension of this audio object"
+    }
   },
   "_getDispName": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getDispName",
     "line": 1100,
+    "docstring": "Attempts to retreive the display name for an audio file\nIf that fails, then it will use the _filename as song name, minus\nextension.\n\nIN:\n    _audio_file - audio object\n    _ext - extension of the audio file\n    _filename - filename of the audio file\n\nRETURNS:\n    The name of this Song (probably)",
     "function_args": {
       "args": [
         "_audio_file",
@@ -219,13 +233,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retreive the display name for an audio file\nIf that fails, then it will use the _filename as song name, minus\nextension.\n\nIN:\n    _audio_file - audio object\n    _ext - extension of the audio file\n    _filename - filename of the audio file\n\nRETURNS:\n    The name of this Song (probably)"
+    }
   },
   "_getLoopData": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getLoopData",
     "line": 1133,
+    "docstring": "Attempts to retrieve loop data from the given audio file and\ngenerates the appropraite string to put in front of the file name\n\nIN:\n    _audio_file - audio object\n    _ext - extension of hte audio file\n\nRETURNS:\n    loop string, or and empty string if no loop string available",
     "function_args": {
       "args": [
         "_audio_file",
@@ -237,13 +252,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retrieve loop data from the given audio file and\ngenerates the appropraite string to put in front of the file name\n\nIN:\n    _audio_file - audio object\n    _ext - extension of hte audio file\n\nRETURNS:\n    loop string, or and empty string if no loop string available"
+    }
   },
   "_getMP3": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getMP3",
     "line": 1161,
+    "docstring": "Attempts to retrieve the MP3 object from the given audio file\n\nIN:\n    filepath - full filepath to the mp3 file want tags from\n\nRETURNS:\n    mutagen.mp3.EasyMP3 object, or None if we coudlnt do it",
     "function_args": {
       "args": [
         "filepath"
@@ -254,13 +270,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retrieve the MP3 object from the given audio file\n\nIN:\n    filepath - full filepath to the mp3 file want tags from\n\nRETURNS:\n    mutagen.mp3.EasyMP3 object, or None if we coudlnt do it"
+    }
   },
   "_getMP3Name": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getMP3Name",
     "line": 1177,
+    "docstring": "Attempts to retrieve song name from mp3 id3 tag\n\nIN:\n    _audio_file - audio object\n\nRETURNS:\n    The display name for this song, or None if not possible",
     "function_args": {
       "args": [
         "_audio_file"
@@ -271,13 +288,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retrieve song name from mp3 id3 tag\n\nIN:\n    _audio_file - audio object\n\nRETURNS:\n    The display name for this song, or None if not possible"
+    }
   },
   "_getOgg": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getOgg",
     "line": 1192,
+    "docstring": "Attempts to retreive the Ogg object from the given audio file\n\nIN:\n    filepath - full filepath to the ogg file\n\nRETURNS:\n    mutagen.ogg.OggVorbis or None if we coudlnt get the info",
     "function_args": {
       "args": [
         "filepath"
@@ -288,13 +306,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retreive the Ogg object from the given audio file\n\nIN:\n    filepath - full filepath to the ogg file\n\nRETURNS:\n    mutagen.ogg.OggVorbis or None if we coudlnt get the info"
+    }
   },
   "_getOggName": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getOggName",
     "line": 1208,
+    "docstring": "Attempts to retreive song name from Ogg tag\n\nIN:\n    _audio_file - audio object\n\nRETURNS:\n    The display name for this song, or None if not possible",
     "function_args": {
       "args": [
         "_audio_file"
@@ -305,13 +324,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retreive song name from Ogg tag\n\nIN:\n    _audio_file - audio object\n\nRETURNS:\n    The display name for this song, or None if not possible"
+    }
   },
   "_getOggLoop": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getOggLoop",
     "line": 1237,
+    "docstring": "Attempts to retreive loop data from Ogg tags\n\nIN:\n    _audio_file - audio object\n    _ext - extension of the audio file\n\nRETURNS:\n    the loop string we should use, or \"\" if no loop",
     "function_args": {
       "args": [
         "_audio_file",
@@ -323,13 +343,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retreive loop data from Ogg tags\n\nIN:\n    _audio_file - audio object\n    _ext - extension of the audio file\n\nRETURNS:\n    the loop string we should use, or \"\" if no loop"
+    }
   },
   "_getOggLoopMAS": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getOggLoopMAS",
     "line": 1269,
+    "docstring": "Attempts to retrieve MAS-based loop data from Ogg tags\n\nIN:\n    loopstart - list of loopstart tags\n    loopend - list of loopend tags\n    _audio_file - audio object\n\nRETURNS:\n    the loop string we should use or \"\" if no loop",
     "function_args": {
       "args": [
         "loopstart",
@@ -342,13 +363,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retrieve MAS-based loop data from Ogg tags\n\nIN:\n    loopstart - list of loopstart tags\n    loopend - list of loopend tags\n    _audio_file - audio object\n\nRETURNS:\n    the loop string we should use or \"\" if no loop"
+    }
   },
   "_getOggLoopRPG": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getOggLoopRPG",
     "line": 1324,
+    "docstring": "Attempts to retrieve RPGMaker-based loop data form Ogg tags\n\nNOTE: unlike the MAS tags, loopstart is REQUIRED\n\nIN:\n    loopstart - list of loopstart tags\n    looplen - list of loop length tags\n    _audio_file - audio object\n\nRETURNS:\n    the loop string we should use or \"\" if no loop",
     "function_args": {
       "args": [
         "loopstart",
@@ -361,13 +383,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retrieve RPGMaker-based loop data form Ogg tags\n\nNOTE: unlike the MAS tags, loopstart is REQUIRED\n\nIN:\n    loopstart - list of loopstart tags\n    looplen - list of loop length tags\n    _audio_file - audio object\n\nRETURNS:\n    the loop string we should use or \"\" if no loop"
+    }
   },
   "_getOpus": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_getOpus",
     "line": 1389,
+    "docstring": "Attempts to retrieve the Opus object from the given audio file\n\nIN:\n    filepath - full filepath to the opus file\n\nRETURNS:\n    mutagen.ogg.OggOpus or None if we couldnt get the info",
     "function_args": {
       "args": [
         "filepath"
@@ -378,13 +401,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Attempts to retrieve the Opus object from the given audio file\n\nIN:\n    filepath - full filepath to the opus file\n\nRETURNS:\n    mutagen.ogg.OggOpus or None if we couldnt get the info"
+    }
   },
   "isValidExt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isValidExt",
     "line": 1405,
+    "docstring": "Checks if the given filename has an appropriate extension\n\nIN:\n    filename - filename to check\n\nRETURNS:\n    True if valid extension, false otherwise",
     "function_args": {
       "args": [
         "filename"
@@ -395,13 +419,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the given filename has an appropriate extension\n\nIN:\n    filename - filename to check\n\nRETURNS:\n    True if valid extension, false otherwise"
+    }
   },
   "cleanGUIText": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "cleanGUIText",
     "line": 1422,
+    "docstring": "Cleans the given text so its applicable for gui usage\n\nIN:\n    unclean - unclean text\n\nRETURNS:\n    cleaned text",
     "function_args": {
       "args": [
         "unclean"
@@ -412,13 +437,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Cleans the given text so its applicable for gui usage\n\nIN:\n    unclean - unclean text\n\nRETURNS:\n    cleaned text"
+    }
   },
   "isInMusicList": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "isInMusicList",
     "line": 1443,
+    "docstring": "Checks if the a song with the given filepath is in the music choices\nlist\n\nIN:\n    filepath - filepath of song to check\n\nRETURNS:\n    True if filepath is in the music_choices list, False otherwise",
     "function_args": {
       "args": [
         "filepath"
@@ -429,7 +455,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the a song with the given filepath is in the music choices\nlist\n\nIN:\n    filepath - filepath of song to check\n\nRETURNS:\n    True if filepath is in the music_choices list, False otherwise"
+    }
   }
 }

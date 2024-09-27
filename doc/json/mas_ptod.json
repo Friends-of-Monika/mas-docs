@@ -1,8 +1,10 @@
 {
   "clr_cn": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clr_cn",
     "line": 660,
+    "docstring": "SEE clear_console",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -11,13 +13,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "SEE clear_console"
+    }
   },
   "ex_cn": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "ex_cn",
     "line": 667,
+    "docstring": "SEE exit_console",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -26,13 +29,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "SEE exit_console"
+    }
   },
   "rst_cn": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "rst_cn",
     "line": 674,
+    "docstring": "SEE restart_console",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -41,13 +45,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "SEE restart_console"
+    }
   },
   "w_cmd": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "w_cmd",
     "line": 681,
+    "docstring": "SEE write_command",
     "function_args": {
       "args": [
         "cmd"
@@ -58,13 +63,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "SEE write_command"
+    }
   },
   "x_cmd": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "x_cmd",
     "line": 688,
+    "docstring": "SEE exec_command",
     "function_args": {
       "args": [
         "context"
@@ -75,13 +81,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "SEE exec_command"
+    }
   },
   "wx_cmd": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "wx_cmd",
     "line": 695,
+    "docstring": "Does both write_command and exec_command",
     "function_args": {
       "args": [
         "cmd",
@@ -93,13 +100,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Does both write_command and exec_command"
+    }
   },
   "write_command": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "write_command",
     "line": 703,
+    "docstring": "Writes a command to the console\n\nNOTE: Does not EXECUTE\nNOTE: remove previous command\nNOTE: does NOT append to previously written command (unless that cmd\n    is in a block and was executed)\n\nIN:\n    cmd - the command to write to the console",
     "function_args": {
       "args": [
         "cmd"
@@ -110,13 +118,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Writes a command to the console\n\nNOTE: Does not EXECUTE\nNOTE: remove previous command\nNOTE: does NOT append to previously written command (unless that cmd\n    is in a block and was executed)\n\nIN:\n    cmd - the command to write to the console"
+    }
   },
   "clear_console": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clear_console",
     "line": 776,
+    "docstring": "Cleares console hisotry and current line\n\nAlso resets state to Single",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -125,13 +134,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Cleares console hisotry and current line\n\nAlso resets state to Single"
+    }
   },
   "restart_console": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "restart_console",
     "line": 790,
+    "docstring": "Cleares console history and current line, also sets up version text",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -140,13 +150,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Cleares console history and current line, also sets up version text"
+    }
   },
   "exit_console": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "exit_console",
     "line": 815,
+    "docstring": "Disables the console",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -155,13 +166,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Disables the console"
+    }
   },
   "_m1_script0x2dpython__exec_cmd": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_script0x2dpython__exec_cmd",
     "line": 823,
+    "docstring": "Tries to eval the line first, then executes.\nReturns the result of the command\n\nIN:\n    line - line to eval / exec\n    context - dict that represnts the current context. should be locals\n    block - True means we are executing a block command and should\n        skip eval\n\nRETURNS:\n    the result of the command, as a string",
     "function_args": {
       "args": [
         "line",
@@ -176,13 +188,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Tries to eval the line first, then executes.\nReturns the result of the command\n\nIN:\n    line - line to eval / exec\n    context - dict that represnts the current context. should be locals\n    block - True means we are executing a block command and should\n        skip eval\n\nRETURNS:\n    the result of the command, as a string"
+    }
   },
   "_m1_script0x2dpython__exec_exec": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_script0x2dpython__exec_exec",
     "line": 844,
+    "docstring": "Runs exec on the given line\nReturns an empty string or a string with an error if it occured.\n\nIN:\n    line - line to exec\n    context - dict that represents the current context\n\nRETURNS:\n    empty string or string with error message",
     "function_args": {
       "args": [
         "line",
@@ -194,13 +207,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs exec on the given line\nReturns an empty string or a string with an error if it occured.\n\nIN:\n    line - line to exec\n    context - dict that represents the current context\n\nRETURNS:\n    empty string or string with error message"
+    }
   },
   "_m1_script0x2dpython__exec_evalexec": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_script0x2dpython__exec_evalexec",
     "line": 864,
+    "docstring": "Tries to eval the line first, then executes.\nReturns the result of the command\n\nIN:\n    line - line to eval / exec\n    context - dict that represents the current context.\n\nRETURNS:\n    the result of the command as a string",
     "function_args": {
       "args": [
         "line",
@@ -212,13 +226,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Tries to eval the line first, then executes.\nReturns the result of the command\n\nIN:\n    line - line to eval / exec\n    context - dict that represents the current context.\n\nRETURNS:\n    the result of the command as a string"
+    }
   },
   "exec_command": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "exec_command",
     "line": 884,
+    "docstring": "Executes the command that is currently in the console.\nThis is basically pressing Enter\n\nIN:\n    context - dict that represnts the current context. You should pass\n        locals here.\n        If None, then we use the local_ctx.",
     "function_args": {
       "args": [
         "context"
@@ -229,13 +244,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Executes the command that is currently in the console.\nThis is basically pressing Enter\n\nIN:\n    context - dict that represnts the current context. You should pass\n        locals here.\n        If None, then we use the local_ctx."
+    }
   },
   "get_last_line": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_last_line",
     "line": 1036,
+    "docstring": "Retrieves the last line from the console history\n\nRETURNS:\n    last line from console history as a string",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -244,13 +260,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Retrieves the last line from the console history\n\nRETURNS:\n    last line from console history as a string"
+    }
   },
   "set_local_context": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "set_local_context",
     "line": 1049,
+    "docstring": "Sets the local context to the given context.\n\nStuff in the old context are forgotten.",
     "function_args": {
       "args": [
         "context"
@@ -261,13 +278,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets the local context to the given context.\n\nStuff in the old context are forgotten."
+    }
   },
   "_m1_script0x2dpython__pushi": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_script0x2dpython__pushi",
     "line": 1059,
+    "docstring": "Pushes a indent level into the stack\n\nIN:\n    indent_level - indent to push into stack",
     "function_args": {
       "args": [
         "indent_level"
@@ -278,13 +296,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Pushes a indent level into the stack\n\nIN:\n    indent_level - indent to push into stack"
+    }
   },
   "_m1_script0x2dpython__popi": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_script0x2dpython__popi",
     "line": 1071,
+    "docstring": "Pops indent level from stack\n\nREUTRNS:\n    popped indent level",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -293,13 +312,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Pops indent level from stack\n\nREUTRNS:\n    popped indent level"
+    }
   },
   "_m1_script0x2dpython__peeki": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_script0x2dpython__peeki",
     "line": 1088,
+    "docstring": "Returns value that would be popped from stack\n\nRETURNS:\n    indent level that would be popped",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -308,13 +328,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns value that would be popped from stack\n\nRETURNS:\n    indent level that would be popped"
+    }
   },
   "_exp_toString": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_exp_toString",
     "line": 1098,
+    "docstring": "Converts the given exception into a string that looks like\nhow python interpreter prints out exceptions",
     "function_args": {
       "args": [
         "exp"
@@ -325,13 +346,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Converts the given exception into a string that looks like\nhow python interpreter prints out exceptions"
+    }
   },
   "_indent_line": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_indent_line",
     "line": 1108,
+    "docstring": "Prepends the given line with an appropraite number of spaces, depending\non the current stack level\n\nIN:\n    line - line to prepend\n\nRETURNS:\n    line prepended with spaces",
     "function_args": {
       "args": [
         "line"
@@ -342,13 +364,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Prepends the given line with an appropraite number of spaces, depending\non the current stack level\n\nIN:\n    line - line to prepend\n\nRETURNS:\n    line prepended with spaces"
+    }
   },
   "_count_sp": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_count_sp",
     "line": 1122,
+    "docstring": "Counts number of spaces that prefix this line\n\nIN:\n    line - line to cound spaces\n\nRETURNS:\n    number of spaces at start of line",
     "function_args": {
       "args": [
         "line"
@@ -359,13 +382,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Counts number of spaces that prefix this line\n\nIN:\n    line - line to cound spaces\n\nRETURNS:\n    number of spaces at start of line"
+    }
   },
   "_update_console_history": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_update_console_history",
     "line": 1135,
+    "docstring": "Updates the console history with the list of new lines to add\n\nIN:\n    new_items - the items to add to the console history",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -374,13 +398,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": "new_items"
-    },
-    "docstring": "Updates the console history with the list of new lines to add\n\nIN:\n    new_items - the items to add to the console history"
+    }
   },
   "_update_console_history_list": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_update_console_history_list",
     "line": 1145,
+    "docstring": "Updates console history with list of new lines to add\n\nIN:\n    new_items - list of new itme sto add to console history",
     "function_args": {
       "args": [
         "new_items"
@@ -391,13 +416,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Updates console history with list of new lines to add\n\nIN:\n    new_items - list of new itme sto add to console history"
+    }
   },
   "_line_break": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_line_break",
     "line": 1167,
+    "docstring": "Lines cant be too large. This will line break entries.\n\nIN:\n    line - the line to break\n\nRETURNS:\n    list of strings, each item is a line.",
     "function_args": {
       "args": [
         "line"
@@ -408,13 +434,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Lines cant be too large. This will line break entries.\n\nIN:\n    line - the line to break\n\nRETURNS:\n    list of strings, each item is a line."
+    }
   },
   "has_day_past_tip": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "has_day_past_tip",
     "line": 1254,
+    "docstring": "Checks if the tip with the given number has already been seen and\na day has past since it was unlocked.\nNOTE: by day, we mean date has changd, not 24 hours\n\nIN:\n    tip_num - number of the tip to check\n\nRETURNS:\n    true if the tip has been seen and a day has past since it was\n    unlocked, False otherwise",
     "function_args": {
       "args": [
         "tip_num"
@@ -425,13 +452,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the tip with the given number has already been seen and\na day has past since it was unlocked.\nNOTE: by day, we mean date has changd, not 24 hours\n\nIN:\n    tip_num - number of the tip to check\n\nRETURNS:\n    true if the tip has been seen and a day has past since it was\n    unlocked, False otherwise"
+    }
   },
   "has_day_past_tips": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "has_day_past_tips",
     "line": 1282,
+    "docstring": "Variant of has_day_past_tip that can check multiple numbers\n\nSEE has_day_past_tip for more info\n\nRETURNS:\n    true if all the given tip nums have been see nand a day has past\n        since the latest one was unlocked, False otherwise",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -440,7 +468,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": "tip_nums"
-    },
-    "docstring": "Variant of has_day_past_tip that can check multiple numbers\n\nSEE has_day_past_tip for more info\n\nRETURNS:\n    true if all the given tip nums have been see nand a day has past\n        since the latest one was unlocked, False otherwise"
+    }
   }
 }

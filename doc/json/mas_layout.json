@@ -1,6 +1,7 @@
 {
   "MASScreenData": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASScreenData",
     "class_bases": [
       "object"
@@ -10,8 +11,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 55,
+        "docstring": "Constructor\n\nIN:\n    screen_name - name of this screen this data is for. ACts like\n        an identifier, but is currently only used for repr",
         "function_args": {
           "args": [
             "self",
@@ -23,11 +26,11 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor\n\nIN:\n    screen_name - name of this screen this data is for. ACts like\n        an identifier, but is currently only used for repr"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__repr__",
         "line": 65,
         "function_args": {
@@ -44,8 +47,10 @@
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "loop",
         "line": 68,
+        "docstring": "If you use this, only call it once in your screen code.\nExpect this to be called multiple times by renpy as apart of\nscreen execution.\n\nThis should be used to avoid screen code clutter.",
         "function_args": {
           "args": [
             "self"
@@ -56,15 +61,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "If you use this, only call it once in your screen code.\nExpect this to be called multiple times by renpy as apart of\nscreen execution.\n\nThis should be used to avoid screen code clutter."
+        }
       }
     ]
   },
   "findMsg": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "findMsg",
     "line": 252,
+    "docstring": "Finds first non-None quit message we need\n\nThis uses the cascade map from affection\n\nIN:\n    start_aff - starting affection\n    index - index of the tuple we need to look at\n\nRETURNS:\n    first non-None quit message found.",
     "function_args": {
       "args": [
         "start_aff",
@@ -76,13 +82,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Finds first non-None quit message we need\n\nThis uses the cascade map from affection\n\nIN:\n    start_aff - starting affection\n    index - index of the tuple we need to look at\n\nRETURNS:\n    first non-None quit message found."
+    }
   },
   "set_quit_msg": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "set_quit_msg",
     "line": 273,
+    "docstring": "Sets text for the quit dialogue box\n\nFor documentation, see mas_setQuitMsg",
     "function_args": {
       "args": [
         "quit_msg",
@@ -99,13 +106,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets text for the quit dialogue box\n\nFor documentation, see mas_setQuitMsg"
+    }
   },
   "setupQuits": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "setupQuits",
     "line": 289,
+    "docstring": "Sets up quit message based on the current affection state",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -114,7 +122,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets up quit message based on the current affection state"
+    }
   }
 }

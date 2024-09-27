@@ -35,6 +35,7 @@ def convert_octal_literals(src: str) -> str:
 
 def decompose_func(node: ast.FunctionDef) -> FuncStruct:
     """Decomposes function definition to name, args, and docstring."""
+    f_deco = node.decorator_list
     f_name = node.name
     f_args = node.args
 
@@ -43,10 +44,11 @@ def decompose_func(node: ast.FunctionDef) -> FuncStruct:
         if isinstance(node.body[0].value, ast.Constant):
             docstring = node.body[0].value.value
 
-    return f_name, f_args, docstring, node.lineno
+    return f_name, f_args, docstring, node.lineno, f_deco
 
 def decompose_class(node: ast.ClassDef) -> ClassStruct:
     """Decomposes class definition to name, bases, docstring and methods."""
+    c_deco = node.decorator_list
     c_name = node.name
     c_bases = node.bases
 
@@ -57,46 +59,24 @@ def decompose_class(node: ast.ClassDef) -> ClassStruct:
 
     methods = [decompose_func(child) for child in node.body
                if isinstance(child, ast.FunctionDef)]
-    return c_name, c_bases, docstring, methods, node.lineno
-
-def unwind_attr(node: ast.Attribute) -> str:
-    """Unwinds attribute chain and returns it in dot notation."""
-    chain: List[str] = []
-    current = node
-
-    while not isinstance(current, ast.Name):
-        chain.append(current.attr)
-        current = current.value
-
-    chain.append(current.id)
-    return ".".join(chain[::-1])
+    return c_name, c_bases, docstring, methods, node.lineno, c_deco
 
 
 # Data exporting (e.g. converting to renderable parameters)
-
-def export_class_bases(base_nodes: List[ast.Name | ast.Attribute]) -> List[str]:
-    """Serializes class bases to list of strings."""
-    base_str: List[str] = []
-    for node in base_nodes:
-        if isinstance(node, ast.Name):
-            base_str.append(node.id)
-        elif isinstance(node, ast.Attribute):
-            base_str.append(unwind_attr(node))
-        else:
-            raise ValueError(f"unexpected class base node {node!r}")
-    return base_str
 
 def export_class_doc(struct: ClassStruct) -> Dict[str, Any]:
     """Serializes class structure to dictionary suitable for rendering."""
 
     data: Dict[str, Any] = {}
     data["type"] = "class"
+    data["class_decorators"] = [ast.unparse(node) for node in struct[5]]
     data["identifier"] = struct[0]
-    data["class_bases"] = export_class_bases(struct[1])
+    data["class_bases"] = [ast.unparse(node) for node in struct[1]]
     data["line"] = struct[4]
 
     if struct[2] is not None:
         data["docstring"] = dedent(struct[2]).strip()
+
     data["class_functions"] = [export_func_doc(fn) for fn in struct[3]]
 
     return data
@@ -106,8 +86,12 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
 
     data: Dict[str, Any] = {}
     data["type"] = "function"
+    data["function_decorators"] = [ast.unparse(node) for node in struct[4]]
     data["identifier"] = struct[0]
     data["line"] = struct[3]
+
+    if struct[2] is not None:
+        data["docstring"] = dedent(struct[2]).strip()
 
     data["function_args"] = {
         "args": [arg.arg for arg in struct[1].args],
@@ -118,9 +102,6 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
         "kw_arg": struct[1].kwarg.arg if struct[1].kwarg is not None else None,
         "var_arg": struct[1].vararg.arg if struct[1].vararg is not None else None
     }
-
-    if struct[2] is not None:
-        data["docstring"] = dedent(struct[2]).strip()
 
     return data
 

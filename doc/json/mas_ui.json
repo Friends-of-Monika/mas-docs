@@ -1,8 +1,10 @@
 {
   "check_scr_menu_return_values": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "check_scr_menu_return_values",
     "line": 446,
+    "docstring": "A method to return buttons keys and values\n\nIN:\n    buttons_data - the screen buttons data\n    return_all - whether or not we return all items\n\nOUT:\n    dict of key-value pairs",
     "function_args": {
       "args": [
         "buttons_data",
@@ -14,13 +16,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "A method to return buttons keys and values\n\nIN:\n    buttons_data - the screen buttons data\n    return_all - whether or not we return all items\n\nOUT:\n    dict of key-value pairs"
+    }
   },
   "check_scr_menu_choose_prompt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "check_scr_menu_choose_prompt",
     "line": 459,
+    "docstring": "A method to choose a prompt for the return button.\n\nIN:\n    buttons_data - the screen buttons data\n    selected_prompt - the prompt for the return button when at least one item was selected\n    default_prompt - the prompt to use when no items are selected\n\nOUT:\n    string with prompt",
     "function_args": {
       "args": [
         "buttons_data",
@@ -33,13 +36,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "A method to choose a prompt for the return button.\n\nIN:\n    buttons_data - the screen buttons data\n    selected_prompt - the prompt for the return button when at least one item was selected\n    default_prompt - the prompt to use when no items are selected\n\nOUT:\n    string with prompt"
+    }
   },
   "twopane_menu_delegate_callback": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "twopane_menu_delegate_callback",
     "line": 489,
+    "docstring": "A method to handle delegate logic for some of our events\nwhen the user skips a delegate label using search\nNOTE: the callback will be called before we push the event\nTODO: add more callbacks as needed\n\nIN:\n    ev_label - the ev_label of the event the user's selected",
     "function_args": {
       "args": [
         "ev_label"
@@ -50,13 +54,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "A method to handle delegate logic for some of our events\nwhen the user skips a delegate label using search\nNOTE: the callback will be called before we push the event\nTODO: add more callbacks as needed\n\nIN:\n    ev_label - the ev_label of the event the user's selected"
+    }
   },
   "_twopane_menu_filter_events": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_twopane_menu_filter_events",
     "line": 505,
+    "docstring": "The filter for events in the twopane menu\n\nIN:\n    ev - event object\n    search_query - search query to filter by\n    search_kws - search_query splitted using spaces\n\nOUT:\n    boolean whether or not the event pass the criteria",
     "function_args": {
       "args": [
         "ev",
@@ -73,13 +78,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The filter for events in the twopane menu\n\nIN:\n    ev - event object\n    search_query - search query to filter by\n    search_kws - search_query splitted using spaces\n\nOUT:\n    boolean whether or not the event pass the criteria"
+    }
   },
   "_twopane_menu_sort_events": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_twopane_menu_sort_events",
     "line": 563,
+    "docstring": "The sortkey for events in the twopane menu.\n\nIN:\n    ev - event object\n    search_query - search query to sort by\n    search_kws - search_query splitted using spaces\n\nOUT:\n    weight as int",
     "function_args": {
       "args": [
         "ev",
@@ -92,13 +98,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The sortkey for events in the twopane menu.\n\nIN:\n    ev - event object\n    search_query - search query to sort by\n    search_kws - search_query splitted using spaces\n\nOUT:\n    weight as int"
+    }
   },
   "_twopane_menu_search_events": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_twopane_menu_search_events",
     "line": 617,
+    "docstring": "The actual method that does filtering and searching for the twopane menu.\nNOTE: won't return more than TWOPANE_MENU_MAX_FLT_ITEMS events\n\nIN:\n    search_query - search query to filter and sort by\n\nOUT:\n    list of event objects or None if empty query was given",
     "function_args": {
       "args": [
         "search_query"
@@ -109,13 +116,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The actual method that does filtering and searching for the twopane menu.\nNOTE: won't return more than TWOPANE_MENU_MAX_FLT_ITEMS events\n\nIN:\n    search_query - search query to filter and sort by\n\nOUT:\n    list of event objects or None if empty query was given"
+    }
   },
   "twopane_menu_adj_ranged_callback": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "twopane_menu_adj_ranged_callback",
     "line": 665,
+    "docstring": "This is called by an adjustment of the twopane menu\nwhen its range is being changed (set)\n\nIN:\n    adj - the adj object",
     "function_args": {
       "args": [
         "adj"
@@ -126,13 +134,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "This is called by an adjustment of the twopane menu\nwhen its range is being changed (set)\n\nIN:\n    adj - the adj object"
+    }
   },
   "twopane_menu_search_callback": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "twopane_menu_search_callback",
     "line": 686,
+    "docstring": "The callback the input calls when the user enters anything.\nUpdates flt_evs of the twopane menu and causes RenPy to update the screen.\n\nIN:\n    search_query - search query to filter and sort by",
     "function_args": {
       "args": [
         "search_query"
@@ -143,7 +152,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "The callback the input calls when the user enters anything.\nUpdates flt_evs of the twopane menu and causes RenPy to update the screen.\n\nIN:\n    search_query - search query to filter and sort by"
+    }
   }
 }

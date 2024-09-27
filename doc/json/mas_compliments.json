@@ -1,8 +1,10 @@
 {
   "_m1_script0x2dcompliments__set_wait_time": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_m1_script0x2dcompliments__set_wait_time",
     "line": 88,
+    "docstring": "Sets new wait time",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -11,13 +13,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets new wait time"
+    }
   },
   "compliment_delegate_callback": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "compliment_delegate_callback",
     "line": 95,
+    "docstring": "A callback for the compliments delegate label",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -26,7 +29,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "A callback for the compliments delegate label"
+    }
   }
 }

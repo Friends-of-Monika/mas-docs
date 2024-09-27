@@ -1,6 +1,7 @@
 {
   "ParallaxDecal": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "ParallaxDecal",
     "class_bases": [
       "renpy.display.core.Displayable"
@@ -10,8 +11,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 851,
+        "docstring": "Constructor for decals\n\nIN:\n    img - the img/disp for this decal\n    x - the x offset in the container\n        (Default: 0)\n    y - the y offset in the container\n        (Default: 0)\n    z - basically zorder\n        (Default: 0)\n    on_click - a callable to call on click events, or just a non-None value to return\n        (Default: None)",
         "function_args": {
           "args": [
             "self",
@@ -32,11 +35,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor for decals\n\nIN:\n    img - the img/disp for this decal\n    x - the x offset in the container\n        (Default: 0)\n    y - the y offset in the container\n        (Default: 0)\n    z - basically zorder\n        (Default: 0)\n    on_click - a callable to call on click events, or just a non-None value to return\n        (Default: None)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "x",
         "line": 879,
         "function_args": {
@@ -53,6 +58,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "x.setter"
+        ],
         "identifier": "x",
         "line": 883,
         "function_args": {
@@ -70,6 +78,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "y",
         "line": 889,
         "function_args": {
@@ -86,6 +97,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "y.setter"
+        ],
         "identifier": "y",
         "line": 893,
         "function_args": {
@@ -103,6 +117,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "z",
         "line": 899,
         "function_args": {
@@ -119,6 +136,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "z.setter"
+        ],
         "identifier": "z",
         "line": 903,
         "function_args": {
@@ -136,8 +156,10 @@
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__repr__",
         "line": 908,
+        "docstring": "Representation of this object",
         "function_args": {
           "args": [
             "self"
@@ -148,13 +170,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Representation of this object"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "event",
         "line": 920,
+        "docstring": "The event handler",
         "function_args": {
           "args": [
             "self",
@@ -169,13 +192,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The event handler"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "render",
         "line": 947,
+        "docstring": "The render method",
         "function_args": {
           "args": [
             "self",
@@ -190,13 +214,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The render method"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "visit",
         "line": 960,
+        "docstring": "Returns the img for prediction",
         "function_args": {
           "args": [
             "self"
@@ -207,13 +232,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the img for prediction"
+        }
       }
     ]
   },
   "_ParallaxDecalContainer": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "_ParallaxDecalContainer",
     "class_bases": [
       "renpy.display.core.Displayable"
@@ -223,8 +248,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 972,
+        "docstring": "Constructor for containers\n\nIN:\n    base - the base img (must be ParallaxDecal)\n    children - children imgs (must be ParallaxDecal)",
         "function_args": {
           "args": [
             "self",
@@ -236,13 +263,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": "children"
-        },
-        "docstring": "Constructor for containers\n\nIN:\n    base - the base img (must be ParallaxDecal)\n    children - children imgs (must be ParallaxDecal)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_m1_special0x2deffects__sort_decals",
         "line": 996,
+        "docstring": "Sorts inner list of images, ensures the base is being the last",
         "function_args": {
           "args": [
             "self"
@@ -253,11 +281,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Sorts inner list of images, ensures the base is being the last"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "base",
         "line": 1003,
         "function_args": {
@@ -274,6 +304,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "base.setter"
+        ],
         "identifier": "base",
         "line": 1007,
         "function_args": {
@@ -291,6 +324,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "children",
         "line": 1021,
         "function_args": {
@@ -307,6 +343,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "debug",
         "line": 1025,
         "function_args": {
@@ -323,6 +362,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "debug.setter"
+        ],
         "identifier": "debug",
         "line": 1029,
         "function_args": {
@@ -340,8 +382,10 @@
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__repr__",
         "line": 1033,
+        "docstring": "Representation of this object",
         "function_args": {
           "args": [
             "self"
@@ -352,13 +396,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Representation of this object"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "add",
         "line": 1043,
+        "docstring": "Adds a ParallaxDecal to this container",
         "function_args": {
           "args": [
             "self"
@@ -369,13 +414,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": "decals"
-        },
-        "docstring": "Adds a ParallaxDecal to this container"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "remove",
         "line": 1057,
+        "docstring": "Removes a ParallaxDecal instance from this container",
         "function_args": {
           "args": [
             "self"
@@ -386,13 +432,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": "decals"
-        },
-        "docstring": "Removes a ParallaxDecal instance from this container"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "remove_all",
         "line": 1068,
+        "docstring": "Removes all decals from this container",
         "function_args": {
           "args": [
             "self"
@@ -403,13 +450,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Removes all decals from this container"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "event",
         "line": 1078,
+        "docstring": "The event handler for this container,\npropagates events to its children",
         "function_args": {
           "args": [
             "self",
@@ -424,13 +472,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The event handler for this container,\npropagates events to its children"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "render",
         "line": 1091,
+        "docstring": "The render method where we do the meth logic to align everything properly",
         "function_args": {
           "args": [
             "self",
@@ -445,13 +494,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The render method where we do the meth logic to align everything properly"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_update_offsets",
         "line": 1130,
+        "docstring": "HACK: Runs the render method and updates offsets,\nthis is terrible, but has to be done. Blame RenPy.",
         "function_args": {
           "args": [
             "self"
@@ -462,13 +512,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "HACK: Runs the render method and updates offsets,\nthis is terrible, but has to be done. Blame RenPy."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "update",
         "line": 1137,
+        "docstring": "Updates this disp",
         "function_args": {
           "args": [
             "self"
@@ -479,13 +530,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Updates this disp"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "visit",
         "line": 1144,
+        "docstring": "Returns images of this disp for prediction",
         "function_args": {
           "args": [
             "self"
@@ -496,13 +548,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns images of this disp for prediction"
+        }
       }
     ]
   },
   "ParallaxSprite": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "ParallaxSprite",
     "class_bases": [
       "renpy.display.core.Displayable"
@@ -512,8 +564,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 1160,
+        "docstring": "Constructor for parallax sprites\n\nIN:\n    img - path to the img/Displayable\n    x - the sprite x pos on the screen\n    y - the sprite y pos on the screen\n    z - the sprite z pos\n        NOTE: treat this as zorder, it also determines the maximum amount of parallax effect\n        NOTE: MUST BE > 0\n    function - a function for the sprite's transform,\n        use it if you need additional effects\n        (Default: None)\n    decals - list of decals for this sprite\n        (Default: empty tuple)\n    on_click - if it's a callable object, it'll be called on click (LMB) events,\n        otherwise it'll be returned on those events\n        (Default: None)\n    min_zoom - min zoom value\n        (Default: 1.0)\n    max_zoom - max zoom value\n        (Default: 4.0)\n        NOTE: if min_zoom == max_zoom, the user won't be able to zoom in/out",
         "function_args": {
           "args": [
             "self",
@@ -539,11 +593,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor for parallax sprites\n\nIN:\n    img - path to the img/Displayable\n    x - the sprite x pos on the screen\n    y - the sprite y pos on the screen\n    z - the sprite z pos\n        NOTE: treat this as zorder, it also determines the maximum amount of parallax effect\n        NOTE: MUST BE > 0\n    function - a function for the sprite's transform,\n        use it if you need additional effects\n        (Default: None)\n    decals - list of decals for this sprite\n        (Default: empty tuple)\n    on_click - if it's a callable object, it'll be called on click (LMB) events,\n        otherwise it'll be returned on those events\n        (Default: None)\n    min_zoom - min zoom value\n        (Default: 1.0)\n    max_zoom - max zoom value\n        (Default: 4.0)\n        NOTE: if min_zoom == max_zoom, the user won't be able to zoom in/out"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "x",
         "line": 1243,
         "function_args": {
@@ -560,6 +616,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "x.setter"
+        ],
         "identifier": "x",
         "line": 1247,
         "function_args": {
@@ -577,6 +636,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "y",
         "line": 1252,
         "function_args": {
@@ -593,6 +655,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "y.setter"
+        ],
         "identifier": "y",
         "line": 1256,
         "function_args": {
@@ -610,6 +675,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "z",
         "line": 1261,
         "function_args": {
@@ -626,6 +694,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "z.setter"
+        ],
         "identifier": "z",
         "line": 1265,
         "function_args": {
@@ -643,6 +714,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "zoom",
         "line": 1270,
         "function_args": {
@@ -659,6 +733,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "zoom.setter"
+        ],
         "identifier": "zoom",
         "line": 1274,
         "function_args": {
@@ -676,6 +753,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "decals",
         "line": 1280,
         "function_args": {
@@ -692,6 +772,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "property"
+        ],
         "identifier": "debug",
         "line": 1284,
         "function_args": {
@@ -708,6 +791,9 @@
       },
       {
         "type": "function",
+        "function_decorators": [
+          "debug.setter"
+        ],
         "identifier": "debug",
         "line": 1288,
         "function_args": {
@@ -725,8 +811,10 @@
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__repr__",
         "line": 1306,
+        "docstring": "Representation of this object",
         "function_args": {
           "args": [
             "self"
@@ -737,13 +825,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Representation of this object"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "update_mouse_pos",
         "line": 1319,
+        "docstring": "Updates mouse pos",
         "function_args": {
           "args": [
             "self"
@@ -754,13 +843,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Updates mouse pos"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "reset_mouse_pos",
         "line": 1325,
+        "docstring": "Resets mouse pos",
         "function_args": {
           "args": [
             "self"
@@ -771,13 +861,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Resets mouse pos"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "toggle_events",
         "line": 1332,
+        "docstring": "Toggles events (and hence the parallax effect)\n\nIN:\n    value - the value to set",
         "function_args": {
           "args": [
             "self",
@@ -789,13 +880,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Toggles events (and hence the parallax effect)\n\nIN:\n    value - the value to set"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "add_decals",
         "line": 1341,
+        "docstring": "Adds decals to this sprite\n\nIN:\n    decals - ParallaxDecal objects",
         "function_args": {
           "args": [
             "self"
@@ -806,13 +898,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": "decals"
-        },
-        "docstring": "Adds decals to this sprite\n\nIN:\n    decals - ParallaxDecal objects"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "remove_decals",
         "line": 1350,
+        "docstring": "Removes decals from this sprite\n\nIN:\n    decals - ParallaxDecal objects",
         "function_args": {
           "args": [
             "self"
@@ -823,13 +916,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": "decals"
-        },
-        "docstring": "Removes decals from this sprite\n\nIN:\n    decals - ParallaxDecal objects"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "clear_decals",
         "line": 1359,
+        "docstring": "Removes all decals from this sprite",
         "function_args": {
           "args": [
             "self"
@@ -840,13 +934,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Removes all decals from this sprite"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_m1_special0x2deffects__get_transform_placement",
         "line": 1365,
+        "docstring": "Returns placement of the transform according\nto renpy placement algo\n\nOUT:\n    tuple of 2 items",
         "function_args": {
           "args": [
             "self"
@@ -857,13 +952,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns placement of the transform according\nto renpy placement algo\n\nOUT:\n    tuple of 2 items"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "update_offsets",
         "line": 1380,
+        "docstring": "Updates the offsets of this parallax sprite",
         "function_args": {
           "args": [
             "self"
@@ -874,13 +970,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Updates the offsets of this parallax sprite"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "event",
         "line": 1441,
+        "docstring": "The event handler\nTODO: allow to move around and zoom in/out with keyboard",
         "function_args": {
           "args": [
             "self",
@@ -895,13 +992,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The event handler\nTODO: allow to move around and zoom in/out with keyboard"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_m1_special0x2deffects__debug_info_render",
         "line": 1483,
+        "docstring": "Renders debug info on a render. This is slow,\nbut it's only for debugging (obviously)\n\nIN:\n    width - render width\n    height - render height\n    st - current st\n    at - current at\n    render - the render to render onto\n\nASSUMES:\n    Debug mode is on",
         "function_args": {
           "args": [
             "self",
@@ -917,13 +1015,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Renders debug info on a render. This is slow,\nbut it's only for debugging (obviously)\n\nIN:\n    width - render width\n    height - render height\n    st - current st\n    at - current at\n    render - the render to render onto\n\nASSUMES:\n    Debug mode is on"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "render",
         "line": 1544,
+        "docstring": "The render method",
         "function_args": {
           "args": [
             "self",
@@ -938,13 +1037,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The render method"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "visit",
         "line": 1565,
+        "docstring": "Returns the transform for prediction\n\nOUT:\n    list with the disp to predict",
         "function_args": {
           "args": [
             "self"
@@ -955,13 +1055,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the transform for prediction\n\nOUT:\n    list with the disp to predict"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "predict_one",
         "line": 1574,
+        "docstring": "Called to ask this displayable to call the callback with all\nthe images it may want to load.",
         "function_args": {
           "args": [
             "self"
@@ -972,13 +1073,13 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Called to ask this displayable to call the callback with all\nthe images it may want to load."
+        }
       }
     ]
   },
   "ParallaxBackground": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "ParallaxBackground",
     "class_bases": [
       "renpy.display.core.Displayable"
@@ -988,8 +1089,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 1590,
+        "docstring": "Constructor for parallax background\n\nIN:\n    children - ParallaxSprite objects for this background to compose together,\n        but technically can be any displayables (for example if you need something static)",
         "function_args": {
           "args": [
             "self"
@@ -1000,13 +1103,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": "children"
-        },
-        "docstring": "Constructor for parallax background\n\nIN:\n    children - ParallaxSprite objects for this background to compose together,\n        but technically can be any displayables (for example if you need something static)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "add",
         "line": 1602,
+        "docstring": "Adds a sprite to this background\n\nIN:\n    sprite - perhaps a ParallaxSprite or other kind of displayable",
         "function_args": {
           "args": [
             "self",
@@ -1018,13 +1122,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Adds a sprite to this background\n\nIN:\n    sprite - perhaps a ParallaxSprite or other kind of displayable"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "insert",
         "line": 1611,
+        "docstring": "Inserts a sprite in this background\n\nIN:\n    index - the index to insert at\n    sprite - the sprite to insert\n\nASSUMES:\n    the index exists",
         "function_args": {
           "args": [
             "self",
@@ -1037,13 +1142,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Inserts a sprite in this background\n\nIN:\n    index - the index to insert at\n    sprite - the sprite to insert\n\nASSUMES:\n    the index exists"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "remove",
         "line": 1624,
+        "docstring": "Removes a sprite from this background\n\nIN:\n    sprite - the sprite to remove\n\nASSUMES:\n    the sprite IS in the background",
         "function_args": {
           "args": [
             "self",
@@ -1055,13 +1161,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Removes a sprite from this background\n\nIN:\n    sprite - the sprite to remove\n\nASSUMES:\n    the sprite IS in the background"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "event",
         "line": 1636,
+        "docstring": "The event handler",
         "function_args": {
           "args": [
             "self",
@@ -1076,13 +1183,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The event handler"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "render",
         "line": 1649,
+        "docstring": "The render method",
         "function_args": {
           "args": [
             "self",
@@ -1097,13 +1205,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "The render method"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "visit",
         "line": 1663,
+        "docstring": "Returns the children for prediction\n\nOUT:\n    list of ParallaxSprite",
         "function_args": {
           "args": [
             "self"
@@ -1114,8 +1223,7 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns the children for prediction\n\nOUT:\n    list of ParallaxSprite"
+        }
       }
     ]
   }

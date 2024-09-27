@@ -1,8 +1,10 @@
 {
   "is_eggable_name": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_eggable_name",
     "line": 70,
+    "docstring": "Checks if the given name is eggable\n\nIN:\n    name - the name to check (string)\n\nRETURNS: True if the name is eggable",
     "function_args": {
       "args": [
         "name"
@@ -13,13 +15,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the given name is eggable\n\nIN:\n    name - the name to check (string)\n\nRETURNS: True if the name is eggable"
+    }
   },
   "name_eggs_enabled": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "name_eggs_enabled",
     "line": 82,
+    "docstring": "Checks if name eggs are enabled\n\nRETURNS: True if name eggs are enabled",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -28,13 +31,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if name eggs are enabled\n\nRETURNS: True if name eggs are enabled"
+    }
   },
   "natsuki_enabled": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "natsuki_enabled",
     "line": 91,
+    "docstring": "Checks if the natsuki egg should be enabled\n\nRETURNS: True if natsuki egg should be enabled",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -43,13 +47,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the natsuki egg should be enabled\n\nRETURNS: True if natsuki egg should be enabled"
+    }
   },
   "sayori_enabled": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "sayori_enabled",
     "line": 103,
+    "docstring": "Checks if the sayori egg should be enabled\n\nRETURNS: True if the sayori egg should be enabled",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -58,13 +63,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the sayori egg should be enabled\n\nRETURNS: True if the sayori egg should be enabled"
+    }
   },
   "yuri_enabled": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "yuri_enabled",
     "line": 115,
+    "docstring": "Checks if the yuri egg should be enabled\n\nRETURNS: True if yuri egg should be enabled",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -73,7 +79,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the yuri egg should be enabled\n\nRETURNS: True if yuri egg should be enabled"
+    }
   }
 }

@@ -1,6 +1,7 @@
 {
   "MASAsyncWrapper": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASAsyncWrapper",
     "class_bases": [
       "object"
@@ -10,8 +11,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 217,
+        "docstring": "IN:\n    async_fun - function to call asynchronously\n    async_args - list of arguments to send to the async function\n        (Default: [])\n    async_kwargs - dict of keyword args to send to the async\n        function\n        (Default: {})",
         "function_args": {
           "args": [
             "self",
@@ -28,13 +31,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "IN:\n    async_fun - function to call asynchronously\n    async_args - list of arguments to send to the async function\n        (Default: [])\n    async_kwargs - dict of keyword args to send to the async\n        function\n        (Default: {})"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "done",
         "line": 251,
+        "docstring": "Returns true if the thread is Done and has returned data, False\notherwise.",
         "function_args": {
           "args": [
             "self"
@@ -45,13 +49,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns true if the thread is Done and has returned data, False\notherwise."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "end",
         "line": 269,
+        "docstring": "Resets thread status vars and more so we can spawn a new thread.\n\nChecks if the thread is done before doing any resets",
         "function_args": {
           "args": [
             "self"
@@ -62,13 +67,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Resets thread status vars and more so we can spawn a new thread.\n\nChecks if the thread is done before doing any resets"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "get",
         "line": 282,
+        "docstring": "Retrieves value set by thread and resets everything so we can\nspawn a new thread.\n\nRETURNS:\n    value returned from async call.\n    or None if the async call is still returning. (or if your\n        async call returned None)",
         "function_args": {
           "args": [
             "self"
@@ -79,13 +85,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Retrieves value set by thread and resets everything so we can\nspawn a new thread.\n\nRETURNS:\n    value returned from async call.\n    or None if the async call is still returning. (or if your\n        async call returned None)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "start",
         "line": 307,
+        "docstring": "Starts the threaded function call.",
         "function_args": {
           "args": [
             "self"
@@ -96,13 +103,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Starts the threaded function call."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_th_start",
         "line": 323,
+        "docstring": "Actually runs the async function and sets the result var\nappropriately.",
         "function_args": {
           "args": [
             "self"
@@ -113,13 +121,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Actually runs the async function and sets the result var\nappropriately."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_m1_zz_threading__end",
         "line": 337,
+        "docstring": "Resets vars so we can spawn a new thred. Does NOT check if the\nthread is done.",
         "function_args": {
           "args": [
             "self"
@@ -130,8 +139,7 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Resets vars so we can spawn a new thred. Does NOT check if the\nthread is done."
+        }
       }
     ]
   }

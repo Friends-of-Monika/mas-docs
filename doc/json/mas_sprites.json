@@ -1,6 +1,7 @@
 {
   "ACSTemplate": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "ACSTemplate",
     "class_bases": [
       "renpy.store.object"
@@ -10,8 +11,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 17,
+        "docstring": "Constructor\n\nIN:\n    acs_type - acs type this template should be associated with\n    mux_type - the mux_type we want to use as default. Ignored if\n        None.\n        (Default: None)\n    ex_props - the ex_props we want to use as default. Ignored if\n        None.\n        (Default: None)\n    keep_on_desk - the keep_on_desk flag we want to use as default.\n        Ignored if None.\n        (Default: None)",
         "function_args": {
           "args": [
             "self",
@@ -30,13 +33,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor\n\nIN:\n    acs_type - acs type this template should be associated with\n    mux_type - the mux_type we want to use as default. Ignored if\n        None.\n        (Default: None)\n    ex_props - the ex_props we want to use as default. Ignored if\n        None.\n        (Default: None)\n    keep_on_desk - the keep_on_desk flag we want to use as default.\n        Ignored if None.\n        (Default: None)"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_apply_ex_props",
         "line": 43,
+        "docstring": "Applies ex prop defaults to the given ACS.\n\nacs_type is NOT checked.\n\nIN:\n    acs - acs to modify",
         "function_args": {
           "args": [
             "self",
@@ -48,13 +52,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Applies ex prop defaults to the given ACS.\n\nacs_type is NOT checked.\n\nIN:\n    acs - acs to modify"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_apply_keep_on_desk",
         "line": 61,
+        "docstring": "Applies keep_on_desk defaults to the given ACS.\n\nacs_type is NOT checked.\n\nIN:\n    acs- acs to modify",
         "function_args": {
           "args": [
             "self",
@@ -66,13 +71,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Applies keep_on_desk defaults to the given ACS.\n\nacs_type is NOT checked.\n\nIN:\n    acs- acs to modify"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_apply_mux_type",
         "line": 75,
+        "docstring": "Applies mux type defaults to the given ACS.\n\nacs_type is NOT checked.\n\nIN:\n    acs - acs to modify.",
         "function_args": {
           "args": [
             "self",
@@ -84,13 +90,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Applies mux type defaults to the given ACS.\n\nacs_type is NOT checked.\n\nIN:\n    acs - acs to modify."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "apply",
         "line": 95,
+        "docstring": "Applies the defaults to the given ACS. (NOTE: acs type is checked)",
         "function_args": {
           "args": [
             "self",
@@ -102,15 +109,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Applies the defaults to the given ACS. (NOTE: acs type is checked)"
+        }
       }
     ]
   },
   "apply_ACSTemplate": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "apply_ACSTemplate",
     "line": 459,
+    "docstring": "Applies ACS template to the given ACS\n\nIN:\n    acs - acs to apply defaults to",
     "function_args": {
       "args": [
         "acs"
@@ -121,13 +129,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Applies ACS template to the given ACS\n\nIN:\n    acs - acs to apply defaults to"
+    }
   },
   "apply_ACSTemplates": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "apply_ACSTemplates",
     "line": 471,
+    "docstring": "RUNTIME ONLY\n        Applies all templates to the available ACS.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -136,13 +145,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RUNTIME ONLY\n        Applies all templates to the available ACS."
+    }
   },
   "get_ACSTemplate": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_ACSTemplate",
     "line": 479,
+    "docstring": "Gets the template for an ACS given the ACS.\n\nIN:\n    acs - acs to get template for\n\nRETURNS: ACSTemplate associated with the acs, or None if not found",
     "function_args": {
       "args": [
         "acs"
@@ -153,13 +163,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the template for an ACS given the ACS.\n\nIN:\n    acs - acs to get template for\n\nRETURNS: ACSTemplate associated with the acs, or None if not found"
+    }
   },
   "get_ACSTemplate_by_type": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_ACSTemplate_by_type",
     "line": 493,
+    "docstring": "Gets the template for an ACS given the ACS type\n\nIN:\n    acs_type - acs type to get template for\n\nRETURNS: ACSTemplate associated with the acs_type or Nonr if not ound",
     "function_args": {
       "args": [
         "acs_type"
@@ -170,13 +181,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the template for an ACS given the ACS type\n\nIN:\n    acs_type - acs type to get template for\n\nRETURNS: ACSTemplate associated with the acs_type or Nonr if not ound"
+    }
   },
   "add_filter": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "add_filter",
     "line": 736,
+    "docstring": "Adds a filter to the global filters\nYou can also use this to override built-in filters.\n\nNOTE: if you plan to use this, please use it before init level -1\nFilters beyond this level will be ignored.\n\nNOn-pythonable filter names are ignored\n\nIN:\n    flt_enum - enum key to use as a filter.\n    imx - image matrix to use as filter\n    base - filter to use as a backup for this filter. Any images\n        that are unable to be shown for flt_enum will be revert to\n        the base filter.\n        This should also be a FLT_ENUM.\n        This is checked to make sure it is a valid, preexisting enum,\n        so if chaining multiple bases, add them in order.\n        If None, no base is given for the flt.\n        (Default: None)",
     "function_args": {
       "args": [
         "flt_enum",
@@ -191,13 +203,16 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds a filter to the global filters\nYou can also use this to override built-in filters.\n\nNOTE: if you plan to use this, please use it before init level -1\nFilters beyond this level will be ignored.\n\nNOn-pythonable filter names are ignored\n\nIN:\n    flt_enum - enum key to use as a filter.\n    imx - image matrix to use as filter\n    base - filter to use as a backup for this filter. Any images\n        that are unable to be shown for flt_enum will be revert to\n        the base filter.\n        This should also be a FLT_ENUM.\n        This is checked to make sure it is a valid, preexisting enum,\n        so if chaining multiple bases, add them in order.\n        If None, no base is given for the flt.\n        (Default: None)"
+    }
   },
   "_decide_filter": {
     "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated(use_instead='get_filter', should_raise=True)"
+    ],
     "identifier": "_decide_filter",
     "line": 785,
+    "docstring": "DEPRECATED\n        Please use get_filter",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -206,13 +221,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "DEPRECATED\n        Please use get_filter"
+    }
   },
   "get_filter": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_filter",
     "line": 792,
+    "docstring": "Returns the current filter\n\nRETURNS: filter to use",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -221,13 +237,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns the current filter\n\nRETURNS: filter to use"
+    }
   },
   "is_filter": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_filter",
     "line": 801,
+    "docstring": "Checks if the given filter is a valid filter\n\nIN:\n    flt - filter enum to check\n\nRETURNS: True if valid filter, False if not",
     "function_args": {
       "args": [
         "flt"
@@ -238,13 +255,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the given filter is a valid filter\n\nIN:\n    flt - filter enum to check\n\nRETURNS: True if valid filter, False if not"
+    }
   },
   "_rslv_flt": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rslv_flt",
     "line": 813,
+    "docstring": "Gets base filter for a flt.\n\nIN:\n    flt - flt to get base filter for\n\nRETURNS: base flt for flt, or the flt itself if no base",
     "function_args": {
       "args": [
         "flt"
@@ -255,13 +273,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets base filter for a flt.\n\nIN:\n    flt - flt to get base filter for\n\nRETURNS: base flt for flt, or the flt itself if no base"
+    }
   },
   "set_filter": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "set_filter",
     "line": 825,
+    "docstring": "Sets the current filter if it is valid.\nInvalid filters are ignored.\n\nIN:\n    flt_enum - filter to set",
     "function_args": {
       "args": [
         "flt_enum"
@@ -272,13 +291,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets the current filter if it is valid.\nInvalid filters are ignored.\n\nIN:\n    flt_enum - filter to set"
+    }
   },
   "_test_filter": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_test_filter",
     "line": 838,
+    "docstring": "Checks if this filter enum can be a filter enum.\n\nLogs to mas log if there are errors\n\nIN:\n    flt_enum - filter enum to test\n\nRETURNS: True if passed test, False if not",
     "function_args": {
       "args": [
         "flt_enum"
@@ -289,13 +309,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if this filter enum can be a filter enum.\n\nLogs to mas log if there are errors\n\nIN:\n    flt_enum - filter enum to test\n\nRETURNS: True if passed test, False if not"
+    }
   },
   "alt_bcode": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "alt_bcode",
     "line": 1011,
+    "docstring": "Adds bcode 0 and bcode 1 versions of the given prefix to the given\nlist.\n\nIN:\n    prefix - string to add bcode to\n    inc_night - if True, then we also do night variants of each bcode\n        version, otherwise, just day versions\n\nOUT:\n    v_list - list to add strings to",
     "function_args": {
       "args": [
         "v_list",
@@ -308,13 +329,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds bcode 0 and bcode 1 versions of the given prefix to the given\nlist.\n\nIN:\n    prefix - string to add bcode to\n    inc_night - if True, then we also do night variants of each bcode\n        version, otherwise, just day versions\n\nOUT:\n    v_list - list to add strings to"
+    }
   },
   "alt_hsplit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "alt_hsplit",
     "line": 1033,
+    "docstring": "Adds backhair/front hair versionsof the given prefix to the given list\n\nIN:\n    prefix - string to add bhair/front hair to\n    inc_night - if Ture, then we also do night varaints of each bhair\n        fhair version, otherwise just day versions\n\nOUT:\n    v_list - list to add strings to",
     "function_args": {
       "args": [
         "v_list",
@@ -327,13 +349,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds backhair/front hair versionsof the given prefix to the given list\n\nIN:\n    prefix - string to add bhair/front hair to\n    inc_night - if Ture, then we also do night varaints of each bhair\n        fhair version, otherwise just day versions\n\nOUT:\n    v_list - list to add strings to"
+    }
   },
   "adjust_zoom": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "adjust_zoom",
     "line": 1072,
+    "docstring": "Sets the value zoom to an appropraite amoutn based on the current\nzoom level.\nNOTE: also sets the persistent save for zoom",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -342,13 +365,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Sets the value zoom to an appropraite amoutn based on the current\nzoom level.\nNOTE: also sets the persistent save for zoom"
+    }
   },
   "reset_zoom": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "reset_zoom",
     "line": 1098,
+    "docstring": "Resets the zoom to the default value\nNOTE: also set sthe persistent save for zoom",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -357,13 +381,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Resets the zoom to the default value\nNOTE: also set sthe persistent save for zoom"
+    }
   },
   "zoom_out": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "zoom_out",
     "line": 1108,
+    "docstring": "zooms out to the farthest zoom level\nNOTE: also sets the persistent save for zoom",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -372,13 +397,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "zooms out to the farthest zoom level\nNOTE: also sets the persistent save for zoom"
+    }
   },
   "tryparsehair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "tryparsehair",
     "line": 1120,
+    "docstring": "Returns the given hair if it exists, or the default if not exist\n\nIN:\n    _hair - hair to check for existence\n    default - default if hair dont exist\n\nRETURNS:\n    the hair if it exists, or default if not",
     "function_args": {
       "args": [
         "_hair",
@@ -392,13 +418,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns the given hair if it exists, or the default if not exist\n\nIN:\n    _hair - hair to check for existence\n    default - default if hair dont exist\n\nRETURNS:\n    the hair if it exists, or default if not"
+    }
   },
   "tryparseclothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "tryparseclothes",
     "line": 1138,
+    "docstring": "Returns the given clothes if it exists, or the default if not exist\n\nIN:\n    _clothes - clothes to check for existence\n    default - default if clothes dont exist\n\nRETURNS:\n    the clothes if it exists, or default if not",
     "function_args": {
       "args": [
         "_clothes",
@@ -412,13 +439,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns the given clothes if it exists, or the default if not exist\n\nIN:\n    _clothes - clothes to check for existence\n    default - default if clothes dont exist\n\nRETURNS:\n    the clothes if it exists, or default if not"
+    }
   },
   "_genLK": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_genLK",
     "line": 1256,
+    "docstring": "generates a tuple of keys + leanables using the given kens\n\nLeanable Keys are keys prefixed with a lean type like: <lean>|<key>\n\nIN:\n    keys - iterable of keys to use\n\nRETURNS: tuple of keys + leanable keys",
     "function_args": {
       "args": [
         "keys"
@@ -429,11 +457,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "generates a tuple of keys + leanables using the given kens\n\nLeanable Keys are keys prefixed with a lean type like: <lean>|<key>\n\nIN:\n    keys - iterable of keys to use\n\nRETURNS: tuple of keys + leanable keys"
+    }
   },
   "_verify_uprightpose": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_uprightpose",
     "line": 1274,
     "function_args": {
@@ -450,6 +478,7 @@
   },
   "_verify_lean": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_lean",
     "line": 1278,
     "function_args": {
@@ -466,6 +495,7 @@
   },
   "_verify_leaningpose": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_leaningpose",
     "line": 1282,
     "function_args": {
@@ -482,6 +512,7 @@
   },
   "_verify_pose": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_pose",
     "line": 1286,
     "function_args": {
@@ -501,8 +532,12 @@
   },
   "acs_lean_mode": {
     "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated(should_raise=True)"
+    ],
     "identifier": "acs_lean_mode",
     "line": 1292,
+    "docstring": "NOTE: DEPRECATED\n\nAdds the appropriate accessory prefix dpenedong on lean\n\nIN:\n    sprite_list - list to add sprites to\n    lean - type of lean",
     "function_args": {
       "args": [
         "sprite_list",
@@ -514,13 +549,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "NOTE: DEPRECATED\n\nAdds the appropriate accessory prefix dpenedong on lean\n\nIN:\n    sprite_list - list to add sprites to\n    lean - type of lean"
+    }
   },
   "face_lean_mode": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "face_lean_mode",
     "line": 1313,
+    "docstring": "Returns the appropriate face prefix depending on lean\n\nIN:\n    lean - type of lean\n\nRETURNS:\n    appropriat eface prefix string",
     "function_args": {
       "args": [
         "lean"
@@ -531,13 +567,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns the appropriate face prefix depending on lean\n\nIN:\n    lean - type of lean\n\nRETURNS:\n    appropriat eface prefix string"
+    }
   },
   "create_remover": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "create_remover",
     "line": 1333,
+    "docstring": "Creates a remover ACS\n\nIN:\n    acs_type - acs type for the remover. This is also used in mux_type\n    group - group of selectables this ACS remover should be linked to\n        This is used in the naming of the ACS.\n    mux_types - list of types to use for mux_type\n\nRETURNS: remover ACS object",
     "function_args": {
       "args": [
         "acs_type",
@@ -550,13 +587,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates a remover ACS\n\nIN:\n    acs_type - acs type for the remover. This is also used in mux_type\n    group - group of selectables this ACS remover should be linked to\n        This is used in the naming of the ACS.\n    mux_types - list of types to use for mux_type\n\nRETURNS: remover ACS object"
+    }
   },
   "get_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_acs",
     "line": 1360,
+    "docstring": "Gets the ACS object for a given name from the ACS map\n\nIN:\n    acs_name - name of the ACS to get\n\nRETURNS: ACS object, or None if no acs object with the given name",
     "function_args": {
       "args": [
         "acs_name"
@@ -567,13 +605,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the ACS object for a given name from the ACS map\n\nIN:\n    acs_name - name of the ACS to get\n\nRETURNS: ACS object, or None if no acs object with the given name"
+    }
   },
   "get_acs_of_type": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_acs_of_type",
     "line": 1372,
+    "docstring": "Gets all ACS objects for a given ACS type.\n\nIN:\n    acs_type - type of ACS to get\n\nRETURNS: list of ACS objects with the given type. list may be empty\n    if no ACS of the given type",
     "function_args": {
       "args": [
         "acs_type"
@@ -584,13 +623,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets all ACS objects for a given ACS type.\n\nIN:\n    acs_type - type of ACS to get\n\nRETURNS: list of ACS objects with the given type. list may be empty\n    if no ACS of the given type"
+    }
   },
   "init_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "init_acs",
     "line": 1388,
+    "docstring": "Initlializes the given MAS accessory into a dictionary map setting\n\nIN:\n    mas_acs - MASAccessory to initialize",
     "function_args": {
       "args": [
         "mas_acs"
@@ -601,13 +641,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Initlializes the given MAS accessory into a dictionary map setting\n\nIN:\n    mas_acs - MASAccessory to initialize"
+    }
   },
   "init_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "init_hair",
     "line": 1404,
+    "docstring": "Initlializes the given MAS hairstyle into a dictionary map setting\n\nIN:\n    mas_hair - MASHair to initialize",
     "function_args": {
       "args": [
         "mas_hair"
@@ -618,13 +659,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Initlializes the given MAS hairstyle into a dictionary map setting\n\nIN:\n    mas_hair - MASHair to initialize"
+    }
   },
   "init_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "init_clothes",
     "line": 1420,
+    "docstring": "Initlializes the given MAS clothes into a dictionary map setting\n\nIN:\n    mas_clothes - MASClothes to initialize",
     "function_args": {
       "args": [
         "mas_cloth"
@@ -635,13 +677,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Initlializes the given MAS clothes into a dictionary map setting\n\nIN:\n    mas_clothes - MASClothes to initialize"
+    }
   },
   "rm_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "rm_acs",
     "line": 1436,
+    "docstring": "Deletes an ACS by removing it from the map\n\nIN:\n    acs - ACS to remove",
     "function_args": {
       "args": [
         "acs"
@@ -652,13 +695,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Deletes an ACS by removing it from the map\n\nIN:\n    acs - ACS to remove"
+    }
   },
   "lock_exprop_topics": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lock_exprop_topics",
     "line": 1447,
+    "docstring": "Locks topics with the given exprop\n\nIN:\n    exprop - extended property to lock associated topics wtih",
     "function_args": {
       "args": [
         "exprop"
@@ -669,13 +713,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Locks topics with the given exprop\n\nIN:\n    exprop - extended property to lock associated topics wtih"
+    }
   },
   "lock_acstype_topics": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "lock_acstype_topics",
     "line": 1460,
+    "docstring": "Locks topics with the given acs type\n\nIN:\n    acstype - acs type to lock assicated topics with",
     "function_args": {
       "args": [
         "acs_type"
@@ -686,13 +731,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Locks topics with the given acs type\n\nIN:\n    acstype - acs type to lock assicated topics with"
+    }
   },
   "unlock_exprop_topics": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlock_exprop_topics",
     "line": 1472,
+    "docstring": "Unlocks topics with the given exprop\n\nIN:\n    exprop - extended property to unlock associated topics with",
     "function_args": {
       "args": [
         "exprop"
@@ -703,13 +749,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks topics with the given exprop\n\nIN:\n    exprop - extended property to unlock associated topics with"
+    }
   },
   "unlock_acstype_topics": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "unlock_acstype_topics",
     "line": 1485,
+    "docstring": "Unlocks topics with the given acs type\n\nIN:\n    acstype - acs type to unlock associated topics with",
     "function_args": {
       "args": [
         "acs_type"
@@ -720,13 +767,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks topics with the given acs type\n\nIN:\n    acstype - acs type to unlock associated topics with"
+    }
   },
   "should_disable_lean": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "should_disable_lean",
     "line": 1497,
+    "docstring": "Figures out if we need to disable the lean or not based on current\ncharacter settings\n\nIN:\n    lean - lean type we want to do\n    arms - arms type involved with lean\n    character - MASMonika object\n\nRETURNS:\n    True if we should disable lean, False otherwise",
     "function_args": {
       "args": [
         "lean",
@@ -739,13 +787,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Figures out if we need to disable the lean or not based on current\ncharacter settings\n\nIN:\n    lean - lean type we want to do\n    arms - arms type involved with lean\n    character - MASMonika object\n\nRETURNS:\n    True if we should disable lean, False otherwise"
+    }
   },
   "build_loc": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "build_loc",
     "line": 1530,
+    "docstring": "RETURNS location string for the sprite",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -754,13 +803,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS location string for the sprite"
+    }
   },
   "build_loc_val": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "build_loc_val",
     "line": 1537,
+    "docstring": "RETURNS location tuple for a sprite",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -769,13 +819,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "RETURNS location tuple for a sprite"
+    }
   },
   "get_sprite": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_sprite",
     "line": 1544,
+    "docstring": "Returns the sprite object with the given sprite name and sprite type.\nOr None if we couldn't find one.",
     "function_args": {
       "args": [
         "sprite_type",
@@ -787,13 +838,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns the sprite object with the given sprite name and sprite type.\nOr None if we couldn't find one."
+    }
   },
   "get_installed_sprites": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_installed_sprites",
     "line": 1557,
+    "docstring": "Returns ALL available sprite objects\nNOTE: Runtime only\n\nIN:\n    sprite_type - the sprite type constant\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of sprite objects",
     "function_args": {
       "args": [
         "sprite_type",
@@ -807,13 +859,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns ALL available sprite objects\nNOTE: Runtime only\n\nIN:\n    sprite_type - the sprite type constant\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of sprite objects"
+    }
   },
   "get_installed_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_installed_acs",
     "line": 1585,
+    "docstring": "get_installed_sprites for acs objects\n\nIN:\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of acs sprite objects",
     "function_args": {
       "args": [
         "predicate"
@@ -826,13 +879,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "get_installed_sprites for acs objects\n\nIN:\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of acs sprite objects"
+    }
   },
   "get_installed_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_installed_hair",
     "line": 1601,
+    "docstring": "get_installed_sprites for hair objects\n\nIN:\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of hair sprite objects",
     "function_args": {
       "args": [
         "predicate"
@@ -845,13 +899,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "get_installed_sprites for hair objects\n\nIN:\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of hair sprite objects"
+    }
   },
   "get_installed_clothes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "get_installed_clothes",
     "line": 1617,
+    "docstring": "get_installed_sprites for clothes objects\n\nIN:\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of clothes sprite objects",
     "function_args": {
       "args": [
         "predicate"
@@ -864,13 +919,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "get_installed_sprites for clothes objects\n\nIN:\n    predicate - the predicate function\n        (Default: None)\n\nOUT:\n    list of clothes sprite objects"
+    }
   },
   "acs_rm_exit_pre_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "acs_rm_exit_pre_change",
     "line": 1657,
+    "docstring": "Runs before exit point runs for acs\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    rm_acs - acs we are removing\n    acs_loc - acs location to rm this acs from",
     "function_args": {
       "args": [
         "temp_space",
@@ -884,13 +940,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs before exit point runs for acs\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    rm_acs - acs we are removing\n    acs_loc - acs location to rm this acs from"
+    }
   },
   "acs_rm_exit_pst_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "acs_rm_exit_pst_change",
     "line": 1670,
+    "docstring": "Runs after exit point runs runs for acs\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    rm_acs - acs we are removing\n    acs_loc -  acs location to rm this acs from",
     "function_args": {
       "args": [
         "temp_space",
@@ -904,13 +961,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after exit point runs runs for acs\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    rm_acs - acs we are removing\n    acs_loc -  acs location to rm this acs from"
+    }
   },
   "acs_rm_exit_pst_removal": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "acs_rm_exit_pst_removal",
     "line": 1684,
+    "docstring": "Runs after the ACS is removed\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    rm_acs - acs we are removing\n    acs_loc - acs location the ACS was removed from",
     "function_args": {
       "args": [
         "temp_space",
@@ -924,13 +982,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after the ACS is removed\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    rm_acs - acs we are removing\n    acs_loc - acs location the ACS was removed from"
+    }
   },
   "acs_wear_mux_pre_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "acs_wear_mux_pre_change",
     "line": 1699,
+    "docstring": "Runs before mux type acs are removed\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs",
     "function_args": {
       "args": [
         "temp_space",
@@ -944,13 +1003,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs before mux type acs are removed\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs"
+    }
   },
   "acs_wear_mux_pst_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "acs_wear_mux_pst_change",
     "line": 1715,
+    "docstring": "Runs after mux type acs removed, before insertion\n\nIN:\n    temp space - temp space\n    moni_chr - MASMonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs",
     "function_args": {
       "args": [
         "temp_space",
@@ -964,13 +1024,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after mux type acs removed, before insertion\n\nIN:\n    temp space - temp space\n    moni_chr - MASMonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs"
+    }
   },
   "acs_wear_entry_pre_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "acs_wear_entry_pre_change",
     "line": 1728,
+    "docstring": "Runs after insertion, before entry pooint\n\nIN:\n    temp_space - temp space\n    moni_chr - MASmonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs",
     "function_args": {
       "args": [
         "temp_space",
@@ -984,13 +1045,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after insertion, before entry pooint\n\nIN:\n    temp_space - temp space\n    moni_chr - MASmonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs"
+    }
   },
   "acs_wear_entry_pst_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "acs_wear_entry_pst_change",
     "line": 1741,
+    "docstring": "Runs after entry point\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs",
     "function_args": {
       "args": [
         "temp_space",
@@ -1004,13 +1066,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after entry point\n\nIN:\n    temp_space - temp space\n    moni_chr - MASMonika object\n    new_acs - acs we are adding\n    acs_loc - acs location to wear this acs"
+    }
   },
   "clothes_exit_pre_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clothes_exit_pre_change",
     "line": 1755,
+    "docstring": "Runs pre clothes change code. This code is ran prior to clothes being\nchanged and prior to exit prog point\n\nIN:\n    temp_space - temporary dictionary space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1024,13 +1087,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs pre clothes change code. This code is ran prior to clothes being\nchanged and prior to exit prog point\n\nIN:\n    temp_space - temporary dictionary space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to"
+    }
   },
   "clothes_exit_pst_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clothes_exit_pst_change",
     "line": 1769,
+    "docstring": "Runs after exit prog point is ran, before the actual change.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1044,13 +1108,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after exit prog point is ran, before the actual change.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to"
+    }
   },
   "clothes_entry_pre_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clothes_entry_pre_change",
     "line": 1801,
+    "docstring": "Runs after change, before entry prog point.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1064,13 +1129,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after change, before entry prog point.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to"
+    }
   },
   "clothes_entry_pst_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "clothes_entry_pst_change",
     "line": 1818,
+    "docstring": "Runs after entry prog point\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1084,13 +1150,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after entry prog point\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_cloth - current clothes\n    new_cloth - clothes we are changing to"
+    }
   },
   "hair_exit_pre_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "hair_exit_pre_change",
     "line": 1861,
+    "docstring": "Runs pre hair change code. This code is ran prior to hair being\nchanged and prior to exit prog point.\n\nIN:\n    temp_space - temporary dictionary space\n    moni_chr - MASMonika object\n    prev_hair - current hair\n    new_hair - hair we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1104,13 +1171,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs pre hair change code. This code is ran prior to hair being\nchanged and prior to exit prog point.\n\nIN:\n    temp_space - temporary dictionary space\n    moni_chr - MASMonika object\n    prev_hair - current hair\n    new_hair - hair we are changing to"
+    }
   },
   "hair_exit_pst_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "hair_exit_pst_change",
     "line": 1883,
+    "docstring": "Runs after exit prog point is ran, before the actual change.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_hair - current hair\n    new_hair - hair we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1124,13 +1192,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after exit prog point is ran, before the actual change.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_hair - current hair\n    new_hair - hair we are changing to"
+    }
   },
   "hair_entry_pre_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "hair_entry_pre_change",
     "line": 1896,
+    "docstring": "Runs after change, before entry prog point.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    preV_hair - current hair\n    new_hair - hair we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1144,13 +1213,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after change, before entry prog point.\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    preV_hair - current hair\n    new_hair - hair we are changing to"
+    }
   },
   "hair_entry_pst_change": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "hair_entry_pst_change",
     "line": 1909,
+    "docstring": "Runs after entry prog point\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_hair - current hair\n    new_hair - hair we are changing to",
     "function_args": {
       "args": [
         "temp_space",
@@ -1164,13 +1234,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Runs after entry prog point\n\nIN:\n    temp_space - temp dict space\n    moni_chr - MASMonika object\n    prev_hair - current hair\n    new_hair - hair we are changing to"
+    }
   },
   "is_hairacs_compatible": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_hairacs_compatible",
     "line": 1963,
+    "docstring": "Checks if the given hair is compatible with the given acs\n\nIN:\n    hair - hair to check\n    acs - acs to check\n\nRETURNS: True if hair+acs is compatible, False if not",
     "function_args": {
       "args": [
         "hair",
@@ -1182,13 +1253,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the given hair is compatible with the given acs\n\nIN:\n    hair - hair to check\n    acs - acs to check\n\nRETURNS: True if hair+acs is compatible, False if not"
+    }
   },
   "is_clotheshair_compatible": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_clotheshair_compatible",
     "line": 1990,
+    "docstring": "Checks if the given clothes is compatible with the given hair\n\nIN:\n    clothes - clothes to check\n    hair - hair to check\n\nRETURNS: True if clothes+hair is comaptible, False if not",
     "function_args": {
       "args": [
         "clothes",
@@ -1200,13 +1272,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if the given clothes is compatible with the given hair\n\nIN:\n    clothes - clothes to check\n    hair - hair to check\n\nRETURNS: True if clothes+hair is comaptible, False if not"
+    }
   },
   "_ms_head": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_ms_head",
     "line": 2019,
+    "docstring": "Creates head string\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    head - type of head\n\nRETURNS:\n    head string",
     "function_args": {
       "args": [
         "clothing",
@@ -1219,13 +1292,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates head string\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    head - type of head\n\nRETURNS:\n    head string"
+    }
   },
   "_ms_left": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_ms_left",
     "line": 2046,
+    "docstring": "Creates left side string\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    left - type of left side\n\nRETURNS:\n    left side stirng",
     "function_args": {
       "args": [
         "clothing",
@@ -1238,13 +1312,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates left side string\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    left - type of left side\n\nRETURNS:\n    left side stirng"
+    }
   },
   "_ms_right": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_ms_right",
     "line": 2073,
+    "docstring": "Creates right body string\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    right - type of right side\n\nRETURNS:\n    right body string",
     "function_args": {
       "args": [
         "clothing",
@@ -1257,13 +1332,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates right body string\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    right - type of right side\n\nRETURNS:\n    right body string"
+    }
   },
   "_ms_standing": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_ms_standing",
     "line": 2100,
+    "docstring": "Creates the custom standing string\nThis is different than the stock ones because of image location\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    head - type of head\n    left - type of left side\n    right - type of right side\n    acs_list - list of MASAccessory objects\n        NOTE: this should the combined list because we don't have\n            layering in standing mode\n\nRETURNS:\n    custom standing sprite",
     "function_args": {
       "args": [
         "clothing",
@@ -1279,13 +1355,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates the custom standing string\nThis is different than the stock ones because of image location\n\nIN:\n    clothing - type of clothing\n    hair - type of hair\n    head - type of head\n    left - type of left side\n    right - type of right side\n    acs_list - list of MASAccessory objects\n        NOTE: this should the combined list because we don't have\n            layering in standing mode\n\nRETURNS:\n    custom standing sprite"
+    }
   },
   "_ms_standingstock": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_ms_standingstock",
     "line": 2134,
+    "docstring": "Creates the stock standing string\nThis is different then the custom ones because of image location\n\nAlso no night version atm.\n\nIN:\n    head - type of head\n    left - type of left side\n    right - type of right side\n    acs_list - list of MASAccessory objects\n        NOTE: this should be the combined list because we don't have\n            layering in standing mode\n    single - type of single standing picture.\n        (Defualt: None)\n\nRETURNS:\n    stock standing string",
     "function_args": {
       "args": [
         "head",
@@ -1302,13 +1379,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates the stock standing string\nThis is different then the custom ones because of image location\n\nAlso no night version atm.\n\nIN:\n    head - type of head\n    left - type of left side\n    right - type of right side\n    acs_list - list of MASAccessory objects\n        NOTE: this should be the combined list because we don't have\n            layering in standing mode\n    single - type of single standing picture.\n        (Defualt: None)\n\nRETURNS:\n    stock standing string"
+    }
   },
   "_clear_caches": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clear_caches",
     "line": 4101,
+    "docstring": "Clears all caches",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -1317,11 +1395,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Clears all caches"
+    }
   },
   "MASMonikaRender": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASMonikaRender",
     "class_bases": [
       "store.MASFilterable"
@@ -1331,8 +1409,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 4136,
+        "docstring": "Constructor for a MASMOnikaRender object\n\nIN:\n    render_keys - image keys and ImageBase if needed.\n        See props.\n    flt - filter we are using (string)\n    xpos - xposition to blit objects with\n    ypos - yposition to blit objects with\n    width - width to render objects with\n    height - height to render objects with",
         "function_args": {
           "args": [
             "self",
@@ -1349,13 +1429,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Constructor for a MASMOnikaRender object\n\nIN:\n    render_keys - image keys and ImageBase if needed.\n        See props.\n    flt - filter we are using (string)\n    xpos - xposition to blit objects with\n    ypos - yposition to blit objects with\n    width - width to render objects with\n    height - height to render objects with"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_l_render_hl",
         "line": 4157,
+        "docstring": "Retrieves highlight image from cache, or renders if needed\n\nIN:\n    render_key - tuple of the following format\n        [0] - key of image to generate\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nOUT:\n    render_list - list to add render to, if needed",
         "function_args": {
           "args": [
             "self",
@@ -1370,13 +1451,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Retrieves highlight image from cache, or renders if needed\n\nIN:\n    render_key - tuple of the following format\n        [0] - key of image to generate\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nOUT:\n    render_list - list to add render to, if needed"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "_render_surf",
         "line": 4201,
+        "docstring": "Retrieves surf image from cache, or renders if needed\n\nIN:\n    render_key - tuple of the following format:\n        [0] - key of image to generate\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nRETURNS: rendered surf image to use",
         "function_args": {
           "args": [
             "self",
@@ -1390,13 +1472,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Retrieves surf image from cache, or renders if needed\n\nIN:\n    render_key - tuple of the following format:\n        [0] - key of image to generate\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nRETURNS: rendered surf image to use"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "render",
         "line": 4233,
+        "docstring": "Render function",
         "function_args": {
           "args": [
             "self",
@@ -1411,13 +1494,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Render function"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "visit",
         "line": 4252,
+        "docstring": "Returns a list of displayables we obtain\nNOTE: will also save to our cache",
         "function_args": {
           "args": [
             "self"
@@ -1428,15 +1512,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Returns a list of displayables we obtain\nNOTE: will also save to our cache"
+        }
       }
     ]
   },
   "_add_arms_rk": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_add_arms_rk",
     "line": 4265,
+    "docstring": "Adds render key for multiple MASArm objects, if needed\n\nIN:\n    arms - MASArm objects to add render key for\n    pfx - prefix tuple to generate image string with\n    flt - filter code to use\n    bcode - base code to use\n    clothing_t - type of clothing to use\n    leanpose - leanpose to use\n\nOUT:\n    rk_list - render key list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1453,13 +1538,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds render key for multiple MASArm objects, if needed\n\nIN:\n    arms - MASArm objects to add render key for\n    pfx - prefix tuple to generate image string with\n    flt - filter code to use\n    bcode - base code to use\n    clothing_t - type of clothing to use\n    leanpose - leanpose to use\n\nOUT:\n    rk_list - render key list to add render keys to"
+    }
   },
   "_bhli": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_bhli",
     "line": 4373,
+    "docstring": "Builds a\nHigh-\nLight\nImage using the base image path\n\nIN:\n    img_list - list of strings that form the base image string\n        NOTE: we assume that the last item in this string is the\n        FILE_EXT. This also assumes highlight codes are always inserted\n        right before the file extension.\n    hlcode - highlight code to use. Can be None.\n\nRETURNS: Image to use for highlight, or None if no highlight.",
     "function_args": {
       "args": [
         "img_list",
@@ -1471,13 +1557,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds a\nHigh-\nLight\nImage using the base image path\n\nIN:\n    img_list - list of strings that form the base image string\n        NOTE: we assume that the last item in this string is the\n        FILE_EXT. This also assumes highlight codes are always inserted\n        right before the file extension.\n    hlcode - highlight code to use. Can be None.\n\nRETURNS: Image to use for highlight, or None if no highlight."
+    }
   },
   "_bhlifp": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_bhlifp",
     "line": 4398,
+    "docstring": "Builds a\nHigh-\nLight\nImage using an image's\nFile\nPath\n\nIN:\n    img_path - full filepath to an image, including extension.\n    hlcode - highlight code to use. Can be None\n\nRETURNS: Image to use for highlight, or None if no highlight",
     "function_args": {
       "args": [
         "img_path",
@@ -1489,13 +1576,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Builds a\nHigh-\nLight\nImage using an image's\nFile\nPath\n\nIN:\n    img_path - full filepath to an image, including extension.\n    hlcode - highlight code to use. Can be None\n\nRETURNS: Image to use for highlight, or None if no highlight"
+    }
   },
   "_cgen_im": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_cgen_im",
     "line": 4421,
+    "docstring": "Checks cache for an im,\nGENerates the im if not found\n\nIN:\n    flt - filter to use\n    key - key of the image\n    cid - cache ID of the cache to use\n    img_base - ImageBase to build the image\n\nRETURNS: Image Manipulator for this render",
     "function_args": {
       "args": [
         "flt",
@@ -1509,13 +1597,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks cache for an im,\nGENerates the im if not found\n\nIN:\n    flt - filter to use\n    key - key of the image\n    cid - cache ID of the cache to use\n    img_base - ImageBase to build the image\n\nRETURNS: Image Manipulator for this render"
+    }
   },
   "_cgha_im": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_cgha_im",
     "line": 4448,
+    "docstring": "Checks cache of an image\nGenerates the im if not found, and sets\nHighlight if needed.\nAdds IMs to the given render list\n\nNOTE: should only be used by the visit function\n\nIN:\n    flt - filter to use\n    render_key - tuple of the following format:\n        [0] - key of the image to generate\n        [1] - cache ID of the cahce to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nOUT:\n    render_list - list to add IMs to",
     "function_args": {
       "args": [
         "render_list",
@@ -1528,13 +1617,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks cache of an image\nGenerates the im if not found, and sets\nHighlight if needed.\nAdds IMs to the given render list\n\nNOTE: should only be used by the visit function\n\nIN:\n    flt - filter to use\n    render_key - tuple of the following format:\n        [0] - key of the image to generate\n        [1] - cache ID of the cahce to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nOUT:\n    render_list - list to add IMs to"
+    }
   },
   "_cs_im": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_cs_im",
     "line": 4504,
+    "docstring": "Checks cache for an im\nStores the img_base if not found\n\nIN:\n    key - key of the image\n    cid - cache ID of the cache to use\n    img_base - ImageBase to build the image\n\nRETURNS: ImageBase",
     "function_args": {
       "args": [
         "key",
@@ -1547,13 +1637,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks cache for an im\nStores the img_base if not found\n\nIN:\n    key - key of the image\n    cid - cache ID of the cache to use\n    img_base - ImageBase to build the image\n\nRETURNS: ImageBase"
+    }
   },
   "_dayify": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_dayify",
     "line": 4525,
+    "docstring": "Dayifies the given image key.\nDAying simply replaces the filter portion of the key with \"day\"\n\nIN:\n    img_key - image key to dayify\n\nRETURNS: dayified key",
     "function_args": {
       "args": [
         "img_key"
@@ -1564,13 +1655,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Dayifies the given image key.\nDAying simply replaces the filter portion of the key with \"day\"\n\nIN:\n    img_key - image key to dayify\n\nRETURNS: dayified key"
+    }
   },
   "_gc": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_gc",
     "line": 4540,
+    "docstring": "Gets the\nCache\n\nIN:\n    cid - cache ID of the cache to get\n\nRETURNS: cache, or empty dict if cache not found",
     "function_args": {
       "args": [
         "cid"
@@ -1581,13 +1673,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Gets the\nCache\n\nIN:\n    cid - cache ID of the cache to get\n\nRETURNS: cache, or empty dict if cache not found"
+    }
   },
   "_gen_im": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_gen_im",
     "line": 4553,
+    "docstring": "GENerates an image maniuplator\nNOTE: always assumes we have an available filter.\n\nIN:\n    flt - filter to use\n    img_base - image path or manipulator to use\n\nRETURNS: generated render key",
     "function_args": {
       "args": [
         "flt",
@@ -1599,13 +1692,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "GENerates an image maniuplator\nNOTE: always assumes we have an available filter.\n\nIN:\n    flt - filter to use\n    img_base - image path or manipulator to use\n\nRETURNS: generated render key"
+    }
   },
   "_hlify": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hlify",
     "line": 4569,
+    "docstring": "Highlightifies the given key.\nHighlightifying is just prefixing the key with the cid\n\nIN:\n    key - key to highlightify\n    cid - cid to use when highlighting\n\nRETURNS: highlightified key",
     "function_args": {
       "args": [
         "key",
@@ -1617,13 +1711,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Highlightifies the given key.\nHighlightifying is just prefixing the key with the cid\n\nIN:\n    key - key to highlightify\n    cid - cid to use when highlighting\n\nRETURNS: highlightified key"
+    }
   },
   "_rk_accessory": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_accessory",
     "line": 4584,
+    "docstring": "Adds accessory render key if needed\n\nIN:\n    acs - MASAccessory object\n    flt - filter to apply\n    arm_split - see MASAccessory.arm_split for codes. None for no\n        codes at all.\n    leanpose - current pose\n        (Default: None)\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1640,13 +1735,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds accessory render key if needed\n\nIN:\n    acs - MASAccessory object\n    flt - filter to apply\n    arm_split - see MASAccessory.arm_split for codes. None for no\n        codes at all.\n    leanpose - current pose\n        (Default: None)\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_accessory_list": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_accessory_list",
     "line": 4681,
+    "docstring": "Adds accessory render keys for a list of accessories\n\nIN:\n    acs_list - list of MASAccessory objects, in order of rendering\n    flt - filter to use\n    arm_split - set to MASAccessory.arm_split code if we are rendering\n        arm_split-affected ACS. If None, we use standard algs.\n        (Default: None)\n    leanpose - arms pose for we are currently rendering\n        (Default: None)\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1664,13 +1760,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds accessory render keys for a list of accessories\n\nIN:\n    acs_list - list of MASAccessory objects, in order of rendering\n    flt - filter to use\n    arm_split - set to MASAccessory.arm_split code if we are rendering\n        arm_split-affected ACS. If None, we use standard algs.\n        (Default: None)\n    leanpose - arms pose for we are currently rendering\n        (Default: None)\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_arms_base_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_arms_base_nh",
     "line": 4716,
+    "docstring": "Adds arms base render keys\n(equiv to _ms_arms_nh_up_base)\n\nIN:\n    barms - tuple of MASArm objects to use\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1685,13 +1782,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds arms base render keys\n(equiv to _ms_arms_nh_up_base)\n\nIN:\n    barms - tuple of MASArm objects to use\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_arms_base_lean_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_arms_base_lean_nh",
     "line": 4744,
+    "docstring": "Adds arms base lean render key\n(eqiv to _ms_arms_nh_leaning_base)\n\nIN:\n    barms - tuple of MASArm objects to use\n    lean - type of lean\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1707,13 +1805,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds arms base lean render key\n(eqiv to _ms_arms_nh_leaning_base)\n\nIN:\n    barms - tuple of MASArm objects to use\n    lean - type of lean\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_arms_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_arms_nh",
     "line": 4775,
+    "docstring": "Adds arms render key\n(equiv to _ms_arms_nh_up_arms)\n\nIN:\n    parms - tuple of MASArm objects to use\n    clothing - MASClothes object\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1729,13 +1828,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds arms render key\n(equiv to _ms_arms_nh_up_arms)\n\nIN:\n    parms - tuple of MASArm objects to use\n    clothing - MASClothes object\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_arms_lean_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_arms_lean_nh",
     "line": 4806,
+    "docstring": "Adds arms lean render key\n(equiv to _ms_arms_nh_leaning_arms)\n\nIN:\n    parms - tuple of MASArm objects to use\n    clothing - MASClothes object\n    lean - type of lean\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1752,13 +1852,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds arms lean render key\n(equiv to _ms_arms_nh_leaning_arms)\n\nIN:\n    parms - tuple of MASArm objects to use\n    clothing - MASClothes object\n    lean - type of lean\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_arms_nh_wbase": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_arms_nh_wbase",
     "line": 4840,
+    "docstring": "Adds arms render keys, no hair, with baes\n\nIN:\n    barms - tuple of MASArm objects for base\n    parms - tuple of MASArm objects for pose\n    clothing - MASClothes object\n    acs_ase_list - acs between arms-base-0 and arms-0\n    leanpose - leanpose to pass to accessorylist\n    lean - lean to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1777,13 +1878,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds arms render keys, no hair, with baes\n\nIN:\n    barms - tuple of MASArm objects for base\n    parms - tuple of MASArm objects for pose\n    clothing - MASClothes object\n    acs_ase_list - acs between arms-base-0 and arms-0\n    leanpose - leanpose to pass to accessorylist\n    lean - lean to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_base_body_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_base_body_nh",
     "line": 4898,
+    "docstring": "Adds base body render keys, no hair\n(equiv of _ms_torso_nh_base)\n\nIN:\n    flt - filter ot use\n    bcode- base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1796,13 +1898,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds base body render keys, no hair\n(equiv of _ms_torso_nh_base)\n\nIN:\n    flt - filter ot use\n    bcode- base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_base_body_lean_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_base_body_lean_nh",
     "line": 4926,
+    "docstring": "Adds base body lean render keys, no hair\n(equivalent of _ms_torsoleaning_nh_base)\n\nIN:\n    lean - type of lean\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1816,13 +1919,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds base body lean render keys, no hair\n(equivalent of _ms_torsoleaning_nh_base)\n\nIN:\n    lean - type of lean\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_body_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_body_nh",
     "line": 4957,
+    "docstring": "Adds body render keys, no hair\n(equiv of _ms_torso_nh)\n\nIN:\n    clothing - MASClothes object\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1836,13 +1940,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds body render keys, no hair\n(equiv of _ms_torso_nh)\n\nIN:\n    clothing - MASClothes object\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_body_lean_nh": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_body_lean_nh",
     "line": 4996,
+    "docstring": "Adds body leaning render keys, no hair\n(equiv of _ms_torsoleaning_nh)\n\nIN:\n    clothing - MASClothes object\n    lean - type of lean\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1857,13 +1962,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds body leaning render keys, no hair\n(equiv of _ms_torsoleaning_nh)\n\nIN:\n    clothing - MASClothes object\n    lean - type of lean\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_body_nh_wbase": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_body_nh_wbase",
     "line": 5039,
+    "docstring": "Adds body render keys, including base and bse acs, no hair\n\nIN:\n    clothing - MASClothes object\n    acs_bse_list - acs between base-0 and body-0\n    bcode - base code to use\n    flt - filter to use\n    leanpose - leanpose to pass to accessorylist\n    lean - type of lean\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1882,13 +1988,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds body render keys, including base and bse acs, no hair\n\nIN:\n    clothing - MASClothes object\n    acs_bse_list - acs between base-0 and body-0\n    bcode - base code to use\n    flt - filter to use\n    leanpose - leanpose to pass to accessorylist\n    lean - type of lean\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_chair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_chair",
     "line": 5083,
+    "docstring": "Adds chair render key\n\nIN:\n    mtc - MASTableChair object\n    flt - filter to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1901,13 +2008,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds chair render key\n\nIN:\n    mtc - MASTableChair object\n    flt - filter to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_face": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_face",
     "line": 5121,
+    "docstring": "Adds face render keys\n\nIN:\n    eyes - type of eyes\n    eyebrows - type of eyebrows\n    nose - type of nose\n    mouth - type of mouth\n    flt - filter to use\n    fpfx - face prefix to use\n    lean - type of lean to use\n    sweat - type of sweat drop\n    tears - type of tears\n    emote - type of emote\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1928,13 +2036,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds face render keys\n\nIN:\n    eyes - type of eyes\n    eyebrows - type of eyebrows\n    nose - type of nose\n    mouth - type of mouth\n    flt - filter to use\n    fpfx - face prefix to use\n    lean - type of lean to use\n    sweat - type of sweat drop\n    tears - type of tears\n    emote - type of emote\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_face_pre": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_face_pre",
     "line": 5263,
+    "docstring": "Adds face render keys that go before hair\n\nIN:\n    flt - filter to use\n    fpfx - face prefix to use\n    lean - type of lean to use\n    blush - type of blush\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1949,13 +2058,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds face render keys that go before hair\n\nIN:\n    flt - filter to use\n    fpfx - face prefix to use\n    lean - type of lean to use\n    blush - type of blush\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_hair": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_hair",
     "line": 5316,
+    "docstring": "Adds hair render key\n\nIN:\n    hair - MASHair object\n    flt - filter to use\n    hair_key - hair key to use (front/back/mid)\n    lean - tyoe of lean\n    leanpose - leanpose\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1971,13 +2081,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds hair render key\n\nIN:\n    hair - MASHair object\n    flt - filter to use\n    hair_key - hair key to use (front/back/mid)\n    lean - tyoe of lean\n    leanpose - leanpose\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_head": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_head",
     "line": 5380,
+    "docstring": "Adds head render keys.\n\nIN:\n    bcode - base code to use\n    flt - filter to use\n    lean - type of lean\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -1990,13 +2101,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds head render keys.\n\nIN:\n    bcode - base code to use\n    flt - filter to use\n    lean - type of lean\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_table": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_table",
     "line": 5419,
+    "docstring": "Adds table render key\n\nIN:\n    table - MASTableChair object\n    show_shadow - True if shadow should be included, false if not\n    flt filter to use\n\nOUT:\n    rk_list - list to add render keys to",
     "function_args": {
       "args": [
         "rk_list",
@@ -2010,13 +2122,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Adds table render key\n\nIN:\n    table - MASTableChair object\n    show_shadow - True if shadow should be included, false if not\n    flt filter to use\n\nOUT:\n    rk_list - list to add render keys to"
+    }
   },
   "_rk_sitting": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_rk_sitting",
     "line": 5493,
+    "docstring": "Creates a list of render keys in order of desired render.\n\nIN:\n    clothing - MASClothes object\n    hair - MASHair object\n    base_arms - tuple of MASArm objects to use for the base\n    pose_arms - tuple of MASArm objects to use for the clothes arms\n    eyebrows - type of eyebrows\n    eyes - type of eyes\n    nose - type of nose\n    mouth - type of mouth\n    flt - filter to use\n    acs_pre_list - sorted list of MASAccessories to draw prior to body\n    acs_bbh_list - sroted list of MASAccessories to draw between back\n        hair and body\n    acs_bse_list - sorted list of MASAccessories to draw between base\n        body and outfit\n    acs_bba_list - sorted list of MASAccessories to draw between\n        body and back arms\n    acs_ase_list - sorted list of MASAccessories to draw between base\n        arms and outfit\n    acs_bmh_list - sorted list of MASAccessories to draw betrween back\n        arms and mid hair\n    acs_mmh_list - sorted list of MASAccessories to draw between mid\n        hair and head\n    acs_bat_list - sorted list of MASAccessories to draw before table\n    acs_mat_list - sorted list of MASAccessories to draw between\n        middle arms and table\n    acs_mab_list - sorted list of MASAccessories to draw between\n        middle arms and boobs\n    acs_bfh_list - sorted list of MASAccessories to draw between boobs\n        and front hair\n    acs_afh_list - sorted list of MASAccessories to draw between front\n        hair and face\n    acs_mid_list - sorted list of MASAccessories to draw between body\n        and arms\n    acs_pst_list - sorted list of MASAccessories to draw after arms\n    leanpose - lean and arms together\n    lean - type of lean\n    arms - type of arms\n    eyebags - type of eyebags\n    sweat - type of sweatdrop\n    blush - type of blush\n    tears - type of tears\n    emote - type of emote\n    tablechair - MASTableChair object\n    show_shadow - True will show shadow, false will not\n\nRETURNS: list of render keys",
     "function_args": {
       "args": [
         "clothing",
@@ -2059,13 +2172,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates a list of render keys in order of desired render.\n\nIN:\n    clothing - MASClothes object\n    hair - MASHair object\n    base_arms - tuple of MASArm objects to use for the base\n    pose_arms - tuple of MASArm objects to use for the clothes arms\n    eyebrows - type of eyebrows\n    eyes - type of eyes\n    nose - type of nose\n    mouth - type of mouth\n    flt - filter to use\n    acs_pre_list - sorted list of MASAccessories to draw prior to body\n    acs_bbh_list - sroted list of MASAccessories to draw between back\n        hair and body\n    acs_bse_list - sorted list of MASAccessories to draw between base\n        body and outfit\n    acs_bba_list - sorted list of MASAccessories to draw between\n        body and back arms\n    acs_ase_list - sorted list of MASAccessories to draw between base\n        arms and outfit\n    acs_bmh_list - sorted list of MASAccessories to draw betrween back\n        arms and mid hair\n    acs_mmh_list - sorted list of MASAccessories to draw between mid\n        hair and head\n    acs_bat_list - sorted list of MASAccessories to draw before table\n    acs_mat_list - sorted list of MASAccessories to draw between\n        middle arms and table\n    acs_mab_list - sorted list of MASAccessories to draw between\n        middle arms and boobs\n    acs_bfh_list - sorted list of MASAccessories to draw between boobs\n        and front hair\n    acs_afh_list - sorted list of MASAccessories to draw between front\n        hair and face\n    acs_mid_list - sorted list of MASAccessories to draw between body\n        and arms\n    acs_pst_list - sorted list of MASAccessories to draw after arms\n    leanpose - lean and arms together\n    lean - type of lean\n    arms - type of arms\n    eyebags - type of eyebags\n    sweat - type of sweatdrop\n    blush - type of blush\n    tears - type of tears\n    emote - type of emote\n    tablechair - MASTableChair object\n    show_shadow - True will show shadow, false will not\n\nRETURNS: list of render keys"
+    }
   },
   "_acs_wear_if_found": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_wear_if_found",
     "line": 5794,
+    "docstring": "Wears the acs if the acs exists\n\nIN:\n    _moni_chr - MASMonika object\n    acs_name - name of the accessory",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2077,13 +2191,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wears the acs if the acs exists\n\nIN:\n    _moni_chr - MASMonika object\n    acs_name - name of the accessory"
+    }
   },
   "_acs_wear_if_gifted": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_wear_if_gifted",
     "line": 5810,
+    "docstring": "Wears the acs if it exists and has been gifted/reacted.\nIt has been gifted/reacted if the selectable is unlocked.\n\nIN:\n    _moni_chr - MASMonika object\n    acs_name - name of the accessory",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2095,13 +2210,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wears the acs if it exists and has been gifted/reacted.\nIt has been gifted/reacted if the selectable is unlocked.\n\nIN:\n    _moni_chr - MASMonika object\n    acs_name - name of the accessory"
+    }
   },
   "_acs_wear_if_in_tempstorage": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_wear_if_in_tempstorage",
     "line": 5827,
+    "docstring": "Wears the acs in tempstorage at the given key, if any.\n\nIN:\n    _moni_chr - MASMonika object\n    key - key in tempstorage",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2113,13 +2229,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wears the acs in tempstorage at the given key, if any.\n\nIN:\n    _moni_chr - MASMonika object\n    key - key in tempstorage"
+    }
   },
   "_acs_wear_if_in_tempstorage_s": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_wear_if_in_tempstorage_s",
     "line": 5841,
+    "docstring": "Wears a single acs in tempstorage at the given key, if any.\n\nIN:\n    _moni_chr - MASMonika object\n    key - key in tempstorage",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2131,13 +2248,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wears a single acs in tempstorage at the given key, if any.\n\nIN:\n    _moni_chr - MASMonika object\n    key - key in tempstorage"
+    }
   },
   "_acs_wear_if_wearing_acs": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_wear_if_wearing_acs",
     "line": 5854,
+    "docstring": "Wears the given acs if wearing another acs.\n\nIN:\n    _moni_chr - MASMonika object\n    acs - acs to check if wearing\n    acs_to_wear - acs to wear if wearing acs",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2150,13 +2268,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wears the given acs if wearing another acs.\n\nIN:\n    _moni_chr - MASMonika object\n    acs - acs to check if wearing\n    acs_to_wear - acs to wear if wearing acs"
+    }
   },
   "_acs_wear_if_wearing_type": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_wear_if_wearing_type",
     "line": 5867,
+    "docstring": "Wears the given acs if wearing an acs of the given type.\n\nIN:\n    _moni_chr - MASMonika object\n    acs_type - acs type to check if wearing\n    acs_to_wear - acs to wear if wearing acs type",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2169,13 +2288,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wears the given acs if wearing an acs of the given type.\n\nIN:\n    _moni_chr - MASMonika object\n    acs_type - acs type to check if wearing\n    acs_to_wear - acs to wear if wearing acs type"
+    }
   },
   "_acs_wear_if_not_wearing_type": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_wear_if_not_wearing_type",
     "line": 5880,
+    "docstring": "Wears the given acs if NOT wearing an acs of the given type.\n\nIN:\n    _moni_chr - MASMonika object\n    acs_type - asc type to check if not wearing\n    acs_to_wear - acs to wear if not wearing acs type",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2188,13 +2308,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Wears the given acs if NOT wearing an acs of the given type.\n\nIN:\n    _moni_chr - MASMonika object\n    acs_type - asc type to check if not wearing\n    acs_to_wear - acs to wear if not wearing acs type"
+    }
   },
   "_acs_remove_if_found": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_remove_if_found",
     "line": 5893,
+    "docstring": "REmoves an acs if the name exists\n\nIN:\n    _moni_chr - MASMonika object\n    acs_name - name of the accessory to remove",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2206,13 +2327,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "REmoves an acs if the name exists\n\nIN:\n    _moni_chr - MASMonika object\n    acs_name - name of the accessory to remove"
+    }
   },
   "_acs_ribbon_save_and_remove": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_ribbon_save_and_remove",
     "line": 5909,
+    "docstring": "Removes ribbon acs and aves them to temp storage.\n\nIN:\n    _moni_chr - MASMonika object",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2223,13 +2345,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Removes ribbon acs and aves them to temp storage.\n\nIN:\n    _moni_chr - MASMonika object"
+    }
   },
   "_acs_ribbon_like_save_and_remove": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_ribbon_like_save_and_remove",
     "line": 5929,
+    "docstring": "Removes ribbon-like acs and saves them to temp storage, if found\n\nIN:\n    _moni_chr - MASMonika object",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2240,13 +2363,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Removes ribbon-like acs and saves them to temp storage, if found\n\nIN:\n    _moni_chr - MASMonika object"
+    }
   },
   "_acs_save_and_remove_exprop": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_save_and_remove_exprop",
     "line": 5943,
+    "docstring": "Removes acs with given exprop, saving them to temp storage with\ngiven key.\nAlso locks topics with the exprop if desired\n\nIN:\n    _moni_chr - MASMonika object\n    exprop - exprop to remove and save acs\n    key - key to use for temp storage\n    lock_topics - True will lock topics associated with this exprop\n        False will not",
     "function_args": {
       "args": [
         "_moni_chr",
@@ -2260,13 +2384,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Removes acs with given exprop, saving them to temp storage with\ngiven key.\nAlso locks topics with the exprop if desired\n\nIN:\n    _moni_chr - MASMonika object\n    exprop - exprop to remove and save acs\n    key - key to use for temp storage\n    lock_topics - True will lock topics associated with this exprop\n        False will not"
+    }
   },
   "_hair_unlock_select_if_needed": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_unlock_select_if_needed",
     "line": 5965,
+    "docstring": "Unlocks the hairdown selector if enough hair is unlocked.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -2275,13 +2400,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Unlocks the hairdown selector if enough hair is unlocked."
+    }
   },
   "_clothes_baked_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_baked_entry",
     "line": 5973,
+    "docstring": "Clothes baked entry",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2292,13 +2418,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Clothes baked entry"
+    }
   },
   "_hair_def_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_def_entry",
     "line": 5999,
+    "docstring": "Entry programming point for ponytail",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2309,13 +2436,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for ponytail"
+    }
   },
   "_hair_def_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_def_exit",
     "line": 6005,
+    "docstring": "Exit programming point for ponytail",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2326,13 +2454,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for ponytail"
+    }
   },
   "_hair_down_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_down_entry",
     "line": 6011,
+    "docstring": "Entry programming point for hair down",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2343,13 +2472,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for hair down"
+    }
   },
   "_hair_down_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_down_exit",
     "line": 6017,
+    "docstring": "Exit programming point for hair down",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2360,13 +2490,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for hair down"
+    }
   },
   "_hair_bun_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_bun_entry",
     "line": 6023,
+    "docstring": "Entry programming point for hair bun",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2377,13 +2508,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for hair bun"
+    }
   },
   "_hair_orcaramelo_bunbraid_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_orcaramelo_bunbraid_exit",
     "line": 6029,
+    "docstring": "Exit prog point for bunbraid",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2394,13 +2526,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit prog point for bunbraid"
+    }
   },
   "_hair_braided_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_braided_entry",
     "line": 6036,
+    "docstring": "Entry prog point for braided hair",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2411,13 +2544,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry prog point for braided hair"
+    }
   },
   "_hair_braided_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_braided_exit",
     "line": 6043,
+    "docstring": "Exit prog point for braided hair",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2428,13 +2562,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit prog point for braided hair"
+    }
   },
   "_hair_wet_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair_wet_entry",
     "line": 6052,
+    "docstring": "Entry prog point for wet hair",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2445,13 +2580,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry prog point for wet hair"
+    }
   },
   "_clothes_def_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_def_entry",
     "line": 6067,
+    "docstring": "Entry programming point for def clothes",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2462,13 +2598,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for def clothes"
+    }
   },
   "_clothes_def_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_def_exit",
     "line": 6077,
+    "docstring": "Exit programming point for def clothes",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2479,13 +2616,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for def clothes"
+    }
   },
   "_clothes_rin_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_rin_exit",
     "line": 6085,
+    "docstring": "Exit programming point for rin clothes",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2496,13 +2634,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for rin clothes"
+    }
   },
   "_clothes_marisa_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_marisa_exit",
     "line": 6092,
+    "docstring": "Exit programming point for marisa clothes",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2513,13 +2652,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for marisa clothes"
+    }
   },
   "_clothes_orcaramelo_hatsune_miku_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_orcaramelo_hatsune_miku_entry",
     "line": 6099,
+    "docstring": "Entry pp for orcaramelo miku",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2530,13 +2670,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry pp for orcaramelo miku"
+    }
   },
   "_clothes_orcaramelo_hatsune_miku_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_orcaramelo_hatsune_miku_exit",
     "line": 6125,
+    "docstring": "Exit pp for orcaramelo miku",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2547,13 +2688,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit pp for orcaramelo miku"
+    }
   },
   "_clothes_orcaramelo_sakuya_izayoi_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_orcaramelo_sakuya_izayoi_entry",
     "line": 6140,
+    "docstring": "Entry pp for orcaramelo sakuya",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2564,13 +2706,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry pp for orcaramelo sakuya"
+    }
   },
   "_clothes_orcaramelo_sakuya_izayoi_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_orcaramelo_sakuya_izayoi_exit",
     "line": 6171,
+    "docstring": "Exit pp for orcaramelo sakuya",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2581,13 +2724,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit pp for orcaramelo sakuya"
+    }
   },
   "_clothes_dress_newyears_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_dress_newyears_entry",
     "line": 6186,
+    "docstring": "entry progpoint for dress_newyears",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2598,13 +2742,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "entry progpoint for dress_newyears"
+    }
   },
   "_clothes_dress_newyears_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_dress_newyears_exit",
     "line": 6205,
+    "docstring": "exit progpoint for dress_newyears",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2615,13 +2760,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "exit progpoint for dress_newyears"
+    }
   },
   "_clothes_sundress_white_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_sundress_white_exit",
     "line": 6213,
+    "docstring": "Exit programming point for sundress white",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2632,13 +2778,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for sundress white"
+    }
   },
   "_clothes_velius94_dress_whitenavyblue_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_velius94_dress_whitenavyblue_entry",
     "line": 6222,
+    "docstring": "Entry prog point for navyblue dress",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2649,13 +2796,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry prog point for navyblue dress"
+    }
   },
   "_clothes_bath_towel_white_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_bath_towel_white_entry",
     "line": 6238,
+    "docstring": "Entry prog point for bath towel",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2666,13 +2814,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry prog point for bath towel"
+    }
   },
   "_clothes_bath_towel_white_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_bath_towel_white_exit",
     "line": 6249,
+    "docstring": "Exit prog point for bath towel",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2683,13 +2832,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit prog point for bath towel"
+    }
   },
   "_clothes_briaryoung_shuchiin_academy_uniform_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_briaryoung_shuchiin_academy_uniform_entry",
     "line": 6256,
+    "docstring": "Entry prog point for the shuchiin academy uniform",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2700,13 +2850,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry prog point for the shuchiin academy uniform"
+    }
   },
   "_clothes_briaryoung_shuchiin_academy_uniform_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_briaryoung_shuchiin_academy_uniform_exit",
     "line": 6276,
+    "docstring": "Exit prog point for the shuchiin academy uniform",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2717,13 +2868,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit prog point for the shuchiin academy uniform"
+    }
   },
   "_clothes_hatana_2b_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_hatana_2b_entry",
     "line": 6283,
+    "docstring": "Entry pp for hatana 2b",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2734,13 +2886,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry pp for hatana 2b"
+    }
   },
   "_clothes_hatana_2b_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes_hatana_2b_exit",
     "line": 6301,
+    "docstring": "Exit prog point for hatana 2b",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2751,13 +2904,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit prog point for hatana 2b"
+    }
   },
   "_acs_quetzalplushie_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_quetzalplushie_entry",
     "line": 6314,
+    "docstring": "Entry programming point for quetzal plushie acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2768,13 +2922,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for quetzal plushie acs"
+    }
   },
   "_acs_quetzalplushie_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_quetzalplushie_exit",
     "line": 6324,
+    "docstring": "Exit programming point for quetzal plushie acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2785,13 +2940,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for quetzal plushie acs"
+    }
   },
   "_acs_center_quetzalplushie_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_center_quetzalplushie_entry",
     "line": 6336,
+    "docstring": "Entry programming point for quetzal plushie (mid version) acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2802,13 +2958,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for quetzal plushie (mid version) acs"
+    }
   },
   "_acs_center_quetzalplushie_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_center_quetzalplushie_exit",
     "line": 6345,
+    "docstring": "Exit programming point for quetzal plushie (mid version) acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2819,13 +2976,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for quetzal plushie (mid version) acs"
+    }
   },
   "_acs_quetzalplushie_santahat_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_quetzalplushie_santahat_entry",
     "line": 6355,
+    "docstring": "Entry programming point for quetzal plushie santa hat acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2836,13 +2994,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for quetzal plushie santa hat acs"
+    }
   },
   "_acs_center_quetzalplushie_santahat_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_center_quetzalplushie_santahat_entry",
     "line": 6362,
+    "docstring": "Entry programming point for quetzal plushie santa hat (mid version) acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2853,13 +3012,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for quetzal plushie santa hat (mid version) acs"
+    }
   },
   "_acs_quetzalplushie_antlers_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_quetzalplushie_antlers_entry",
     "line": 6368,
+    "docstring": "Entry programming point for quetzal plushie antlers acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2870,13 +3030,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for quetzal plushie antlers acs"
+    }
   },
   "_acs_heartchoc_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_heartchoc_entry",
     "line": 6375,
+    "docstring": "Entry programming point for heartchoc acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2887,13 +3048,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Entry programming point for heartchoc acs"
+    }
   },
   "_acs_heartchoc_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs_heartchoc_exit",
     "line": 6392,
+    "docstring": "Exit programming point for heartchoc acs",
     "function_args": {
       "args": [
         "_moni_chr"
@@ -2904,13 +3066,14 @@
       "kw_only_args": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    },
-    "docstring": "Exit programming point for heartchoc acs"
+    }
   },
   "use_bma": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "use_bma",
     "line": 6524,
+    "docstring": "Returns base MASArm for an armid\n\nIN:\n    arm_id - numerical digit for an arm. Corresponds to NUM_ARMS\n\nRETURNS: base MASArm for this arm, or None if no Arm",
     "function_args": {
       "args": [
         "arm_id"
@@ -2921,13 +3084,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns base MASArm for an armid\n\nIN:\n    arm_id - numerical digit for an arm. Corresponds to NUM_ARMS\n\nRETURNS: base MASArm for this arm, or None if no Arm"
+    }
   },
   "use_bmpm": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "use_bmpm",
     "line": 6535,
+    "docstring": "Returns tuple of MASArms for a pose num\n\nIN:\n    posenum - numerical digit for a pose. This corresponds to\n        NUM_POSE.\n\nRETURNS: base MASArms for this poes, or None if no arms",
     "function_args": {
       "args": [
         "posenum"
@@ -2938,13 +3102,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns tuple of MASArms for a pose num\n\nIN:\n    posenum - numerical digit for a pose. This corresponds to\n        NUM_POSE.\n\nRETURNS: base MASArms for this poes, or None if no arms"
+    }
   },
   "use_bmpm_s": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "use_bmpm_s",
     "line": 6548,
+    "docstring": "Version of use_bpam that uses leanpose\n\nIN:\n    leanpose - leanpose string\n\nRETURNS: base MASArms for this pose, or None if no arms",
     "function_args": {
       "args": [
         "leanpose"
@@ -2955,11 +3120,11 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Version of use_bpam that uses leanpose\n\nIN:\n    leanpose - leanpose string\n\nRETURNS: base MASArms for this pose, or None if no arms"
+    }
   },
   "_hair__testingxcp_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair__testingxcp_entry",
     "line": 6564,
     "function_args": {
@@ -2976,6 +3141,7 @@
   },
   "_hair__testingxcp_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_hair__testingxcp_exit",
     "line": 6567,
     "function_args": {
@@ -2992,6 +3158,7 @@
   },
   "_clothes__testingxcp_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes__testingxcp_entry",
     "line": 6570,
     "function_args": {
@@ -3008,6 +3175,7 @@
   },
   "_clothes__testingxcp_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_clothes__testingxcp_exit",
     "line": 6573,
     "function_args": {
@@ -3024,6 +3192,7 @@
   },
   "_acs__testingxcp_entry": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs__testingxcp_entry",
     "line": 6576,
     "function_args": {
@@ -3040,6 +3209,7 @@
   },
   "_acs__testingxcp_exit": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_acs__testingxcp_exit",
     "line": 6579,
     "function_args": {
@@ -3056,8 +3226,10 @@
   },
   "show_empty_desk": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "show_empty_desk",
     "line": 6602,
+    "docstring": "shows empty desk",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -3066,13 +3238,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "shows empty desk"
+    }
   },
   "register_image": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "register_image",
     "line": 6619,
+    "docstring": "Thanks for nothing, RenPy\n\nRegisters the existence of an image with `name`, and that the image\nused displayable d.\n\nIN:\n    name - tuple of strings (tag, attributes)\n    d - displayables",
     "function_args": {
       "args": [
         "name",
@@ -3084,13 +3257,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Thanks for nothing, RenPy\n\nRegisters the existence of an image with `name`, and that the image\nused displayable d.\n\nIN:\n    name - tuple of strings (tag, attributes)\n    d - displayables"
+    }
   },
   "needs_closed_eye_variant": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "needs_closed_eye_variant",
     "line": 6644,
+    "docstring": "Checks if an exp needs a closed eye variation\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if the given spritecode needs a closed eye variant, False otherwise",
     "function_args": {
       "args": [
         "exp"
@@ -3101,13 +3275,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if an exp needs a closed eye variation\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if the given spritecode needs a closed eye variant, False otherwise"
+    }
   },
   "is_wink_sprite": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_wink_sprite",
     "line": 6656,
+    "docstring": "Checks if an exp is a wink sprite\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if this is a wink sprite, False otherwise",
     "function_args": {
       "args": [
         "exp"
@@ -3118,13 +3293,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if an exp is a wink sprite\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if this is a wink sprite, False otherwise"
+    }
   },
   "is_follow_sprite": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "is_follow_sprite",
     "line": 6668,
+    "docstring": "Checks if an exp is a follow sprite\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if this is a follow sprite, False otherwise",
     "function_args": {
       "args": [
         "exp"
@@ -3135,13 +3311,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if an exp is a follow sprite\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if this is a follow sprite, False otherwise"
+    }
   },
   "needs_tear_atl": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "needs_tear_atl",
     "line": 6680,
+    "docstring": "Checks if this spritecode needs a streaming tears atl\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if so, False otherwise",
     "function_args": {
       "args": [
         "exp"
@@ -3152,13 +3329,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Checks if this spritecode needs a streaming tears atl\n\nIN:\n    exp - spritecode to check\n\nOUT:\n    boolean - True if so, False otherwise"
+    }
   },
   "replace_eyes": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "replace_eyes",
     "line": 6692,
+    "docstring": "Returns the sprite string for the closed eye variant\n\nIN:\n    exp - exp to replace eyes\n    replacement_eyes - spritecode part representing the replacement eyes\n\nOUT:\n    closed eye representation of the given spritecode",
     "function_args": {
       "args": [
         "exp",
@@ -3170,13 +3348,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Returns the sprite string for the closed eye variant\n\nIN:\n    exp - exp to replace eyes\n    replacement_eyes - spritecode part representing the replacement eyes\n\nOUT:\n    closed eye representation of the given spritecode"
+    }
   },
   "generate_static_sprite": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "generate_static_sprite",
     "line": 6707,
+    "docstring": "Creates the DynamicDisplayable object for the given exp\n\nIN:\n    exp - exp to make a closed eye version of",
     "function_args": {
       "args": [
         "exp"
@@ -3187,13 +3366,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates the DynamicDisplayable object for the given exp\n\nIN:\n    exp - exp to make a closed eye version of"
+    }
   },
   "generate_follow_sprite": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "generate_follow_sprite",
     "line": 6723,
+    "docstring": "Creates the follow version of the given sprite",
     "function_args": {
       "args": [
         "exp"
@@ -3204,13 +3384,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Creates the follow version of the given sprite"
+    }
   },
   "add_static_sprite_alias": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "add_static_sprite_alias",
     "line": 6750,
+    "docstring": "Registers an alias for static sprites\n\nIN:\n    exp to make an alias for\n\nASSUMES:\n    non-static version exists",
     "function_args": {
       "args": [
         "exp"
@@ -3221,13 +3402,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Registers an alias for static sprites\n\nIN:\n    exp to make an alias for\n\nASSUMES:\n    non-static version exists"
+    }
   },
   "generate_normal_sprite": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "generate_normal_sprite",
     "line": 6765,
+    "docstring": "Generates sprites for standard open/closed eye variants\n\nDOES NOT HANDLE WINKS\n\nIN:\n    exp - spritecode to generate sprites for",
     "function_args": {
       "args": [
         "exp"
@@ -3238,13 +3420,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates sprites for standard open/closed eye variants\n\nDOES NOT HANDLE WINKS\n\nIN:\n    exp - spritecode to generate sprites for"
+    }
   },
   "generate_wink_sprite": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "generate_wink_sprite",
     "line": 6818,
+    "docstring": "Generates wink sprites and their prerequisites",
     "function_args": {
       "args": [
         "exp"
@@ -3255,13 +3438,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates wink sprites and their prerequisites"
+    }
   },
   "generate_images": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "generate_images",
     "line": 6840,
+    "docstring": "Generates sprites, aliases, and their prerequisites and adds them to the renpy.display.image.images map\n\nIN:\n    exp - spritecode to generate",
     "function_args": {
       "args": [
         "exp"
@@ -3272,13 +3456,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Generates sprites, aliases, and their prerequisites and adds them to the renpy.display.image.images map\n\nIN:\n    exp - spritecode to generate"
+    }
   },
   "_verify_fwm_db": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_fwm_db",
     "line": 7051,
+    "docstring": "Verifies that data in the FW_DB is correct.\nMASFilterWeatherMaps are valid if:\n    1. if the MFWM is fallback-based:\n        a) All filters provided include a fallback filter with\n            PRECIP_TYPE_DEF set.\n    2. If the MFWM is standard:\n        a) All filters contain a PRECIP_TYPE_DEF set.\n\nRaises all errors.",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -3287,13 +3472,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Verifies that data in the FW_DB is correct.\nMASFilterWeatherMaps are valid if:\n    1. if the MFWM is fallback-based:\n        a) All filters provided include a fallback filter with\n            PRECIP_TYPE_DEF set.\n    2. If the MFWM is standard:\n        a) All filters contain a PRECIP_TYPE_DEF set.\n\nRaises all errors."
+    }
   },
   "_verify_mfwm": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_mfwm",
     "line": 7067,
+    "docstring": "Verifies a MASFilterWeatherMap object.\n\nRaises all errors.\n\nIN:\n    mfwm_id - ID of the MASFilterWeatherMap object\n    mfwm - MASFilterWeatherMap object to verify",
     "function_args": {
       "args": [
         "mfwm_id",
@@ -3305,13 +3491,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Verifies a MASFilterWeatherMap object.\n\nRaises all errors.\n\nIN:\n    mfwm_id - ID of the MASFilterWeatherMap object\n    mfwm - MASFilterWeatherMap object to verify"
+    }
   },
   "_mfwm_find_fb_def": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_mfwm_find_fb_def",
     "line": 7112,
+    "docstring": "Finds fallbacks from a starting flt that are covered with a default\nprecip type.\n\nIN:\n    mfwm - MASFilterWeatherMap object we are checking\n    flt - filter we are checking for fallbacks\n    flt_defs - dict containing keys of filters that already have known\n        defaults in their fallback chains.\n\nOUT:\n    flt_defs - additional filters with known defaults are added to this\n        dict as we go through the fallback chain of the given flt.\n\nRETURNS: True if we found a non-None default precip type. False if not",
     "function_args": {
       "args": [
         "mfwm",
@@ -3324,13 +3511,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Finds fallbacks from a starting flt that are covered with a default\nprecip type.\n\nIN:\n    mfwm - MASFilterWeatherMap object we are checking\n    flt - filter we are checking for fallbacks\n    flt_defs - dict containing keys of filters that already have known\n        defaults in their fallback chains.\n\nOUT:\n    flt_defs - additional filters with known defaults are added to this\n        dict as we go through the fallback chain of the given flt.\n\nRETURNS: True if we found a non-None default precip type. False if not"
+    }
   },
   "_find_circ_fb": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_find_circ_fb",
     "line": 7159,
+    "docstring": "Tries to find circular fallbacks.\nAssumes that the current flt has not been placed into memo yet.\n\nIN:\n    flt - flt we are checking\n    memo - dict of all flts we traversed here\n\nOUT:\n    memo - if False is returned, all keys in this memo are deemed to\n        be non-circular fallbacks.\n\nRETURNS: True if circular fallback is found, False otherwise",
     "function_args": {
       "args": [
         "flt",
@@ -3342,13 +3530,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Tries to find circular fallbacks.\nAssumes that the current flt has not been placed into memo yet.\n\nIN:\n    flt - flt we are checking\n    memo - dict of all flts we traversed here\n\nOUT:\n    memo - if False is returned, all keys in this memo are deemed to\n        be non-circular fallbacks.\n\nRETURNS: True if circular fallback is found, False otherwise"
+    }
   },
   "_find_next_fb": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_find_next_fb",
     "line": 7191,
+    "docstring": "Finds next filter and stores in memo and ordered memo\n\nIN:\n    flt - filter to find next filter for\n\nOUT:\n    memo - dict to add the next filter as a key if not None\n    ordered memo - list to append the next filter if not None\n\nRETURNS: the next filter, or None if no next filter.",
     "function_args": {
       "args": [
         "flt",
@@ -3361,13 +3550,14 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Finds next filter and stores in memo and ordered memo\n\nIN:\n    flt - filter to find next filter for\n\nOUT:\n    memo - dict to add the next filter as a key if not None\n    ordered memo - list to append the next filter if not None\n\nRETURNS: the next filter, or None if no next filter."
+    }
   },
   "_verify_flt_fb": {
     "type": "function",
+    "function_decorators": [],
     "identifier": "_verify_flt_fb",
     "line": 7212,
+    "docstring": "Verifies that there are no circular fallbacks in the filter\nfallback dict.\n\nRaises an error if circular fallbacks are found",
     "function_args": {
       "args": [],
       "pos_only_args": [],
@@ -3376,7 +3566,6 @@
       "kw_only_args": [],
       "kw_arg": null,
       "var_arg": null
-    },
-    "docstring": "Verifies that there are no circular fallbacks in the filter\nfallback dict.\n\nRaises an error if circular fallbacks are found"
+    }
   }
 }

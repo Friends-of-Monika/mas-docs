@@ -1,6 +1,7 @@
 {
   "MASPersistentAnalyzer": {
     "type": "class",
+    "class_decorators": [],
     "identifier": "MASPersistentAnalyzer",
     "class_bases": [
       "object"
@@ -10,8 +11,10 @@
     "class_functions": [
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "__init__",
         "line": 316,
+        "docstring": "IN:\n    in_char - pass True if the persisten file is int \n    eh user's charactesr dir. Otherwise we use the \n    loaded persistent",
         "function_args": {
           "args": [
             "self",
@@ -23,13 +26,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "IN:\n    in_char - pass True if the persisten file is int \n    eh user's charactesr dir. Otherwise we use the \n    loaded persistent"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "analyze",
         "line": 327,
+        "docstring": "Loads and analyzes persistent data",
         "function_args": {
           "args": [
             "self"
@@ -40,13 +44,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Loads and analyzes persistent data"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "staticmethod"
+        ],
         "identifier": "analyze_and_report",
         "line": 360,
+        "docstring": "Quickly creates an analysis and outputs it for every property.\n\nIN:\n    in_char - True to use persistent from characters, otherwise use ours\n    sort_acs - see get_all_and_file",
         "function_args": {
           "args": [
             "in_char",
@@ -58,13 +65,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Quickly creates an analysis and outputs it for every property.\n\nIN:\n    in_char - True to use persistent from characters, otherwise use ours\n    sort_acs - see get_all_and_file"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "clear",
         "line": 374,
+        "docstring": "Clears data",
         "function_args": {
           "args": [
             "self"
@@ -75,13 +83,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Clears data"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "staticmethod"
+        ],
         "identifier": "cmp_none_handler",
         "line": 382,
+        "docstring": "Specialized cmp function that can handle Nones\n\nIn general, we push Nones to the back.",
         "function_args": {
           "args": [
             "arg1",
@@ -93,13 +104,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Specialized cmp function that can handle Nones\n\nIn general, we push Nones to the back."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "get_all_and_file",
         "line": 399,
+        "docstring": "Does get_all_for_prop but saves the results directly to file \n\nSee get_all_for_prop for param doc",
         "function_args": {
           "args": [
             "self",
@@ -118,13 +130,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Does get_all_for_prop but saves the results directly to file \n\nSee get_all_for_prop for param doc"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "get_all_for_prop",
         "line": 444,
+        "docstring": "Gets all entries for a prop\n\nIN:\n    prop - the property to get\n    sort_asc - True to sort ascending\n        False to sort descending\n        None to not sort\n        (Default: None)\n    only_incl - pass this in as a dictionary of eventlabels to \n        only include these in the prop\n\nRETURNS: tuple:\n    [0] - list of sorted event labels\n    [1] - dictionary of data:\n        key: eventlabel\n        value: EventDBDAta object",
         "function_args": {
           "args": [
             "self",
@@ -141,13 +154,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Gets all entries for a prop\n\nIN:\n    prop - the property to get\n    sort_asc - True to sort ascending\n        False to sort descending\n        None to not sort\n        (Default: None)\n    only_incl - pass this in as a dictionary of eventlabels to \n        only include these in the prop\n\nRETURNS: tuple:\n    [0] - list of sorted event labels\n    [1] - dictionary of data:\n        key: eventlabel\n        value: EventDBDAta object"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "get_matching_value",
         "line": 485,
+        "docstring": "Gets index entries for a prop and value\n\nIN:\n    prop - the property to get\n    value - the value to get\n    only_incl - if passed in, only include entries with \n        eventlabel in this dict\n\nRETURNS: dictionary containing all items that match the value for\n    a prop:\n    key: event label\n    value: EventDBData object\n    If None is returned, then something was invalid.",
         "function_args": {
           "args": [
             "self",
@@ -163,13 +177,14 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Gets index entries for a prop and value\n\nIN:\n    prop - the property to get\n    value - the value to get\n    only_incl - if passed in, only include entries with \n        eventlabel in this dict\n\nRETURNS: dictionary containing all items that match the value for\n    a prop:\n    key: event label\n    value: EventDBData object\n    If None is returned, then something was invalid."
+        }
       },
       {
         "type": "function",
+        "function_decorators": [],
         "identifier": "multi_val_filter",
         "line": 521,
+        "docstring": "Runs get_matching_value multiple times to narrow down based on the given prop values.\n\nRETURNS: get_matching_vaue return value",
         "function_args": {
           "args": [
             "self"
@@ -180,13 +195,16 @@
           "kw_only_args": [],
           "kw_arg": "prop_values",
           "var_arg": null
-        },
-        "docstring": "Runs get_matching_value multiple times to narrow down based on the given prop values.\n\nRETURNS: get_matching_vaue return value"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "staticmethod"
+        ],
         "identifier": "report_on_unlocked_pools",
         "line": 545,
+        "docstring": "Runs a report on unlocked pools\nSAved as unlocked-pools.txt\n\nSee analyze_and_report for param doc",
         "function_args": {
           "args": [
             "in_char",
@@ -200,13 +218,16 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Runs a report on unlocked pools\nSAved as unlocked-pools.txt\n\nSee analyze_and_report for param doc"
+        }
       },
       {
         "type": "function",
+        "function_decorators": [
+          "staticmethod"
+        ],
         "identifier": "report_on_unlocked_randoms",
         "line": 562,
+        "docstring": "Runs a report on unlocked randoms\nSaved as unlocked-rands.txt",
         "function_args": {
           "args": [
             "in_char",
@@ -220,8 +241,7 @@
           "kw_only_args": [],
           "kw_arg": null,
           "var_arg": null
-        },
-        "docstring": "Runs a report on unlocked randoms\nSaved as unlocked-rands.txt"
+        }
       }
     ]
   }
