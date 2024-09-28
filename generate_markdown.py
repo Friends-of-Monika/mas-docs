@@ -151,7 +151,7 @@ def parse_mas_docstring(docstring: str) -> Dict[str, Any]: # pylint: disable=too
     return data
 
 
-def is_deprecated(data: Dict[str, Any]) -> Tuple[bool, bool, str | None]:
+def is_deprecated(data: Dict[str, Any]) -> Tuple[bool, bool, str | None, str | None]:
     """Checks if given function/class is deprecated, if it raises, and optionally
        if returns use_instead."""
 
@@ -167,7 +167,15 @@ def is_deprecated(data: Dict[str, Any]) -> Tuple[bool, bool, str | None]:
         if isinstance(keyword.value, ast.Constant):
             kw_params[keyword.arg] = keyword.value.value
 
-    return True, kw_params.get("should_raise", False), kw_params.get("use_instead", None)
+    should_raise = kw_params.get("should_raise", False)
+    use_instead = kw_params.get("use_instead", None)
+    use_instead_msg_fmt = kw_params.get("use_instead_msg_fmt",
+                                        "Instead, consider using `{use_instead}`.")
+
+    if use_instead_msg_fmt is not None:
+        use_instead = use_instead_msg_fmt.format(use_instead=use_instead)
+
+    return True, should_raise, use_instead
 
 
 def get_deprecated_decorator(unparsed_list: List[str]) -> ast.Call | None:
@@ -244,7 +252,7 @@ def generate_func_markdown(data: Dict[str, Any], header_depth: int = 3) -> str: 
                      "> This function is flagged as **deprecated** and **is not recommended "
                      "for use.**")
         if depr_use_instead is not None:
-            md.write(f"<br>\n> Instead, consider using `{depr_use_instead}`.")
+            md.write(f"<br>\n> {depr_use_instead}")
         md.write("\n\n")
 
     if doc_desc:

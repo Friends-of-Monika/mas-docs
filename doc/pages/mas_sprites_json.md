@@ -15,7 +15,8 @@
 ### def writelogs(msgs)
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated()`
@@ -38,7 +39,8 @@
 ### def writelogs(msgs)
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated()`

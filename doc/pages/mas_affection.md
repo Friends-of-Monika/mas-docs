@@ -443,7 +443,8 @@ Generic auditing in the aff log
 ### def _force_exp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 Determines appropriate forced expression for current affection.
 
@@ -488,7 +489,8 @@ Generic auditing in the aff log
 ### def _force_exp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 Determines appropriate forced expression for current affection.
 

@@ -98,7 +98,7 @@ list of args if the function is present If function is not present, None is retu
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
-> Instead, consider using `functools.partial`.
+> Wrap your callable in 'functools.partial' to provide it args/kwargs.
 
 Gets args for the given function at the given key
 
@@ -118,7 +118,7 @@ list of args if the function is present If function is not present, None is retu
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
-> Instead, consider using `functools.partial`.
+> Wrap your callable in 'functools.partial' to provide it args/kwargs.
 
 Sets args for the given function at the key
 
@@ -210,7 +210,7 @@ list of args if the function is present If function is not present, None is retu
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
-> Instead, consider using `functools.partial`.
+> Wrap your callable in 'functools.partial' to provide it args/kwargs.
 
 Gets args for the given function at the given key
 
@@ -230,7 +230,7 @@ list of args if the function is present If function is not present, None is retu
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
-> Instead, consider using `functools.partial`.
+> Wrap your callable in 'functools.partial' to provide it args/kwargs.
 
 Sets args for the given function at the key
 

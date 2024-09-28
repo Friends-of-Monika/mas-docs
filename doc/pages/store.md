@@ -1460,7 +1460,8 @@ bool - Whether or not the given year is a leap year
 ### def grant_xp(experience)
 
 > [!CAUTION]
-> This function is flagged as **deprecated** and **will raise an error.**
+> This function is flagged as **deprecated** and **will raise an error.**<br>
+> Instead, consider using `None`.
 
 DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
@@ -1471,7 +1472,8 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 ### def get_level()
 
 > [!CAUTION]
-> This function is flagged as **deprecated** and **will raise an error.**
+> This function is flagged as **deprecated** and **will raise an error.**<br>
+> Instead, consider using `None`.
 
 DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
@@ -1482,7 +1484,8 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 ### def mas_FreezeGoodAffExp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@mas_utils.deprecated()`
@@ -1491,7 +1494,8 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 ### def mas_FreezeBadAffExp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@mas_utils.deprecated()`
@@ -1500,7 +1504,8 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 ### def mas_FreezeBothAffExp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@mas_utils.deprecated()`
@@ -1509,7 +1514,8 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 ### def mas_UnfreezeBadAffExp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@mas_utils.deprecated()`
@@ -1518,7 +1524,8 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 ### def mas_UnfreezeGoodAffExp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@mas_utils.deprecated()`
@@ -1527,7 +1534,8 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 ### def mas_UnfreezeBothExp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@mas_utils.deprecated()`
@@ -1563,7 +1571,8 @@ float
 ### def _mas_getTodayExp()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@mas_utils.deprecated()`
@@ -1803,7 +1812,8 @@ Resets affection
 ### def mas_setAffection()
 
 > [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**
+> This function is flagged as **deprecated** and **is not recommended for use.**<br>
+> Instead, consider using `None`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated()`
@@ -2081,7 +2091,8 @@ True upon a filter change, False if not
 ### def mas_shouldChangeTime()
 
 > [!CAUTION]
-> This function is flagged as **deprecated** and **will raise an error.**
+> This function is flagged as **deprecated** and **will raise an error.**<br>
+> Instead, consider using `None`.
 
 DEPRECATED This no longer makes sense with the filtering system.
 
