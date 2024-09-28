@@ -1249,7 +1249,7 @@
       "store.mas_utils.deprecated(use_instead='unlock_prompt', should_raise=True)"
     ],
     "identifier": "unlock_selector",
-    "docstring": "DEPRECATED - Use unlock_prompt instead\n        Unlocks the selector of the given group.\n\n        IN:\n            group - group to unlock selector topic.",
+    "docstring": "DEPRECATED - Use unlock_prompt instead\nUnlocks the selector of the given group.\n\nIN:\n    group - group to unlock selector topic.",
     "function_args": {
       "args": [
         "group"
@@ -1266,7 +1266,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "json_sprite_unlock",
-    "docstring": "RUNTIME ONLY\n        Unlocks selectable for the given sprite, as ewll as the selector\n        topic for that sprite.\n\n        NOTE: checks if the prompt's rules passes before unlocking.\n\n        IN:\n            sp_obj - sprite object to unlock selectbale+\n            unlock_label - True will unlock the selector lable, False will not\n                (Default: True)",
+    "docstring": "RUNTIME ONLY\nUnlocks selectable for the given sprite, as ewll as the selector\ntopic for that sprite.\n\nNOTE: checks if the prompt's rules passes before unlocking.\n\nIN:\n    sp_obj - sprite object to unlock selectbale+\n    unlock_label - True will unlock the selector lable, False will not\n        (Default: True)",
     "function_args": {
       "args": [
         "sp_obj",
@@ -2626,7 +2626,7 @@
       "store.mas_utils.deprecated(use_instead='unlock_prompt', should_raise=True)"
     ],
     "identifier": "unlock_selector",
-    "docstring": "DEPRECATED - Use unlock_prompt instead\n        Unlocks the selector of the given group.\n\n        IN:\n            group - group to unlock selector topic.",
+    "docstring": "DEPRECATED - Use unlock_prompt instead\nUnlocks the selector of the given group.\n\nIN:\n    group - group to unlock selector topic.",
     "function_args": {
       "args": [
         "group"
@@ -2643,7 +2643,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "json_sprite_unlock",
-    "docstring": "RUNTIME ONLY\n        Unlocks selectable for the given sprite, as ewll as the selector\n        topic for that sprite.\n\n        NOTE: checks if the prompt's rules passes before unlocking.\n\n        IN:\n            sp_obj - sprite object to unlock selectbale+\n            unlock_label - True will unlock the selector lable, False will not\n                (Default: True)",
+    "docstring": "RUNTIME ONLY\nUnlocks selectable for the given sprite, as ewll as the selector\ntopic for that sprite.\n\nNOTE: checks if the prompt's rules passes before unlocking.\n\nIN:\n    sp_obj - sprite object to unlock selectbale+\n    unlock_label - True will unlock the selector lable, False will not\n        (Default: True)",
     "function_args": {
       "args": [
         "sp_obj",

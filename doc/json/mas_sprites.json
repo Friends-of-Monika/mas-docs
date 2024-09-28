@@ -128,7 +128,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "apply_ACSTemplates",
-    "docstring": "RUNTIME ONLY\n        Applies all templates to the available ACS.",
+    "docstring": "RUNTIME ONLY\nApplies all templates to the available ACS.",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -200,7 +200,7 @@
       "store.mas_utils.deprecated(use_instead='get_filter', should_raise=True)"
     ],
     "identifier": "_decide_filter",
-    "docstring": "DEPRECATED\n        Please use get_filter",
+    "docstring": "DEPRECATED\nPlease use get_filter",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -321,7 +321,7 @@
       "store.mas_utils.deprecated(use_instead='get_filter', should_raise=True)"
     ],
     "identifier": "_decide_filter",
-    "docstring": "DEPRECATED\n        Please use get_filter",
+    "docstring": "DEPRECATED\nPlease use get_filter",
     "function_args": {
       "args": [],
       "defaults": [],

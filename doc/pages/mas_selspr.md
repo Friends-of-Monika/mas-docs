@@ -670,15 +670,24 @@ Unlocks the given hair's selectable
 > This function is flagged as **deprecated** and **will raise an error.**<br>
 > Instead, consider using `unlock_prompt`.
 
-DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.  IN: group - group to unlock selector topic.
+DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='unlock_prompt', should_raise=True)`
 
 
+**Parameters:**
+- `group` &mdash; group to unlock selector topic.
+
+
 ### def json_sprite_unlock(sp_obj, unlock_label=True)
 
-RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector topic for that sprite.  NOTE: checks if the prompt's rules passes before unlocking.  IN: sp_obj - sprite object to unlock selectbale+ unlock_label - True will unlock the selector lable, False will not (Default: True)
+RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector topic for that sprite.
+
+**Parameters:**
+- `sp_obj` &mdash; sprite object to unlock selectbale+
+- `unlock_label` &mdash; True will unlock the selector lable, False will not (Default: True)
+
 
 ### def _selector_filter_items(item, search_query, search_kws)
 
@@ -1201,15 +1210,24 @@ Unlocks the given hair's selectable
 > This function is flagged as **deprecated** and **will raise an error.**<br>
 > Instead, consider using `unlock_prompt`.
 
-DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.  IN: group - group to unlock selector topic.
+DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='unlock_prompt', should_raise=True)`
 
 
+**Parameters:**
+- `group` &mdash; group to unlock selector topic.
+
+
 ### def json_sprite_unlock(sp_obj, unlock_label=True)
 
-RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector topic for that sprite.  NOTE: checks if the prompt's rules passes before unlocking.  IN: sp_obj - sprite object to unlock selectbale+ unlock_label - True will unlock the selector lable, False will not (Default: True)
+RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector topic for that sprite.
+
+**Parameters:**
+- `sp_obj` &mdash; sprite object to unlock selectbale+
+- `unlock_label` &mdash; True will unlock the selector lable, False will not (Default: True)
+
 
 ### def _selector_filter_items(item, search_query, search_kws)
 

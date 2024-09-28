@@ -360,11 +360,29 @@ True if flt is the current filter, false if not
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
 > Instead, consider using `MASFilterableWeather`.
 
-DEPRECATED Old-style MASWeather objects. This is mapped to a MASFilterableWeather with day/night filter settings NOTE: for all image tags, `_fb` is appeneded for fallbacks  IN: weather_id - id that defines this weather object NOTE: must be unique prompt - button label for this weathe robject sp_day - image tag for spaceroom's left window in daytime sp_night - image tag for spaceroom's left window in night (Default: None) precip_type - type of precipitation, def, rain, overcast, or snow (Default: def) isbg_wf_day - ignored isbg_wof_day - ignored isbg_wf_night - ignored isbg_wof_night - ignored entry_pp - programming point to execute after switching to this weather (Default: None) exit_pp - programming point to execute before leaving this weather (Default: None) unlocked - True if this weather object starts unlocked, False otherwise (Default: False)  RETURNS: MASFitlerableWeather object
+DEPRECATED Old-style MASWeather objects. This is mapped to a MASFilterableWeather with day/night filter settings
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='MASFilterableWeather')`
 
+
+**Parameters:**
+- `weather_id` &mdash; id that defines this weather object NOTE: must be unique
+- `prompt` &mdash; button label for this weathe robject
+- `sp_day` &mdash; image tag for spaceroom's left window in daytime
+- `sp_night` &mdash; image tag for spaceroom's left window in night (Default: None)
+- `precip_type` &mdash; type of precipitation, def, rain, overcast, or snow (Default: def)
+- `isbg_wf_day` &mdash; ignored
+- `isbg_wof_day` &mdash; ignored
+- `isbg_wf_night` &mdash; ignored
+- `isbg_wof_night` &mdash; ignored
+- `entry_pp` &mdash; programming point to execute after switching to this weather (Default: None)
+- `exit_pp` &mdash; programming point to execute before leaving this weather (Default: None)
+- `unlocked` &mdash; True if this weather object starts unlocked, False otherwise (Default: False)
+
+
+**Returns:**<br>
+MASFitlerableWeather object
 
 ### def mas_showDecoTag(tag, show_now=False)
 
@@ -697,17 +715,61 @@ Frame object, or None if failed to make it
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
 > Instead, consider using `MASFilterableBackground`.
 
-DEPRECATED Old-style MASBackground objects. This is mapped to a MASFilterableBackground with default (aka pre0.11.3 filters) slice management  IN: background_id: id that defines the background object NOTE: Must be unique  prompt: button label for this bg  image_day: the renpy.image object we use for this bg during the day NOTE: Mandatory  image_night: the renpy.image object we use for this bg during the night NOTE: Mandatory  image_rain_day: the image tag we use for the background while it's raining (day) (Default: None, not required)  image_rain_night: the image tag we use for the background while it's raining (night) (Default: None, not required)  image_overcast_day: the image tag we use for the background while it's overcast (day) (Default: None, not required)  image_overcast_night: the image tag we use for the background while it's overcast (night) (Default: None, not required)  image_snow_day: the image tag we use for the background while it's snowing (day) (Default: None, not required)  image_snow_night: the image tag we use for the background while it's snowing (night) (Default: None, not required)  hide_calendar: whether or not we want to display the calendar (Default: False)  hide_masks: weather or not we want to show the windows (Default: False)  disable_progressive: weather or not we want to disable progressive weather (Default: None, if hide masks is true and this is not provided, we assume True, otherwise False)  unlocked: whether or not this background starts unlocked (Default: False)  entry_pp: Entry programming point for the background (Default: None)  exit_pp: Exit programming point for this background (Default: None)  RETURNS: MASFilterableBackground object
+DEPRECATED Old-style MASBackground objects. This is mapped to a MASFilterableBackground with default (aka pre0.11.3 filters) slice management
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='MASFilterableBackground')`
 
 
+**Parameters:**
+- `background_id` &mdash;  id that defines the background object NOTE: Must be unique
+- `prompt` &mdash;  button label for this bg
+- `image_day` &mdash;  the renpy.image object we use for this bg during the day NOTE: Mandatory
+- `image_night` &mdash;  the renpy.image object we use for this bg during the night NOTE: Mandatory
+- `image_rain_day` &mdash;  the image tag we use for the background while it's raining (day) (Default: None, not required)
+- `image_rain_night` &mdash;  the image tag we use for the background while it's raining (night) (Default: None, not required)
+- `image_overcast_day` &mdash;  the image tag we use for the background while it's overcast (day) (Default: None, not required)
+- `image_overcast_night` &mdash;  the image tag we use for the background while it's overcast (night) (Default: None, not required)
+- `image_snow_day` &mdash;  the image tag we use for the background while it's snowing (day) (Default: None, not required)
+- `image_snow_night` &mdash;  the image tag we use for the background while it's snowing (night) (Default: None, not required)
+- `hide_calendar` &mdash;  whether or not we want to display the calendar (Default: False)
+- `hide_masks` &mdash;  weather or not we want to show the windows (Default: False)
+- `disable_progressive` &mdash;  weather or not we want to disable progressive weather (Default: None, if hide masks is true and this is not provided, we assume True, otherwise False)
+- `unlocked` &mdash;  whether or not this background starts unlocked (Default: False)
+- `entry_pp` &mdash;  Entry programming point for the background (Default: None)
+- `exit_pp` &mdash;  Exit programming point for this background (Default: None)
+
+
+**Returns:**<br>
+MASFilterableBackground object
+
 ### def glitchWord(word, odds_space=ODDS_SPACE, odds_other=ODDS_OTHER)
 
 ### def mas_drawmonika(st, at, character, eyebrows, eyes, nose, mouth, lean=None, arms='steepling', eyebags=None, sweat=None, blush=None, tears=None, emote=None, head='', left='', right='', stock=True, single=None)
 
-DEPRECATED This function has been gutted and only draws standing  IN: st - renpy related at - renpy related character - MASMonika character object eyebrows - type of eyebrows (sitting) eyes - type of eyes (sitting) nose - type of nose (sitting) mouth - type of mouth (sitting) head - type of head (standing) left - type of left side (standing) right - type of right side (standing) lean - type of lean (sitting) (Default: None) arms - type of arms (sitting) (Default: "steepling") eyebags - type of eyebags (sitting) (Default: None) sweat - type of sweatdrop (sitting) (Default: None) blush - type of blush (sitting) (Default: None) tears - type of tears (sitting) (Default: None) emote - type of emote (sitting) (Default: None) stock - True means we are using stock standing, False means not (standing) (Default: True) single - type of single standing image (standing) (Default: None)
+DEPRECATED This function has been gutted and only draws standing
+
+**Parameters:**
+- `st` &mdash; renpy related
+- `at` &mdash; renpy related
+- `character` &mdash; MASMonika character object
+- `eyebrows` &mdash; type of eyebrows (sitting)
+- `eyes` &mdash; type of eyes (sitting)
+- `nose` &mdash; type of nose (sitting)
+- `mouth` &mdash; type of mouth (sitting)
+- `head` &mdash; type of head (standing)
+- `left` &mdash; type of left side (standing)
+- `right` &mdash; type of right side (standing)
+- `lean` &mdash; type of lean (sitting) (Default: None)
+- `arms` &mdash; type of arms (sitting) (Default: "steepling")
+- `eyebags` &mdash; type of eyebags (sitting) (Default: None)
+- `sweat` &mdash; type of sweatdrop (sitting) (Default: None)
+- `blush` &mdash; type of blush (sitting) (Default: None)
+- `tears` &mdash; type of tears (sitting) (Default: None)
+- `emote` &mdash; type of emote (sitting) (Default: None)
+- `stock` &mdash; True means we are using stock standing, False means not (standing) (Default: True)
+- `single` &mdash; type of single standing image (standing) (Default: None)
+
 
 ### def mas_fwm_select(st, at, mfwm)
 
@@ -2000,11 +2062,14 @@ Callback for whenever monika talks
 > This function is flagged as **deprecated** and **will raise an error.**<br>
 > Instead, consider using `mas_isDayNow`.
 
-DEPRECATED Checks if it is day or night via suntimes  NOTE: the wording of this function is bad. This does not literally mean that it is morning. USE mas_isDayNow  RETURNS: True if day, false if not
+DEPRECATED Checks if it is day or night via suntimes
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='mas_isDayNow', should_raise=True)`
 
+
+**Returns:**<br>
+True if day, false if not
 
 ### def mas_progressFilter()
 

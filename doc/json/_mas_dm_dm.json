@@ -3,7 +3,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__add_idxs",
-    "docstring": "INTERNAL ONLY\n        adds indexes to the given key to the given db",
+    "docstring": "INTERNAL ONLY\nadds indexes to the given key to the given db",
     "function_args": {
       "args": [
         "_db",
@@ -23,7 +23,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__rm_idxs",
-    "docstring": "INTERNAL ONLY\n        removes indexes off the given key off the given db",
+    "docstring": "INTERNAL ONLY\nremoves indexes off the given key off the given db",
     "function_args": {
       "args": [
         "_db",
@@ -324,7 +324,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__add_idxs",
-    "docstring": "INTERNAL ONLY\n        adds indexes to the given key to the given db",
+    "docstring": "INTERNAL ONLY\nadds indexes to the given key to the given db",
     "function_args": {
       "args": [
         "_db",
@@ -344,7 +344,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_dm__rm_idxs",
-    "docstring": "INTERNAL ONLY\n        removes indexes off the given key off the given db",
+    "docstring": "INTERNAL ONLY\nremoves indexes off the given key off the given db",
     "function_args": {
       "args": [
         "_db",

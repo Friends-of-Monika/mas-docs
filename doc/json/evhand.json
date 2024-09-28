@@ -194,7 +194,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isFuture",
-    "docstring": "INTERNAL\n        Checks if the start_date of the given event happens after the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's start_date is in the future, False otherwise",
+    "docstring": "INTERNAL\nChecks if the start_date of the given event happens after the\ngiven time.\n\nIN:\n    ev - Event to check the start_time\n    date - a datetime object used to check against\n        If None is passed it will check against current time\n        (Default: None)\n\nRETURNS:\n    True if the Event's start_date is in the future, False otherwise",
     "function_args": {
       "args": [
         "ev",
@@ -214,7 +214,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isPast",
-    "docstring": "INTERNAL\n        Checks if the end_date of the given event happens before the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's end_date is in the past, False otherwise",
+    "docstring": "INTERNAL\nChecks if the end_date of the given event happens before the\ngiven time.\n\nIN:\n    ev - Event to check the start_time\n    date - a datetime object used to check against\n        If None is passed it will check against current time\n        (Default: None)\n\nRETURNS:\n    True if the Event's end_date is in the past, False otherwise",
     "function_args": {
       "args": [
         "ev",
@@ -234,7 +234,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isPresent",
-    "docstring": "INTERNAL\n        Checks if current date falls within the given event's start/end date\n        range\n\n        IN:\n            ev - Event to check the start_time and end_time\n\n        RETURNS:\n            True if current time is inside the  Event's start_date/end_date\n            interval, False otherwise",
+    "docstring": "INTERNAL\nChecks if current date falls within the given event's start/end date\nrange\n\nIN:\n    ev - Event to check the start_time and end_time\n\nRETURNS:\n    True if current time is inside the  Event's start_date/end_date\n    interval, False otherwise",
     "function_args": {
       "args": [
         "ev"
@@ -620,7 +620,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isFuture",
-    "docstring": "INTERNAL\n        Checks if the start_date of the given event happens after the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's start_date is in the future, False otherwise",
+    "docstring": "INTERNAL\nChecks if the start_date of the given event happens after the\ngiven time.\n\nIN:\n    ev - Event to check the start_time\n    date - a datetime object used to check against\n        If None is passed it will check against current time\n        (Default: None)\n\nRETURNS:\n    True if the Event's start_date is in the future, False otherwise",
     "function_args": {
       "args": [
         "ev",
@@ -640,7 +640,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isPast",
-    "docstring": "INTERNAL\n        Checks if the end_date of the given event happens before the\n        given time.\n\n        IN:\n            ev - Event to check the start_time\n            date - a datetime object used to check against\n                If None is passed it will check against current time\n                (Default: None)\n\n        RETURNS:\n            True if the Event's end_date is in the past, False otherwise",
+    "docstring": "INTERNAL\nChecks if the end_date of the given event happens before the\ngiven time.\n\nIN:\n    ev - Event to check the start_time\n    date - a datetime object used to check against\n        If None is passed it will check against current time\n        (Default: None)\n\nRETURNS:\n    True if the Event's end_date is in the past, False otherwise",
     "function_args": {
       "args": [
         "ev",
@@ -660,7 +660,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "_isPresent",
-    "docstring": "INTERNAL\n        Checks if current date falls within the given event's start/end date\n        range\n\n        IN:\n            ev - Event to check the start_time and end_time\n\n        RETURNS:\n            True if current time is inside the  Event's start_date/end_date\n            interval, False otherwise",
+    "docstring": "INTERNAL\nChecks if current date falls within the given event's start/end date\nrange\n\nIN:\n    ev - Event to check the start_time and end_time\n\nRETURNS:\n    True if current time is inside the  Event's start_date/end_date\n    interval, False otherwise",
     "function_args": {
       "args": [
         "ev"

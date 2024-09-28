@@ -1112,7 +1112,7 @@
     "class_bases": [
       "object"
     ],
-    "docstring": "SEALED\n        The FilterMap connects filters to values\n\n        DO NOT EXTEND THIS CLASS. if you need similar functionality, just\n        make a wrapper class. There are functions in this class that will\n        cause crashes if used in unexpected contexts.\n\n        NOTE: you can make filtermaps with non-string values, just dont\n            use the hash/eq/ne operators.\n\n        PROPERTIES:\n            map - dict containg filter to string map\n                key: filter constant\n                value: string or, None if no highlight",
+    "docstring": "SEALED\nThe FilterMap connects filters to values\n\nDO NOT EXTEND THIS CLASS. if you need similar functionality, just\nmake a wrapper class. There are functions in this class that will\ncause crashes if used in unexpected contexts.\n\nNOTE: you can make filtermaps with non-string values, just dont\n    use the hash/eq/ne operators.\n\nPROPERTIES:\n    map - dict containg filter to string map\n        key: filter constant\n        value: string or, None if no highlight",
     "class_functions": [
       {
         "type": "function",
@@ -1510,7 +1510,7 @@
       "store.mas_utils.deprecated(use_instead='MASFilterableWeather')"
     ],
     "identifier": "MASWeather",
-    "docstring": "DEPRECATED\n        Old-style MASWeather objects.\n        This is mapped to a MASFilterableWeather with day/night filter settings\n        NOTE: for all image tags, `_fb` is appeneded for fallbacks\n\n        IN:\n            weather_id - id that defines this weather object\n                NOTE: must be unique\n            prompt - button label for this weathe robject\n            sp_day - image tag for spaceroom's left window in daytime\n            sp_night - image tag for spaceroom's left window in night\n                (Default: None)\n            precip_type - type of precipitation, def, rain, overcast, or snow\n                (Default: def)\n            isbg_wf_day - ignored\n            isbg_wof_day - ignored\n            isbg_wf_night - ignored\n            isbg_wof_night - ignored\n            entry_pp - programming point to execute after switching to\n                this weather\n                (Default: None)\n            exit_pp - programming point to execute before leaving this\n                weather\n                (Default: None)\n            unlocked - True if this weather object starts unlocked,\n                False otherwise\n                (Default: False)\n\n        RETURNS: MASFitlerableWeather object",
+    "docstring": "DEPRECATED\nOld-style MASWeather objects.\nThis is mapped to a MASFilterableWeather with day/night filter settings\nNOTE: for all image tags, `_fb` is appeneded for fallbacks\n\nIN:\n    weather_id - id that defines this weather object\n        NOTE: must be unique\n    prompt - button label for this weathe robject\n    sp_day - image tag for spaceroom's left window in daytime\n    sp_night - image tag for spaceroom's left window in night\n        (Default: None)\n    precip_type - type of precipitation, def, rain, overcast, or snow\n        (Default: def)\n    isbg_wf_day - ignored\n    isbg_wof_day - ignored\n    isbg_wf_night - ignored\n    isbg_wof_night - ignored\n    entry_pp - programming point to execute after switching to\n        this weather\n        (Default: None)\n    exit_pp - programming point to execute before leaving this\n        weather\n        (Default: None)\n    unlocked - True if this weather object starts unlocked,\n        False otherwise\n        (Default: False)\n\nRETURNS: MASFitlerableWeather object",
     "function_args": {
       "args": [
         "weather_id",
@@ -1716,7 +1716,7 @@
           "store.mas_utils.deprecated(use_instead='get_mask', should_raise=True)"
         ],
         "identifier": "sp_window",
-        "docstring": "DEPRECATED\n            Use get_mask instead.\n            This returns whatever get_mask returns.",
+        "docstring": "DEPRECATED\nUse get_mask instead.\nThis returns whatever get_mask returns.",
         "function_args": {
           "args": [
             "self",
@@ -1736,7 +1736,7 @@
           "store.mas_utils.deprecated(should_raise=True)"
         ],
         "identifier": "isbg_window",
-        "docstring": "DEPRECATED\n            Islands are now separate images. See script-islands-event.",
+        "docstring": "DEPRECATED\nIslands are now separate images. See script-islands-event.",
         "function_args": {
           "args": [
             "self",
@@ -4688,7 +4688,7 @@
     "class_bases": [
       "object"
     ],
-    "docstring": "SEALED\n        Maps arbitrary keys to <MASFilterMap> objects\n\n        DO NOT EXTEND THIS CLASS. If you need similar functionality, make a\n        wrapper around this. This class contains functions that may crash\n        when used in an unexpected context.\n\n        NOTE: values dont have to be MASFilterMAP objects, but certain\n            functions will fail if not.\n\n        NOTE: this can iterated over to retrieve all objects in here\n            EXCEPT for the default.\n\n        PROPERTIES:\n            None. Use provided functions to manipulate the map.",
+    "docstring": "SEALED\nMaps arbitrary keys to <MASFilterMap> objects\n\nDO NOT EXTEND THIS CLASS. If you need similar functionality, make a\nwrapper around this. This class contains functions that may crash\nwhen used in an unexpected context.\n\nNOTE: values dont have to be MASFilterMAP objects, but certain\n    functions will fail if not.\n\nNOTE: this can iterated over to retrieve all objects in here\n    EXCEPT for the default.\n\nPROPERTIES:\n    None. Use provided functions to manipulate the map.",
     "class_functions": [
       {
         "type": "function",
@@ -6485,7 +6485,7 @@
       "store.mas_utils.deprecated(use_instead='MASFilterableBackground')"
     ],
     "identifier": "MASBackground",
-    "docstring": "DEPRECATED\n        Old-style MASBackground objects.\n        This is mapped to a MASFilterableBackground with default\n        (aka pre0.11.3 filters) slice management\n\n        IN:\n            background_id:\n                id that defines the background object\n                NOTE: Must be unique\n\n            prompt:\n                button label for this bg\n\n            image_day:\n                the renpy.image object we use for this bg during the day\n                NOTE: Mandatory\n\n            image_night:\n                the renpy.image object we use for this bg during the night\n                NOTE: Mandatory\n\n            image_rain_day:\n                the image tag we use for the background while it's raining (day)\n                (Default: None, not required)\n\n            image_rain_night:\n                the image tag we use for the background while it's raining (night)\n                (Default: None, not required)\n\n            image_overcast_day:\n                the image tag we use for the background while it's overcast (day)\n                (Default: None, not required)\n\n            image_overcast_night:\n                the image tag we use for the background while it's overcast (night)\n                (Default: None, not required)\n\n            image_snow_day:\n                the image tag we use for the background while it's snowing (day)\n                (Default: None, not required)\n\n            image_snow_night:\n                the image tag we use for the background while it's snowing (night)\n                (Default: None, not required)\n\n            hide_calendar:\n                whether or not we want to display the calendar\n                (Default: False)\n\n            hide_masks:\n                weather or not we want to show the windows\n                (Default: False)\n\n            disable_progressive:\n                weather or not we want to disable progressive weather\n                (Default: None, if hide masks is true and this is not provided, we assume True, otherwise False)\n\n            unlocked:\n                whether or not this background starts unlocked\n                (Default: False)\n\n            entry_pp:\n                Entry programming point for the background\n                (Default: None)\n\n            exit_pp:\n                Exit programming point for this background\n                (Default: None)\n\n        RETURNS: MASFilterableBackground object",
+    "docstring": "DEPRECATED\nOld-style MASBackground objects.\nThis is mapped to a MASFilterableBackground with default\n(aka pre0.11.3 filters) slice management\n\nIN:\n    background_id:\n        id that defines the background object\n        NOTE: Must be unique\n\n    prompt:\n        button label for this bg\n\n    image_day:\n        the renpy.image object we use for this bg during the day\n        NOTE: Mandatory\n\n    image_night:\n        the renpy.image object we use for this bg during the night\n        NOTE: Mandatory\n\n    image_rain_day:\n        the image tag we use for the background while it's raining (day)\n        (Default: None, not required)\n\n    image_rain_night:\n        the image tag we use for the background while it's raining (night)\n        (Default: None, not required)\n\n    image_overcast_day:\n        the image tag we use for the background while it's overcast (day)\n        (Default: None, not required)\n\n    image_overcast_night:\n        the image tag we use for the background while it's overcast (night)\n        (Default: None, not required)\n\n    image_snow_day:\n        the image tag we use for the background while it's snowing (day)\n        (Default: None, not required)\n\n    image_snow_night:\n        the image tag we use for the background while it's snowing (night)\n        (Default: None, not required)\n\n    hide_calendar:\n        whether or not we want to display the calendar\n        (Default: False)\n\n    hide_masks:\n        weather or not we want to show the windows\n        (Default: False)\n\n    disable_progressive:\n        weather or not we want to disable progressive weather\n        (Default: None, if hide masks is true and this is not provided, we assume True, otherwise False)\n\n    unlocked:\n        whether or not this background starts unlocked\n        (Default: False)\n\n    entry_pp:\n        Entry programming point for the background\n        (Default: None)\n\n    exit_pp:\n        Exit programming point for this background\n        (Default: None)\n\nRETURNS: MASFilterableBackground object",
     "function_args": {
       "args": [
         "background_id",
@@ -6799,7 +6799,7 @@
           "store.mas_utils.deprecated(use_instead='get_deco_info')"
         ],
         "identifier": "get_deco_adf",
-        "docstring": "DEPRECATED\n            Gets MASAdvancedDecoFrame associatd with this tag, if one exists.\n\n            IN:\n                tag - tag to get deco frame for\n\n            RETURNS: MASAdvancedDecoFrame object, or None if none exists",
+        "docstring": "DEPRECATED\nGets MASAdvancedDecoFrame associatd with this tag, if one exists.\n\nIN:\n    tag - tag to get deco frame for\n\nRETURNS: MASAdvancedDecoFrame object, or None if none exists",
         "function_args": {
           "args": [
             "self",
@@ -6878,7 +6878,7 @@
           "store.mas_utils.deprecated(use_instead='getDayRooms', should_raise=True)"
         ],
         "identifier": "getDayRoom",
-        "docstring": "DEPRECATED\n            Can't use this anymore since there's no single image that defines\n            \"day\" anymore. It's all filter based.\n            See getDayRooms instead",
+        "docstring": "DEPRECATED\nCan't use this anymore since there's no single image that defines\n\"day\" anymore. It's all filter based.\nSee getDayRooms instead",
         "function_args": {
           "args": [
             "self",
@@ -6939,7 +6939,7 @@
           "store.mas_utils.deprecated(use_instead='getNightRooms', should_raise=True)"
         ],
         "identifier": "getNightRoom",
-        "docstring": "DEPRECATED\n            Can't use this anymore since there's no single image that defines\n            \"night\" anymore. It's all filter-based\n            See getNightRooms instead",
+        "docstring": "DEPRECATED\nCan't use this anymore since there's no single image that defines\n\"night\" anymore. It's all filter-based\nSee getNightRooms instead",
         "function_args": {
           "args": [
             "self",
@@ -8788,7 +8788,7 @@
           "store.mas_utils.deprecated(use_instead='wear_acs_in')"
         ],
         "identifier": "wear_acs_pre",
-        "docstring": "DEPRECATED\n            Wears the given accessory in the pre body accessory mode\n\n            IN:\n                acs - accessory to wear",
+        "docstring": "DEPRECATED\nWears the given accessory in the pre body accessory mode\n\nIN:\n    acs - accessory to wear",
         "function_args": {
           "args": [
             "self",
@@ -8808,7 +8808,7 @@
           "store.mas_utils.deprecated(use_instead='wear_acs_in')"
         ],
         "identifier": "wear_acs_bbh",
-        "docstring": "DEPRECATED\n            Wears the given accessory in the post back hair accessory loc\n\n            IN:\n                acs - accessory to wear",
+        "docstring": "DEPRECATED\nWears the given accessory in the post back hair accessory loc\n\nIN:\n    acs - accessory to wear",
         "function_args": {
           "args": [
             "self",
@@ -8828,7 +8828,7 @@
           "store.mas_utils.deprecated(use_instead='wear_acs_in')"
         ],
         "identifier": "wear_acs_bfh",
-        "docstring": "DEPRECATED\n            Wears the given accessory in the pre front hair accesory log\n\n            IN:\n                acs - accessory to wear",
+        "docstring": "DEPRECATED\nWears the given accessory in the pre front hair accesory log\n\nIN:\n    acs - accessory to wear",
         "function_args": {
           "args": [
             "self",
@@ -8848,7 +8848,7 @@
           "store.mas_utils.deprecated(use_instead='wear_acs_in')"
         ],
         "identifier": "wear_acs_afh",
-        "docstring": "DEPRECATED\n            Wears the given accessory in the between front hair and arms\n            acs log\n\n            IN:\n                acs - accessory to wear",
+        "docstring": "DEPRECATED\nWears the given accessory in the between front hair and arms\nacs log\n\nIN:\n    acs - accessory to wear",
         "function_args": {
           "args": [
             "self",
@@ -8868,7 +8868,7 @@
           "store.mas_utils.deprecated(use_instead='wear_acs_in')"
         ],
         "identifier": "wear_acs_mid",
-        "docstring": "DEPRECATED\n            Wears the given accessory in the mid body acessory mode\n\n            IN:\n                acs - acessory to wear",
+        "docstring": "DEPRECATED\nWears the given accessory in the mid body acessory mode\n\nIN:\n    acs - acessory to wear",
         "function_args": {
           "args": [
             "self",
@@ -8888,7 +8888,7 @@
           "store.mas_utils.deprecated(use_instead='wear_acs_in')"
         ],
         "identifier": "wear_acs_pst",
-        "docstring": "DEPRECATED\n            Wears the given accessory in the post body accessory mode\n\n            IN:\n                acs - accessory to wear",
+        "docstring": "DEPRECATED\nWears the given accessory in the post body accessory mode\n\nIN:\n    acs - accessory to wear",
         "function_args": {
           "args": [
             "self",
@@ -10326,7 +10326,7 @@
           "store.mas_utils.deprecated()"
         ],
         "identifier": "get_arm_split_code",
-        "docstring": "DEPRECATED\n            NOTE: we are keeping this around for compatiblity purposes\n\n            IN:\n                poseid - ignored\n\n            RETURNS: empty list",
+        "docstring": "DEPRECATED\nNOTE: we are keeping this around for compatiblity purposes\n\nIN:\n    poseid - ignored\n\nRETURNS: empty list",
         "function_args": {
           "args": [
             "self",
@@ -11544,7 +11544,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_drawmonika",
-    "docstring": "DEPRECATED\n        This function has been gutted and only draws standing\n\n        IN:\n            st - renpy related\n            at - renpy related\n            character - MASMonika character object\n            eyebrows - type of eyebrows (sitting)\n            eyes - type of eyes (sitting)\n            nose - type of nose (sitting)\n            mouth - type of mouth (sitting)\n            head - type of head (standing)\n            left - type of left side (standing)\n            right - type of right side (standing)\n            lean - type of lean (sitting)\n                (Default: None)\n            arms - type of arms (sitting)\n                (Default: \"steepling\")\n            eyebags - type of eyebags (sitting)\n                (Default: None)\n            sweat - type of sweatdrop (sitting)\n                (Default: None)\n            blush - type of blush (sitting)\n                (Default: None)\n            tears - type of tears (sitting)\n                (Default: None)\n            emote - type of emote (sitting)\n                (Default: None)\n            stock - True means we are using stock standing, False means not\n                (standing)\n                (Default: True)\n            single - type of single standing image (standing)\n                (Default: None)",
+    "docstring": "DEPRECATED\nThis function has been gutted and only draws standing\n\nIN:\n    st - renpy related\n    at - renpy related\n    character - MASMonika character object\n    eyebrows - type of eyebrows (sitting)\n    eyes - type of eyes (sitting)\n    nose - type of nose (sitting)\n    mouth - type of mouth (sitting)\n    head - type of head (standing)\n    left - type of left side (standing)\n    right - type of right side (standing)\n    lean - type of lean (sitting)\n        (Default: None)\n    arms - type of arms (sitting)\n        (Default: \"steepling\")\n    eyebags - type of eyebags (sitting)\n        (Default: None)\n    sweat - type of sweatdrop (sitting)\n        (Default: None)\n    blush - type of blush (sitting)\n        (Default: None)\n    tears - type of tears (sitting)\n        (Default: None)\n    emote - type of emote (sitting)\n        (Default: None)\n    stock - True means we are using stock standing, False means not\n        (standing)\n        (Default: True)\n    single - type of single standing image (standing)\n        (Default: None)",
     "function_args": {
       "args": [
         "st",
@@ -13198,7 +13198,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_isSunny",
-    "docstring": "DEPRECATED\n        Use mas_isDay instead",
+    "docstring": "DEPRECATED\nUse mas_isDay instead",
     "function_args": {
       "args": [
         "_time"
@@ -13826,7 +13826,7 @@
       "store.mas_utils.deprecated(use_instead='mas_versions.clear', should_raise=True)"
     ],
     "identifier": "clearUpdateStructs",
-    "docstring": "DEPRECATED\n        Use mas_versions.clear instead",
+    "docstring": "DEPRECATED\nUse mas_versions.clear instead",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -15052,7 +15052,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_calDropOverlayShield",
-    "docstring": "RUNTIME ONLY\n        Enables input for the calendar overlay",
+    "docstring": "RUNTIME ONLY\nEnables input for the calendar overlay",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -15067,7 +15067,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_calHideOverlay",
-    "docstring": "RUNTIME ONLY\n        Hides the calendar overlay",
+    "docstring": "RUNTIME ONLY\nHides the calendar overlay",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -15097,7 +15097,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_calRaiseOverlayShield",
-    "docstring": "RUNTIME ONLY\n        Disables input for the calendar overlay",
+    "docstring": "RUNTIME ONLY\nDisables input for the calendar overlay",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -15112,7 +15112,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_calShowOverlay",
-    "docstring": "RUNTIME ONLY\n        Shows the calendar overlay",
+    "docstring": "RUNTIME ONLY\nShows the calendar overlay",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -15146,7 +15146,7 @@
       "store.mas_utils.deprecated(should_raise=True)"
     ],
     "identifier": "grant_xp",
-    "docstring": "DEPRECATED\n        This does not do anything anymore. Around for compatibility\n        purposes",
+    "docstring": "DEPRECATED\nThis does not do anything anymore. Around for compatibility\npurposes",
     "function_args": {
       "args": [
         "experience"
@@ -15165,7 +15165,7 @@
       "store.mas_utils.deprecated(should_raise=True)"
     ],
     "identifier": "get_level",
-    "docstring": "DEPRECATED\n        This does not do anything anymore. Around for compatibility purposes",
+    "docstring": "DEPRECATED\nThis does not do anything anymore. Around for compatibility purposes",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -16838,7 +16838,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "show_calendar",
-    "docstring": "RUNTIME ONLY\n        Opens the calendar if we can",
+    "docstring": "RUNTIME ONLY\nOpens the calendar if we can",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -16875,7 +16875,7 @@
       "store.mas_utils.deprecated(use_instead='mas_isDayNow', should_raise=True)"
     ],
     "identifier": "mas_isMorning",
-    "docstring": "DEPRECATED\n        Checks if it is day or night via suntimes\n\n        NOTE: the wording of this function is bad. This does not literally\n            mean that it is morning. USE mas_isDayNow\n\n        RETURNS: True if day, false if not",
+    "docstring": "DEPRECATED\nChecks if it is day or night via suntimes\n\nNOTE: the wording of this function is bad. This does not literally\n    mean that it is morning. USE mas_isDayNow\n\nRETURNS: True if day, false if not",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -16907,7 +16907,7 @@
       "store.mas_utils.deprecated(should_raise=True)"
     ],
     "identifier": "mas_shouldChangeTime",
-    "docstring": "DEPRECATED\n        This no longer makes sense with the filtering system.",
+    "docstring": "DEPRECATED\nThis no longer makes sense with the filtering system.",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -18035,7 +18035,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_HKRaiseShield",
-    "docstring": "RUNTIME ONLY\n        Disables main hotkeys and music controller keys",
+    "docstring": "RUNTIME ONLY\nDisables main hotkeys and music controller keys",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -18050,7 +18050,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_HKDropShield",
-    "docstring": "RUNTIME ONLY\n        Enables the main hotkeys and music controller keys",
+    "docstring": "RUNTIME ONLY\nEnables the main hotkeys and music controller keys",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -18065,7 +18065,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_HKRaiseShield_main",
-    "docstring": "RUNTIME ONLY\n        Disables main hotkeys",
+    "docstring": "RUNTIME ONLY\nDisables main hotkeys",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -18080,7 +18080,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_HKDropShield_main",
-    "docstring": "RUNTIME ONLY\n        Enables main hotkeys",
+    "docstring": "RUNTIME ONLY\nEnables main hotkeys",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -18443,7 +18443,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_HKBRaiseShield",
-    "docstring": "RUNTIME ONLY\n        Disables the hotkey buttons",
+    "docstring": "RUNTIME ONLY\nDisables the hotkey buttons",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -18458,7 +18458,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_HKBDropShield",
-    "docstring": "RUNTIME ONLY\n        Enables the hotkey buttons",
+    "docstring": "RUNTIME ONLY\nEnables the hotkey buttons",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -24389,7 +24389,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_OVLDropShield",
-    "docstring": "RUNTIME ONLY\n        Enables all overlay screens. This is like \"dropping a shield\" because\n        it allows user interactions with the overlays.",
+    "docstring": "RUNTIME ONLY\nEnables all overlay screens. This is like \"dropping a shield\" because\nit allows user interactions with the overlays.",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -24404,7 +24404,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_OVLHide",
-    "docstring": "RUNTIME ONLY\n        Hides all overlay screens.",
+    "docstring": "RUNTIME ONLY\nHides all overlay screens.",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -24419,7 +24419,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_OVLRaiseShield",
-    "docstring": "RUNTIME ONLY\n        Disables all overlay screens. This is like \"raising a shield\" because\n        it prevents user interactions with the overlays.",
+    "docstring": "RUNTIME ONLY\nDisables all overlay screens. This is like \"raising a shield\" because\nit prevents user interactions with the overlays.",
     "function_args": {
       "args": [],
       "defaults": [],
@@ -24434,7 +24434,7 @@
     "type": "function",
     "function_decorators": [],
     "identifier": "mas_OVLShow",
-    "docstring": "RUNTIME ONLY\n        Shows all overlay screens.",
+    "docstring": "RUNTIME ONLY\nShows all overlay screens.",
     "function_args": {
       "args": [],
       "defaults": [],

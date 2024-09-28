@@ -31,6 +31,19 @@ def convert_octal_literals(src: str) -> str:
     return modified_code
 
 
+# dedent(...) fix
+
+def fix_dedent(docstring: str) -> str:
+    """If string does not start with an empty line, copies indent from second
+       line and inserts it before first to properly apply dedent(...)."""
+    lines = docstring.splitlines()
+    if len(lines) >= 2 and lines[0].strip() and lines[1].startswith((' ', '\t')):
+        indent = lines[1][:len(lines[1]) - len(lines[1].lstrip())]
+        lines[0] = indent + lines[0]
+        lines.insert(0, '')
+    return '\n'.join(lines)
+
+
 # AST node decomposition
 
 def decompose_func(node: ast.FunctionDef) -> FuncStruct:
@@ -74,7 +87,7 @@ def export_class_doc(struct: ClassStruct) -> Dict[str, Any]:
     data["class_bases"] = [ast.unparse(node) for node in struct[1]]
 
     if struct[2] is not None:
-        data["docstring"] = dedent(struct[2]).strip()
+        data["docstring"] = dedent(fix_dedent(struct[2])).strip()
 
     data["class_functions"] = [export_func_doc(fn) for fn in struct[3]]
 
@@ -89,7 +102,7 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
     data["identifier"] = struct[0]
 
     if struct[2] is not None:
-        data["docstring"] = dedent(struct[2]).strip()
+        data["docstring"] = dedent(fix_dedent(struct[2])).strip()
 
     data["function_args"] = {
         "args": [arg.arg for arg in struct[1].args],

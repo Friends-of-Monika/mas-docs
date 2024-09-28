@@ -6,15 +6,38 @@
 
 ### def _isFuture(ev, date=None)
 
-INTERNAL Checks if the start_date of the given event happens after the given time.  IN: ev - Event to check the start_time date - a datetime object used to check against If None is passed it will check against current time (Default: None)  RETURNS: True if the Event's start_date is in the future, False otherwise
+INTERNAL Checks if the start_date of the given event happens after the given time.
+
+**Parameters:**
+- `ev` &mdash; Event to check the start_time
+- `date` &mdash; a datetime object used to check against If None is passed it will check against current time (Default: None)
+
+
+**Returns:**<br>
+True if the Event's start_date is in the future, False otherwise
 
 ### def _isPast(ev, date=None)
 
-INTERNAL Checks if the end_date of the given event happens before the given time.  IN: ev - Event to check the start_time date - a datetime object used to check against If None is passed it will check against current time (Default: None)  RETURNS: True if the Event's end_date is in the past, False otherwise
+INTERNAL Checks if the end_date of the given event happens before the given time.
+
+**Parameters:**
+- `ev` &mdash; Event to check the start_time
+- `date` &mdash; a datetime object used to check against If None is passed it will check against current time (Default: None)
+
+
+**Returns:**<br>
+True if the Event's end_date is in the past, False otherwise
 
 ### def _isPresent(ev)
 
-INTERNAL Checks if current date falls within the given event's start/end date range  IN: ev - Event to check the start_time and end_time  RETURNS: True if current time is inside the  Event's start_date/end_date interval, False otherwise
+INTERNAL Checks if current date falls within the given event's start/end date range
+
+**Parameters:**
+- `ev` &mdash; Event to check the start_time and end_time
+
+
+**Returns:**<br>
+True if current time is inside the  Event's start_date/end_date interval, False otherwise
 
 ### def _hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
 
@@ -70,15 +93,38 @@ True if blacklisted, false if not
 
 ### def _isFuture(ev, date=None)
 
-INTERNAL Checks if the start_date of the given event happens after the given time.  IN: ev - Event to check the start_time date - a datetime object used to check against If None is passed it will check against current time (Default: None)  RETURNS: True if the Event's start_date is in the future, False otherwise
+INTERNAL Checks if the start_date of the given event happens after the given time.
+
+**Parameters:**
+- `ev` &mdash; Event to check the start_time
+- `date` &mdash; a datetime object used to check against If None is passed it will check against current time (Default: None)
+
+
+**Returns:**<br>
+True if the Event's start_date is in the future, False otherwise
 
 ### def _isPast(ev, date=None)
 
-INTERNAL Checks if the end_date of the given event happens before the given time.  IN: ev - Event to check the start_time date - a datetime object used to check against If None is passed it will check against current time (Default: None)  RETURNS: True if the Event's end_date is in the past, False otherwise
+INTERNAL Checks if the end_date of the given event happens before the given time.
+
+**Parameters:**
+- `ev` &mdash; Event to check the start_time
+- `date` &mdash; a datetime object used to check against If None is passed it will check against current time (Default: None)
+
+
+**Returns:**<br>
+True if the Event's end_date is in the past, False otherwise
 
 ### def _isPresent(ev)
 
-INTERNAL Checks if current date falls within the given event's start/end date range  IN: ev - Event to check the start_time and end_time  RETURNS: True if current time is inside the  Event's start_date/end_date interval, False otherwise
+INTERNAL Checks if current date falls within the given event's start/end date range
+
+**Parameters:**
+- `ev` &mdash; Event to check the start_time and end_time
+
+
+**Returns:**<br>
+True if current time is inside the  Event's start_date/end_date interval, False otherwise
 
 ### def _hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
 
