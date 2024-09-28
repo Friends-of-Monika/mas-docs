@@ -145,7 +145,7 @@ Pools an event.
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _isFuture(ev, date=None)
+#### def _isFuture(ev, date=None)
 
 INTERNAL Checks if the start_date of the given event happens after the given time.
 
@@ -157,7 +157,7 @@ INTERNAL Checks if the start_date of the given event happens after the given tim
 **Returns:**<br>
 True if the Event's start_date is in the future, False otherwise
 
-### def _isPast(ev, date=None)
+#### def _isPast(ev, date=None)
 
 INTERNAL Checks if the end_date of the given event happens before the given time.
 
@@ -169,7 +169,7 @@ INTERNAL Checks if the end_date of the given event happens before the given time
 **Returns:**<br>
 True if the Event's end_date is in the past, False otherwise
 
-### def _isPresent(ev)
+#### def _isPresent(ev)
 
 INTERNAL Checks if current date falls within the given event's start/end date range
 
@@ -180,31 +180,31 @@ INTERNAL Checks if current date falls within the given event's start/end date ra
 **Returns:**<br>
 True if current time is inside the  Event's start_date/end_date interval, False otherwise
 
-### def _hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
+#### def _hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
 
 Internalized hideEvent
 
-### def _hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=event_database)
+#### def _hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=event_database)
 
 Internalized hideEventLabel
 
-### def _lockEvent(ev)
+#### def _lockEvent(ev)
 
 Internalized lockEvent
 
-### def _lockEventLabel(evlabel, eventdb=event_database)
+#### def _lockEventLabel(evlabel, eventdb=event_database)
 
 Internalized lockEventLabel
 
-### def _unlockEvent(ev)
+#### def _unlockEvent(ev)
 
 Internalized unlockEvent
 
-### def _unlockEventLabel(evlabel, eventdb=event_database)
+#### def _unlockEventLabel(evlabel, eventdb=event_database)
 
 Internalized unlockEventLabel
 
-### def _isFuture(ev, date=None)
+#### def _isFuture(ev, date=None)
 
 INTERNAL Checks if the start_date of the given event happens after the given time.
 
@@ -216,7 +216,7 @@ INTERNAL Checks if the start_date of the given event happens after the given tim
 **Returns:**<br>
 True if the Event's start_date is in the future, False otherwise
 
-### def _isPast(ev, date=None)
+#### def _isPast(ev, date=None)
 
 INTERNAL Checks if the end_date of the given event happens before the given time.
 
@@ -228,7 +228,7 @@ INTERNAL Checks if the end_date of the given event happens before the given time
 **Returns:**<br>
 True if the Event's end_date is in the past, False otherwise
 
-### def _isPresent(ev)
+#### def _isPresent(ev)
 
 INTERNAL Checks if current date falls within the given event's start/end date range
 
@@ -239,27 +239,27 @@ INTERNAL Checks if current date falls within the given event's start/end date ra
 **Returns:**<br>
 True if current time is inside the  Event's start_date/end_date interval, False otherwise
 
-### def _hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
+#### def _hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
 
 Internalized hideEvent
 
-### def _hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=event_database)
+#### def _hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=event_database)
 
 Internalized hideEventLabel
 
-### def _lockEvent(ev)
+#### def _lockEvent(ev)
 
 Internalized lockEvent
 
-### def _lockEventLabel(evlabel, eventdb=event_database)
+#### def _lockEventLabel(evlabel, eventdb=event_database)
 
 Internalized lockEventLabel
 
-### def _unlockEvent(ev)
+#### def _unlockEvent(ev)
 
 Internalized unlockEvent
 
-### def _unlockEventLabel(evlabel, eventdb=event_database)
+#### def _unlockEventLabel(evlabel, eventdb=event_database)
 
 Internalized unlockEventLabel
 

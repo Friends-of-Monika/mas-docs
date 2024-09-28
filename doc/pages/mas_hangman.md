@@ -119,9 +119,9 @@ display word
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _add_monika_words(wordlist)
+#### def _add_monika_words(wordlist)
 
-### def _buildWordList(filepath, _mode)
+#### def _buildWordList(filepath, _mode)
 
 Builds a list of words given the filepath and mode
 
@@ -130,9 +130,9 @@ Builds a list of words given the filepath and mode
 - `_mode` &mdash; mode to build word list for
 
 
-### def _add_monika_words(wordlist)
+#### def _add_monika_words(wordlist)
 
-### def _buildWordList(filepath, _mode)
+#### def _buildWordList(filepath, _mode)
 
 Builds a list of words given the filepath and mode
 

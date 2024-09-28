@@ -97,7 +97,7 @@ Sets xp rate based on session time today Also resets reset date if appropriate
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _calc(xp_rate, start, end, hrx)
+#### def _calc(xp_rate, start, end, hrx)
 
 Calculates xp gained within a range
 
@@ -111,7 +111,7 @@ Calculates xp gained within a range
 **Returns:**<br>
 tuple: [0] - xp gained [1] - new xp_rate to use [2] - new amount of hours that we have applied xp rate to
 
-### def _grant(xp, xptnl)
+#### def _grant(xp, xptnl)
 
 Internal version of grant. dont use
 
@@ -123,14 +123,14 @@ Internal version of grant. dont use
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-### def _grant_on_pt()
+#### def _grant_on_pt()
 
 Grants xp by calcuating avgs using the current playtime
 
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-### def _grant_xp(xp)
+#### def _grant_xp(xp)
 
 Grant abitrary xp. You better have a good reason to use this.
 
@@ -138,7 +138,7 @@ Grant abitrary xp. You better have a good reason to use this.
 - `xp` &mdash; arbitrary xp to grant
 
 
-### def _level(xp)
+#### def _level(xp)
 
 gets level using based on an amt of xp
 
@@ -149,7 +149,7 @@ gets level using based on an amt of xp
 **Returns:**<br>
 level based on xp
 
-### def _level_rxp(xp)
+#### def _level_rxp(xp)
 
 Gets gained levels and remaining xp
 
@@ -160,7 +160,7 @@ Gets gained levels and remaining xp
 **Returns:**<br>
 tuple of the following format: [0] - lvls gained [1] - remainig xp
 
-### def _calc(xp_rate, start, end, hrx)
+#### def _calc(xp_rate, start, end, hrx)
 
 Calculates xp gained within a range
 
@@ -174,7 +174,7 @@ Calculates xp gained within a range
 **Returns:**<br>
 tuple: [0] - xp gained [1] - new xp_rate to use [2] - new amount of hours that we have applied xp rate to
 
-### def _grant(xp, xptnl)
+#### def _grant(xp, xptnl)
 
 Internal version of grant. dont use
 
@@ -186,14 +186,14 @@ Internal version of grant. dont use
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-### def _grant_on_pt()
+#### def _grant_on_pt()
 
 Grants xp by calcuating avgs using the current playtime
 
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-### def _grant_xp(xp)
+#### def _grant_xp(xp)
 
 Grant abitrary xp. You better have a good reason to use this.
 
@@ -201,7 +201,7 @@ Grant abitrary xp. You better have a good reason to use this.
 - `xp` &mdash; arbitrary xp to grant
 
 
-### def _level(xp)
+#### def _level(xp)
 
 gets level using based on an amt of xp
 
@@ -212,7 +212,7 @@ gets level using based on an amt of xp
 **Returns:**<br>
 level based on xp
 
-### def _level_rxp(xp)
+#### def _level_rxp(xp)
 
 Gets gained levels and remaining xp
 

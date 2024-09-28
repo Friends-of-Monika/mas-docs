@@ -167,7 +167,7 @@ true if all the given tip nums have been see nand a day has past since the lates
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _m1_script0x2dpython__exec_cmd(line, context, block=False)
+#### def _m1_script0x2dpython__exec_cmd(line, context, block=False)
 
 Tries to eval the line first, then executes. Returns the result of the command
 
@@ -180,7 +180,7 @@ Tries to eval the line first, then executes. Returns the result of the command
 **Returns:**<br>
 the result of the command, as a string
 
-### def _m1_script0x2dpython__exec_exec(line, context)
+#### def _m1_script0x2dpython__exec_exec(line, context)
 
 Runs exec on the given line Returns an empty string or a string with an error if it occured.
 
@@ -192,7 +192,7 @@ Runs exec on the given line Returns an empty string or a string with an error if
 **Returns:**<br>
 empty string or string with error message
 
-### def _m1_script0x2dpython__exec_evalexec(line, context)
+#### def _m1_script0x2dpython__exec_evalexec(line, context)
 
 Tries to eval the line first, then executes. Returns the result of the command
 
@@ -204,7 +204,7 @@ Tries to eval the line first, then executes. Returns the result of the command
 **Returns:**<br>
 the result of the command as a string
 
-### def _m1_script0x2dpython__pushi(indent_level)
+#### def _m1_script0x2dpython__pushi(indent_level)
 
 Pushes a indent level into the stack
 
@@ -212,22 +212,22 @@ Pushes a indent level into the stack
 - `indent_level` &mdash; indent to push into stack
 
 
-### def _m1_script0x2dpython__popi()
+#### def _m1_script0x2dpython__popi()
 
 Pops indent level from stack  REUTRNS: popped indent level
 
-### def _m1_script0x2dpython__peeki()
+#### def _m1_script0x2dpython__peeki()
 
 Returns value that would be popped from stack
 
 **Returns:**<br>
 indent level that would be popped
 
-### def _exp_toString(exp)
+#### def _exp_toString(exp)
 
 Converts the given exception into a string that looks like how python interpreter prints out exceptions
 
-### def _indent_line(line)
+#### def _indent_line(line)
 
 Prepends the given line with an appropraite number of spaces, depending on the current stack level
 
@@ -238,7 +238,7 @@ Prepends the given line with an appropraite number of spaces, depending on the c
 **Returns:**<br>
 line prepended with spaces
 
-### def _count_sp(line)
+#### def _count_sp(line)
 
 Counts number of spaces that prefix this line
 
@@ -249,7 +249,7 @@ Counts number of spaces that prefix this line
 **Returns:**<br>
 number of spaces at start of line
 
-### def _update_console_history()
+#### def _update_console_history()
 
 Updates the console history with the list of new lines to add
 
@@ -257,7 +257,7 @@ Updates the console history with the list of new lines to add
 - `new_items` &mdash; the items to add to the console history
 
 
-### def _update_console_history_list(new_items)
+#### def _update_console_history_list(new_items)
 
 Updates console history with list of new lines to add
 
@@ -265,7 +265,7 @@ Updates console history with list of new lines to add
 - `new_items` &mdash; list of new itme sto add to console history
 
 
-### def _line_break(line)
+#### def _line_break(line)
 
 Lines cant be too large. This will line break entries.
 
@@ -276,7 +276,7 @@ Lines cant be too large. This will line break entries.
 **Returns:**<br>
 list of strings, each item is a line.
 
-### def _m1_script0x2dpython__exec_cmd(line, context, block=False)
+#### def _m1_script0x2dpython__exec_cmd(line, context, block=False)
 
 Tries to eval the line first, then executes. Returns the result of the command
 
@@ -289,7 +289,7 @@ Tries to eval the line first, then executes. Returns the result of the command
 **Returns:**<br>
 the result of the command, as a string
 
-### def _m1_script0x2dpython__exec_exec(line, context)
+#### def _m1_script0x2dpython__exec_exec(line, context)
 
 Runs exec on the given line Returns an empty string or a string with an error if it occured.
 
@@ -301,7 +301,7 @@ Runs exec on the given line Returns an empty string or a string with an error if
 **Returns:**<br>
 empty string or string with error message
 
-### def _m1_script0x2dpython__exec_evalexec(line, context)
+#### def _m1_script0x2dpython__exec_evalexec(line, context)
 
 Tries to eval the line first, then executes. Returns the result of the command
 
@@ -313,7 +313,7 @@ Tries to eval the line first, then executes. Returns the result of the command
 **Returns:**<br>
 the result of the command as a string
 
-### def _m1_script0x2dpython__pushi(indent_level)
+#### def _m1_script0x2dpython__pushi(indent_level)
 
 Pushes a indent level into the stack
 
@@ -321,22 +321,22 @@ Pushes a indent level into the stack
 - `indent_level` &mdash; indent to push into stack
 
 
-### def _m1_script0x2dpython__popi()
+#### def _m1_script0x2dpython__popi()
 
 Pops indent level from stack  REUTRNS: popped indent level
 
-### def _m1_script0x2dpython__peeki()
+#### def _m1_script0x2dpython__peeki()
 
 Returns value that would be popped from stack
 
 **Returns:**<br>
 indent level that would be popped
 
-### def _exp_toString(exp)
+#### def _exp_toString(exp)
 
 Converts the given exception into a string that looks like how python interpreter prints out exceptions
 
-### def _indent_line(line)
+#### def _indent_line(line)
 
 Prepends the given line with an appropraite number of spaces, depending on the current stack level
 
@@ -347,7 +347,7 @@ Prepends the given line with an appropraite number of spaces, depending on the c
 **Returns:**<br>
 line prepended with spaces
 
-### def _count_sp(line)
+#### def _count_sp(line)
 
 Counts number of spaces that prefix this line
 
@@ -358,7 +358,7 @@ Counts number of spaces that prefix this line
 **Returns:**<br>
 number of spaces at start of line
 
-### def _update_console_history()
+#### def _update_console_history()
 
 Updates the console history with the list of new lines to add
 
@@ -366,7 +366,7 @@ Updates the console history with the list of new lines to add
 - `new_items` &mdash; the items to add to the console history
 
 
-### def _update_console_history_list(new_items)
+#### def _update_console_history_list(new_items)
 
 Updates console history with list of new lines to add
 
@@ -374,7 +374,7 @@ Updates console history with list of new lines to add
 - `new_items` &mdash; list of new itme sto add to console history
 
 
-### def _line_break(line)
+#### def _line_break(line)
 
 Lines cant be too large. This will line break entries.
 

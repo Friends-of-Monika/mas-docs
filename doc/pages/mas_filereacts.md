@@ -273,22 +273,22 @@ Generates a report for all the gifts given on the input date. The report is in t
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _initConnectorQuips()
+#### def _initConnectorQuips()
 
 Initializes the connector quips
 
-### def _initStarterQuips()
+#### def _initStarterQuips()
 
 Initializes the starter quips
 
-### def _pick_starter_label()
+#### def _pick_starter_label()
 
 Internal function that returns the appropriate starter label for reactions
 
 **Returns:**<br>
 - The label as a string, that should be used today.
 
-### def _core_delete(_filename, _map)
+#### def _core_delete(_filename, _map)
 
 Core deletion file function.
 
@@ -297,7 +297,7 @@ Core deletion file function.
 - `_map` &mdash; the map to use when deleting file.
 
 
-### def _core_delete_list(_filename_list, _map)
+#### def _core_delete_list(_filename_list, _map)
 
 Core deletion filename list function
 
@@ -306,7 +306,7 @@ Core deletion filename list function
 - `_map` &mdash; the map to use when deleting files
 
 
-### def _register_received_gift(eventlabel)
+#### def _register_received_gift(eventlabel)
 
 Registers when player gave a gift successfully
 
@@ -314,7 +314,7 @@ Registers when player gave a gift successfully
 - `eventlabel` &mdash; the event label for the gift reaction
 
 
-### def _get_full_stats_for_date(date=None)
+#### def _get_full_stats_for_date(date=None)
 
 Getter for the full stats dict for gifts on a given date
 
@@ -325,22 +325,22 @@ Getter for the full stats dict for gifts on a given date
 **Returns:**<br>
 The dict containing the full stats or None if it's empty
 
-### def _initConnectorQuips()
+#### def _initConnectorQuips()
 
 Initializes the connector quips
 
-### def _initStarterQuips()
+#### def _initStarterQuips()
 
 Initializes the starter quips
 
-### def _pick_starter_label()
+#### def _pick_starter_label()
 
 Internal function that returns the appropriate starter label for reactions
 
 **Returns:**<br>
 - The label as a string, that should be used today.
 
-### def _core_delete(_filename, _map)
+#### def _core_delete(_filename, _map)
 
 Core deletion file function.
 
@@ -349,7 +349,7 @@ Core deletion file function.
 - `_map` &mdash; the map to use when deleting file.
 
 
-### def _core_delete_list(_filename_list, _map)
+#### def _core_delete_list(_filename_list, _map)
 
 Core deletion filename list function
 
@@ -358,7 +358,7 @@ Core deletion filename list function
 - `_map` &mdash; the map to use when deleting files
 
 
-### def _register_received_gift(eventlabel)
+#### def _register_received_gift(eventlabel)
 
 Registers when player gave a gift successfully
 
@@ -366,7 +366,7 @@ Registers when player gave a gift successfully
 - `eventlabel` &mdash; the event label for the gift reaction
 
 
-### def _get_full_stats_for_date(date=None)
+#### def _get_full_stats_for_date(date=None)
 
 Getter for the full stats dict for gifts on a given date
 

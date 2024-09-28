@@ -477,7 +477,7 @@ str: Sanitized string, stripped of special characters.
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _EVgenY(_start, _end, current, for_start)
+#### def _EVgenY(_start, _end, current, for_start)
 
 Generates/decides if a given start/end datetime/date should have its year incremented or not.
 
@@ -491,27 +491,27 @@ Generates/decides if a given start/end datetime/date should have its year increm
 **Returns:**<br>
 either next valid _start or next valid _end.
 
-### def _ntoub(num, bsize)
+#### def _ntoub(num, bsize)
 
 Partial packing.
 
-### def _itoIS(num)
+#### def _itoIS(num)
 
 integer packing
 
-### def _IStoi(packednum)
+#### def _IStoi(packednum)
 
 integer unpacking
 
-### def _ftoFS(num)
+#### def _ftoFS(num)
 
 Float packing
 
-### def _FStof(packednum)
+#### def _FStof(packednum)
 
 Float unpacking
 
-### def _splitfloat(num)
+#### def _splitfloat(num)
 
 Splits a float into integer parts:  [0]: integer [1]: numerator [2]: denominator
 

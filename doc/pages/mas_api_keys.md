@@ -151,7 +151,7 @@ Saves API keys to disk
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _run_on_change(feature, api_key)
+#### def _run_on_change(feature, api_key)
 
 Runs on change for a feature with api key
 
@@ -163,7 +163,7 @@ Runs on change for a feature with api key
 **Returns:**<br>
 tuple of the following format: [0] - True if valid key, False if not [1] - error message to show
 
-### def _run_on_change(feature, api_key)
+#### def _run_on_change(feature, api_key)
 
 Runs on change for a feature with api key
 

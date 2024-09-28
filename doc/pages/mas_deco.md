@@ -45,7 +45,7 @@ MASDecoration object, or None if not valid name
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _add_it_deco(obj)
+#### def _add_it_deco(obj)
 
 Adds a MASImageTagDecoration object to the deco db. Raises exceptions if a duplicate was found OR if the object is not a MASImageTagDecoration.
 
@@ -53,7 +53,7 @@ Adds a MASImageTagDecoration object to the deco db. Raises exceptions if a dupli
 - `obj` &mdash; MASImageTagDecoration object to add to the deco db
 
 
-### def _add_it_deco(obj)
+#### def _add_it_deco(obj)
 
 Adds a MASImageTagDecoration object to the deco db. Raises exceptions if a duplicate was found OR if the object is not a MASImageTagDecoration.
 

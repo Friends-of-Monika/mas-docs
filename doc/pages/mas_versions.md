@@ -37,7 +37,7 @@ Initializes the update data structures
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _vdot2vstr(version_str)
+#### def _vdot2vstr(version_str)
 
 Converts a version string that uses dots to the v#_#_# notation
 
@@ -48,7 +48,7 @@ Converts a version string that uses dots to the v#_#_# notation
 **Returns:**<br>
 version string in the standard version notation: v#_#_#_#
 
-### def _vdot2vstr(version_str)
+#### def _vdot2vstr(version_str)
 
 Converts a version string that uses dots to the v#_#_# notation
 

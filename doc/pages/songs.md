@@ -159,7 +159,7 @@ True if filepath is in the music_choices list, False otherwise
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _sanitizeVolume(value)
+#### def _sanitizeVolume(value)
 
 Santizes the given value as if it were a volume.
 
@@ -170,7 +170,7 @@ Santizes the given value as if it were a volume.
 **Returns:**<br>
 valid volume value
 
-### def _m1_zz_music_selector__paginate(music_list)
+#### def _m1_zz_music_selector__paginate(music_list)
 
 Paginates the music list and returns a dict of the pages.
 
@@ -181,7 +181,7 @@ Paginates the music list and returns a dict of the pages.
 **Returns:**<br>
 dict of music choices, paginated nicely: [0]: first page of music [1]: next page of music ... [n]: last page of music
 
-### def _m1_zz_music_selector__genPage(music_list)
+#### def _m1_zz_music_selector__genPage(music_list)
 
 Generates the a page of music choices
 
@@ -192,11 +192,11 @@ Generates the a page of music choices
 **Returns:**<br>
 tuple of the following format: [0] - page of the music choices [1] - reamining items in the music_list
 
-### def _m1_zz_music_selector__scanCustomBGM(music_list)
+#### def _m1_zz_music_selector__scanCustomBGM(music_list)
 
 Scans the custom music directory for custom musics and adds them to the given music_list.  IN/OUT: music_list - list of music tuples to append to
 
-### def _getAudioFile(filepath)
+#### def _getAudioFile(filepath)
 
 Atteempts to retrive the correct audio object based on file extension
 
@@ -207,7 +207,7 @@ Atteempts to retrive the correct audio object based on file extension
 **Returns:**<br>
 tuple of the following format: [0]: audio object we want (May be None if this failed to load) [1]: extension of this audio object
 
-### def _getDispName(_audio_file, _ext, _filename)
+#### def _getDispName(_audio_file, _ext, _filename)
 
 Attempts to retreive the display name for an audio file If that fails, then it will use the _filename as song name, minus extension.
 
@@ -220,7 +220,7 @@ Attempts to retreive the display name for an audio file If that fails, then it w
 **Returns:**<br>
 The name of this Song (probably)
 
-### def _getLoopData(_audio_file, _ext)
+#### def _getLoopData(_audio_file, _ext)
 
 Attempts to retrieve loop data from the given audio file and generates the appropraite string to put in front of the file name
 
@@ -232,7 +232,7 @@ Attempts to retrieve loop data from the given audio file and generates the appro
 **Returns:**<br>
 loop string, or and empty string if no loop string available
 
-### def _getMP3(filepath)
+#### def _getMP3(filepath)
 
 Attempts to retrieve the MP3 object from the given audio file
 
@@ -243,7 +243,7 @@ Attempts to retrieve the MP3 object from the given audio file
 **Returns:**<br>
 mutagen.mp3.EasyMP3 object, or None if we coudlnt do it
 
-### def _getMP3Name(_audio_file)
+#### def _getMP3Name(_audio_file)
 
 Attempts to retrieve song name from mp3 id3 tag
 
@@ -254,7 +254,7 @@ Attempts to retrieve song name from mp3 id3 tag
 **Returns:**<br>
 The display name for this song, or None if not possible
 
-### def _getOgg(filepath)
+#### def _getOgg(filepath)
 
 Attempts to retreive the Ogg object from the given audio file
 
@@ -265,7 +265,7 @@ Attempts to retreive the Ogg object from the given audio file
 **Returns:**<br>
 mutagen.ogg.OggVorbis or None if we coudlnt get the info
 
-### def _getOggName(_audio_file)
+#### def _getOggName(_audio_file)
 
 Attempts to retreive song name from Ogg tag
 
@@ -276,7 +276,7 @@ Attempts to retreive song name from Ogg tag
 **Returns:**<br>
 The display name for this song, or None if not possible
 
-### def _getOggLoop(_audio_file, _ext)
+#### def _getOggLoop(_audio_file, _ext)
 
 Attempts to retreive loop data from Ogg tags
 
@@ -288,7 +288,7 @@ Attempts to retreive loop data from Ogg tags
 **Returns:**<br>
 the loop string we should use, or "" if no loop
 
-### def _getOggLoopMAS(loopstart, loopend, _audio_file)
+#### def _getOggLoopMAS(loopstart, loopend, _audio_file)
 
 Attempts to retrieve MAS-based loop data from Ogg tags
 
@@ -301,7 +301,7 @@ Attempts to retrieve MAS-based loop data from Ogg tags
 **Returns:**<br>
 the loop string we should use or "" if no loop
 
-### def _getOggLoopRPG(loopstart, looplen, _audio_file)
+#### def _getOggLoopRPG(loopstart, looplen, _audio_file)
 
 Attempts to retrieve RPGMaker-based loop data form Ogg tags
 
@@ -314,7 +314,7 @@ Attempts to retrieve RPGMaker-based loop data form Ogg tags
 **Returns:**<br>
 the loop string we should use or "" if no loop
 
-### def _getOpus(filepath)
+#### def _getOpus(filepath)
 
 Attempts to retrieve the Opus object from the given audio file
 
@@ -325,7 +325,7 @@ Attempts to retrieve the Opus object from the given audio file
 **Returns:**<br>
 mutagen.ogg.OggOpus or None if we couldnt get the info
 
-### def _sanitizeVolume(value)
+#### def _sanitizeVolume(value)
 
 Santizes the given value as if it were a volume.
 
@@ -336,7 +336,7 @@ Santizes the given value as if it were a volume.
 **Returns:**<br>
 valid volume value
 
-### def _m1_zz_music_selector__paginate(music_list)
+#### def _m1_zz_music_selector__paginate(music_list)
 
 Paginates the music list and returns a dict of the pages.
 
@@ -347,7 +347,7 @@ Paginates the music list and returns a dict of the pages.
 **Returns:**<br>
 dict of music choices, paginated nicely: [0]: first page of music [1]: next page of music ... [n]: last page of music
 
-### def _m1_zz_music_selector__genPage(music_list)
+#### def _m1_zz_music_selector__genPage(music_list)
 
 Generates the a page of music choices
 
@@ -358,11 +358,11 @@ Generates the a page of music choices
 **Returns:**<br>
 tuple of the following format: [0] - page of the music choices [1] - reamining items in the music_list
 
-### def _m1_zz_music_selector__scanCustomBGM(music_list)
+#### def _m1_zz_music_selector__scanCustomBGM(music_list)
 
 Scans the custom music directory for custom musics and adds them to the given music_list.  IN/OUT: music_list - list of music tuples to append to
 
-### def _getAudioFile(filepath)
+#### def _getAudioFile(filepath)
 
 Atteempts to retrive the correct audio object based on file extension
 
@@ -373,7 +373,7 @@ Atteempts to retrive the correct audio object based on file extension
 **Returns:**<br>
 tuple of the following format: [0]: audio object we want (May be None if this failed to load) [1]: extension of this audio object
 
-### def _getDispName(_audio_file, _ext, _filename)
+#### def _getDispName(_audio_file, _ext, _filename)
 
 Attempts to retreive the display name for an audio file If that fails, then it will use the _filename as song name, minus extension.
 
@@ -386,7 +386,7 @@ Attempts to retreive the display name for an audio file If that fails, then it w
 **Returns:**<br>
 The name of this Song (probably)
 
-### def _getLoopData(_audio_file, _ext)
+#### def _getLoopData(_audio_file, _ext)
 
 Attempts to retrieve loop data from the given audio file and generates the appropraite string to put in front of the file name
 
@@ -398,7 +398,7 @@ Attempts to retrieve loop data from the given audio file and generates the appro
 **Returns:**<br>
 loop string, or and empty string if no loop string available
 
-### def _getMP3(filepath)
+#### def _getMP3(filepath)
 
 Attempts to retrieve the MP3 object from the given audio file
 
@@ -409,7 +409,7 @@ Attempts to retrieve the MP3 object from the given audio file
 **Returns:**<br>
 mutagen.mp3.EasyMP3 object, or None if we coudlnt do it
 
-### def _getMP3Name(_audio_file)
+#### def _getMP3Name(_audio_file)
 
 Attempts to retrieve song name from mp3 id3 tag
 
@@ -420,7 +420,7 @@ Attempts to retrieve song name from mp3 id3 tag
 **Returns:**<br>
 The display name for this song, or None if not possible
 
-### def _getOgg(filepath)
+#### def _getOgg(filepath)
 
 Attempts to retreive the Ogg object from the given audio file
 
@@ -431,7 +431,7 @@ Attempts to retreive the Ogg object from the given audio file
 **Returns:**<br>
 mutagen.ogg.OggVorbis or None if we coudlnt get the info
 
-### def _getOggName(_audio_file)
+#### def _getOggName(_audio_file)
 
 Attempts to retreive song name from Ogg tag
 
@@ -442,7 +442,7 @@ Attempts to retreive song name from Ogg tag
 **Returns:**<br>
 The display name for this song, or None if not possible
 
-### def _getOggLoop(_audio_file, _ext)
+#### def _getOggLoop(_audio_file, _ext)
 
 Attempts to retreive loop data from Ogg tags
 
@@ -454,7 +454,7 @@ Attempts to retreive loop data from Ogg tags
 **Returns:**<br>
 the loop string we should use, or "" if no loop
 
-### def _getOggLoopMAS(loopstart, loopend, _audio_file)
+#### def _getOggLoopMAS(loopstart, loopend, _audio_file)
 
 Attempts to retrieve MAS-based loop data from Ogg tags
 
@@ -467,7 +467,7 @@ Attempts to retrieve MAS-based loop data from Ogg tags
 **Returns:**<br>
 the loop string we should use or "" if no loop
 
-### def _getOggLoopRPG(loopstart, looplen, _audio_file)
+#### def _getOggLoopRPG(loopstart, looplen, _audio_file)
 
 Attempts to retrieve RPGMaker-based loop data form Ogg tags
 
@@ -480,7 +480,7 @@ Attempts to retrieve RPGMaker-based loop data form Ogg tags
 **Returns:**<br>
 the loop string we should use or "" if no loop
 
-### def _getOpus(filepath)
+#### def _getOpus(filepath)
 
 Attempts to retrieve the Opus object from the given audio file
 

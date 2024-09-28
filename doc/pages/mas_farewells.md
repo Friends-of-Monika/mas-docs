@@ -35,7 +35,7 @@ a single farewell (as an Event) that we want to use
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _filterFarewell(ev, curr_pri, aff, check_time)
+#### def _filterFarewell(ev, curr_pri, aff, check_time)
 
 Filters a farewell for the given type, among other things.
 
@@ -49,7 +49,7 @@ Filters a farewell for the given type, among other things.
 **Returns:**<br>
 True if this ev passes the filter, False otherwise
 
-### def _filterFarewell(ev, curr_pri, aff, check_time)
+#### def _filterFarewell(ev, curr_pri, aff, check_time)
 
 Filters a farewell for the given type, among other things.
 

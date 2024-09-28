@@ -155,7 +155,7 @@ Goes through the anniversary database and unlocks the events that already past.
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _month_adjuster(ev, new_start_date, months, span)
+#### def _month_adjuster(ev, new_start_date, months, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 
@@ -166,7 +166,7 @@ Adjusts the start_date / end_date of an anniversary event.
 - `span` &mdash; the time from the event's new start_date to end_date
 
 
-### def _day_adjuster(ev, new_start_date, days, span)
+#### def _day_adjuster(ev, new_start_date, days, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 
@@ -177,7 +177,7 @@ Adjusts the start_date / end_date of an anniversary event.
 - `span` &mdash; the time from the event's new start_date to end_date
 
 
-### def _month_adjuster(ev, new_start_date, months, span)
+#### def _month_adjuster(ev, new_start_date, months, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 
@@ -188,7 +188,7 @@ Adjusts the start_date / end_date of an anniversary event.
 - `span` &mdash; the time from the event's new start_date to end_date
 
 
-### def _day_adjuster(ev, new_start_date, days, span)
+#### def _day_adjuster(ev, new_start_date, days, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 

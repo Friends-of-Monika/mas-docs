@@ -31,7 +31,7 @@ event object for the game entered if found. None if not found
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _total_games_played(exclude_list=[])
+#### def _total_games_played(exclude_list=[])
 
 Returns the total number of games played by adding up the shown_count of each game
 
@@ -39,7 +39,7 @@ Returns the total number of games played by adding up the shown_count of each ga
 - `exclude_list` &mdash; A list of event_label strings for games we want to exclude from the number of games played defaults to an empty list
 
 
-### def _total_games_played(exclude_list=[])
+#### def _total_games_played(exclude_list=[])
 
 Returns the total number of games played by adding up the shown_count of each game
 

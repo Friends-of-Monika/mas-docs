@@ -75,7 +75,7 @@ list of vertexes
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
+#### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
 
 Generates vertex list for zooming.
 
@@ -87,7 +87,7 @@ Generates vertex list for zooming.
 **Returns:**<br>
 adjustd list of vertexes
 
-### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
+#### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
 
 Generates vertex list for zooming.
 

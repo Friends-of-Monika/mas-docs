@@ -47,7 +47,7 @@ Returns number of unlocked weather items
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _generate_old_image(disp)
+#### def _generate_old_image(disp)
 
 Generates an image for the old-style weather.
 
@@ -58,7 +58,7 @@ Generates an image for the old-style weather.
 **Returns:**<br>
 the created image tag
 
-### def _generate_old_image(disp)
+#### def _generate_old_image(disp)
 
 Generates an image for the old-style weather.
 
@@ -69,71 +69,71 @@ Generates an image for the old-style weather.
 **Returns:**<br>
 the created image tag
 
-### def _weather_rain_entry(_old)
+#### def _weather_rain_entry(_old)
 
 Rain start programming point
 
-### def _weather_rain_exit(_new)
+#### def _weather_rain_exit(_new)
 
 RAIN stop programming point
 
-### def _weather_snow_entry(_old)
+#### def _weather_snow_entry(_old)
 
 Snow entry programming point
 
-### def _weather_snow_exit(_new)
+#### def _weather_snow_exit(_new)
 
 Snow exit programming point
 
-### def _weather_thunder_entry(_old)
+#### def _weather_thunder_entry(_old)
 
 Thunder entry programming point
 
-### def _weather_thunder_exit(_new)
+#### def _weather_thunder_exit(_new)
 
 Thunder exit programming point
 
-### def _weather_overcast_entry(_old)
+#### def _weather_overcast_entry(_old)
 
 Overcast entry programming point
 
-### def _weather_overcast_exit(_new)
+#### def _weather_overcast_exit(_new)
 
 Overcast exit programming point
 
-### def _weather_rain_entry(_old)
+#### def _weather_rain_entry(_old)
 
 Rain start programming point
 
-### def _weather_rain_exit(_new)
+#### def _weather_rain_exit(_new)
 
 RAIN stop programming point
 
-### def _weather_snow_entry(_old)
+#### def _weather_snow_entry(_old)
 
 Snow entry programming point
 
-### def _weather_snow_exit(_new)
+#### def _weather_snow_exit(_new)
 
 Snow exit programming point
 
-### def _weather_thunder_entry(_old)
+#### def _weather_thunder_entry(_old)
 
 Thunder entry programming point
 
-### def _weather_thunder_exit(_new)
+#### def _weather_thunder_exit(_new)
 
 Thunder exit programming point
 
-### def _weather_overcast_entry(_old)
+#### def _weather_overcast_entry(_old)
 
 Overcast entry programming point
 
-### def _weather_overcast_exit(_new)
+#### def _weather_overcast_exit(_new)
 
 Overcast exit programming point
 
-### def _determineCloudyWeather(rain_chance, thunder_chance, overcast_chance, rolled_chance=None)
+#### def _determineCloudyWeather(rain_chance, thunder_chance, overcast_chance, rolled_chance=None)
 
 Determines if weather should be rainiy/thunder/overcase, or none of those.
 
@@ -147,7 +147,7 @@ Determines if weather should be rainiy/thunder/overcase, or none of those.
 **Returns:**<br>
 appropriate weather type, or None if neither of these weathers.
 
-### def _determineCloudyWeather(rain_chance, thunder_chance, overcast_chance, rolled_chance=None)
+#### def _determineCloudyWeather(rain_chance, thunder_chance, overcast_chance, rolled_chance=None)
 
 Determines if weather should be rainiy/thunder/overcase, or none of those.
 

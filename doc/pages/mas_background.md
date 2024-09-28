@@ -183,7 +183,7 @@ Runs global filter change progpoint, logging for errors
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _toggleBackgroundUnlock(id_, value)
+#### def _toggleBackgroundUnlock(id_, value)
 
 Locks/unlocks a bg
 
@@ -192,7 +192,7 @@ Locks/unlocks a bg
 - `value` &mdash; bool - the value for the unlocked field
 
 
-### def _toggleBackgroundUnlock(id_, value)
+#### def _toggleBackgroundUnlock(id_, value)
 
 Locks/unlocks a bg
 
@@ -201,7 +201,7 @@ Locks/unlocks a bg
 - `value` &mdash; bool - the value for the unlocked field
 
 
-### def _gbl_flt_change(old_flt, new_flt, curr_time)
+#### def _gbl_flt_change(old_flt, new_flt, curr_time)
 
 Runs when a filter change occurs
 
@@ -211,7 +211,7 @@ Runs when a filter change occurs
 - `curr_time` &mdash; current time as datetime.time
 
 
-### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
+#### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
 
 Runs when a chunk change occurs
 
@@ -221,15 +221,15 @@ Runs when a chunk change occurs
 - `curr_time` &mdash; current time as datetime.time
 
 
-### def _def_background_entry(_old)
+#### def _def_background_entry(_old)
 
 Entry programming point for default background
 
-### def _def_background_exit(_new)
+#### def _def_background_exit(_new)
 
 Exit programming point for default background
 
-### def _gbl_flt_change(old_flt, new_flt, curr_time)
+#### def _gbl_flt_change(old_flt, new_flt, curr_time)
 
 Runs when a filter change occurs
 
@@ -239,7 +239,7 @@ Runs when a filter change occurs
 - `curr_time` &mdash; current time as datetime.time
 
 
-### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
+#### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
 
 Runs when a chunk change occurs
 
@@ -249,11 +249,11 @@ Runs when a chunk change occurs
 - `curr_time` &mdash; current time as datetime.time
 
 
-### def _def_background_entry(_old)
+#### def _def_background_entry(_old)
 
 Entry programming point for default background
 
-### def _def_background_exit(_new)
+#### def _def_background_exit(_new)
 
 Exit programming point for default background
 

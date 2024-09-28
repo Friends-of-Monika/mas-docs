@@ -217,7 +217,7 @@ boolean: - True if function was unregistered successfully - False otherwise
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-### def _m1_zz_submods__getArgs(key, _function)
+#### def _m1_zz_submods__getArgs(key, _function)
 
 TODO: remove this with r8 Gets args for the given function at the given key
 
@@ -229,7 +229,7 @@ TODO: remove this with r8 Gets args for the given function at the given key
 **Returns:**<br>
 list of args if the function is present If function is not present, None is returned
 
-### def _m1_zz_submods__prioritySort(_label)
+#### def _m1_zz_submods__prioritySort(_label)
 
 Sorts function plugins based on the priority order system
 
@@ -240,7 +240,7 @@ Sorts function plugins based on the priority order system
 **Returns:**<br>
 sorted list of (_function, data_tuple) tuples
 
-### def _m1_zz_submods__getOverrideLabel(_label)
+#### def _m1_zz_submods__getOverrideLabel(_label)
 
 Gets the override label for the given label (will follow the chain if overrides are overridden)
 
@@ -251,7 +251,7 @@ Gets the override label for the given label (will follow the chain if overrides 
 **Returns:**<br>
 string representing the last label in the override chain or _label if there are no overrides
 
-### def _m1_zz_submods__getArgs(key, _function)
+#### def _m1_zz_submods__getArgs(key, _function)
 
 TODO: remove this with r8 Gets args for the given function at the given key
 
@@ -263,7 +263,7 @@ TODO: remove this with r8 Gets args for the given function at the given key
 **Returns:**<br>
 list of args if the function is present If function is not present, None is returned
 
-### def _m1_zz_submods__prioritySort(_label)
+#### def _m1_zz_submods__prioritySort(_label)
 
 Sorts function plugins based on the priority order system
 
@@ -274,7 +274,7 @@ Sorts function plugins based on the priority order system
 **Returns:**<br>
 sorted list of (_function, data_tuple) tuples
 
-### def _m1_zz_submods__getOverrideLabel(_label)
+#### def _m1_zz_submods__getOverrideLabel(_label)
 
 Gets the override label for the given label (will follow the chain if overrides are overridden)
 

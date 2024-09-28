@@ -208,7 +208,7 @@ def generate_doc_markdown(json_path: Path, out_path: Path) -> None: # pylint: di
         classes = list(filter(lambda it: it["type"] == "class", doc_json))
         all_funcs = list(filter(lambda it: it["type"] == "function", doc_json))
         pub_funcs = list(filter(lambda it: not is_internal_func(it), all_funcs))
-        int_funcs = list(filter(lambda it: is_internal_func(it), all_funcs))
+        int_funcs = list(filter(is_internal_func, all_funcs))
 
         for class_doc in classes:
             pass
@@ -222,7 +222,7 @@ def generate_doc_markdown(json_path: Path, out_path: Path) -> None: # pylint: di
                 "> These functions are *internal* and are not recommended for use.\n\n")
 
         for func_doc in int_funcs:
-            f.write(generate_func_markdown(func_doc))
+            f.write(generate_func_markdown(func_doc, header_depth=4))
 
     with json_path.open("r") as f:
         doc_json = json.load(f)
