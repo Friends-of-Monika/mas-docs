@@ -210,6 +210,10 @@ def generate_doc_markdown(json_path: Path, out_path: Path) -> None: # pylint: di
         pub_funcs = list(filter(lambda it: not is_internal_func(it), all_funcs))
         int_funcs = list(filter(is_internal_func, all_funcs))
 
+        f.write("> [!NOTE]\n"
+                "> These docs are auto-generated. Please [open an issue](https://github.com/Friends-of-Monika/mas-docs/issues/new)\n" # pylint: disable=line-too-long
+                "> in case you found inconsistencies, errors or other things we should correct.\n\n") # pylint: disable=line-too-long
+
         for class_doc in classes:
             pass
 
