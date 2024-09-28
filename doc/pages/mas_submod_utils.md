@@ -16,7 +16,9 @@ Writes to the submod log if it is open
 - `msg` &mdash; message to write to log
 
 
----### def isSubmodInstalled(name, version=None)
+---
+
+### def isSubmodInstalled(name, version=None)
 
 Checks if a submod with `name` is installed
 
@@ -28,7 +30,9 @@ Checks if a submod with `name` is installed
 **Returns:**<br>
 boolean: - True if submod with name is installed - False otherwise
 
----### def writeLog(msg)
+---
+
+### def writeLog(msg)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -44,7 +48,9 @@ Writes to the submod log if it is open
 - `msg` &mdash; message to write to log
 
 
----### def isSubmodInstalled(name, version=None)
+---
+
+### def isSubmodInstalled(name, version=None)
 
 Checks if a submod with `name` is installed
 
@@ -56,11 +62,15 @@ Checks if a submod with `name` is installed
 **Returns:**<br>
 boolean: - True if submod with name is installed - False otherwise
 
----### def functionplugin(_label, _args=None, auto_error_handling=True, priority=0)
+---
+
+### def functionplugin(_label, _args=None, auto_error_handling=True, priority=0)
 
 Decorator function to register a plugin  The same as registerFunction. See its doc for parameter details
 
----### def getAndRunFunctions(key=None)
+---
+
+### def getAndRunFunctions(key=None)
 
 Gets and runs functions within the key provided
 
@@ -68,7 +78,9 @@ Gets and runs functions within the key provided
 - `key` &mdash; Key to retrieve and run functions from
 
 
----### def registerFunction(key, _function, args=None, auto_error_handling=True, priority=DEF_PRIORITY)
+---
+
+### def registerFunction(key, _function, args=None, auto_error_handling=True, priority=DEF_PRIORITY)
 
 Registers a function to the function_plugins dict
 
@@ -82,7 +94,9 @@ Registers a function to the function_plugins dict
 **Returns:**<br>
 boolean: - True if the function was registered successfully - False otherwise
 
----### def getArgs(key, _function)
+---
+
+### def getArgs(key, _function)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -102,7 +116,9 @@ Gets args for the given function at the given key
 **Returns:**<br>
 list of args if the function is present If function is not present, None is returned
 
----### def setArgs(key, _function, args=None)
+---
+
+### def setArgs(key, _function, args=None)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -122,7 +138,9 @@ Sets args for the given function at the key
 **Returns:**<br>
 boolean: - True if args were set successfully - False if not
 
----### def unregisterFunction(key, _function)
+---
+
+### def unregisterFunction(key, _function)
 
 Unregisters a function from the function_plugins dict
 
@@ -134,11 +152,15 @@ Unregisters a function from the function_plugins dict
 **Returns:**<br>
 boolean: - True if function was unregistered successfully - False otherwise
 
----### def functionplugin(_label, _args=None, auto_error_handling=True, priority=0)
+---
+
+### def functionplugin(_label, _args=None, auto_error_handling=True, priority=0)
 
 Decorator function to register a plugin  The same as registerFunction. See its doc for parameter details
 
----### def getAndRunFunctions(key=None)
+---
+
+### def getAndRunFunctions(key=None)
 
 Gets and runs functions within the key provided
 
@@ -146,7 +168,9 @@ Gets and runs functions within the key provided
 - `key` &mdash; Key to retrieve and run functions from
 
 
----### def registerFunction(key, _function, args=None, auto_error_handling=True, priority=DEF_PRIORITY)
+---
+
+### def registerFunction(key, _function, args=None, auto_error_handling=True, priority=DEF_PRIORITY)
 
 Registers a function to the function_plugins dict
 
@@ -160,7 +184,9 @@ Registers a function to the function_plugins dict
 **Returns:**<br>
 boolean: - True if the function was registered successfully - False otherwise
 
----### def getArgs(key, _function)
+---
+
+### def getArgs(key, _function)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -180,7 +206,9 @@ Gets args for the given function at the given key
 **Returns:**<br>
 list of args if the function is present If function is not present, None is returned
 
----### def setArgs(key, _function, args=None)
+---
+
+### def setArgs(key, _function, args=None)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -200,7 +228,9 @@ Sets args for the given function at the key
 **Returns:**<br>
 boolean: - True if args were set successfully - False if not
 
----### def unregisterFunction(key, _function)
+---
+
+### def unregisterFunction(key, _function)
 
 Unregisters a function from the function_plugins dict
 
@@ -212,7 +242,9 @@ Unregisters a function from the function_plugins dict
 **Returns:**<br>
 boolean: - True if function was unregistered successfully - False otherwise
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -229,7 +261,9 @@ TODO: remove this with r8 Gets args for the given function at the given key
 **Returns:**<br>
 list of args if the function is present If function is not present, None is returned
 
----#### def _m1_zz_submods__prioritySort(_label)
+---
+
+#### def _m1_zz_submods__prioritySort(_label)
 
 Sorts function plugins based on the priority order system
 
@@ -240,41 +274,9 @@ Sorts function plugins based on the priority order system
 **Returns:**<br>
 sorted list of (_function, data_tuple) tuples
 
----#### def _m1_zz_submods__getOverrideLabel(_label)
+---
 
-Gets the override label for the given label (will follow the chain if overrides are overridden)
-
-**Parameters:**
-- `_label` &mdash; label to get the override label for
-
-
-**Returns:**<br>
-string representing the last label in the override chain or _label if there are no overrides
-
----#### def _m1_zz_submods__getArgs(key, _function)
-
-TODO: remove this with r8 Gets args for the given function at the given key
-
-**Parameters:**
-- `key` &mdash; key to retrieve the function from
-- `_function` &mdash; function to retrieve args from
-
-
-**Returns:**<br>
-list of args if the function is present If function is not present, None is returned
-
----#### def _m1_zz_submods__prioritySort(_label)
-
-Sorts function plugins based on the priority order system
-
-**Parameters:**
-- `_label` &mdash; label to sort functions by priority for
-
-
-**Returns:**<br>
-sorted list of (_function, data_tuple) tuples
-
----#### def _m1_zz_submods__getOverrideLabel(_label)
+#### def _m1_zz_submods__getOverrideLabel(_label)
 
 Gets the override label for the given label (will follow the chain if overrides are overridden)
 
@@ -286,3 +288,44 @@ Gets the override label for the given label (will follow the chain if overrides 
 string representing the last label in the override chain or _label if there are no overrides
 
 ---
+
+#### def _m1_zz_submods__getArgs(key, _function)
+
+TODO: remove this with r8 Gets args for the given function at the given key
+
+**Parameters:**
+- `key` &mdash; key to retrieve the function from
+- `_function` &mdash; function to retrieve args from
+
+
+**Returns:**<br>
+list of args if the function is present If function is not present, None is returned
+
+---
+
+#### def _m1_zz_submods__prioritySort(_label)
+
+Sorts function plugins based on the priority order system
+
+**Parameters:**
+- `_label` &mdash; label to sort functions by priority for
+
+
+**Returns:**<br>
+sorted list of (_function, data_tuple) tuples
+
+---
+
+#### def _m1_zz_submods__getOverrideLabel(_label)
+
+Gets the override label for the given label (will follow the chain if overrides are overridden)
+
+**Parameters:**
+- `_label` &mdash; label to get the override label for
+
+
+**Returns:**<br>
+string representing the last label in the override chain or _label if there are no overrides
+
+---
+

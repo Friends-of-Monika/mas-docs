@@ -12,7 +12,9 @@ Looks up data in the historical archives.
 **Returns:**<br>
 a tuple of the following format: [0]: Lookup constant [1]: retrieved data (which may be None). This is always None if we could not find year or key
 
----### def lookup_ot(key)
+---
+
+### def lookup_ot(key)
 
 Looks up data overtime in the historical archives.
 
@@ -24,7 +26,9 @@ Looks up data overtime in the historical archives.
 **Returns:**<br>
 SEE lookup_ot_l
 
----### def lookup_otl(key, years_list)
+---
+
+### def lookup_otl(key, years_list)
 
 Looks up data overtime in the historical archives.
 
@@ -36,19 +40,27 @@ Looks up data overtime in the historical archives.
 **Returns:**<br>
 dict of the following format: year: tuple (SEE lookup)
 
----### def verify(key, _verify, years_list)
+---
+
+### def verify(key, _verify, years_list)
 
 Internali version of mas_HistVerify
 
----### def loadMHSData()
+---
+
+### def loadMHSData()
 
 Loads persistent MASHistorySaver data into the mhs_db  Also adds MHS to the sorted list and sorts it.
 
----### def saveMHSData()
+---
+
+### def saveMHSData()
 
 Saves MASHistorySaver data from mhs_db into persistent
 
----### def addMHS(mhs)
+---
+
+### def addMHS(mhs)
 
 Adds the given mhs to the database.
 
@@ -56,7 +68,9 @@ Adds the given mhs to the database.
 - `mhs` &mdash; MASHistorySaver object to add
 
 
----### def getMHS(mhs_id)
+---
+
+### def getMHS(mhs_id)
 
 Gets the MASHistorySaver object with the given id
 
@@ -67,7 +81,9 @@ Gets the MASHistorySaver object with the given id
 **Returns:**<br>
 MASHistorySaver object, or None if not found
 
----### def lookup(key, year)
+---
+
+### def lookup(key, year)
 
 Looks up data in the historical archives.
 
@@ -79,7 +95,9 @@ Looks up data in the historical archives.
 **Returns:**<br>
 a tuple of the following format: [0]: Lookup constant [1]: retrieved data (which may be None). This is always None if we could not find year or key
 
----### def lookup_ot(key)
+---
+
+### def lookup_ot(key)
 
 Looks up data overtime in the historical archives.
 
@@ -91,7 +109,9 @@ Looks up data overtime in the historical archives.
 **Returns:**<br>
 SEE lookup_ot_l
 
----### def lookup_otl(key, years_list)
+---
+
+### def lookup_otl(key, years_list)
 
 Looks up data overtime in the historical archives.
 
@@ -103,19 +123,27 @@ Looks up data overtime in the historical archives.
 **Returns:**<br>
 dict of the following format: year: tuple (SEE lookup)
 
----### def verify(key, _verify, years_list)
+---
+
+### def verify(key, _verify, years_list)
 
 Internali version of mas_HistVerify
 
----### def loadMHSData()
+---
+
+### def loadMHSData()
 
 Loads persistent MASHistorySaver data into the mhs_db  Also adds MHS to the sorted list and sorts it.
 
----### def saveMHSData()
+---
+
+### def saveMHSData()
 
 Saves MASHistorySaver data from mhs_db into persistent
 
----### def addMHS(mhs)
+---
+
+### def addMHS(mhs)
 
 Adds the given mhs to the database.
 
@@ -123,7 +151,9 @@ Adds the given mhs to the database.
 - `mhs` &mdash; MASHistorySaver object to add
 
 
----### def getMHS(mhs_id)
+---
+
+### def getMHS(mhs_id)
 
 Gets the MASHistorySaver object with the given id
 
@@ -134,7 +164,9 @@ Gets the MASHistorySaver object with the given id
 **Returns:**<br>
 MASHistorySaver object, or None if not found
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -146,7 +178,9 @@ generates the range of years that are valid for historical lookups.
 **Returns:**<br>
 range of years from 2017 to todays year.
 
----#### def _store(value, key, year)
+---
+
+#### def _store(value, key, year)
 
 Stores data in the historical archives.
 
@@ -156,7 +190,9 @@ Stores data in the historical archives.
 - `year` &mdash; year to store value
 
 
----#### def _store_all(year_data, key)
+---
+
+#### def _store_all(year_data, key)
 
 Stores multiple year's worth of data in the historical archives.
 
@@ -165,14 +201,18 @@ Stores multiple year's worth of data in the historical archives.
 - `key` &mdash; data key to store values
 
 
----#### def _valid_year_range()
+---
+
+#### def _valid_year_range()
 
 generates the range of years that are valid for historical lookups.
 
 **Returns:**<br>
 range of years from 2017 to todays year.
 
----#### def _store(value, key, year)
+---
+
+#### def _store(value, key, year)
 
 Stores data in the historical archives.
 
@@ -182,7 +222,9 @@ Stores data in the historical archives.
 - `year` &mdash; year to store value
 
 
----#### def _store_all(year_data, key)
+---
+
+#### def _store_all(year_data, key)
 
 Stores multiple year's worth of data in the historical archives.
 
@@ -191,32 +233,49 @@ Stores multiple year's worth of data in the historical archives.
 - `key` &mdash; data key to store values
 
 
----#### def _bday_exit_pp(mhs)
+---
 
----#### def _pm_holdme_adj_times(elapsed)
+#### def _bday_exit_pp(mhs)
 
-Sets the appropraite persistent vars according to the elasped time for the hold me topic
+---
 
----#### def _bday_exit_pp(mhs)
-
----#### def _pm_holdme_adj_times(elapsed)
+#### def _pm_holdme_adj_times(elapsed)
 
 Sets the appropraite persistent vars according to the elasped time for the hold me topic
 
----#### def _runMHSAlg()
+---
+
+#### def _bday_exit_pp(mhs)
+
+---
+
+#### def _pm_holdme_adj_times(elapsed)
+
+Sets the appropraite persistent vars according to the elasped time for the hold me topic
+
+---
+
+#### def _runMHSAlg()
 
 Runs the historical data saving algorithm
 
----#### def _runMHSResetAlg()
+---
 
-Runs special resets in the case of TT. Do NOT call if TT not detected.
-
----#### def _runMHSAlg()
-
-Runs the historical data saving algorithm
-
----#### def _runMHSResetAlg()
+#### def _runMHSResetAlg()
 
 Runs special resets in the case of TT. Do NOT call if TT not detected.
 
 ---
+
+#### def _runMHSAlg()
+
+Runs the historical data saving algorithm
+
+---
+
+#### def _runMHSResetAlg()
+
+Runs special resets in the case of TT. Do NOT call if TT not detected.
+
+---
+

@@ -7,28 +7,36 @@ Gets all unseen (locked) fun facts as eventlabels
 **Returns:**<br>
 List of all unseen fun fact eventlabels
 
----### def getAllFactsEVL()
+---
+
+### def getAllFactsEVL()
 
 Gets all fun facts regardless of unlocked as eventlabels
 
 **Returns:**<br>
 List of all fun fact eventlabels
 
----### def getUnseenFactsEVL()
+---
+
+### def getUnseenFactsEVL()
 
 Gets all unseen (locked) fun facts as eventlabels
 
 **Returns:**<br>
 List of all unseen fun fact eventlabels
 
----### def getAllFactsEVL()
+---
+
+### def getAllFactsEVL()
 
 Gets all fun facts regardless of unlocked as eventlabels
 
 **Returns:**<br>
 List of all fun fact eventlabels
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

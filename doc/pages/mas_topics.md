@@ -12,7 +12,9 @@ counts the number of events with a > shown_count than the given shown_count
 **Returns:**<br>
 number of events with shown_counts that are higher than the given shown_count
 
----### def topSeenEvents(sorted_ev_list, shown_count)
+---
+
+### def topSeenEvents(sorted_ev_list, shown_count)
 
 counts the number of events with a > shown_count than the given shown_count
 
@@ -24,7 +26,9 @@ counts the number of events with a > shown_count than the given shown_count
 **Returns:**<br>
 number of events with shown_counts that are higher than the given shown_count
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

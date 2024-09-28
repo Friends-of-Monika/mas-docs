@@ -8,15 +8,21 @@ Adds versions to the version updates dict.
 - `version_struct` &mdash; dict with versions in special version notation. Keys: version to update to, as string Vals: versions to update from, as string or tuple of strings
 
 
----### def clear()
+---
+
+### def clear()
 
 Clears the update data structures
 
----### def init()
+---
+
+### def init()
 
 Initializes the update data structures
 
----### def add_steps(version_struct)
+---
+
+### def add_steps(version_struct)
 
 Adds versions to the version updates dict.
 
@@ -24,15 +30,21 @@ Adds versions to the version updates dict.
 - `version_struct` &mdash; dict with versions in special version notation. Keys: version to update to, as string Vals: versions to update from, as string or tuple of strings
 
 
----### def clear()
+---
+
+### def clear()
 
 Clears the update data structures
 
----### def init()
+---
+
+### def init()
 
 Initializes the update data structures
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -48,7 +60,9 @@ Converts a version string that uses dots to the v#_#_# notation
 **Returns:**<br>
 version string in the standard version notation: v#_#_#_#
 
----#### def _vdot2vstr(version_str)
+---
+
+#### def _vdot2vstr(version_str)
 
 Converts a version string that uses dots to the v#_#_# notation
 
@@ -60,3 +74,4 @@ Converts a version string that uses dots to the v#_#_# notation
 version string in the standard version notation: v#_#_#_#
 
 ---
+

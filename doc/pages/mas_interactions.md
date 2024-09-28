@@ -11,7 +11,9 @@ Get vx list of a zone enum
 **Returns:**<br>
 vertex list, or empty if not found
 
----### def z_vx_list_zoom(zoom_level, zone_enum)
+---
+
+### def z_vx_list_zoom(zoom_level, zone_enum)
 
 Generates a vertex list from the given zoom and zone enum
 
@@ -23,7 +25,9 @@ Generates a vertex list from the given zoom and zone enum
 **Returns:**<br>
 list of vertexes. May be empty if not valid zone enum
 
----### def vx_list_zoom(zoom_level, vx_list)
+---
+
+### def vx_list_zoom(zoom_level, vx_list)
 
 Generates a vertex list from the given zoom
 
@@ -35,7 +39,9 @@ Generates a vertex list from the given zoom
 **Returns:**<br>
 list of vertexes
 
----### def get_vx(zone_enum)
+---
+
+### def get_vx(zone_enum)
 
 Get vx list of a zone enum
 
@@ -46,7 +52,9 @@ Get vx list of a zone enum
 **Returns:**<br>
 vertex list, or empty if not found
 
----### def z_vx_list_zoom(zoom_level, zone_enum)
+---
+
+### def z_vx_list_zoom(zoom_level, zone_enum)
 
 Generates a vertex list from the given zoom and zone enum
 
@@ -58,7 +66,9 @@ Generates a vertex list from the given zoom and zone enum
 **Returns:**<br>
 list of vertexes. May be empty if not valid zone enum
 
----### def vx_list_zoom(zoom_level, vx_list)
+---
+
+### def vx_list_zoom(zoom_level, vx_list)
 
 Generates a vertex list from the given zoom
 
@@ -70,7 +80,9 @@ Generates a vertex list from the given zoom
 **Returns:**<br>
 list of vertexes
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -87,7 +99,9 @@ Generates vertex list for zooming.
 **Returns:**<br>
 adjustd list of vertexes
 
----#### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
+---
+
+#### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
 
 Generates vertex list for zooming.
 
@@ -100,3 +114,4 @@ Generates vertex list for zooming.
 adjustd list of vertexes
 
 ---
+

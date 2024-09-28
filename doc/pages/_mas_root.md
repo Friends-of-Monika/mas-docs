@@ -2,7 +2,9 @@
 
 ### def glitchtext(length)
 
----### def mangleFile(filepath, mangle_length=1000)
+---
+
+### def mangleFile(filepath, mangle_length=1000)
 
 Mangles the file at the given filepath. Will create the file if it doesnt exists
 
@@ -11,17 +13,25 @@ Mangles the file at the given filepath. Will create the file if it doesnt exists
 - `mangle_length` &mdash; how many characters to use to mangle (Default: 1000)
 
 
----### def resetPlayerData()
+---
+
+### def resetPlayerData()
 
 Completely resets player data in persistents.
 
----### def initialSessionData()
+---
+
+### def initialSessionData()
 
 Completely resets session data to usable initial values.
 
----### def glitchtext(length)
+---
 
----### def mangleFile(filepath, mangle_length=1000)
+### def glitchtext(length)
+
+---
+
+### def mangleFile(filepath, mangle_length=1000)
 
 Mangles the file at the given filepath. Will create the file if it doesnt exists
 
@@ -30,15 +40,21 @@ Mangles the file at the given filepath. Will create the file if it doesnt exists
 - `mangle_length` &mdash; how many characters to use to mangle (Default: 1000)
 
 
----### def resetPlayerData()
+---
+
+### def resetPlayerData()
 
 Completely resets player data in persistents.
 
----### def initialSessionData()
+---
+
+### def initialSessionData()
 
 Completely resets session data to usable initial values.
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

@@ -2,17 +2,29 @@
 
 ### def getPointValue(condition, point)
 
----### def getWinner(word, sayori, natsuki, yuri, monika, mas=False)
+---
 
----### def validateFlow(flow)
+### def getWinner(word, sayori, natsuki, yuri, monika, mas=False)
 
----### def getPointValue(condition, point)
+---
 
----### def getWinner(word, sayori, natsuki, yuri, monika, mas=False)
+### def validateFlow(flow)
 
----### def validateFlow(flow)
+---
 
----### Internal functions
+### def getPointValue(condition, point)
+
+---
+
+### def getWinner(word, sayori, natsuki, yuri, monika, mas=False)
+
+---
+
+### def validateFlow(flow)
+
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

@@ -293,7 +293,7 @@ def generate_func_markdown(data: Dict[str, Any], header_depth: int = 3) -> str: 
         md.write(doc_outputs)
         md.write("\n\n")
 
-    md.write("---")
+    md.write("---\n\n")
     return md.getvalue()
 
 

@@ -9,7 +9,9 @@ decorator that marks function to run as part of ch30_reset.
 - `priority` &mdash; priority to run function Default: 0 PLEASE USE POSITIVE PRIORITIES. If you need to slip something between existing reset code, be mindful of where you plugin your reset code. Take a look at the reset functions below for the correct placement.
 
 
----### def ch30_reset(priority=0)
+---
+
+### def ch30_reset(priority=0)
 
 decorator that marks function to run as part of ch30_reset.
 
@@ -18,7 +20,9 @@ decorator that marks function to run as part of ch30_reset.
 - `priority` &mdash; priority to run function Default: 0 PLEASE USE POSITIVE PRIORITIES. If you need to slip something between existing reset code, be mindful of where you plugin your reset code. Take a look at the reset functions below for the correct placement.
 
 
----### def start()
+---
+
+### def start()
 
 Reset code that should always be first
 
@@ -26,7 +30,9 @@ Reset code that should always be first
 - `@ch30_reset(-980)`
 
 
----### def xp()
+---
+
+### def xp()
 
 Runs reset code specific for xp stuff
 
@@ -34,7 +40,9 @@ Runs reset code specific for xp stuff
 - `@ch30_reset(-960)`
 
 
----### def name_eggs()
+---
+
+### def name_eggs()
 
 Runs reset code specific for name eggs
 
@@ -42,7 +50,9 @@ Runs reset code specific for name eggs
 - `@ch30_reset(-940)`
 
 
----### def topic_lists()
+---
+
+### def topic_lists()
 
 Runs reset code specific for topic lists
 
@@ -50,7 +60,9 @@ Runs reset code specific for topic lists
 - `@ch30_reset(-920)`
 
 
----### def rpy_file_check()
+---
+
+### def rpy_file_check()
 
 Runs reset code specific for the rpy file check
 
@@ -58,7 +70,9 @@ Runs reset code specific for the rpy file check
 - `@ch30_reset(-900)`
 
 
----### def games()
+---
+
+### def games()
 
 Runs reset code specific for games
 
@@ -66,7 +80,9 @@ Runs reset code specific for games
 - `@ch30_reset(-880)`
 
 
----### def sprites()
+---
+
+### def sprites()
 
 Runs reset code for sprites
 
@@ -74,7 +90,9 @@ Runs reset code for sprites
 - `@ch30_reset(-860)`
 
 
----### def random_chatter()
+---
+
+### def random_chatter()
 
 Runs reset code for random chatter
 
@@ -82,7 +100,9 @@ Runs reset code for random chatter
 - `@ch30_reset(-840)`
 
 
----### def returned_home()
+---
+
+### def returned_home()
 
 Runs reset code for returned home
 
@@ -90,7 +110,9 @@ Runs reset code for returned home
 - `@ch30_reset(-820)`
 
 
----### def playtime()
+---
+
+### def playtime()
 
 Runs reset code for playtime
 
@@ -98,7 +120,9 @@ Runs reset code for playtime
 - `@ch30_reset(-800)`
 
 
----### def affection()
+---
+
+### def affection()
 
 Runs reset code for affection
 
@@ -106,7 +130,9 @@ Runs reset code for affection
 - `@ch30_reset(-780)`
 
 
----### def deco()
+---
+
+### def deco()
 
 Runs reset code for deco
 
@@ -114,7 +140,9 @@ Runs reset code for deco
 - `@ch30_reset(-760)`
 
 
----### def farewells()
+---
+
+### def farewells()
 
 Runs reset code for farewells
 
@@ -122,7 +150,9 @@ Runs reset code for farewells
 - `@ch30_reset(-740)`
 
 
----### def file_reactions()
+---
+
+### def file_reactions()
 
 Runs reset code for file reactions
 
@@ -130,7 +160,9 @@ Runs reset code for file reactions
 - `@ch30_reset(-720)`
 
 
----### def events()
+---
+
+### def events()
 
 Runs reset code for general events + events list stuff
 
@@ -138,7 +170,9 @@ Runs reset code for general events + events list stuff
 - `@ch30_reset(-700)`
 
 
----### def songs()
+---
+
+### def songs()
 
 Runs reset code for songs
 
@@ -146,7 +180,9 @@ Runs reset code for songs
 - `@ch30_reset(-680)`
 
 
----### def holidays()
+---
+
+### def holidays()
 
 Runs reset code for holidays that do not fall under the other categories.
 
@@ -154,7 +190,9 @@ Runs reset code for holidays that do not fall under the other categories.
 - `@ch30_reset(-660)`
 
 
----### def backgrounds()
+---
+
+### def backgrounds()
 
 Runs reset code for backgrounds
 
@@ -162,7 +200,9 @@ Runs reset code for backgrounds
 - `@ch30_reset(-640)`
 
 
----### def window_reactions()
+---
+
+### def window_reactions()
 
 Runs reset code for window reactions
 
@@ -170,7 +210,9 @@ Runs reset code for window reactions
 - `@ch30_reset(-620)`
 
 
----### def islands()
+---
+
+### def islands()
 
 Runs reset code for islands
 
@@ -178,7 +220,9 @@ Runs reset code for islands
 - `@ch30_reset(-600)`
 
 
----### def bath_cleanup()
+---
+
+### def bath_cleanup()
 
 Cleanup code for bath stuff
 
@@ -186,7 +230,9 @@ Cleanup code for bath stuff
 - `@ch30_reset(-580)`
 
 
----### def chr_removal()
+---
+
+### def chr_removal()
 
 Remove .chr files in the characters folder
 
@@ -194,7 +240,9 @@ Remove .chr files in the characters folder
 - `@ch30_reset(-560)`
 
 
----### def backups()
+---
+
+### def backups()
 
 Runs reset for backup code
 
@@ -202,11 +250,15 @@ Runs reset for backup code
 - `@ch30_reset(-560)`
 
 
----### def final()
+---
+
+### def final()
 
 Runs reset code that should run after everythign else
 
----### def start()
+---
+
+### def start()
 
 Reset code that should always be first
 
@@ -214,7 +266,9 @@ Reset code that should always be first
 - `@ch30_reset(-980)`
 
 
----### def xp()
+---
+
+### def xp()
 
 Runs reset code specific for xp stuff
 
@@ -222,7 +276,9 @@ Runs reset code specific for xp stuff
 - `@ch30_reset(-960)`
 
 
----### def name_eggs()
+---
+
+### def name_eggs()
 
 Runs reset code specific for name eggs
 
@@ -230,7 +286,9 @@ Runs reset code specific for name eggs
 - `@ch30_reset(-940)`
 
 
----### def topic_lists()
+---
+
+### def topic_lists()
 
 Runs reset code specific for topic lists
 
@@ -238,7 +296,9 @@ Runs reset code specific for topic lists
 - `@ch30_reset(-920)`
 
 
----### def rpy_file_check()
+---
+
+### def rpy_file_check()
 
 Runs reset code specific for the rpy file check
 
@@ -246,7 +306,9 @@ Runs reset code specific for the rpy file check
 - `@ch30_reset(-900)`
 
 
----### def games()
+---
+
+### def games()
 
 Runs reset code specific for games
 
@@ -254,7 +316,9 @@ Runs reset code specific for games
 - `@ch30_reset(-880)`
 
 
----### def sprites()
+---
+
+### def sprites()
 
 Runs reset code for sprites
 
@@ -262,7 +326,9 @@ Runs reset code for sprites
 - `@ch30_reset(-860)`
 
 
----### def random_chatter()
+---
+
+### def random_chatter()
 
 Runs reset code for random chatter
 
@@ -270,7 +336,9 @@ Runs reset code for random chatter
 - `@ch30_reset(-840)`
 
 
----### def returned_home()
+---
+
+### def returned_home()
 
 Runs reset code for returned home
 
@@ -278,7 +346,9 @@ Runs reset code for returned home
 - `@ch30_reset(-820)`
 
 
----### def playtime()
+---
+
+### def playtime()
 
 Runs reset code for playtime
 
@@ -286,7 +356,9 @@ Runs reset code for playtime
 - `@ch30_reset(-800)`
 
 
----### def affection()
+---
+
+### def affection()
 
 Runs reset code for affection
 
@@ -294,7 +366,9 @@ Runs reset code for affection
 - `@ch30_reset(-780)`
 
 
----### def deco()
+---
+
+### def deco()
 
 Runs reset code for deco
 
@@ -302,7 +376,9 @@ Runs reset code for deco
 - `@ch30_reset(-760)`
 
 
----### def farewells()
+---
+
+### def farewells()
 
 Runs reset code for farewells
 
@@ -310,7 +386,9 @@ Runs reset code for farewells
 - `@ch30_reset(-740)`
 
 
----### def file_reactions()
+---
+
+### def file_reactions()
 
 Runs reset code for file reactions
 
@@ -318,7 +396,9 @@ Runs reset code for file reactions
 - `@ch30_reset(-720)`
 
 
----### def events()
+---
+
+### def events()
 
 Runs reset code for general events + events list stuff
 
@@ -326,7 +406,9 @@ Runs reset code for general events + events list stuff
 - `@ch30_reset(-700)`
 
 
----### def songs()
+---
+
+### def songs()
 
 Runs reset code for songs
 
@@ -334,7 +416,9 @@ Runs reset code for songs
 - `@ch30_reset(-680)`
 
 
----### def holidays()
+---
+
+### def holidays()
 
 Runs reset code for holidays that do not fall under the other categories.
 
@@ -342,7 +426,9 @@ Runs reset code for holidays that do not fall under the other categories.
 - `@ch30_reset(-660)`
 
 
----### def backgrounds()
+---
+
+### def backgrounds()
 
 Runs reset code for backgrounds
 
@@ -350,7 +436,9 @@ Runs reset code for backgrounds
 - `@ch30_reset(-640)`
 
 
----### def window_reactions()
+---
+
+### def window_reactions()
 
 Runs reset code for window reactions
 
@@ -358,7 +446,9 @@ Runs reset code for window reactions
 - `@ch30_reset(-620)`
 
 
----### def islands()
+---
+
+### def islands()
 
 Runs reset code for islands
 
@@ -366,7 +456,9 @@ Runs reset code for islands
 - `@ch30_reset(-600)`
 
 
----### def bath_cleanup()
+---
+
+### def bath_cleanup()
 
 Cleanup code for bath stuff
 
@@ -374,7 +466,9 @@ Cleanup code for bath stuff
 - `@ch30_reset(-580)`
 
 
----### def chr_removal()
+---
+
+### def chr_removal()
 
 Remove .chr files in the characters folder
 
@@ -382,7 +476,9 @@ Remove .chr files in the characters folder
 - `@ch30_reset(-560)`
 
 
----### def backups()
+---
+
+### def backups()
 
 Runs reset for backup code
 
@@ -390,11 +486,15 @@ Runs reset for backup code
 - `@ch30_reset(-560)`
 
 
----### def final()
+---
+
+### def final()
 
 Runs reset code that should run after everythign else
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -403,48 +503,71 @@ Runs reset code that should run after everythign else
 
 Runs reset code for initializing sprites
 
----#### def _sprites_fixes()
+---
+
+#### def _sprites_fixes()
 
 Runs reset code for fixing sprite issues
 
----#### def _sprites_setup()
+---
+
+#### def _sprites_setup()
 
 Runs other sprite setup that is not init or fixes
 
----#### def _deco_bday()
+---
+
+#### def _deco_bday()
 
 Runs reset code for bday deco
 
----#### def _deco_d25()
+---
+
+#### def _deco_d25()
 
 Runs reset code for d25 deco
 
----#### def _deco_o31()
+---
 
-Runs reset code for o31 deco
-
----#### def _sprites_init()
-
-Runs reset code for initializing sprites
-
----#### def _sprites_fixes()
-
-Runs reset code for fixing sprite issues
-
----#### def _sprites_setup()
-
-Runs other sprite setup that is not init or fixes
-
----#### def _deco_bday()
-
-Runs reset code for bday deco
-
----#### def _deco_d25()
-
-Runs reset code for d25 deco
-
----#### def _deco_o31()
+#### def _deco_o31()
 
 Runs reset code for o31 deco
 
 ---
+
+#### def _sprites_init()
+
+Runs reset code for initializing sprites
+
+---
+
+#### def _sprites_fixes()
+
+Runs reset code for fixing sprite issues
+
+---
+
+#### def _sprites_setup()
+
+Runs other sprite setup that is not init or fixes
+
+---
+
+#### def _deco_bday()
+
+Runs reset code for bday deco
+
+---
+
+#### def _deco_d25()
+
+Runs reset code for d25 deco
+
+---
+
+#### def _deco_o31()
+
+Runs reset code for o31 deco
+
+---
+

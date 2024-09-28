@@ -7,19 +7,27 @@ Does a deepcopy of the words for the given mode.  Sets the hm_words dict for tha
 **Returns:**<br>
 the copied list of words. This is the same reference as hm_words's list. (empty list if mode is invalid)
 
----### def buildEasyList()
+---
+
+### def buildEasyList()
 
 Builds the easy word list  Sets hm_words and all_hm_words appropritaley
 
----### def buildNormalList()
+---
+
+### def buildNormalList()
 
 Builds the normal word list  Sets hm_words and all_hm_words appropraitely
 
----### def buildHardList()
+---
+
+### def buildHardList()
 
 Builds the hard word list  Sets hm_words and all_hm_words appropraitely
 
----### def addPlayername(_mode)
+---
+
+### def addPlayername(_mode)
 
 Adds playername to the given mode if appropriate
 
@@ -27,7 +35,9 @@ Adds playername to the given mode if appropriate
 - `_mode` &mdash; mode to add playername to
 
 
----### def removePlayername(_mode)
+---
+
+### def removePlayername(_mode)
 
 Removes the playername from the given mode if found
 
@@ -35,7 +45,9 @@ Removes the playername from the given mode if found
 - `_mode` &mdash; mode to remove in
 
 
----### def randomSelect(_mode)
+---
+
+### def randomSelect(_mode)
 
 Randomly selects and pulls a word from the hm_words, given the mode  Will refill the words list if it is empty
 
@@ -46,7 +58,9 @@ Randomly selects and pulls a word from the hm_words, given the mode  Will refill
 **Returns:**<br>
 tuple of the following format: [0]: word [1]: winner (for hint)
 
----### def wordToDisplay(word)
+---
+
+### def wordToDisplay(word)
 
 Formats a word so it can be displayed in hangman
 
@@ -57,26 +71,36 @@ Formats a word so it can be displayed in hangman
 **Returns:**<br>
 display word
 
----### def copyWordsList(_mode)
+---
+
+### def copyWordsList(_mode)
 
 Does a deepcopy of the words for the given mode.  Sets the hm_words dict for that mode
 
 **Returns:**<br>
 the copied list of words. This is the same reference as hm_words's list. (empty list if mode is invalid)
 
----### def buildEasyList()
+---
+
+### def buildEasyList()
 
 Builds the easy word list  Sets hm_words and all_hm_words appropritaley
 
----### def buildNormalList()
+---
+
+### def buildNormalList()
 
 Builds the normal word list  Sets hm_words and all_hm_words appropraitely
 
----### def buildHardList()
+---
+
+### def buildHardList()
 
 Builds the hard word list  Sets hm_words and all_hm_words appropraitely
 
----### def addPlayername(_mode)
+---
+
+### def addPlayername(_mode)
 
 Adds playername to the given mode if appropriate
 
@@ -84,7 +108,9 @@ Adds playername to the given mode if appropriate
 - `_mode` &mdash; mode to add playername to
 
 
----### def removePlayername(_mode)
+---
+
+### def removePlayername(_mode)
 
 Removes the playername from the given mode if found
 
@@ -92,7 +118,9 @@ Removes the playername from the given mode if found
 - `_mode` &mdash; mode to remove in
 
 
----### def randomSelect(_mode)
+---
+
+### def randomSelect(_mode)
 
 Randomly selects and pulls a word from the hm_words, given the mode  Will refill the words list if it is empty
 
@@ -103,7 +131,9 @@ Randomly selects and pulls a word from the hm_words, given the mode  Will refill
 **Returns:**<br>
 tuple of the following format: [0]: word [1]: winner (for hint)
 
----### def wordToDisplay(word)
+---
+
+### def wordToDisplay(word)
 
 Formats a word so it can be displayed in hangman
 
@@ -114,25 +144,18 @@ Formats a word so it can be displayed in hangman
 **Returns:**<br>
 display word
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
 #### def _add_monika_words(wordlist)
 
----#### def _buildWordList(filepath, _mode)
+---
 
-Builds a list of words given the filepath and mode
-
-**Parameters:**
-- `filepath` &mdash; filepath of words to load in
-- `_mode` &mdash; mode to build word list for
-
-
----#### def _add_monika_words(wordlist)
-
----#### def _buildWordList(filepath, _mode)
+#### def _buildWordList(filepath, _mode)
 
 Builds a list of words given the filepath and mode
 
@@ -142,3 +165,19 @@ Builds a list of words given the filepath and mode
 
 
 ---
+
+#### def _add_monika_words(wordlist)
+
+---
+
+#### def _buildWordList(filepath, _mode)
+
+Builds a list of words given the filepath and mode
+
+**Parameters:**
+- `filepath` &mdash; filepath of words to load in
+- `_mode` &mdash; mode to build word list for
+
+
+---
+

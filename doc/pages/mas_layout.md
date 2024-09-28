@@ -12,15 +12,21 @@ Finds first non-None quit message we need  This uses the cascade map from affect
 **Returns:**<br>
 first non-None quit message found.
 
----### def set_quit_msg(quit_msg=None, quit_yes=None, quit_no=None)
+---
+
+### def set_quit_msg(quit_msg=None, quit_yes=None, quit_no=None)
 
 Sets text for the quit dialogue box  For documentation, see mas_setQuitMsg
 
----### def setupQuits()
+---
+
+### def setupQuits()
 
 Sets up quit message based on the current affection state
 
----### def findMsg(start_aff, index)
+---
+
+### def findMsg(start_aff, index)
 
 Finds first non-None quit message we need  This uses the cascade map from affection
 
@@ -32,15 +38,21 @@ Finds first non-None quit message we need  This uses the cascade map from affect
 **Returns:**<br>
 first non-None quit message found.
 
----### def set_quit_msg(quit_msg=None, quit_yes=None, quit_no=None)
+---
+
+### def set_quit_msg(quit_msg=None, quit_yes=None, quit_no=None)
 
 Sets text for the quit dialogue box  For documentation, see mas_setQuitMsg
 
----### def setupQuits()
+---
+
+### def setupQuits()
 
 Sets up quit message based on the current affection state
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

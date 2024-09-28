@@ -9,23 +9,33 @@ Label override function
 - `override_label` &mdash; the label to override with
 
 
----### def mas_getSessionLength()
+---
+
+### def mas_getSessionLength()
 
 Gets length of current session, IF this cannot be determined, a time delta of 0 is returned
 
----### def mas_getAbsenceLength()
+---
+
+### def mas_getAbsenceLength()
 
 Gets time diff between current session start and last session end aka the diff between last session and this if not found, time delta of 0 is returned
 
----### def mas_getCurrSeshStart()
+---
+
+### def mas_getCurrSeshStart()
 
 Returns the current session start datetime If there is None, we use first session
 
----### def mas_getFirstSesh()
+---
+
+### def mas_getFirstSesh()
 
 Returns the first session datetime.  If we could not get it, datetime.datetime.now() is returnd
 
----### def mas_isFirstSeshPast(_date)
+---
+
+### def mas_isFirstSeshPast(_date)
 
 Checks if the first session is past the given date
 
@@ -36,33 +46,45 @@ Checks if the first session is past the given date
 **Returns:**<br>
 boolean: - True if first sesh is past given date - False otherwise
 
----### def mas_getLastSeshEnd()
+---
+
+### def mas_getLastSeshEnd()
 
 Returns datetime of the last session
 
----### def mas_getTotalPlaytime()
+---
+
+### def mas_getTotalPlaytime()
 
 Gets total playtime.
 
 **Returns:**<br>
 total playtime as a timedelta. If not found, we return a time delta of 0
 
----### def mas_getTotalSessions()
+---
+
+### def mas_getTotalSessions()
 
 Gets total sessions  REUTRNS: total number of sessions. If not found, we return 1
 
----### def mas_TTDetected()
+---
+
+### def mas_TTDetected()
 
 Checks if time travel was detected
 
----### def mas_getWindowTitle()
+---
+
+### def mas_getWindowTitle()
 
 Returns current windows title set by RenPy
 
 **Returns:**<br>
 str
 
----### def mas_getAPIKey(feature)
+---
+
+### def mas_getAPIKey(feature)
 
 gets the API key for a feature
 
@@ -73,7 +95,9 @@ gets the API key for a feature
 **Returns:**<br>
 the api key, as a string. Will be null string if no key found
 
----### def mas_hasAPIKey(feature)
+---
+
+### def mas_hasAPIKey(feature)
 
 Checks if a feature has an API key
 
@@ -84,7 +108,9 @@ Checks if a feature has an API key
 **Returns:**<br>
 true if the feature has an API key, false otherwise
 
----### def mas_registerAPIKey(feature, display_name, on_change=None)
+---
+
+### def mas_registerAPIKey(feature, display_name, on_change=None)
 
 Registers a feature that accepts an API key. Features are NOT registered if they already exist.  Can run a function when the api key is changed. This function should return a tuple: [0] - True if the key is valid, False if not [1] - optional error message to show The return value is primarily for setting a key. If no return value is provided, the key is assumed valid. The API key is passed in as the first param. The key will be a null string if the key is being cleared.
 
@@ -97,11 +123,15 @@ Registers a feature that accepts an API key. Features are NOT registered if they
 **Returns:**<br>
 True if the feature was added, False if not.
 
----### def mas_cleanBadUpdateFiles()
+---
+
+### def mas_cleanBadUpdateFiles()
 
 Moves any file with the '.new' extension to the correct file
 
----### def mas_removeDelayedAction(_id)
+---
+
+### def mas_removeDelayedAction(_id)
 
 Removes a delayed action with the given ID
 
@@ -109,7 +139,9 @@ Removes a delayed action with the given ID
 - `_id` &mdash; id of the delayed action to remove
 
 
----### def mas_removeDelayedActions_list(_ids)
+---
+
+### def mas_removeDelayedActions_list(_ids)
 
 Removes a list of delayed actions with given Ids
 
@@ -117,11 +149,15 @@ Removes a list of delayed actions with given Ids
 - `_ids` &mdash; list of Ids to remove
 
 
----### def mas_removeDelayedActions()
+---
+
+### def mas_removeDelayedActions()
 
 Multiple argument delayed action removal  Assumes all given args are IDS
 
----### def mas_runDelayedActions(flow)
+---
+
+### def mas_runDelayedActions(flow)
 
 Attempts to run currently held delayed actions for the given flow mode  Delayed actions that are successfully completed are removed from the list
 
@@ -129,7 +165,9 @@ Attempts to run currently held delayed actions for the given flow mode  Delayed 
 - `flow` &mdash; FC constant for the current flow
 
 
----### def mas_addDelayedAction(_id)
+---
+
+### def mas_addDelayedAction(_id)
 
 Creates a delayed action with the given ID and adds it to the delayed action map (runtime)
 
@@ -137,7 +175,9 @@ Creates a delayed action with the given ID and adds it to the delayed action map
 - `_id` &mdash; id of the delayed action to create
 
 
----### def mas_addDelayedActions_list(_ids)
+---
+
+### def mas_addDelayedActions_list(_ids)
 
 Creates delayed actions given a list of Ids
 
@@ -145,11 +185,15 @@ Creates delayed actions given a list of Ids
 - `_ids` &mdash; list of IDS to add
 
 
----### def mas_addDelayedActions()
+---
+
+### def mas_addDelayedActions()
 
 Creates delayed actions given ids as args  assumes each arg is a valid id
 
----### def mas_HistLookup(key, year)
+---
+
+### def mas_HistLookup(key, year)
 
 Looks up data in the historical archives.
 
@@ -161,7 +205,9 @@ Looks up data in the historical archives.
 **Returns:**<br>
 a tuple of the following format: [0]: mas_history lookup constant [1]: retrieved data (which may be None). This is always None if we could not find year or key
 
----### def mas_HistLookup_all(key)
+---
+
+### def mas_HistLookup_all(key)
 
 Looks up all historical data for a specific key.
 
@@ -172,7 +218,9 @@ Looks up all historical data for a specific key.
 **Returns:**<br>
 dictionary of the following format: year: data tuple from mas_HistLookup
 
----### def mas_HistLookup_k(year)
+---
+
+### def mas_HistLookup_k(year)
 
 Looks up data in the historical archives
 
@@ -184,7 +232,9 @@ Looks up data in the historical archives
 **Returns:**<br>
 same as mas_HistLookup
 
----### def mas_HistLookup_ot(key)
+---
+
+### def mas_HistLookup_ot(key)
 
 Looks up data overtime in the historical archives.
 
@@ -196,7 +246,9 @@ Looks up data overtime in the historical archives.
 **Returns:**<br>
 dict of the following format: year: data tuple from mas_HistLookup
 
----### def mas_HistLookup_otl(key, years_list)
+---
+
+### def mas_HistLookup_otl(key, years_list)
 
 Looks up data overtime in the historical archives.
 
@@ -208,7 +260,9 @@ Looks up data overtime in the historical archives.
 **Returns:**<br>
 dict of the following format: year: data tuple from mas_HistLookup
 
----### def mas_HistLookup_otl_k(years_list)
+---
+
+### def mas_HistLookup_otl_k(years_list)
 
 Looks up data overtime in the historical archives
 
@@ -219,7 +273,9 @@ Looks up data overtime in the historical archives
 **Returns:**<br>
 See mas_HistLookup_otl
 
----### def mas_HistVerify(key, _verify)
+---
+
+### def mas_HistVerify(key, _verify)
 
 Verifies if data at the given key matches the verification value.
 
@@ -232,7 +288,9 @@ Verifies if data at the given key matches the verification value.
 **Returns:**<br>
 tuple of the following format: [0]: true/False if we found data that matched the verification [1]: list of years that matched the verification
 
----### def mas_HistVerify_k(years_list, _verify)
+---
+
+### def mas_HistVerify_k(years_list, _verify)
 
 Verifies if data at the given key matches the verification value.
 
@@ -244,7 +302,9 @@ Verifies if data at the given key matches the verification value.
 **Returns:**<br>
 see mas_HistVerify
 
----### def mas_HistWasFirstValueIn(_verify, year)
+---
+
+### def mas_HistWasFirstValueIn(_verify, year)
 
 Checks if the first year that _verify was found for the keys provided in history matches the year provided
 
@@ -256,7 +316,9 @@ Checks if the first year that _verify was found for the keys provided in history
 **Returns:**<br>
 boolean: - True if the first year matches the year provided - False otherwise
 
----### def mas_HistGetFirstYearOfValue(_verify)
+---
+
+### def mas_HistGetFirstYearOfValue(_verify)
 
 Gets the first year which has the entry of _verify in the keys provided
 
@@ -267,7 +329,9 @@ Gets the first year which has the entry of _verify in the keys provided
 **Returns:**<br>
 If there's a point where the value we're checking for is found, we return the first year that is met. If not found, we return None
 
----### def mas_HistVerifyAll_k(_verify)
+---
+
+### def mas_HistVerifyAll_k(_verify)
 
 Checks if the value of _verify for the keys is in history at any point
 
@@ -278,7 +342,9 @@ Checks if the value of _verify for the keys is in history at any point
 **Returns:**<br>
 boolean: - True if _verify is in the key built by the provided pieces at all - False otherwise
 
----### def mas_HistVerifyLastYear_k(_verify)
+---
+
+### def mas_HistVerifyLastYear_k(_verify)
 
 Checks history for the value of _verify in the key provided last year
 
@@ -289,19 +355,29 @@ Checks history for the value of _verify in the key provided last year
 **Returns:**<br>
 boolean: - True if _verify is in the key built by the provided pieces last year - False otherwise
 
----### def mas_d25SeasonExit_PP(mhs)
+---
+
+### def mas_d25SeasonExit_PP(mhs)
 
 Sets a flag to run the D25 exit PP
 
----### def is_file_present(filename)
+---
+
+### def is_file_present(filename)
 
 DEPRECIATED  Use mas_utils.is_file_present instead
 
----### def dev_mas_unlock_all_sprites()
+---
 
----### def dev_mas_clear_spritegift(giftname)
+### def dev_mas_unlock_all_sprites()
 
----### def mas_isCurrentFlt(flt)
+---
+
+### def dev_mas_clear_spritegift(giftname)
+
+---
+
+### def mas_isCurrentFlt(flt)
 
 Checks if the given filter is the current filter.
 
@@ -312,7 +388,9 @@ Checks if the given filter is the current filter.
 **Returns:**<br>
 True if flt is the current filter, false if not
 
----### def MASWeather(weather_id, prompt, sp_day, sp_night=None, precip_type=store.mas_weather.PRECIP_TYPE_DEF, isbg_wf_day=None, isbg_wof_day=None, isbg_wf_night=None, isbg_wof_night=None, entry_pp=None, exit_pp=None, unlocked=False)
+---
+
+### def MASWeather(weather_id, prompt, sp_day, sp_night=None, precip_type=store.mas_weather.PRECIP_TYPE_DEF, isbg_wf_day=None, isbg_wof_day=None, isbg_wf_night=None, isbg_wof_night=None, entry_pp=None, exit_pp=None, unlocked=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -342,7 +420,9 @@ DEPRECATED Old-style MASWeather objects. This is mapped to a MASFilterableWeathe
 **Returns:**<br>
 MASFitlerableWeather object
 
----### def mas_showDecoTag(tag, show_now=False)
+---
+
+### def mas_showDecoTag(tag, show_now=False)
 
 Shows a decoration object that is an image tag.
 
@@ -351,7 +431,9 @@ Shows a decoration object that is an image tag.
 - `show_now` &mdash; set to True to show immediately (Deafult: False)
 
 
----### def mas_hideDecoTag(tag, hide_now=False)
+---
+
+### def mas_hideDecoTag(tag, hide_now=False)
 
 Hides a decoration object that is an image tag
 
@@ -360,7 +442,9 @@ Hides a decoration object that is an image tag
 - `hide_now` &mdash; set to True to hide immediately (Default: False)
 
 
----### def mas_isDecoTagEnabled(tag)
+---
+
+### def mas_isDecoTagEnabled(tag)
 
 Checks if the given deco tag is in the vis store, which means its slated to be visible if it can be.
 
@@ -371,7 +455,9 @@ Checks if the given deco tag is in the vis store, which means its slated to be v
 **Returns:**<br>
 True if the deco is slated to be visible, False if not
 
----### def mas_isDecoTagVisible(tag)
+---
+
+### def mas_isDecoTagVisible(tag)
 
 Checks if this deco is showing - as in the image associated with this tag is being rendered (including replace tag depending on bg)
 
@@ -382,13 +468,19 @@ Checks if this deco is showing - as in the image associated with this tag is bei
 **Returns:**<br>
 True if the deco is being shown, false if not
 
----### def mas_player_bday_curr(_date=None)
+---
+
+### def mas_player_bday_curr(_date=None)
 
 sets date of current year bday, accounting for leap years
 
----### def mas_isA01(_date=None)
+---
 
----### def mas_isO31(_date=None)
+### def mas_isA01(_date=None)
+
+---
+
+### def mas_isO31(_date=None)
 
 Returns True if the given date is o31
 
@@ -399,38 +491,54 @@ Returns True if the given date is o31
 **Returns:**<br>
 True if given date is o31, False otherwise
 
----### def mas_o31ShowVisuals()
+---
+
+### def mas_o31ShowVisuals()
 
 Shows o31 visuals
 
----### def mas_o31HideVisuals()
+---
+
+### def mas_o31HideVisuals()
 
 Hides o31 visuals + vignette
 
----### def mas_o31ShowSpriteObjects()
+---
+
+### def mas_o31ShowSpriteObjects()
 
 Shows o31 specific sprite objects
 
----### def mas_o31HideSpriteObjects()
+---
+
+### def mas_o31HideSpriteObjects()
 
 Hides o31 specific sprite objects
 
----### def mas_hasO31DeskAcs()
+---
+
+### def mas_hasO31DeskAcs()
 
 Checks if we have any o31 desk acs
 
 **Returns:**<br>
 boolean
 
----### def mas_o31HideDeskAcs()
+---
+
+### def mas_o31HideDeskAcs()
 
 Removes o31 desk acs
 
----### def mas_o31CapGainAff(amount)
+---
+
+### def mas_o31CapGainAff(amount)
 
 CapGainAffection function for o31. See mas_capGainAff for details
 
----### def mas_o31CostumeWorn(clothes)
+---
+
+### def mas_o31CostumeWorn(clothes)
 
 Checks if the given clothes was worn on o31
 
@@ -441,7 +549,9 @@ Checks if the given clothes was worn on o31
 **Returns:**<br>
 year the given clothe was worn if worn on o31, None if never worn on o31.
 
----### def mas_o31CostumeWorn_n(clothes_name)
+---
+
+### def mas_o31CostumeWorn_n(clothes_name)
 
 Checks if the given clothes (name) was worn on o31
 
@@ -452,7 +562,9 @@ Checks if the given clothes (name) was worn on o31
 **Returns:**<br>
 year the given clothes name was worn if worn on o31, none if never worn on o31.
 
----### def mas_o31SelectCostume(selection_pool=None)
+---
+
+### def mas_o31SelectCostume(selection_pool=None)
 
 Selects an o31 costume to wear. Costumes that have not been worn before are selected first.
 
@@ -463,7 +575,9 @@ Selects an o31 costume to wear. Costumes that have not been worn before are sele
 **Returns:**<br>
 a single MASClothes object of what to wear. None if cannot return anything.
 
----### def mas_o31SetCostumeWorn(clothes, year=None)
+---
+
+### def mas_o31SetCostumeWorn(clothes, year=None)
 
 Sets that a clothing item is worn. Exprop checking is done
 
@@ -472,7 +586,9 @@ Sets that a clothing item is worn. Exprop checking is done
 - `year` &mdash; year that the costume was worn. If NOne, we use current year
 
 
----### def mas_o31SetCostumeWorn_n(clothes_name, year=None)
+---
+
+### def mas_o31SetCostumeWorn_n(clothes_name, year=None)
 
 Sets that a clothing name is worn. NO EXPROP CHECKING IS DONE
 
@@ -481,11 +597,15 @@ Sets that a clothing name is worn. NO EXPROP CHECKING IS DONE
 - `year` &mdash; year that the costume was worn. If None, we use current year
 
 
----### def mas_o31Cleanup()
+---
+
+### def mas_o31Cleanup()
 
 Cleanup function for o31
 
----### def mas_isD25(_date=None)
+---
+
+### def mas_isD25(_date=None)
 
 Returns True if the given date is d25
 
@@ -496,7 +616,9 @@ Returns True if the given date is d25
 **Returns:**<br>
 True if given date is d25, False otherwise
 
----### def mas_isD25Eve(_date=None)
+---
+
+### def mas_isD25Eve(_date=None)
 
 Returns True if the given date is d25 eve
 
@@ -507,7 +629,9 @@ Returns True if the given date is d25 eve
 **Returns:**<br>
 True if given date is d25 eve, False otherwise
 
----### def mas_isD25Season(_date=None)
+---
+
+### def mas_isD25Season(_date=None)
 
 Returns True if the given date is in d25 season. The season goes from dec 11 to jan 5.
 
@@ -518,7 +642,9 @@ Returns True if the given date is in d25 season. The season goes from dec 11 to 
 **Returns:**<br>
 True if given date is in d25 season, False otherwise
 
----### def mas_isD25Post(_date=None)
+---
+
+### def mas_isD25Post(_date=None)
 
 Returns True if the given date is after d25 but still in D25 season. The season goes from dec 1 to jan 5.
 
@@ -529,7 +655,9 @@ Returns True if the given date is after d25 but still in D25 season. The season 
 **Returns:**<br>
 True if given date is in d25 season but after d25, False otherwise.
 
----### def mas_isD25PreNYE(_date=None)
+---
+
+### def mas_isD25PreNYE(_date=None)
 
 Returns True if the given date is in d25 season and before nye.
 
@@ -537,7 +665,9 @@ Returns True if the given date is in d25 season and before nye.
 - `_date` &mdash; date to check if None, we use today's date (Default: None)
 
 
----### def mas_isD25PostNYD(_date=None)
+---
+
+### def mas_isD25PostNYD(_date=None)
 
 Returns True if the given date is in d25 season and after nyd
 
@@ -548,7 +678,9 @@ Returns True if the given date is in d25 season and after nyd
 **Returns:**<br>
 True if given date is in d25 season but after nyd, False otherwise
 
----### def mas_isD25Outfit(_date=None)
+---
+
+### def mas_isD25Outfit(_date=None)
 
 Returns True if the given date is tn the range of days where Monika wears the santa outfit on start.
 
@@ -559,7 +691,9 @@ Returns True if the given date is tn the range of days where Monika wears the sa
 **Returns:**<br>
 True if given date is in the d25 santa outfit range, False otherwise
 
----### def mas_isD25Pre(_date=None)
+---
+
+### def mas_isD25Pre(_date=None)
 
 **Parameters:**
 - `_date` &mdash; date to check if None, we use today's date (Default: None)
@@ -568,7 +702,9 @@ True if given date is in the d25 santa outfit range, False otherwise
 **Returns:**<br>
 True if given date is in the D25 season, but before Christmas, False otherwise
 
----### def mas_isD25GiftHold(_date=None)
+---
+
+### def mas_isD25GiftHold(_date=None)
 
 **Parameters:**
 - `_date` &mdash; date to check, defaults None, which means today's date is assumed
@@ -577,23 +713,33 @@ True if given date is in the D25 season, but before Christmas, False otherwise
 **Returns:**<br>
 boolean - True if within d25c start, to d31 (end of nts range) (The time to hold onto gifts, aka not silently react)
 
----### def mas_d25ShowVisuals()
+---
+
+### def mas_d25ShowVisuals()
 
 Shows d25 visuals.
 
----### def mas_d25HideVisuals()
+---
+
+### def mas_d25HideVisuals()
 
 Hides d25 visuals
 
----### def mas_d25ReactToGifts()
+---
+
+### def mas_d25ReactToGifts()
 
 Goes thru the gifts stored from the d25 gift season and reacts to them  this also registeres gifts
 
----### def mas_d25SilentReactToGifts()
+---
+
+### def mas_d25SilentReactToGifts()
 
 Method to silently 'react' to gifts.  This is to be used if you gave Moni a christmas gift but didn't show up on D25 when she would have opened them in front of you.  This also registeres gifts
 
----### def mas_isNYE(_date=None)
+---
+
+### def mas_isNYE(_date=None)
 
 Returns True if the given date is new years eve
 
@@ -604,7 +750,9 @@ Returns True if the given date is new years eve
 **Returns:**<br>
 True if given date is new years eve, False otherwise
 
----### def mas_isNYD(_date=None)
+---
+
+### def mas_isNYD(_date=None)
 
 **Parameters:**
 - `_date` &mdash; date to check if None, we use today's date (Default: None)
@@ -613,7 +761,9 @@ True if given date is new years eve, False otherwise
 **Returns:**<br>
 True if the given date is new years day True if given date is new years day, False otherwise
 
----### def mas_isplayer_bday(_date=None, use_date_year=False)
+---
+
+### def mas_isplayer_bday(_date=None, use_date_year=False)
 
 **Parameters:**
 - `_date` &mdash; date to check If None, we use today's date (default: None)
@@ -623,19 +773,31 @@ True if the given date is new years day True if given date is new years day, Fal
 **Returns:**<br>
 True if given date is player_bday, False otherwise
 
----### def strip_mas_birthdate()
+---
+
+### def strip_mas_birthdate()
 
 strips mas_birthdate of its conditional and action to prevent double birthday sets
 
----### def mas_pbdayCapGainAff(amount)
+---
 
----### def mas_isF14(_date=None)
+### def mas_pbdayCapGainAff(amount)
 
----### def mas_f14CapGainAff(amount)
+---
 
----### def getCharacterImage(char, expression='1a')
+### def mas_isF14(_date=None)
 
----### def mas_getPropFromStyle(style_name, prop_name)
+---
+
+### def mas_f14CapGainAff(amount)
+
+---
+
+### def getCharacterImage(char, expression='1a')
+
+---
+
+### def mas_getPropFromStyle(style_name, prop_name)
 
 Retrieves a property from a style Recursively checks parent styles until the property is found.
 
@@ -647,7 +809,9 @@ Retrieves a property from a style Recursively checks parent styles until the pro
 **Returns:**<br>
 value of the propery if we can find it, None if not found
 
----### def mas_prefixFrame(frm, prefix)
+---
+
+### def mas_prefixFrame(frm, prefix)
 
 Generates a frame object with the given prefix substitued into the image. This effectively makes a copy of the given Frame object.
 
@@ -659,7 +823,9 @@ Generates a frame object with the given prefix substitued into the image. This e
 **Returns:**<br>
 Frame object, or None if failed to make it
 
----### def MASBackground(background_id, prompt, image_day, image_night, image_rain_day=None, image_rain_night=None, image_overcast_day=None, image_overcast_night=None, image_snow_day=None, image_snow_night=None, hide_calendar=False, hide_masks=False, disable_progressive=None, unlocked=False, entry_pp=None, exit_pp=None)
+---
+
+### def MASBackground(background_id, prompt, image_day, image_night, image_rain_day=None, image_rain_night=None, image_overcast_day=None, image_overcast_night=None, image_snow_day=None, image_snow_night=None, hide_calendar=False, hide_masks=False, disable_progressive=None, unlocked=False, entry_pp=None, exit_pp=None)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -693,9 +859,13 @@ DEPRECATED Old-style MASBackground objects. This is mapped to a MASFilterableBac
 **Returns:**<br>
 MASFilterableBackground object
 
----### def glitchWord(word, odds_space=ODDS_SPACE, odds_other=ODDS_OTHER)
+---
 
----### def mas_drawmonika(st, at, character, eyebrows, eyes, nose, mouth, lean=None, arms='steepling', eyebags=None, sweat=None, blush=None, tears=None, emote=None, head='', left='', right='', stock=True, single=None)
+### def glitchWord(word, odds_space=ODDS_SPACE, odds_other=ODDS_OTHER)
+
+---
+
+### def mas_drawmonika(st, at, character, eyebrows, eyes, nose, mouth, lean=None, arms='steepling', eyebags=None, sweat=None, blush=None, tears=None, emote=None, head='', left='', right='', stock=True, single=None)
 
 DEPRECATED This function has been gutted and only draws standing
 
@@ -721,7 +891,9 @@ DEPRECATED This function has been gutted and only draws standing
 - `single` &mdash; type of single standing image (standing) (Default: None)
 
 
----### def mas_fwm_select(st, at, mfwm)
+---
+
+### def mas_fwm_select(st, at, mfwm)
 
 Selects an image based on current filter and weather.
 
@@ -734,7 +906,9 @@ Selects an image based on current filter and weather.
 **Returns:**<br>
 dynamic disp output
 
----### def mas_fbf_select(st, at, mfmfb)
+---
+
+### def mas_fbf_select(st, at, mfmfb)
 
 Selects an image based on current filter, respecting fallback mechanics.
 
@@ -747,7 +921,9 @@ Selects an image based on current filter, respecting fallback mechanics.
 **Returns:**<br>
 dynamic disp output
 
----### def mas_drawmonika_rk(st, at, character, eyebrows, eyes, nose, mouth, lean=None, arms='steepling', eyebags=None, sweat=None, blush=None, tears=None, emote=None, head='a', left='1l', right='1r', stock=True, single=None)
+---
+
+### def mas_drawmonika_rk(st, at, character, eyebrows, eyes, nose, mouth, lean=None, arms='steepling', eyebags=None, sweat=None, blush=None, tears=None, emote=None, head='a', left='1l', right='1r', stock=True, single=None)
 
 Draws monika dynamically, using render keys See mas_drawmonika for more info.
 
@@ -773,7 +949,9 @@ Draws monika dynamically, using render keys See mas_drawmonika for more info.
 - `single` &mdash; type of single standing image (standing) (Default: None)
 
 
----### def mas_drawemptydesk_rk(st, at, character)
+---
+
+### def mas_drawemptydesk_rk(st, at, character)
 
 draws the table dynamically. includes ACS that should stay on desk.
 
@@ -783,7 +961,9 @@ draws the table dynamically. includes ACS that should stay on desk.
 - `character` &mdash; MASMonika character object
 
 
----### def mas_checkOverDate(_date)
+---
+
+### def mas_checkOverDate(_date)
 
 Checks if the player was gone over the given date entirely (taking you somewhere)
 
@@ -794,7 +974,9 @@ Checks if the player was gone over the given date entirely (taking you somewhere
 **Returns:**<br>
 True if the player and Monika were out together the whole day, False if not.
 
----### def mas_capGainAff(amount, aff_gained_var, normal_cap, pbday_cap=None)
+---
+
+### def mas_capGainAff(amount, aff_gained_var, normal_cap, pbday_cap=None)
 
 Gains affection according to the cap(s) defined
 
@@ -805,7 +987,9 @@ Gains affection according to the cap(s) defined
 - `pbday_cap` &mdash;  The cap to use when it's player bday (NOTE: if not provided, normal_cap is assumed)
 
 
----### def mas_hasSpecialOutfit(_date=None)
+---
+
+### def mas_hasSpecialOutfit(_date=None)
 
 Checks if the given date is a special event that has an outfit in the event clothes map
 
@@ -816,7 +1000,9 @@ Checks if the given date is a special event that has an outfit in the event clot
 **Returns:**<br>
 True if given date has a special outfit, False otherwise
 
----### def mas_isMonikaBirthday(_date=None)
+---
+
+### def mas_isMonikaBirthday(_date=None)
 
 checks if the given date is monikas birthday Comparison is done solely with month and day
 
@@ -824,7 +1010,9 @@ checks if the given date is monikas birthday Comparison is done solely with mont
 - `_date` &mdash; date to check. If not passed in, we use today.
 
 
----### def mas_isMonikaBirthday_dt(_datetime=None, extend_by=0)
+---
+
+### def mas_isMonikaBirthday_dt(_datetime=None, extend_by=0)
 
 checks if the given date is monikas birthday. Takes hours beyond the date into account via the `extend_by` param.
 
@@ -833,55 +1021,79 @@ checks if the given date is monikas birthday. Takes hours beyond the date into a
 - `extend_by` &mdash; hours we want to extend past 922 defaults to 0
 
 
----### def mas_getNextMonikaBirthday()
+---
 
----### def mas_recognizedBday(_date=None)
+### def mas_getNextMonikaBirthday()
+
+---
+
+### def mas_recognizedBday(_date=None)
 
 Checks if the user recognized monika's birthday at all.
 
 **Returns:**<br>
 True if the user recoginzed monika's birthday, False otherwise
 
----### def mas_surpriseBdayShowVisuals(cake=False)
+---
+
+### def mas_surpriseBdayShowVisuals(cake=False)
 
 Shows bday surprise party visuals
 
----### def mas_surpriseBdayHideVisuals(cake=False)
+---
+
+### def mas_surpriseBdayHideVisuals(cake=False)
 
 Hides all visuals for surprise party
 
----### def mas_confirmedParty()
+---
+
+### def mas_confirmedParty()
 
 Checks if the player has confirmed the party
 
----### def mas_mbdayCapGainAff(amount)
+---
 
----### def RigMouse()
+### def mas_mbdayCapGainAff(amount)
 
----### def FileActionMod(name, page=None)
+---
 
----### def get_procs()
+### def RigMouse()
+
+---
+
+### def FileActionMod(name, page=None)
+
+---
+
+### def get_procs()
 
 Retrieves list of processes running right now!  Only works for windows atm
 
 **Returns:**<br>
 list of running processes, or an empty list if we couldn't do that
 
----### def is_running(proc_list)
+---
+
+### def is_running(proc_list)
 
 Checks if a process in the given list is currently running.
 
 **Returns:**<br>
 True if a proccess in proc_list is running, False otherwise
 
----### def is_apology_present()
+---
+
+### def is_apology_present()
 
 Checks if the 'imsorry' file is in the characters folder.
 
 **Returns:**<br>
 True is apology is present, False otherwise
 
----### def mas_cvToHM(mins)
+---
+
+### def mas_cvToHM(mins)
 
 Converts the given minutes into hour / minutes
 
@@ -892,7 +1104,9 @@ Converts the given minutes into hour / minutes
 **Returns:**<br>
 tuple of the following format: [0] - hours [1] - minutes
 
----### def mas_isSTtoAny(_time, _suntime, _hour, _min)
+---
+
+### def mas_isSTtoAny(_time, _suntime, _hour, _min)
 
 Checks if the given time is within this range: _suntime <= _time < (_hour, _min)
 
@@ -906,7 +1120,9 @@ Checks if the given time is within this range: _suntime <= _time < (_hour, _min)
 **Returns:**<br>
 True if the given time is within bounds of the given suntime and given hour / mins, False otherwise
 
----### def mas_isSRtoAny(_time, _hour, _min=0)
+---
+
+### def mas_isSRtoAny(_time, _hour, _min=0)
 
 Checks if the given time is within Sunrise time to the given _hour and _minute
 
@@ -919,7 +1135,9 @@ Checks if the given time is within Sunrise time to the given _hour and _minute
 **Returns:**<br>
 True if the given time is whithin bounds of sunrise and the given hour / mins, False otherwise
 
----### def mas_isSStoAny(_time, _hour, _min=0)
+---
+
+### def mas_isSStoAny(_time, _hour, _min=0)
 
 Checks if the given time is within sunset to the given _hour and minute
 
@@ -932,7 +1150,9 @@ Checks if the given time is within sunset to the given _hour and minute
 **Returns:**<br>
 True if the given time is within bounds of sunset and the given hour/min, False otherwise
 
----### def mas_isMNtoAny(_time, _hour, _min=0)
+---
+
+### def mas_isMNtoAny(_time, _hour, _min=0)
 
 Checks if the given time is within midnight to the given hour/min.
 
@@ -945,7 +1165,9 @@ Checks if the given time is within midnight to the given hour/min.
 **Returns:**<br>
 True if the given time is within bounds of midnight and the given hour/min, False otherwise
 
----### def mas_isNtoAny(_time, _hour, _min=0)
+---
+
+### def mas_isNtoAny(_time, _hour, _min=0)
 
 Checks if the given time is within noon to the given hour/min.
 
@@ -958,7 +1180,9 @@ Checks if the given time is within noon to the given hour/min.
 **Returns:**<br>
 True if the given time is within bounds of noon and the given hour /min, False otherwise
 
----### def mas_isAnytoST(_time, _hour, _min, _suntime)
+---
+
+### def mas_isAnytoST(_time, _hour, _min, _suntime)
 
 Checks if the given time is within this range: (_hour, _min) <= _time < _suntime
 
@@ -972,7 +1196,9 @@ Checks if the given time is within this range: (_hour, _min) <= _time < _suntime
 **Returns:**<br>
 True if the given time is within bounds of the given hour / mins and the given suntime, false Otherwise
 
----### def mas_isAnytoSR(_time, _hour, _min=0)
+---
+
+### def mas_isAnytoSR(_time, _hour, _min=0)
 
 Checks if the given time is within a given hour and minute to sunrise time
 
@@ -985,7 +1211,9 @@ Checks if the given time is within a given hour and minute to sunrise time
 **Returns:**<br>
 True if the given time is within the bounds of the given hour/min and sunrise, False otherwise
 
----### def mas_isAnytoSS(_time, _hour, _min=0)
+---
+
+### def mas_isAnytoSS(_time, _hour, _min=0)
 
 Checks if the given time is within a given hour/min to sunset time
 
@@ -998,7 +1226,9 @@ Checks if the given time is within a given hour/min to sunset time
 **Returns:**<br>
 True if the given time is within the bounds of the given hour/min and sunset, False otherwise
 
----### def mas_isAnytoMN(_time, _hour, _min=0)
+---
+
+### def mas_isAnytoMN(_time, _hour, _min=0)
 
 Checks if the given time is within a given hour/min to midnight (next day)
 
@@ -1011,7 +1241,9 @@ Checks if the given time is within a given hour/min to midnight (next day)
 **Returns:**<br>
 True if the given time is within the bounds of the given hour/min and midnight, False otherwise
 
----### def mas_isAnytoN(_time, _hour, _min=0)
+---
+
+### def mas_isAnytoN(_time, _hour, _min=0)
 
 Checks if the given time is within a given hour/min to noon.
 
@@ -1024,7 +1256,9 @@ Checks if the given time is within a given hour/min to noon.
 **Returns:**<br>
 True if the given tim eis within the bounds of the given hour/min and Noon, False otherwise
 
----### def mas_isMNtoSR(_time)
+---
+
+### def mas_isMNtoSR(_time)
 
 Checks if the given time is within midnight to sunrise
 
@@ -1035,7 +1269,9 @@ Checks if the given time is within midnight to sunrise
 **Returns:**<br>
 True if the given time is within midnight to sunrise
 
----### def mas_isSRtoN(_time)
+---
+
+### def mas_isSRtoN(_time)
 
 Checks if the given time is within sunrise to noon
 
@@ -1046,7 +1282,9 @@ Checks if the given time is within sunrise to noon
 **Returns:**<br>
 True if the given time is witin sunrise to noon
 
----### def mas_isNtoSS(_time)
+---
+
+### def mas_isNtoSS(_time)
 
 Checks if the given time is within noon to sunset
 
@@ -1057,7 +1295,9 @@ Checks if the given time is within noon to sunset
 **Returns:**<br>
 True if the given time is within noon to sunset
 
----### def mas_isSStoMN(_time)
+---
+
+### def mas_isSStoMN(_time)
 
 Checks if the given time is within sunset to midnight
 
@@ -1068,11 +1308,15 @@ Checks if the given time is within sunset to midnight
 **Returns:**<br>
 True if the given time is within sunset to midnight
 
----### def mas_isSunny(_time)
+---
+
+### def mas_isSunny(_time)
 
 DEPRECATED Use mas_isDay instead
 
----### def mas_isDay(_time)
+---
+
+### def mas_isDay(_time)
 
 Checks if the sun would be up during the given time
 
@@ -1083,14 +1327,18 @@ Checks if the sun would be up during the given time
 **Returns:**<br>
 True if it is day time during the given time
 
----### def mas_isDayNow()
+---
+
+### def mas_isDayNow()
 
 Checks if the sun would be up right now
 
 **Returns:**<br>
 True if the sun would be up now, False if not
 
----### def mas_isNight(_time)
+---
+
+### def mas_isNight(_time)
 
 Checks if the sun is down during the given time
 
@@ -1101,14 +1349,18 @@ Checks if the sun is down during the given time
 **Returns:**<br>
 True if it the sun is down during the given time
 
----### def mas_isNightNow()
+---
+
+### def mas_isNightNow()
 
 Checks if the sun is down right now
 
 **Returns:**<br>
 True if it is night now, False if not
 
----### def mas_cvToDHM(mins)
+---
+
+### def mas_cvToDHM(mins)
 
 Converts the given minutes into a displayable hour / minutes HH:MM
 
@@ -1119,7 +1371,9 @@ Converts the given minutes into a displayable hour / minutes HH:MM
 **Returns:**<br>
 string time perfect for displaying
 
----### def mas_genDateRange(_start, _end)
+---
+
+### def mas_genDateRange(_start, _end)
 
 Generates a list of datetime.date objects with the given range.
 
@@ -1131,7 +1385,9 @@ Generates a list of datetime.date objects with the given range.
 **Returns:**<br>
 list of datetime.date objects between the _start and _end, exclusive. May be empty if invalid start and end dates are given
 
----### def mas_EVgenYDT(_start, _end, for_start)
+---
+
+### def mas_EVgenYDT(_start, _end, for_start)
 
 Creates a valid start or end datetime for Event creation, given the start and end datetimes.
 
@@ -1144,7 +1400,9 @@ Creates a valid start or end datetime for Event creation, given the start and en
 **Returns:**<br>
 valid datetime for Event creation
 
----### def mas_EVgenYD(_start, _end, for_start, _time=datetime.time.min)
+---
+
+### def mas_EVgenYD(_start, _end, for_start, _time=datetime.time.min)
 
 Variation of mas_EVgenYDT that accepts datetime.dates. This still returns datetimes though.
 
@@ -1158,16 +1416,22 @@ Variation of mas_EVgenYDT that accepts datetime.dates. This still returns dateti
 **Returns:**<br>
 valid datetime for Event creation
 
----### def mas_isSpecialDay()
+---
+
+### def mas_isSpecialDay()
 
 Checks if today is a special day(birthday, anniversary or holiday)
 
 **Returns:**<br>
 boolean indicating if today is a special day.
 
----### def mas_maxPlaytime()
+---
 
----### def mas_isInDateRange(subject, _start, _end, start_inclusive=True, end_inclusive=False)
+### def mas_maxPlaytime()
+
+---
+
+### def mas_isInDateRange(subject, _start, _end, start_inclusive=True, end_inclusive=False)
 
 Checks if the given subject date is within  range of the given start end dates.
 
@@ -1182,7 +1446,9 @@ Checks if the given subject date is within  range of the given start end dates.
 **Returns:**<br>
 True if the given subject is within date range, False if not
 
----### def get_pos(channel='music')
+---
+
+### def get_pos(channel='music')
 
 Gets the current position in what's playing on the provided channel
 
@@ -1190,15 +1456,21 @@ Gets the current position in what's playing on the provided channel
 - `channel` &mdash; The channel to get the sound position for (Default: 'music')
 
 
----### def delete_all_saves()
+---
+
+### def delete_all_saves()
 
 Deletes all saved states
 
----### def mas_delete_all_chrs()
+---
+
+### def mas_delete_all_chrs()
 
 Deletes all chr files under /characters/ folder. Any encountered errors will be printed to log.
 
----### def pause(time=None)
+---
+
+### def pause(time=None)
 
 Pauses for the given amount of time
 
@@ -1206,42 +1478,54 @@ Pauses for the given amount of time
 - `time` &mdash; The time to pause for. If None, a pause until the user progresses is assumed (Default: None)
 
 
----### def enumerate_steam()
+---
+
+### def enumerate_steam()
 
 Gets installed steam application IDs from the main steam install directory
 
 **Returns:**<br>
 List of application IDs
 
----### def mas_isSpring(_date=None)
+---
+
+### def mas_isSpring(_date=None)
 
 Checks if given date is during spring iff none passed in, then we assume today  Note: If persistent._mas_pm_live_north_hemisphere is none, we assume northern hemi
 
 **Returns:**<br>
 boolean showing whether or not it's spring right now
 
----### def mas_isSummer(_date=None)
+---
+
+### def mas_isSummer(_date=None)
 
 Checks if given date is during summer iff none passed in, then we assume today  Note: If persistent._mas_pm_live_north_hemisphere is none, we assume northern hemi
 
 **Returns:**<br>
 boolean showing whether or not it's summer right now
 
----### def mas_isFall(_date=None)
+---
+
+### def mas_isFall(_date=None)
 
 Checks if given date is during fall iff none passed in, then we assume today  Note: If persistent._mas_pm_live_north_hemisphere is none, we assume northern hemi
 
 **Returns:**<br>
 boolean showing whether or not it's fall right now
 
----### def mas_isWinter(_date=None)
+---
+
+### def mas_isWinter(_date=None)
 
 Checks if given date is during winter iff none passed in, then we assume today  Note: If persistent._mas_pm_live_north_hemisphere is none, we assume northern hemi
 
 **Returns:**<br>
 boolean showing whether or not it's winter right now
 
----### def clearUpdateStructs()
+---
+
+### def clearUpdateStructs()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -1253,7 +1537,9 @@ DEPRECATED Use mas_versions.clear instead
 - `@store.mas_utils.deprecated(use_instead='mas_versions.clear', should_raise=True)`
 
 
----### def mas_SELisUnlocked(_sprite_item)
+---
+
+### def mas_SELisUnlocked(_sprite_item)
 
 Checks if the given sprite item is unlocked
 
@@ -1264,7 +1550,9 @@ Checks if the given sprite item is unlocked
 **Returns:**<br>
 True if the given sprite item is unlocked, false otherwise
 
----### def mas_filterUnlockGroup(sp_type, group, unlock_min=None, allow_lock=False)
+---
+
+### def mas_filterUnlockGroup(sp_type, group, unlock_min=None, allow_lock=False)
 
 Unlock selector topic for the given group if appropriate number of selector objects are unlocked.
 
@@ -1275,7 +1563,9 @@ Unlock selector topic for the given group if appropriate number of selector obje
 - `allow_lock` &mdash; True will lock the selector topic if it fails to be unlocked. (Default: False)
 
 
----### def mas_hasUnlockedClothesWithExprop(exprop, value=None)
+---
+
+### def mas_hasUnlockedClothesWithExprop(exprop, value=None)
 
 Checks if we have unlocked clothes with a specific exprop
 
@@ -1287,7 +1577,9 @@ Checks if we have unlocked clothes with a specific exprop
 **Returns:**<br>
 boolean: True if we have unlocked clothes with the exprop + value provided False otherwise
 
----### def mas_hasLockedClothesWithExprop(exprop, value=None)
+---
+
+### def mas_hasLockedClothesWithExprop(exprop, value=None)
 
 Checks if we have locked clothes with a specific exprop
 
@@ -1299,9 +1591,13 @@ Checks if we have locked clothes with a specific exprop
 **Returns:**<br>
 boolean: True if we have locked clothes with the exprop + value provided False otherwise
 
----### def remove_seen_labels(pool)
+---
 
----### def mas_randomSelectAndRemove(sel_list)
+### def remove_seen_labels(pool)
+
+---
+
+### def mas_randomSelectAndRemove(sel_list)
 
 Randomly selects an element from the given list This also removes the element from that list.
 
@@ -1312,7 +1608,9 @@ Randomly selects an element from the given list This also removes the element fr
 **Returns:**<br>
 selected element
 
----### def mas_randomSelectAndPush(sel_list)
+---
+
+### def mas_randomSelectAndPush(sel_list)
 
 Randomly selects an element from the the given list and pushes the event This also removes the element from that list.
 
@@ -1320,7 +1618,9 @@ Randomly selects an element from the the given list and pushes the event This al
 - `sel_list` &mdash; list to select from
 
 
----### def mas_insertSort(sort_list, item, key)
+---
+
+### def mas_insertSort(sort_list, item, key)
 
 Performs a round of insertion sort. This does least to greatest sorting
 
@@ -1333,7 +1633,9 @@ Performs a round of insertion sort. This does least to greatest sorting
 **Returns:**<br>
 sort_list - list with 1 additonal element, sorted
 
----### def mas_splitSeenEvents(sorted_seen)
+---
+
+### def mas_splitSeenEvents(sorted_seen)
 
 Splits the seen_list into seena nd most seen
 
@@ -1344,59 +1646,85 @@ Splits the seen_list into seena nd most seen
 **Returns:**<br>
 tuple of thef ollowing format: [0] - seen list of events [1] - most seen list of events
 
----### def mas_splitRandomEvents(events_dict)
+---
+
+### def mas_splitRandomEvents(events_dict)
 
 Splits the given random events dict into 2 lists of events
 
 **Returns:**<br>
 tuple of the following format: [0] - unseen list of events [1] - seen list of events, sorted by shown_count
 
----### def mas_buildEventLists()
+---
+
+### def mas_buildEventLists()
 
 Builds the unseen / most seen / seen event lists
 
 **Returns:**<br>
 tuple of the following format: [0] - unseen list of events [1] - seen list of events [2] - most seen list of events
 
----### def mas_buildSeenEventLists()
+---
+
+### def mas_buildSeenEventLists()
 
 Builds the seen / most seen event lists
 
 **Returns:**<br>
 tuple of the following format: [0] - seen list of events [1] - most seen list of events
 
----### def mas_rebuildEventLists()
+---
+
+### def mas_rebuildEventLists()
 
 Rebuilds the unseen, seen and most seen event lists.
 
----### def mas_enableMouseTracking()
+---
 
----### def mas_disableMouseTracking()
+### def mas_enableMouseTracking()
 
----### def mas_isMouseTrackingVisible()
+---
 
----### def mas_calDropOverlayShield()
+### def mas_disableMouseTracking()
+
+---
+
+### def mas_isMouseTrackingVisible()
+
+---
+
+### def mas_calDropOverlayShield()
 
 RUNTIME ONLY Enables input for the calendar overlay
 
----### def mas_calHideOverlay()
+---
+
+### def mas_calHideOverlay()
 
 RUNTIME ONLY Hides the calendar overlay
 
----### def mas_calIsVisible_ovl()
+---
+
+### def mas_calIsVisible_ovl()
 
 **Returns:**<br>
 True if the calendar ovelray is visible, False otherwise
 
----### def mas_calRaiseOverlayShield()
+---
+
+### def mas_calRaiseOverlayShield()
 
 RUNTIME ONLY Disables input for the calendar overlay
 
----### def mas_calShowOverlay()
+---
+
+### def mas_calShowOverlay()
 
 RUNTIME ONLY Shows the calendar overlay
 
----### def mas_isLeapYear(year)
+---
+
+### def mas_isLeapYear(year)
 
 Checks if the given year is a leap year, accounting for the error
 
@@ -1407,7 +1735,9 @@ Checks if the given year is a leap year, accounting for the error
 **Returns:**<br>
 bool - Whether or not the given year is a leap year
 
----### def grant_xp(experience)
+---
+
+### def grant_xp(experience)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -1419,7 +1749,9 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@store.mas_utils.deprecated(should_raise=True)`
 
 
----### def get_level()
+---
+
+### def get_level()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -1431,7 +1763,9 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@store.mas_utils.deprecated(should_raise=True)`
 
 
----### def mas_FreezeGoodAffExp()
+---
+
+### def mas_FreezeGoodAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1441,7 +1775,9 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@mas_utils.deprecated()`
 
 
----### def mas_FreezeBadAffExp()
+---
+
+### def mas_FreezeBadAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1451,7 +1787,9 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@mas_utils.deprecated()`
 
 
----### def mas_FreezeBothAffExp()
+---
+
+### def mas_FreezeBothAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1461,7 +1799,9 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@mas_utils.deprecated()`
 
 
----### def mas_UnfreezeBadAffExp()
+---
+
+### def mas_UnfreezeBadAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1471,7 +1811,9 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@mas_utils.deprecated()`
 
 
----### def mas_UnfreezeGoodAffExp()
+---
+
+### def mas_UnfreezeGoodAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1481,7 +1823,9 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@mas_utils.deprecated()`
 
 
----### def mas_UnfreezeBothExp()
+---
+
+### def mas_UnfreezeBothExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1491,14 +1835,18 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@mas_utils.deprecated()`
 
 
----### def mas_isBelowZero()
+---
+
+### def mas_isBelowZero()
 
 Checks if affection is negative
 
 **Returns:**<br>
 boolean
 
----### def mas_betweenAff(aff_low, aff_check, aff_high)
+---
+
+### def mas_betweenAff(aff_low, aff_check, aff_high)
 
 Checks if the given affection is between the given affection levels.  If low is actually greater than high, then False is always returned
 
@@ -1511,7 +1859,9 @@ Checks if the given affection is between the given affection levels.  If low is 
 **Returns:**<br>
 True if the given aff check is within the bounds of the given lower and upper affection limits, False otherwise. If low is greater than high, False is returned.
 
----### def mas_compareAff(aff_1, aff_2)
+---
+
+### def mas_compareAff(aff_1, aff_2)
 
 Runs compareTo logic on the given affection states
 
@@ -1523,7 +1873,9 @@ Runs compareTo logic on the given affection states
 **Returns:**<br>
 negative number if aff_1 < aff_2 0 if aff_1 == aff_2 postitive number if aff_1 > aff_2 Returns 0 if a non affection state was provided
 
----### def mas_compareAffG(affg_1, affg_2)
+---
+
+### def mas_compareAffG(affg_1, affg_2)
 
 Runs compareTo logic on the given affection groups
 
@@ -1535,7 +1887,9 @@ Runs compareTo logic on the given affection groups
 **Returns:**<br>
 negative number if affg_1 < affg_2 0 if affg_1 == affg_2 positive numbre if affg_1 > affg_2 Returns 0 if a non affection group was provided
 
----### def mas_isMoniBroken(lower=False, higher=False)
+---
+
+### def mas_isMoniBroken(lower=False, higher=False)
 
 Checks if monika is broken
 
@@ -1547,7 +1901,9 @@ Checks if monika is broken
 **Returns:**<br>
 True if monika is broke, False otherwise
 
----### def mas_isMoniDis(lower=False, higher=False)
+---
+
+### def mas_isMoniDis(lower=False, higher=False)
 
 Checks if monika is distressed
 
@@ -1559,7 +1915,9 @@ Checks if monika is distressed
 **Returns:**<br>
 True if monika is distressed, false otherwise
 
----### def mas_isMoniUpset(lower=False, higher=False)
+---
+
+### def mas_isMoniUpset(lower=False, higher=False)
 
 Checks if monika is upset
 
@@ -1571,7 +1929,9 @@ Checks if monika is upset
 **Returns:**<br>
 True if monika is upset, false otherwise
 
----### def mas_isMoniNormal(lower=False, higher=False)
+---
+
+### def mas_isMoniNormal(lower=False, higher=False)
 
 Checks if monika is normal
 
@@ -1583,7 +1943,9 @@ Checks if monika is normal
 **Returns:**<br>
 True if monika is normal, false otherwise
 
----### def mas_isMoniHappy(lower=False, higher=False)
+---
+
+### def mas_isMoniHappy(lower=False, higher=False)
 
 Checks if monika is happy
 
@@ -1595,7 +1957,9 @@ Checks if monika is happy
 **Returns:**<br>
 True if monika is happy, false otherwise
 
----### def mas_isMoniAff(lower=False, higher=False)
+---
+
+### def mas_isMoniAff(lower=False, higher=False)
 
 Checks if monika is affectionate
 
@@ -1607,7 +1971,9 @@ Checks if monika is affectionate
 **Returns:**<br>
 True if monika is affectionate, false otherwise
 
----### def mas_isMoniEnamored(lower=False, higher=False)
+---
+
+### def mas_isMoniEnamored(lower=False, higher=False)
 
 Checks if monika is enamored
 
@@ -1619,7 +1985,9 @@ Checks if monika is enamored
 **Returns:**<br>
 True if monika is enamored, false otherwise
 
----### def mas_isMoniLove(lower=False, higher=False)
+---
+
+### def mas_isMoniLove(lower=False, higher=False)
 
 Checks if monika is in love
 
@@ -1631,7 +1999,9 @@ Checks if monika is in love
 **Returns:**<br>
 True if monika in love, false otherwise
 
----### def mas_isMoniGSad(lower=False, higher=False)
+---
+
+### def mas_isMoniGSad(lower=False, higher=False)
 
 Checks if monika is in sad affection group
 
@@ -1643,7 +2013,9 @@ Checks if monika is in sad affection group
 **Returns:**<br>
 True if monika in sad group, false otherwise
 
----### def mas_isMoniGNormal(lower=False, higher=False)
+---
+
+### def mas_isMoniGNormal(lower=False, higher=False)
 
 Checks if monika is in normal affection group
 
@@ -1655,7 +2027,9 @@ Checks if monika is in normal affection group
 **Returns:**<br>
 True if monika is in normal group, false otherwise
 
----### def mas_isMoniGHappy(lower=False, higher=False)
+---
+
+### def mas_isMoniGHappy(lower=False, higher=False)
 
 Checks if monika is in happy affection group
 
@@ -1667,9 +2041,13 @@ Checks if monika is in happy affection group
 **Returns:**<br>
 True if monika is in happy group, false otherwise
 
----### def mas_updateAffectionExp(skipPP=False)
+---
 
----### def mas_gainAffection(amount=None, modifier=1.0, bypass=False, current_evlabel=None)
+### def mas_updateAffectionExp(skipPP=False)
+
+---
+
+### def mas_gainAffection(amount=None, modifier=1.0, bypass=False, current_evlabel=None)
 
 Grants some affection whenever something positive happens
 
@@ -1680,7 +2058,9 @@ Grants some affection whenever something positive happens
 - `current_evlabel` &mdash; str/None - the topic that caused this aff gain, MUST be current topic label or None. You probably DO NOT want to use this (Default: None)
 
 
----### def mas_loseAffection(amount=None, modifier=1.0, reason=None, ev_label=None, apology_active_expiry=datetime.timedelta(hours=3), apology_overall_expiry=datetime.timedelta(weeks=1), current_evlabel=None)
+---
+
+### def mas_loseAffection(amount=None, modifier=1.0, reason=None, ev_label=None, apology_active_expiry=datetime.timedelta(hours=3), apology_overall_expiry=datetime.timedelta(weeks=1), current_evlabel=None)
 
 Subtracts some affection whenever something negative happens  A reason can be specified and used for the apology dialogue if the default value is used Monika won't comment on the reason, and slightly will recover affection if None is passed she won't acknowledge that there was need for an apology. DEFAULTS reason to an Empty String mostly because when this one is called is intended to be used for something the player can apologize for, but it's not totally necessary. NEW BITS: prompt: the prompt shown in the menu for apologizing expirydatetime: generic: do we want this to be persistent? or not
 
@@ -1694,7 +2074,9 @@ Subtracts some affection whenever something negative happens  A reason can be sp
 - `current_evlabel` &mdash; str/None - the topic that caused this aff gain, MUST be current topic label or None. You probably DO NOT want to use this (Default: None)
 
 
----### def mas_loseAffectionFraction(fraction=None, min_amount=None, modifier=1.0, reason=None, ev_label=None, apology_active_expiry=datetime.timedelta(hours=3), apology_overall_expiry=datetime.timedelta(weeks=1), current_evlabel=None)
+---
+
+### def mas_loseAffectionFraction(fraction=None, min_amount=None, modifier=1.0, reason=None, ev_label=None, apology_active_expiry=datetime.timedelta(hours=3), apology_overall_expiry=datetime.timedelta(weeks=1), current_evlabel=None)
 
 See mas_loseAffection for more info Subtracts portion of affection whenever something negative happens USE VERY WISELY
 
@@ -1704,7 +2086,9 @@ See mas_loseAffection for more info Subtracts portion of affection whenever some
 - `modifier` &mdash; float - modifier for the amount value NOTE: the modifier is being applied AFTER min_amount (Default: 1.0)
 
 
----### def mas_setAffection()
+---
+
+### def mas_setAffection()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1714,7 +2098,9 @@ See mas_loseAffection for more info Subtracts portion of affection whenever some
 - `@store.mas_utils.deprecated()`
 
 
----### def mas_setApologyReason(reason=None, ev_label=None, apology_active_expiry=datetime.timedelta(hours=3), apology_overall_expiry=datetime.timedelta(weeks=1))
+---
+
+### def mas_setApologyReason(reason=None, ev_label=None, apology_active_expiry=datetime.timedelta(hours=3), apology_overall_expiry=datetime.timedelta(weeks=1))
 
 Sets a reason for apologizing
 
@@ -1725,35 +2111,53 @@ Sets a reason for apologizing
 - `apology_overall_expiry` &mdash; The amount of overall time after which, the apology that was added expires defaults to 7 days
 
 
----### def mas_checkAffection()
+---
 
----### def mas_cute_message()
+### def mas_checkAffection()
 
----### def mas_surprise()
+---
+
+### def mas_cute_message()
+
+---
+
+### def mas_surprise()
 
 Leaves a "surprise" to the player in a txt file
 
----### def mas_unlockSurprisePoem(aff_level)
+---
+
+### def mas_unlockSurprisePoem(aff_level)
 
 Unlocks a MASPoem for the given aff level
 
----### def addReaction(ev_label, fname_list, _action=EV_ACT_QUEUE, is_good=None, exclude_on=[])
+---
+
+### def addReaction(ev_label, fname_list, _action=EV_ACT_QUEUE, is_good=None, exclude_on=[])
 
 Globalied version of the addReaction function in the mas_filereacts store.  Refer to that function for more information
 
----### def mas_checkReactions()
+---
+
+### def mas_checkReactions()
 
 Checks for reactions, then queues them
 
----### def mas_receivedGift(ev_label)
+---
+
+### def mas_receivedGift(ev_label)
 
 Globalied version for gift stats tracking
 
----### def mas_generateGiftsReport(date=None)
+---
+
+### def mas_generateGiftsReport(date=None)
 
 Globalied version for gift stats tracking
 
----### def mas_getGiftStatsForDate(label, date=None)
+---
+
+### def mas_getGiftStatsForDate(label, date=None)
 
 Globalied version to get the stats for a specific gift
 
@@ -1765,7 +2169,9 @@ Globalied version to get the stats for a specific gift
 **Returns:**<br>
 The number of times the gift has been given that date
 
----### def mas_getGiftStatsRange(start, end)
+---
+
+### def mas_getGiftStatsRange(start, end)
 
 Returns status of gifts over a range (needs to be supplied to actually be useful)
 
@@ -1777,7 +2183,9 @@ Returns status of gifts over a range (needs to be supplied to actually be useful
 **Returns:**<br>
 The gift status of all gifts given over the range
 
----### def mas_getSpriteObjInfo(sp_data=None)
+---
+
+### def mas_getSpriteObjInfo(sp_data=None)
 
 Returns sprite info from the sprite reactions list.
 
@@ -1785,7 +2193,9 @@ Returns sprite info from the sprite reactions list.
 - `sp_data` &mdash; tuple of the following format: [0] - sprite type [1] - sprite name If None, we use pseudo random select from sprite reacts (Default: None)
 
 
----### def mas_finishSpriteObjInfo(sprite_data, unlock_sel=True)
+---
+
+### def mas_finishSpriteObjInfo(sprite_data, unlock_sel=True)
 
 Finishes the sprite object with the given data.
 
@@ -1794,9 +2204,13 @@ Finishes the sprite object with the given data.
 - `unlock_sel` &mdash; True will unlock the selector topic, False will not (Default: True)
 
 
----### def mas_giftCapGainAff(amount=None, modifier=1)
+---
 
----### def mas_getGiftedDates(giftlabel)
+### def mas_giftCapGainAff(amount=None, modifier=1)
+
+---
+
+### def mas_getGiftedDates(giftlabel)
 
 Gets the dates that a gift was gifted
 
@@ -1807,7 +2221,9 @@ Gets the dates that a gift was gifted
 **Returns:**<br>
 list of datetime.dates of the times the gift was given
 
----### def mas_lastGiftedInYear(giftlabel, _year)
+---
+
+### def mas_lastGiftedInYear(giftlabel, _year)
 
 Checks if the gift for giftlabel was last gifted in _year
 
@@ -1819,15 +2235,21 @@ Checks if the gift for giftlabel was last gifted in _year
 **Returns:**<br>
 boolean: - True if last gifted in _year - False otherwise
 
----### def dec_musicvol()
+---
+
+### def dec_musicvol()
 
 Decreases the volume of the music channel by the value defined in songs.vol_bump
 
----### def inc_musicvol()
+---
+
+### def inc_musicvol()
 
 increases the volume of the music channel by the value defined in songs.vol_bump
 
----### def mute_music(mute_enabled=True)
+---
+
+### def mute_music(mute_enabled=True)
 
 Mutes and unmutes the music channel
 
@@ -1835,7 +2257,9 @@ Mutes and unmutes the music channel
 - `mute_enabled` &mdash; True means we are allowed to mute. False means we are not
 
 
----### def mas_play_song(song, fadein=0.0, loop=True, set_per=False, fadeout=0.0, if_changed=False)
+---
+
+### def mas_play_song(song, fadein=0.0, loop=True, set_per=False, fadeout=0.0, if_changed=False)
 
 literally just plays a song onto the music channel Also sets the currentt track
 
@@ -1848,7 +2272,9 @@ literally just plays a song onto the music channel Also sets the currentt track
 - `if_changed` &mdash; Whether or not to only set the song if it's changing (Use to play the same song again without it being restarted) (Default: False)
 
 
----### def play_song()
+---
+
+### def play_song()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1858,17 +2284,25 @@ literally just plays a song onto the music channel Also sets the currentt track
 - `@mas_utils.deprecated(use_instead='mas_play_song')`
 
 
----### def mas_startup_song()
+---
+
+### def mas_startup_song()
 
 Starts playing either the persistent track  Meant for usage in startup processes.
 
----### def select_music()
+---
 
----### def mas_resetQuitMsg()
+### def select_music()
+
+---
+
+### def mas_resetQuitMsg()
 
 Resets quit messages to the ones appropriate for the current affection.
 
----### def mas_setQuitMsg(quit_msg=None, quit_yes=None, quit_no=None)
+---
+
+### def mas_setQuitMsg(quit_msg=None, quit_yes=None, quit_no=None)
 
 Sets text for the quit dialogue box
 
@@ -1878,7 +2312,9 @@ Sets text for the quit dialogue box
 - `quit_no` &mdash; text to show when NO is clicked in the quit dialogue box. Not set if None. (Default: None)
 
 
----### def dumpPersistentToFile(dumped_persistent, dumppath)
+---
+
+### def dumpPersistentToFile(dumped_persistent, dumppath)
 
 Prints a file containing each dictionary element of a persistent variable
 
@@ -1887,38 +2323,54 @@ Prints a file containing each dictionary element of a persistent variable
 - `dumppath` &mdash; a file path to the text file to be created. Must be a valid write location
 
 
----### def show_dialogue_box()
+---
+
+### def show_dialogue_box()
 
 Jumps to the topic promt menu
 
----### def pick_game()
+---
+
+### def pick_game()
 
 Jumps to the pick a game workflow
 
----### def mas_getuser()
+---
+
+### def mas_getuser()
 
 Attempts to get the current user
 
 **Returns:**<br>
 current user if found, or None if not found
 
----### def mas_enable_quitbox()
+---
+
+### def mas_enable_quitbox()
 
 Enables Monika's quit dialogue warning
 
----### def mas_disable_quitbox()
+---
+
+### def mas_disable_quitbox()
 
 Disables Monika's quit dialogue warning
 
----### def mas_enable_quit()
+---
+
+### def mas_enable_quit()
 
 Enables quitting without monika knowing
 
----### def mas_disable_quit()
+---
+
+### def mas_disable_quit()
 
 Disables quitting without monika knowing
 
----### def mas_drawSpaceroomMasks(dissolve_masks=True)
+---
+
+### def mas_drawSpaceroomMasks(dissolve_masks=True)
 
 Draws the appropriate masks according to the current state of the game.
 
@@ -1926,15 +2378,21 @@ Draws the appropriate masks according to the current state of the game.
 - `dissolve_masks` &mdash; True will dissolve masks, False will not (Default; True)
 
 
----### def mas_validate_suntimes()
+---
+
+### def mas_validate_suntimes()
 
 Validates both persistent and store suntimes are in a valid state. Sunrise is always used as the lead if a reset is needed.
 
----### def show_calendar()
+---
+
+### def show_calendar()
 
 RUNTIME ONLY Opens the calendar if we can
 
----### def slow_nodismiss(event, interact=True)
+---
+
+### def slow_nodismiss(event, interact=True)
 
 Callback for whenever monika talks
 
@@ -1947,7 +2405,9 @@ Callback for whenever monika talks
 - `end` &mdash; > end of dialogue (user has interacted) NOTE: dismiss needs to be possible for end to be reached when mouse is clicked after an interaction ends.
 
 
----### def mas_isMorning()
+---
+
+### def mas_isMorning()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -1962,14 +2422,18 @@ DEPRECATED Checks if it is day or night via suntimes
 **Returns:**<br>
 True if day, false if not
 
----### def mas_progressFilter()
+---
+
+### def mas_progressFilter()
 
 Changes filter according to rules.  Call this when you want to update the filter.
 
 **Returns:**<br>
 True upon a filter change, False if not
 
----### def mas_shouldChangeTime()
+---
+
+### def mas_shouldChangeTime()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -1981,42 +2445,60 @@ DEPRECATED This no longer makes sense with the filtering system.
 - `@store.mas_utils.deprecated(should_raise=True)`
 
 
----### def mas_shouldRain()
+---
+
+### def mas_shouldRain()
 
 Rolls some chances to see if we should make it rain
 
 **Returns:**<br>
 rain weather to use, or None if we dont want to change weather
 
----### def mas_lockHair()
+---
+
+### def mas_lockHair()
 
 Locks all hair topics
 
----### def mas_seasonalCheck()
+---
+
+### def mas_seasonalCheck()
 
 Determines the current season and runs an appropriate programming point.  If the global for season is currently None, then we instead set the current season.
 
----### def mas_enableTextSpeed()
+---
+
+### def mas_enableTextSpeed()
 
 Enables text speed
 
----### def mas_disableTextSpeed()
+---
+
+### def mas_disableTextSpeed()
 
 Disables text speed
 
----### def mas_resetTextSpeed(ignoredev=False)
+---
+
+### def mas_resetTextSpeed(ignoredev=False)
 
 Sets text speed to the appropriate one depending on global settings  Rules: 1 - developer always gets text speed (unless ignoredev is True) 2 - text speed enabled if affection above happy 3 - text speed disabled otherwise
 
----### def mas_isTextSpeedEnabled()
+---
+
+### def mas_isTextSpeedEnabled()
 
 Returns true if text speed is enabled
 
----### def mas_check_player_derand()
+---
+
+### def mas_check_player_derand()
 
 Checks the player derandom lists for events that are not random and derandoms them
 
----### def mas_get_player_bookmarks(bookmarked_evls)
+---
+
+### def mas_get_player_bookmarks(bookmarked_evls)
 
 Gets topics which are bookmarked by the player Also cleans events which no longer exist
 
@@ -2027,7 +2509,9 @@ Gets topics which are bookmarked by the player Also cleans events which no longe
 **Returns:**<br>
 List of bookmarked topics as evs
 
----### def mas_get_player_derandoms(derandomed_evls)
+---
+
+### def mas_get_player_derandoms(derandomed_evls)
 
 Gets topics which are derandomed by the player (in check-scrollable-menu format) Also cleans out events which no longer exist
 
@@ -2038,14 +2522,18 @@ Gets topics which are derandomed by the player (in check-scrollable-menu format)
 **Returns:**<br>
 List of player derandomed topics in mas_check_scrollable_menu form
 
----### def mas_safeToRefDokis()
+---
+
+### def mas_safeToRefDokis()
 
 Checks if it is safe for us to reference the dokis in a potentially sensitive matter. The user must have responded to the question regarding dokis - if the user hasn't responded, then we assume it is NEVER safe to reference dokis.
 
 **Returns:**<br>
 True if safe to reference dokis
 
----### def mas_set_pronouns(key=None)
+---
+
+### def mas_set_pronouns(key=None)
 
 Sets gender specific word replacements  Few examples: "It is his pen." (if the player's gender is declared as male) "It is her pen." (if the player's gender is declared as female) "It is their pen." (if player's gender is not declared)  For all available pronouns/words check the keys in MAS_PRONOUN_GENDER_MAP
 
@@ -2053,14 +2541,18 @@ Sets gender specific word replacements  Few examples: "It is his pen." (if the p
 - `key` &mdash; Optional[Literal["M", "F", "X"]] - key (perhaps current gender) to set the pronouns for If None, uses persistent.gender
 
 
----### def mas_getTimeFile(filestring)
+---
+
+### def mas_getTimeFile(filestring)
 
 Returns the filestring pointing to the right asset for day/night
 
 **Returns:**<br>
 filestring pointing to the right path
 
----### def mas_swapStyle(base_name, dark_name, morning_flag)
+---
+
+### def mas_swapStyle(base_name, dark_name, morning_flag)
 
 Swaps the single style between default and dark variants.
 
@@ -2068,19 +2560,27 @@ Swaps the single style between default and dark variants.
 - `morning_flag` &mdash; Light/dark mode switch
 
 
----### def mas_hasDarkStyle(style_name)
+---
+
+### def mas_hasDarkStyle(style_name)
 
 Check if selected style has a dark alternative.
 
----### def mas_isDarkStyle(style_name)
+---
+
+### def mas_isDarkStyle(style_name)
 
 Check if selected style is a dark style.
 
----### def mas_isTextDarkStyle(style_name)
+---
+
+### def mas_isTextDarkStyle(style_name)
 
 Check if selected style is a text_dark style.
 
----### def mas_darkMode(morning_flag=False)
+---
+
+### def mas_darkMode(morning_flag=False)
 
 Swaps all styles to dark/light mode provided on the input
 
@@ -2088,7 +2588,9 @@ Swaps all styles to dark/light mode provided on the input
 - `morning_flag` &mdash; if True, light mode, if False, dark mode
 
 
----### def mas_passedILY(pass_time)
+---
+
+### def mas_passedILY(pass_time)
 
 Checks whether we are within the appropriate time since the last time Monika told the player 'ily' which is stored in persistent._mas_last_monika_ily
 
@@ -2099,7 +2601,9 @@ Checks whether we are within the appropriate time since the last time Monika tol
 **Returns:**<br>
 boolean indicating if we are within the time limit
 
----### def mas_ILY(set_time=None)
+---
+
+### def mas_ILY(set_time=None)
 
 Sets persistent._mas_last_monika_ily (the last time Monika said ily) to a given time
 
@@ -2107,7 +2611,9 @@ Sets persistent._mas_last_monika_ily (the last time Monika said ily) to a given 
 - `set_time` &mdash; the time we want to set persistent._mas_last_monika_ily to defaults to datetime.datetime.now()
 
 
----### def mas_shouldKiss(chance, cooldown=datetime.timedelta(hours=1), special_day_bypass=False)
+---
+
+### def mas_shouldKiss(chance, cooldown=datetime.timedelta(hours=1), special_day_bypass=False)
 
 Checks if Monika should give the player a random kiss  CONDITIONS: 1. Enamored+ affection 2. Player already had their first kiss with Monika 3. Random chance that changes depending on the chance and special_day_bypass vars 4. Enough time has passed since the last kiss
 
@@ -2120,17 +2626,25 @@ Checks if Monika should give the player a random kiss  CONDITIONS: 1. Enamored+ 
 **Returns:**<br>
 boolean: - True if the above conditions are met - False otherwise
 
----### def mas_open_extra_menu()
+---
+
+### def mas_open_extra_menu()
 
 Jumps to the extra menu workflow
 
----### def zoom_smoothly(trans, st, at)
+---
+
+### def zoom_smoothly(trans, st, at)
 
 Transition function used in mas_smooth_transition takes the standard parameters on functions used on transforms see https://www.renpy.org/doc/html/atl.html#function-statement
 
----### def mas_checkApologies()
+---
 
----### def removeTopicID(topicID)
+### def mas_checkApologies()
+
+---
+
+### def removeTopicID(topicID)
 
 Removes one topic from the _seen_ever variable topics list if it exists in either var (persistent is also checked for existence)
 
@@ -2138,7 +2652,9 @@ Removes one topic from the _seen_ever variable topics list if it exists in eithe
 - `topicID` &mdash; the topicID to remove
 
 
----### def mas_eraseTopic(topicID, per_eventDB=persistent.event_database)
+---
+
+### def mas_eraseTopic(topicID, per_eventDB=persistent.event_database)
 
 Erases an event from both lockdb and Event database This should also handle lockdb data as well. TopicIDs that are not in the given eventDB are silently ignored. (LockDB data will be erased if found)
 
@@ -2147,11 +2663,15 @@ Erases an event from both lockdb and Event database This should also handle lock
 - `per_eventDB` &mdash; persistent database this topic is in
 
 
----### def mas_transferTopic(old_topicID, new_topicID, per_eventDB)
+---
+
+### def mas_transferTopic(old_topicID, new_topicID, per_eventDB)
 
 DEPREACTED  NOTE: This can cause data corruption. DO NOT USE.  Transfers a topic's data from the old topic ID to the new one int he given database as well as the lock database.  NOTE: If the new topic ID already exists in the given databases, the data is OVERWRITTEN  IN: old_topicID - old topic ID to transfer new_topicID - new topic ID to receieve per_eventDB - persistent databse this topic is in
 
----### def mas_transferTopicSeen(old_topicID, new_topicID)
+---
+
+### def mas_transferTopicSeen(old_topicID, new_topicID)
 
 Tranfers persistent seen ever data. This is separate because of complex topic adjustments
 
@@ -2160,7 +2680,9 @@ Tranfers persistent seen ever data. This is separate because of complex topic ad
 - `new_topicID` &mdash; new topic ID to receieve
 
 
----### def adjustTopicIDs(changedIDs, updating_persistent=persistent)
+---
+
+### def adjustTopicIDs(changedIDs, updating_persistent=persistent)
 
 Changes labels in persistent._seen_ever to new IDs in the changedIDs dict
 
@@ -2171,7 +2693,9 @@ Changes labels in persistent._seen_ever to new IDs in the changedIDs dict
 - `value` &mdash; > new ID
 
 
----### def updateTopicIDs(version_number, updating_persistent=persistent)
+---
+
+### def updateTopicIDs(version_number, updating_persistent=persistent)
 
 Updates topic IDS between versions by performing a two step process: adjust exisitng IDS to match the new IDS then add newIDs to the persistent randomtopics
 
@@ -2179,7 +2703,9 @@ Updates topic IDS between versions by performing a two step process: adjust exis
 - `version_number` &mdash; the version number we are updating to
 
 
----### def updateGameFrom(startVers)
+---
+
+### def updateGameFrom(startVers)
 
 Updates the game, starting at the given start version
 
@@ -2187,7 +2713,9 @@ Updates the game, starting at the given start version
 - `startVers` &mdash; the version number in the parsed format ('v#####')
 
 
----### def safeDel(varname)
+---
+
+### def safeDel(varname)
 
 Safely deletes variables from persistent
 
@@ -2195,86 +2723,126 @@ Safely deletes variables from persistent
 - `varname` &mdash; name of the variable to delete from persistent as string
 
 
----### def mas_DropShield_core()
+---
+
+### def mas_DropShield_core()
 
 Enables: - Talk button + hotkey - Extra button + hotkey - Music button + hotkey + volume keys + mute key - Play button + hotkey - Calendar overlay - Escape key
 
----### def mas_RaiseShield_core()
+---
+
+### def mas_RaiseShield_core()
 
 Disables: - Talk button + hotkey - Extra button + hotkey - Music button + hotkey + volume keys + mute key - Play button + hotkey - Calendar overlay - Escape key
 
----### def mas_DropShield_dlg()
+---
+
+### def mas_DropShield_dlg()
 
 Enables: - Talk button + hotkey - Extra button + hotkey - Play button + hotkey - Calendar overlay  Disables: - Derandom hotkey - bookmark hotkey  Unsets: - dialogue workflow flag  Intended Flow: - Monika stops talking
 
----### def mas_RaiseShield_dlg()
+---
+
+### def mas_RaiseShield_dlg()
 
 Disables: - Talk button + hotkey - Extra button + hotkey - Play button + hotkey - Calendar overlay  Enables: - Derandom hotkey - bookmark hotkey  Sets: - dialogue workflow flag  Intended Flow: - Monika starts talking
 
----### def mas_DropShield_mumu()
+---
+
+### def mas_DropShield_mumu()
 
 Enables: - Talk button + hotkey - Extra button + hotkey - Music button - Play button + hotkey - Calendar overlay  Intended Flow: - The Music menu is closed
 
----### def mas_RaiseShield_mumu()
+---
+
+### def mas_RaiseShield_mumu()
 
 Disables: - Talk button + hotkey - Extra button + hotkey - Music button - Play button + hotkey - Calendar overlay  Intended Flow: - The Music menu is opened
 
----### def mas_DropShield_idle()
+---
+
+### def mas_DropShield_idle()
 
 Enables: - Talk hotkey - Extra hotkey - Music hotkey - Play button + hotkey - Music controller hotkeys  Intended Flow: - Idle mode ends
 
----### def mas_RaiseShield_idle()
+---
+
+### def mas_RaiseShield_idle()
 
 Disables: - Talk hotkey - Extra hotkey - Music hotkey - Play button + hotkey - Music controller hotkeys  Intended Flow: - Idle mode starts
 
----### def mas_DropShield_timedtext()
+---
+
+### def mas_DropShield_timedtext()
 
 Enables: - text speed - escape key - Music button + hotkey - Music Menu - Calendar overlay - Window hiding - dismiss  Shows: - hotkey buttons
 
----### def mas_RaiseShield_timedtext()
+---
+
+### def mas_RaiseShield_timedtext()
 
 Disables: - text speed - escape key - Music button + hotkey - Music Menu - Calendar overlay - Window hiding - dismiss  Hides: - hotkey buttons
 
----### def mas_MUMUDropShield()
+---
+
+### def mas_MUMUDropShield()
 
 Enables: - Music button + hotkey - Music Menu  Intended Flow: - Whenever the music menu-based interactions need to be enabled
 
----### def mas_MUMURaiseShield()
+---
+
+### def mas_MUMURaiseShield()
 
 Disables: - Music button + hotkey - Music Menu  Intended Flow: - Whenever the music menu-based interactions need to be disabled
 
----### def mas_MUINDropShield()
+---
+
+### def mas_MUINDropShield()
 
 Enables: - Music button + hotkey - Music Menu - Music controller keys  Intended Flow: - Whenever all music-based interactions need to be enabled
 
----### def mas_MUINRaiseShield()
+---
+
+### def mas_MUINRaiseShield()
 
 Disables: - Music button + hotkey - Music Menu - Music controller keys  Intended Flow: - Whenever all music-based interactions need to be disabled
 
----### def mas_dlgToIdleShield()
+---
+
+### def mas_dlgToIdleShield()
 
 Enables: - Talk button - Extra button - Calendar overlay  Disables: - Music hotkey  Unsets: - dialogue workflow flag  Intended flow: - when transitioning from a dialogue workflow to idle mode
 
----### def mas_coreToIdleShield()
+---
+
+### def mas_coreToIdleShield()
 
 Enables: - Talk button - Extra button - Music button - Calendar overlay - Escape key  Intended flow: - when transitiong from core sheilds to idle shields
 
----### def mas_mumuToIdleShield()
+---
+
+### def mas_mumuToIdleShield()
 
 Enables: - Talk button - Extra button - Music button - songs - calendar overlay  Intended Flow: - when transitioning from music menu to idle mode
 
----### def mas_canCheckActiveWindow()
+---
+
+### def mas_canCheckActiveWindow()
 
 Checks if we can check the active window (simplifies conditionals)
 
----### def mas_getActiveWindowHandle()
+---
+
+### def mas_getActiveWindowHandle()
 
 Gets the active window name
 
 **Returns:**<br>
 The active window handle if found. If it is not possible to get, we return an empty string
 
----### def mas_display_notif(title, body, group=None, skip_checks=False)
+---
+
+### def mas_display_notif(title, body, group=None, skip_checks=False)
 
 Notification creation method
 
@@ -2288,11 +2856,15 @@ Notification creation method
 **Returns:**<br>
 bool indicating status (notif shown or not (by check))
 
----### def mas_isFocused()
+---
+
+### def mas_isFocused()
 
 Checks if MAS is the focused window
 
----### def mas_isInActiveWindow(regexp, active_window_handle=None)
+---
+
+### def mas_isInActiveWindow(regexp, active_window_handle=None)
 
 Checks if ALL keywords are in the active window name
 
@@ -2301,117 +2873,175 @@ Checks if ALL keywords are in the active window name
 - `active_window_handle` &mdash;  String representing the handle of the active window If None, it's fetched (Default: None)
 
 
----### def mas_clearNotifs()
+---
+
+### def mas_clearNotifs()
 
 Clears all tray icons (also action center on win10)
 
----### def mas_checkForWindowReacts()
+---
+
+### def mas_checkForWindowReacts()
 
 Runs through events in the windowreact_db to see if we have a reaction, and if so, queue it
 
----### def mas_resetWindowReacts(excluded=persistent._mas_windowreacts_no_unlock_list)
+---
+
+### def mas_resetWindowReacts(excluded=persistent._mas_windowreacts_no_unlock_list)
 
 Runs through events in the windowreact_db to unlock them
 
----### def mas_updateFilterDict()
+---
+
+### def mas_updateFilterDict()
 
 Updates the filter dict with the groups in the groups list for the settings menu
 
----### def mas_addBlacklistReact(ev_label)
+---
+
+### def mas_addBlacklistReact(ev_label)
 
 Adds the given ev_label to the no unlock list
 
----### def mas_removeBlacklistReact(ev_label)
+---
+
+### def mas_removeBlacklistReact(ev_label)
 
 Removes the given ev_label to the no unlock list if exists
 
----### def mas_notifsEnabledForGroup(group)
+---
+
+### def mas_notifsEnabledForGroup(group)
 
 Checks if notifications are enabled, and if enabled for the specified group
 
----### def mas_unlockFailedWRS(ev_label=None)
+---
+
+### def mas_unlockFailedWRS(ev_label=None)
 
 Unlocks a wrs again provided that it showed, but failed to show (failed checks in the notif label)
 
----### def mas_prepForReload()
+---
+
+### def mas_prepForReload()
 
 Handles clearing wrs notifs and unregistering the wndclass to allow 'reload' to work properly
 
----### def mas_HKRaiseShield()
+---
+
+### def mas_HKRaiseShield()
 
 RUNTIME ONLY Disables main hotkeys and music controller keys
 
----### def mas_HKDropShield()
+---
+
+### def mas_HKDropShield()
 
 RUNTIME ONLY Enables the main hotkeys and music controller keys
 
----### def mas_HKRaiseShield_main()
+---
+
+### def mas_HKRaiseShield_main()
 
 RUNTIME ONLY Disables main hotkeys
 
----### def mas_HKDropShield_main()
+---
+
+### def mas_HKDropShield_main()
 
 RUNTIME ONLY Enables main hotkeys
 
----### def mas_HKIsEnabled()
+---
+
+### def mas_HKIsEnabled()
 
 **Returns:**<br>
 True if all the main hotkeys are enabled, False otherwise
 
----### def mas_HKCanQuietMusic()
+---
+
+### def mas_HKCanQuietMusic()
 
 **Returns:**<br>
 True if we can lower or stop the music, False if not
 
----### def mas_HKIsSettingsClosed()
+---
+
+### def mas_HKIsSettingsClosed()
 
 **Returns:**<br>
 True if the settings is closed, False otherwise
 
----### def mas_HKAllowHotkey()
+---
+
+### def mas_HKAllowHotkey()
 
 ALWAYS CHECK THIS WHEN DOING ANYTHING THAT BREAKS FLOW.  Otherwise you may break the game if the game menu opens while something else breaks the context.
 
 **Returns:**<br>
 True if hotkey is allowed to be used now, False otherwise
 
----### def enable_esc()
+---
+
+### def enable_esc()
 
 Enables the escape key so you can go to the game menu
 
----### def disable_esc()
+---
+
+### def disable_esc()
 
 disables the escape key so you cant go to game menu
 
----### def set_keymaps()
+---
 
----### def HKBHideButtons()
+### def set_keymaps()
 
----### def HKBShowButtons()
+---
 
----### def mas_HKBRaiseShield()
+### def HKBHideButtons()
+
+---
+
+### def HKBShowButtons()
+
+---
+
+### def mas_HKBRaiseShield()
 
 RUNTIME ONLY Disables the hotkey buttons
 
----### def mas_HKBDropShield()
+---
+
+### def mas_HKBDropShield()
 
 RUNTIME ONLY Enables the hotkey buttons
 
----### def mas_HKBIsEnabled()
+---
+
+### def mas_HKBIsEnabled()
 
 **Returns:**<br>
 True if all the buttons are enabled, False otherwise
 
----### def mas_HKBIsVisible()
+---
+
+### def mas_HKBIsVisible()
 
 **Returns:**<br>
 True if teh Hotkey buttons are visible, False otherwise
 
----### def MovieOverlayHideButtons()
+---
 
----### def MovieOverlayShowButtons()
+### def MovieOverlayHideButtons()
 
----### def mas_derandom_topic(ev_label=None)
+---
+
+### def MovieOverlayShowButtons()
+
+---
+
+### def mas_derandom_topic(ev_label=None)
 
 Function for the derandom hotkey, 'x'
 
@@ -2419,7 +3049,9 @@ Function for the derandom hotkey, 'x'
 - `ev_label` &mdash; label of the event we want to derandom. (Optional. If None, persistent.current_monikatopic is used) (Default: None)
 
 
----### def mas_bookmark_topic(ev_label=None)
+---
+
+### def mas_bookmark_topic(ev_label=None)
 
 Function for the bookmark hotkey, 'b'
 
@@ -2427,7 +3059,9 @@ Function for the bookmark hotkey, 'b'
 - `ev_label` &mdash; label of the event we want to bookmark. (Optional, defaults to persistent.current_monikatopic)
 
 
----### def mas_hasBookmarks(persist_var=None)
+---
+
+### def mas_hasBookmarks(persist_var=None)
 
 Checks to see if we have bookmarks to show  Bookmarks are restricted to Normal+ affection and to topics that are unlocked and are available based on current affection
 
@@ -2438,7 +3072,9 @@ Checks to see if we have bookmarks to show  Bookmarks are restricted to Normal+ 
 **Returns:**<br>
 boolean: True if there are bookmarks in the curent var False otherwise
 
----### def mas_setupIdleMode(brb_label=None, brb_callback_label=None)
+---
+
+### def mas_setupIdleMode(brb_label=None, brb_callback_label=None)
 
 Setups idle mode
 
@@ -2447,7 +3083,9 @@ Setups idle mode
 - `brb_callback_label` &mdash; the callback label of this brb event, if None, we build it here (Default: None)
 
 
----### def mas_resetIdleMode(clear_idle_data=True)
+---
+
+### def mas_resetIdleMode(clear_idle_data=True)
 
 Resets idle mode  This is meant to basically clear idle mode for holidays or other things that hijack main flow
 
@@ -2458,13 +3096,21 @@ Resets idle mode  This is meant to basically clear idle mode for holidays or oth
 **Returns:**<br>
 string with idle callback label or None if it was reset before
 
----### def replace_text(s)
+---
 
----### def game_menu_check()
+### def replace_text(s)
 
----### def force_integer_multiplier(width, height)
+---
 
----### def addEvent(event, eventdb=None, skipCalendar=True, restartBlacklist=False, markSeen=False, code='EVE')
+### def game_menu_check()
+
+---
+
+### def force_integer_multiplier(width, height)
+
+---
+
+### def addEvent(event, eventdb=None, skipCalendar=True, restartBlacklist=False, markSeen=False, code='EVE')
 
 Adds an event object to the given eventdb dict Properly checksfor label and conditional statements This function ensures that a bad item is not added to the database
 
@@ -2477,7 +3123,9 @@ Adds an event object to the given eventdb dict Properly checksfor label and cond
 - `code` &mdash; code of the event database to add to. (Default: EVE) - event database
 
 
----### def hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=evhand.event_database)
+---
+
+### def hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=evhand.event_database)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -2487,7 +3135,9 @@ Adds an event object to the given eventdb dict Properly checksfor label and cond
 - `@store.mas_utils.deprecated(use_instead='mas_hideEVL', should_raise=True)`
 
 
----### def hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
+---
+
+### def hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -2497,7 +3147,9 @@ Adds an event object to the given eventdb dict Properly checksfor label and cond
 - `@store.mas_utils.deprecated(use_instead='mas_hideEvent')`
 
 
----### def mas_hideEvent(ev, lock=False, derandom=False, depool=False, decond=False)
+---
+
+### def mas_hideEvent(ev, lock=False, derandom=False, depool=False, decond=False)
 
 Hide an event by Falsing its unlocked/random/pool props
 
@@ -2509,7 +3161,9 @@ Hide an event by Falsing its unlocked/random/pool props
 - `decond` &mdash; True if we want to remove the conditional, False if not (Default: False)
 
 
----### def mas_hideEventLabel(ev_label, lock=False, derandom=False, depool=False, decond=False, eventdb=evhand.event_database)
+---
+
+### def mas_hideEventLabel(ev_label, lock=False, derandom=False, depool=False, decond=False, eventdb=evhand.event_database)
 
 Hide an event label by Falsing its unlocked/random/pool props
 
@@ -2522,7 +3176,9 @@ Hide an event label by Falsing its unlocked/random/pool props
 - `eventdb` &mdash; event databsae ev_label is in (Default: evhand.event_database)
 
 
----### def mas_showEvent(ev, unlock=False, _random=False, _pool=False)
+---
+
+### def mas_showEvent(ev, unlock=False, _random=False, _pool=False)
 
 Show an event by Truing its unlock/ranomd/pool props
 
@@ -2533,7 +3189,9 @@ Show an event by Truing its unlock/ranomd/pool props
 - `_pool` &mdash; True if we want to pool this event, False otherwise (Default: False)
 
 
----### def mas_showEventLabel(ev_label, unlock=False, _random=False, _pool=False, eventdb=evhand.event_database)
+---
+
+### def mas_showEventLabel(ev_label, unlock=False, _random=False, _pool=False, eventdb=evhand.event_database)
 
 Shows an event label, by Truing the unlocked, random, and pool properties.
 
@@ -2545,7 +3203,9 @@ Shows an event label, by Truing the unlocked, random, and pool properties.
 - `eventdb` &mdash; eventdatabase this label belongs to (Default: evhannd.event_database)
 
 
----### def lockEvent(ev)
+---
+
+### def lockEvent(ev)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -2559,7 +3219,9 @@ Shows an event label, by Truing the unlocked, random, and pool properties.
 - `ev` &mdash; the event object to lock
 
 
----### def lockEventLabel(evlabel, eventdb=evhand.event_database)
+---
+
+### def lockEventLabel(evlabel, eventdb=evhand.event_database)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -2574,7 +3236,9 @@ Shows an event label, by Truing the unlocked, random, and pool properties.
 - `eventdb` &mdash; Event database to find this label
 
 
----### def mas_lockEvent(ev)
+---
+
+### def mas_lockEvent(ev)
 
 Locks the given event object
 
@@ -2582,7 +3246,9 @@ Locks the given event object
 - `ev` &mdash; the event object to lock
 
 
----### def mas_lockEventLabel(evlabel, eventdb=evhand.event_database)
+---
+
+### def mas_lockEventLabel(evlabel, eventdb=evhand.event_database)
 
 Locks the given event label
 
@@ -2591,7 +3257,9 @@ Locks the given event label
 - `eventdb` &mdash; Event database to find this label
 
 
----### def pushEvent(event_label, skipeval=False, notify=False)
+---
+
+### def pushEvent(event_label, skipeval=False, notify=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -2608,7 +3276,9 @@ This pushes high priority or time sensitive events onto the top of the event lis
 - `notify` &mdash; True will trigger a notification if appropriate. False will not (Default: False)
 
 
----### def queueEvent(event_label, notify=False)
+---
+
+### def queueEvent(event_label, notify=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -2624,7 +3294,9 @@ This adds low priority or order-sensitive events onto the bottom of the event li
 - `notify` &mdash; True will trigger a notification if appropriate, False will not (Default: False)
 
 
----### def unlockEvent(ev)
+---
+
+### def unlockEvent(ev)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -2638,7 +3310,9 @@ This adds low priority or order-sensitive events onto the bottom of the event li
 - `ev` &mdash; the event object to unlock
 
 
----### def unlockEventLabel(evlabel, eventdb=evhand.event_database)
+---
+
+### def unlockEventLabel(evlabel, eventdb=evhand.event_database)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -2653,7 +3327,9 @@ This adds low priority or order-sensitive events onto the bottom of the event li
 - `eventdb` &mdash; Event database to find this label
 
 
----### def mas_unlockEvent(ev)
+---
+
+### def mas_unlockEvent(ev)
 
 Unlocks the given evnet object
 
@@ -2661,7 +3337,9 @@ Unlocks the given evnet object
 - `ev` &mdash; the event object to unlock
 
 
----### def mas_unlockEventLabel(evlabel, eventdb=evhand.event_database)
+---
+
+### def mas_unlockEventLabel(evlabel, eventdb=evhand.event_database)
 
 Unlocks the given event label
 
@@ -2670,7 +3348,9 @@ Unlocks the given event label
 - `eventdb` &mdash; Event database to find this label
 
 
----### def isFuture(ev, date=None)
+---
+
+### def isFuture(ev, date=None)
 
 Checks if the start_date of the given event happens after the given time.
 
@@ -2682,7 +3362,9 @@ Checks if the start_date of the given event happens after the given time.
 **Returns:**<br>
 True if the Event's start_date is in the future, False otherwise
 
----### def isPast(ev, date=None)
+---
+
+### def isPast(ev, date=None)
 
 Checks if the end_date of the given event happens before the given time.
 
@@ -2694,7 +3376,9 @@ Checks if the end_date of the given event happens before the given time.
 **Returns:**<br>
 True if the Event's end_date is in the past, False otherwise
 
----### def isPresent(ev)
+---
+
+### def isPresent(ev)
 
 Checks if current date falls within the given event's start/end date range
 
@@ -2705,7 +3389,9 @@ Checks if current date falls within the given event's start/end date range
 **Returns:**<br>
 True if current time is inside the  Event's start_date/end_date interval, False otherwise
 
----### def popEvent(remove=True)
+---
+
+### def popEvent(remove=True)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -2717,15 +3403,21 @@ DO NOT USE.  Use MASEventList.pop instead (not exactly the same)
 - `@store.mas_utils.deprecated(use_instead='MASEventList.pop', should_raise=True)`
 
 
----### def seen_event(event_label)
+---
+
+### def seen_event(event_label)
 
 Please use mas_seenEvent, this function hasn't been deprecated only because it's used a lot in event conditionals and I don't want to update them all
 
----### def mas_seenEvent(event_label)
+---
+
+### def mas_seenEvent(event_label)
 
 This checks if an event has either been seen or is already in the event list.
 
----### def mas_findEVL(event_label)
+---
+
+### def mas_findEVL(event_label)
 
 Finds index of the given event label in the even tlist
 
@@ -2736,7 +3428,9 @@ Finds index of the given event label in the even tlist
 **Returns:**<br>
 index of the event in teh even tlist, -1 if not found
 
----### def mas_inEVL(event_label)
+---
+
+### def mas_inEVL(event_label)
 
 This checks if an event is in the event list
 
@@ -2747,19 +3441,27 @@ This checks if an event is in the event list
 **Returns:**<br>
 True if in event list, False if not
 
----### def mas_rmEVL(event_label)
+---
+
+### def mas_rmEVL(event_label)
 
 REmoves an event from the event list if it exists
 
----### def mas_rmallEVL(event_label)
+---
+
+### def mas_rmallEVL(event_label)
 
 Removes all events with athe given label
 
----### def restartEvent()
+---
+
+### def restartEvent()
 
 This checks if there is a persistent topic, and if there was push it back on the stack with a little comment.
 
----### def mas_isRstBlk(topic_label)
+---
+
+### def mas_isRstBlk(topic_label)
 
 Checks if the event with the current label is blacklistd from being restarted
 
@@ -2767,11 +3469,15 @@ Checks if the event with the current label is blacklistd from being restarted
 - `topic_label` &mdash; label of the event we are trying to restart
 
 
----### def mas_cleanEventList()
+---
+
+### def mas_cleanEventList()
 
 Iterates through the event list and removes items which shouldn't be restarted
 
----### def mas_cleanJustSeen(eventlist, db)
+---
+
+### def mas_cleanJustSeen(eventlist, db)
 
 Cleans the given event list of just seen items (withitn the THRESHOLD) retunrs not just seen items
 
@@ -2783,7 +3489,9 @@ Cleans the given event list of just seen items (withitn the THRESHOLD) retunrs n
 **Returns:**<br>
 cleaned list of events (stuff not in the time THREASHOLD)
 
----### def mas_cleanJustSeenEV(ev_list)
+---
+
+### def mas_cleanJustSeenEV(ev_list)
 
 Cleans the given event list (of events) of just seen items (within the THRESHOLD). Returns not just seen items. Basically the same as mas_cleanJustSeen, except for Event object lists
 
@@ -2794,7 +3502,9 @@ Cleans the given event list (of events) of just seen items (within the THRESHOLD
 **Returns:**<br>
 cleaned list of events (stuff not in the tiem THRESHOLD)
 
----### def mas_unlockPrompt(count=1)
+---
+
+### def mas_unlockPrompt(count=1)
 
 Unlocks a pool event
 
@@ -2805,7 +3515,9 @@ Unlocks a pool event
 **Returns:**<br>
 True if an event was unlocked. False otherwise
 
----### def mas_getBackground(background_id, default=None)
+---
+
+### def mas_getBackground(background_id, default=None)
 
 Gets a MASFilterableBackground by id
 
@@ -2817,7 +3529,9 @@ Gets a MASFilterableBackground by id
 **Returns:**<br>
 MASFilterableBackground if found, None otherwise
 
----### def mas_getCurrentBackgroundId(default=None)
+---
+
+### def mas_getCurrentBackgroundId(default=None)
 
 Returns the id of the current background
 
@@ -2828,7 +3542,9 @@ Returns the id of the current background
 **Returns:**<br>
 string - the bg id or default if not found
 
----### def mas_isBackgroundUnlocked(id_)
+---
+
+### def mas_isBackgroundUnlocked(id_)
 
 Checks if a background with the given id is unlocked
 
@@ -2839,7 +3555,9 @@ Checks if a background with the given id is unlocked
 **Returns:**<br>
 boolean
 
----### def mas_check_event_types(per_db, str_buffer=None, str_rep=True)
+---
+
+### def mas_check_event_types(per_db, str_buffer=None, str_rep=True)
 
 Goes through given persistent database for events and double checks types. Returns a string report.
 
@@ -2852,14 +3570,18 @@ Goes through given persistent database for events and double checks types. Retur
 **Returns:**<br>
 string report int he given buffer
 
----### def mas_largest_persistent_item()
+---
+
+### def mas_largest_persistent_item()
 
 Determines largest item in persistent
 
 **Returns:**<br>
 tuple of the following format: [0] - key of item [1] - size of item
 
----### def mas_per_dump(item_key)
+---
+
+### def mas_per_dump(item_key)
 
 Dumps something from persistent
 
@@ -2867,7 +3589,9 @@ Dumps something from persistent
 - `item_key` &mdash; the string name of the item to dump
 
 
----### def mas_per_dump_dict(dkey)
+---
+
+### def mas_per_dump_dict(dkey)
 
 Dumps an output of a persistent dict
 
@@ -2875,7 +3599,9 @@ Dumps an output of a persistent dict
 - `dkey` &mdash; the string name of the dict to dump
 
 
----### def mas_per_dump_list(lkey)
+---
+
+### def mas_per_dump_list(lkey)
 
 Dumps an output of a persistent list
 
@@ -2883,17 +3609,29 @@ Dumps an output of a persistent list
 - `lkey` &mdash; the string name of the list to dump
 
 
----### def dev_api_key_tester(key)
+---
 
----### def dev_api_key_tester_error(key)
+### def dev_api_key_tester(key)
 
----### def dev_api_key_tester_returns_not_tuple(key)
+---
 
----### def dev_api_key_tester_returns_not_long_enough(key)
+### def dev_api_key_tester_error(key)
 
----### def dev_api_key_tester_false_not_valid_error_msg(key)
+---
 
----### def dev_register_multipleAPI(count)
+### def dev_api_key_tester_returns_not_tuple(key)
+
+---
+
+### def dev_api_key_tester_returns_not_long_enough(key)
+
+---
+
+### def dev_api_key_tester_false_not_valid_error_msg(key)
+
+---
+
+### def dev_register_multipleAPI(count)
 
 For testing - use to register a ton of api keys
 
@@ -2901,7 +3639,9 @@ For testing - use to register a ton of api keys
 - `count` &mdash; number of keys to register
 
 
----### def mas_canShowIslands(flt=None)
+---
+
+### def mas_canShowIslands(flt=None)
 
 Global check for whether or not we can show the islands event This only checks the technical side, NOT event unlocks
 
@@ -2912,7 +3652,9 @@ Global check for whether or not we can show the islands event This only checks t
 **Returns:**<br>
 boolean
 
----### def mas_startupPlushieLogic(chance=4)
+---
+
+### def mas_startupPlushieLogic(chance=4)
 
 Runs a simple random check for the quetzal plushie.
 
@@ -2920,11 +3662,15 @@ Runs a simple random check for the quetzal plushie.
 - `chance` &mdash; value that determines the chance of that determines if the plushie will appear Defualts to 4
 
 
----### def mas_incMoniReload()
+---
+
+### def mas_incMoniReload()
 
 Increments the monika reload counter unless its at max
 
----### def mas_isFirstSeshDay(_date=None)
+---
+
+### def mas_isFirstSeshDay(_date=None)
 
 Checks if _date is the day of first session
 
@@ -2932,15 +3678,21 @@ Checks if _date is the day of first session
 - `_date` &mdash; date to compare against
 
 
----### def mas_hasRPYFiles()
+---
+
+### def mas_hasRPYFiles()
 
 Checks if there are rpy files in the gamedir
 
----### def mas_getRPYFiles()
+---
+
+### def mas_getRPYFiles()
 
 Gets a list of rpy files in the gamedir
 
----### def mas_is18Over(_date=None)
+---
+
+### def mas_is18Over(_date=None)
 
 Checks if player is over 18
 
@@ -2951,7 +3703,9 @@ Checks if player is over 18
 **Returns:**<br>
 boolean: - True if player is over 18 - False otherwise
 
----### def mas_getPlayerAge(_date=None)
+---
+
+### def mas_getPlayerAge(_date=None)
 
 Gets the player age
 
@@ -2962,7 +3716,9 @@ Gets the player age
 **Returns:**<br>
 integer representing the player's current age or None if we don't have player's bday
 
----### def mas_canShowRisque(aff_thresh=2000, grace=None)
+---
+
+### def mas_canShowRisque(aff_thresh=2000, grace=None)
 
 Checks if we can show something risque  Conditions for this: 1. Player has had first kiss (No point going for risque things if this hasn't been met yet) 2. Player is over 18 3. Aff condition (raw)
 
@@ -2974,7 +3730,9 @@ Checks if we can show something risque  Conditions for this: 1. Player has had f
 **Returns:**<br>
 boolean: - True if the above conditions are satisfied - False if not
 
----### def mas_timePastSince(timekeeper, passed_time, _now=None)
+---
+
+### def mas_timePastSince(timekeeper, passed_time, _now=None)
 
 Checks if a certain amount of time has passed since the time in the timekeeper
 
@@ -2987,7 +3745,9 @@ Checks if a certain amount of time has passed since the time in the timekeeper
 **Returns:**<br>
 boolean: - True if it has been passed_time units past timekeeper - False otherwise
 
----### def mas_pastOneDay(timekeeper, _now=None)
+---
+
+### def mas_pastOneDay(timekeeper, _now=None)
 
 One day time past version of mas_timePastSince()
 
@@ -2996,11 +3756,15 @@ One day time past version of mas_timePastSince()
 - `_now` &mdash; time to check against (Default: None)
 
 
----### def mas_setTODVars()
+---
+
+### def mas_setTODVars()
 
 Sets the mas_globals.time_of_day variable
 
----### def mas_seenLabels(label_list, seen_all=False)
+---
+
+### def mas_seenLabels(label_list, seen_all=False)
 
 List format for renpy.seen_label. Allows checking if we've seen multiple labels at once
 
@@ -3012,7 +3776,9 @@ List format for renpy.seen_label. Allows checking if we've seen multiple labels 
 **Returns:**<br>
 boolean: - True if we have seen the inputted labels and met the seen_all criteria - False otherwise
 
----### def mas_a_an_str(ref_str, ignore_case=True)
+---
+
+### def mas_a_an_str(ref_str, ignore_case=True)
 
 Takes in a reference string and returns it back with an 'a' prefix or 'an' prefix depending on starting letter
 
@@ -3024,7 +3790,9 @@ Takes in a reference string and returns it back with an 'a' prefix or 'an' prefi
 **Returns:**<br>
 string prefixed with a/an
 
----### def mas_a_an(ref_str, ignore_case=True)
+---
+
+### def mas_a_an(ref_str, ignore_case=True)
 
 Takes in a reference string and returns either a/an based on the first letter of the word
 
@@ -3036,7 +3804,9 @@ Takes in a reference string and returns either a/an based on the first letter of
 **Returns:**<br>
 a/an based on the ref string
 
----### def mas_setEventPause(seconds=60)
+---
+
+### def mas_setEventPause(seconds=60)
 
 Sets a pause 'til next event
 
@@ -3044,7 +3814,9 @@ Sets a pause 'til next event
 - `seconds` &mdash; the number of seconds to pause for. Can be None to remove pause (Default: 60)
 
 
----### def mas_getCurrentMoniExp(layer='master')
+---
+
+### def mas_getCurrentMoniExp(layer='master')
 
 Returns Monika's current expression
 
@@ -3055,9 +3827,13 @@ Returns Monika's current expression
 **Returns:**<br>
 string with sprite code or None if we couldn't get the exp (e.g. if Monika isn't on the screen)
 
----### def FinishEnterName()
+---
 
----### def mas_lastSeenInYear(ev_label, year=None)
+### def FinishEnterName()
+
+---
+
+### def mas_lastSeenInYear(ev_label, year=None)
 
 Checks whether or not the even was last seen in the year provided
 
@@ -3069,15 +3845,21 @@ Checks whether or not the even was last seen in the year provided
 **Returns:**<br>
 boolean - True if last seen this year, False otherwise
 
----### def mas_lastSeenLastYear(ev_label)
+---
+
+### def mas_lastSeenLastYear(ev_label)
 
 Checks if the event corresponding to ev_label was last seen last year
 
----### def mas_after_bath_cleanup_change_outfit()
+---
+
+### def mas_after_bath_cleanup_change_outfit()
 
 After bath cleanup change outfit code
 
----### def mas_generateShoppingList(low_cons_list=None)
+---
+
+### def mas_generateShoppingList(low_cons_list=None)
 
 Generates a list of consumables we're low on in the form of a 'shopping list' and exports it to the characters folder
 
@@ -3085,7 +3867,9 @@ Generates a list of consumables we're low on in the form of a 'shopping list' an
 - `low_cons_list` &mdash; List of MASConsumable objects that we're low on
 
 
----### def mas_getConsumable(consumable_id)
+---
+
+### def mas_getConsumable(consumable_id)
 
 Gets a consumable object by type and id
 
@@ -3096,11 +3880,15 @@ Gets a consumable object by type and id
 **Returns:**<br>
 Consumable object: If found, MASConsumable If not found, None
 
----### def mas_useThermos()
+---
+
+### def mas_useThermos()
 
 Gets Monika to put her drink into a thermos when taking her somewhere if it is eligible
 
----### def mas_getEV(ev_label)
+---
+
+### def mas_getEV(ev_label)
 
 Global get function that retreives an event given the label  Designed to be used as a wrapper around the mas_all_ev_db dict
 
@@ -3111,7 +3899,9 @@ Global get function that retreives an event given the label  Designed to be used
 **Returns:**<br>
 the event object you were looking for, or None if not found
 
----### def mas_checkEVL(ev_label, predicate)
+---
+
+### def mas_checkEVL(ev_label, predicate)
 
 Checks event properties using a lambda
 
@@ -3123,7 +3913,9 @@ Checks event properties using a lambda
 **Returns:**<br>
 True if predicate function returns True, False otherwise
 
----### def mas_getEVLPropValue(ev_label, prop, default=None)
+---
+
+### def mas_getEVLPropValue(ev_label, prop, default=None)
 
 Safely gets an ev prop value
 
@@ -3136,7 +3928,9 @@ Safely gets an ev prop value
 **Returns:**<br>
 Value of the given property name, or default if not found/no ev exists
 
----### def mas_setEVLPropValues(ev_label)
+---
+
+### def mas_setEVLPropValues(ev_label)
 
 Sets ev prop values in bulk if the ev exists
 
@@ -3148,7 +3942,9 @@ Sets ev prop values in bulk if the ev exists
 **Returns:**<br>
 True if the property/ies was/were set False if not (ev does not exist)
 
----### def mas_isPoolEVL(ev_label)
+---
+
+### def mas_isPoolEVL(ev_label)
 
 Checks if the event for the given event label is pool
 
@@ -3159,7 +3955,9 @@ Checks if the event for the given event label is pool
 **Returns:**<br>
 True if the ev is pooled, False if not, or the ev doesn't exist
 
----### def mas_isRandomEVL(ev_label)
+---
+
+### def mas_isRandomEVL(ev_label)
 
 Checks if the event for the given event label is random
 
@@ -3170,7 +3968,9 @@ Checks if the event for the given event label is random
 **Returns:**<br>
 True if the ev is random, False if not, or the ev doesn't exist
 
----### def mas_isUnlockedEVL(ev_label)
+---
+
+### def mas_isUnlockedEVL(ev_label)
 
 Checks if the event for the given event label is unlocked
 
@@ -3181,7 +3981,9 @@ Checks if the event for the given event label is unlocked
 **Returns:**<br>
 True if the ev is unlocked, False if not, or the ev doesn't exist
 
----### def mas_getEVL_last_seen(ev_label, default=None)
+---
+
+### def mas_getEVL_last_seen(ev_label, default=None)
 
 Gets the last_seen from the event corresponding to the given eventlabel  If the event doesn't exist, the default is returned
 
@@ -3193,7 +3995,9 @@ Gets the last_seen from the event corresponding to the given eventlabel  If the 
 **Returns:**<br>
 The last_seen of the ev, or the default if the event doesn't exist
 
----### def mas_getEVL_shown_count(ev_label, default=0)
+---
+
+### def mas_getEVL_shown_count(ev_label, default=0)
 
 Gets the shown_count from the event corresponding to the given eventlabel  If the event doesn't exist, the default is returned
 
@@ -3205,7 +4009,9 @@ Gets the shown_count from the event corresponding to the given eventlabel  If th
 **Returns:**<br>
 The shown_count of the ev, or the default if the event doesn't exist
 
----### def mas_inRulesEVL(ev_label)
+---
+
+### def mas_inRulesEVL(ev_label)
 
 Checks if keys are in the event's rules dict
 
@@ -3216,7 +4022,9 @@ Checks if keys are in the event's rules dict
 **Returns:**<br>
 True if all rule keys provided are in an event object's rules dict False if the event doesn't exist or any provided keys aren't present in the rules dict
 
----### def mas_assignModifyEVLPropValue(ev_label, propname, operation, value)
+---
+
+### def mas_assignModifyEVLPropValue(ev_label, propname, operation, value)
 
 Does an assign-modify operation
 
@@ -3230,7 +4038,9 @@ Does an assign-modify operation
 **Returns:**<br>
 True if event values were assign/modified successfully False otherwise
 
----### def mas_getEVCL(ev_label)
+---
+
+### def mas_getEVCL(ev_label)
 
 Global get function that retrieves the calendar label for an event given the eventlabel. This is mainly to help with calendar.
 
@@ -3241,7 +4051,9 @@ Global get function that retrieves the calendar label for an event given the eve
 **Returns:**<br>
 the calendar label you were looking for, or "Unknown Event" if not found.
 
----### def mas_hideEVL(ev_label, code, lock=False, derandom=False, depool=False, decond=False)
+---
+
+### def mas_hideEVL(ev_label, code, lock=False, derandom=False, depool=False, decond=False)
 
 Hides an event given label and code.
 
@@ -3254,7 +4066,9 @@ Hides an event given label and code.
 - `decond` &mdash; True if we want to remove conditoinal for this event (Default: False)
 
 
----### def mas_showEVL(ev_label, code, unlock=False, _random=False, _pool=False)
+---
+
+### def mas_showEVL(ev_label, code, unlock=False, _random=False, _pool=False)
 
 Shows an event given label and code.
 
@@ -3266,7 +4080,9 @@ Shows an event given label and code.
 - `_pool` &mdash; True if we want to random thsi event (Default: False)
 
 
----### def mas_protectedShowEVL(ev_label, code, unlock=False, _random=False, _pool=False)
+---
+
+### def mas_protectedShowEVL(ev_label, code, unlock=False, _random=False, _pool=False)
 
 Shows an event given label and code.  Does checking if the actions should happen
 
@@ -3278,7 +4094,9 @@ Shows an event given label and code.  Does checking if the actions should happen
 - `_pool` &mdash; True if we want to random thsi event (Default: False)
 
 
----### def mas_lockEVL(ev_label, code)
+---
+
+### def mas_lockEVL(ev_label, code)
 
 Locks an event given label and code.
 
@@ -3287,7 +4105,9 @@ Locks an event given label and code.
 - `code` &mdash; string code of the db this ev_label belongs to
 
 
----### def mas_unlockEVL(ev_label, code)
+---
+
+### def mas_unlockEVL(ev_label, code)
 
 Unlocks an event given label and code.
 
@@ -3296,7 +4116,9 @@ Unlocks an event given label and code.
 - `code` &mdash; string code of the db this ev_label belongs to
 
 
----### def mas_stripEVL(ev_label, list_pop=False, remove_dates=True)
+---
+
+### def mas_stripEVL(ev_label, list_pop=False, remove_dates=True)
 
 Strips the conditional and action properties from an event given its label start_date and end_date will be removed if remove_dates is True Also removes the event from the event list if present (optional)
 
@@ -3306,7 +4128,9 @@ Strips the conditional and action properties from an event given its label start
 - `remove_dates` &mdash; True if we want to remove start/end_dates from the event (Default: True)
 
 
----### def mas_flagEVL(ev_label, code, flags)
+---
+
+### def mas_flagEVL(ev_label, code, flags)
 
 Applies flags to the given event
 
@@ -3316,7 +4140,9 @@ Applies flags to the given event
 - `flags` &mdash; flags to apply
 
 
----### def mas_unflagEVL(ev_label, code, flags)
+---
+
+### def mas_unflagEVL(ev_label, code, flags)
 
 Unflags flags from the given event
 
@@ -3326,7 +4152,9 @@ Unflags flags from the given event
 - `flags` &mdash; flags to unset
 
 
----### def mas_transferTopicData(new_topic_evl, old_topic_evl, old_topic_ev_db, transfer_unlocked=True, transfer_shown_count=True, transfer_seen_data=True, transfer_last_seen=True, erase_topic=True)
+---
+
+### def mas_transferTopicData(new_topic_evl, old_topic_evl, old_topic_ev_db, transfer_unlocked=True, transfer_shown_count=True, transfer_seen_data=True, transfer_last_seen=True, erase_topic=True)
 
 Transfers topic data from ev to ev
 
@@ -3341,7 +4169,9 @@ Transfers topic data from ev to ev
 - `erase_topic` &mdash; whether or not we should erase this topic after transferring data
 
 
----### def mas_isGameUnlocked(gamename)
+---
+
+### def mas_isGameUnlocked(gamename)
 
 Checks if the given game is unlocked.
 
@@ -3352,7 +4182,9 @@ Checks if the given game is unlocked.
 **Returns:**<br>
 True if the game is unlocked, False if not, or the game doesn't exist
 
----### def mas_unlockGame(gamename)
+---
+
+### def mas_unlockGame(gamename)
 
 Unlocks the given game.
 
@@ -3360,7 +4192,9 @@ Unlocks the given game.
 - `gamename` &mdash; name of the game to unlock
 
 
----### def mas_lockGame(gamename)
+---
+
+### def mas_lockGame(gamename)
 
 Locks the given game.
 
@@ -3368,7 +4202,9 @@ Locks the given game.
 - `gamename` &mdash; name of the game to lock
 
 
----### def mas_addClothesToHolidayMap(clothes, key=None)
+---
+
+### def mas_addClothesToHolidayMap(clothes, key=None)
 
 Adds the given clothes to the holiday clothes map
 
@@ -3377,7 +4213,9 @@ Adds the given clothes to the holiday clothes map
 - `key` &mdash; dateime.date to use as key. If None, we use today
 
 
----### def mas_addClothesToHolidayMapRange(clothes, start_date, end_date)
+---
+
+### def mas_addClothesToHolidayMapRange(clothes, start_date, end_date)
 
 Adds the given clothes to the holiday clothes map over the day range provided
 
@@ -3387,7 +4225,9 @@ Adds the given clothes to the holiday clothes map over the day range provided
 - `end_date` &mdash; datetime.date to stop adding to the map on
 
 
----### def mas_doesBackgroundHaveHolidayDeco(deco_tags, background_id=None)
+---
+
+### def mas_doesBackgroundHaveHolidayDeco(deco_tags, background_id=None)
 
 Checks if a background has support for the given deco tag(s)
 
@@ -3396,11 +4236,15 @@ Checks if a background has support for the given deco tag(s)
 - `background_id` &mdash; id of the background to check if it supports deco If None, mas_current_background's id is used (Default: None)
 
 
----### def mas_backgroundUpdateCheck()
+---
+
+### def mas_backgroundUpdateCheck()
 
 This launches the background update thread
 
----### def mas_get_player_nickname(capitalize=False, exclude_names=[], _default=None, regex_replace_with_nullstr=None)
+---
+
+### def mas_get_player_nickname(capitalize=False, exclude_names=[], _default=None, regex_replace_with_nullstr=None)
 
 Picks a nickname for the player at random based on accepted nicknames
 
@@ -3411,7 +4255,9 @@ Picks a nickname for the player at random based on accepted nicknames
 - `regex_replace_with_nullstr` &mdash; Regex str to use to identify parts of a nickname which should be replaced with an empty string. If None, this is ignored (Default: None)
 
 
----### def mas_input(prompt, default='', allow=None, exclude='{}', length=None, with_none=None, pixel_width=None, screen='input', screen_kwargs={})
+---
+
+### def mas_input(prompt, default='', allow=None, exclude='{}', length=None, with_none=None, pixel_width=None, screen='input', screen_kwargs={})
 
 Calling this function pops up a window asking the player to enter some text.
 
@@ -3430,14 +4276,18 @@ Calling this function pops up a window asking the player to enter some text.
 **Returns:**<br>
 entered string
 
----### def mas_getMousePos()
+---
+
+### def mas_getMousePos()
 
 Gets the mouse position in terms of physical screen size
 
 **Returns:**<br>
 tuple, (x, y) coordinates representing the mouse position
 
----### def mas_quipExp(exp_code)
+---
+
+### def mas_quipExp(exp_code)
 
 Allows expressions to be inserted into quips directly via function substitution  (This is effectively a renpy.show that returns '' instead of None)
 
@@ -3445,7 +4295,9 @@ Allows expressions to be inserted into quips directly via function substitution 
 - `exp_code` &mdash; code of the expression as str (ex: '1hua')
 
 
----### def mas_chgCalEVul(number_of_days)
+---
+
+### def mas_chgCalEVul(number_of_days)
 
 Changes the conditionals / actions / and more of the monika start date topic so it unlocks after the given number of days
 
@@ -3453,13 +4305,21 @@ Changes the conditionals / actions / and more of the monika start date topic so 
 - `number_of_days` &mdash; number of days before unlocking the monika start date topic
 
 
----### def mas_test_sitting()
+---
 
----### def mas_supertest()
+### def mas_test_sitting()
 
----### def mas_matrix_cache_report()
+---
 
----### def mas_build_mbgfm(mn_sr_size, mn_sr_d, sr_ss_size, sr_ss_d, ss_mn_size, ss_mn_d, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
+### def mas_supertest()
+
+---
+
+### def mas_matrix_cache_report()
+
+---
+
+### def mas_build_mbgfm(mn_sr_size, mn_sr_d, sr_ss_size, sr_ss_d, ss_mn_size, ss_mn_d, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
 
 Generates a MASBackgroundFilterManager using sample number of slice sizes.
 
@@ -3481,31 +4341,47 @@ Generates a MASBackgroundFilterManager using sample number of slice sizes.
 **Returns:**<br>
 MASBackgroundFilterManager object with the given settings
 
----### def mas_qb_mbgfm()
+---
 
----### def mas_qb_mbgfm_otm()
+### def mas_qb_mbgfm()
 
----### def mas_qb_mbgfm_irl()
+---
+
+### def mas_qb_mbgfm_otm()
+
+---
+
+### def mas_qb_mbgfm_irl()
 
 once slice for everything except day, which uses a 5 minute sunrise and sunset
 
----### def mas_OVLDropShield()
+---
+
+### def mas_OVLDropShield()
 
 RUNTIME ONLY Enables all overlay screens. This is like "dropping a shield" because it allows user interactions with the overlays.
 
----### def mas_OVLHide()
+---
+
+### def mas_OVLHide()
 
 RUNTIME ONLY Hides all overlay screens.
 
----### def mas_OVLRaiseShield()
+---
+
+### def mas_OVLRaiseShield()
 
 RUNTIME ONLY Disables all overlay screens. This is like "raising a shield" because it prevents user interactions with the overlays.
 
----### def mas_OVLShow()
+---
+
+### def mas_OVLShow()
 
 RUNTIME ONLY Shows all overlay screens.
 
----### def mas_setWeather(_weather)
+---
+
+### def mas_setWeather(_weather)
 
 Sets the initial weather. This is meant for startup/ch30_reset
 
@@ -3513,7 +4389,9 @@ Sets the initial weather. This is meant for startup/ch30_reset
 - `_weather` &mdash; weather to set to.
 
 
----### def mas_changeWeather(new_weather, by_user=None, set_persistent=False, new_bg=None)
+---
+
+### def mas_changeWeather(new_weather, by_user=None, set_persistent=False, new_bg=None)
 
 Changes weather without doing scene changes
 
@@ -3524,11 +4402,15 @@ Changes weather without doing scene changes
 - `new_bg` &mdash; MASFilterableBackground which will be switched to along with weather change. If none, mas_current_background is used. (Default: None)
 
 
----### def mas_startupWeather()
+---
+
+### def mas_startupWeather()
 
 Runs a weather startup alg, checking whether or not persistent weather should be used Sets weather accordingly
 
----### def mas_setBackground(_background)
+---
+
+### def mas_setBackground(_background)
 
 Sets the initial bg  Does not do anything if the current bg is same.
 
@@ -3536,7 +4418,9 @@ Sets the initial bg  Does not do anything if the current bg is same.
 - `_background` &mdash;  The background we're changing to. Assumes this is already built.
 
 
----### def mas_changeBackground(new_background, by_user=None, set_persistent=False)
+---
+
+### def mas_changeBackground(new_background, by_user=None, set_persistent=False)
 
 changes the background w/o any scene changes. Will not run progpoints or do any actual bg changes if the current background is already set to the background we are changing to.
 
@@ -3549,103 +4433,153 @@ changes the background w/o any scene changes. Will not run progpoints or do any 
 **Returns:**<br>
 MASBackgroundChangeInfo object of the changes that occured.
 
----### def mas_startupBackground()
+---
+
+### def mas_startupBackground()
 
 Sets up the spaceroom to start up in the background you left in if it is unlocked and still exists
 
----### def mas_checkBackgroundChangeDelegate()
+---
+
+### def mas_checkBackgroundChangeDelegate()
 
 Checks to see if the background change delegate should be locked or unlocked and changes its state accordingly  Key rule: at least 2 available backgrounds
 
----### def mas_remove_event()
+---
+
+### def mas_remove_event()
 
 Removes an event from the persistent database and lock DB
 
----### def mas_remove_event_list(label_list)
+---
+
+### def mas_remove_event_list(label_list)
 
 Does the same as mas_remove_event, but with a list
 
----### def pnmlLoadTuples()
+---
+
+### def pnmlLoadTuples()
 
 Loads piano note match lists from the saved data, wich is assumed to be in the proper format. No checking is done.
 
----### def pnmlSaveTuples()
+---
+
+### def pnmlSaveTuples()
 
 Saves piano not match list into a pickleable format.
 
----### def mas_reset_d25()
+---
+
+### def mas_reset_d25()
 
 Removes d25 events  Quits the game
 
----### def mas_reset_nye()
+---
+
+### def mas_reset_nye()
 
 Remogse nye events  Quist tehe game
 
----### def mas_reset_ptods()
+---
+
+### def mas_reset_ptods()
 
 Removes all PTODS from the lockDB and per_eventDB this basically allows them to be refreshed on next load.
 
----### def mas_ptod_warptime()
+---
+
+### def mas_ptod_warptime()
 
 Emulates moving forward 1 day by changing all currently unlocked python tips to have an unlock date of yesterday
 
----### def mas_ptod_unlocktip()
+---
+
+### def mas_ptod_unlocktip()
 
 Unlocks tips with the given numbers. This does not do warp time.
 
----### def mas_eventDataDump()
+---
+
+### def mas_eventDataDump()
 
 Data dump for purely events stats
 
----### def mas_unstableDataDump()
+---
+
+### def mas_unstableDataDump()
 
 This is a function called on startup and performs data dumps.  Please add your data dump to a different file than dumps.log if its a large dump.  Thank you.
 
----### def mas_progressionDataDump()
+---
+
+### def mas_progressionDataDump()
 
 Dumps progression data as a string
 
----### def mas_sessionDataDump()
+---
+
+### def mas_sessionDataDump()
 
 Dumps session data as a string
 
----### def mas_varDataDump()
+---
+
+### def mas_varDataDump()
 
 Dumps other kinds of data.
 
----### def mas_dataDumpFlag()
+---
+
+### def mas_dataDumpFlag()
 
 Checks if the data dump flag (file) exists
 
----### def mas_eventDataDump()
+---
+
+### def mas_eventDataDump()
 
 Data dump for purely events stats
 
----### def mas_unstableDataDump()
+---
+
+### def mas_unstableDataDump()
 
 This is a function called on startup and performs data dumps.  Please add your data dump to a different file than dumps.log if its a large dump.  Thank you.
 
----### def mas_progressionDataDump()
+---
+
+### def mas_progressionDataDump()
 
 Dumps progression data as a string
 
----### def mas_sessionDataDump()
+---
+
+### def mas_sessionDataDump()
 
 Dumps session data as a string
 
----### def mas_varDataDump()
+---
+
+### def mas_varDataDump()
 
 Dumps other kinds of data.
 
----### def mas_dataDumpFlag()
+---
+
+### def mas_dataDumpFlag()
 
 Checks if the data dump flag (file) exists
 
----### def label_callback(name, abnormal)
+---
+
+### def label_callback(name, abnormal)
 
 Function to run plugin functions and store the last label
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -3654,7 +4588,9 @@ Function to run plugin functions and store the last label
 
 Private function to run a function in the global store
 
----#### def __mas__extractNumbers(partname, filelist)
+---
+
+#### def __mas__extractNumbers(partname, filelist)
 
 Extracts a list of the number parts of the given file list  Also sorts them nicely
 
@@ -3663,7 +4599,9 @@ Extracts a list of the number parts of the given file list  Also sorts them nice
 - `filelist` &mdash; list of filenames
 
 
----#### def __mas__backupAndDelete(loaddir, org_fname, savedir=None, numnum=None)
+---
+
+#### def __mas__backupAndDelete(loaddir, org_fname, savedir=None, numnum=None)
 
 Does a file backup / and iterative deletion.
 
@@ -3677,37 +4615,51 @@ Does a file backup / and iterative deletion.
 **Returns:**<br>
 tuple of the following format: [0]: numbernumber we just made [1]: numbernumber we deleted (None means no deletion)
 
----#### def __mas__memoryBackup()
+---
+
+#### def __mas__memoryBackup()
 
 Backs up both persistent and calendar info
 
----#### def __mas__memoryCleanup()
+---
+
+#### def __mas__memoryCleanup()
 
 Cleans up persistent data by removing uncessary parts.
 
----#### def _mas_getBadFiles()
+---
+
+#### def _mas_getBadFiles()
 
 Searches through the entire mod_assets folder for any file with the '.new' extension and returns their paths
 
 **Returns:**<br>
 a list containing the file names, list will be empty if there was no 'bad' files
 
----#### def _mas_AffSave()
+---
+
+#### def _mas_AffSave()
 
 Runs saving algo for affection
 
----#### def _mas_AffLoad()
+---
+
+#### def _mas_AffLoad()
 
 Runs loading algo for affection
 
----#### def _mas_getAffection()
+---
+
+#### def _mas_getAffection()
 
 Tries to return current affection
 
 **Returns:**<br>
 float
 
----#### def _mas_getBadExp()
+---
+
+#### def _mas_getBadExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -3717,7 +4669,9 @@ float
 - `@mas_utils.deprecated(use_instead='_get_current_aff_lose')`
 
 
----#### def _mas_getGoodExp()
+---
+
+#### def _mas_getGoodExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -3727,7 +4681,9 @@ float
 - `@mas_utils.deprecated(use_instead='_get_current_aff_gain')`
 
 
----#### def _mas_getTodayExp()
+---
+
+#### def _mas_getTodayExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -3737,29 +4693,47 @@ float
 - `@mas_utils.deprecated()`
 
 
----#### def _get_current_aff_gain()
+---
 
----#### def _get_current_aff_lose()
+#### def _get_current_aff_gain()
 
----#### def _get_current_aff_fraction_lose()
+---
 
----#### def _mas_revertFreshStart()
+#### def _get_current_aff_lose()
+
+---
+
+#### def _get_current_aff_fraction_lose()
+
+---
+
+#### def _mas_revertFreshStart()
 
 Revert affection to before the fresh start
 
----#### def _mas_shatterAffection()
+---
+
+#### def _mas_shatterAffection()
 
 Sets affection to the lowest value
 
----#### def _mas_doFreshStart()
+---
+
+#### def _mas_doFreshStart()
 
 Resets affection
 
----#### def _m1_script0x2daffection__long_absence_check()
+---
 
----#### def _mas_AffStartup()
+#### def _m1_script0x2daffection__long_absence_check()
 
----#### def _write_txt(path, text, update=False)
+---
+
+#### def _mas_AffStartup()
+
+---
+
+#### def _write_txt(path, text, update=False)
 
 Writes the text file in the specified path using basedir as starting path
 
@@ -3769,52 +4743,76 @@ Writes the text file in the specified path using basedir as starting path
 - `update` &mdash; if it should override the file if it exists defaults to False
 
 
----#### def _Shake(start, time, child=None, dist=100.0)
+---
 
----#### def _mas_hk_mute_music()
+#### def _Shake(start, time, child=None, dist=100.0)
+
+---
+
+#### def _mas_hk_mute_music()
 
 hotkey specific muting / unmuting music channel
 
----#### def _mas_hk_inc_musicvol()
+---
+
+#### def _mas_hk_inc_musicvol()
 
 hotkey specific music volume increasing
 
----#### def _mas_hk_dec_musicvol()
+---
+
+#### def _mas_hk_dec_musicvol()
 
 hotkey specific music volume decreasing
 
----#### def _mas_hk_show_dialogue_box()
+---
+
+#### def _mas_hk_show_dialogue_box()
 
 hotkey specific show dialgoue box
 
----#### def _mas_hk_open_extra_menu()
+---
+
+#### def _mas_hk_open_extra_menu()
 
 hotkey specific open extras menu
 
----#### def _mas_hk_pick_game()
+---
+
+#### def _mas_hk_pick_game()
 
 hotkey specific pick game
 
----#### def _mas_hk_select_music()
+---
+
+#### def _mas_hk_select_music()
 
 Runs the select music function if we are allowed to. INTENDED FOR HOTKEY USAGE ONLY
 
----#### def _mas_hk_derandom_topic()
+---
+
+#### def _mas_hk_derandom_topic()
 
 hotkey specific derandom topics
 
----#### def _mas_hk_bookmark_topic()
+---
+
+#### def _mas_hk_bookmark_topic()
 
 hotkey specific bookmark topics
 
----#### def _mas_game_menu_start(scope)
+---
+
+#### def _mas_game_menu_start(scope)
 
 Runs code prior to opening the game menu in any way.
 
 **Returns:**<br>
 scope - use this dict as temp space
 
----#### def _mas_game_menu_end(scope)
+---
+
+#### def _mas_game_menu_end(scope)
 
 Runs code after exiting the game menu in any way.
 
@@ -3822,35 +4820,59 @@ Runs code after exiting the game menu in any way.
 - `scope` &mdash; temp space used in `_mas_game_menu_start`
 
 
----#### def _mas_game_menu()
+---
+
+#### def _mas_game_menu()
 
 Wrapper aound _invoke_game_menu that follows additional ui rules
 
----#### def _mas_quick_menu_cb(screen_name)
+---
+
+#### def _mas_quick_menu_cb(screen_name)
 
 Opens game menu to the appropraite quick screen.
 
----#### def _mas_hide_windows()
+---
+
+#### def _mas_hide_windows()
 
 Wrapper around the _hide_windows label that hides windows
 
----#### def _mas_check_ev_type_bool(val, name, report, delim=' | ', str_rep=True)
+---
 
----#### def _mas_check_ev_type_dict(val, name, report, delim=' | ', str_rep=True)
+#### def _mas_check_ev_type_bool(val, name, report, delim=' | ', str_rep=True)
 
----#### def _mas_check_ev_type_dt(val, name, report, delim=' | ', str_rep=True)
+---
 
----#### def _mas_check_ev_type_evact(val, name, report, delim=' | ', str_rep=True)
+#### def _mas_check_ev_type_dict(val, name, report, delim=' | ', str_rep=True)
 
----#### def _mas_check_ev_type_int(val, name, report, delim=' | ', str_rep=True)
+---
 
----#### def _mas_check_ev_type_str(val, name, report, delim=' | ', str_rep=True)
+#### def _mas_check_ev_type_dt(val, name, report, delim=' | ', str_rep=True)
 
----#### def _mas_check_ev_type_tuli(val, name, report, delim=' | ', str_rep=True)
+---
 
----#### def _mas_check_ev_type_tuli_aff(val, name, report, delim=' | ', str_rep=True)
+#### def _mas_check_ev_type_evact(val, name, report, delim=' | ', str_rep=True)
 
----#### def _mas_check_ev_type(ev, str_rep=True)
+---
+
+#### def _mas_check_ev_type_int(val, name, report, delim=' | ', str_rep=True)
+
+---
+
+#### def _mas_check_ev_type_str(val, name, report, delim=' | ', str_rep=True)
+
+---
+
+#### def _mas_check_ev_type_tuli(val, name, report, delim=' | ', str_rep=True)
+
+---
+
+#### def _mas_check_ev_type_tuli_aff(val, name, report, delim=' | ', str_rep=True)
+
+---
+
+#### def _mas_check_ev_type(ev, str_rep=True)
 
 Checks typers of the given event, then returns a string report
 
@@ -3861,7 +4883,9 @@ Checks typers of the given event, then returns a string report
 **Returns:**<br>
 single line string report
 
----#### def _mas_check_ev_type_per(ev_line, str_rep=True)
+---
+
+#### def _mas_check_ev_type_per(ev_line, str_rep=True)
 
 Checks typers of the given event line, then returns a string report
 
@@ -3872,15 +4896,21 @@ Checks typers of the given event line, then returns a string report
 **Returns:**<br>
 single line string report
 
----#### def _mas_backgroundUpdateCheck()
+---
+
+#### def _mas_backgroundUpdateCheck()
 
 THIS IS A PRIVATE FUNCTION Background update check
 
----#### def _mas_resetVersionUpdates()
+---
+
+#### def _mas_resetVersionUpdates()
 
 Resets all version update script's seen status
 
----#### def _mas_build_fake_slices(flt_pfx, size, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
+---
+
+#### def _mas_build_fake_slices(flt_pfx, size, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
 
 Builds fake slices with the given size
 
@@ -3898,7 +4928,9 @@ Builds fake slices with the given size
 **Returns:**<br>
 list of created slices.
 
----#### def _mas_build_random_fake_slice(flt, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
+---
+
+#### def _mas_build_random_fake_slice(flt, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
 
 Builds a fake slice with the given filter name and randomized minlength and pr based on the given values
 
@@ -3909,7 +4941,9 @@ Builds a fake slice with the given filter name and randomized minlength and pr b
 **Returns:**<br>
 MASBackgroundFilterSlice object
 
----#### def _mas_qb_alg_test(spread=False)
+---
+
+#### def _mas_qb_alg_test(spread=False)
 
 Test alg and write output to log
 
@@ -3917,15 +4951,21 @@ Test alg and write output to log
 - `spread` &mdash; pass True to use expand_sld instead of expand_once
 
 
----#### def _mas_qb_fast_a(abc)
+---
+
+#### def _mas_qb_fast_a(abc)
 
 Pass in a mbgfm, unbuilt
 
----#### def _mas_qb_fast()
+---
+
+#### def _mas_qb_fast()
 
 Makes somethign and writes it out
 
----#### def _m1_zz_submods__build_override_label_to_base_label_map()
+---
+
+#### def _m1_zz_submods__build_override_label_to_base_label_map()
 
 Populates a lookup dict for all label overrides which are in effect
 
@@ -3934,3 +4974,4 @@ Populates a lookup dict for all label overrides which are in effect
 
 
 ---
+

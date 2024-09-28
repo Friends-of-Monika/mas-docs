@@ -11,7 +11,9 @@ Checks if the tip with the given number has already been seen and a day has past
 **Returns:**<br>
 true if the tip has been seen and a day has past since it was unlocked, False otherwise
 
----### def has_day_past_tip(tip_num)
+---
+
+### def has_day_past_tip(tip_num)
 
 Checks if the tip with the given number has already been seen and a day has past since it was unlocked.
 
@@ -22,7 +24,9 @@ Checks if the tip with the given number has already been seen and a day has past
 **Returns:**<br>
 true if the tip has been seen and a day has past since it was unlocked, False otherwise
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

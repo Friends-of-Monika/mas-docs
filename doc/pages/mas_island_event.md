@@ -11,37 +11,51 @@ Checks if the event supports a filter
 **Returns:**<br>
 boolean
 
----### def IslandFilterWeatherDisplayable()
+---
+
+### def IslandFilterWeatherDisplayable()
 
 DynamicDisplayable for Island images.
 
 **Returns:**<br>
 DynamicDisplayable for Island images that respect filters and weather.
 
----### def decode_data()
+---
+
+### def decode_data()
 
 Attempts to decode the images
 
 **Returns:**<br>
 True upon success, False otherwise
 
----### def advance_progression()
+---
+
+### def advance_progression()
 
 Increments the lvl of progression of the islands event, it will do nothing if the player hasn't unlocked the islands yet or if the current lvl is invalid
 
----### def start_progression()
+---
+
+### def start_progression()
 
 Starts islands progression
 
----### def play_music()
+---
+
+### def play_music()
 
 Plays appropriate music based on the current weather
 
----### def stop_music()
+---
+
+### def stop_music()
 
 Stops islands music
 
----### def get_islands_displayable(enable_interaction=True, check_progression=False)
+---
+
+### def get_islands_displayable(enable_interaction=True, check_progression=False)
 
 Builds an image for islands and returns it
 
@@ -53,21 +67,27 @@ Builds an image for islands and returns it
 **Returns:**<br>
 ParallaxBackground
 
----### def is_winter_weather()
+---
+
+### def is_winter_weather()
 
 Checks if the weather on the islands is wintery
 
 **Returns:**<br>
 boolean: - True if we're using snow islands - False otherwise
 
----### def is_cloudy_weather()
+---
+
+### def is_cloudy_weather()
 
 Checks if the weather on the islands is cloudy
 
 **Returns:**<br>
 boolean: - True if we're using overcast/rain islands - False otherwise
 
----### def isFilterSupported(flt)
+---
+
+### def isFilterSupported(flt)
 
 Checks if the event supports a filter
 
@@ -78,37 +98,51 @@ Checks if the event supports a filter
 **Returns:**<br>
 boolean
 
----### def IslandFilterWeatherDisplayable()
+---
+
+### def IslandFilterWeatherDisplayable()
 
 DynamicDisplayable for Island images.
 
 **Returns:**<br>
 DynamicDisplayable for Island images that respect filters and weather.
 
----### def decode_data()
+---
+
+### def decode_data()
 
 Attempts to decode the images
 
 **Returns:**<br>
 True upon success, False otherwise
 
----### def advance_progression()
+---
+
+### def advance_progression()
 
 Increments the lvl of progression of the islands event, it will do nothing if the player hasn't unlocked the islands yet or if the current lvl is invalid
 
----### def start_progression()
+---
+
+### def start_progression()
 
 Starts islands progression
 
----### def play_music()
+---
+
+### def play_music()
 
 Plays appropriate music based on the current weather
 
----### def stop_music()
+---
+
+### def stop_music()
 
 Stops islands music
 
----### def get_islands_displayable(enable_interaction=True, check_progression=False)
+---
+
+### def get_islands_displayable(enable_interaction=True, check_progression=False)
 
 Builds an image for islands and returns it
 
@@ -120,21 +154,27 @@ Builds an image for islands and returns it
 **Returns:**<br>
 ParallaxBackground
 
----### def is_winter_weather()
+---
+
+### def is_winter_weather()
 
 Checks if the weather on the islands is wintery
 
 **Returns:**<br>
 boolean: - True if we're using snow islands - False otherwise
 
----### def is_cloudy_weather()
+---
+
+### def is_cloudy_weather()
 
 Checks if the weather on the islands is cloudy
 
 **Returns:**<br>
 boolean: - True if we're using overcast/rain islands - False otherwise
 
----### def register_room(id_)
+---
+
+### def register_room(id_)
 
 Registers lr as a background object
 
@@ -145,7 +185,9 @@ Registers lr as a background object
 **Returns:**<br>
 MASFilterableBackground
 
----### def register_room(id_)
+---
+
+### def register_room(id_)
 
 Registers lr as a background object
 
@@ -156,7 +198,9 @@ Registers lr as a background object
 **Returns:**<br>
 MASFilterableBackground
 
----### Internal functions
+---
+
+### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -174,7 +218,9 @@ Selection function to use in Island-based images
 **Returns:**<br>
 displayable data
 
----#### def _handle_raw_pkg_data(pkg_data, base_err_msg)
+---
+
+#### def _handle_raw_pkg_data(pkg_data, base_err_msg)
 
 Handles raw data and returns clean, parsed data Logs errors
 
@@ -185,23 +231,33 @@ Handles raw data and returns clean, parsed data Logs errors
 **Returns:**<br>
 memory buffer or None
 
----#### def _build_filter_pairs(img_map)
+---
+
+#### def _build_filter_pairs(img_map)
 
 Builds filter pairs for IslandFilterWeatherDisplayable or MASFilterWeatherDisplayable
 
----#### def _build_ifwd(img_map)
+---
+
+#### def _build_ifwd(img_map)
 
 Builds a single IslandFilterWeatherDisplayable using the given image map
 
----#### def _build_fwd(img_map)
+---
+
+#### def _build_fwd(img_map)
 
 Builds a single MASFilterWeatherDisplayable using the given image map
 
----#### def _build_weather_overlay_transform(child, speed)
+---
+
+#### def _build_weather_overlay_transform(child, speed)
 
 A wrapper around mas_islands_weather_overlay_transform It exists so we can properly pass the child argument to the transform
 
----#### def _build_displayables(island_imgs_maps, decal_imgs_maps, bg_imgs_maps, overlay_imgs_maps, interior_imgs_map, glitch_frames, tree_lights_imgs)
+---
+
+#### def _build_displayables(island_imgs_maps, decal_imgs_maps, bg_imgs_maps, overlay_imgs_maps, interior_imgs_map, glitch_frames, tree_lights_imgs)
 
 Takes multiple maps with images and builds displayables from them, sets global vars
 
@@ -215,7 +271,9 @@ Takes multiple maps with images and builds displayables from them, sets global v
 - `tree_lights_imgs` &mdash; map of images for the tree lights, format: img_name: disp
 
 
----#### def _get_room_sprite(key, is_lit)
+---
+
+#### def _get_room_sprite(key, is_lit)
 
 Returns the appropriate displayable for the room sprite based on the criteria
 
@@ -227,7 +285,9 @@ Returns the appropriate displayable for the room sprite based on the criteria
 **Returns:**<br>
 MASImageData or Null displayable if we failed to get the image
 
----#### def _apply_flt_on_room_sprite(room_img_tag, flt)
+---
+
+#### def _apply_flt_on_room_sprite(room_img_tag, flt)
 
 Returns the room image with the filter applied on it
 
@@ -239,7 +299,9 @@ Returns the room image with the filter applied on it
 **Returns:**<br>
 image manipulator or Null displayable if we failed to decode the images
 
----#### def _is_unlocked(id_)
+---
+
+#### def _is_unlocked(id_)
 
 Checks if a sprite is unlocked
 
@@ -250,7 +312,9 @@ Checks if a sprite is unlocked
 **Returns:**<br>
 boolean
 
----#### def _unlock(id_)
+---
+
+#### def _unlock(id_)
 
 Unlocks a sprite
 
@@ -261,7 +325,9 @@ Unlocks a sprite
 **Returns:**<br>
 boolean whether or not the sprite was unlocked
 
----#### def _lock(id_)
+---
+
+#### def _lock(id_)
 
 Locks a sprite
 
@@ -272,42 +338,72 @@ Locks a sprite
 **Returns:**<br>
 boolean whether or not the sprite was locked
 
----#### def _unlock_one()
+---
+
+#### def _unlock_one()
 
 Unlocks one of the sprites at random. Runs only once
 
 **Returns:**<br>
 boolean whether or not a sprite was unlocked
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_0()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_1()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_0()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_2()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_3()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_1()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_4()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_5()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_2()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_6()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_7()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_3()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_8()
+---
 
----#### def _final_unlocks()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_4()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_9()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_10()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_5()
 
----#### def _m1_script0x2dislands0x2devent__handle_unlocks()
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_6()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_7()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_8()
+
+---
+
+#### def _final_unlocks()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_9()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_10()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__handle_unlocks()
 
 Method to unlock various islands features when the player progresses. For example: new decals, new islands, new extra events, set persistent vars, etc.
 
----#### def _calc_progress(curr_lvl, start_lvl)
+---
+
+#### def _calc_progress(curr_lvl, start_lvl)
 
 Returns islands progress for the given current and start levels
 
@@ -319,15 +415,21 @@ Returns islands progress for the given current and start levels
 **Returns:**<br>
 int, progress
 
----#### def _get_progression()
+---
+
+#### def _get_progression()
 
 Returns current islands progress lvl
 
----#### def _reset_progression()
+---
+
+#### def _reset_progression()
 
 Resets island progress
 
----#### def _select_img(st, at, mfwm)
+---
+
+#### def _select_img(st, at, mfwm)
 
 Selection function to use in Island-based images
 
@@ -340,7 +442,9 @@ Selection function to use in Island-based images
 **Returns:**<br>
 displayable data
 
----#### def _handle_raw_pkg_data(pkg_data, base_err_msg)
+---
+
+#### def _handle_raw_pkg_data(pkg_data, base_err_msg)
 
 Handles raw data and returns clean, parsed data Logs errors
 
@@ -351,23 +455,33 @@ Handles raw data and returns clean, parsed data Logs errors
 **Returns:**<br>
 memory buffer or None
 
----#### def _build_filter_pairs(img_map)
+---
+
+#### def _build_filter_pairs(img_map)
 
 Builds filter pairs for IslandFilterWeatherDisplayable or MASFilterWeatherDisplayable
 
----#### def _build_ifwd(img_map)
+---
+
+#### def _build_ifwd(img_map)
 
 Builds a single IslandFilterWeatherDisplayable using the given image map
 
----#### def _build_fwd(img_map)
+---
+
+#### def _build_fwd(img_map)
 
 Builds a single MASFilterWeatherDisplayable using the given image map
 
----#### def _build_weather_overlay_transform(child, speed)
+---
+
+#### def _build_weather_overlay_transform(child, speed)
 
 A wrapper around mas_islands_weather_overlay_transform It exists so we can properly pass the child argument to the transform
 
----#### def _build_displayables(island_imgs_maps, decal_imgs_maps, bg_imgs_maps, overlay_imgs_maps, interior_imgs_map, glitch_frames, tree_lights_imgs)
+---
+
+#### def _build_displayables(island_imgs_maps, decal_imgs_maps, bg_imgs_maps, overlay_imgs_maps, interior_imgs_map, glitch_frames, tree_lights_imgs)
 
 Takes multiple maps with images and builds displayables from them, sets global vars
 
@@ -381,7 +495,9 @@ Takes multiple maps with images and builds displayables from them, sets global v
 - `tree_lights_imgs` &mdash; map of images for the tree lights, format: img_name: disp
 
 
----#### def _get_room_sprite(key, is_lit)
+---
+
+#### def _get_room_sprite(key, is_lit)
 
 Returns the appropriate displayable for the room sprite based on the criteria
 
@@ -393,7 +509,9 @@ Returns the appropriate displayable for the room sprite based on the criteria
 **Returns:**<br>
 MASImageData or Null displayable if we failed to get the image
 
----#### def _apply_flt_on_room_sprite(room_img_tag, flt)
+---
+
+#### def _apply_flt_on_room_sprite(room_img_tag, flt)
 
 Returns the room image with the filter applied on it
 
@@ -405,7 +523,9 @@ Returns the room image with the filter applied on it
 **Returns:**<br>
 image manipulator or Null displayable if we failed to decode the images
 
----#### def _is_unlocked(id_)
+---
+
+#### def _is_unlocked(id_)
 
 Checks if a sprite is unlocked
 
@@ -416,7 +536,9 @@ Checks if a sprite is unlocked
 **Returns:**<br>
 boolean
 
----#### def _unlock(id_)
+---
+
+#### def _unlock(id_)
 
 Unlocks a sprite
 
@@ -427,7 +549,9 @@ Unlocks a sprite
 **Returns:**<br>
 boolean whether or not the sprite was unlocked
 
----#### def _lock(id_)
+---
+
+#### def _lock(id_)
 
 Locks a sprite
 
@@ -438,42 +562,72 @@ Locks a sprite
 **Returns:**<br>
 boolean whether or not the sprite was locked
 
----#### def _unlock_one()
+---
+
+#### def _unlock_one()
 
 Unlocks one of the sprites at random. Runs only once
 
 **Returns:**<br>
 boolean whether or not a sprite was unlocked
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_0()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_1()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_0()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_2()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_3()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_1()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_4()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_5()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_2()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_6()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_7()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_3()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_8()
+---
 
----#### def _final_unlocks()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_4()
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_9()
+---
 
----#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_10()
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_5()
 
----#### def _m1_script0x2dislands0x2devent__handle_unlocks()
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_6()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_7()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_8()
+
+---
+
+#### def _final_unlocks()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_9()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__unlocks_for_lvl_10()
+
+---
+
+#### def _m1_script0x2dislands0x2devent__handle_unlocks()
 
 Method to unlock various islands features when the player progresses. For example: new decals, new islands, new extra events, set persistent vars, etc.
 
----#### def _calc_progress(curr_lvl, start_lvl)
+---
+
+#### def _calc_progress(curr_lvl, start_lvl)
 
 Returns islands progress for the given current and start levels
 
@@ -485,76 +639,113 @@ Returns islands progress for the given current and start levels
 **Returns:**<br>
 int, progress
 
----#### def _get_progression()
+---
+
+#### def _get_progression()
 
 Returns current islands progress lvl
 
----#### def _reset_progression()
+---
+
+#### def _reset_progression()
 
 Resets island progress
 
----#### def _m1_script0x2dislands0x2devent__isld_1_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_1_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__isld_2_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_2_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__isld_3_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_3_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__isld_5_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_5_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__chibi_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__chibi_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _play_thunder(transform, st, at)
+---
+
+#### def _play_thunder(transform, st, at)
 
 This is used in a transform to play the THUNDER sound effect
 
----#### def _m1_script0x2dislands0x2devent__isld_1_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_1_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__isld_2_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_2_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__isld_3_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_3_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__isld_5_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__isld_5_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _m1_script0x2dislands0x2devent__chibi_transform_func(transform, st, at)
+---
+
+#### def _m1_script0x2dislands0x2devent__chibi_transform_func(transform, st, at)
 
 A function which we use as a transform, updates the child
 
----#### def _play_thunder(transform, st, at)
+---
+
+#### def _play_thunder(transform, st, at)
 
 This is used in a transform to play the THUNDER sound effect
 
----#### def _living_room_entry(_old)
+---
+
+#### def _living_room_entry(_old)
 
 Entry pp for lr background
 
----#### def _living_room_exit(_new)
+---
 
-Exit pp for lr background
-
----#### def _living_room_entry(_old)
-
-Entry pp for lr background
-
----#### def _living_room_exit(_new)
+#### def _living_room_exit(_new)
 
 Exit pp for lr background
 
 ---
+
+#### def _living_room_entry(_old)
+
+Entry pp for lr background
+
+---
+
+#### def _living_room_exit(_new)
+
+Exit pp for lr background
+
+---
+
