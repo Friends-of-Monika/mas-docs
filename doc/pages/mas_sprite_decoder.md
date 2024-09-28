@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def parse_exp_to_kwargs(exp)
 
@@ -52,18 +52,18 @@ boolean: - True if code is valid - False otherwise
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _m1_sprite0x2ddecoder__loadSpriteMapData()
+### def _m1_sprite0x2ddecoder__loadSpriteMapData()
 
 Loads sprite map data from the sprite map json file
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_blush(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_blush(spcode, index, export_dict)
 
 Processes a blush off the given sprite code at the given index
 
@@ -76,7 +76,7 @@ Tuple of the following format: [0] - True if the blush was valid, False if not [
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_s(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_s(spcode, index, export_dict)
 
 Processes the s-prefixed spcodes at the given index
 
@@ -89,7 +89,7 @@ Tuple of the following format: [0] - True if the processes were valid, False if 
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_sweatdrop(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_sweatdrop(spcode, index, export_dict)
 
 Processes a sweatdrop off the given spcode at the given index
 
@@ -102,7 +102,7 @@ Tuple of the following format: [0] - True if the sweatdrops were valid, False if
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_tears(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_tears(spcode, index, export_dict)
 
 Processes a tear off the given spcode at the given index
 
@@ -115,13 +115,13 @@ Tuple of the following format: [0] - True if the tears were valid, False if not 
 
 ---
 
-#### def _m1_sprite0x2ddecoder__loadSpriteMapData()
+### def _m1_sprite0x2ddecoder__loadSpriteMapData()
 
 Loads sprite map data from the sprite map json file
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_blush(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_blush(spcode, index, export_dict)
 
 Processes a blush off the given sprite code at the given index
 
@@ -134,7 +134,7 @@ Tuple of the following format: [0] - True if the blush was valid, False if not [
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_s(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_s(spcode, index, export_dict)
 
 Processes the s-prefixed spcodes at the given index
 
@@ -147,7 +147,7 @@ Tuple of the following format: [0] - True if the processes were valid, False if 
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_sweatdrop(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_sweatdrop(spcode, index, export_dict)
 
 Processes a sweatdrop off the given spcode at the given index
 
@@ -160,7 +160,7 @@ Tuple of the following format: [0] - True if the sweatdrops were valid, False if
 
 ---
 
-#### def _m1_sprite0x2ddecoder__process_tears(spcode, index, export_dict)
+### def _m1_sprite0x2ddecoder__process_tears(spcode, index, export_dict)
 
 Processes a tear off the given spcode at the given index
 

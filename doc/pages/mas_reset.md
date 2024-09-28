@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def ch30_reset(priority=0)
 
@@ -494,78 +494,78 @@ Runs reset code that should run after everythign else
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _sprites_init()
+### def _sprites_init()
 
 Runs reset code for initializing sprites
 
 ---
 
-#### def _sprites_fixes()
+### def _sprites_fixes()
 
 Runs reset code for fixing sprite issues
 
 ---
 
-#### def _sprites_setup()
+### def _sprites_setup()
 
 Runs other sprite setup that is not init or fixes
 
 ---
 
-#### def _deco_bday()
+### def _deco_bday()
 
 Runs reset code for bday deco
 
 ---
 
-#### def _deco_d25()
+### def _deco_d25()
 
 Runs reset code for d25 deco
 
 ---
 
-#### def _deco_o31()
+### def _deco_o31()
 
 Runs reset code for o31 deco
 
 ---
 
-#### def _sprites_init()
+### def _sprites_init()
 
 Runs reset code for initializing sprites
 
 ---
 
-#### def _sprites_fixes()
+### def _sprites_fixes()
 
 Runs reset code for fixing sprite issues
 
 ---
 
-#### def _sprites_setup()
+### def _sprites_setup()
 
 Runs other sprite setup that is not init or fixes
 
 ---
 
-#### def _deco_bday()
+### def _deco_bday()
 
 Runs reset code for bday deco
 
 ---
 
-#### def _deco_d25()
+### def _deco_d25()
 
 Runs reset code for d25 deco
 
 ---
 
-#### def _deco_o31()
+### def _deco_o31()
 
 Runs reset code for o31 deco
 

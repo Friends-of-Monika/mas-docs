@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def build_anni(years=0, months=0, weeks=0, isstart=True)
 
@@ -218,12 +218,12 @@ Goes through the anniversary database and unlocks the events that already past.
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _month_adjuster(ev, new_start_date, months, span)
+### def _month_adjuster(ev, new_start_date, months, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 
@@ -236,7 +236,7 @@ Adjusts the start_date / end_date of an anniversary event.
 
 ---
 
-#### def _day_adjuster(ev, new_start_date, days, span)
+### def _day_adjuster(ev, new_start_date, days, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 
@@ -249,7 +249,7 @@ Adjusts the start_date / end_date of an anniversary event.
 
 ---
 
-#### def _month_adjuster(ev, new_start_date, months, span)
+### def _month_adjuster(ev, new_start_date, months, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 
@@ -262,7 +262,7 @@ Adjusts the start_date / end_date of an anniversary event.
 
 ---
 
-#### def _day_adjuster(ev, new_start_date, days, span)
+### def _day_adjuster(ev, new_start_date, days, span)
 
 Adjusts the start_date / end_date of an anniversary event.
 

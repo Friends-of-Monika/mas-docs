@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def loadDelayedActionMap()
 
@@ -12,12 +12,12 @@ Checks the runtime map of delayed actions and saves them into the persistent val
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _MDA_safeadd()
+### def _MDA_safeadd()
 
 Adds MASDelayedAction ids to the persistent mas delayed action list.
 
@@ -27,7 +27,7 @@ Adds MASDelayedAction ids to the persistent mas delayed action list.
 
 ---
 
-#### def _MDA_saferm()
+### def _MDA_saferm()
 
 Removes MASDelayedActions from the persistent mas delayed action list.
 
@@ -37,11 +37,11 @@ Removes MASDelayedActions from the persistent mas delayed action list.
 
 ---
 
-#### def _mas_birthdate_bad_year_fix_action(ev=None)
+### def _mas_birthdate_bad_year_fix_action(ev=None)
 
 ---
 
-#### def _mas_birthdate_bad_year_fix()
+### def _mas_birthdate_bad_year_fix()
 
 ---
 

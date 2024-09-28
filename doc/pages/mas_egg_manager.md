@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def is_eggable_name(name)
 

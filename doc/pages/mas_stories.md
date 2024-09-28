@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def check_can_unlock_new_story(story_type=TYPE_NORMAL, ignore_cooldown=False)
 

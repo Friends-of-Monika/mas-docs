@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def add_steps(version_struct)
 
@@ -44,12 +44,12 @@ Initializes the update data structures
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _vdot2vstr(version_str)
+### def _vdot2vstr(version_str)
 
 Converts a version string that uses dots to the v#_#_# notation
 
@@ -62,7 +62,7 @@ version string in the standard version notation: v#_#_#_#
 
 ---
 
-#### def _vdot2vstr(version_str)
+### def _vdot2vstr(version_str)
 
 Converts a version string that uses dots to the v#_#_# notation
 

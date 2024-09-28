@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def decodeImages(dockstat, image_dict, selective=[])
 
@@ -424,12 +424,12 @@ Attempts to about the monikagen promise and properly delete the monika package.
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _buildMetaDataList(_outbuffer)
+### def _buildMetaDataList(_outbuffer)
 
 Writes out a pipe-delimeted metadata list to the given buffer
 
@@ -438,7 +438,7 @@ _outbuffer - buffer to write metadata to
 
 ---
 
-#### def _buildMetaDataPer(_outbuffer, log)
+### def _buildMetaDataPer(_outbuffer, log)
 
 Writes out the persistent's data into the given buffer  Exceptions are logged
 
@@ -447,7 +447,7 @@ _outbuffer - buffer to write persistent data to log - log to write messages to, 
 
 ---
 
-#### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
+### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
 
 Grants an amount of affection based on time out. This is designed for use ONLY with the returned home greeting.
 
@@ -461,7 +461,7 @@ Grants an amount of affection based on time out. This is designed for use ONLY w
 
 ---
 
-#### def _buildMetaDataList(_outbuffer)
+### def _buildMetaDataList(_outbuffer)
 
 Writes out a pipe-delimeted metadata list to the given buffer
 
@@ -470,7 +470,7 @@ _outbuffer - buffer to write metadata to
 
 ---
 
-#### def _buildMetaDataPer(_outbuffer, log)
+### def _buildMetaDataPer(_outbuffer, log)
 
 Writes out the persistent's data into the given buffer  Exceptions are logged
 
@@ -479,7 +479,7 @@ _outbuffer - buffer to write persistent data to log - log to write messages to, 
 
 ---
 
-#### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
+### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
 
 Grants an amount of affection based on time out. This is designed for use ONLY with the returned home greeting.
 

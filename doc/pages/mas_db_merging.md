@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def merge_db(source, dest)
 

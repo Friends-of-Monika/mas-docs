@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def check_prompt(key)
 
@@ -1020,24 +1020,24 @@ item_name - formatted
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _rule_ribbon()
+### def _rule_ribbon()
 
 Ribbon selector should only be unocked if: 1 - outfit is not baked 2 - hair supports ribbon
 
 ---
 
-#### def _rule_ribbon()
+### def _rule_ribbon()
 
 Ribbon selector should only be unocked if: 1 - outfit is not baked 2 - hair supports ribbon
 
 ---
 
-#### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
+### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
 
 Adds a prompt to the prompt map - basically like registering a selector.
 
@@ -1053,7 +1053,7 @@ Adds a prompt to the prompt map - basically like registering a selector.
 
 ---
 
-#### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
+### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
 
 Adds a prompt to the prompt map - basically like registering a selector.
 
@@ -1069,19 +1069,19 @@ Adds a prompt to the prompt map - basically like registering a selector.
 
 ---
 
-#### def _validate_group_topics()
+### def _validate_group_topics()
 
 Locks selector topics if there are no unlocked selectables with the appropriate group. Unlocks selector topics if they are unlocked selectables.
 
 ---
 
-#### def _switch_to_wear_prompts()
+### def _switch_to_wear_prompts()
 
 Switches all prompts for groups to use their wear prompt.
 
 ---
 
-#### def _has_remover(group)
+### def _has_remover(group)
 
 Checks if acs of the given group have a remover
 
@@ -1094,13 +1094,13 @@ True if this group already has a remover, False otherwise
 
 ---
 
-#### def _unlock_removers()
+### def _unlock_removers()
 
 Unlocks remover ACS selectables
 
 ---
 
-#### def _rm_remover(item_list)
+### def _rm_remover(item_list)
 
 Gets the remover from a given list of items, takes it out of the list and reutrns it.
 
@@ -1113,7 +1113,7 @@ remover selectable, or None if not found
 
 ---
 
-#### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
+### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
 
 Adjusts an aspect of monika based on the select type
 
@@ -1130,7 +1130,7 @@ Adjusts an aspect of monika based on the select type
 
 ---
 
-#### def _fill_select_map(moni_chr, select_type, items, select_map)
+### def _fill_select_map(moni_chr, select_type, items, select_map)
 
 Fills the select map with what monika is currently wearing, based on the given select type
 
@@ -1145,7 +1145,7 @@ select_map - select map filled with appropriate selectbales. true if Monika was 
 
 ---
 
-#### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
+### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
 
 Fills select map and sets remover item if passed in. If remover item is not passsed in, this functions exactly the same as fill_select_map
 
@@ -1161,7 +1161,7 @@ select_map - see _fill_select_map see _fill_select_map
 
 ---
 
-#### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
+### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
 
 Cleans the select map of non-selected items.
 
@@ -1178,7 +1178,7 @@ select_map - select map cleaned of non-selectd items
 
 ---
 
-#### def _save_selectable(source, dest)
+### def _save_selectable(source, dest)
 
 Saves selectable data from the given source into the destination.
 
@@ -1189,7 +1189,7 @@ Saves selectable data from the given source into the destination.
 
 ---
 
-#### def _load_selectable(source, dest)
+### def _load_selectable(source, dest)
 
 Loads selectable data from the given source into the destination.
 
@@ -1200,7 +1200,7 @@ Loads selectable data from the given source into the destination.
 
 ---
 
-#### def _filter_sel_single(item, unlocked, group)
+### def _filter_sel_single(item, unlocked, group)
 
 Checks if the given item matches the given criteria
 
@@ -1215,7 +1215,7 @@ True if the item matches the criteria, False otherwise
 
 ---
 
-#### def _filter_sel(select_list, unlocked, group=None)
+### def _filter_sel(select_list, unlocked, group=None)
 
 Filters the selectable list based on criteria
 
@@ -1230,7 +1230,7 @@ list of selectables that match criteria
 
 ---
 
-#### def _get_sel(item, select_type)
+### def _get_sel(item, select_type)
 
 Retreives the selectable for the given item.
 
@@ -1244,7 +1244,7 @@ the selectable for the item, or None if not found
 
 ---
 
-#### def _lock_item(item, select_type)
+### def _lock_item(item, select_type)
 
 Locks the given item's selectable.
 
@@ -1255,7 +1255,7 @@ Locks the given item's selectable.
 
 ---
 
-#### def _unlock_item(item, select_type)
+### def _unlock_item(item, select_type)
 
 Unlocks the given item's selectable
 
@@ -1266,7 +1266,7 @@ Unlocks the given item's selectable
 
 ---
 
-#### def _selector_filter_items(item, search_query, search_kws)
+### def _selector_filter_items(item, search_query, search_kws)
 
 The filter key we use in the selector screen.
 
@@ -1281,7 +1281,7 @@ boolean whether or not the event pass the criteria
 
 ---
 
-#### def _selector_sort_items(item, search_query, search_kws)
+### def _selector_sort_items(item, search_query, search_kws)
 
 The sort key we use in the selector screen.
 
@@ -1296,7 +1296,7 @@ weight as int
 
 ---
 
-#### def _selector_search_items(items, search_query)
+### def _selector_search_items(items, search_query)
 
 The method for filtering and sorting items in the selector screen.
 
@@ -1310,19 +1310,19 @@ list of event objects or None if empty query was given
 
 ---
 
-#### def _validate_group_topics()
+### def _validate_group_topics()
 
 Locks selector topics if there are no unlocked selectables with the appropriate group. Unlocks selector topics if they are unlocked selectables.
 
 ---
 
-#### def _switch_to_wear_prompts()
+### def _switch_to_wear_prompts()
 
 Switches all prompts for groups to use their wear prompt.
 
 ---
 
-#### def _has_remover(group)
+### def _has_remover(group)
 
 Checks if acs of the given group have a remover
 
@@ -1335,13 +1335,13 @@ True if this group already has a remover, False otherwise
 
 ---
 
-#### def _unlock_removers()
+### def _unlock_removers()
 
 Unlocks remover ACS selectables
 
 ---
 
-#### def _rm_remover(item_list)
+### def _rm_remover(item_list)
 
 Gets the remover from a given list of items, takes it out of the list and reutrns it.
 
@@ -1354,7 +1354,7 @@ remover selectable, or None if not found
 
 ---
 
-#### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
+### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
 
 Adjusts an aspect of monika based on the select type
 
@@ -1371,7 +1371,7 @@ Adjusts an aspect of monika based on the select type
 
 ---
 
-#### def _fill_select_map(moni_chr, select_type, items, select_map)
+### def _fill_select_map(moni_chr, select_type, items, select_map)
 
 Fills the select map with what monika is currently wearing, based on the given select type
 
@@ -1386,7 +1386,7 @@ select_map - select map filled with appropriate selectbales. true if Monika was 
 
 ---
 
-#### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
+### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
 
 Fills select map and sets remover item if passed in. If remover item is not passsed in, this functions exactly the same as fill_select_map
 
@@ -1402,7 +1402,7 @@ select_map - see _fill_select_map see _fill_select_map
 
 ---
 
-#### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
+### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
 
 Cleans the select map of non-selected items.
 
@@ -1419,7 +1419,7 @@ select_map - select map cleaned of non-selectd items
 
 ---
 
-#### def _save_selectable(source, dest)
+### def _save_selectable(source, dest)
 
 Saves selectable data from the given source into the destination.
 
@@ -1430,7 +1430,7 @@ Saves selectable data from the given source into the destination.
 
 ---
 
-#### def _load_selectable(source, dest)
+### def _load_selectable(source, dest)
 
 Loads selectable data from the given source into the destination.
 
@@ -1441,7 +1441,7 @@ Loads selectable data from the given source into the destination.
 
 ---
 
-#### def _filter_sel_single(item, unlocked, group)
+### def _filter_sel_single(item, unlocked, group)
 
 Checks if the given item matches the given criteria
 
@@ -1456,7 +1456,7 @@ True if the item matches the criteria, False otherwise
 
 ---
 
-#### def _filter_sel(select_list, unlocked, group=None)
+### def _filter_sel(select_list, unlocked, group=None)
 
 Filters the selectable list based on criteria
 
@@ -1471,7 +1471,7 @@ list of selectables that match criteria
 
 ---
 
-#### def _get_sel(item, select_type)
+### def _get_sel(item, select_type)
 
 Retreives the selectable for the given item.
 
@@ -1485,7 +1485,7 @@ the selectable for the item, or None if not found
 
 ---
 
-#### def _lock_item(item, select_type)
+### def _lock_item(item, select_type)
 
 Locks the given item's selectable.
 
@@ -1496,7 +1496,7 @@ Locks the given item's selectable.
 
 ---
 
-#### def _unlock_item(item, select_type)
+### def _unlock_item(item, select_type)
 
 Unlocks the given item's selectable
 
@@ -1507,7 +1507,7 @@ Unlocks the given item's selectable
 
 ---
 
-#### def _selector_filter_items(item, search_query, search_kws)
+### def _selector_filter_items(item, search_query, search_kws)
 
 The filter key we use in the selector screen.
 
@@ -1522,7 +1522,7 @@ boolean whether or not the event pass the criteria
 
 ---
 
-#### def _selector_sort_items(item, search_query, search_kws)
+### def _selector_sort_items(item, search_query, search_kws)
 
 The sort key we use in the selector screen.
 
@@ -1537,7 +1537,7 @@ weight as int
 
 ---
 
-#### def _selector_search_items(items, search_query)
+### def _selector_search_items(items, search_query)
 
 The method for filtering and sorting items in the selector screen.
 

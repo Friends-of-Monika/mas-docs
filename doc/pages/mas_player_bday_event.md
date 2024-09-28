@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def correct_pbday_mhs(d_pbday)
 

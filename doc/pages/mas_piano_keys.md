@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def addSong(filepath, add_main=False)
 
@@ -64,12 +64,12 @@ Tuple of the following format: [0]: list of tuples for song selection. May be an
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _findKeymap(value)
+### def _findKeymap(value)
 
 Finds the key that points to value in the keymap. Effectively a dict value search
 
@@ -82,7 +82,7 @@ key in persistent._mas_piano_keymaps that returns value, or None if value not fo
 
 ---
 
-#### def _setKeymap(key, new)
+### def _setKeymap(key, new)
 
 Sets a keymap. Checks for existing keymap and will remove it. Will NOT set the keymap if key == new
 
@@ -96,7 +96,7 @@ tuple of the following format: [0] - new key that was set (could be None) [1] - 
 
 ---
 
-#### def _strtoN(note)
+### def _strtoN(note)
 
 Converts a stringified note to a regular note
 
@@ -109,7 +109,7 @@ piano note version, or None if this wasnt a real ntoe
 
 ---
 
-#### def _strtoN_list(note_list)
+### def _strtoN_list(note_list)
 
 Versin of strtoN that can handle a full list
 
@@ -122,7 +122,7 @@ list of piano notes. or None if at least note wasnt real
 
 ---
 
-#### def _labelCheck(key, _params, jobj)
+### def _labelCheck(key, _params, jobj)
 
 specialized json label checking function
 
@@ -134,7 +134,7 @@ specialized json label checking function
 
 ---
 
-#### def _intCheck_nl(key, _params, jobj, warn_msg)
+### def _intCheck_nl(key, _params, jobj, warn_msg)
 
 Specialized json int checking function
 
@@ -147,7 +147,7 @@ Specialized json int checking function
 
 ---
 
-#### def _noteCheck(key, _params, _warns, jobj, warn_msg)
+### def _noteCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json note list checking function
 
@@ -161,7 +161,7 @@ Specialized json note list checking function
 
 ---
 
-#### def _scCheck(key, _params, _warns, jobj, warn_msg)
+### def _scCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json spritecode / expression checking function
 
@@ -175,7 +175,7 @@ Specialized json spritecode / expression checking function
 
 ---
 
-#### def _floatCheck(key, _params, _warns, jobj, warn_msg)
+### def _floatCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json float checking function
 
@@ -189,7 +189,7 @@ Specialized json float checking function
 
 ---
 
-#### def _intCheck(key, _params, _warns, jobj, warn_msg)
+### def _intCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json int checking function
 
@@ -203,7 +203,7 @@ Specialized json int checking function
 
 ---
 
-#### def _boolCheck(key, _params, _warns, jobj, warn_msg)
+### def _boolCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json bool checking function
 
@@ -217,7 +217,7 @@ Specialized json bool checking function
 
 ---
 
-#### def _findKeymap(value)
+### def _findKeymap(value)
 
 Finds the key that points to value in the keymap. Effectively a dict value search
 
@@ -230,7 +230,7 @@ key in persistent._mas_piano_keymaps that returns value, or None if value not fo
 
 ---
 
-#### def _setKeymap(key, new)
+### def _setKeymap(key, new)
 
 Sets a keymap. Checks for existing keymap and will remove it. Will NOT set the keymap if key == new
 
@@ -244,7 +244,7 @@ tuple of the following format: [0] - new key that was set (could be None) [1] - 
 
 ---
 
-#### def _strtoN(note)
+### def _strtoN(note)
 
 Converts a stringified note to a regular note
 
@@ -257,7 +257,7 @@ piano note version, or None if this wasnt a real ntoe
 
 ---
 
-#### def _strtoN_list(note_list)
+### def _strtoN_list(note_list)
 
 Versin of strtoN that can handle a full list
 
@@ -270,7 +270,7 @@ list of piano notes. or None if at least note wasnt real
 
 ---
 
-#### def _labelCheck(key, _params, jobj)
+### def _labelCheck(key, _params, jobj)
 
 specialized json label checking function
 
@@ -282,7 +282,7 @@ specialized json label checking function
 
 ---
 
-#### def _intCheck_nl(key, _params, jobj, warn_msg)
+### def _intCheck_nl(key, _params, jobj, warn_msg)
 
 Specialized json int checking function
 
@@ -295,7 +295,7 @@ Specialized json int checking function
 
 ---
 
-#### def _noteCheck(key, _params, _warns, jobj, warn_msg)
+### def _noteCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json note list checking function
 
@@ -309,7 +309,7 @@ Specialized json note list checking function
 
 ---
 
-#### def _scCheck(key, _params, _warns, jobj, warn_msg)
+### def _scCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json spritecode / expression checking function
 
@@ -323,7 +323,7 @@ Specialized json spritecode / expression checking function
 
 ---
 
-#### def _floatCheck(key, _params, _warns, jobj, warn_msg)
+### def _floatCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json float checking function
 
@@ -337,7 +337,7 @@ Specialized json float checking function
 
 ---
 
-#### def _intCheck(key, _params, _warns, jobj, warn_msg)
+### def _intCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json int checking function
 
@@ -351,7 +351,7 @@ Specialized json int checking function
 
 ---
 
-#### def _boolCheck(key, _params, _warns, jobj, warn_msg)
+### def _boolCheck(key, _params, _warns, jobj, warn_msg)
 
 Specialized json bool checking function
 

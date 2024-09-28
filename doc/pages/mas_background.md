@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def build()
 
@@ -230,12 +230,12 @@ Runs global filter change progpoint, logging for errors
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _toggleBackgroundUnlock(id_, value)
+### def _toggleBackgroundUnlock(id_, value)
 
 Locks/unlocks a bg
 
@@ -246,7 +246,7 @@ Locks/unlocks a bg
 
 ---
 
-#### def _toggleBackgroundUnlock(id_, value)
+### def _toggleBackgroundUnlock(id_, value)
 
 Locks/unlocks a bg
 
@@ -257,7 +257,7 @@ Locks/unlocks a bg
 
 ---
 
-#### def _gbl_flt_change(old_flt, new_flt, curr_time)
+### def _gbl_flt_change(old_flt, new_flt, curr_time)
 
 Runs when a filter change occurs
 
@@ -269,7 +269,7 @@ Runs when a filter change occurs
 
 ---
 
-#### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
+### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
 
 Runs when a chunk change occurs
 
@@ -281,19 +281,19 @@ Runs when a chunk change occurs
 
 ---
 
-#### def _def_background_entry(_old)
+### def _def_background_entry(_old)
 
 Entry programming point for default background
 
 ---
 
-#### def _def_background_exit(_new)
+### def _def_background_exit(_new)
 
 Exit programming point for default background
 
 ---
 
-#### def _gbl_flt_change(old_flt, new_flt, curr_time)
+### def _gbl_flt_change(old_flt, new_flt, curr_time)
 
 Runs when a filter change occurs
 
@@ -305,7 +305,7 @@ Runs when a filter change occurs
 
 ---
 
-#### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
+### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
 
 Runs when a chunk change occurs
 
@@ -317,13 +317,13 @@ Runs when a chunk change occurs
 
 ---
 
-#### def _def_background_entry(_old)
+### def _def_background_entry(_old)
 
 Entry programming point for default background
 
 ---
 
-#### def _def_background_exit(_new)
+### def _def_background_exit(_new)
 
 Exit programming point for default background
 

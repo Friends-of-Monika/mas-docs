@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def isInProgressGame(filename, mth)
 
@@ -100,12 +100,12 @@ A random chess960 opening fen.
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _checkInProgressGame(pgn_game, mth)
+### def _checkInProgressGame(pgn_game, mth)
 
 Checks if the given pgn game is valid and in progress.
 
@@ -119,19 +119,19 @@ SEE isInProgressGame
 
 ---
 
-#### def _increment_chess_difficulty()
+### def _increment_chess_difficulty()
 
 Increments chess difficulty
 
 ---
 
-#### def _decrement_chess_difficulty()
+### def _decrement_chess_difficulty()
 
 Decrements chess difficulty
 
 ---
 
-#### def _get_player_color(loaded_game)
+### def _get_player_color(loaded_game)
 
 Gets player color
 
@@ -144,7 +144,7 @@ The player's color
 
 ---
 
-#### def _get_piece_chance(piece_type, selected_pieces_count_dict, available_points)
+### def _get_piece_chance(piece_type, selected_pieces_count_dict, available_points)
 
 Gets the piece chance and returns the piece and weight in tuple form for a `mas_utils.weightedChoice` selection
 
@@ -157,7 +157,7 @@ tuple - (piece_type, weight) of the piece
 
 ---
 
-#### def _gen_side(white=True, max_side_value=14)
+### def _gen_side(white=True, max_side_value=14)
 
 Generates a player's side
 
@@ -171,7 +171,7 @@ Generates a player's side
 
 ---
 
-#### def _validate_sides(white_front, white_back, black_front, black_back)
+### def _validate_sides(white_front, white_back, black_front, black_back)
 
 Validates sides for really bad chess so we don't end up in a check/check mate after the first turn
 
@@ -187,7 +187,7 @@ boolean, whether or not both sides are good to go
 
 ---
 
-#### def _checkInProgressGame(pgn_game, mth)
+### def _checkInProgressGame(pgn_game, mth)
 
 Checks if the given pgn game is valid and in progress.
 
@@ -201,19 +201,19 @@ SEE isInProgressGame
 
 ---
 
-#### def _increment_chess_difficulty()
+### def _increment_chess_difficulty()
 
 Increments chess difficulty
 
 ---
 
-#### def _decrement_chess_difficulty()
+### def _decrement_chess_difficulty()
 
 Decrements chess difficulty
 
 ---
 
-#### def _get_player_color(loaded_game)
+### def _get_player_color(loaded_game)
 
 Gets player color
 
@@ -226,7 +226,7 @@ The player's color
 
 ---
 
-#### def _get_piece_chance(piece_type, selected_pieces_count_dict, available_points)
+### def _get_piece_chance(piece_type, selected_pieces_count_dict, available_points)
 
 Gets the piece chance and returns the piece and weight in tuple form for a `mas_utils.weightedChoice` selection
 
@@ -239,7 +239,7 @@ tuple - (piece_type, weight) of the piece
 
 ---
 
-#### def _gen_side(white=True, max_side_value=14)
+### def _gen_side(white=True, max_side_value=14)
 
 Generates a player's side
 
@@ -253,7 +253,7 @@ Generates a player's side
 
 ---
 
-#### def _validate_sides(white_front, white_back, black_front, black_back)
+### def _validate_sides(white_front, white_back, black_front, black_back)
 
 Validates sides for really bad chess so we don't end up in a check/check mate after the first turn
 

@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def writelog(msg)
 
@@ -208,28 +208,28 @@ Processes giftnames that were loaded, adding/removing them from certain dicts.
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _add_hair_to_verify(hairname, verimap, name)
+### def _add_hair_to_verify(hairname, verimap, name)
 
 ---
 
-#### def _verify_sptype(val, allow_none=True)
+### def _verify_sptype(val, allow_none=True)
 
 ---
 
-#### def _add_hair_to_verify(hairname, verimap, name)
+### def _add_hair_to_verify(hairname, verimap, name)
 
 ---
 
-#### def _verify_sptype(val, allow_none=True)
+### def _verify_sptype(val, allow_none=True)
 
 ---
 
-#### def _replace_hair_map(sp_name, hair_to_replace)
+### def _replace_hair_map(sp_name, hair_to_replace)
 
 Replaces the hair vals of the given sprite object with the given name of the given hair with defaults.
 
@@ -240,13 +240,13 @@ Replaces the hair vals of the given sprite object with the given name of the giv
 
 ---
 
-#### def _remove_sel_list(name, sel_list)
+### def _remove_sel_list(name, sel_list)
 
 Removes selectable from selectbale list  Only intended for json usage. DO not use elsewhere. In general, you should NEVER need to remove a selectable from the selectable list.
 
 ---
 
-#### def _reset_sp_obj(sp_obj)
+### def _reset_sp_obj(sp_obj)
 
 Uninits the given sprite object. This is meant only for json sprite usage if we need to back out.
 
@@ -256,7 +256,7 @@ Uninits the given sprite object. This is meant only for json sprite usage if we 
 
 ---
 
-#### def _build_loadstrs(sp_obj, sel_obj=None)
+### def _build_loadstrs(sp_obj, sel_obj=None)
 
 Builds list of strings that need to be verified via loadable.
 
@@ -270,7 +270,7 @@ list of strings that would need to be loadable verified
 
 ---
 
-#### def _check_giftname(giftname, sp_type, sp_name, msg_log, ind_lvl)
+### def _check_giftname(giftname, sp_type, sp_name, msg_log, ind_lvl)
 
 Initializes the giftname with the sprite info
 
@@ -286,7 +286,7 @@ msg_log - list to log messages to
 
 ---
 
-#### def _init_giftname(giftname, sp_type, sp_name)
+### def _init_giftname(giftname, sp_type, sp_name)
 
 Initializes the giftname with the sprite info does not check for valid giftname.
 
@@ -298,13 +298,13 @@ Initializes the giftname with the sprite info does not check for valid giftname.
 
 ---
 
-#### def _process_giftname()
+### def _process_giftname()
 
 Process the gift maps by cleaning the persistent vars
 
 ---
 
-#### def _process_progpoint(sp_type, name, save_obj, msg_log, ind_lvl, progname)
+### def _process_progpoint(sp_type, name, save_obj, msg_log, ind_lvl, progname)
 
 Attempts to find a prop point for a sprite object with the given sp_type and name
 
@@ -320,7 +320,7 @@ save_obj - dict to save progpoint to msg_log - list to save messages to
 
 ---
 
-#### def _test_loadables(sp_obj, msg_log, ind_lvl)
+### def _test_loadables(sp_obj, msg_log, ind_lvl)
 
 Tests loadable images and errs if an image is not loadable.
 
@@ -334,7 +334,7 @@ msg_log - list to add messages to
 
 ---
 
-#### def _validate_type(json_obj, msg_log, ind_lvl)
+### def _validate_type(json_obj, msg_log, ind_lvl)
 
 Validates the type of this json object.  Logs errors. Also pops type off
 
@@ -348,7 +348,7 @@ msg_log - list to add messages to SP constant if valid type, None otherwise
 
 ---
 
-#### def _validate_mux_type(json_obj, msg_log, indent_lvl)
+### def _validate_mux_type(json_obj, msg_log, indent_lvl)
 
 Validates mux_type of this json object
 
@@ -362,7 +362,7 @@ msg_log - list to save error messages to if nothing was addeed to this list, the
 
 ---
 
-#### def _validate_iterstr(jobj, save_obj, propname, required, allow_none, msg_log, indent_lvl)
+### def _validate_iterstr(jobj, save_obj, propname, required, allow_none, msg_log, indent_lvl)
 
 Validates an iterable if it consists solely of strings  an empty list is considered bad.
 
@@ -379,7 +379,7 @@ save_obj - dict to save to msg_log - list to save messages to True if good, Fals
 
 ---
 
-#### def _validate_params(jobj, save_obj, param_dict, required, msg_log, indent_lvl)
+### def _validate_params(jobj, save_obj, param_dict, required, msg_log, indent_lvl)
 
 Validates a list of parameters, while also saving said params into given save object.  Errors/Warnings are logged to given lists
 
@@ -395,7 +395,7 @@ save_obj - dict to save data to msg_log - log to save messages to True if succes
 
 ---
 
-#### def _validate_acs(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_acs(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates ACS-specific properties, as well as acs pose map  Props validated: - rec_layer - priority - acs_type - dlg_desc - dlg_plural - mux_type - pose_map - giftname - arm_split - highlight
 
@@ -410,7 +410,7 @@ save_obj - dict to save data to msg_log - list to add messages to True if valida
 
 ---
 
-#### def _validate_fallbacks(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_fallbacks(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates fallback related properties and pose map  Props validated: - fallback - pose_map
 
@@ -425,7 +425,7 @@ save_obj - dict to save data to msg_log - list to save messages to True if succe
 
 ---
 
-#### def _validate_hair(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_hair(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates HAIR related properties  Props validated: - unlock - highlight
 
@@ -440,7 +440,7 @@ save_obj - dict to save data to msg_log - list to save messagse to True on succe
 
 ---
 
-#### def _validate_clothes(jobj, save_obj, obj_based, sp_name, dry_run, msg_log, indent_lvl, post_proc_data)
+### def _validate_clothes(jobj, save_obj, obj_based, sp_name, dry_run, msg_log, indent_lvl, post_proc_data)
 
 Validates CLOTHES related properties  Props validated: - hair_map - giftname - pose_arms - highlight - outfit_hair - outfit_acs
 
@@ -457,7 +457,7 @@ save_obj - dict to save data to msg_log - list to save messages to post_proc_dat
 
 ---
 
-#### def _validate_ex_props(jobj, save_obj, obj_based, msg_log, ind_lvl)
+### def _validate_ex_props(jobj, save_obj, obj_based, msg_log, ind_lvl)
 
 Validates ex_props proprety  Props validated: - ex_props
 
@@ -472,7 +472,7 @@ save_obj - dict to save data to msg_log - list to save messages to
 
 ---
 
-#### def _validate_highlight(obj_based, save_obj, msg_log, ind_lvl, hl_keys)
+### def _validate_highlight(obj_based, save_obj, msg_log, ind_lvl, hl_keys)
 
 Validates highlight objects  Props validated: - highlight
 
@@ -487,7 +487,7 @@ save_obj - dict to save data to msg_log - list to add messages to True if valid,
 
 ---
 
-#### def _validate_highlight_core(jobj, save_obj, msg_log, ind_lvl, hl_keys)
+### def _validate_highlight_core(jobj, save_obj, msg_log, ind_lvl, hl_keys)
 
 Primary portion of highlight validation. This is so it can be used seamlessly with highlight split object validation logs.  Props validated: - highlight
 
@@ -501,7 +501,7 @@ save_obj - dict to save data to msg_log - list to add messages to True if valid,
 
 ---
 
-#### def _validate_selectable(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_selectable(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates selectable  Props validated: - select_info
 
@@ -516,7 +516,7 @@ save_obj - dict to save data to msg_log - list to write messages to True if succ
 
 ---
 
-#### def _addGift(giftname, indent_lvl)
+### def _addGift(giftname, indent_lvl)
 
 Adds the reaction for this gift, using the correct label depending on gift label existence.
 
@@ -527,7 +527,7 @@ Adds the reaction for this gift, using the correct label depending on gift label
 
 ---
 
-#### def _replace_hair_map(sp_name, hair_to_replace)
+### def _replace_hair_map(sp_name, hair_to_replace)
 
 Replaces the hair vals of the given sprite object with the given name of the given hair with defaults.
 
@@ -538,13 +538,13 @@ Replaces the hair vals of the given sprite object with the given name of the giv
 
 ---
 
-#### def _remove_sel_list(name, sel_list)
+### def _remove_sel_list(name, sel_list)
 
 Removes selectable from selectbale list  Only intended for json usage. DO not use elsewhere. In general, you should NEVER need to remove a selectable from the selectable list.
 
 ---
 
-#### def _reset_sp_obj(sp_obj)
+### def _reset_sp_obj(sp_obj)
 
 Uninits the given sprite object. This is meant only for json sprite usage if we need to back out.
 
@@ -554,7 +554,7 @@ Uninits the given sprite object. This is meant only for json sprite usage if we 
 
 ---
 
-#### def _build_loadstrs(sp_obj, sel_obj=None)
+### def _build_loadstrs(sp_obj, sel_obj=None)
 
 Builds list of strings that need to be verified via loadable.
 
@@ -568,7 +568,7 @@ list of strings that would need to be loadable verified
 
 ---
 
-#### def _check_giftname(giftname, sp_type, sp_name, msg_log, ind_lvl)
+### def _check_giftname(giftname, sp_type, sp_name, msg_log, ind_lvl)
 
 Initializes the giftname with the sprite info
 
@@ -584,7 +584,7 @@ msg_log - list to log messages to
 
 ---
 
-#### def _init_giftname(giftname, sp_type, sp_name)
+### def _init_giftname(giftname, sp_type, sp_name)
 
 Initializes the giftname with the sprite info does not check for valid giftname.
 
@@ -596,13 +596,13 @@ Initializes the giftname with the sprite info does not check for valid giftname.
 
 ---
 
-#### def _process_giftname()
+### def _process_giftname()
 
 Process the gift maps by cleaning the persistent vars
 
 ---
 
-#### def _process_progpoint(sp_type, name, save_obj, msg_log, ind_lvl, progname)
+### def _process_progpoint(sp_type, name, save_obj, msg_log, ind_lvl, progname)
 
 Attempts to find a prop point for a sprite object with the given sp_type and name
 
@@ -618,7 +618,7 @@ save_obj - dict to save progpoint to msg_log - list to save messages to
 
 ---
 
-#### def _test_loadables(sp_obj, msg_log, ind_lvl)
+### def _test_loadables(sp_obj, msg_log, ind_lvl)
 
 Tests loadable images and errs if an image is not loadable.
 
@@ -632,7 +632,7 @@ msg_log - list to add messages to
 
 ---
 
-#### def _validate_type(json_obj, msg_log, ind_lvl)
+### def _validate_type(json_obj, msg_log, ind_lvl)
 
 Validates the type of this json object.  Logs errors. Also pops type off
 
@@ -646,7 +646,7 @@ msg_log - list to add messages to SP constant if valid type, None otherwise
 
 ---
 
-#### def _validate_mux_type(json_obj, msg_log, indent_lvl)
+### def _validate_mux_type(json_obj, msg_log, indent_lvl)
 
 Validates mux_type of this json object
 
@@ -660,7 +660,7 @@ msg_log - list to save error messages to if nothing was addeed to this list, the
 
 ---
 
-#### def _validate_iterstr(jobj, save_obj, propname, required, allow_none, msg_log, indent_lvl)
+### def _validate_iterstr(jobj, save_obj, propname, required, allow_none, msg_log, indent_lvl)
 
 Validates an iterable if it consists solely of strings  an empty list is considered bad.
 
@@ -677,7 +677,7 @@ save_obj - dict to save to msg_log - list to save messages to True if good, Fals
 
 ---
 
-#### def _validate_params(jobj, save_obj, param_dict, required, msg_log, indent_lvl)
+### def _validate_params(jobj, save_obj, param_dict, required, msg_log, indent_lvl)
 
 Validates a list of parameters, while also saving said params into given save object.  Errors/Warnings are logged to given lists
 
@@ -693,7 +693,7 @@ save_obj - dict to save data to msg_log - log to save messages to True if succes
 
 ---
 
-#### def _validate_acs(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_acs(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates ACS-specific properties, as well as acs pose map  Props validated: - rec_layer - priority - acs_type - dlg_desc - dlg_plural - mux_type - pose_map - giftname - arm_split - highlight
 
@@ -708,7 +708,7 @@ save_obj - dict to save data to msg_log - list to add messages to True if valida
 
 ---
 
-#### def _validate_fallbacks(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_fallbacks(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates fallback related properties and pose map  Props validated: - fallback - pose_map
 
@@ -723,7 +723,7 @@ save_obj - dict to save data to msg_log - list to save messages to True if succe
 
 ---
 
-#### def _validate_hair(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_hair(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates HAIR related properties  Props validated: - unlock - highlight
 
@@ -738,7 +738,7 @@ save_obj - dict to save data to msg_log - list to save messagse to True on succe
 
 ---
 
-#### def _validate_clothes(jobj, save_obj, obj_based, sp_name, dry_run, msg_log, indent_lvl, post_proc_data)
+### def _validate_clothes(jobj, save_obj, obj_based, sp_name, dry_run, msg_log, indent_lvl, post_proc_data)
 
 Validates CLOTHES related properties  Props validated: - hair_map - giftname - pose_arms - highlight - outfit_hair - outfit_acs
 
@@ -755,7 +755,7 @@ save_obj - dict to save data to msg_log - list to save messages to post_proc_dat
 
 ---
 
-#### def _validate_ex_props(jobj, save_obj, obj_based, msg_log, ind_lvl)
+### def _validate_ex_props(jobj, save_obj, obj_based, msg_log, ind_lvl)
 
 Validates ex_props proprety  Props validated: - ex_props
 
@@ -770,7 +770,7 @@ save_obj - dict to save data to msg_log - list to save messages to
 
 ---
 
-#### def _validate_highlight(obj_based, save_obj, msg_log, ind_lvl, hl_keys)
+### def _validate_highlight(obj_based, save_obj, msg_log, ind_lvl, hl_keys)
 
 Validates highlight objects  Props validated: - highlight
 
@@ -785,7 +785,7 @@ save_obj - dict to save data to msg_log - list to add messages to True if valid,
 
 ---
 
-#### def _validate_highlight_core(jobj, save_obj, msg_log, ind_lvl, hl_keys)
+### def _validate_highlight_core(jobj, save_obj, msg_log, ind_lvl, hl_keys)
 
 Primary portion of highlight validation. This is so it can be used seamlessly with highlight split object validation logs.  Props validated: - highlight
 
@@ -799,7 +799,7 @@ save_obj - dict to save data to msg_log - list to add messages to True if valid,
 
 ---
 
-#### def _validate_selectable(jobj, save_obj, obj_based, msg_log, indent_lvl)
+### def _validate_selectable(jobj, save_obj, obj_based, msg_log, indent_lvl)
 
 Validates selectable  Props validated: - select_info
 
@@ -814,7 +814,7 @@ save_obj - dict to save data to msg_log - list to write messages to True if succ
 
 ---
 
-#### def _addGift(giftname, indent_lvl)
+### def _addGift(giftname, indent_lvl)
 
 Adds the reaction for this gift, using the correct label depending on gift label existence.
 

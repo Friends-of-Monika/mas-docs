@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def show_display_say(who, what_string)
 

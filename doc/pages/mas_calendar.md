@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def getZodiacSign(date)
 
@@ -530,12 +530,12 @@ Adds season change events to the calendar. If the changed param is True it chang
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _formatDay(day)
+### def _formatDay(day)
 
 Properly formats the given day so it displays with the correct suffixes.
 
@@ -548,7 +548,7 @@ nice display string for the day
 
 ---
 
-#### def _formatYears(years)
+### def _formatYears(years)
 
 Properly formats the given years var so it says a user friendly way to show years.  Basically if years is: 0 - "" 1 - "last year" 2+ - "x years ago"
 
@@ -561,7 +561,7 @@ nice display string for the years
 
 ---
 
-#### def _m1_zz_calendar__addEvent_md(ev_label, month, day)
+### def _m1_zz_calendar__addEvent_md(ev_label, month, day)
 
 Adds an event to the calendar at a precise month / day
 
@@ -573,7 +573,7 @@ Adds an event to the calendar at a precise month / day
 
 ---
 
-#### def _addRepeatable_md(identifier, display_label, month, day, year_param)
+### def _addRepeatable_md(identifier, display_label, month, day, year_param)
 
 Adds a repeatable to the calendar at a precise month / day
 
@@ -587,7 +587,7 @@ Adds a repeatable to the calendar at a precise month / day
 
 ---
 
-#### def _findEvent_md(ev_label, month, day)
+### def _findEvent_md(ev_label, month, day)
 
 Finds the event tuple from the calendar at a precise month / day.
 
@@ -602,7 +602,7 @@ the event tuple if it was found, None otherwise
 
 ---
 
-#### def _findRepeatable_md(identifier, month, day)
+### def _findRepeatable_md(identifier, month, day)
 
 Finds the repeatable dtuple from the calendar at a precise month / day
 
@@ -617,7 +617,7 @@ the repeatable tuple if itw as found, None otherwise
 
 ---
 
-#### def _removeEvent(ev_label, remove_all=False)
+### def _removeEvent(ev_label, remove_all=False)
 
 Removs an event from the calendar.
 
@@ -628,7 +628,7 @@ Removs an event from the calendar.
 
 ---
 
-#### def _removeEvent_d(ev_label, day, remove_all=False)
+### def _removeEvent_d(ev_label, day, remove_all=False)
 
 Removes an event from the calendar on a particular day.
 
@@ -640,7 +640,7 @@ Removes an event from the calendar on a particular day.
 
 ---
 
-#### def _removeEvent_m(ev_label, month, remove_all=False)
+### def _removeEvent_m(ev_label, month, remove_all=False)
 
 Removes an event from the calendar in a particular month.
 
@@ -652,7 +652,7 @@ Removes an event from the calendar in a particular month.
 
 ---
 
-#### def _removeEvent_md(ev_label, month, day)
+### def _removeEvent_md(ev_label, month, day)
 
 Removes an event from the calendar at a precise month / day.
 
@@ -667,7 +667,7 @@ True if we removed something, False otherwise
 
 ---
 
-#### def _removeRepeatable(identifier)
+### def _removeRepeatable(identifier)
 
 Removes a repeatable from teh calendar.
 
@@ -677,7 +677,7 @@ Removes a repeatable from teh calendar.
 
 ---
 
-#### def _removeRepeatable_d(identifier, day)
+### def _removeRepeatable_d(identifier, day)
 
 Removes a repeatable from teh calendar in a particular month.
 
@@ -688,7 +688,7 @@ Removes a repeatable from teh calendar in a particular month.
 
 ---
 
-#### def _removeRepeatable_m(identifier, month)
+### def _removeRepeatable_m(identifier, month)
 
 Removes a repeatable from the calendar in a particular month.
 
@@ -699,7 +699,7 @@ Removes a repeatable from the calendar in a particular month.
 
 ---
 
-#### def _removeRepeatable_md(identifier, month, day)
+### def _removeRepeatable_md(identifier, month, day)
 
 Removes a repeatable from teh calendar at a precise month / day.
 
@@ -714,7 +714,7 @@ True if we removed somethign, False otherwise
 
 ---
 
-#### def _formatDay(day)
+### def _formatDay(day)
 
 Properly formats the given day so it displays with the correct suffixes.
 
@@ -727,7 +727,7 @@ nice display string for the day
 
 ---
 
-#### def _formatYears(years)
+### def _formatYears(years)
 
 Properly formats the given years var so it says a user friendly way to show years.  Basically if years is: 0 - "" 1 - "last year" 2+ - "x years ago"
 
@@ -740,7 +740,7 @@ nice display string for the years
 
 ---
 
-#### def _m1_zz_calendar__addEvent_md(ev_label, month, day)
+### def _m1_zz_calendar__addEvent_md(ev_label, month, day)
 
 Adds an event to the calendar at a precise month / day
 
@@ -752,7 +752,7 @@ Adds an event to the calendar at a precise month / day
 
 ---
 
-#### def _addRepeatable_md(identifier, display_label, month, day, year_param)
+### def _addRepeatable_md(identifier, display_label, month, day, year_param)
 
 Adds a repeatable to the calendar at a precise month / day
 
@@ -766,7 +766,7 @@ Adds a repeatable to the calendar at a precise month / day
 
 ---
 
-#### def _findEvent_md(ev_label, month, day)
+### def _findEvent_md(ev_label, month, day)
 
 Finds the event tuple from the calendar at a precise month / day.
 
@@ -781,7 +781,7 @@ the event tuple if it was found, None otherwise
 
 ---
 
-#### def _findRepeatable_md(identifier, month, day)
+### def _findRepeatable_md(identifier, month, day)
 
 Finds the repeatable dtuple from the calendar at a precise month / day
 
@@ -796,7 +796,7 @@ the repeatable tuple if itw as found, None otherwise
 
 ---
 
-#### def _removeEvent(ev_label, remove_all=False)
+### def _removeEvent(ev_label, remove_all=False)
 
 Removs an event from the calendar.
 
@@ -807,7 +807,7 @@ Removs an event from the calendar.
 
 ---
 
-#### def _removeEvent_d(ev_label, day, remove_all=False)
+### def _removeEvent_d(ev_label, day, remove_all=False)
 
 Removes an event from the calendar on a particular day.
 
@@ -819,7 +819,7 @@ Removes an event from the calendar on a particular day.
 
 ---
 
-#### def _removeEvent_m(ev_label, month, remove_all=False)
+### def _removeEvent_m(ev_label, month, remove_all=False)
 
 Removes an event from the calendar in a particular month.
 
@@ -831,7 +831,7 @@ Removes an event from the calendar in a particular month.
 
 ---
 
-#### def _removeEvent_md(ev_label, month, day)
+### def _removeEvent_md(ev_label, month, day)
 
 Removes an event from the calendar at a precise month / day.
 
@@ -846,7 +846,7 @@ True if we removed something, False otherwise
 
 ---
 
-#### def _removeRepeatable(identifier)
+### def _removeRepeatable(identifier)
 
 Removes a repeatable from teh calendar.
 
@@ -856,7 +856,7 @@ Removes a repeatable from teh calendar.
 
 ---
 
-#### def _removeRepeatable_d(identifier, day)
+### def _removeRepeatable_d(identifier, day)
 
 Removes a repeatable from teh calendar in a particular month.
 
@@ -867,7 +867,7 @@ Removes a repeatable from teh calendar in a particular month.
 
 ---
 
-#### def _removeRepeatable_m(identifier, month)
+### def _removeRepeatable_m(identifier, month)
 
 Removes a repeatable from the calendar in a particular month.
 
@@ -878,7 +878,7 @@ Removes a repeatable from the calendar in a particular month.
 
 ---
 
-#### def _removeRepeatable_md(identifier, month, day)
+### def _removeRepeatable_md(identifier, month, day)
 
 Removes a repeatable from teh calendar at a precise month / day.
 

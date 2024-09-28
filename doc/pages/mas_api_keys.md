@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def feature_registered(feature)
 
@@ -186,12 +186,12 @@ Saves API keys to disk
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _run_on_change(feature, api_key)
+### def _run_on_change(feature, api_key)
 
 Runs on change for a feature with api key
 
@@ -205,7 +205,7 @@ tuple of the following format: [0] - True if valid key, False if not [1] - error
 
 ---
 
-#### def _run_on_change(feature, api_key)
+### def _run_on_change(feature, api_key)
 
 Runs on change for a feature with api key
 

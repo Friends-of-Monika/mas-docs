@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def resetDockstatFlowVars()
 
@@ -38,12 +38,12 @@ a single farewell (as an Event) that we want to use
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _filterFarewell(ev, curr_pri, aff, check_time)
+### def _filterFarewell(ev, curr_pri, aff, check_time)
 
 Filters a farewell for the given type, among other things.
 
@@ -59,7 +59,7 @@ True if this ev passes the filter, False otherwise
 
 ---
 
-#### def _filterFarewell(ev, curr_pri, aff, check_time)
+### def _filterFarewell(ev, curr_pri, aff, check_time)
 
 Filters a farewell for the given type, among other things.
 

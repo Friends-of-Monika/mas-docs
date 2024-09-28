@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def copyWordsList(_mode)
 
@@ -146,16 +146,16 @@ display word
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _add_monika_words(wordlist)
+### def _add_monika_words(wordlist)
 
 ---
 
-#### def _buildWordList(filepath, _mode)
+### def _buildWordList(filepath, _mode)
 
 Builds a list of words given the filepath and mode
 
@@ -166,11 +166,11 @@ Builds a list of words given the filepath and mode
 
 ---
 
-#### def _add_monika_words(wordlist)
+### def _add_monika_words(wordlist)
 
 ---
 
-#### def _buildWordList(filepath, _mode)
+### def _buildWordList(filepath, _mode)
 
 Builds a list of words given the filepath and mode
 

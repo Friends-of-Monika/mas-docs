@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def getMousePosRelative()
 
@@ -132,12 +132,12 @@ Literally returns False
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _m1_zz_windowutils__getActiveWindowObj_Linux()
+### def _m1_zz_windowutils__getActiveWindowObj_Linux()
 
 Gets the active window object
 
@@ -146,7 +146,7 @@ Xlib.display.Window, or None if errors occur (or not possible to get window obj)
 
 ---
 
-#### def _m1_zz_windowutils__getMASWindowLinux()
+### def _m1_zz_windowutils__getMASWindowLinux()
 
 Funtion to get the MAS window on Linux systems
 
@@ -155,7 +155,7 @@ Xlib.display.Window representing the MAS window
 
 ---
 
-#### def _m1_zz_windowutils__getMASWindowHWND()
+### def _m1_zz_windowutils__getMASWindowHWND()
 
 Gets the hWnd of the MAS window
 
@@ -164,7 +164,7 @@ int - represents the hWnd of the MAS window
 
 ---
 
-#### def _m1_zz_windowutils__getAbsoluteGeometry(win)
+### def _m1_zz_windowutils__getAbsoluteGeometry(win)
 
 Returns the (x, y, height, width) of a window relative to the top-left of the screen.
 
@@ -177,7 +177,7 @@ tuple, (x, y, width, height) if possible, otherwise None
 
 ---
 
-#### def _setMASWindow()
+### def _setMASWindow()
 
 Sets the MAS_WINDOW global on Linux systems
 
@@ -186,7 +186,7 @@ the window object
 
 ---
 
-#### def _getActiveWindowHandle_Windows()
+### def _getActiveWindowHandle_Windows()
 
 Funtion to get the active window on Windows systems
 
@@ -195,7 +195,7 @@ string representing the active window handle
 
 ---
 
-#### def _getActiveWindowHandle_Linux()
+### def _getActiveWindowHandle_Linux()
 
 Funtion to get the active window on Linux systems
 
@@ -204,13 +204,13 @@ string representing the active window handle
 
 ---
 
-#### def _getActiveWindowHandle_OSX()
+### def _getActiveWindowHandle_OSX()
 
 Gets the active window on macOS
 
 ---
 
-#### def _tryShowNotification_Windows(title, body)
+### def _tryShowNotification_Windows(title, body)
 
 Tries to push a notification to the notification center on Windows. If it can't it should fail silently to the user.
 
@@ -224,7 +224,7 @@ bool. True if the notification was successfully sent, False otherwise
 
 ---
 
-#### def _tryShowNotification_Linux(title, body)
+### def _tryShowNotification_Linux(title, body)
 
 Tries to push a notification to the notification center on Linux. If it can't it should fail silently to the user.
 
@@ -238,7 +238,7 @@ bool - True, representing the notification's success
 
 ---
 
-#### def _tryShowNotification_OSX(title, body)
+### def _tryShowNotification_OSX(title, body)
 
 Tries to push a notification to the notification center on macOS. If it can't it should fail silently to the user.
 
@@ -252,7 +252,7 @@ bool - True, representing the notification's success
 
 ---
 
-#### def _getAbsoluteMousePos_Windows()
+### def _getAbsoluteMousePos_Windows()
 
 Returns an (x, y) co-ord tuple for the mouse position
 
@@ -261,13 +261,13 @@ tuple representing the absolute position of the mouse
 
 ---
 
-#### def _getAbsoluteMousePos_Linux()
+### def _getAbsoluteMousePos_Linux()
 
 Returns an (x, y) co-ord tuple represening the absolute mouse position
 
 ---
 
-#### def _getMASWindowPos_Windows()
+### def _getMASWindowPos_Windows()
 
 Gets the window position for MAS as a tuple of (left, top, right, bottom)
 
@@ -276,7 +276,7 @@ tuple representing window geometry or None if the window's hWnd could not be fou
 
 ---
 
-#### def _getMASWindowPos_Linux()
+### def _getMASWindowPos_Linux()
 
 Returns (x1, y1, x2, y2) relative to the top-left of the screen.
 
@@ -285,7 +285,7 @@ tuple representing (left, top, right, bottom) of the window bounds, or None if n
 
 ---
 
-#### def _m1_zz_windowutils__getActiveWindowObj_Linux()
+### def _m1_zz_windowutils__getActiveWindowObj_Linux()
 
 Gets the active window object
 
@@ -294,7 +294,7 @@ Xlib.display.Window, or None if errors occur (or not possible to get window obj)
 
 ---
 
-#### def _m1_zz_windowutils__getMASWindowLinux()
+### def _m1_zz_windowutils__getMASWindowLinux()
 
 Funtion to get the MAS window on Linux systems
 
@@ -303,7 +303,7 @@ Xlib.display.Window representing the MAS window
 
 ---
 
-#### def _m1_zz_windowutils__getMASWindowHWND()
+### def _m1_zz_windowutils__getMASWindowHWND()
 
 Gets the hWnd of the MAS window
 
@@ -312,7 +312,7 @@ int - represents the hWnd of the MAS window
 
 ---
 
-#### def _m1_zz_windowutils__getAbsoluteGeometry(win)
+### def _m1_zz_windowutils__getAbsoluteGeometry(win)
 
 Returns the (x, y, height, width) of a window relative to the top-left of the screen.
 
@@ -325,7 +325,7 @@ tuple, (x, y, width, height) if possible, otherwise None
 
 ---
 
-#### def _setMASWindow()
+### def _setMASWindow()
 
 Sets the MAS_WINDOW global on Linux systems
 
@@ -334,7 +334,7 @@ the window object
 
 ---
 
-#### def _getActiveWindowHandle_Windows()
+### def _getActiveWindowHandle_Windows()
 
 Funtion to get the active window on Windows systems
 
@@ -343,7 +343,7 @@ string representing the active window handle
 
 ---
 
-#### def _getActiveWindowHandle_Linux()
+### def _getActiveWindowHandle_Linux()
 
 Funtion to get the active window on Linux systems
 
@@ -352,13 +352,13 @@ string representing the active window handle
 
 ---
 
-#### def _getActiveWindowHandle_OSX()
+### def _getActiveWindowHandle_OSX()
 
 Gets the active window on macOS
 
 ---
 
-#### def _tryShowNotification_Windows(title, body)
+### def _tryShowNotification_Windows(title, body)
 
 Tries to push a notification to the notification center on Windows. If it can't it should fail silently to the user.
 
@@ -372,7 +372,7 @@ bool. True if the notification was successfully sent, False otherwise
 
 ---
 
-#### def _tryShowNotification_Linux(title, body)
+### def _tryShowNotification_Linux(title, body)
 
 Tries to push a notification to the notification center on Linux. If it can't it should fail silently to the user.
 
@@ -386,7 +386,7 @@ bool - True, representing the notification's success
 
 ---
 
-#### def _tryShowNotification_OSX(title, body)
+### def _tryShowNotification_OSX(title, body)
 
 Tries to push a notification to the notification center on macOS. If it can't it should fail silently to the user.
 
@@ -400,7 +400,7 @@ bool - True, representing the notification's success
 
 ---
 
-#### def _getAbsoluteMousePos_Windows()
+### def _getAbsoluteMousePos_Windows()
 
 Returns an (x, y) co-ord tuple for the mouse position
 
@@ -409,13 +409,13 @@ tuple representing the absolute position of the mouse
 
 ---
 
-#### def _getAbsoluteMousePos_Linux()
+### def _getAbsoluteMousePos_Linux()
 
 Returns an (x, y) co-ord tuple represening the absolute mouse position
 
 ---
 
-#### def _getMASWindowPos_Windows()
+### def _getMASWindowPos_Windows()
 
 Gets the window position for MAS as a tuple of (left, top, right, bottom)
 
@@ -424,7 +424,7 @@ tuple representing window geometry or None if the window's hWnd could not be fou
 
 ---
 
-#### def _getMASWindowPos_Linux()
+### def _getMASWindowPos_Linux()
 
 Returns (x1, y1, x2, y2) relative to the top-left of the screen.
 

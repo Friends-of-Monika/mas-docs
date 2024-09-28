@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def check_imports()
 

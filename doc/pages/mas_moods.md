@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def getMoodType(mood_label)
 

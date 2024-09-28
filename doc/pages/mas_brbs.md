@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def get_wb_quip()
 

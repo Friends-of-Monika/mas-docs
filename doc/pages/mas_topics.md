@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def topSeenEvents(sorted_ev_list, shown_count)
 

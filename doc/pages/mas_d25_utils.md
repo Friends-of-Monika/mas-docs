@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def shouldUseD25ReactToGifts()
 

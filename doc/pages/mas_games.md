@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def is_platform_good_for_chess()
 
@@ -34,12 +34,12 @@ event object for the game entered if found. None if not found
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _total_games_played(exclude_list=[])
+### def _total_games_played(exclude_list=[])
 
 Returns the total number of games played by adding up the shown_count of each game
 
@@ -49,7 +49,7 @@ Returns the total number of games played by adding up the shown_count of each ga
 
 ---
 
-#### def _total_games_played(exclude_list=[])
+### def _total_games_played(exclude_list=[])
 
 Returns the total number of games played by adding up the shown_count of each game
 

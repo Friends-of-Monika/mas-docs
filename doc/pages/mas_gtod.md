@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def has_day_past_tip(tip_num)
 

@@ -1,4 +1,4 @@
-## Functions
+## Public functions
 
 ### def lookup(key, year)
 
@@ -166,12 +166,12 @@ MASHistorySaver object, or None if not found
 
 ---
 
-### Internal functions
+## Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
 
-#### def _valid_year_range()
+### def _valid_year_range()
 
 generates the range of years that are valid for historical lookups.
 
@@ -180,7 +180,7 @@ range of years from 2017 to todays year.
 
 ---
 
-#### def _store(value, key, year)
+### def _store(value, key, year)
 
 Stores data in the historical archives.
 
@@ -192,7 +192,7 @@ Stores data in the historical archives.
 
 ---
 
-#### def _store_all(year_data, key)
+### def _store_all(year_data, key)
 
 Stores multiple year's worth of data in the historical archives.
 
@@ -203,7 +203,7 @@ Stores multiple year's worth of data in the historical archives.
 
 ---
 
-#### def _valid_year_range()
+### def _valid_year_range()
 
 generates the range of years that are valid for historical lookups.
 
@@ -212,7 +212,7 @@ range of years from 2017 to todays year.
 
 ---
 
-#### def _store(value, key, year)
+### def _store(value, key, year)
 
 Stores data in the historical archives.
 
@@ -224,7 +224,7 @@ Stores data in the historical archives.
 
 ---
 
-#### def _store_all(year_data, key)
+### def _store_all(year_data, key)
 
 Stores multiple year's worth of data in the historical archives.
 
@@ -235,45 +235,45 @@ Stores multiple year's worth of data in the historical archives.
 
 ---
 
-#### def _bday_exit_pp(mhs)
+### def _bday_exit_pp(mhs)
 
 ---
 
-#### def _pm_holdme_adj_times(elapsed)
+### def _pm_holdme_adj_times(elapsed)
 
 Sets the appropraite persistent vars according to the elasped time for the hold me topic
 
 ---
 
-#### def _bday_exit_pp(mhs)
+### def _bday_exit_pp(mhs)
 
 ---
 
-#### def _pm_holdme_adj_times(elapsed)
+### def _pm_holdme_adj_times(elapsed)
 
 Sets the appropraite persistent vars according to the elasped time for the hold me topic
 
 ---
 
-#### def _runMHSAlg()
+### def _runMHSAlg()
 
 Runs the historical data saving algorithm
 
 ---
 
-#### def _runMHSResetAlg()
+### def _runMHSResetAlg()
 
 Runs special resets in the case of TT. Do NOT call if TT not detected.
 
 ---
 
-#### def _runMHSAlg()
+### def _runMHSAlg()
 
 Runs the historical data saving algorithm
 
 ---
 
-#### def _runMHSResetAlg()
+### def _runMHSResetAlg()
 
 Runs special resets in the case of TT. Do NOT call if TT not detected.
 
