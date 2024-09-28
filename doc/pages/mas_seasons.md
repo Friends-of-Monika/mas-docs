@@ -1,5 +1,3 @@
-## Functions
-
 ### Internal functions
 
 > [!CAUTION]

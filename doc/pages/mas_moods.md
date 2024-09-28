@@ -26,8 +26,3 @@ type of the mood, or None if no type found
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

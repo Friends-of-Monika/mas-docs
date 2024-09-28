@@ -34,8 +34,3 @@ Runs a specific set of merges, particularly for the merge that happend after ver
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

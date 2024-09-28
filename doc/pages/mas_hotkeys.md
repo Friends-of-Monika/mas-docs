@@ -32,8 +32,3 @@ Sets dismiss to the given value, if it is not locked.
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

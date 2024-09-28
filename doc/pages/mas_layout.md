@@ -52,8 +52,3 @@ Sets up quit message based on the current affection state
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

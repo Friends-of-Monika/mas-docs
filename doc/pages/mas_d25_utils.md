@@ -30,8 +30,3 @@ found_map - map of found reactions key: lowercase giftname, no extension val: gi
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

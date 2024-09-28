@@ -20,8 +20,3 @@ fixes the pbday mhs usin gthe given date as pbday
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

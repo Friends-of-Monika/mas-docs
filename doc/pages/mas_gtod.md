@@ -26,8 +26,3 @@ true if the tip has been seen and a day has past since it was unlocked, False ot
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

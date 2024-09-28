@@ -213,16 +213,18 @@ def generate_doc_markdown(json_path: Path, out_path: Path) -> None: # pylint: di
         for class_doc in classes:
             pass
 
-        f.write("## Functions\n\n")
-        for func_doc in pub_funcs:
-            f.write(generate_func_markdown(func_doc))
+        if pub_funcs:
+            f.write("## Functions\n\n")
+            for func_doc in pub_funcs:
+                f.write(generate_func_markdown(func_doc))
 
-        f.write("### Internal functions\n\n"
-                "> [!CAUTION]\n"
-                "> These functions are *internal* and are not recommended for use.\n\n")
+        if int_funcs:
+            f.write("### Internal functions\n\n"
+                    "> [!CAUTION]\n"
+                    "> These functions are *internal* and are not recommended for use.\n\n")
 
-        for func_doc in int_funcs:
-            f.write(generate_func_markdown(func_doc, header_depth=4))
+            for func_doc in int_funcs:
+                f.write(generate_func_markdown(func_doc, header_depth=4))
 
     with json_path.open("r") as f:
         doc_json = json.load(f)

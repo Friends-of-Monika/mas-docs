@@ -46,8 +46,3 @@ boolean: - True if it has been at least idle_time since seeing the brb_evl - Fal
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-

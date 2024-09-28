@@ -28,8 +28,3 @@ number of events with shown_counts that are higher than the given shown_count
 
 ---
 
-### Internal functions
-
-> [!CAUTION]
-> These functions are *internal* and are not recommended for use.
-
