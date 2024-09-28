@@ -10,7 +10,7 @@ Attempts to decode the iamges
 - `selective` &mdash; list of images keys to decode If not passed in, we decode EVERYTHINg (DEfault: [])
 
 
-### def removeImages(dockstat, image_dict, selective=[], log=False)
+---### def removeImages(dockstat, image_dict, selective=[], log=False)
 
 Removes the decoded images at the end of their lifecycle
 
@@ -21,7 +21,7 @@ Removes the decoded images at the end of their lifecycle
 - `log` &mdash; should we log a delete failure? (Default: False)
 
 
-### def decodeImages(dockstat, image_dict, selective=[])
+---### def decodeImages(dockstat, image_dict, selective=[])
 
 Attempts to decode the iamges
 
@@ -31,7 +31,7 @@ Attempts to decode the iamges
 - `selective` &mdash; list of images keys to decode If not passed in, we decode EVERYTHINg (DEfault: [])
 
 
-### def removeImages(dockstat, image_dict, selective=[], log=False)
+---### def removeImages(dockstat, image_dict, selective=[], log=False)
 
 Removes the decoded images at the end of their lifecycle
 
@@ -42,7 +42,7 @@ Removes the decoded images at the end of their lifecycle
 - `log` &mdash; should we log a delete failure? (Default: False)
 
 
-### def setMoniSize(tdelta)
+---### def setMoniSize(tdelta)
 
 Sets the appropriate persistent size for monika
 
@@ -50,7 +50,7 @@ Sets the appropriate persistent size for monika
 - `tdelta` &mdash; timedelta to use
 
 
-### def setMoniSize(tdelta)
+---### def setMoniSize(tdelta)
 
 Sets the appropriate persistent size for monika
 
@@ -58,7 +58,7 @@ Sets the appropriate persistent size for monika
 - `tdelta` &mdash; timedelta to use
 
 
-### def checkMonika(status, moni_data)
+---### def checkMonika(status, moni_data)
 
 Parses if a given set of monika data is a rogue monika, our monika, and so on, and does checkins and more for the appropriate case.
 
@@ -70,11 +70,11 @@ Parses if a given set of monika data is a rogue monika, our monika, and so on, a
 **Returns:**<br>
 TBD
 
-### def checkinMonika()
+---### def checkinMonika()
 
 Adds entry to checkin log that monika has returned to the spaceroom. Also clears the global checksum var.
 
-### def checkoutMonika(chksum)
+---### def checkoutMonika(chksum)
 
 Adds entry to checkout log that monika has left the spaceroom. Also sets the chk to the global checksum var. Also removes monikas that had the same checksum
 
@@ -82,7 +82,7 @@ Adds entry to checkout log that monika has left the spaceroom. Also sets the chk
 - `chksum` &mdash; monika's checksum when checking her out.
 
 
-### def triageMonika(from_empty)
+---### def triageMonika(from_empty)
 
 Jumps to an appropriate label based on retmoni_status and retmoni_data. If retmoni_status is None, we dont do anything.
 
@@ -90,7 +90,7 @@ Jumps to an appropriate label based on retmoni_status and retmoni_data. If retmo
 - `from_empty` &mdash; True if we should assume from empty desk, False otherwise.
 
 
-### def packageCheck(dockstat, pkg_name, pkg_slip, on_succ, on_fail, sign=True)
+---### def packageCheck(dockstat, pkg_name, pkg_slip, on_succ, on_fail, sign=True)
 
 Checks for existence of a package that matches the pkg name and slip.  This acts as a wrapper around the signForPackage that can encapsulate return values with different values.  Success is when signForPackage returns 1. All other values are considered failures.
 
@@ -103,7 +103,7 @@ Checks for existence of a package that matches the pkg name and slip.  This acts
 - `sign` &mdash; True to use signForPackage (aka delete after checking), False uses getPackage + createPackageSlip (aka no delete after checking) (Default: True)
 
 
-### def generateMonika(dockstat, logpath)
+---### def generateMonika(dockstat, logpath)
 
 Generates / writes a monika blob file.
 
@@ -115,7 +115,7 @@ Generates / writes a monika blob file.
 **Returns:**<br>
 checksum of monika -1 if checksums didnt match (and we cant verify data integrity of the generated moinika file) None otherwise
 
-### def init_findMonika(dockstat)
+---### def init_findMonika(dockstat)
 
 findMonika variation that is meant to be run at init time.
 
@@ -123,7 +123,7 @@ findMonika variation that is meant to be run at init time.
 - `dockstat` &mdash; MASDockingStation to use
 
 
-### def findMonika(dockstat, logpath, at_init)
+---### def findMonika(dockstat, logpath, at_init)
 
 Attempts to find monika in the giving docking station
 
@@ -136,7 +136,7 @@ Attempts to find monika in the giving docking station
 **Returns:**<br>
 tuple of the following format: [0]: MAS_PKG_* constants depending on the state of monika [1]: either list of data or persistent object of data. Will be None if no data or errors occured
 
-### def parseMoniData(data_line, log)
+---### def parseMoniData(data_line, log)
 
 Parses monika data into its components
 
@@ -148,7 +148,7 @@ Parses monika data into its components
 **Returns:**<br>
 list of the following format: [0]: datetime of first sessin [1]: playername [2]: monika's nickname (could be Monika) [3]: affection, integer value (dont really rely on this for much) [4]: monika's hair setting [5]: monika's clothes setting  OR None if general (not item-specific) parse errors occurs)
 
-### def parseMoniDataPer(data_line, log)
+---### def parseMoniDataPer(data_line, log)
 
 Parses persitent data into a persitent object.
 
@@ -160,7 +160,7 @@ Parses persitent data into a persitent object.
 **Returns:**<br>
 a persistent object, or None if failure
 
-### def selectReturnHomeGreeting(gre_type=None)
+---### def selectReturnHomeGreeting(gre_type=None)
 
 Selects the correct Return Home greeting.  If None was selected, we return the default returned home gre  We also default type to TYPE_GENERIC_RET if no type is given
 
@@ -171,7 +171,7 @@ Selects the correct Return Home greeting.  If None was selected, we return the d
 **Returns:**<br>
 Event object representing the selected greeting
 
-### def getCheckTimes(chksum=None)
+---### def getCheckTimes(chksum=None)
 
 Gets the corresponding checkin/out times for the given chksum.
 
@@ -182,7 +182,7 @@ Gets the corresponding checkin/out times for the given chksum.
 **Returns:**<br>
 tuple of the following format: [0] - checkout time [1] - checkin time If any param is None, then we couldn't find the matching chksum or there were no entries
 
-### def diffCheckTimes(index=None)
+---### def diffCheckTimes(index=None)
 
 Returns the difference between the latest checkout and check in times We do checkin - checkout.
 
@@ -193,7 +193,7 @@ Returns the difference between the latest checkout and check in times We do chec
 **Returns:**<br>
 timedelta of the difference between checkin and checkout
 
-### def timeOut(_date)
+---### def timeOut(_date)
 
 Given a date, return how long monika has been out  We assume that checkout logs are the source of truth
 
@@ -201,7 +201,7 @@ Given a date, return how long monika has been out  We assume that checkout logs 
 - `_date` &mdash; date to check
 
 
-### def checkMonika(status, moni_data)
+---### def checkMonika(status, moni_data)
 
 Parses if a given set of monika data is a rogue monika, our monika, and so on, and does checkins and more for the appropriate case.
 
@@ -213,11 +213,11 @@ Parses if a given set of monika data is a rogue monika, our monika, and so on, a
 **Returns:**<br>
 TBD
 
-### def checkinMonika()
+---### def checkinMonika()
 
 Adds entry to checkin log that monika has returned to the spaceroom. Also clears the global checksum var.
 
-### def checkoutMonika(chksum)
+---### def checkoutMonika(chksum)
 
 Adds entry to checkout log that monika has left the spaceroom. Also sets the chk to the global checksum var. Also removes monikas that had the same checksum
 
@@ -225,7 +225,7 @@ Adds entry to checkout log that monika has left the spaceroom. Also sets the chk
 - `chksum` &mdash; monika's checksum when checking her out.
 
 
-### def triageMonika(from_empty)
+---### def triageMonika(from_empty)
 
 Jumps to an appropriate label based on retmoni_status and retmoni_data. If retmoni_status is None, we dont do anything.
 
@@ -233,7 +233,7 @@ Jumps to an appropriate label based on retmoni_status and retmoni_data. If retmo
 - `from_empty` &mdash; True if we should assume from empty desk, False otherwise.
 
 
-### def packageCheck(dockstat, pkg_name, pkg_slip, on_succ, on_fail, sign=True)
+---### def packageCheck(dockstat, pkg_name, pkg_slip, on_succ, on_fail, sign=True)
 
 Checks for existence of a package that matches the pkg name and slip.  This acts as a wrapper around the signForPackage that can encapsulate return values with different values.  Success is when signForPackage returns 1. All other values are considered failures.
 
@@ -246,7 +246,7 @@ Checks for existence of a package that matches the pkg name and slip.  This acts
 - `sign` &mdash; True to use signForPackage (aka delete after checking), False uses getPackage + createPackageSlip (aka no delete after checking) (Default: True)
 
 
-### def generateMonika(dockstat, logpath)
+---### def generateMonika(dockstat, logpath)
 
 Generates / writes a monika blob file.
 
@@ -258,7 +258,7 @@ Generates / writes a monika blob file.
 **Returns:**<br>
 checksum of monika -1 if checksums didnt match (and we cant verify data integrity of the generated moinika file) None otherwise
 
-### def init_findMonika(dockstat)
+---### def init_findMonika(dockstat)
 
 findMonika variation that is meant to be run at init time.
 
@@ -266,7 +266,7 @@ findMonika variation that is meant to be run at init time.
 - `dockstat` &mdash; MASDockingStation to use
 
 
-### def findMonika(dockstat, logpath, at_init)
+---### def findMonika(dockstat, logpath, at_init)
 
 Attempts to find monika in the giving docking station
 
@@ -279,7 +279,7 @@ Attempts to find monika in the giving docking station
 **Returns:**<br>
 tuple of the following format: [0]: MAS_PKG_* constants depending on the state of monika [1]: either list of data or persistent object of data. Will be None if no data or errors occured
 
-### def parseMoniData(data_line, log)
+---### def parseMoniData(data_line, log)
 
 Parses monika data into its components
 
@@ -291,7 +291,7 @@ Parses monika data into its components
 **Returns:**<br>
 list of the following format: [0]: datetime of first sessin [1]: playername [2]: monika's nickname (could be Monika) [3]: affection, integer value (dont really rely on this for much) [4]: monika's hair setting [5]: monika's clothes setting  OR None if general (not item-specific) parse errors occurs)
 
-### def parseMoniDataPer(data_line, log)
+---### def parseMoniDataPer(data_line, log)
 
 Parses persitent data into a persitent object.
 
@@ -303,7 +303,7 @@ Parses persitent data into a persitent object.
 **Returns:**<br>
 a persistent object, or None if failure
 
-### def selectReturnHomeGreeting(gre_type=None)
+---### def selectReturnHomeGreeting(gre_type=None)
 
 Selects the correct Return Home greeting.  If None was selected, we return the default returned home gre  We also default type to TYPE_GENERIC_RET if no type is given
 
@@ -314,7 +314,7 @@ Selects the correct Return Home greeting.  If None was selected, we return the d
 **Returns:**<br>
 Event object representing the selected greeting
 
-### def getCheckTimes(chksum=None)
+---### def getCheckTimes(chksum=None)
 
 Gets the corresponding checkin/out times for the given chksum.
 
@@ -325,7 +325,7 @@ Gets the corresponding checkin/out times for the given chksum.
 **Returns:**<br>
 tuple of the following format: [0] - checkout time [1] - checkin time If any param is None, then we couldn't find the matching chksum or there were no entries
 
-### def diffCheckTimes(index=None)
+---### def diffCheckTimes(index=None)
 
 Returns the difference between the latest checkout and check in times We do checkin - checkout.
 
@@ -336,7 +336,7 @@ Returns the difference between the latest checkout and check in times We do chec
 **Returns:**<br>
 timedelta of the difference between checkin and checkout
 
-### def timeOut(_date)
+---### def timeOut(_date)
 
 Given a date, return how long monika has been out  We assume that checkout logs are the source of truth
 
@@ -344,15 +344,15 @@ Given a date, return how long monika has been out  We assume that checkout logs 
 - `_date` &mdash; date to check
 
 
-### def abortGenPromise()
+---### def abortGenPromise()
 
 Attempts to about the monikagen promise and properly delete the monika package.
 
-### def abortGenPromise()
+---### def abortGenPromise()
 
 Attempts to about the monikagen promise and properly delete the monika package.
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -364,14 +364,14 @@ Writes out a pipe-delimeted metadata list to the given buffer
 **Returns:**<br>
 _outbuffer - buffer to write metadata to
 
-#### def _buildMetaDataPer(_outbuffer, log)
+---#### def _buildMetaDataPer(_outbuffer, log)
 
 Writes out the persistent's data into the given buffer  Exceptions are logged
 
 **Returns:**<br>
 _outbuffer - buffer to write persistent data to log - log to write messages to, if needed True on success, False if failed
 
-#### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
+---#### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
 
 Grants an amount of affection based on time out. This is designed for use ONLY with the returned home greeting.
 
@@ -383,21 +383,21 @@ Grants an amount of affection based on time out. This is designed for use ONLY w
 - `aff_mult` &mdash; multipler to hours to use as aff gain when between min and max (Default: 1)
 
 
-#### def _buildMetaDataList(_outbuffer)
+---#### def _buildMetaDataList(_outbuffer)
 
 Writes out a pipe-delimeted metadata list to the given buffer
 
 **Returns:**<br>
 _outbuffer - buffer to write metadata to
 
-#### def _buildMetaDataPer(_outbuffer, log)
+---#### def _buildMetaDataPer(_outbuffer, log)
 
 Writes out the persistent's data into the given buffer  Exceptions are logged
 
 **Returns:**<br>
 _outbuffer - buffer to write persistent data to log - log to write messages to, if needed True on success, False if failed
 
-#### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
+---#### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
 
 Grants an amount of affection based on time out. This is designed for use ONLY with the returned home greeting.
 
@@ -409,3 +409,4 @@ Grants an amount of affection based on time out. This is designed for use ONLY w
 - `aff_mult` &mdash; multipler to hours to use as aff gain when between min and max (Default: 1)
 
 
+---

@@ -11,7 +11,7 @@ Checks if a feature is registered for API keys
 **Returns:**<br>
 True if the feature is registered for API keys
 
-### def register_feature(feature, data)
+---### def register_feature(feature, data)
 
 Registers a feature for API key usage
 
@@ -20,21 +20,21 @@ Registers a feature for API key usage
 - `data` &mdash; data to associate with the feature
 
 
-### def features_for_display()
+---### def features_for_display()
 
 Returns list of the features for display
 
 **Returns:**<br>
 list of the features as tuples, sorted for display: [0] - the display name of the feature [1] - the on_change function to run
 
-### def has_features()
+---### def has_features()
 
 Do we have API-key based features?
 
 **Returns:**<br>
 True if we have api key based features
 
-### def clean_key(dirty_key)
+---### def clean_key(dirty_key)
 
 Cleans an aPI key
 
@@ -45,7 +45,7 @@ Cleans an aPI key
 **Returns:**<br>
 cleaned key
 
-### def screen_clear(feature)
+---### def screen_clear(feature)
 
 Called when the clear button is used on the api key screen
 
@@ -53,7 +53,7 @@ Called when the clear button is used on the api key screen
 - `feature` &mdash; the feature whose key is being cleared
 
 
-### def screen_paste(feature)
+---### def screen_paste(feature)
 
 Called when the paste button is used on the api key screen.
 
@@ -61,19 +61,19 @@ Called when the paste button is used on the api key screen.
 - `feature` &mdash; the feature whose key is being pasted
 
 
-### def screen_update_cert()
+---### def screen_update_cert()
 
 Called when the update cert button is used on the api key screen
 
-### def load_keys()
+---### def load_keys()
 
 Loads API keys from config file
 
-### def save_keys()
+---### def save_keys()
 
 Saves API keys to disk
 
-### def feature_registered(feature)
+---### def feature_registered(feature)
 
 Checks if a feature is registered for API keys
 
@@ -84,7 +84,7 @@ Checks if a feature is registered for API keys
 **Returns:**<br>
 True if the feature is registered for API keys
 
-### def register_feature(feature, data)
+---### def register_feature(feature, data)
 
 Registers a feature for API key usage
 
@@ -93,21 +93,21 @@ Registers a feature for API key usage
 - `data` &mdash; data to associate with the feature
 
 
-### def features_for_display()
+---### def features_for_display()
 
 Returns list of the features for display
 
 **Returns:**<br>
 list of the features as tuples, sorted for display: [0] - the display name of the feature [1] - the on_change function to run
 
-### def has_features()
+---### def has_features()
 
 Do we have API-key based features?
 
 **Returns:**<br>
 True if we have api key based features
 
-### def clean_key(dirty_key)
+---### def clean_key(dirty_key)
 
 Cleans an aPI key
 
@@ -118,7 +118,7 @@ Cleans an aPI key
 **Returns:**<br>
 cleaned key
 
-### def screen_clear(feature)
+---### def screen_clear(feature)
 
 Called when the clear button is used on the api key screen
 
@@ -126,7 +126,7 @@ Called when the clear button is used on the api key screen
 - `feature` &mdash; the feature whose key is being cleared
 
 
-### def screen_paste(feature)
+---### def screen_paste(feature)
 
 Called when the paste button is used on the api key screen.
 
@@ -134,19 +134,19 @@ Called when the paste button is used on the api key screen.
 - `feature` &mdash; the feature whose key is being pasted
 
 
-### def screen_update_cert()
+---### def screen_update_cert()
 
 Called when the update cert button is used on the api key screen
 
-### def load_keys()
+---### def load_keys()
 
 Loads API keys from config file
 
-### def save_keys()
+---### def save_keys()
 
 Saves API keys to disk
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -163,7 +163,7 @@ Runs on change for a feature with api key
 **Returns:**<br>
 tuple of the following format: [0] - True if valid key, False if not [1] - error message to show
 
-#### def _run_on_change(feature, api_key)
+---#### def _run_on_change(feature, api_key)
 
 Runs on change for a feature with api key
 
@@ -175,3 +175,4 @@ Runs on change for a feature with api key
 **Returns:**<br>
 tuple of the following format: [0] - True if valid key, False if not [1] - error message to show
 
+---

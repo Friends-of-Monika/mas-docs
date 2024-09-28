@@ -4,7 +4,7 @@
 
 Resets all the dockstat flow vars back to the original states (None)
 
-### def selectFarewell(check_time=None)
+---### def selectFarewell(check_time=None)
 
 Selects a farewell to be used. This evaluates rules and stuff appropriately.
 
@@ -15,11 +15,11 @@ Selects a farewell to be used. This evaluates rules and stuff appropriately.
 **Returns:**<br>
 a single farewell (as an Event) that we want to use
 
-### def resetDockstatFlowVars()
+---### def resetDockstatFlowVars()
 
 Resets all the dockstat flow vars back to the original states (None)
 
-### def selectFarewell(check_time=None)
+---### def selectFarewell(check_time=None)
 
 Selects a farewell to be used. This evaluates rules and stuff appropriately.
 
@@ -30,7 +30,7 @@ Selects a farewell to be used. This evaluates rules and stuff appropriately.
 **Returns:**<br>
 a single farewell (as an Event) that we want to use
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -49,7 +49,7 @@ Filters a farewell for the given type, among other things.
 **Returns:**<br>
 True if this ev passes the filter, False otherwise
 
-#### def _filterFarewell(ev, curr_pri, aff, check_time)
+---#### def _filterFarewell(ev, curr_pri, aff, check_time)
 
 Filters a farewell for the given type, among other things.
 
@@ -63,3 +63,4 @@ Filters a farewell for the given type, among other things.
 **Returns:**<br>
 True if this ev passes the filter, False otherwise
 
+---

@@ -9,14 +9,14 @@
 
 Scans the folder with the desk sprites and fills the desk sprites map
 
-#### def _m1_zz_cardgames__rect_overlap_area(r1, r2)
+---#### def _m1_zz_cardgames__rect_overlap_area(r1, r2)
 
 Checks if 2 given rectangles overlap
 
 **Returns:**<br>
 overlap between the 2 rectangles (False if they don't overlap)
 
-#### def _m1_zz_cardgames__default_can_drag(table, stack, card)
+---#### def _m1_zz_cardgames__default_can_drag(table, stack, card)
 
 Function to check if the player can drag card
 
@@ -29,18 +29,18 @@ Function to check if the player can drag card
 **Returns:**<br>
 True if the card is set faceup, False otherwise
 
-#### def _m1_zz_cardgames__scanDeskSprites()
+---#### def _m1_zz_cardgames__scanDeskSprites()
 
 Scans the folder with the desk sprites and fills the desk sprites map
 
-#### def _m1_zz_cardgames__rect_overlap_area(r1, r2)
+---#### def _m1_zz_cardgames__rect_overlap_area(r1, r2)
 
 Checks if 2 given rectangles overlap
 
 **Returns:**<br>
 overlap between the 2 rectangles (False if they don't overlap)
 
-#### def _m1_zz_cardgames__default_can_drag(table, stack, card)
+---#### def _m1_zz_cardgames__default_can_drag(table, stack, card)
 
 Function to check if the player can drag card
 
@@ -53,3 +53,4 @@ Function to check if the player can drag card
 **Returns:**<br>
 True if the card is set faceup, False otherwise
 
+---

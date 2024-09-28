@@ -12,7 +12,7 @@ Adds a reaction to the file reactions database.
 - `exclude_on` &mdash; keys marking times to exclude this gift
 
 
-### def build_gift_react_labels(evb_details=[], gsp_details=[], gen_details=[], gift_cntrs=None, ending_label=None, starting_label=None, prepare_data=True)
+---### def build_gift_react_labels(evb_details=[], gsp_details=[], gen_details=[], gift_cntrs=None, ending_label=None, starting_label=None, prepare_data=True)
 
 Processes gift details into a list of labels to show labels to queue/push whatever.
 
@@ -29,7 +29,7 @@ Processes gift details into a list of labels to show labels to queue/push whatev
 **Returns:**<br>
 list of labels. Evb reactions are first, followed by gsp reactions, then gen reactions
 
-### def build_exclusion_list(_key)
+---### def build_exclusion_list(_key)
 
 Builds a list of excluded gifts based on the key provided
 
@@ -40,7 +40,7 @@ Builds a list of excluded gifts based on the key provided
 **Returns:**<br>
 list of giftnames which are excluded by the key
 
-### def check_for_gifts(found_map={}, exclusion_list=[], exclusion_found_map={}, override_react_map=False)
+---### def check_for_gifts(found_map={}, exclusion_list=[], exclusion_found_map={}, override_react_map=False)
 
 Finds gifts.
 
@@ -52,7 +52,7 @@ Finds gifts.
 **Returns:**<br>
 found_map - contains all gifts that were found: key: lowercase giftname, no extension val: full giftname wtih extension exclusion_found_map - contains all gifts that were found but are excluded. key: lowercase giftname, no extension val: full giftname with extension list of found giftnames
 
-### def process_gifts(gifts, evb_details=[], gsp_details=[], gen_details=[])
+---### def process_gifts(gifts, evb_details=[], gsp_details=[], gen_details=[])
 
 Processes list of giftnames into types of gift
 
@@ -63,7 +63,7 @@ Processes list of giftnames into types of gift
 **Returns:**<br>
 evb_details - list of GiftReactDetails objects regarding event-based reactions spo_details - list of GiftReactDetails objects regarding generic sprite object reactions gen_details - list of GiftReactDetails objects regarding generic gift reactions
 
-### def react_to_gifts(found_map, connect=True)
+---### def react_to_gifts(found_map, connect=True)
 
 Reacts to gifts using the standard protocol (no exclusions)
 
@@ -74,7 +74,7 @@ Reacts to gifts using the standard protocol (no exclusions)
 **Returns:**<br>
 found_map - map of found reactions key: lowercaes giftname, no extension val: giftname with extension list of labels to be queued/pushed
 
-### def register_gen_grds(details)
+---### def register_gen_grds(details)
 
 registers gifts given a generic GiftReactDetails list
 
@@ -82,7 +82,7 @@ registers gifts given a generic GiftReactDetails list
 - `details` &mdash; list of GiftReactDetails objects to register
 
 
-### def register_sp_grds(details)
+---### def register_sp_grds(details)
 
 registers gifts given sprite-based GiftReactDetails list
 
@@ -90,7 +90,7 @@ registers gifts given sprite-based GiftReactDetails list
 - `details` &mdash; list of GiftReactDetails objcts to register
 
 
-### def delete_file(_filename)
+---### def delete_file(_filename)
 
 Deletes a file off the found_react map
 
@@ -98,7 +98,7 @@ Deletes a file off the found_react map
 - `_filename` &mdash; the name of the file to delete. If None, we delete one randomly
 
 
-### def delete_files(_filename_list)
+---### def delete_files(_filename_list)
 
 Deletes multiple files off the found_react map
 
@@ -106,7 +106,7 @@ Deletes multiple files off the found_react map
 - `_filename_list` &mdash; list of filenames to delete.
 
 
-### def th_delete_file(_filename)
+---### def th_delete_file(_filename)
 
 Deletes a file off the threaded found_react map
 
@@ -114,7 +114,7 @@ Deletes a file off the threaded found_react map
 - `_filename` &mdash; the name of the file to delete. If None, we delete one randomly
 
 
-### def th_delete_files(_filename_list)
+---### def th_delete_files(_filename_list)
 
 Deletes multiple files off the threaded foundreact map
 
@@ -122,7 +122,7 @@ Deletes multiple files off the threaded foundreact map
 - `_filename_list` &mdash; list of ilenames to delete
 
 
-### def delete_all(_map)
+---### def delete_all(_map)
 
 Attempts to delete all files in the given map. Removes files in that map if they dont exist no more
 
@@ -130,11 +130,11 @@ Attempts to delete all files in the given map. Removes files in that map if they
 - `_map` &mdash; map to delete all
 
 
-### def get_report_for_date(date=None)
+---### def get_report_for_date(date=None)
 
 Generates a report for all the gifts given on the input date. The report is in tuple form (total, good_gifts, neutral_gifts, bad_gifts) it contains the totals of each type of gift.
 
-### def addReaction(ev_label, fname, _action=store.EV_ACT_QUEUE, is_good=None, exclude_on=[])
+---### def addReaction(ev_label, fname, _action=store.EV_ACT_QUEUE, is_good=None, exclude_on=[])
 
 Adds a reaction to the file reactions database.
 
@@ -146,7 +146,7 @@ Adds a reaction to the file reactions database.
 - `exclude_on` &mdash; keys marking times to exclude this gift
 
 
-### def build_gift_react_labels(evb_details=[], gsp_details=[], gen_details=[], gift_cntrs=None, ending_label=None, starting_label=None, prepare_data=True)
+---### def build_gift_react_labels(evb_details=[], gsp_details=[], gen_details=[], gift_cntrs=None, ending_label=None, starting_label=None, prepare_data=True)
 
 Processes gift details into a list of labels to show labels to queue/push whatever.
 
@@ -163,7 +163,7 @@ Processes gift details into a list of labels to show labels to queue/push whatev
 **Returns:**<br>
 list of labels. Evb reactions are first, followed by gsp reactions, then gen reactions
 
-### def build_exclusion_list(_key)
+---### def build_exclusion_list(_key)
 
 Builds a list of excluded gifts based on the key provided
 
@@ -174,7 +174,7 @@ Builds a list of excluded gifts based on the key provided
 **Returns:**<br>
 list of giftnames which are excluded by the key
 
-### def check_for_gifts(found_map={}, exclusion_list=[], exclusion_found_map={}, override_react_map=False)
+---### def check_for_gifts(found_map={}, exclusion_list=[], exclusion_found_map={}, override_react_map=False)
 
 Finds gifts.
 
@@ -186,7 +186,7 @@ Finds gifts.
 **Returns:**<br>
 found_map - contains all gifts that were found: key: lowercase giftname, no extension val: full giftname wtih extension exclusion_found_map - contains all gifts that were found but are excluded. key: lowercase giftname, no extension val: full giftname with extension list of found giftnames
 
-### def process_gifts(gifts, evb_details=[], gsp_details=[], gen_details=[])
+---### def process_gifts(gifts, evb_details=[], gsp_details=[], gen_details=[])
 
 Processes list of giftnames into types of gift
 
@@ -197,7 +197,7 @@ Processes list of giftnames into types of gift
 **Returns:**<br>
 evb_details - list of GiftReactDetails objects regarding event-based reactions spo_details - list of GiftReactDetails objects regarding generic sprite object reactions gen_details - list of GiftReactDetails objects regarding generic gift reactions
 
-### def react_to_gifts(found_map, connect=True)
+---### def react_to_gifts(found_map, connect=True)
 
 Reacts to gifts using the standard protocol (no exclusions)
 
@@ -208,7 +208,7 @@ Reacts to gifts using the standard protocol (no exclusions)
 **Returns:**<br>
 found_map - map of found reactions key: lowercaes giftname, no extension val: giftname with extension list of labels to be queued/pushed
 
-### def register_gen_grds(details)
+---### def register_gen_grds(details)
 
 registers gifts given a generic GiftReactDetails list
 
@@ -216,7 +216,7 @@ registers gifts given a generic GiftReactDetails list
 - `details` &mdash; list of GiftReactDetails objects to register
 
 
-### def register_sp_grds(details)
+---### def register_sp_grds(details)
 
 registers gifts given sprite-based GiftReactDetails list
 
@@ -224,7 +224,7 @@ registers gifts given sprite-based GiftReactDetails list
 - `details` &mdash; list of GiftReactDetails objcts to register
 
 
-### def delete_file(_filename)
+---### def delete_file(_filename)
 
 Deletes a file off the found_react map
 
@@ -232,7 +232,7 @@ Deletes a file off the found_react map
 - `_filename` &mdash; the name of the file to delete. If None, we delete one randomly
 
 
-### def delete_files(_filename_list)
+---### def delete_files(_filename_list)
 
 Deletes multiple files off the found_react map
 
@@ -240,7 +240,7 @@ Deletes multiple files off the found_react map
 - `_filename_list` &mdash; list of filenames to delete.
 
 
-### def th_delete_file(_filename)
+---### def th_delete_file(_filename)
 
 Deletes a file off the threaded found_react map
 
@@ -248,7 +248,7 @@ Deletes a file off the threaded found_react map
 - `_filename` &mdash; the name of the file to delete. If None, we delete one randomly
 
 
-### def th_delete_files(_filename_list)
+---### def th_delete_files(_filename_list)
 
 Deletes multiple files off the threaded foundreact map
 
@@ -256,7 +256,7 @@ Deletes multiple files off the threaded foundreact map
 - `_filename_list` &mdash; list of ilenames to delete
 
 
-### def delete_all(_map)
+---### def delete_all(_map)
 
 Attempts to delete all files in the given map. Removes files in that map if they dont exist no more
 
@@ -264,11 +264,11 @@ Attempts to delete all files in the given map. Removes files in that map if they
 - `_map` &mdash; map to delete all
 
 
-### def get_report_for_date(date=None)
+---### def get_report_for_date(date=None)
 
 Generates a report for all the gifts given on the input date. The report is in tuple form (total, good_gifts, neutral_gifts, bad_gifts) it contains the totals of each type of gift.
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -277,18 +277,18 @@ Generates a report for all the gifts given on the input date. The report is in t
 
 Initializes the connector quips
 
-#### def _initStarterQuips()
+---#### def _initStarterQuips()
 
 Initializes the starter quips
 
-#### def _pick_starter_label()
+---#### def _pick_starter_label()
 
 Internal function that returns the appropriate starter label for reactions
 
 **Returns:**<br>
 - The label as a string, that should be used today.
 
-#### def _core_delete(_filename, _map)
+---#### def _core_delete(_filename, _map)
 
 Core deletion file function.
 
@@ -297,7 +297,7 @@ Core deletion file function.
 - `_map` &mdash; the map to use when deleting file.
 
 
-#### def _core_delete_list(_filename_list, _map)
+---#### def _core_delete_list(_filename_list, _map)
 
 Core deletion filename list function
 
@@ -306,7 +306,7 @@ Core deletion filename list function
 - `_map` &mdash; the map to use when deleting files
 
 
-#### def _register_received_gift(eventlabel)
+---#### def _register_received_gift(eventlabel)
 
 Registers when player gave a gift successfully
 
@@ -314,7 +314,7 @@ Registers when player gave a gift successfully
 - `eventlabel` &mdash; the event label for the gift reaction
 
 
-#### def _get_full_stats_for_date(date=None)
+---#### def _get_full_stats_for_date(date=None)
 
 Getter for the full stats dict for gifts on a given date
 
@@ -325,22 +325,22 @@ Getter for the full stats dict for gifts on a given date
 **Returns:**<br>
 The dict containing the full stats or None if it's empty
 
-#### def _initConnectorQuips()
+---#### def _initConnectorQuips()
 
 Initializes the connector quips
 
-#### def _initStarterQuips()
+---#### def _initStarterQuips()
 
 Initializes the starter quips
 
-#### def _pick_starter_label()
+---#### def _pick_starter_label()
 
 Internal function that returns the appropriate starter label for reactions
 
 **Returns:**<br>
 - The label as a string, that should be used today.
 
-#### def _core_delete(_filename, _map)
+---#### def _core_delete(_filename, _map)
 
 Core deletion file function.
 
@@ -349,7 +349,7 @@ Core deletion file function.
 - `_map` &mdash; the map to use when deleting file.
 
 
-#### def _core_delete_list(_filename_list, _map)
+---#### def _core_delete_list(_filename_list, _map)
 
 Core deletion filename list function
 
@@ -358,7 +358,7 @@ Core deletion filename list function
 - `_map` &mdash; the map to use when deleting files
 
 
-#### def _register_received_gift(eventlabel)
+---#### def _register_received_gift(eventlabel)
 
 Registers when player gave a gift successfully
 
@@ -366,7 +366,7 @@ Registers when player gave a gift successfully
 - `eventlabel` &mdash; the event label for the gift reaction
 
 
-#### def _get_full_stats_for_date(date=None)
+---#### def _get_full_stats_for_date(date=None)
 
 Getter for the full stats dict for gifts on a given date
 
@@ -377,3 +377,4 @@ Getter for the full stats dict for gifts on a given date
 **Returns:**<br>
 The dict containing the full stats or None if it's empty
 
+---

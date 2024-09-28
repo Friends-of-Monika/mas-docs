@@ -4,7 +4,7 @@
 
 Resets the globals to their default values
 
-### def getLabelPrefix(test_str)
+---### def getLabelPrefix(test_str)
 
 Checks if test_str starts with anything in the list of prefixes, and if so, returns the matching prefix
 
@@ -15,25 +15,25 @@ Checks if test_str starts with anything in the list of prefixes, and if so, retu
 **Returns:**<br>
 string: - label_prefix if test_string starts with a prefix in list_prefixes - empty string otherwise
 
-### def getDerandomedEVLs()
+---### def getDerandomedEVLs()
 
 Gets a list of derandomed eventlabels
 
 **Returns:**<br>
 list of derandomed eventlabels
 
-### def shouldRandom(eventlabel)
+---### def shouldRandom(eventlabel)
 
 Checks if we should random the given eventlabel This is determined by whether or not the event is in any derandom list
 
 **Returns:**<br>
 boolean: True if we should random this event, False otherwise
 
-### def wrappedGainAffection(amount=None, modifier=1.0, bypass=False)
+---### def wrappedGainAffection(amount=None, modifier=1.0, bypass=False)
 
 Wrapper function for mas_gainAffection which allows it to be used in event rules at init 5  See mas_gainAffection for documentation
 
-### def removeDerand(eventlabel)
+---### def removeDerand(eventlabel)
 
 Removes a derandomed eventlabel from ALL derandom dbs
 
@@ -41,11 +41,11 @@ Removes a derandomed eventlabel from ALL derandom dbs
 - `eventlabel` &mdash; Eventlabel to remove
 
 
-### def resetDefaultValues()
+---### def resetDefaultValues()
 
 Resets the globals to their default values
 
-### def getLabelPrefix(test_str)
+---### def getLabelPrefix(test_str)
 
 Checks if test_str starts with anything in the list of prefixes, and if so, returns the matching prefix
 
@@ -56,25 +56,25 @@ Checks if test_str starts with anything in the list of prefixes, and if so, retu
 **Returns:**<br>
 string: - label_prefix if test_string starts with a prefix in list_prefixes - empty string otherwise
 
-### def getDerandomedEVLs()
+---### def getDerandomedEVLs()
 
 Gets a list of derandomed eventlabels
 
 **Returns:**<br>
 list of derandomed eventlabels
 
-### def shouldRandom(eventlabel)
+---### def shouldRandom(eventlabel)
 
 Checks if we should random the given eventlabel This is determined by whether or not the event is in any derandom list
 
 **Returns:**<br>
 boolean: True if we should random this event, False otherwise
 
-### def wrappedGainAffection(amount=None, modifier=1.0, bypass=False)
+---### def wrappedGainAffection(amount=None, modifier=1.0, bypass=False)
 
 Wrapper function for mas_gainAffection which allows it to be used in event rules at init 5  See mas_gainAffection for documentation
 
-### def removeDerand(eventlabel)
+---### def removeDerand(eventlabel)
 
 Removes a derandomed eventlabel from ALL derandom dbs
 
@@ -82,7 +82,7 @@ Removes a derandomed eventlabel from ALL derandom dbs
 - `eventlabel` &mdash; Eventlabel to remove
 
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

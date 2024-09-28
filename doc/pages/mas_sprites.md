@@ -8,11 +8,11 @@ Applies ACS template to the given ACS
 - `acs` &mdash; acs to apply defaults to
 
 
-### def apply_ACSTemplates()
+---### def apply_ACSTemplates()
 
 RUNTIME ONLY Applies all templates to the available ACS.
 
-### def get_ACSTemplate(acs)
+---### def get_ACSTemplate(acs)
 
 Gets the template for an ACS given the ACS.
 
@@ -23,7 +23,7 @@ Gets the template for an ACS given the ACS.
 **Returns:**<br>
 ACSTemplate associated with the acs, or None if not found
 
-### def get_ACSTemplate_by_type(acs_type)
+---### def get_ACSTemplate_by_type(acs_type)
 
 Gets the template for an ACS given the ACS type
 
@@ -34,7 +34,7 @@ Gets the template for an ACS given the ACS type
 **Returns:**<br>
 ACSTemplate associated with the acs_type or Nonr if not ound
 
-### def add_filter(flt_enum, imx, base=None)
+---### def add_filter(flt_enum, imx, base=None)
 
 Adds a filter to the global filters You can also use this to override built-in filters.
 
@@ -44,14 +44,14 @@ Adds a filter to the global filters You can also use this to override built-in f
 - `base` &mdash; filter to use as a backup for this filter. Any images that are unable to be shown for flt_enum will be revert to the base filter. This should also be a FLT_ENUM. This is checked to make sure it is a valid, preexisting enum, so if chaining multiple bases, add them in order. If None, no base is given for the flt. (Default: None)
 
 
-### def get_filter()
+---### def get_filter()
 
 Returns the current filter
 
 **Returns:**<br>
 filter to use
 
-### def is_filter(flt)
+---### def is_filter(flt)
 
 Checks if the given filter is a valid filter
 
@@ -62,7 +62,7 @@ Checks if the given filter is a valid filter
 **Returns:**<br>
 True if valid filter, False if not
 
-### def set_filter(flt_enum)
+---### def set_filter(flt_enum)
 
 Sets the current filter if it is valid. Invalid filters are ignored.
 
@@ -70,7 +70,7 @@ Sets the current filter if it is valid. Invalid filters are ignored.
 - `flt_enum` &mdash; filter to set
 
 
-### def add_filter(flt_enum, imx, base=None)
+---### def add_filter(flt_enum, imx, base=None)
 
 Adds a filter to the global filters You can also use this to override built-in filters.
 
@@ -80,14 +80,14 @@ Adds a filter to the global filters You can also use this to override built-in f
 - `base` &mdash; filter to use as a backup for this filter. Any images that are unable to be shown for flt_enum will be revert to the base filter. This should also be a FLT_ENUM. This is checked to make sure it is a valid, preexisting enum, so if chaining multiple bases, add them in order. If None, no base is given for the flt. (Default: None)
 
 
-### def get_filter()
+---### def get_filter()
 
 Returns the current filter
 
 **Returns:**<br>
 filter to use
 
-### def is_filter(flt)
+---### def is_filter(flt)
 
 Checks if the given filter is a valid filter
 
@@ -98,7 +98,7 @@ Checks if the given filter is a valid filter
 **Returns:**<br>
 True if valid filter, False if not
 
-### def set_filter(flt_enum)
+---### def set_filter(flt_enum)
 
 Sets the current filter if it is valid. Invalid filters are ignored.
 
@@ -106,7 +106,7 @@ Sets the current filter if it is valid. Invalid filters are ignored.
 - `flt_enum` &mdash; filter to set
 
 
-### def alt_bcode(v_list, prefix, inc_night)
+---### def alt_bcode(v_list, prefix, inc_night)
 
 Adds bcode 0 and bcode 1 versions of the given prefix to the given list.
 
@@ -118,7 +118,7 @@ Adds bcode 0 and bcode 1 versions of the given prefix to the given list.
 **Returns:**<br>
 v_list - list to add strings to
 
-### def alt_hsplit(v_list, prefix, inc_night)
+---### def alt_hsplit(v_list, prefix, inc_night)
 
 Adds backhair/front hair versionsof the given prefix to the given list
 
@@ -130,19 +130,19 @@ Adds backhair/front hair versionsof the given prefix to the given list
 **Returns:**<br>
 v_list - list to add strings to
 
-### def adjust_zoom()
+---### def adjust_zoom()
 
 Sets the value zoom to an appropraite amoutn based on the current zoom level.
 
-### def reset_zoom()
+---### def reset_zoom()
 
 Resets the zoom to the default value
 
-### def zoom_out()
+---### def zoom_out()
 
 zooms out to the farthest zoom level
 
-### def tryparsehair(_hair, default='def')
+---### def tryparsehair(_hair, default='def')
 
 Returns the given hair if it exists, or the default if not exist
 
@@ -154,7 +154,7 @@ Returns the given hair if it exists, or the default if not exist
 **Returns:**<br>
 the hair if it exists, or default if not
 
-### def tryparseclothes(_clothes, default='def')
+---### def tryparseclothes(_clothes, default='def')
 
 Returns the given clothes if it exists, or the default if not exist
 
@@ -166,7 +166,7 @@ Returns the given clothes if it exists, or the default if not exist
 **Returns:**<br>
 the clothes if it exists, or default if not
 
-### def acs_lean_mode(sprite_list, lean)
+---### def acs_lean_mode(sprite_list, lean)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -181,7 +181,7 @@ the clothes if it exists, or default if not
 - `lean` &mdash; type of lean
 
 
-### def face_lean_mode(lean)
+---### def face_lean_mode(lean)
 
 Returns the appropriate face prefix depending on lean
 
@@ -192,7 +192,7 @@ Returns the appropriate face prefix depending on lean
 **Returns:**<br>
 appropriat eface prefix string
 
-### def create_remover(acs_type, group, mux_types)
+---### def create_remover(acs_type, group, mux_types)
 
 Creates a remover ACS
 
@@ -205,7 +205,7 @@ Creates a remover ACS
 **Returns:**<br>
 remover ACS object
 
-### def get_acs(acs_name)
+---### def get_acs(acs_name)
 
 Gets the ACS object for a given name from the ACS map
 
@@ -216,7 +216,7 @@ Gets the ACS object for a given name from the ACS map
 **Returns:**<br>
 ACS object, or None if no acs object with the given name
 
-### def get_acs_of_type(acs_type)
+---### def get_acs_of_type(acs_type)
 
 Gets all ACS objects for a given ACS type.
 
@@ -227,7 +227,7 @@ Gets all ACS objects for a given ACS type.
 **Returns:**<br>
 list of ACS objects with the given type. list may be empty if no ACS of the given type
 
-### def init_acs(mas_acs)
+---### def init_acs(mas_acs)
 
 Initlializes the given MAS accessory into a dictionary map setting
 
@@ -235,7 +235,7 @@ Initlializes the given MAS accessory into a dictionary map setting
 - `mas_acs` &mdash; MASAccessory to initialize
 
 
-### def init_hair(mas_hair)
+---### def init_hair(mas_hair)
 
 Initlializes the given MAS hairstyle into a dictionary map setting
 
@@ -243,7 +243,7 @@ Initlializes the given MAS hairstyle into a dictionary map setting
 - `mas_hair` &mdash; MASHair to initialize
 
 
-### def init_clothes(mas_cloth)
+---### def init_clothes(mas_cloth)
 
 Initlializes the given MAS clothes into a dictionary map setting
 
@@ -251,7 +251,7 @@ Initlializes the given MAS clothes into a dictionary map setting
 - `mas_clothes` &mdash; MASClothes to initialize
 
 
-### def rm_acs(acs)
+---### def rm_acs(acs)
 
 Deletes an ACS by removing it from the map
 
@@ -259,7 +259,7 @@ Deletes an ACS by removing it from the map
 - `acs` &mdash; ACS to remove
 
 
-### def lock_exprop_topics(exprop)
+---### def lock_exprop_topics(exprop)
 
 Locks topics with the given exprop
 
@@ -267,7 +267,7 @@ Locks topics with the given exprop
 - `exprop` &mdash; extended property to lock associated topics wtih
 
 
-### def lock_acstype_topics(acs_type)
+---### def lock_acstype_topics(acs_type)
 
 Locks topics with the given acs type
 
@@ -275,7 +275,7 @@ Locks topics with the given acs type
 - `acstype` &mdash; acs type to lock assicated topics with
 
 
-### def unlock_exprop_topics(exprop)
+---### def unlock_exprop_topics(exprop)
 
 Unlocks topics with the given exprop
 
@@ -283,7 +283,7 @@ Unlocks topics with the given exprop
 - `exprop` &mdash; extended property to unlock associated topics with
 
 
-### def unlock_acstype_topics(acs_type)
+---### def unlock_acstype_topics(acs_type)
 
 Unlocks topics with the given acs type
 
@@ -291,7 +291,7 @@ Unlocks topics with the given acs type
 - `acstype` &mdash; acs type to unlock associated topics with
 
 
-### def should_disable_lean(lean, arms, character)
+---### def should_disable_lean(lean, arms, character)
 
 Figures out if we need to disable the lean or not based on current character settings
 
@@ -304,21 +304,21 @@ Figures out if we need to disable the lean or not based on current character set
 **Returns:**<br>
 True if we should disable lean, False otherwise
 
-### def build_loc()
+---### def build_loc()
 
 **Returns:**<br>
 location string for the sprite
 
-### def build_loc_val()
+---### def build_loc_val()
 
 **Returns:**<br>
 location tuple for a sprite
 
-### def get_sprite(sprite_type, sprite_name)
+---### def get_sprite(sprite_type, sprite_name)
 
 Returns the sprite object with the given sprite name and sprite type. Or None if we couldn't find one.
 
-### def get_installed_sprites(sprite_type, predicate=None)
+---### def get_installed_sprites(sprite_type, predicate=None)
 
 Returns ALL available sprite objects
 
@@ -330,7 +330,7 @@ Returns ALL available sprite objects
 **Returns:**<br>
 list of sprite objects
 
-### def get_installed_acs(predicate=None)
+---### def get_installed_acs(predicate=None)
 
 get_installed_sprites for acs objects
 
@@ -341,7 +341,7 @@ get_installed_sprites for acs objects
 **Returns:**<br>
 list of acs sprite objects
 
-### def get_installed_hair(predicate=None)
+---### def get_installed_hair(predicate=None)
 
 get_installed_sprites for hair objects
 
@@ -352,7 +352,7 @@ get_installed_sprites for hair objects
 **Returns:**<br>
 list of hair sprite objects
 
-### def get_installed_clothes(predicate=None)
+---### def get_installed_clothes(predicate=None)
 
 get_installed_sprites for clothes objects
 
@@ -363,7 +363,7 @@ get_installed_sprites for clothes objects
 **Returns:**<br>
 list of clothes sprite objects
 
-### def acs_rm_exit_pre_change(temp_space, moni_chr, rm_acs, acs_loc)
+---### def acs_rm_exit_pre_change(temp_space, moni_chr, rm_acs, acs_loc)
 
 Runs before exit point runs for acs
 
@@ -374,7 +374,7 @@ Runs before exit point runs for acs
 - `acs_loc` &mdash; acs location to rm this acs from
 
 
-### def acs_rm_exit_pst_change(temp_space, moni_chr, rm_acs, acs_loc)
+---### def acs_rm_exit_pst_change(temp_space, moni_chr, rm_acs, acs_loc)
 
 Runs after exit point runs runs for acs
 
@@ -385,7 +385,7 @@ Runs after exit point runs runs for acs
 - `acs_loc` &mdash; acs location to rm this acs from
 
 
-### def acs_rm_exit_pst_removal(temp_space, moni_chr, rm_acs, acs_loc)
+---### def acs_rm_exit_pst_removal(temp_space, moni_chr, rm_acs, acs_loc)
 
 Runs after the ACS is removed
 
@@ -396,7 +396,7 @@ Runs after the ACS is removed
 - `acs_loc` &mdash; acs location the ACS was removed from
 
 
-### def acs_wear_mux_pre_change(temp_space, moni_chr, new_acs, acs_loc)
+---### def acs_wear_mux_pre_change(temp_space, moni_chr, new_acs, acs_loc)
 
 Runs before mux type acs are removed
 
@@ -407,7 +407,7 @@ Runs before mux type acs are removed
 - `acs_loc` &mdash; acs location to wear this acs
 
 
-### def acs_wear_mux_pst_change(temp_space, moni_chr, new_acs, acs_loc)
+---### def acs_wear_mux_pst_change(temp_space, moni_chr, new_acs, acs_loc)
 
 Runs after mux type acs removed, before insertion
 
@@ -417,7 +417,7 @@ Runs after mux type acs removed, before insertion
 - `acs_loc` &mdash; acs location to wear this acs
 
 
-### def acs_wear_entry_pre_change(temp_space, moni_chr, new_acs, acs_loc)
+---### def acs_wear_entry_pre_change(temp_space, moni_chr, new_acs, acs_loc)
 
 Runs after insertion, before entry pooint
 
@@ -428,7 +428,7 @@ Runs after insertion, before entry pooint
 - `acs_loc` &mdash; acs location to wear this acs
 
 
-### def acs_wear_entry_pst_change(temp_space, moni_chr, new_acs, acs_loc)
+---### def acs_wear_entry_pst_change(temp_space, moni_chr, new_acs, acs_loc)
 
 Runs after entry point
 
@@ -439,7 +439,7 @@ Runs after entry point
 - `acs_loc` &mdash; acs location to wear this acs
 
 
-### def clothes_exit_pre_change(temp_space, moni_chr, prev_cloth, new_cloth)
+---### def clothes_exit_pre_change(temp_space, moni_chr, prev_cloth, new_cloth)
 
 Runs pre clothes change code. This code is ran prior to clothes being changed and prior to exit prog point
 
@@ -450,7 +450,7 @@ Runs pre clothes change code. This code is ran prior to clothes being changed an
 - `new_cloth` &mdash; clothes we are changing to
 
 
-### def clothes_exit_pst_change(temp_space, moni_chr, prev_cloth, new_cloth)
+---### def clothes_exit_pst_change(temp_space, moni_chr, prev_cloth, new_cloth)
 
 Runs after exit prog point is ran, before the actual change.
 
@@ -461,7 +461,7 @@ Runs after exit prog point is ran, before the actual change.
 - `new_cloth` &mdash; clothes we are changing to
 
 
-### def clothes_entry_pre_change(temp_space, moni_chr, prev_cloth, new_cloth)
+---### def clothes_entry_pre_change(temp_space, moni_chr, prev_cloth, new_cloth)
 
 Runs after change, before entry prog point.
 
@@ -472,7 +472,7 @@ Runs after change, before entry prog point.
 - `new_cloth` &mdash; clothes we are changing to
 
 
-### def clothes_entry_pst_change(temp_space, moni_chr, prev_cloth, new_cloth)
+---### def clothes_entry_pst_change(temp_space, moni_chr, prev_cloth, new_cloth)
 
 Runs after entry prog point
 
@@ -483,7 +483,7 @@ Runs after entry prog point
 - `new_cloth` &mdash; clothes we are changing to
 
 
-### def hair_exit_pre_change(temp_space, moni_chr, prev_hair, new_hair)
+---### def hair_exit_pre_change(temp_space, moni_chr, prev_hair, new_hair)
 
 Runs pre hair change code. This code is ran prior to hair being changed and prior to exit prog point.
 
@@ -494,7 +494,7 @@ Runs pre hair change code. This code is ran prior to hair being changed and prio
 - `new_hair` &mdash; hair we are changing to
 
 
-### def hair_exit_pst_change(temp_space, moni_chr, prev_hair, new_hair)
+---### def hair_exit_pst_change(temp_space, moni_chr, prev_hair, new_hair)
 
 Runs after exit prog point is ran, before the actual change.
 
@@ -505,7 +505,7 @@ Runs after exit prog point is ran, before the actual change.
 - `new_hair` &mdash; hair we are changing to
 
 
-### def hair_entry_pre_change(temp_space, moni_chr, prev_hair, new_hair)
+---### def hair_entry_pre_change(temp_space, moni_chr, prev_hair, new_hair)
 
 Runs after change, before entry prog point.
 
@@ -516,7 +516,7 @@ Runs after change, before entry prog point.
 - `new_hair` &mdash; hair we are changing to
 
 
-### def hair_entry_pst_change(temp_space, moni_chr, prev_hair, new_hair)
+---### def hair_entry_pst_change(temp_space, moni_chr, prev_hair, new_hair)
 
 Runs after entry prog point
 
@@ -527,7 +527,7 @@ Runs after entry prog point
 - `new_hair` &mdash; hair we are changing to
 
 
-### def is_hairacs_compatible(hair, acs)
+---### def is_hairacs_compatible(hair, acs)
 
 Checks if the given hair is compatible with the given acs
 
@@ -539,7 +539,7 @@ Checks if the given hair is compatible with the given acs
 **Returns:**<br>
 True if hair+acs is compatible, False if not
 
-### def is_clotheshair_compatible(clothes, hair)
+---### def is_clotheshair_compatible(clothes, hair)
 
 Checks if the given clothes is compatible with the given hair
 
@@ -551,7 +551,7 @@ Checks if the given clothes is compatible with the given hair
 **Returns:**<br>
 True if clothes+hair is comaptible, False if not
 
-### def use_bma(arm_id)
+---### def use_bma(arm_id)
 
 Returns base MASArm for an armid
 
@@ -562,7 +562,7 @@ Returns base MASArm for an armid
 **Returns:**<br>
 base MASArm for this arm, or None if no Arm
 
-### def use_bmpm(posenum)
+---### def use_bmpm(posenum)
 
 Returns tuple of MASArms for a pose num
 
@@ -573,7 +573,7 @@ Returns tuple of MASArms for a pose num
 **Returns:**<br>
 base MASArms for this poes, or None if no arms
 
-### def use_bmpm_s(leanpose)
+---### def use_bmpm_s(leanpose)
 
 Version of use_bpam that uses leanpose
 
@@ -584,11 +584,11 @@ Version of use_bpam that uses leanpose
 **Returns:**<br>
 base MASArms for this pose, or None if no arms
 
-### def show_empty_desk()
+---### def show_empty_desk()
 
 shows empty desk
 
-### def register_image(name, d)
+---### def register_image(name, d)
 
 Thanks for nothing, RenPy  Registers the existence of an image with `name`, and that the image used displayable d.
 
@@ -597,7 +597,7 @@ Thanks for nothing, RenPy  Registers the existence of an image with `name`, and 
 - `d` &mdash; displayables
 
 
-### def needs_closed_eye_variant(exp)
+---### def needs_closed_eye_variant(exp)
 
 Checks if an exp needs a closed eye variation
 
@@ -608,7 +608,7 @@ Checks if an exp needs a closed eye variation
 **Returns:**<br>
 boolean - True if the given spritecode needs a closed eye variant, False otherwise
 
-### def is_wink_sprite(exp)
+---### def is_wink_sprite(exp)
 
 Checks if an exp is a wink sprite
 
@@ -619,7 +619,7 @@ Checks if an exp is a wink sprite
 **Returns:**<br>
 boolean - True if this is a wink sprite, False otherwise
 
-### def is_follow_sprite(exp)
+---### def is_follow_sprite(exp)
 
 Checks if an exp is a follow sprite
 
@@ -630,7 +630,7 @@ Checks if an exp is a follow sprite
 **Returns:**<br>
 boolean - True if this is a follow sprite, False otherwise
 
-### def needs_tear_atl(exp)
+---### def needs_tear_atl(exp)
 
 Checks if this spritecode needs a streaming tears atl
 
@@ -641,7 +641,7 @@ Checks if this spritecode needs a streaming tears atl
 **Returns:**<br>
 boolean - True if so, False otherwise
 
-### def replace_eyes(exp, replacement_eyes)
+---### def replace_eyes(exp, replacement_eyes)
 
 Returns the sprite string for the closed eye variant
 
@@ -653,7 +653,7 @@ Returns the sprite string for the closed eye variant
 **Returns:**<br>
 closed eye representation of the given spritecode
 
-### def generate_static_sprite(exp)
+---### def generate_static_sprite(exp)
 
 Creates the DynamicDisplayable object for the given exp
 
@@ -661,15 +661,15 @@ Creates the DynamicDisplayable object for the given exp
 - `exp` &mdash; exp to make a closed eye version of
 
 
-### def generate_follow_sprite(exp)
+---### def generate_follow_sprite(exp)
 
 Creates the follow version of the given sprite
 
-### def add_static_sprite_alias(exp)
+---### def add_static_sprite_alias(exp)
 
 Registers an alias for static sprites
 
-### def generate_normal_sprite(exp)
+---### def generate_normal_sprite(exp)
 
 Generates sprites for standard open/closed eye variants  DOES NOT HANDLE WINKS
 
@@ -677,11 +677,11 @@ Generates sprites for standard open/closed eye variants  DOES NOT HANDLE WINKS
 - `exp` &mdash; spritecode to generate sprites for
 
 
-### def generate_wink_sprite(exp)
+---### def generate_wink_sprite(exp)
 
 Generates wink sprites and their prerequisites
 
-### def generate_images(exp)
+---### def generate_images(exp)
 
 Generates sprites, aliases, and their prerequisites and adds them to the renpy.display.image.images map
 
@@ -689,7 +689,7 @@ Generates sprites, aliases, and their prerequisites and adds them to the renpy.d
 - `exp` &mdash; spritecode to generate
 
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -706,7 +706,7 @@ DEPRECATED Please use get_filter
 - `@store.mas_utils.deprecated(use_instead='get_filter', should_raise=True)`
 
 
-#### def _rslv_flt(flt)
+---#### def _rslv_flt(flt)
 
 Gets base filter for a flt.
 
@@ -717,7 +717,7 @@ Gets base filter for a flt.
 **Returns:**<br>
 base flt for flt, or the flt itself if no base
 
-#### def _test_filter(flt_enum)
+---#### def _test_filter(flt_enum)
 
 Checks if this filter enum can be a filter enum.  Logs to mas log if there are errors
 
@@ -728,7 +728,7 @@ Checks if this filter enum can be a filter enum.  Logs to mas log if there are e
 **Returns:**<br>
 True if passed test, False if not
 
-#### def _decide_filter()
+---#### def _decide_filter()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -740,7 +740,7 @@ DEPRECATED Please use get_filter
 - `@store.mas_utils.deprecated(use_instead='get_filter', should_raise=True)`
 
 
-#### def _rslv_flt(flt)
+---#### def _rslv_flt(flt)
 
 Gets base filter for a flt.
 
@@ -751,7 +751,7 @@ Gets base filter for a flt.
 **Returns:**<br>
 base flt for flt, or the flt itself if no base
 
-#### def _test_filter(flt_enum)
+---#### def _test_filter(flt_enum)
 
 Checks if this filter enum can be a filter enum.  Logs to mas log if there are errors
 
@@ -762,7 +762,7 @@ Checks if this filter enum can be a filter enum.  Logs to mas log if there are e
 **Returns:**<br>
 True if passed test, False if not
 
-#### def _genLK(keys)
+---#### def _genLK(keys)
 
 generates a tuple of keys + leanables using the given kens  Leanable Keys are keys prefixed with a lean type like: <lean>|<key>
 
@@ -773,15 +773,15 @@ generates a tuple of keys + leanables using the given kens  Leanable Keys are ke
 **Returns:**<br>
 tuple of keys + leanable keys
 
-#### def _verify_uprightpose(val)
+---#### def _verify_uprightpose(val)
 
-#### def _verify_lean(val)
+---#### def _verify_lean(val)
 
-#### def _verify_leaningpose(val)
+---#### def _verify_leaningpose(val)
 
-#### def _verify_pose(val, allow_none=True)
+---#### def _verify_pose(val, allow_none=True)
 
-#### def _ms_head(clothing, hair, head)
+---#### def _ms_head(clothing, hair, head)
 
 Creates head string
 
@@ -794,7 +794,7 @@ Creates head string
 **Returns:**<br>
 head string
 
-#### def _ms_left(clothing, hair, left)
+---#### def _ms_left(clothing, hair, left)
 
 Creates left side string
 
@@ -807,7 +807,7 @@ Creates left side string
 **Returns:**<br>
 left side stirng
 
-#### def _ms_right(clothing, hair, right)
+---#### def _ms_right(clothing, hair, right)
 
 Creates right body string
 
@@ -820,7 +820,7 @@ Creates right body string
 **Returns:**<br>
 right body string
 
-#### def _ms_standing(clothing, hair, head, left, right, acs_list)
+---#### def _ms_standing(clothing, hair, head, left, right, acs_list)
 
 Creates the custom standing string This is different than the stock ones because of image location
 
@@ -836,7 +836,7 @@ Creates the custom standing string This is different than the stock ones because
 **Returns:**<br>
 custom standing sprite
 
-#### def _ms_standingstock(head, left, right, acs_list, single=None)
+---#### def _ms_standingstock(head, left, right, acs_list, single=None)
 
 Creates the stock standing string This is different then the custom ones because of image location  Also no night version atm.
 
@@ -851,11 +851,11 @@ Creates the stock standing string This is different then the custom ones because
 **Returns:**<br>
 stock standing string
 
-#### def _clear_caches()
+---#### def _clear_caches()
 
 Clears all caches
 
-#### def _add_arms_rk(rk_list, arms, pfx, flt, bcode, clothing_t, leanpose)
+---#### def _add_arms_rk(rk_list, arms, pfx, flt, bcode, clothing_t, leanpose)
 
 Adds render key for multiple MASArm objects, if needed
 
@@ -871,7 +871,7 @@ Adds render key for multiple MASArm objects, if needed
 **Returns:**<br>
 rk_list - render key list to add render keys to
 
-#### def _bhli(img_list, hlcode)
+---#### def _bhli(img_list, hlcode)
 
 Builds a High- Light Image using the base image path
 
@@ -883,7 +883,7 @@ Builds a High- Light Image using the base image path
 **Returns:**<br>
 Image to use for highlight, or None if no highlight.
 
-#### def _bhlifp(img_path, hlcode)
+---#### def _bhlifp(img_path, hlcode)
 
 Builds a High- Light Image using an image's File Path
 
@@ -895,7 +895,7 @@ Builds a High- Light Image using an image's File Path
 **Returns:**<br>
 Image to use for highlight, or None if no highlight
 
-#### def _cgen_im(flt, key, cid, img_base)
+---#### def _cgen_im(flt, key, cid, img_base)
 
 Checks cache for an im, GENerates the im if not found
 
@@ -909,7 +909,7 @@ Checks cache for an im, GENerates the im if not found
 **Returns:**<br>
 Image Manipulator for this render
 
-#### def _cgha_im(render_list, flt, render_key)
+---#### def _cgha_im(render_list, flt, render_key)
 
 Checks cache of an image Generates the im if not found, and sets Highlight if needed. Adds IMs to the given render list
 
@@ -923,7 +923,7 @@ Checks cache of an image Generates the im if not found, and sets Highlight if ne
 **Returns:**<br>
 render_list - list to add IMs to
 
-#### def _cs_im(key, cid, img_base)
+---#### def _cs_im(key, cid, img_base)
 
 Checks cache for an im Stores the img_base if not found
 
@@ -936,7 +936,7 @@ Checks cache for an im Stores the img_base if not found
 **Returns:**<br>
 ImageBase
 
-#### def _dayify(img_key)
+---#### def _dayify(img_key)
 
 Dayifies the given image key. DAying simply replaces the filter portion of the key with "day"
 
@@ -947,7 +947,7 @@ Dayifies the given image key. DAying simply replaces the filter portion of the k
 **Returns:**<br>
 dayified key
 
-#### def _gc(cid)
+---#### def _gc(cid)
 
 Gets the Cache
 
@@ -958,7 +958,7 @@ Gets the Cache
 **Returns:**<br>
 cache, or empty dict if cache not found
 
-#### def _gen_im(flt, img_base)
+---#### def _gen_im(flt, img_base)
 
 GENerates an image maniuplator
 
@@ -970,7 +970,7 @@ GENerates an image maniuplator
 **Returns:**<br>
 generated render key
 
-#### def _hlify(key, cid)
+---#### def _hlify(key, cid)
 
 Highlightifies the given key. Highlightifying is just prefixing the key with the cid
 
@@ -982,7 +982,7 @@ Highlightifies the given key. Highlightifying is just prefixing the key with the
 **Returns:**<br>
 highlightified key
 
-#### def _rk_accessory(rk_list, acs, flt, arm_split, leanpose=None)
+---#### def _rk_accessory(rk_list, acs, flt, arm_split, leanpose=None)
 
 Adds accessory render key if needed
 
@@ -996,7 +996,7 @@ Adds accessory render key if needed
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_accessory_list(rk_list, acs_list, flt, leanpose=None, arm_split=None)
+---#### def _rk_accessory_list(rk_list, acs_list, flt, leanpose=None, arm_split=None)
 
 Adds accessory render keys for a list of accessories
 
@@ -1010,7 +1010,7 @@ Adds accessory render keys for a list of accessories
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_base_nh(rk_list, barms, leanpose, flt, bcode)
+---#### def _rk_arms_base_nh(rk_list, barms, leanpose, flt, bcode)
 
 Adds arms base render keys (equiv to _ms_arms_nh_up_base)
 
@@ -1024,7 +1024,7 @@ Adds arms base render keys (equiv to _ms_arms_nh_up_base)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_base_lean_nh(rk_list, barms, lean, leanpose, flt, bcode)
+---#### def _rk_arms_base_lean_nh(rk_list, barms, lean, leanpose, flt, bcode)
 
 Adds arms base lean render key (eqiv to _ms_arms_nh_leaning_base)
 
@@ -1039,7 +1039,7 @@ Adds arms base lean render key (eqiv to _ms_arms_nh_leaning_base)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_nh(rk_list, parms, clothing, leanpose, flt, bcode)
+---#### def _rk_arms_nh(rk_list, parms, clothing, leanpose, flt, bcode)
 
 Adds arms render key (equiv to _ms_arms_nh_up_arms)
 
@@ -1054,7 +1054,7 @@ Adds arms render key (equiv to _ms_arms_nh_up_arms)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_lean_nh(rk_list, parms, clothing, lean, leanpose, flt, bcode)
+---#### def _rk_arms_lean_nh(rk_list, parms, clothing, lean, leanpose, flt, bcode)
 
 Adds arms lean render key (equiv to _ms_arms_nh_leaning_arms)
 
@@ -1070,7 +1070,7 @@ Adds arms lean render key (equiv to _ms_arms_nh_leaning_arms)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_nh_wbase(rk_list, barms, parms, clothing, acs_ase_list, leanpose, lean, flt, bcode)
+---#### def _rk_arms_nh_wbase(rk_list, barms, parms, clothing, acs_ase_list, leanpose, lean, flt, bcode)
 
 Adds arms render keys, no hair, with baes
 
@@ -1088,7 +1088,7 @@ Adds arms render keys, no hair, with baes
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_base_body_nh(rk_list, flt, bcode)
+---#### def _rk_base_body_nh(rk_list, flt, bcode)
 
 Adds base body render keys, no hair (equiv of _ms_torso_nh_base)
 
@@ -1100,7 +1100,7 @@ Adds base body render keys, no hair (equiv of _ms_torso_nh_base)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_base_body_lean_nh(rk_list, lean, flt, bcode)
+---#### def _rk_base_body_lean_nh(rk_list, lean, flt, bcode)
 
 Adds base body lean render keys, no hair (equivalent of _ms_torsoleaning_nh_base)
 
@@ -1113,7 +1113,7 @@ Adds base body lean render keys, no hair (equivalent of _ms_torsoleaning_nh_base
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_body_nh(rk_list, clothing, flt, bcode)
+---#### def _rk_body_nh(rk_list, clothing, flt, bcode)
 
 Adds body render keys, no hair (equiv of _ms_torso_nh)
 
@@ -1126,7 +1126,7 @@ Adds body render keys, no hair (equiv of _ms_torso_nh)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_body_lean_nh(rk_list, clothing, lean, flt, bcode)
+---#### def _rk_body_lean_nh(rk_list, clothing, lean, flt, bcode)
 
 Adds body leaning render keys, no hair (equiv of _ms_torsoleaning_nh)
 
@@ -1140,7 +1140,7 @@ Adds body leaning render keys, no hair (equiv of _ms_torsoleaning_nh)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_body_nh_wbase(rk_list, clothing, acs_bse_list, bcode, flt, leanpose, lean=None)
+---#### def _rk_body_nh_wbase(rk_list, clothing, acs_bse_list, bcode, flt, leanpose, lean=None)
 
 Adds body render keys, including base and bse acs, no hair
 
@@ -1156,7 +1156,7 @@ Adds body render keys, including base and bse acs, no hair
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_chair(rk_list, mtc, flt)
+---#### def _rk_chair(rk_list, mtc, flt)
 
 Adds chair render key
 
@@ -1168,7 +1168,7 @@ Adds chair render key
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_face(rk_list, eyes, eyebrows, nose, mouth, flt, fpfx, lean, sweat, tears, emote)
+---#### def _rk_face(rk_list, eyes, eyebrows, nose, mouth, flt, fpfx, lean, sweat, tears, emote)
 
 Adds face render keys
 
@@ -1188,7 +1188,7 @@ Adds face render keys
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_face_pre(rk_list, flt, fpfx, lean, blush)
+---#### def _rk_face_pre(rk_list, flt, fpfx, lean, blush)
 
 Adds face render keys that go before hair
 
@@ -1202,7 +1202,7 @@ Adds face render keys that go before hair
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_hair(rk_list, hair, flt, hair_key, lean, leanpose)
+---#### def _rk_hair(rk_list, hair, flt, hair_key, lean, leanpose)
 
 Adds hair render key
 
@@ -1217,7 +1217,7 @@ Adds hair render key
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_head(rk_list, flt, lean)
+---#### def _rk_head(rk_list, flt, lean)
 
 Adds head render keys.
 
@@ -1230,7 +1230,7 @@ Adds head render keys.
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_table(rk_list, tablechair, show_shadow, flt)
+---#### def _rk_table(rk_list, tablechair, show_shadow, flt)
 
 Adds table render key
 
@@ -1242,7 +1242,7 @@ Adds table render key
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_sitting(clothing, hair, base_arms, pose_arms, eyebrows, eyes, nose, mouth, flt, acs_pre_list, acs_bbh_list, acs_bse_list, acs_bba_list, acs_ase_list, acs_bmh_list, acs_mhh_list, acs_bat_list, acs_mat_list, acs_mab_list, acs_bfh_list, acs_afh_list, acs_mid_list, acs_pst_list, leanpose, lean, arms, eyebags, sweat, blush, tears, emote, tablechair, show_shadow)
+---#### def _rk_sitting(clothing, hair, base_arms, pose_arms, eyebrows, eyes, nose, mouth, flt, acs_pre_list, acs_bbh_list, acs_bse_list, acs_bba_list, acs_ase_list, acs_bmh_list, acs_mhh_list, acs_bat_list, acs_mat_list, acs_mab_list, acs_bfh_list, acs_afh_list, acs_mid_list, acs_pst_list, leanpose, lean, arms, eyebags, sweat, blush, tears, emote, tablechair, show_shadow)
 
 Creates a list of render keys in order of desired render.
 
@@ -1285,11 +1285,11 @@ Creates a list of render keys in order of desired render.
 **Returns:**<br>
 list of render keys
 
-#### def _clear_caches()
+---#### def _clear_caches()
 
 Clears all caches
 
-#### def _add_arms_rk(rk_list, arms, pfx, flt, bcode, clothing_t, leanpose)
+---#### def _add_arms_rk(rk_list, arms, pfx, flt, bcode, clothing_t, leanpose)
 
 Adds render key for multiple MASArm objects, if needed
 
@@ -1305,7 +1305,7 @@ Adds render key for multiple MASArm objects, if needed
 **Returns:**<br>
 rk_list - render key list to add render keys to
 
-#### def _bhli(img_list, hlcode)
+---#### def _bhli(img_list, hlcode)
 
 Builds a High- Light Image using the base image path
 
@@ -1317,7 +1317,7 @@ Builds a High- Light Image using the base image path
 **Returns:**<br>
 Image to use for highlight, or None if no highlight.
 
-#### def _bhlifp(img_path, hlcode)
+---#### def _bhlifp(img_path, hlcode)
 
 Builds a High- Light Image using an image's File Path
 
@@ -1329,7 +1329,7 @@ Builds a High- Light Image using an image's File Path
 **Returns:**<br>
 Image to use for highlight, or None if no highlight
 
-#### def _cgen_im(flt, key, cid, img_base)
+---#### def _cgen_im(flt, key, cid, img_base)
 
 Checks cache for an im, GENerates the im if not found
 
@@ -1343,7 +1343,7 @@ Checks cache for an im, GENerates the im if not found
 **Returns:**<br>
 Image Manipulator for this render
 
-#### def _cgha_im(render_list, flt, render_key)
+---#### def _cgha_im(render_list, flt, render_key)
 
 Checks cache of an image Generates the im if not found, and sets Highlight if needed. Adds IMs to the given render list
 
@@ -1357,7 +1357,7 @@ Checks cache of an image Generates the im if not found, and sets Highlight if ne
 **Returns:**<br>
 render_list - list to add IMs to
 
-#### def _cs_im(key, cid, img_base)
+---#### def _cs_im(key, cid, img_base)
 
 Checks cache for an im Stores the img_base if not found
 
@@ -1370,7 +1370,7 @@ Checks cache for an im Stores the img_base if not found
 **Returns:**<br>
 ImageBase
 
-#### def _dayify(img_key)
+---#### def _dayify(img_key)
 
 Dayifies the given image key. DAying simply replaces the filter portion of the key with "day"
 
@@ -1381,7 +1381,7 @@ Dayifies the given image key. DAying simply replaces the filter portion of the k
 **Returns:**<br>
 dayified key
 
-#### def _gc(cid)
+---#### def _gc(cid)
 
 Gets the Cache
 
@@ -1392,7 +1392,7 @@ Gets the Cache
 **Returns:**<br>
 cache, or empty dict if cache not found
 
-#### def _gen_im(flt, img_base)
+---#### def _gen_im(flt, img_base)
 
 GENerates an image maniuplator
 
@@ -1404,7 +1404,7 @@ GENerates an image maniuplator
 **Returns:**<br>
 generated render key
 
-#### def _hlify(key, cid)
+---#### def _hlify(key, cid)
 
 Highlightifies the given key. Highlightifying is just prefixing the key with the cid
 
@@ -1416,7 +1416,7 @@ Highlightifies the given key. Highlightifying is just prefixing the key with the
 **Returns:**<br>
 highlightified key
 
-#### def _rk_accessory(rk_list, acs, flt, arm_split, leanpose=None)
+---#### def _rk_accessory(rk_list, acs, flt, arm_split, leanpose=None)
 
 Adds accessory render key if needed
 
@@ -1430,7 +1430,7 @@ Adds accessory render key if needed
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_accessory_list(rk_list, acs_list, flt, leanpose=None, arm_split=None)
+---#### def _rk_accessory_list(rk_list, acs_list, flt, leanpose=None, arm_split=None)
 
 Adds accessory render keys for a list of accessories
 
@@ -1444,7 +1444,7 @@ Adds accessory render keys for a list of accessories
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_base_nh(rk_list, barms, leanpose, flt, bcode)
+---#### def _rk_arms_base_nh(rk_list, barms, leanpose, flt, bcode)
 
 Adds arms base render keys (equiv to _ms_arms_nh_up_base)
 
@@ -1458,7 +1458,7 @@ Adds arms base render keys (equiv to _ms_arms_nh_up_base)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_base_lean_nh(rk_list, barms, lean, leanpose, flt, bcode)
+---#### def _rk_arms_base_lean_nh(rk_list, barms, lean, leanpose, flt, bcode)
 
 Adds arms base lean render key (eqiv to _ms_arms_nh_leaning_base)
 
@@ -1473,7 +1473,7 @@ Adds arms base lean render key (eqiv to _ms_arms_nh_leaning_base)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_nh(rk_list, parms, clothing, leanpose, flt, bcode)
+---#### def _rk_arms_nh(rk_list, parms, clothing, leanpose, flt, bcode)
 
 Adds arms render key (equiv to _ms_arms_nh_up_arms)
 
@@ -1488,7 +1488,7 @@ Adds arms render key (equiv to _ms_arms_nh_up_arms)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_lean_nh(rk_list, parms, clothing, lean, leanpose, flt, bcode)
+---#### def _rk_arms_lean_nh(rk_list, parms, clothing, lean, leanpose, flt, bcode)
 
 Adds arms lean render key (equiv to _ms_arms_nh_leaning_arms)
 
@@ -1504,7 +1504,7 @@ Adds arms lean render key (equiv to _ms_arms_nh_leaning_arms)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_arms_nh_wbase(rk_list, barms, parms, clothing, acs_ase_list, leanpose, lean, flt, bcode)
+---#### def _rk_arms_nh_wbase(rk_list, barms, parms, clothing, acs_ase_list, leanpose, lean, flt, bcode)
 
 Adds arms render keys, no hair, with baes
 
@@ -1522,7 +1522,7 @@ Adds arms render keys, no hair, with baes
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_base_body_nh(rk_list, flt, bcode)
+---#### def _rk_base_body_nh(rk_list, flt, bcode)
 
 Adds base body render keys, no hair (equiv of _ms_torso_nh_base)
 
@@ -1534,7 +1534,7 @@ Adds base body render keys, no hair (equiv of _ms_torso_nh_base)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_base_body_lean_nh(rk_list, lean, flt, bcode)
+---#### def _rk_base_body_lean_nh(rk_list, lean, flt, bcode)
 
 Adds base body lean render keys, no hair (equivalent of _ms_torsoleaning_nh_base)
 
@@ -1547,7 +1547,7 @@ Adds base body lean render keys, no hair (equivalent of _ms_torsoleaning_nh_base
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_body_nh(rk_list, clothing, flt, bcode)
+---#### def _rk_body_nh(rk_list, clothing, flt, bcode)
 
 Adds body render keys, no hair (equiv of _ms_torso_nh)
 
@@ -1560,7 +1560,7 @@ Adds body render keys, no hair (equiv of _ms_torso_nh)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_body_lean_nh(rk_list, clothing, lean, flt, bcode)
+---#### def _rk_body_lean_nh(rk_list, clothing, lean, flt, bcode)
 
 Adds body leaning render keys, no hair (equiv of _ms_torsoleaning_nh)
 
@@ -1574,7 +1574,7 @@ Adds body leaning render keys, no hair (equiv of _ms_torsoleaning_nh)
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_body_nh_wbase(rk_list, clothing, acs_bse_list, bcode, flt, leanpose, lean=None)
+---#### def _rk_body_nh_wbase(rk_list, clothing, acs_bse_list, bcode, flt, leanpose, lean=None)
 
 Adds body render keys, including base and bse acs, no hair
 
@@ -1590,7 +1590,7 @@ Adds body render keys, including base and bse acs, no hair
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_chair(rk_list, mtc, flt)
+---#### def _rk_chair(rk_list, mtc, flt)
 
 Adds chair render key
 
@@ -1602,7 +1602,7 @@ Adds chair render key
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_face(rk_list, eyes, eyebrows, nose, mouth, flt, fpfx, lean, sweat, tears, emote)
+---#### def _rk_face(rk_list, eyes, eyebrows, nose, mouth, flt, fpfx, lean, sweat, tears, emote)
 
 Adds face render keys
 
@@ -1622,7 +1622,7 @@ Adds face render keys
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_face_pre(rk_list, flt, fpfx, lean, blush)
+---#### def _rk_face_pre(rk_list, flt, fpfx, lean, blush)
 
 Adds face render keys that go before hair
 
@@ -1636,7 +1636,7 @@ Adds face render keys that go before hair
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_hair(rk_list, hair, flt, hair_key, lean, leanpose)
+---#### def _rk_hair(rk_list, hair, flt, hair_key, lean, leanpose)
 
 Adds hair render key
 
@@ -1651,7 +1651,7 @@ Adds hair render key
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_head(rk_list, flt, lean)
+---#### def _rk_head(rk_list, flt, lean)
 
 Adds head render keys.
 
@@ -1664,7 +1664,7 @@ Adds head render keys.
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_table(rk_list, tablechair, show_shadow, flt)
+---#### def _rk_table(rk_list, tablechair, show_shadow, flt)
 
 Adds table render key
 
@@ -1676,7 +1676,7 @@ Adds table render key
 **Returns:**<br>
 rk_list - list to add render keys to
 
-#### def _rk_sitting(clothing, hair, base_arms, pose_arms, eyebrows, eyes, nose, mouth, flt, acs_pre_list, acs_bbh_list, acs_bse_list, acs_bba_list, acs_ase_list, acs_bmh_list, acs_mhh_list, acs_bat_list, acs_mat_list, acs_mab_list, acs_bfh_list, acs_afh_list, acs_mid_list, acs_pst_list, leanpose, lean, arms, eyebags, sweat, blush, tears, emote, tablechair, show_shadow)
+---#### def _rk_sitting(clothing, hair, base_arms, pose_arms, eyebrows, eyes, nose, mouth, flt, acs_pre_list, acs_bbh_list, acs_bse_list, acs_bba_list, acs_ase_list, acs_bmh_list, acs_mhh_list, acs_bat_list, acs_mat_list, acs_mab_list, acs_bfh_list, acs_afh_list, acs_mid_list, acs_pst_list, leanpose, lean, arms, eyebags, sweat, blush, tears, emote, tablechair, show_shadow)
 
 Creates a list of render keys in order of desired render.
 
@@ -1719,7 +1719,7 @@ Creates a list of render keys in order of desired render.
 **Returns:**<br>
 list of render keys
 
-#### def _acs_wear_if_found(_moni_chr, acs_name)
+---#### def _acs_wear_if_found(_moni_chr, acs_name)
 
 Wears the acs if the acs exists
 
@@ -1728,7 +1728,7 @@ Wears the acs if the acs exists
 - `acs_name` &mdash; name of the accessory
 
 
-#### def _acs_wear_if_gifted(_moni_chr, acs_name)
+---#### def _acs_wear_if_gifted(_moni_chr, acs_name)
 
 Wears the acs if it exists and has been gifted/reacted. It has been gifted/reacted if the selectable is unlocked.
 
@@ -1737,7 +1737,7 @@ Wears the acs if it exists and has been gifted/reacted. It has been gifted/react
 - `acs_name` &mdash; name of the accessory
 
 
-#### def _acs_wear_if_in_tempstorage(_moni_chr, key)
+---#### def _acs_wear_if_in_tempstorage(_moni_chr, key)
 
 Wears the acs in tempstorage at the given key, if any.
 
@@ -1746,7 +1746,7 @@ Wears the acs in tempstorage at the given key, if any.
 - `key` &mdash; key in tempstorage
 
 
-#### def _acs_wear_if_in_tempstorage_s(_moni_chr, key)
+---#### def _acs_wear_if_in_tempstorage_s(_moni_chr, key)
 
 Wears a single acs in tempstorage at the given key, if any.
 
@@ -1755,7 +1755,7 @@ Wears a single acs in tempstorage at the given key, if any.
 - `key` &mdash; key in tempstorage
 
 
-#### def _acs_wear_if_wearing_acs(_moni_chr, acs, acs_to_wear)
+---#### def _acs_wear_if_wearing_acs(_moni_chr, acs, acs_to_wear)
 
 Wears the given acs if wearing another acs.
 
@@ -1765,7 +1765,7 @@ Wears the given acs if wearing another acs.
 - `acs_to_wear` &mdash; acs to wear if wearing acs
 
 
-#### def _acs_wear_if_wearing_type(_moni_chr, acs_type, acs_to_wear)
+---#### def _acs_wear_if_wearing_type(_moni_chr, acs_type, acs_to_wear)
 
 Wears the given acs if wearing an acs of the given type.
 
@@ -1775,7 +1775,7 @@ Wears the given acs if wearing an acs of the given type.
 - `acs_to_wear` &mdash; acs to wear if wearing acs type
 
 
-#### def _acs_wear_if_not_wearing_type(_moni_chr, acs_type, acs_to_wear)
+---#### def _acs_wear_if_not_wearing_type(_moni_chr, acs_type, acs_to_wear)
 
 Wears the given acs if NOT wearing an acs of the given type.
 
@@ -1785,7 +1785,7 @@ Wears the given acs if NOT wearing an acs of the given type.
 - `acs_to_wear` &mdash; acs to wear if not wearing acs type
 
 
-#### def _acs_remove_if_found(_moni_chr, acs_name)
+---#### def _acs_remove_if_found(_moni_chr, acs_name)
 
 REmoves an acs if the name exists
 
@@ -1794,7 +1794,7 @@ REmoves an acs if the name exists
 - `acs_name` &mdash; name of the accessory to remove
 
 
-#### def _acs_ribbon_save_and_remove(_moni_chr)
+---#### def _acs_ribbon_save_and_remove(_moni_chr)
 
 Removes ribbon acs and aves them to temp storage.
 
@@ -1802,7 +1802,7 @@ Removes ribbon acs and aves them to temp storage.
 - `_moni_chr` &mdash; MASMonika object
 
 
-#### def _acs_ribbon_like_save_and_remove(_moni_chr)
+---#### def _acs_ribbon_like_save_and_remove(_moni_chr)
 
 Removes ribbon-like acs and saves them to temp storage, if found
 
@@ -1810,7 +1810,7 @@ Removes ribbon-like acs and saves them to temp storage, if found
 - `_moni_chr` &mdash; MASMonika object
 
 
-#### def _acs_save_and_remove_exprop(_moni_chr, exprop, key, lock_topics)
+---#### def _acs_save_and_remove_exprop(_moni_chr, exprop, key, lock_topics)
 
 Removes acs with given exprop, saving them to temp storage with given key. Also locks topics with the exprop if desired
 
@@ -1821,175 +1821,175 @@ Removes acs with given exprop, saving them to temp storage with given key. Also 
 - `lock_topics` &mdash; True will lock topics associated with this exprop False will not
 
 
-#### def _hair_unlock_select_if_needed()
+---#### def _hair_unlock_select_if_needed()
 
 Unlocks the hairdown selector if enough hair is unlocked.
 
-#### def _clothes_baked_entry(_moni_chr)
+---#### def _clothes_baked_entry(_moni_chr)
 
 Clothes baked entry
 
-#### def _hair_def_entry(_moni_chr)
+---#### def _hair_def_entry(_moni_chr)
 
 Entry programming point for ponytail
 
-#### def _hair_def_exit(_moni_chr)
+---#### def _hair_def_exit(_moni_chr)
 
 Exit programming point for ponytail
 
-#### def _hair_down_entry(_moni_chr)
+---#### def _hair_down_entry(_moni_chr)
 
 Entry programming point for hair down
 
-#### def _hair_down_exit(_moni_chr)
+---#### def _hair_down_exit(_moni_chr)
 
 Exit programming point for hair down
 
-#### def _hair_bun_entry(_moni_chr)
+---#### def _hair_bun_entry(_moni_chr)
 
 Entry programming point for hair bun
 
-#### def _hair_orcaramelo_bunbraid_exit(_moni_chr)
+---#### def _hair_orcaramelo_bunbraid_exit(_moni_chr)
 
 Exit prog point for bunbraid
 
-#### def _hair_braided_entry(_moni_chr)
+---#### def _hair_braided_entry(_moni_chr)
 
 Entry prog point for braided hair
 
-#### def _hair_braided_exit(_moni_chr)
+---#### def _hair_braided_exit(_moni_chr)
 
 Exit prog point for braided hair
 
-#### def _hair_wet_entry(_moni_chr)
+---#### def _hair_wet_entry(_moni_chr)
 
 Entry prog point for wet hair
 
-#### def _clothes_def_entry(_moni_chr)
+---#### def _clothes_def_entry(_moni_chr)
 
 Entry programming point for def clothes
 
-#### def _clothes_def_exit(_moni_chr)
+---#### def _clothes_def_exit(_moni_chr)
 
 Exit programming point for def clothes
 
-#### def _clothes_rin_exit(_moni_chr)
+---#### def _clothes_rin_exit(_moni_chr)
 
 Exit programming point for rin clothes
 
-#### def _clothes_marisa_exit(_moni_chr)
+---#### def _clothes_marisa_exit(_moni_chr)
 
 Exit programming point for marisa clothes
 
-#### def _clothes_orcaramelo_hatsune_miku_entry(_moni_chr)
+---#### def _clothes_orcaramelo_hatsune_miku_entry(_moni_chr)
 
 Entry pp for orcaramelo miku
 
-#### def _clothes_orcaramelo_hatsune_miku_exit(_moni_chr)
+---#### def _clothes_orcaramelo_hatsune_miku_exit(_moni_chr)
 
 Exit pp for orcaramelo miku
 
-#### def _clothes_orcaramelo_sakuya_izayoi_entry(_moni_chr)
+---#### def _clothes_orcaramelo_sakuya_izayoi_entry(_moni_chr)
 
 Entry pp for orcaramelo sakuya
 
-#### def _clothes_orcaramelo_sakuya_izayoi_exit(_moni_chr)
+---#### def _clothes_orcaramelo_sakuya_izayoi_exit(_moni_chr)
 
 Exit pp for orcaramelo sakuya
 
-#### def _clothes_dress_newyears_entry(_moni_chr)
+---#### def _clothes_dress_newyears_entry(_moni_chr)
 
 entry progpoint for dress_newyears
 
-#### def _clothes_dress_newyears_exit(_moni_chr)
+---#### def _clothes_dress_newyears_exit(_moni_chr)
 
 exit progpoint for dress_newyears
 
-#### def _clothes_sundress_white_exit(_moni_chr)
+---#### def _clothes_sundress_white_exit(_moni_chr)
 
 Exit programming point for sundress white
 
-#### def _clothes_velius94_dress_whitenavyblue_entry(_moni_chr)
+---#### def _clothes_velius94_dress_whitenavyblue_entry(_moni_chr)
 
 Entry prog point for navyblue dress
 
-#### def _clothes_bath_towel_white_entry(_moni_chr)
+---#### def _clothes_bath_towel_white_entry(_moni_chr)
 
 Entry prog point for bath towel
 
-#### def _clothes_bath_towel_white_exit(_moni_chr)
+---#### def _clothes_bath_towel_white_exit(_moni_chr)
 
 Exit prog point for bath towel
 
-#### def _clothes_briaryoung_shuchiin_academy_uniform_entry(_moni_chr)
+---#### def _clothes_briaryoung_shuchiin_academy_uniform_entry(_moni_chr)
 
 Entry prog point for the shuchiin academy uniform
 
-#### def _clothes_briaryoung_shuchiin_academy_uniform_exit(_moni_chr)
+---#### def _clothes_briaryoung_shuchiin_academy_uniform_exit(_moni_chr)
 
 Exit prog point for the shuchiin academy uniform
 
-#### def _clothes_hatana_2b_entry(_moni_chr)
+---#### def _clothes_hatana_2b_entry(_moni_chr)
 
 Entry pp for hatana 2b
 
-#### def _clothes_hatana_2b_exit(_moni_chr)
+---#### def _clothes_hatana_2b_exit(_moni_chr)
 
 Exit prog point for hatana 2b
 
-#### def _acs_quetzalplushie_entry(_moni_chr)
+---#### def _acs_quetzalplushie_entry(_moni_chr)
 
 Entry programming point for quetzal plushie acs
 
-#### def _acs_quetzalplushie_exit(_moni_chr)
+---#### def _acs_quetzalplushie_exit(_moni_chr)
 
 Exit programming point for quetzal plushie acs
 
-#### def _acs_center_quetzalplushie_entry(_moni_chr)
+---#### def _acs_center_quetzalplushie_entry(_moni_chr)
 
 Entry programming point for quetzal plushie (mid version) acs
 
-#### def _acs_center_quetzalplushie_exit(_moni_chr)
+---#### def _acs_center_quetzalplushie_exit(_moni_chr)
 
 Exit programming point for quetzal plushie (mid version) acs
 
-#### def _acs_quetzalplushie_santahat_entry(_moni_chr)
+---#### def _acs_quetzalplushie_santahat_entry(_moni_chr)
 
 Entry programming point for quetzal plushie santa hat acs
 
-#### def _acs_center_quetzalplushie_santahat_entry(_moni_chr)
+---#### def _acs_center_quetzalplushie_santahat_entry(_moni_chr)
 
 Entry programming point for quetzal plushie santa hat (mid version) acs
 
-#### def _acs_quetzalplushie_antlers_entry(_moni_chr)
+---#### def _acs_quetzalplushie_antlers_entry(_moni_chr)
 
 Entry programming point for quetzal plushie antlers acs
 
-#### def _acs_heartchoc_entry(_moni_chr)
+---#### def _acs_heartchoc_entry(_moni_chr)
 
 Entry programming point for heartchoc acs
 
-#### def _acs_heartchoc_exit(_moni_chr)
+---#### def _acs_heartchoc_exit(_moni_chr)
 
 Exit programming point for heartchoc acs
 
-#### def _hair__testingxcp_entry(_moni_chr)
+---#### def _hair__testingxcp_entry(_moni_chr)
 
-#### def _hair__testingxcp_exit(_moni_chr)
+---#### def _hair__testingxcp_exit(_moni_chr)
 
-#### def _clothes__testingxcp_entry(_moni_chr)
+---#### def _clothes__testingxcp_entry(_moni_chr)
 
-#### def _clothes__testingxcp_exit(_moni_chr)
+---#### def _clothes__testingxcp_exit(_moni_chr)
 
-#### def _acs__testingxcp_entry(_moni_chr)
+---#### def _acs__testingxcp_entry(_moni_chr)
 
-#### def _acs__testingxcp_exit(_moni_chr)
+---#### def _acs__testingxcp_exit(_moni_chr)
 
-#### def _verify_fwm_db()
+---#### def _verify_fwm_db()
 
 Verifies that data in the FW_DB is correct. MASFilterWeatherMaps are valid if: 1. if the MFWM is fallback-based: a) All filters provided include a fallback filter with PRECIP_TYPE_DEF set. 2. If the MFWM is standard: a) All filters contain a PRECIP_TYPE_DEF set.  Raises all errors.
 
-#### def _verify_mfwm(mfwm_id, mfwm)
+---#### def _verify_mfwm(mfwm_id, mfwm)
 
 Verifies a MASFilterWeatherMap object.  Raises all errors.
 
@@ -1998,7 +1998,7 @@ Verifies a MASFilterWeatherMap object.  Raises all errors.
 - `mfwm` &mdash; MASFilterWeatherMap object to verify
 
 
-#### def _mfwm_find_fb_def(mfwm, flt, flt_defs)
+---#### def _mfwm_find_fb_def(mfwm, flt, flt_defs)
 
 Finds fallbacks from a starting flt that are covered with a default precip type.
 
@@ -2011,7 +2011,7 @@ Finds fallbacks from a starting flt that are covered with a default precip type.
 **Returns:**<br>
 flt_defs - additional filters with known defaults are added to this dict as we go through the fallback chain of the given flt. True if we found a non-None default precip type. False if not
 
-#### def _find_circ_fb(flt, memo)
+---#### def _find_circ_fb(flt, memo)
 
 Tries to find circular fallbacks. Assumes that the current flt has not been placed into memo yet.
 
@@ -2023,7 +2023,7 @@ Tries to find circular fallbacks. Assumes that the current flt has not been plac
 **Returns:**<br>
 memo - if False is returned, all keys in this memo are deemed to be non-circular fallbacks. True if circular fallback is found, False otherwise
 
-#### def _find_next_fb(flt, memo, ordered_memo)
+---#### def _find_next_fb(flt, memo, ordered_memo)
 
 Finds next filter and stores in memo and ordered memo
 
@@ -2034,15 +2034,15 @@ Finds next filter and stores in memo and ordered memo
 **Returns:**<br>
 memo - dict to add the next filter as a key if not None ordered memo - list to append the next filter if not None the next filter, or None if no next filter.
 
-#### def _verify_flt_fb()
+---#### def _verify_flt_fb()
 
 Verifies that there are no circular fallbacks in the filter fallback dict.  Raises an error if circular fallbacks are found
 
-#### def _verify_fwm_db()
+---#### def _verify_fwm_db()
 
 Verifies that data in the FW_DB is correct. MASFilterWeatherMaps are valid if: 1. if the MFWM is fallback-based: a) All filters provided include a fallback filter with PRECIP_TYPE_DEF set. 2. If the MFWM is standard: a) All filters contain a PRECIP_TYPE_DEF set.  Raises all errors.
 
-#### def _verify_mfwm(mfwm_id, mfwm)
+---#### def _verify_mfwm(mfwm_id, mfwm)
 
 Verifies a MASFilterWeatherMap object.  Raises all errors.
 
@@ -2051,7 +2051,7 @@ Verifies a MASFilterWeatherMap object.  Raises all errors.
 - `mfwm` &mdash; MASFilterWeatherMap object to verify
 
 
-#### def _mfwm_find_fb_def(mfwm, flt, flt_defs)
+---#### def _mfwm_find_fb_def(mfwm, flt, flt_defs)
 
 Finds fallbacks from a starting flt that are covered with a default precip type.
 
@@ -2064,7 +2064,7 @@ Finds fallbacks from a starting flt that are covered with a default precip type.
 **Returns:**<br>
 flt_defs - additional filters with known defaults are added to this dict as we go through the fallback chain of the given flt. True if we found a non-None default precip type. False if not
 
-#### def _find_circ_fb(flt, memo)
+---#### def _find_circ_fb(flt, memo)
 
 Tries to find circular fallbacks. Assumes that the current flt has not been placed into memo yet.
 
@@ -2076,7 +2076,7 @@ Tries to find circular fallbacks. Assumes that the current flt has not been plac
 **Returns:**<br>
 memo - if False is returned, all keys in this memo are deemed to be non-circular fallbacks. True if circular fallback is found, False otherwise
 
-#### def _find_next_fb(flt, memo, ordered_memo)
+---#### def _find_next_fb(flt, memo, ordered_memo)
 
 Finds next filter and stores in memo and ordered memo
 
@@ -2087,7 +2087,8 @@ Finds next filter and stores in memo and ordered memo
 **Returns:**<br>
 memo - dict to add the next filter as a key if not None ordered memo - list to append the next filter if not None the next filter, or None if no next filter.
 
-#### def _verify_flt_fb()
+---#### def _verify_flt_fb()
 
 Verifies that there are no circular fallbacks in the filter fallback dict.  Raises an error if circular fallbacks are found
 
+---

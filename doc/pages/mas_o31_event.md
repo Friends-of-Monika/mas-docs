@@ -11,11 +11,11 @@ Attempts to decode a cg image
 **Returns:**<br>
 True upon success, False otherwise
 
-### def removeImages()
+---### def removeImages()
 
 Removes decoded images at the end of their lifecycle
 
-### def decodeImage(key)
+---### def decodeImage(key)
 
 Attempts to decode a cg image
 
@@ -26,11 +26,11 @@ Attempts to decode a cg image
 **Returns:**<br>
 True upon success, False otherwise
 
-### def removeImages()
+---### def removeImages()
 
 Removes decoded images at the end of their lifecycle
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

@@ -11,7 +11,7 @@ Gets the mood type for the given mood label
 **Returns:**<br>
 type of the mood, or None if no type found
 
-### def getMoodType(mood_label)
+---### def getMoodType(mood_label)
 
 Gets the mood type for the given mood label
 
@@ -22,7 +22,7 @@ Gets the mood type for the given mood label
 **Returns:**<br>
 type of the mood, or None if no type found
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

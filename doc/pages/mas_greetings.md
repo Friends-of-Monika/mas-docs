@@ -12,7 +12,7 @@ Selects a greeting to be used. This evaluates rules and stuff appropriately.
 **Returns:**<br>
 a single greeting (as an Event) that we want to use
 
-### def checkTimeout(gre_type)
+---### def checkTimeout(gre_type)
 
 Checks if we should clear the current greeting type because of a timeout.
 
@@ -23,7 +23,7 @@ Checks if we should clear the current greeting type because of a timeout.
 **Returns:**<br>
 passed in gre_type, or None if timeout occured.
 
-### def selectGreeting(gre_type=None, check_time=None)
+---### def selectGreeting(gre_type=None, check_time=None)
 
 Selects a greeting to be used. This evaluates rules and stuff appropriately.
 
@@ -35,7 +35,7 @@ Selects a greeting to be used. This evaluates rules and stuff appropriately.
 **Returns:**<br>
 a single greeting (as an Event) that we want to use
 
-### def checkTimeout(gre_type)
+---### def checkTimeout(gre_type)
 
 Checks if we should clear the current greeting type because of a timeout.
 
@@ -46,7 +46,7 @@ Checks if we should clear the current greeting type because of a timeout.
 **Returns:**<br>
 passed in gre_type, or None if timeout occured.
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -66,7 +66,7 @@ Filters a greeting for the given type, among other things.
 **Returns:**<br>
 True if this ev passes the filter, False otherwise
 
-#### def _filterGreeting(ev, curr_pri, aff, check_time, gre_type=None)
+---#### def _filterGreeting(ev, curr_pri, aff, check_time, gre_type=None)
 
 Filters a greeting for the given type, among other things.
 
@@ -81,3 +81,4 @@ Filters a greeting for the given type, among other things.
 **Returns:**<br>
 True if this ev passes the filter, False otherwise
 
+---

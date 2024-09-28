@@ -11,7 +11,7 @@ Checks if the prompt's rule passes.
 **Returns:**<br>
 True if prompt's rule passes (or doesnt exist), False if not.
 
-### def get_prompt(key, prompt_key='change')
+---### def get_prompt(key, prompt_key='change')
 
 Gets prompt with the given key and prompt key
 
@@ -23,7 +23,7 @@ Gets prompt with the given key and prompt key
 **Returns:**<br>
 prompt. "" if invalid
 
-### def get_minitems(key, defval=1)
+---### def get_minitems(key, defval=1)
 
 Gets minimum number of items required to unlock this selector.
 
@@ -35,7 +35,7 @@ Gets minimum number of items required to unlock this selector.
 **Returns:**<br>
 minimum number of items to unlock the selector.
 
-### def in_prompt_map(key)
+---### def in_prompt_map(key)
 
 Checks if a key is in the prompt select map
 
@@ -46,21 +46,21 @@ Checks if a key is in the prompt select map
 **Returns:**<br>
 True if in the map, FAlse if not
 
-### def iter_prompt()
+---### def iter_prompt()
 
 Creates an interable of prompt keys
 
 **Returns:**<br>
 iter (generator) of prompt keys
 
-### def iter_prompt_data()
+---### def iter_prompt_data()
 
 Creates an iterable of prompt map data
 
 **Returns:**<br>
 iter (generator) of tuples: [0]: prompt key [1]: prompt data
 
-### def lock_prompt(key)
+---### def lock_prompt(key)
 
 Locks ev with the given key
 
@@ -68,7 +68,7 @@ Locks ev with the given key
 - `key` &mdash; select key
 
 
-### def set_prompt(key, prompt_key='change')
+---### def set_prompt(key, prompt_key='change')
 
 Sets prompt of ev with the given key with one associatd with given prompt key.
 
@@ -77,7 +77,7 @@ Sets prompt of ev with the given key with one associatd with given prompt key.
 - `prompt_key` &mdash; key to get propmt. if _ev, then no change
 
 
-### def unlock_prompt(key)
+---### def unlock_prompt(key)
 
 Unlocks ev with the given key
 
@@ -85,11 +85,11 @@ Unlocks ev with the given key
 - `key` &mdash; select key
 
 
-### def startup_prompt_check()
+---### def startup_prompt_check()
 
 Checks all prompts and adjusts them if needed
 
-### def check_prompt(key)
+---### def check_prompt(key)
 
 Checks if the prompt's rule passes.
 
@@ -100,7 +100,7 @@ Checks if the prompt's rule passes.
 **Returns:**<br>
 True if prompt's rule passes (or doesnt exist), False if not.
 
-### def get_prompt(key, prompt_key='change')
+---### def get_prompt(key, prompt_key='change')
 
 Gets prompt with the given key and prompt key
 
@@ -112,7 +112,7 @@ Gets prompt with the given key and prompt key
 **Returns:**<br>
 prompt. "" if invalid
 
-### def get_minitems(key, defval=1)
+---### def get_minitems(key, defval=1)
 
 Gets minimum number of items required to unlock this selector.
 
@@ -124,7 +124,7 @@ Gets minimum number of items required to unlock this selector.
 **Returns:**<br>
 minimum number of items to unlock the selector.
 
-### def in_prompt_map(key)
+---### def in_prompt_map(key)
 
 Checks if a key is in the prompt select map
 
@@ -135,21 +135,21 @@ Checks if a key is in the prompt select map
 **Returns:**<br>
 True if in the map, FAlse if not
 
-### def iter_prompt()
+---### def iter_prompt()
 
 Creates an interable of prompt keys
 
 **Returns:**<br>
 iter (generator) of prompt keys
 
-### def iter_prompt_data()
+---### def iter_prompt_data()
 
 Creates an iterable of prompt map data
 
 **Returns:**<br>
 iter (generator) of tuples: [0]: prompt key [1]: prompt data
 
-### def lock_prompt(key)
+---### def lock_prompt(key)
 
 Locks ev with the given key
 
@@ -157,7 +157,7 @@ Locks ev with the given key
 - `key` &mdash; select key
 
 
-### def set_prompt(key, prompt_key='change')
+---### def set_prompt(key, prompt_key='change')
 
 Sets prompt of ev with the given key with one associatd with given prompt key.
 
@@ -166,7 +166,7 @@ Sets prompt of ev with the given key with one associatd with given prompt key.
 - `prompt_key` &mdash; key to get propmt. if _ev, then no change
 
 
-### def unlock_prompt(key)
+---### def unlock_prompt(key)
 
 Unlocks ev with the given key
 
@@ -174,11 +174,11 @@ Unlocks ev with the given key
 - `key` &mdash; select key
 
 
-### def startup_prompt_check()
+---### def startup_prompt_check()
 
 Checks all prompts and adjusts them if needed
 
-### def selectable_key(selectable)
+---### def selectable_key(selectable)
 
 Returns the display name of a selectable. meant for sorting.
 
@@ -189,7 +189,7 @@ Returns the display name of a selectable. meant for sorting.
 **Returns:**<br>
 the display name of the selectable
 
-### def create_selectable_remover(acs_type, group, remover_name=None)
+---### def create_selectable_remover(acs_type, group, remover_name=None)
 
 Creates a selectable remover for acs
 
@@ -202,7 +202,7 @@ Creates a selectable remover for acs
 **Returns:**<br>
 remover ACS selectable
 
-### def rm_selectable_remover(remover_sel)
+---### def rm_selectable_remover(remover_sel)
 
 Removes a selectable remover for acs.
 
@@ -210,7 +210,7 @@ Removes a selectable remover for acs.
 - `remover_sel` &mdash; remover selectable to remove
 
 
-### def init_selectable_acs(acs, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None, remover=False)
+---### def init_selectable_acs(acs, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None, remover=False)
 
 Inits the selectable acs
 
@@ -226,7 +226,7 @@ Inits the selectable acs
 - `remover` &mdash; True if this ACS is a blank one, False otherwise (Default: False)
 
 
-### def init_selectable_clothes(clothes, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
+---### def init_selectable_clothes(clothes, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
 
 Inits the selectable clothes
 
@@ -241,7 +241,7 @@ Inits the selectable clothes
 - `select_dlg` &mdash; list of dialogue to say when the item is selected after the first time (Default: None)
 
 
-### def init_selectable_hair(hair, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
+---### def init_selectable_hair(hair, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
 
 Inits the selectable hair
 
@@ -256,7 +256,7 @@ Inits the selectable hair
 - `select_dlg` &mdash; list of dialogue to say when the item is selected after the first time (Default: None)
 
 
-### def valid_select_type(sel_con)
+---### def valid_select_type(sel_con)
 
 Returns True if valid selection constant, False otherwise
 
@@ -267,7 +267,7 @@ Returns True if valid selection constant, False otherwise
 **Returns:**<br>
 True if vali dselection constant
 
-### def is_same(old_map_view, new_map_view)
+---### def is_same(old_map_view, new_map_view)
 
 Compares the given select map views for differences.
 
@@ -279,15 +279,15 @@ Compares the given select map views for differences.
 **Returns:**<br>
 True if the maps are the same, false if different.
 
-### def save_selectables()
+---### def save_selectables()
 
 Goes through the selectables and saves their unlocked property.
 
-### def load_selectables()
+---### def load_selectables()
 
 Loads the persistent data into selectables.
 
-### def filter_acs(unlocked, group=None)
+---### def filter_acs(unlocked, group=None)
 
 Filters the selectable acs based on criteria
 
@@ -299,7 +299,7 @@ Filters the selectable acs based on criteria
 **Returns:**<br>
 list of selectable acs that match criteria
 
-### def filter_clothes(unlocked, group=None)
+---### def filter_clothes(unlocked, group=None)
 
 Filters the selectable clothes based on critera
 
@@ -311,7 +311,7 @@ Filters the selectable clothes based on critera
 **Returns:**<br>
 list of selectable clothes that match criteria
 
-### def filter_hair(unlocked, group=None)
+---### def filter_hair(unlocked, group=None)
 
 Filters the selectable hair based on critera
 
@@ -323,7 +323,7 @@ Filters the selectable hair based on critera
 **Returns:**<br>
 list of selectable hair that match criteria
 
-### def get_sel(item)
+---### def get_sel(item)
 
 Retrieves the selectable for the given item This uses sprite object type from jsons.
 
@@ -334,7 +334,7 @@ Retrieves the selectable for the given item This uses sprite object type from js
 **Returns:**<br>
 selectable for the given item
 
-### def get_sel_acs(acs)
+---### def get_sel_acs(acs)
 
 Retrieves the selectable for the given accessory.
 
@@ -345,7 +345,7 @@ Retrieves the selectable for the given accessory.
 **Returns:**<br>
 the selectable for this acs, or None if not found.
 
-### def get_sel_clothes(clothes)
+---### def get_sel_clothes(clothes)
 
 Retrieves the selectable for the given clothes
 
@@ -356,7 +356,7 @@ Retrieves the selectable for the given clothes
 **Returns:**<br>
 the selectable for these clothes, or None if not found
 
-### def get_sel_hair(hair)
+---### def get_sel_hair(hair)
 
 Retrieves the selectable for the given hair
 
@@ -367,7 +367,7 @@ Retrieves the selectable for the given hair
 **Returns:**<br>
 the selectable for this hair, or none if not found
 
-### def is_hairacs_compatible(hair, acs_sel)
+---### def is_hairacs_compatible(hair, acs_sel)
 
 Wrapper around mas_sprites.is_hairacs_compatible that uses an ACS selector.
 
@@ -379,7 +379,7 @@ Wrapper around mas_sprites.is_hairacs_compatible that uses an ACS selector.
 **Returns:**<br>
 True if hair+acs is compatible, False if not
 
-### def is_clotheshair_compatible(clothes, hair_sel)
+---### def is_clotheshair_compatible(clothes, hair_sel)
 
 Wrapper around mas_sprites.is_clotheshair_compatible that uses a hair selector.
 
@@ -391,7 +391,7 @@ Wrapper around mas_sprites.is_clotheshair_compatible that uses a hair selector.
 **Returns:**<br>
 True if clothes+hair is compatible, false if not
 
-### def lock_acs(acs)
+---### def lock_acs(acs)
 
 Locks the given accessory's selectable
 
@@ -399,7 +399,7 @@ Locks the given accessory's selectable
 - `acs` &mdash; MASAccessory object to lock
 
 
-### def lock_clothes(clothes)
+---### def lock_clothes(clothes)
 
 Locks the given clothes' selectable
 
@@ -407,7 +407,7 @@ Locks the given clothes' selectable
 - `clothes` &mdash; MASClothes object to lock
 
 
-### def lock_hair(hair)
+---### def lock_hair(hair)
 
 locks the given hair's selectable
 
@@ -415,7 +415,7 @@ locks the given hair's selectable
 - `hair` &mdash; MASHair object to lock
 
 
-### def set_compat_acs(acs_sels, hair)
+---### def set_compat_acs(acs_sels, hair)
 
 Checks compatibility of the given list of acs selectors to the given hair sprite object and sets appropriate flags
 
@@ -427,7 +427,7 @@ Checks compatibility of the given list of acs selectors to the given hair sprite
 **Returns:**<br>
 acs_sels - acs selectors with modified flags for compatibility
 
-### def set_compat_hair(hair_sels, clothes)
+---### def set_compat_hair(hair_sels, clothes)
 
 Checks compatiblity of the given list of hair selectors to the given clothing sprite object and sets appropriate flags.
 
@@ -439,7 +439,7 @@ Checks compatiblity of the given list of hair selectors to the given clothing sp
 **Returns:**<br>
 hair_sels - hair selectors with modified flags for compatibility
 
-### def unlock_acs(acs)
+---### def unlock_acs(acs)
 
 Unlocks the given accessory's selectable
 
@@ -447,7 +447,7 @@ Unlocks the given accessory's selectable
 - `acs` &mdash; MASAccessory object to unlock
 
 
-### def unlock_clothes(clothes)
+---### def unlock_clothes(clothes)
 
 Unlocks the given clothes' selectable
 
@@ -455,7 +455,7 @@ Unlocks the given clothes' selectable
 - `clothes` &mdash; MASClothes object to unlock
 
 
-### def unlock_hair(hair)
+---### def unlock_hair(hair)
 
 Unlocks the given hair's selectable
 
@@ -463,7 +463,7 @@ Unlocks the given hair's selectable
 - `hair` &mdash; MASHair object to unlock
 
 
-### def unlock_selector(group)
+---### def unlock_selector(group)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -479,7 +479,7 @@ DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.
 - `group` &mdash; group to unlock selector topic.
 
 
-### def json_sprite_unlock(sp_obj, unlock_label=True)
+---### def json_sprite_unlock(sp_obj, unlock_label=True)
 
 RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector topic for that sprite.
 
@@ -488,7 +488,7 @@ RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector to
 - `unlock_label` &mdash; True will unlock the selector lable, False will not (Default: True)
 
 
-### def selector_adj_ranged_callback(adj)
+---### def selector_adj_ranged_callback(adj)
 
 This is called by an adjustment of the twopane menu when its range is being changed (set)
 
@@ -496,7 +496,7 @@ This is called by an adjustment of the twopane menu when its range is being chan
 - `adj` &mdash; the adj object
 
 
-### def selector_search_callback(search_query)
+---### def selector_search_callback(search_query)
 
 The selector screen input callback.
 
@@ -504,7 +504,7 @@ The selector screen input callback.
 - `search_query` &mdash; search query to filter and sort by
 
 
-### def mas_item_name_format(item_name)
+---### def mas_item_name_format(item_name)
 
 Formats acs name to be sentence case, with spaces, and pluralized
 
@@ -515,7 +515,7 @@ Formats acs name to be sentence case, with spaces, and pluralized
 **Returns:**<br>
 item_name - formatted
 
-### def selectable_key(selectable)
+---### def selectable_key(selectable)
 
 Returns the display name of a selectable. meant for sorting.
 
@@ -526,7 +526,7 @@ Returns the display name of a selectable. meant for sorting.
 **Returns:**<br>
 the display name of the selectable
 
-### def create_selectable_remover(acs_type, group, remover_name=None)
+---### def create_selectable_remover(acs_type, group, remover_name=None)
 
 Creates a selectable remover for acs
 
@@ -539,7 +539,7 @@ Creates a selectable remover for acs
 **Returns:**<br>
 remover ACS selectable
 
-### def rm_selectable_remover(remover_sel)
+---### def rm_selectable_remover(remover_sel)
 
 Removes a selectable remover for acs.
 
@@ -547,7 +547,7 @@ Removes a selectable remover for acs.
 - `remover_sel` &mdash; remover selectable to remove
 
 
-### def init_selectable_acs(acs, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None, remover=False)
+---### def init_selectable_acs(acs, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None, remover=False)
 
 Inits the selectable acs
 
@@ -563,7 +563,7 @@ Inits the selectable acs
 - `remover` &mdash; True if this ACS is a blank one, False otherwise (Default: False)
 
 
-### def init_selectable_clothes(clothes, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
+---### def init_selectable_clothes(clothes, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
 
 Inits the selectable clothes
 
@@ -578,7 +578,7 @@ Inits the selectable clothes
 - `select_dlg` &mdash; list of dialogue to say when the item is selected after the first time (Default: None)
 
 
-### def init_selectable_hair(hair, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
+---### def init_selectable_hair(hair, display_name, thumb, group, visible_when_locked=True, hover_dlg=None, first_select_dlg=None, select_dlg=None)
 
 Inits the selectable hair
 
@@ -593,7 +593,7 @@ Inits the selectable hair
 - `select_dlg` &mdash; list of dialogue to say when the item is selected after the first time (Default: None)
 
 
-### def valid_select_type(sel_con)
+---### def valid_select_type(sel_con)
 
 Returns True if valid selection constant, False otherwise
 
@@ -604,7 +604,7 @@ Returns True if valid selection constant, False otherwise
 **Returns:**<br>
 True if vali dselection constant
 
-### def is_same(old_map_view, new_map_view)
+---### def is_same(old_map_view, new_map_view)
 
 Compares the given select map views for differences.
 
@@ -616,15 +616,15 @@ Compares the given select map views for differences.
 **Returns:**<br>
 True if the maps are the same, false if different.
 
-### def save_selectables()
+---### def save_selectables()
 
 Goes through the selectables and saves their unlocked property.
 
-### def load_selectables()
+---### def load_selectables()
 
 Loads the persistent data into selectables.
 
-### def filter_acs(unlocked, group=None)
+---### def filter_acs(unlocked, group=None)
 
 Filters the selectable acs based on criteria
 
@@ -636,7 +636,7 @@ Filters the selectable acs based on criteria
 **Returns:**<br>
 list of selectable acs that match criteria
 
-### def filter_clothes(unlocked, group=None)
+---### def filter_clothes(unlocked, group=None)
 
 Filters the selectable clothes based on critera
 
@@ -648,7 +648,7 @@ Filters the selectable clothes based on critera
 **Returns:**<br>
 list of selectable clothes that match criteria
 
-### def filter_hair(unlocked, group=None)
+---### def filter_hair(unlocked, group=None)
 
 Filters the selectable hair based on critera
 
@@ -660,7 +660,7 @@ Filters the selectable hair based on critera
 **Returns:**<br>
 list of selectable hair that match criteria
 
-### def get_sel(item)
+---### def get_sel(item)
 
 Retrieves the selectable for the given item This uses sprite object type from jsons.
 
@@ -671,7 +671,7 @@ Retrieves the selectable for the given item This uses sprite object type from js
 **Returns:**<br>
 selectable for the given item
 
-### def get_sel_acs(acs)
+---### def get_sel_acs(acs)
 
 Retrieves the selectable for the given accessory.
 
@@ -682,7 +682,7 @@ Retrieves the selectable for the given accessory.
 **Returns:**<br>
 the selectable for this acs, or None if not found.
 
-### def get_sel_clothes(clothes)
+---### def get_sel_clothes(clothes)
 
 Retrieves the selectable for the given clothes
 
@@ -693,7 +693,7 @@ Retrieves the selectable for the given clothes
 **Returns:**<br>
 the selectable for these clothes, or None if not found
 
-### def get_sel_hair(hair)
+---### def get_sel_hair(hair)
 
 Retrieves the selectable for the given hair
 
@@ -704,7 +704,7 @@ Retrieves the selectable for the given hair
 **Returns:**<br>
 the selectable for this hair, or none if not found
 
-### def is_hairacs_compatible(hair, acs_sel)
+---### def is_hairacs_compatible(hair, acs_sel)
 
 Wrapper around mas_sprites.is_hairacs_compatible that uses an ACS selector.
 
@@ -716,7 +716,7 @@ Wrapper around mas_sprites.is_hairacs_compatible that uses an ACS selector.
 **Returns:**<br>
 True if hair+acs is compatible, False if not
 
-### def is_clotheshair_compatible(clothes, hair_sel)
+---### def is_clotheshair_compatible(clothes, hair_sel)
 
 Wrapper around mas_sprites.is_clotheshair_compatible that uses a hair selector.
 
@@ -728,7 +728,7 @@ Wrapper around mas_sprites.is_clotheshair_compatible that uses a hair selector.
 **Returns:**<br>
 True if clothes+hair is compatible, false if not
 
-### def lock_acs(acs)
+---### def lock_acs(acs)
 
 Locks the given accessory's selectable
 
@@ -736,7 +736,7 @@ Locks the given accessory's selectable
 - `acs` &mdash; MASAccessory object to lock
 
 
-### def lock_clothes(clothes)
+---### def lock_clothes(clothes)
 
 Locks the given clothes' selectable
 
@@ -744,7 +744,7 @@ Locks the given clothes' selectable
 - `clothes` &mdash; MASClothes object to lock
 
 
-### def lock_hair(hair)
+---### def lock_hair(hair)
 
 locks the given hair's selectable
 
@@ -752,7 +752,7 @@ locks the given hair's selectable
 - `hair` &mdash; MASHair object to lock
 
 
-### def set_compat_acs(acs_sels, hair)
+---### def set_compat_acs(acs_sels, hair)
 
 Checks compatibility of the given list of acs selectors to the given hair sprite object and sets appropriate flags
 
@@ -764,7 +764,7 @@ Checks compatibility of the given list of acs selectors to the given hair sprite
 **Returns:**<br>
 acs_sels - acs selectors with modified flags for compatibility
 
-### def set_compat_hair(hair_sels, clothes)
+---### def set_compat_hair(hair_sels, clothes)
 
 Checks compatiblity of the given list of hair selectors to the given clothing sprite object and sets appropriate flags.
 
@@ -776,7 +776,7 @@ Checks compatiblity of the given list of hair selectors to the given clothing sp
 **Returns:**<br>
 hair_sels - hair selectors with modified flags for compatibility
 
-### def unlock_acs(acs)
+---### def unlock_acs(acs)
 
 Unlocks the given accessory's selectable
 
@@ -784,7 +784,7 @@ Unlocks the given accessory's selectable
 - `acs` &mdash; MASAccessory object to unlock
 
 
-### def unlock_clothes(clothes)
+---### def unlock_clothes(clothes)
 
 Unlocks the given clothes' selectable
 
@@ -792,7 +792,7 @@ Unlocks the given clothes' selectable
 - `clothes` &mdash; MASClothes object to unlock
 
 
-### def unlock_hair(hair)
+---### def unlock_hair(hair)
 
 Unlocks the given hair's selectable
 
@@ -800,7 +800,7 @@ Unlocks the given hair's selectable
 - `hair` &mdash; MASHair object to unlock
 
 
-### def unlock_selector(group)
+---### def unlock_selector(group)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
@@ -816,7 +816,7 @@ DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.
 - `group` &mdash; group to unlock selector topic.
 
 
-### def json_sprite_unlock(sp_obj, unlock_label=True)
+---### def json_sprite_unlock(sp_obj, unlock_label=True)
 
 RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector topic for that sprite.
 
@@ -825,7 +825,7 @@ RUNTIME ONLY Unlocks selectable for the given sprite, as ewll as the selector to
 - `unlock_label` &mdash; True will unlock the selector lable, False will not (Default: True)
 
 
-### def selector_adj_ranged_callback(adj)
+---### def selector_adj_ranged_callback(adj)
 
 This is called by an adjustment of the twopane menu when its range is being changed (set)
 
@@ -833,7 +833,7 @@ This is called by an adjustment of the twopane menu when its range is being chan
 - `adj` &mdash; the adj object
 
 
-### def selector_search_callback(search_query)
+---### def selector_search_callback(search_query)
 
 The selector screen input callback.
 
@@ -841,7 +841,7 @@ The selector screen input callback.
 - `search_query` &mdash; search query to filter and sort by
 
 
-### def mas_item_name_format(item_name)
+---### def mas_item_name_format(item_name)
 
 Formats acs name to be sentence case, with spaces, and pluralized
 
@@ -852,7 +852,7 @@ Formats acs name to be sentence case, with spaces, and pluralized
 **Returns:**<br>
 item_name - formatted
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -861,11 +861,11 @@ item_name - formatted
 
 Ribbon selector should only be unocked if: 1 - outfit is not baked 2 - hair supports ribbon
 
-#### def _rule_ribbon()
+---#### def _rule_ribbon()
 
 Ribbon selector should only be unocked if: 1 - outfit is not baked 2 - hair supports ribbon
 
-#### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
+---#### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
 
 Adds a prompt to the prompt map - basically like registering a selector.
 
@@ -879,7 +879,7 @@ Adds a prompt to the prompt map - basically like registering a selector.
 - `_not_group` &mdash; True if this is prompt is not associated with an ACS group (Default: False)
 
 
-#### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
+---#### def _add_prompt(key, ev_label, change, wear, _min_items=1, _rule=None, _not_group=False)
 
 Adds a prompt to the prompt map - basically like registering a selector.
 
@@ -893,15 +893,15 @@ Adds a prompt to the prompt map - basically like registering a selector.
 - `_not_group` &mdash; True if this is prompt is not associated with an ACS group (Default: False)
 
 
-#### def _validate_group_topics()
+---#### def _validate_group_topics()
 
 Locks selector topics if there are no unlocked selectables with the appropriate group. Unlocks selector topics if they are unlocked selectables.
 
-#### def _switch_to_wear_prompts()
+---#### def _switch_to_wear_prompts()
 
 Switches all prompts for groups to use their wear prompt.
 
-#### def _has_remover(group)
+---#### def _has_remover(group)
 
 Checks if acs of the given group have a remover
 
@@ -912,11 +912,11 @@ Checks if acs of the given group have a remover
 **Returns:**<br>
 True if this group already has a remover, False otherwise
 
-#### def _unlock_removers()
+---#### def _unlock_removers()
 
 Unlocks remover ACS selectables
 
-#### def _rm_remover(item_list)
+---#### def _rm_remover(item_list)
 
 Gets the remover from a given list of items, takes it out of the list and reutrns it.
 
@@ -927,7 +927,7 @@ Gets the remover from a given list of items, takes it out of the list and reutrn
 **Returns:**<br>
 remover selectable, or None if not found
 
-#### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
+---#### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
 
 Adjusts an aspect of monika based on the select type
 
@@ -942,7 +942,7 @@ Adjusts an aspect of monika based on the select type
 - `force_run` &mdash; True means run even if we old and new matches. (Default: False)
 
 
-#### def _fill_select_map(moni_chr, select_type, items, select_map)
+---#### def _fill_select_map(moni_chr, select_type, items, select_map)
 
 Fills the select map with what monika is currently wearing, based on the given select type
 
@@ -955,7 +955,7 @@ Fills the select map with what monika is currently wearing, based on the given s
 **Returns:**<br>
 select_map - select map filled with appropriate selectbales. true if Monika was found wearing something in the list, False if not.
 
-#### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
+---#### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
 
 Fills select map and sets remover item if passed in. If remover item is not passsed in, this functions exactly the same as fill_select_map
 
@@ -969,7 +969,7 @@ Fills select map and sets remover item if passed in. If remover item is not pass
 **Returns:**<br>
 select_map - see _fill_select_map see _fill_select_map
 
-#### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
+---#### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
 
 Cleans the select map of non-selected items.
 
@@ -984,7 +984,7 @@ Cleans the select map of non-selected items.
 **Returns:**<br>
 select_map - select map cleaned of non-selectd items
 
-#### def _save_selectable(source, dest)
+---#### def _save_selectable(source, dest)
 
 Saves selectable data from the given source into the destination.
 
@@ -993,7 +993,7 @@ Saves selectable data from the given source into the destination.
 - `dest` &mdash; data place to save
 
 
-#### def _load_selectable(source, dest)
+---#### def _load_selectable(source, dest)
 
 Loads selectable data from the given source into the destination.
 
@@ -1002,7 +1002,7 @@ Loads selectable data from the given source into the destination.
 - `dest` &mdash; data to save the loaded data into
 
 
-#### def _filter_sel_single(item, unlocked, group)
+---#### def _filter_sel_single(item, unlocked, group)
 
 Checks if the given item matches the given criteria
 
@@ -1015,7 +1015,7 @@ Checks if the given item matches the given criteria
 **Returns:**<br>
 True if the item matches the criteria, False otherwise
 
-#### def _filter_sel(select_list, unlocked, group=None)
+---#### def _filter_sel(select_list, unlocked, group=None)
 
 Filters the selectable list based on criteria
 
@@ -1028,7 +1028,7 @@ Filters the selectable list based on criteria
 **Returns:**<br>
 list of selectables that match criteria
 
-#### def _get_sel(item, select_type)
+---#### def _get_sel(item, select_type)
 
 Retreives the selectable for the given item.
 
@@ -1040,7 +1040,7 @@ Retreives the selectable for the given item.
 **Returns:**<br>
 the selectable for the item, or None if not found
 
-#### def _lock_item(item, select_type)
+---#### def _lock_item(item, select_type)
 
 Locks the given item's selectable.
 
@@ -1049,7 +1049,7 @@ Locks the given item's selectable.
 - `select_type` &mdash; the type of selectable we are trying to find
 
 
-#### def _unlock_item(item, select_type)
+---#### def _unlock_item(item, select_type)
 
 Unlocks the given item's selectable
 
@@ -1058,7 +1058,7 @@ Unlocks the given item's selectable
 - `select_type` &mdash; the type of selectable we are trying to find
 
 
-#### def _selector_filter_items(item, search_query, search_kws)
+---#### def _selector_filter_items(item, search_query, search_kws)
 
 The filter key we use in the selector screen.
 
@@ -1071,7 +1071,7 @@ The filter key we use in the selector screen.
 **Returns:**<br>
 boolean whether or not the event pass the criteria
 
-#### def _selector_sort_items(item, search_query, search_kws)
+---#### def _selector_sort_items(item, search_query, search_kws)
 
 The sort key we use in the selector screen.
 
@@ -1084,7 +1084,7 @@ The sort key we use in the selector screen.
 **Returns:**<br>
 weight as int
 
-#### def _selector_search_items(items, search_query)
+---#### def _selector_search_items(items, search_query)
 
 The method for filtering and sorting items in the selector screen.
 
@@ -1096,15 +1096,15 @@ The method for filtering and sorting items in the selector screen.
 **Returns:**<br>
 list of event objects or None if empty query was given
 
-#### def _validate_group_topics()
+---#### def _validate_group_topics()
 
 Locks selector topics if there are no unlocked selectables with the appropriate group. Unlocks selector topics if they are unlocked selectables.
 
-#### def _switch_to_wear_prompts()
+---#### def _switch_to_wear_prompts()
 
 Switches all prompts for groups to use their wear prompt.
 
-#### def _has_remover(group)
+---#### def _has_remover(group)
 
 Checks if acs of the given group have a remover
 
@@ -1115,11 +1115,11 @@ Checks if acs of the given group have a remover
 **Returns:**<br>
 True if this group already has a remover, False otherwise
 
-#### def _unlock_removers()
+---#### def _unlock_removers()
 
 Unlocks remover ACS selectables
 
-#### def _rm_remover(item_list)
+---#### def _rm_remover(item_list)
 
 Gets the remover from a given list of items, takes it out of the list and reutrns it.
 
@@ -1130,7 +1130,7 @@ Gets the remover from a given list of items, takes it out of the list and reutrn
 **Returns:**<br>
 remover selectable, or None if not found
 
-#### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
+---#### def _adjust_monika(moni_chr, old_map, prev_map, new_map, select_type, use_old=False, outfit_mode=False, force_run=False)
 
 Adjusts an aspect of monika based on the select type
 
@@ -1145,7 +1145,7 @@ Adjusts an aspect of monika based on the select type
 - `force_run` &mdash; True means run even if we old and new matches. (Default: False)
 
 
-#### def _fill_select_map(moni_chr, select_type, items, select_map)
+---#### def _fill_select_map(moni_chr, select_type, items, select_map)
 
 Fills the select map with what monika is currently wearing, based on the given select type
 
@@ -1158,7 +1158,7 @@ Fills the select map with what monika is currently wearing, based on the given s
 **Returns:**<br>
 select_map - select map filled with appropriate selectbales. true if Monika was found wearing something in the list, False if not.
 
-#### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
+---#### def _fill_select_map_and_set_remover(moni_chr, select_type, items, select_map, remover_disp_item=None)
 
 Fills select map and sets remover item if passed in. If remover item is not passsed in, this functions exactly the same as fill_select_map
 
@@ -1172,7 +1172,7 @@ Fills select map and sets remover item if passed in. If remover item is not pass
 **Returns:**<br>
 select_map - see _fill_select_map see _fill_select_map
 
-#### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
+---#### def _clean_select_map(select_map, select_type, remove_items, moni_chr, force=False)
 
 Cleans the select map of non-selected items.
 
@@ -1187,7 +1187,7 @@ Cleans the select map of non-selected items.
 **Returns:**<br>
 select_map - select map cleaned of non-selectd items
 
-#### def _save_selectable(source, dest)
+---#### def _save_selectable(source, dest)
 
 Saves selectable data from the given source into the destination.
 
@@ -1196,7 +1196,7 @@ Saves selectable data from the given source into the destination.
 - `dest` &mdash; data place to save
 
 
-#### def _load_selectable(source, dest)
+---#### def _load_selectable(source, dest)
 
 Loads selectable data from the given source into the destination.
 
@@ -1205,7 +1205,7 @@ Loads selectable data from the given source into the destination.
 - `dest` &mdash; data to save the loaded data into
 
 
-#### def _filter_sel_single(item, unlocked, group)
+---#### def _filter_sel_single(item, unlocked, group)
 
 Checks if the given item matches the given criteria
 
@@ -1218,7 +1218,7 @@ Checks if the given item matches the given criteria
 **Returns:**<br>
 True if the item matches the criteria, False otherwise
 
-#### def _filter_sel(select_list, unlocked, group=None)
+---#### def _filter_sel(select_list, unlocked, group=None)
 
 Filters the selectable list based on criteria
 
@@ -1231,7 +1231,7 @@ Filters the selectable list based on criteria
 **Returns:**<br>
 list of selectables that match criteria
 
-#### def _get_sel(item, select_type)
+---#### def _get_sel(item, select_type)
 
 Retreives the selectable for the given item.
 
@@ -1243,7 +1243,7 @@ Retreives the selectable for the given item.
 **Returns:**<br>
 the selectable for the item, or None if not found
 
-#### def _lock_item(item, select_type)
+---#### def _lock_item(item, select_type)
 
 Locks the given item's selectable.
 
@@ -1252,7 +1252,7 @@ Locks the given item's selectable.
 - `select_type` &mdash; the type of selectable we are trying to find
 
 
-#### def _unlock_item(item, select_type)
+---#### def _unlock_item(item, select_type)
 
 Unlocks the given item's selectable
 
@@ -1261,7 +1261,7 @@ Unlocks the given item's selectable
 - `select_type` &mdash; the type of selectable we are trying to find
 
 
-#### def _selector_filter_items(item, search_query, search_kws)
+---#### def _selector_filter_items(item, search_query, search_kws)
 
 The filter key we use in the selector screen.
 
@@ -1274,7 +1274,7 @@ The filter key we use in the selector screen.
 **Returns:**<br>
 boolean whether or not the event pass the criteria
 
-#### def _selector_sort_items(item, search_query, search_kws)
+---#### def _selector_sort_items(item, search_query, search_kws)
 
 The sort key we use in the selector screen.
 
@@ -1287,7 +1287,7 @@ The sort key we use in the selector screen.
 **Returns:**<br>
 weight as int
 
-#### def _selector_search_items(items, search_query)
+---#### def _selector_search_items(items, search_query)
 
 The method for filtering and sorting items in the selector screen.
 
@@ -1299,3 +1299,4 @@ The method for filtering and sorting items in the selector screen.
 **Returns:**<br>
 list of event objects or None if empty query was given
 
+---

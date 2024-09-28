@@ -7,14 +7,14 @@ Checks if we can safely use https in general - this combines several checks, mai
 **Returns:**<br>
 True if https can be used.
 
-### def can_use_https()
+---### def can_use_https()
 
 Checks if we can safely use https in general - this combines several checks, mainly: - ssl - a cert
 
 **Returns:**<br>
 True if https can be used.
 
-### def all_none(data=None, lata=None)
+---### def all_none(data=None, lata=None)
 
 Checks if a dict and/or list is all None
 
@@ -26,7 +26,7 @@ Checks if a dict and/or list is all None
 **Returns:**<br>
 True if all data is None, False otherwise
 
-### def clean_gui_text(text)
+---### def clean_gui_text(text)
 
 Cleans the given text so its suitable for GUI usage
 
@@ -37,7 +37,7 @@ Cleans the given text so its suitable for GUI usage
 **Returns:**<br>
 cleaned text
 
-### def eqfloat(left, right, places=6)
+---### def eqfloat(left, right, places=6)
 
 Float comparisons thatcan handle accuracy errors. This uses checks equivalence within a given amount of decimal places
 
@@ -49,7 +49,7 @@ Float comparisons thatcan handle accuracy errors. This uses checks equivalence w
 **Returns:**<br>
 True if values are equal, False if not
 
-### def truncround(value, places=6)
+---### def truncround(value, places=6)
 
 Does "truncated rounding" for floats. This is done via a floatsplit_i that reassembles into a float.
 
@@ -61,7 +61,7 @@ Does "truncated rounding" for floats. This is done via a floatsplit_i that reass
 **Returns:**<br>
 truncate-rounded float
 
-### def floatcombine_i(value, places=6)
+---### def floatcombine_i(value, places=6)
 
 Combines output of floatsplit_i back into a float
 
@@ -73,7 +73,7 @@ Combines output of floatsplit_i back into a float
 **Returns:**<br>
 float
 
-### def floatsplit(value)
+---### def floatsplit(value)
 
 Splits a float into int and float parts (unlike _splitfloat which returns three ints, or floatsplit_i which returns two ints with rounding)
 
@@ -84,7 +84,7 @@ Splits a float into int and float parts (unlike _splitfloat which returns three 
 **Returns:**<br>
 tuple of the following format: [0] - integer portion of float (int) [1] - float portion of float (float)
 
-### def floatsplit_i(value, places=6)
+---### def floatsplit_i(value, places=6)
 
 Similar to floatsplit, but converts the float portion into an int
 
@@ -96,7 +96,7 @@ Similar to floatsplit, but converts the float portion into an int
 **Returns:**<br>
 tuple of the following format: [0] - integer portion of float [1] - float portion of float, multiplied by 10^places
 
-### def pdget(key, table, validator=None, defval=None)
+---### def pdget(key, table, validator=None, defval=None)
 
 Protected Dict GET Gets an item from a dict, using protections to ensure this item is valid
 
@@ -107,7 +107,7 @@ Protected Dict GET Gets an item from a dict, using protections to ensure this it
 - `defval` &mdash; default value to return if could not get from dict
 
 
-### def td2hr(duration)
+---### def td2hr(duration)
 
 Converts a timedetla to hours (fractional)
 
@@ -118,21 +118,21 @@ Converts a timedetla to hours (fractional)
 **Returns:**<br>
 hours as float
 
-### def get_localzone()
+---### def get_localzone()
 
 Wrapper around tzlocal.get_localzone() that won't raise exceptions
 
 **Returns:**<br>
 pytz tzinfo object of the local time zone. if system timezone info is configured wrong, then a special-MAS version of a timezone is returned instead. This version works like a static, unchanging timezone, using the time.timezone/altzone values.
 
-### def reload_localzone()
+---### def reload_localzone()
 
 Reloads the cached localzone.
 
 **Returns:**<br>
 see get_localzone()
 
-### def local_to_utc(local_dt, latest=True)
+---### def local_to_utc(local_dt, latest=True)
 
 Converts the given local datetime into a UTC datetime.
 
@@ -144,7 +144,7 @@ Converts the given local datetime into a UTC datetime.
 **Returns:**<br>
 UTC-based naive datetime (no tzinfo). This is safe for pickling/saving to persistent.
 
-### def utc_to_any(utc_dt, target_tz)
+---### def utc_to_any(utc_dt, target_tz)
 
 Converts the given UTC datetime into any tz datetime
 
@@ -156,7 +156,7 @@ Converts the given UTC datetime into any tz datetime
 **Returns:**<br>
 datetime converted to the target timezone. NOTE: DO NOT PICKLE THIS OR SAVE TO PERSISTENT.
 
-### def utc_to_local(utc_dt, latest=True)
+---### def utc_to_local(utc_dt, latest=True)
 
 Converts the given UTC datetime into a local datetime
 
@@ -168,7 +168,7 @@ Converts the given UTC datetime into a local datetime
 **Returns:**<br>
 localized datetime with tzinfo of this zone (see pytz docs) NOTE: DO NOT PICKLE THIS or SAVE TO PERSISTENT. While pytz can safely pickle, we do not want to force a dependency on the persistent.
 
-### def stdout_as(outstream)
+---### def stdout_as(outstream)
 
 Context manager that can replace stdout temporarily. Use with the with statement (python).
 
@@ -180,7 +180,7 @@ Context manager that can replace stdout temporarily. Use with the with statement
 - `outstream` &mdash; the stream to temporarily replace sys.stdout with
 
 
-### def tryparsedt(_datetime, default=None, sep=' ')
+---### def tryparsedt(_datetime, default=None, sep=' ')
 
 Trys to parse a datetime isoformat string into a datetime object
 
@@ -193,11 +193,11 @@ Trys to parse a datetime isoformat string into a datetime object
 **Returns:**<br>
 datetime object, or default if parsing failed
 
-### def is_file_present(filename)
+---### def is_file_present(filename)
 
 Checks if a file is present (exists)
 
-### def weightedChoice(choice_weight_tuple_list)
+---### def weightedChoice(choice_weight_tuple_list)
 
 Returns a random item based on weighting.
 
@@ -208,7 +208,7 @@ Returns a random item based on weighting.
 **Returns:**<br>
 random choice value picked using choice weights
 
-### def tryparsefloat(value, default=0)
+---### def tryparsefloat(value, default=0)
 
 Attempts to parse the given value into a float. Returns the default if that parse failed.
 
@@ -220,7 +220,7 @@ Attempts to parse the given value into a float. Returns the default if that pars
 **Returns:**<br>
 a float representation of the given value, or default if the given value could not be parsed into an float
 
-### def bullet_list(_list, bullet='  -')
+---### def bullet_list(_list, bullet='  -')
 
 Converts a list of items into a bulleted list of strings.
 
@@ -232,7 +232,7 @@ Converts a list of items into a bulleted list of strings.
 **Returns:**<br>
 a list of strings where each string is an item with a bullet.
 
-### def nested_defaultdict(final_factory=None, levels=1)
+---### def nested_defaultdict(final_factory=None, levels=1)
 
 Generates a nested defaultdict. Basically good for creating an n-level dict of defaults.
 
@@ -244,12 +244,12 @@ Generates a nested defaultdict. Basically good for creating an n-level dict of d
 **Returns:**<br>
 a nested defaultdict implementation
 
-### def add_years(initial_date, years)
+---### def add_years(initial_date, years)
 
 **Returns:**<br>
 the date with the years added, if it's feb 29th it goes to mar 1st, if feb 29 doesn't exists in the new year
 
-### def add_months(starting_date, months)
+---### def add_months(starting_date, months)
 
 Takes a datetime object and add a number of months Handles the case where the new month doesn't have that day
 
@@ -261,9 +261,9 @@ Takes a datetime object and add a number of months Handles the case where the ne
 **Returns:**<br>
 datetime.date representing the inputted date with the corresponding months added
 
-### def sod(starting_date)
+---### def sod(starting_date)
 
-### def mdnt(starting_date)
+---### def mdnt(starting_date)
 
 Takes a datetime object and returns a new datetime with the same date at midnight
 
@@ -274,7 +274,7 @@ Takes a datetime object and returns a new datetime with the same date at midnigh
 **Returns:**<br>
 starting_date but at midnight
 
-### def am3(_datetime)
+---### def am3(_datetime)
 
 Takes a datetime object and returns a new datetime with the same date at 3 am.
 
@@ -285,12 +285,12 @@ Takes a datetime object and returns a new datetime with the same date at 3 am.
 **Returns:**<br>
 _datetime but at 3am
 
-### def secInDay()
+---### def secInDay()
 
 **Returns:**<br>
 number of seconds in a day
 
-### def time2sec(_time)
+---### def time2sec(_time)
 
 Converts a time value to seconds
 
@@ -301,7 +301,7 @@ Converts a time value to seconds
 **Returns:**<br>
 number of seconds
 
-### def fli_indk(lst, d)
+---### def fli_indk(lst, d)
 
 Find List Item
 
@@ -313,7 +313,7 @@ Find List Item
 **Returns:**<br>
 The index of the first item in the list that is a key in the dict. There are no checks of if the item can be a valid key. -1 is returned if no item in the list is a key in the dict.
 
-### def insert_sort(sort_list, item, key)
+---### def insert_sort(sort_list, item, key)
 
 Performs a round of insertion sort. This does least to greatest sorting
 
@@ -326,7 +326,7 @@ Performs a round of insertion sort. This does least to greatest sorting
 **Returns:**<br>
 sort_list - list with 1 additonal element, sorted
 
-### def insert_sort_compare(sort_list, item, cmp_func)
+---### def insert_sort_compare(sort_list, item, cmp_func)
 
 Performs a round of insertion sort using comparison function
 
@@ -339,7 +339,7 @@ Performs a round of insertion sort using comparison function
 **Returns:**<br>
 sort_list - list with 1 additional element, sorted
 
-### def insert_sort_keyless(sort_list, item)
+---### def insert_sort_keyless(sort_list, item)
 
 Performs a round of insertion sort for natural comparison objects. This does least to greatest sorting.
 
@@ -351,7 +351,7 @@ Performs a round of insertion sort for natural comparison objects. This does lea
 **Returns:**<br>
 sort_list - list with 1 additional element, sorted
 
-### def normalize_points(points, offsets, add=True)
+---### def normalize_points(points, offsets, add=True)
 
 normalizes a list of points using the given offsets
 
@@ -364,7 +364,7 @@ normalizes a list of points using the given offsets
 **Returns:**<br>
 list of normalized points
 
-### def nz_count(value_list)
+---### def nz_count(value_list)
 
 NonZero Count  Counts all non-zero values in the given list
 
@@ -375,7 +375,7 @@ NonZero Count  Counts all non-zero values in the given list
 **Returns:**<br>
 number of nonzero values in list
 
-### def ev_distribute(value_list, amt, nz=False)
+---### def ev_distribute(value_list, amt, nz=False)
 
 EVen Distribute  Evenly distributes the given value to a given value list.
 
@@ -388,7 +388,7 @@ EVen Distribute  Evenly distributes the given value to a given value list.
 **Returns:**<br>
 value_list - even distribution amount added to each appropriate item in this list leftover amount
 
-### def fz_distribute(value_list)
+---### def fz_distribute(value_list)
 
 Flipped Zero Distribute  Redistributes values in the given list such that: 1. any index with a value larger than 0 is set to 0 2. any index with a value of 0 now has a nonzero value 3. the nonzero is evenly divided among the appropriate indexes
 
@@ -399,7 +399,7 @@ Flipped Zero Distribute  Redistributes values in the given list such that: 1. an
 **Returns:**<br>
 value_list - flip-zero distributed list of numbers any leftover amount
 
-### def ip_distribute(value_list, amt_list)
+---### def ip_distribute(value_list, amt_list)
 
 In Place Distribute  Distributes values from one list to the other list, based on index. Mismatched list sizes are allowed. There is no concept of leftovers here.
 
@@ -411,7 +411,7 @@ In Place Distribute  Distributes values from one list to the other list, based o
 **Returns:**<br>
 value_list - each corresponding index in amt_list added to corresponding index in value_list
 
-### def lo_distribute(value_list, leftovers, reverse=False, nz=False)
+---### def lo_distribute(value_list, leftovers, reverse=False, nz=False)
 
 LeftOver Distribute Applies leftovers to the given value list.  If leftovers are larger than the value list, we do ev_distribute first
 
@@ -425,7 +425,7 @@ LeftOver Distribute Applies leftovers to the given value list.  If leftovers are
 **Returns:**<br>
 value_list - some items will have leftovers added to them
 
-### def randomblob(size, seed=None)
+---### def randomblob(size, seed=None)
 
 Generates a blob of StringIO data with the given size
 
@@ -437,7 +437,7 @@ Generates a blob of StringIO data with the given size
 **Returns:**<br>
 a cStringIO buffer of the random blob
 
-### def randomblob_fast(size)
+---### def randomblob_fast(size)
 
 Generates a randomb blob of stringIO data more efficientally and with true random using urandom
 
@@ -448,11 +448,11 @@ Generates a randomb blob of stringIO data more efficientally and with true rando
 **Returns:**<br>
 a cStringIO buffer of the random blob
 
-### def intersperse(_list, _sep)
+---### def intersperse(_list, _sep)
 
 Intersperses a list with the given separator
 
-### def log_entry(entry_log, value)
+---### def log_entry(entry_log, value)
 
 Generic entry add to the given log. Stores both time and given value as a tuple: [0]: datetime.now() [1]: value
 
@@ -461,7 +461,7 @@ Generic entry add to the given log. Stores both time and given value as a tuple:
 - `value` &mdash; value to log in this entry
 
 
-### def sanitize_filename(s)
+---### def sanitize_filename(s)
 
 Sanitizes a filename by removing characters that might have special meaning on certain platforms.
 
@@ -472,7 +472,7 @@ Sanitizes a filename by removing characters that might have special meaning on c
 **Returns:**<br>
 str: Sanitized string, stripped of special characters.
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -491,27 +491,28 @@ Generates/decides if a given start/end datetime/date should have its year increm
 **Returns:**<br>
 either next valid _start or next valid _end.
 
-#### def _ntoub(num, bsize)
+---#### def _ntoub(num, bsize)
 
 Partial packing.
 
-#### def _itoIS(num)
+---#### def _itoIS(num)
 
 integer packing
 
-#### def _IStoi(packednum)
+---#### def _IStoi(packednum)
 
 integer unpacking
 
-#### def _ftoFS(num)
+---#### def _ftoFS(num)
 
 Float packing
 
-#### def _FStof(packednum)
+---#### def _FStof(packednum)
 
 Float unpacking
 
-#### def _splitfloat(num)
+---#### def _splitfloat(num)
 
 Splits a float into integer parts:  [0]: integer [1]: numerator [2]: denominator
 
+---

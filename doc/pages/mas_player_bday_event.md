@@ -8,7 +8,7 @@ fixes the pbday mhs usin gthe given date as pbday
 - `d_pbday` &mdash; player birthdate
 
 
-### def correct_pbday_mhs(d_pbday)
+---### def correct_pbday_mhs(d_pbday)
 
 fixes the pbday mhs usin gthe given date as pbday
 
@@ -16,7 +16,7 @@ fixes the pbday mhs usin gthe given date as pbday
 - `d_pbday` &mdash; player birthdate
 
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.

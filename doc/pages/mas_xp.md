@@ -7,7 +7,7 @@ Calculates xp gained since last call to calc  Sets globals as needed
 **Returns:**<br>
 amt of xp gained since last call to calc
 
-### def calc_by_hours(duration, start_rate)
+---### def calc_by_hours(duration, start_rate)
 
 Calculates toatl xp gain given a duration (in hours) and starting rate using the new XP model
 
@@ -19,7 +19,7 @@ Calculates toatl xp gain given a duration (in hours) and starting rate using the
 **Returns:**<br>
 tuple of the following format: [0] - amt of xp gained (float) [1] - new rate (float)
 
-### def calc_by_time(duration, start_rate)
+---### def calc_by_time(duration, start_rate)
 
 Calculates total xp gain given a duration and starting rate using the new XP model
 
@@ -31,29 +31,29 @@ Calculates total xp gain given a duration and starting rate using the new XP mod
 **Returns:**<br>
 tuple of the following format: [0] - amt of xp gained (float) [1] - new rate (float)
 
-### def grant()
+---### def grant()
 
 Grants xp based on current state. Meant for use by ch30 code
 
-### def level()
+---### def level()
 
 Gets current level
 
 **Returns:**<br>
 current level
 
-### def set_xp_rate()
+---### def set_xp_rate()
 
 Sets xp rate based on session time today Also resets reset date if appropriate
 
-### def calc()
+---### def calc()
 
 Calculates xp gained since last call to calc  Sets globals as needed
 
 **Returns:**<br>
 amt of xp gained since last call to calc
 
-### def calc_by_hours(duration, start_rate)
+---### def calc_by_hours(duration, start_rate)
 
 Calculates toatl xp gain given a duration (in hours) and starting rate using the new XP model
 
@@ -65,7 +65,7 @@ Calculates toatl xp gain given a duration (in hours) and starting rate using the
 **Returns:**<br>
 tuple of the following format: [0] - amt of xp gained (float) [1] - new rate (float)
 
-### def calc_by_time(duration, start_rate)
+---### def calc_by_time(duration, start_rate)
 
 Calculates total xp gain given a duration and starting rate using the new XP model
 
@@ -77,22 +77,22 @@ Calculates total xp gain given a duration and starting rate using the new XP mod
 **Returns:**<br>
 tuple of the following format: [0] - amt of xp gained (float) [1] - new rate (float)
 
-### def grant()
+---### def grant()
 
 Grants xp based on current state. Meant for use by ch30 code
 
-### def level()
+---### def level()
 
 Gets current level
 
 **Returns:**<br>
 current level
 
-### def set_xp_rate()
+---### def set_xp_rate()
 
 Sets xp rate based on session time today Also resets reset date if appropriate
 
-### Internal functions
+---### Internal functions
 
 > [!CAUTION]
 > These functions are *internal* and are not recommended for use.
@@ -111,7 +111,7 @@ Calculates xp gained within a range
 **Returns:**<br>
 tuple: [0] - xp gained [1] - new xp_rate to use [2] - new amount of hours that we have applied xp rate to
 
-#### def _grant(xp, xptnl)
+---#### def _grant(xp, xptnl)
 
 Internal version of grant. dont use
 
@@ -123,14 +123,14 @@ Internal version of grant. dont use
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-#### def _grant_on_pt()
+---#### def _grant_on_pt()
 
 Grants xp by calcuating avgs using the current playtime
 
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-#### def _grant_xp(xp)
+---#### def _grant_xp(xp)
 
 Grant abitrary xp. You better have a good reason to use this.
 
@@ -138,7 +138,7 @@ Grant abitrary xp. You better have a good reason to use this.
 - `xp` &mdash; arbitrary xp to grant
 
 
-#### def _level(xp)
+---#### def _level(xp)
 
 gets level using based on an amt of xp
 
@@ -149,7 +149,7 @@ gets level using based on an amt of xp
 **Returns:**<br>
 level based on xp
 
-#### def _level_rxp(xp)
+---#### def _level_rxp(xp)
 
 Gets gained levels and remaining xp
 
@@ -160,7 +160,7 @@ Gets gained levels and remaining xp
 **Returns:**<br>
 tuple of the following format: [0] - lvls gained [1] - remainig xp
 
-#### def _calc(xp_rate, start, end, hrx)
+---#### def _calc(xp_rate, start, end, hrx)
 
 Calculates xp gained within a range
 
@@ -174,7 +174,7 @@ Calculates xp gained within a range
 **Returns:**<br>
 tuple: [0] - xp gained [1] - new xp_rate to use [2] - new amount of hours that we have applied xp rate to
 
-#### def _grant(xp, xptnl)
+---#### def _grant(xp, xptnl)
 
 Internal version of grant. dont use
 
@@ -186,14 +186,14 @@ Internal version of grant. dont use
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-#### def _grant_on_pt()
+---#### def _grant_on_pt()
 
 Grants xp by calcuating avgs using the current playtime
 
 **Returns:**<br>
 tuple: [0] - lvls gained [1] - new xp tnl
 
-#### def _grant_xp(xp)
+---#### def _grant_xp(xp)
 
 Grant abitrary xp. You better have a good reason to use this.
 
@@ -201,7 +201,7 @@ Grant abitrary xp. You better have a good reason to use this.
 - `xp` &mdash; arbitrary xp to grant
 
 
-#### def _level(xp)
+---#### def _level(xp)
 
 gets level using based on an amt of xp
 
@@ -212,7 +212,7 @@ gets level using based on an amt of xp
 **Returns:**<br>
 level based on xp
 
-#### def _level_rxp(xp)
+---#### def _level_rxp(xp)
 
 Gets gained levels and remaining xp
 
@@ -223,3 +223,4 @@ Gets gained levels and remaining xp
 **Returns:**<br>
 tuple of the following format: [0] - lvls gained [1] - remainig xp
 
+---
