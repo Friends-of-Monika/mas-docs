@@ -1,5 +1,5 @@
-{
-  "build_anni": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "build_anni",
@@ -11,20 +11,20 @@
         "weeks",
         "isstart"
       ],
-      "pos_only_args": [],
       "defaults": [
         "0",
         "0",
         "0",
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "build_anni_end": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "build_anni_end",
@@ -35,19 +35,19 @@
         "months",
         "weeks"
       ],
-      "pos_only_args": [],
       "defaults": [
         "0",
         "0",
         "0"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isAnni": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isAnni",
@@ -56,162 +56,374 @@
       "args": [
         "milestone"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isAnniWeek": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isAnniWeek",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isAnniOneMonth": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isAnniOneMonth",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isAnniThreeMonth": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isAnniThreeMonth",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isAnniSixMonth": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isAnniSixMonth",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isAnniAny": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isAnniAny",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "anniCount": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "anniCount",
     "docstring": "RETURNS:\n    Integer value representing how many years the player has been with Monika",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "pastOneWeek": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "pastOneWeek",
     "docstring": "RETURNS:\n    True if current date is past the 1 week threshold\n    False if below the 1 week threshold",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "pastOneMonth": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "pastOneMonth",
     "docstring": "RETURNS:\n    True if current date is past the 1 month threshold\n    False if below the 1 month threshold",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "pastThreeMonths": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "pastThreeMonths",
     "docstring": "RETURNS:\n    True if current date is past the 3 month threshold\n    False if below the 3 month threshold",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "pastSixMonths": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "pastSixMonths",
     "docstring": "RETURNS:\n    True if current date is past the 6 month threshold\n    False if below the 6 month threshold",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_month_adjuster": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "build_anni",
+    "docstring": "Builds an anniversary date.\n\nNOTE:\n    years / months / weeks are mutually exclusive\n\nIN:\n    years - number of years to make this anni date\n    months - number of months to make thsi anni date\n    weeks - number of weeks to make this anni date\n    isstart - True means this should be a starting date, False\n        means ending date\n\nASSUMES:\n    _m1_script0x2danniversary__persistent",
+    "function_args": {
+      "args": [
+        "years",
+        "months",
+        "weeks",
+        "isstart"
+      ],
+      "defaults": [
+        "0",
+        "0",
+        "0",
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "build_anni_end",
+    "docstring": "Variant of build_anni that auto ends the bool\n\nSEE build_anni for params",
+    "function_args": {
+      "args": [
+        "years",
+        "months",
+        "weeks"
+      ],
+      "defaults": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isAnni",
+    "docstring": "INPUTS:\n    milestone:\n        Expected values|Operation:\n\n            None|Checks if today is a yearly anniversary\n            1w|Checks if today is a 1 week anniversary\n            1m|Checks if today is a 1 month anniversary\n            3m|Checks if today is a 3 month anniversary\n            6m|Checks if today is a 6 month anniversary\n            any|Checks if today is any of the above annis\n\nRETURNS:\n    True if datetime.date.today() is an anniversary date\n    False if today is not an anniversary date",
+    "function_args": {
+      "args": [
+        "milestone"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isAnniWeek",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isAnniOneMonth",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isAnniThreeMonth",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isAnniSixMonth",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isAnniAny",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "anniCount",
+    "docstring": "RETURNS:\n    Integer value representing how many years the player has been with Monika",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "pastOneWeek",
+    "docstring": "RETURNS:\n    True if current date is past the 1 week threshold\n    False if below the 1 week threshold",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "pastOneMonth",
+    "docstring": "RETURNS:\n    True if current date is past the 1 month threshold\n    False if below the 1 month threshold",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "pastThreeMonths",
+    "docstring": "RETURNS:\n    True if current date is past the 3 month threshold\n    False if below the 3 month threshold",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "pastSixMonths",
+    "docstring": "RETURNS:\n    True if current date is past the 6 month threshold\n    False if below the 6 month threshold",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_month_adjuster",
@@ -223,15 +435,15 @@
         "months",
         "span"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_day_adjuster": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_day_adjuster",
@@ -243,45 +455,45 @@
         "days",
         "span"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "add_cal_annis": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "add_cal_annis",
     "docstring": "Goes through the anniversary database and adds them to the calendar",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "clean_cal_annis": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "clean_cal_annis",
     "docstring": "Goes through the calendar and cleans anniversary dates",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "reset_annis": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "reset_annis",
@@ -290,27 +502,129 @@
       "args": [
         "new_start_dt"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "unlock_past_annis": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "unlock_past_annis",
     "docstring": "Goes through the anniversary database and unlocks the events that\nalready past.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_month_adjuster",
+    "docstring": "Adjusts the start_date / end_date of an anniversary event.\n\nNOTE: do not use this for a non anniversary date\n\nIN:\n    ev - event to adjust\n    new_start_date - new start date to calculate the event's dates\n    months - number of months to advance\n    span - the time from the event's new start_date to end_date",
+    "function_args": {
+      "args": [
+        "ev",
+        "new_start_date",
+        "months",
+        "span"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_day_adjuster",
+    "docstring": "Adjusts the start_date / end_date of an anniversary event.\n\nNOTE: do not use this for a non anniversary date\n\nIN:\n    ev - event to adjust\n    new_start_date - new start date to calculate the event's dates\n    days - number of months to advance\n    span - the time from the event's new start_date to end_date",
+    "function_args": {
+      "args": [
+        "ev",
+        "new_start_date",
+        "days",
+        "span"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "add_cal_annis",
+    "docstring": "Goes through the anniversary database and adds them to the calendar",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "clean_cal_annis",
+    "docstring": "Goes through the calendar and cleans anniversary dates",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "reset_annis",
+    "docstring": "Reset the anniversaries according to the new start date.\n\nIN:\n    new_start_dt - new start datetime to reset anniversaries",
+    "function_args": {
+      "args": [
+        "new_start_dt"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "unlock_past_annis",
+    "docstring": "Goes through the anniversary database and unlocks the events that\nalready past.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

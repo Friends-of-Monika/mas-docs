@@ -1,5 +1,5 @@
-{
-  "MASImport": {
+[
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASImport",
@@ -19,12 +19,12 @@
             "module_name",
             "set_sys"
           ],
-          "pos_only_args": [],
           "defaults": [
             "False"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -38,10 +38,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -57,10 +57,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -76,10 +76,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -95,10 +95,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -113,12 +113,12 @@
             "self",
             "exp"
           ],
-          "pos_only_args": [],
           "defaults": [
             "None"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -132,10 +132,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -150,10 +150,10 @@
             "self",
             "err"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -167,10 +167,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -185,32 +185,243 @@
             "self",
             "module"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "check_imports": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "check_imports",
     "docstring": "checks import availability",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "MASImport_certifi": {
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASImport",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Wrapper around import checks for MAS-based imports.\nAll conditional imports should extend this class and implement all \nrequired functions.\nUse this before actually running a third-party import. \nAll functionality that relies on third-party imports should be capable\nof being turned off.",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Constructor\n\nIN:\n    module_name - the name of the module to import\n    set_sys - pass True to allow this to overwrite the sys modules.\n        This should only be used in cases where you need to \n        override a system (aka built-in) module.\n        (Default: False)",
+        "function_args": {
+          "args": [
+            "self",
+            "module_name",
+            "set_sys"
+          ],
+          "defaults": [
+            "False"
+          ],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__call__",
+        "docstring": "Just returns if this is enabled or not",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "enabled",
+        "docstring": "True if this import is enabled (can be imported)",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "module_name",
+        "docstring": "module name for this import",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "set_sys",
+        "docstring": "True if sys module can be overwritten by this.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "log_import_error",
+        "docstring": "Logs import error message.\n\nIN:\n    exp - current exception if available.\n        (Default: None)",
+        "function_args": {
+          "args": [
+            "self",
+            "exp"
+          ],
+          "defaults": [
+            "None"
+          ],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "import_try",
+        "docstring": "DERIVED CLASSES MUST IMPLEMENT THIS\n\nThis should check if the import should be enabled.\nFor more info, see `load`.\n\nRETURNS: True if the import should be enabled, False otherwise.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "import_except",
+        "docstring": "Runs if an ImportError is encountered. The import will always\nbe disabled and an import error is logged after this runs.\n\nIf you need to run additional behavior or set other vars on a \nfailed import, override this function.\n\nFor more info, see `load`.\n\nIN:\n    err - the exception that was raised",
+        "function_args": {
+          "args": [
+            "self",
+            "err"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "load",
+        "docstring": "Loads the import and checks that it works. This is called \nsometime before init level -1000.\n\nThis will call `import_try` and mark the this import as enabled if\nappropriate.\n\nIf an ImportError/AttributeError/NameError is triggered,\ndisable this import, log an import error, and call `import_except.\n\nIf any other errors occur, the import will be disabled and\nan import error will be logged, but the error will percolate up.\nIf you wish to catch those errors, override this function and wrap\na try-except block around the base call.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_set_sys_module",
+        "docstring": "Sets the system module so this import can be used elsewhere.\nNot called by the load system - you must call this manually\nif desired.\n\nThis is also guardrailed on construction so no injection.\n\nIN:\n    module - the imported module",
+        "function_args": {
+          "args": [
+            "self",
+            "module"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "check_imports",
+    "docstring": "checks import availability",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASImport_certifi",
@@ -228,10 +439,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -247,10 +458,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -264,10 +475,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -281,10 +492,10 @@
             "self",
             "err"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -297,10 +508,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -315,12 +526,12 @@
             "self",
             "force"
           ],
-          "pos_only_args": [],
           "defaults": [
             "False"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -334,10 +545,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -351,10 +562,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -368,10 +579,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -385,10 +596,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -402,10 +613,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -420,12 +631,12 @@
             "self",
             "force"
           ],
-          "pos_only_args": [],
           "defaults": [
             "False"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -439,10 +650,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -457,17 +668,17 @@
             "self",
             "value"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "MASImport_ssl": {
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASImport_ssl",
@@ -485,10 +696,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -502,14 +713,316 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASImport_certifi",
+    "class_bases": [
+      "MASImport"
+    ],
+    "docstring": "certifi import\n\nThis also can do cert updating:\n    1. call `start_cert_update` to begin the cert update.\n        - this will return the promise, but you can also use\n            the following cert update functions to check the status\n            if you don't want to keep the promise.\n    2. call `check_cert_update` to determine if the update is still\n        running or is completed.\n        - once the update is completed, all appropriate vars will be\n            set automatically.\n    3. call `get_cert_update` to get the returned value from the \n        cert update promise.\n    4. call `reset_cert_update` to cleanup the cert updater thread.\n        this must be called before doing another cert update.\n\nAuto (startup) cert updating happens once every 6 months.",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Constructor",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "cert_available",
+        "docstring": "True if cert is available.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "import_try",
+        "docstring": "Also checks if a cert is available.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "import_except",
+        "function_args": {
+          "args": [
+            "self",
+            "err"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "load",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "start_cert_update",
+        "docstring": "Starts the cert update process. \n\nNOTE: will NOT start the process if the updater is currently\n    running. The promise is still returned though.\n\nIN:\n    force - True to force the cert to update now.\n\nRETURNS: the cert update promise",
+        "function_args": {
+          "args": [
+            "self",
+            "force"
+          ],
+          "defaults": [
+            "False"
+          ],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "check_cert_update",
+        "docstring": "checks the status of the cert update.\n\nRETURNS: True if the cert update is done, False if not",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "get_cert_update",
+        "docstring": "Gets the result from the cert update.\n\nRETURNS: certifi RV value of the check_update function, or None if\n    the check_update function could not run. THIS WILL ALSO RETURN\n    NONE IF THE CERT UPDATE IS NOT FINISHED.\n    Use `check_cert_update` to check that the update is done\n    before calling this.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "reset_cert_update",
+        "docstring": "Resets the cert update thread. This may fail if the cert update is\nnot done yet.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "is_cert_update_running",
+        "docstring": "Determines if the cert update is running.\n\nRETURNS: True if the cert update is running.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "ch30_day_cert_update",
+        "docstring": "Call this during ch30_day to handle cert update checks",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_update_cert",
+        "docstring": "Updates the cert and sets appropriate vars.\n\nCerts will only be updated if the last cert update was at least\n6 months ago.\n\nIN:\n    force - True to force the cert to update right now\n\nRETURNS: certifi RV value of the check_update function, or None if\n    the check_update function could not run.",
+        "function_args": {
+          "args": [
+            "self",
+            "force"
+          ],
+          "defaults": [
+            "False"
+          ],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_m1_0imports__th_get_cert_avail",
+        "docstring": "thread-safe get cert available - for internal use only\n\nRETURNS: cert_available value",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_m1_0imports__th_set_cert_avail",
+        "docstring": "Thread-safe set cert available - for internal use only\n\nIN:\n    value - value to set to cert_available",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASImport_ssl",
+    "class_bases": [
+      "MASImport"
+    ],
+    "docstring": "SSL Import",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Constructor",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "import_try",
+        "docstring": "Also adjusts httplib.\n\nthis is a hack.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   }
-}
+]

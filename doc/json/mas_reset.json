@@ -1,5 +1,5 @@
-{
-  "ch30_reset": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "ch30_reset",
@@ -8,17 +8,36 @@
       "args": [
         "priority"
       ],
-      "pos_only_args": [],
       "defaults": [
         "0"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "start": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "ch30_reset",
+    "docstring": "decorator that marks function to run as part of ch30_reset.\n\nIN:\n    func - function to register\n    priority - priority to run function\n        Default: 0\n        PLEASE USE POSITIVE PRIORITIES. If you need to slip\n        something between existing reset code, be mindful of where you\n        plugin your reset code. Take a look at the reset functions\n        below for the correct placement.",
+    "function_args": {
+      "args": [
+        "priority"
+      ],
+      "defaults": [
+        "0"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-980)"
@@ -27,15 +46,15 @@
     "docstring": "Reset code that should always be first",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "xp": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-960)"
@@ -44,15 +63,15 @@
     "docstring": "Runs reset code specific for xp stuff",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "name_eggs": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-940)"
@@ -61,15 +80,15 @@
     "docstring": "Runs reset code specific for name eggs",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "topic_lists": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-920)"
@@ -78,15 +97,15 @@
     "docstring": "Runs reset code specific for topic lists",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "rpy_file_check": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-900)"
@@ -95,15 +114,15 @@
     "docstring": "Runs reset code specific for the rpy file check",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "games": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-880)"
@@ -112,15 +131,15 @@
     "docstring": "Runs reset code specific for games",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "sprites": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-860)"
@@ -129,60 +148,60 @@
     "docstring": "Runs reset code for sprites",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_sprites_init": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_sprites_init",
     "docstring": "Runs reset code for initializing sprites",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_sprites_fixes": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_sprites_fixes",
     "docstring": "Runs reset code for fixing sprite issues",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_sprites_setup": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_sprites_setup",
     "docstring": "Runs other sprite setup that is not init or fixes",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "random_chatter": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-840)"
@@ -191,15 +210,15 @@
     "docstring": "Runs reset code for random chatter",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "returned_home": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-820)"
@@ -208,15 +227,15 @@
     "docstring": "Runs reset code for returned home",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "playtime": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-800)"
@@ -225,15 +244,15 @@
     "docstring": "Runs reset code for playtime",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "affection": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-780)"
@@ -242,15 +261,15 @@
     "docstring": "Runs reset code for affection",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "deco": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-760)"
@@ -259,60 +278,60 @@
     "docstring": "Runs reset code for deco",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_deco_bday": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_deco_bday",
     "docstring": "Runs reset code for bday deco",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_deco_d25": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_deco_d25",
     "docstring": "Runs reset code for d25 deco",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_deco_o31": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_deco_o31",
     "docstring": "Runs reset code for o31 deco",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "farewells": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-740)"
@@ -321,15 +340,15 @@
     "docstring": "Runs reset code for farewells",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "file_reactions": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-720)"
@@ -338,15 +357,15 @@
     "docstring": "Runs reset code for file reactions",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "events": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-700)"
@@ -355,15 +374,15 @@
     "docstring": "Runs reset code for general events + events list stuff",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "songs": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-680)"
@@ -372,15 +391,15 @@
     "docstring": "Runs reset code for songs",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "holidays": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-660)"
@@ -389,15 +408,15 @@
     "docstring": "Runs reset code for holidays that do not fall under the other\ncategories.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "backgrounds": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-640)"
@@ -406,15 +425,15 @@
     "docstring": "Runs reset code for backgrounds",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "window_reactions": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-620)"
@@ -423,15 +442,15 @@
     "docstring": "Runs reset code for window reactions",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "islands": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-600)"
@@ -440,15 +459,15 @@
     "docstring": "Runs reset code for islands",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "bath_cleanup": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-580)"
@@ -457,15 +476,15 @@
     "docstring": "Cleanup code for bath stuff",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "chr_removal": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-560)"
@@ -474,15 +493,15 @@
     "docstring": "Remove .chr files in the characters folder",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "backups": {
+  {
     "type": "function",
     "function_decorators": [
       "ch30_reset(-560)"
@@ -491,27 +510,523 @@
     "docstring": "Runs reset for backup code",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "final": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "final",
     "docstring": "Runs reset code that should run after everythign else",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-980)"
+    ],
+    "identifier": "start",
+    "docstring": "Reset code that should always be first",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-960)"
+    ],
+    "identifier": "xp",
+    "docstring": "Runs reset code specific for xp stuff",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-940)"
+    ],
+    "identifier": "name_eggs",
+    "docstring": "Runs reset code specific for name eggs",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-920)"
+    ],
+    "identifier": "topic_lists",
+    "docstring": "Runs reset code specific for topic lists",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-900)"
+    ],
+    "identifier": "rpy_file_check",
+    "docstring": "Runs reset code specific for the rpy file check",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-880)"
+    ],
+    "identifier": "games",
+    "docstring": "Runs reset code specific for games",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-860)"
+    ],
+    "identifier": "sprites",
+    "docstring": "Runs reset code for sprites",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_sprites_init",
+    "docstring": "Runs reset code for initializing sprites",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_sprites_fixes",
+    "docstring": "Runs reset code for fixing sprite issues",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_sprites_setup",
+    "docstring": "Runs other sprite setup that is not init or fixes",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-840)"
+    ],
+    "identifier": "random_chatter",
+    "docstring": "Runs reset code for random chatter",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-820)"
+    ],
+    "identifier": "returned_home",
+    "docstring": "Runs reset code for returned home",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-800)"
+    ],
+    "identifier": "playtime",
+    "docstring": "Runs reset code for playtime",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-780)"
+    ],
+    "identifier": "affection",
+    "docstring": "Runs reset code for affection",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-760)"
+    ],
+    "identifier": "deco",
+    "docstring": "Runs reset code for deco",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_deco_bday",
+    "docstring": "Runs reset code for bday deco",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_deco_d25",
+    "docstring": "Runs reset code for d25 deco",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_deco_o31",
+    "docstring": "Runs reset code for o31 deco",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-740)"
+    ],
+    "identifier": "farewells",
+    "docstring": "Runs reset code for farewells",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-720)"
+    ],
+    "identifier": "file_reactions",
+    "docstring": "Runs reset code for file reactions",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-700)"
+    ],
+    "identifier": "events",
+    "docstring": "Runs reset code for general events + events list stuff",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-680)"
+    ],
+    "identifier": "songs",
+    "docstring": "Runs reset code for songs",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-660)"
+    ],
+    "identifier": "holidays",
+    "docstring": "Runs reset code for holidays that do not fall under the other\ncategories.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-640)"
+    ],
+    "identifier": "backgrounds",
+    "docstring": "Runs reset code for backgrounds",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-620)"
+    ],
+    "identifier": "window_reactions",
+    "docstring": "Runs reset code for window reactions",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-600)"
+    ],
+    "identifier": "islands",
+    "docstring": "Runs reset code for islands",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-580)"
+    ],
+    "identifier": "bath_cleanup",
+    "docstring": "Cleanup code for bath stuff",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-560)"
+    ],
+    "identifier": "chr_removal",
+    "docstring": "Remove .chr files in the characters folder",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "ch30_reset(-560)"
+    ],
+    "identifier": "backups",
+    "docstring": "Runs reset for backup code",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "final",
+    "docstring": "Runs reset code that should run after everythign else",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

@@ -1,5 +1,5 @@
-{
-  "MASWindowFoundException": {
+[
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASWindowFoundException",
@@ -17,10 +17,10 @@
             "self",
             "hwnd"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -33,62 +33,62 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "_m1_zz_windowutils__getActiveWindowObj_Linux": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getActiveWindowObj_Linux",
     "docstring": "Gets the active window object\n\nOUT:\n    Xlib.display.Window, or None if errors occur (or not possible to get window obj)",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_windowutils__getMASWindowLinux": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getMASWindowLinux",
     "docstring": "Funtion to get the MAS window on Linux systems\n\nOUT:\n    Xlib.display.Window representing the MAS window\n\nASSUMES: OS IS LINUX (renpy.linux)",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_windowutils__getMASWindowHWND": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getMASWindowHWND",
     "docstring": "Gets the hWnd of the MAS window\n\nNOTE: Windows ONLY\n\nOUT:\n    int - represents the hWnd of the MAS window",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_windowutils__getAbsoluteGeometry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_windowutils__getAbsoluteGeometry",
@@ -97,75 +97,75 @@
       "args": [
         "win"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_setMASWindow": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_setMASWindow",
     "docstring": "Sets the MAS_WINDOW global on Linux systems\n\nOUT:\n    the window object",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getActiveWindowHandle_Windows": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getActiveWindowHandle_Windows",
     "docstring": "Funtion to get the active window on Windows systems\n\nOUT:\n    string representing the active window handle\n\nASSUMES: OS IS WINDOWS (renpy.windows)",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getActiveWindowHandle_Linux": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getActiveWindowHandle_Linux",
     "docstring": "Funtion to get the active window on Linux systems\n\nOUT:\n    string representing the active window handle\n\nASSUMES: OS IS LINUX (renpy.linux)",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getActiveWindowHandle_OSX": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getActiveWindowHandle_OSX",
     "docstring": "Gets the active window on macOS\n\nNOTE: This currently just returns an empty string, this is because we do not have active window detection\nfor MacOS",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_tryShowNotification_Windows": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_tryShowNotification_Windows",
@@ -175,15 +175,15 @@
         "title",
         "body"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_tryShowNotification_Linux": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_tryShowNotification_Linux",
@@ -193,15 +193,15 @@
         "title",
         "body"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_tryShowNotification_OSX": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_tryShowNotification_OSX",
@@ -211,192 +211,592 @@
         "title",
         "body"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getAbsoluteMousePos_Windows": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getAbsoluteMousePos_Windows",
     "docstring": "Returns an (x, y) co-ord tuple for the mouse position\n\nOUT:\n    tuple representing the absolute position of the mouse",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getAbsoluteMousePos_Linux": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getAbsoluteMousePos_Linux",
     "docstring": "Returns an (x, y) co-ord tuple represening the absolute mouse position",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getMASWindowPos_Windows": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getMASWindowPos_Windows",
     "docstring": "Gets the window position for MAS as a tuple of (left, top, right, bottom)\n\nOUT:\n    tuple representing window geometry or None if the window's hWnd could not be found",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getMASWindowPos_Linux": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getMASWindowPos_Linux",
     "docstring": "Returns (x1, y1, x2, y2) relative to the top-left of the screen.\n\nOUT:\n    tuple representing (left, top, right, bottom) of the window bounds, or None if not possible to get",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getMousePosRelative": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getMousePosRelative",
     "docstring": "Gets the mouse position relative to the MAS window.\nReturned as a set of coordinates (0, 0) being within the MAS window, (1, 0) being to the left, (0, 1) being above, etc.\n\nOUT:\n    Tuple representing the location of the mouse relative to the MAS window in terms of coordinates",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isCursorInMASWindow": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorInMASWindow",
     "docstring": "Checks if the cursor is within the MAS window\n\nOUT:\n    True if cursor is within the mas window (within x/y), False otherwise\n    Also returns True if we cannot get window position",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isCursorLeftOfMASWindow": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorLeftOfMASWindow",
     "docstring": "Checks if the cursor is to the left of the MAS window (must be explicitly to the left of the left window bound)\n\nOUT:\n    True if cursor is to the left of the window, False otherwise\n    Also returns False if we cannot get window position",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isCursorRightOfMASWindow": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorRightOfMASWindow",
     "docstring": "Checks if the cursor is to the right of the MAS window (must be explicitly to the right of the right window bound)\n\nOUT:\n    True if cursor is to the right of the window, False otherwise\n    Also returns False if we cannot get window position",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isCursorAboveMASWindow": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorAboveMASWindow",
     "docstring": "Checks if the cursor is above the MAS window (must be explicitly above the window bound)\n\nOUT:\n    True if cursor is above the window, False otherwise\n    False as well if we're unable to get a window position",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isCursorBelowMASWindow": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isCursorBelowMASWindow",
     "docstring": "Checks if the cursor is above the MAS window (must be explicitly above the window bound)\n\nOUT:\n    True if cursor is above the window, False otherwise\n    False as well if we're unable to get a window position",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "return_true": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "return_true",
     "docstring": "Literally returns True",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "return_false": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "return_false",
     "docstring": "Literally returns False",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASWindowFoundException",
+    "class_bases": [
+      "Exception"
+    ],
+    "docstring": "Custom exception class to flag a window found during a window enum\n\nHas the hwnd as a property",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "hwnd"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__str__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_windowutils__getActiveWindowObj_Linux",
+    "docstring": "Gets the active window object\n\nOUT:\n    Xlib.display.Window, or None if errors occur (or not possible to get window obj)",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_windowutils__getMASWindowLinux",
+    "docstring": "Funtion to get the MAS window on Linux systems\n\nOUT:\n    Xlib.display.Window representing the MAS window\n\nASSUMES: OS IS LINUX (renpy.linux)",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_windowutils__getMASWindowHWND",
+    "docstring": "Gets the hWnd of the MAS window\n\nNOTE: Windows ONLY\n\nOUT:\n    int - represents the hWnd of the MAS window",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_windowutils__getAbsoluteGeometry",
+    "docstring": "Returns the (x, y, height, width) of a window relative to the top-left\nof the screen.\n\nIN:\n    win - Xlib.display.Window object representing the window we wish to get absolute geometry of\n\nOUT:\n    tuple, (x, y, width, height) if possible, otherwise None",
+    "function_args": {
+      "args": [
+        "win"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_setMASWindow",
+    "docstring": "Sets the MAS_WINDOW global on Linux systems\n\nOUT:\n    the window object",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getActiveWindowHandle_Windows",
+    "docstring": "Funtion to get the active window on Windows systems\n\nOUT:\n    string representing the active window handle\n\nASSUMES: OS IS WINDOWS (renpy.windows)",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getActiveWindowHandle_Linux",
+    "docstring": "Funtion to get the active window on Linux systems\n\nOUT:\n    string representing the active window handle\n\nASSUMES: OS IS LINUX (renpy.linux)",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getActiveWindowHandle_OSX",
+    "docstring": "Gets the active window on macOS\n\nNOTE: This currently just returns an empty string, this is because we do not have active window detection\nfor MacOS",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_tryShowNotification_Windows",
+    "docstring": "Tries to push a notification to the notification center on Windows.\nIf it can't it should fail silently to the user.\n\nIN:\n    title - notification title\n    body - notification body\n\nOUT:\n    bool. True if the notification was successfully sent, False otherwise",
+    "function_args": {
+      "args": [
+        "title",
+        "body"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_tryShowNotification_Linux",
+    "docstring": "Tries to push a notification to the notification center on Linux.\nIf it can't it should fail silently to the user.\n\nIN:\n    title - notification title\n    body - notification body\n\nOUT:\n    bool - True, representing the notification's success",
+    "function_args": {
+      "args": [
+        "title",
+        "body"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_tryShowNotification_OSX",
+    "docstring": "Tries to push a notification to the notification center on macOS.\nIf it can't it should fail silently to the user.\n\nIN:\n    title - notification title\n    body - notification body\n\nOUT:\n    bool - True, representing the notification's success",
+    "function_args": {
+      "args": [
+        "title",
+        "body"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getAbsoluteMousePos_Windows",
+    "docstring": "Returns an (x, y) co-ord tuple for the mouse position\n\nOUT:\n    tuple representing the absolute position of the mouse",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getAbsoluteMousePos_Linux",
+    "docstring": "Returns an (x, y) co-ord tuple represening the absolute mouse position",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getMASWindowPos_Windows",
+    "docstring": "Gets the window position for MAS as a tuple of (left, top, right, bottom)\n\nOUT:\n    tuple representing window geometry or None if the window's hWnd could not be found",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getMASWindowPos_Linux",
+    "docstring": "Returns (x1, y1, x2, y2) relative to the top-left of the screen.\n\nOUT:\n    tuple representing (left, top, right, bottom) of the window bounds, or None if not possible to get",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getMousePosRelative",
+    "docstring": "Gets the mouse position relative to the MAS window.\nReturned as a set of coordinates (0, 0) being within the MAS window, (1, 0) being to the left, (0, 1) being above, etc.\n\nOUT:\n    Tuple representing the location of the mouse relative to the MAS window in terms of coordinates",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isCursorInMASWindow",
+    "docstring": "Checks if the cursor is within the MAS window\n\nOUT:\n    True if cursor is within the mas window (within x/y), False otherwise\n    Also returns True if we cannot get window position",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isCursorLeftOfMASWindow",
+    "docstring": "Checks if the cursor is to the left of the MAS window (must be explicitly to the left of the left window bound)\n\nOUT:\n    True if cursor is to the left of the window, False otherwise\n    Also returns False if we cannot get window position",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isCursorRightOfMASWindow",
+    "docstring": "Checks if the cursor is to the right of the MAS window (must be explicitly to the right of the right window bound)\n\nOUT:\n    True if cursor is to the right of the window, False otherwise\n    Also returns False if we cannot get window position",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isCursorAboveMASWindow",
+    "docstring": "Checks if the cursor is above the MAS window (must be explicitly above the window bound)\n\nOUT:\n    True if cursor is above the window, False otherwise\n    False as well if we're unable to get a window position",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isCursorBelowMASWindow",
+    "docstring": "Checks if the cursor is above the MAS window (must be explicitly above the window bound)\n\nOUT:\n    True if cursor is above the window, False otherwise\n    False as well if we're unable to get a window position",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "return_true",
+    "docstring": "Literally returns True",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "return_false",
+    "docstring": "Literally returns False",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

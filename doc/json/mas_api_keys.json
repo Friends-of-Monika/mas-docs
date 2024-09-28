@@ -1,5 +1,5 @@
-{
-  "feature_registered": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "feature_registered",
@@ -8,15 +8,15 @@
       "args": [
         "feature"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "register_feature": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "register_feature",
@@ -26,45 +26,45 @@
         "feature",
         "data"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "features_for_display": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "features_for_display",
     "docstring": "Returns list of the features for display\n\nRETURNS: list of the features as tuples, sorted for display:\n    [0] - the display name of the feature\n    [1] - the on_change function to run",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "has_features": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "has_features",
     "docstring": "Do we have API-key based features?\n\nRETURNS: True if we have api key based features",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "clean_key": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "clean_key",
@@ -73,15 +73,15 @@
       "args": [
         "dirty_key"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_run_on_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_run_on_change",
@@ -91,15 +91,15 @@
         "feature",
         "api_key"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "screen_clear": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "screen_clear",
@@ -108,15 +108,15 @@
       "args": [
         "feature"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "screen_paste": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "screen_paste",
@@ -125,60 +125,239 @@
       "args": [
         "feature"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "screen_update_cert": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "screen_update_cert",
     "docstring": "Called when the update cert button is used on the api key screen",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "load_keys": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "load_keys",
     "docstring": "Loads API keys from config file",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "save_keys": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "save_keys",
     "docstring": "Saves API keys to disk",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "MASUpdateCertScreenData": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "feature_registered",
+    "docstring": "Checks if a feature is registered for API keys\n\nIN:\n    feature - feature to check (string)\n\nRETURNS: True if the feature is registered for API keys",
+    "function_args": {
+      "args": [
+        "feature"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "register_feature",
+    "docstring": "Registers a feature for API key usage\n\nIN:\n    feature - name of the feature\n    data - data to associate with the feature",
+    "function_args": {
+      "args": [
+        "feature",
+        "data"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "features_for_display",
+    "docstring": "Returns list of the features for display\n\nRETURNS: list of the features as tuples, sorted for display:\n    [0] - the display name of the feature\n    [1] - the on_change function to run",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "has_features",
+    "docstring": "Do we have API-key based features?\n\nRETURNS: True if we have api key based features",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "clean_key",
+    "docstring": "Cleans an aPI key\n\nIN:\n    dirty_key - key to clean\n\nRETURNS: cleaned key",
+    "function_args": {
+      "args": [
+        "dirty_key"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_run_on_change",
+    "docstring": "Runs on change for a feature with api key\n\nIN:\n    feature - feature to run on change for\n    api_key - api key to run on change with\n\nRETURNS: tuple of the following format:\n    [0] - True if valid key, False if not\n    [1] - error message to show",
+    "function_args": {
+      "args": [
+        "feature",
+        "api_key"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "screen_clear",
+    "docstring": "Called when the clear button is used on the api key screen\n\nIN:\n    feature - the feature whose key is being cleared",
+    "function_args": {
+      "args": [
+        "feature"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "screen_paste",
+    "docstring": "Called when the paste button is used on the api key screen.\n\nIN:\n    feature - the feature whose key is being pasted",
+    "function_args": {
+      "args": [
+        "feature"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "screen_update_cert",
+    "docstring": "Called when the update cert button is used on the api key screen",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "load_keys",
+    "docstring": "Loads API keys from config file",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "save_keys",
+    "docstring": "Saves API keys to disk",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASUpdateCertScreenData",
@@ -195,10 +374,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -214,10 +393,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -233,10 +412,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -252,10 +431,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -271,10 +450,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -288,10 +467,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -305,10 +484,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -322,10 +501,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -339,10 +518,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -356,10 +535,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -373,10 +552,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -390,10 +569,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -407,10 +586,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -424,10 +603,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -441,10 +620,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -458,10 +637,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -475,14 +654,321 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASUpdateCertScreenData",
+    "class_bases": [
+      "mas_layout.MASScreenData"
+    ],
+    "docstring": "screen data for the mas_update_cert screen",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "main_text",
+        "docstring": "Primary text to show in screen describing current state",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "show_cancel",
+        "docstring": "True if the cancel button be shown",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "show_ok",
+        "docstring": "True if the ok button should be shown",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "property"
+        ],
+        "identifier": "show_retry",
+        "docstring": "True if the retry button should be shown",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "loop",
+        "docstring": "Main loop should just do update promise checking.\nAssumes Cert update promise was started.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "start",
+        "docstring": "Call this before showing the update cert screen. This will\nrun initializations and stuff.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "action_cancel",
+        "docstring": "Called when the cancel button is clicked.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "action_ok",
+        "docstring": "Called when the ok button is clicked",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "action_retry",
+        "docstring": "Called when the retry button is clicked",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_hide_all_buttons",
+        "docstring": "Hides all buttons",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_set_buttons_ok",
+        "docstring": "Sets button flags for ok available",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_set_buttons_retrycancel",
+        "docstring": "Sets button flags for retrycancel available",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_set_state_checking_update",
+        "docstring": "Sets text and button flags for when an update is in progress.\nThis includes checking for an update.",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_set_state_error",
+        "docstring": "Sets text and button flags for when update failed",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_set_state_no_update",
+        "docstring": "Sets text and button flags for when no update is found",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_set_state_updated",
+        "docstring": "Sets text and button flags for whe cert was updated",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   }
-}
+]

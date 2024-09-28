@@ -1,5 +1,5 @@
-{
-  "getPointValue": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getPointValue",
@@ -8,15 +8,15 @@
         "condition",
         "point"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getWinner": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getWinner",
@@ -29,17 +29,17 @@
         "monika",
         "mas"
       ],
-      "pos_only_args": [],
       "defaults": [
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "validateFlow": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "validateFlow",
@@ -47,12 +47,68 @@
       "args": [
         "flow"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getPointValue",
+    "function_args": {
+      "args": [
+        "condition",
+        "point"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getWinner",
+    "function_args": {
+      "args": [
+        "word",
+        "sayori",
+        "natsuki",
+        "yuri",
+        "monika",
+        "mas"
+      ],
+      "defaults": [
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "validateFlow",
+    "function_args": {
+      "args": [
+        "flow"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

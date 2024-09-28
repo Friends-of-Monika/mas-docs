@@ -1,5 +1,5 @@
-{
-  "getZodiacSign": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getZodiacSign",
@@ -8,15 +8,15 @@
       "args": [
         "date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_formatDay": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_formatDay",
@@ -25,15 +25,15 @@
       "args": [
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_formatYears": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_formatYears",
@@ -42,15 +42,15 @@
       "args": [
         "years"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "genFriendlyDispDate": {
+  {
     "type": "function",
     "function_decorators": [
       "store.mas_utils.deprecated(use_instead='genFriendlyDispDate_d')"
@@ -61,15 +61,15 @@
       "args": [
         "_datetime"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "genFriendlyDispDate_d": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "genFriendlyDispDate_d",
@@ -78,15 +78,15 @@
       "args": [
         "_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "genFormalDispDate": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "genFormalDispDate",
@@ -95,15 +95,15 @@
       "args": [
         "_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "saveCalendarDatabase": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "saveCalendarDatabase",
@@ -112,30 +112,30 @@
       "args": [
         "encoder"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "loadCalendarDatabase": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "loadCalendarDatabase",
     "docstring": "Returns the database read from the file renpy.config.savedir + '/db.mcal'\nas a dict\n\nRETURNS:\n    a dict containing the events for the calendar",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_calendar__addEvent_md": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_calendar__addEvent_md",
@@ -146,15 +146,15 @@
         "month",
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_addRepeatable_md": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_addRepeatable_md",
@@ -167,15 +167,15 @@
         "day",
         "year_param"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "addEvent": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "addEvent",
@@ -184,15 +184,15 @@
       "args": [
         "ev"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "addEvent_evd": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "addEvent_evd",
@@ -202,15 +202,15 @@
         "ev",
         "_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "addEvent_evdt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "addEvent_evdt",
@@ -220,15 +220,15 @@
         "ev",
         "_datetime"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "addRepeatable": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "addRepeatable",
@@ -241,15 +241,15 @@
         "day",
         "year_param"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "addRepeatable_d": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "addRepeatable_d",
@@ -261,15 +261,15 @@
         "_date",
         "year_param"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "addRepeatable_dt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "addRepeatable_dt",
@@ -281,15 +281,15 @@
         "_datetime",
         "year_param"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_findEvent_md": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_findEvent_md",
@@ -300,15 +300,15 @@
         "month",
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_findRepeatable_md": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_findRepeatable_md",
@@ -319,15 +319,15 @@
         "month",
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeEvent": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeEvent",
@@ -337,17 +337,17 @@
         "ev_label",
         "remove_all"
       ],
-      "pos_only_args": [],
       "defaults": [
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeEvent_d": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeEvent_d",
@@ -358,17 +358,17 @@
         "day",
         "remove_all"
       ],
-      "pos_only_args": [],
       "defaults": [
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeEvent_m": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeEvent_m",
@@ -379,17 +379,17 @@
         "month",
         "remove_all"
       ],
-      "pos_only_args": [],
       "defaults": [
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeEvent_md": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeEvent_md",
@@ -400,15 +400,15 @@
         "month",
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeRepeatable": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeRepeatable",
@@ -417,15 +417,15 @@
       "args": [
         "identifier"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeRepeatable_d": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeRepeatable_d",
@@ -435,15 +435,15 @@
         "identifier",
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeRepeatable_m": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeRepeatable_m",
@@ -453,15 +453,15 @@
         "identifier",
         "month"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_removeRepeatable_md": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_removeRepeatable_md",
@@ -472,15 +472,15 @@
         "month",
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeEvent": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeEvent",
@@ -489,15 +489,15 @@
       "args": [
         "ev"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeEvent_eld": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeEvent_eld",
@@ -507,15 +507,15 @@
         "ev_label",
         "_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeEvent_evd": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeEvent_evd",
@@ -525,15 +525,15 @@
         "ev",
         "_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeEvent_eldt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeEvent_eldt",
@@ -543,15 +543,15 @@
         "ev_label",
         "_datetime"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeEvent_evdt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeEvent_evdt",
@@ -561,15 +561,15 @@
         "ev",
         "_datetime"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeEvent_el": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeEvent_el",
@@ -581,19 +581,19 @@
         "day",
         "remove_all"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "None",
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeEvent_ev": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeEvent_ev",
@@ -605,19 +605,19 @@
         "day",
         "remove_all"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "None",
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeRepeatable": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeRepeatable",
@@ -628,18 +628,18 @@
         "month",
         "day"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeRepeatable_d": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeRepeatable_d",
@@ -649,15 +649,15 @@
         "identifier",
         "_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeRepeatable_dt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeRepeatable_dt",
@@ -667,27 +667,718 @@
         "identifier",
         "_datetime"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "addSeasonEvents": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getZodiacSign",
+    "docstring": "Gets a zodiac sign for a date\nIdea from https://stackoverflow.com/questions/3274597\n\nIN:\n    date - datetime.date\n\nOUT:\n    string with the sign",
+    "function_args": {
+      "args": [
+        "date"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_formatDay",
+    "docstring": "Properly formats the given day so it displays with the correct\nsuffixes.\n\nIN:\n    day - day to get a nice display string\n\nRETURNS:\n    nice display string for the day",
+    "function_args": {
+      "args": [
+        "day"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_formatYears",
+    "docstring": "Properly formats the given years var so it says a user friendly\nway to show years.\n\nBasically if years is:\n0 - \"\"\n1 - \"last year\"\n2+ - \"x years ago\"\n\nIN:\n    years - number of years to get a nice display string\n\nRETURNS:\n    nice display string for the years",
+    "function_args": {
+      "args": [
+        "years"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated(use_instead='genFriendlyDispDate_d')"
+    ],
+    "identifier": "genFriendlyDispDate",
+    "docstring": "NOTE: DEPRECATED\n\nGenerates a display date using the given datetime\n\nIN:\n    _datetime - datetime object to create good display date",
+    "function_args": {
+      "args": [
+        "_datetime"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "genFriendlyDispDate_d",
+    "docstring": "Generates a display date using the given date\nThis creates a display date in the format:\n    Month Day, Year\nHowever, this is somewhat variable.\n\nIf it is the same as the current year, the year is not provided.\nIf the date is whithin a year of the current date, year is not\nprovided.\nIf the year is last year and greater than a year of the current date,\n\"last year on <month> <day>\"\nIf the year is within 2-10 years ago, then \"x years ago on <month>\n<day>\" is used.\nOtherwise, the actual 4 digit year is used.\n\nIf the days / months are the same, then \"x years ago to this date\"\nis used.\n\nIN:\n    _date - date object to create good display date\n\nRETURNS:\n    tuple of the following format:\n    [0]: nicely formatted display date, suitable for conversation\n    [1]: timedelta between today and the given _date",
+    "function_args": {
+      "args": [
+        "_date"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "genFormalDispDate",
+    "docstring": "Generates a display date using the given date\n\nThis is considered \"formal\", in that it's not really realisitc when\nused in normal conversation. For example, if today is august 24, you\ndon't say 'this happened august 24th, 2016', you normally would say\n'this happened x years ago today'.\n\nIN:\n    _date - date object to create good display date\n\nRETURNS:\n    tuple of the following format:\n    [0]: nicely formtted display date, suitable for text\n    [1]: timedelta between today and the given _date",
+    "function_args": {
+      "args": [
+        "_date"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "saveCalendarDatabase",
+    "docstring": "Saves the passed database as a json file named db.mcal\n\nIN:\n    - encoder a json.JSONEncoder to be used for encoding\n        the database\n    - database a dict containing the events",
+    "function_args": {
+      "args": [
+        "encoder"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "loadCalendarDatabase",
+    "docstring": "Returns the database read from the file renpy.config.savedir + '/db.mcal'\nas a dict\n\nRETURNS:\n    a dict containing the events for the calendar",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_calendar__addEvent_md",
+    "docstring": "Adds an event to the calendar at a precise month / day\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    ev_label - eventlabel of the event to add\n    month - month to add to\n    day - day to add to",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_addRepeatable_md",
+    "docstring": "Adds a repeatable to the calendar at a precise month / day\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    identifier - label of the event that it's unique\n    display_label - label that will be displayed\n    month - month to add to\n    day - day to add to\n    year_param - data to put in the year part of the tuple",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "month",
+        "day",
+        "year_param"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "addEvent",
+    "docstring": "Adds an event to the calendar accoridng to its start_date and end_date\nproperties. If start_date is not set in the given event,\nthis function will do nothing.\n\nIN:\n    ev - event to add",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "addEvent_evd",
+    "docstring": "Adds an event to the calendar at a preicse date.\n\nIN:\n    ev - event to add\n    _date - datetime.date to add to",
+    "function_args": {
+      "args": [
+        "ev",
+        "_date"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "addEvent_evdt",
+    "docstring": "Adds an event to the calendar at a precise datetime.\n\nIN:\n    ev - event to add",
+    "function_args": {
+      "args": [
+        "ev",
+        "_datetime"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "addRepeatable",
+    "docstring": "Adds a repeatable to the calendar at a precise month / day\nSanity checks are done for month / day\n\nIN:\n    identifier - label of the event that it's unique\n    display_label - label that will be displayed\n    month - month to add to\n    day - day to add to\n    year_param - data to put in the year part of the tuple",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "month",
+        "day",
+        "year_param"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "addRepeatable_d",
+    "docstring": "Adds a repeatable to the calendar at precise datetime.date\n\nIN:\n    identifier - identifier of the repeatable to add\n    display_label - label that will be displayed\n    _date - datetime.date to add to\n    year_param - data to put in the year part of the tuple",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "_date",
+        "year_param"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "addRepeatable_dt",
+    "docstring": "Adds a repeatable to the calendar at a precise datetime\n\nIN:\n    identifier - identifier of the repeatable to add\n    display_label - label that will be displayed\n    _datetime - datetime to add to\n    year_param - data to put in the year part of the tuple",
+    "function_args": {
+      "args": [
+        "identifier",
+        "display_label",
+        "_datetime",
+        "year_param"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_findEvent_md",
+    "docstring": "Finds the event tuple from the calendar at a precise month / day.\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    ev_label - eventlabel of the event to find\n    month - month we should look at for finding\n    day - day we should look at for finding\n\nRETURNS:\n    the event tuple if it was found, None otherwise",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_findRepeatable_md",
+    "docstring": "Finds the repeatable dtuple from the calendar at a precise month / day\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    identifier - the id of the repeatable to find\n    month - month we should look at for finding\n    day - day we should look at for finding\n\nRETURNS:\n    the repeatable tuple if itw as found, None otherwise",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month",
+        "day"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeEvent",
+    "docstring": "Removs an event from the calendar.\n\nNOTE: O(n^2) efficieny, please avoid using this.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    remove_all - SEE removeEvent_el",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "remove_all"
+      ],
+      "defaults": [
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeEvent_d",
+    "docstring": "Removes an event from the calendar on a particular day.\n\nNOTE:\n    no sanity checks are done for day.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    day - day we should look at for removal\n    remove_all - SEE removeEvent_el",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "day",
+        "remove_all"
+      ],
+      "defaults": [
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeEvent_m",
+    "docstring": "Removes an event from the calendar in a particular month.\n\nNOTE:\n    no sanity checks are done for month\n\nIN:\n    ev_label - eventlabel of the event to remove\n    month - month we should look at for removal\n    remove_all - SEE removeEvent_el",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "remove_all"
+      ],
+      "defaults": [
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeEvent_md",
+    "docstring": "Removes an event from the calendar at a precise month / day.\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    ev_label - eventlabel of the event to remove\n    month - month we should look at for removal\n    day - day we should look at for removal\n\nRETURNS:\n    True if we removed something, False otherwise",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeRepeatable",
+    "docstring": "Removes a repeatable from teh calendar.\n\nNOTE: O(n^2) efficiency, please avoid using this.\n\nIN:\n    identifier - identifier of the repeatable to remove",
+    "function_args": {
+      "args": [
+        "identifier"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeRepeatable_d",
+    "docstring": "Removes a repeatable from teh calendar in a particular month.\n\nNOTE: no sanity checks are done for day\n\nIN:\n    identifier - identifier of the repeatable to remove\n    day - day we should look at for removal",
+    "function_args": {
+      "args": [
+        "identifier",
+        "day"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeRepeatable_m",
+    "docstring": "Removes a repeatable from the calendar in a particular month.\n\nNOTE: no sanity checks are done for month\n\nIN:\n    identifier - identifier of the repeatable to remove\n    month - month we should look at for removal",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_removeRepeatable_md",
+    "docstring": "Removes a repeatable from teh calendar at a precise month / day.\n\nNOTE: no sanity checks are done for month / day\n\nIN:\n    identifider - identifier of the repeatable to remove\n    month - month we should look at for removal\n    day - day we should look at for removal\n\nRETURNS:\n    True if we removed somethign, False otherwise",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month",
+        "day"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeEvent",
+    "docstring": "Removes an event from the calendar using it's start_date and end_date\nproperties.\n\nIN:\n    ev - event to remove",
+    "function_args": {
+      "args": [
+        "ev"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeEvent_eld",
+    "docstring": "Removes an event from the calendar at a precise date.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    _date - datetime.date we should look at for event removal",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "_date"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeEvent_evd",
+    "docstring": "Removes an event from the calendar at a precise date.\n\nIN:\n    ev - event to remove\n    _date - datetime.date we should look at for event removal",
+    "function_args": {
+      "args": [
+        "ev",
+        "_date"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeEvent_eldt",
+    "docstring": "Removes an event from the calendar at a precise datetime.\n\nIN:\n    ev_label - eventlabel of the event to remove\n    _datetime - datetime we should look at for event removal",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "_datetime"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeEvent_evdt",
+    "docstring": "Removes and event from the calendar at a precise datetime.\n\nIN:\n    ev - event to remove\n    _datetime - datetime.date we should look at for removal",
+    "function_args": {
+      "args": [
+        "ev",
+        "_datetime"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeEvent_el",
+    "docstring": "Removes an event from the calendar.\n\nNOTE: The default params will check EVERY SINGLE calendar spot for the\nevent to remove. It is considered HIGHLY INEFFICIENT. Try to use the\nother removeEvent functions if possible, or narrow the search using\nmonth and day.\n\nNOTE:\n    Using both month and day will do the same check as removeEvent_eld\n\nIN:\n    ev_label - eventlabel of the event to remove\n    month - If given (and a valid month), will only check the calendar\n        in the given month.\n        (Default: None)\n    day - If given (and a valid day), will only check the calendar\n        for the given day for each month\n        (Default: None)\n    remove_all - True means we remove every single occurence of the\n        given eventlabel. False means we only remove the first one we\n        find.\n        (Default: False)",
+    "function_args": {
+      "args": [
+        "ev_label",
+        "month",
+        "day",
+        "remove_all"
+      ],
+      "defaults": [
+        "None",
+        "None",
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeEvent_ev",
+    "docstring": "Removes an event from the calendar.\n\nSEE removeEvent_el for important NOTES regarding this function.\n\nIN:\n    ev - event to remove\n    month - SEE removeEvent_el\n    day - SEE removeEvent_el\n    remove_all - SEE removeEvent_el",
+    "function_args": {
+      "args": [
+        "ev",
+        "month",
+        "day",
+        "remove_all"
+      ],
+      "defaults": [
+        "None",
+        "None",
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeRepeatable",
+    "docstring": "Removes a repeatable from the calendar.\n\nNOTE: The default params will check EVERY SINGLE calendar spot for the\nrepeatable to remove. It is considered HIGHLY INEFFICIENT. Try to use\nthe other removeRepeatable functions if possible, or narrow the search\nusing month and day.\n\nIN:\n    identifier - identifier of the repeatable to remove\n    month - If given (and a valid month), will only check the calendar\n        in the given month.\n        (Default: None)\n    day - If given (and a valid day), will only check the calendar for\n        the given day for reach month\n        (Default: None)",
+    "function_args": {
+      "args": [
+        "identifier",
+        "month",
+        "day"
+      ],
+      "defaults": [
+        "None",
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeRepeatable_d",
+    "docstring": "Removes a repeatable from teh calendar at a precise datetime.date\n\nIN:\n    identifier - identifier of the repeatable to remove\n    _date - datetime.date we should look at for removal",
+    "function_args": {
+      "args": [
+        "identifier",
+        "_date"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeRepeatable_dt",
+    "docstring": "Removes a repeatable from teh calendar at aprecise datetime\n\nIN:\n    identifier - identifier of the repeatable to remove\n    _datetime - datetime we should look at for removal",
+    "function_args": {
+      "args": [
+        "identifier",
+        "_datetime"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "addSeasonEvents",
     "docstring": "Adds season change events to the calendar.\nIf the changed param is True it changes the old events.\nIN:\n    changed - flag to specify that we need to change the\n        old events from the calendar",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "addSeasonEvents",
+    "docstring": "Adds season change events to the calendar.\nIf the changed param is True it changes the old events.\nIN:\n    changed - flag to specify that we need to change the\n        old events from the calendar",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

@@ -1,5 +1,5 @@
-{
-  "glitchtext": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "glitchtext",
@@ -7,15 +7,15 @@
       "args": [
         "length"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "mangleFile": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "mangleFile",
@@ -25,44 +25,110 @@
         "filepath",
         "mangle_length"
       ],
-      "pos_only_args": [],
       "defaults": [
         "1000"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "resetPlayerData": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "resetPlayerData",
     "docstring": "Completely resets player data in persistents.\n\nNOTE: Not all player-related persistent values may be reset by this\nfunction. If there are more player-related data in persistent that is\nnot reset by this function, PLEASE LET US KNOW\n\nASSUMES: a ton of persistent stuff",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "initialSessionData": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "initialSessionData",
     "docstring": "Completely resets session data to usable initial values.\nNOTE: these are not the defaults, but rather what they would be set to\non a first load.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "glitchtext",
+    "function_args": {
+      "args": [
+        "length"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "mangleFile",
+    "docstring": "Mangles the file at the given filepath. Will create the file if it\ndoesnt exists\n\nIN:\n    filepath - path of the file to mangle\n    mangle_length - how many characters to use to mangle\n        (Default: 1000)",
+    "function_args": {
+      "args": [
+        "filepath",
+        "mangle_length"
+      ],
+      "defaults": [
+        "1000"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "resetPlayerData",
+    "docstring": "Completely resets player data in persistents.\n\nNOTE: Not all player-related persistent values may be reset by this\nfunction. If there are more player-related data in persistent that is\nnot reset by this function, PLEASE LET US KNOW\n\nASSUMES: a ton of persistent stuff",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "initialSessionData",
+    "docstring": "Completely resets session data to usable initial values.\nNOTE: these are not the defaults, but rather what they would be set to\non a first load.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

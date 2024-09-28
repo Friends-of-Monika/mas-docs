@@ -1,35 +1,35 @@
-{
-  "_MDA_safeadd": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_MDA_safeadd",
     "docstring": "Adds MASDelayedAction ids to the persistent mas delayed action list.\n\nNOTE: this is only meant for code that runs super early yet needs to\nadd MASDelayedActions.\n\nNOTE: This will NOT add duplicates.\n\nIN:\n    ids - ids to add to the delayed action list",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "ids"
     }
   },
-  "_MDA_saferm": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_MDA_saferm",
     "docstring": "Removes MASDelayedActions from the persistent mas delayed action list.\n\nNOTE: this is only meant for code that runs super early yet needs to\nremove MASDelayedActions\n\nNOTE: this will check for existence before removing\n\nIN:\n    ids - ids to remove from the delayed action list",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "ids"
     }
   },
-  "_mas_birthdate_bad_year_fix_action": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_mas_birthdate_bad_year_fix_action",
@@ -37,58 +37,58 @@
       "args": [
         "ev"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_mas_birthdate_bad_year_fix": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_mas_birthdate_bad_year_fix",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "loadDelayedActionMap": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "loadDelayedActionMap",
     "docstring": "Checks the persistent delayed action list and generates the\nruntime map of delayed actions",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "saveDelayedActionMap": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "saveDelayedActionMap",
     "docstring": "Checks the runtime map of delayed actions and saves them into the\npersistent value.\n\nNOTE: this does not ADD to the persistent's list. This recreates it\n    entirely.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

@@ -1,5 +1,5 @@
-{
-  "_strict_can_pickle": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_strict_can_pickle",
@@ -8,15 +8,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_event0x2dhandler__strict_can_pickle": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_event0x2dhandler__strict_can_pickle",
@@ -25,15 +25,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_bool": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_bool",
@@ -42,17 +42,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_dict": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_dict",
@@ -61,17 +61,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_list": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_list",
@@ -80,17 +80,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_dt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_dt",
@@ -99,17 +99,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_dt_nn": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_dt_nn",
@@ -117,15 +117,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_evact": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_evact",
@@ -134,17 +134,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_int": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_int",
@@ -153,17 +153,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_int_nn": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_int_nn",
@@ -171,15 +171,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_str": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_str",
@@ -188,17 +188,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_td": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_td",
@@ -207,17 +207,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_td_nn": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_td_nn",
@@ -225,15 +225,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_tuli": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_tuli",
@@ -242,17 +242,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_tuli_nn": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_tuli_nn",
@@ -260,15 +260,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_tuli_aff": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_tuli_aff",
@@ -277,17 +277,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_item": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_item",
@@ -298,17 +298,17 @@
         "_type",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "MASCurriedVerify": {
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASCurriedVerify",
@@ -328,10 +328,10 @@
             "verifier",
             "allow_none"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -346,32 +346,404 @@
             "self",
             "value"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "_verify_per_mtime": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_strict_can_pickle",
+    "docstring": "Checks if this value can be pickled safely into persistent.\n\nThis is VERY strict. we only allow types, not isinstance checks.\nno ducks here\n\nThis will check structures recursively and will catch recursion errors.\n\nIN:\n    val - value to check\n\nRETURNS: tuple of the following format:\n    [0] - True if the value can be safely pickled, False if recursion\n        error or not picklable.\n    [1] - True if recursion error, False otherwise",
+    "function_args": {
+      "args": [
+        "val"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_event0x2dhandler__strict_can_pickle",
+    "docstring": "Recursive strict pickle check. See _strict_can_pickle for more info.\n\nWill raise recursion error if appropriate.\n\nIN:\n    val - value to check\n\nRETURNS: True if value can be safely pickled, False otherwise.",
+    "function_args": {
+      "args": [
+        "val"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_bool",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_dict",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_list",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_dt",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_dt_nn",
+    "function_args": {
+      "args": [
+        "val"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_evact",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_int",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_int_nn",
+    "function_args": {
+      "args": [
+        "val"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_str",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_td",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_td_nn",
+    "function_args": {
+      "args": [
+        "val"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_tuli",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_tuli_nn",
+    "function_args": {
+      "args": [
+        "val"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_tuli_aff",
+    "function_args": {
+      "args": [
+        "val",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_item",
+    "docstring": "Verifies the given value has the given type/instance\n\nIN:\n    val - value to verify\n    _type - type to check\n    allow_none - If True, None should be considered good value,\n        false means bad value\n        (Default: True)\n\nRETURNS: True if the given value has the given type/instance,\n    false otherwise",
+    "function_args": {
+      "args": [
+        "val",
+        "_type",
+        "allow_none"
+      ],
+      "defaults": [
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASCurriedVerify",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Allows for currying of a verification function",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Constructor\n\nIN:\n    verifier - the verification function we want to use\n    allow_none - True if we should pass True for allow_none,\n        false for False",
+        "function_args": {
+          "args": [
+            "self",
+            "verifier",
+            "allow_none"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__call__",
+        "docstring": "Callable override\n\nIN:\n    value - the value we want to verify\n\nRETURNS: True if the value passes verification, False otherwise",
+        "function_args": {
+          "args": [
+            "self",
+            "value"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_per_mtime",
     "docstring": "verifies persistent data and ensure mod times are not in the future",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_data_line": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_per_mtime",
+    "docstring": "verifies persistent data and ensure mod times are not in the future",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_data_line",
@@ -380,15 +752,15 @@
       "args": [
         "ev_line"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "verify_event_data": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "verify_event_data",
@@ -397,12 +769,46 @@
       "args": [
         "per_db"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_data_line",
+    "docstring": "Verifies event data for a single tuple of data.\n\nIN:\n    ev_line - single line of data to verify\n\nRETURNS:\n    True if passed verification, False if not",
+    "function_args": {
+      "args": [
+        "ev_line"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "verify_event_data",
+    "docstring": "Verifies event data of the given persistent data. Entries that are\ninvalid are removed. We only check the bits of data that we have, so\ndata lines with smaller sizes are only validated for what they have.\n\nIN:\n    per_db - persistent database to verify",
+    "function_args": {
+      "args": [
+        "per_db"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

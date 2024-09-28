@@ -1,5 +1,5 @@
-{
-  "adjustVolume": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "adjustVolume",
@@ -8,18 +8,18 @@
         "channel",
         "up"
       ],
-      "pos_only_args": [],
       "defaults": [
         "'music'",
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getVolume": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getVolume",
@@ -28,15 +28,15 @@
       "args": [
         "channel"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getUserVolume": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getUserVolume",
@@ -45,44 +45,44 @@
       "args": [
         "channel"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "hasMusicMuted": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "hasMusicMuted",
     "docstring": "Checks if the player has the music channel muted or the 'Mute All' option enabled.\n\nRETURNS: True if the music channel is muted or the 'Mute All' option is enabled, False otherwise",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getPlayingMusicName": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getPlayingMusicName",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "initMusicChoices": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "initMusicChoices",
@@ -90,17 +90,17 @@
       "args": [
         "sayori"
       ],
-      "pos_only_args": [],
       "defaults": [
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "setUserVolume": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "setUserVolume",
@@ -110,15 +110,15 @@
         "value",
         "channel"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_sanitizeVolume": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_sanitizeVolume",
@@ -127,15 +127,15 @@
       "args": [
         "value"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_music_selector__paginate": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_music_selector__paginate",
@@ -144,15 +144,15 @@
       "args": [
         "music_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_music_selector__genPage": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_music_selector__genPage",
@@ -161,15 +161,15 @@
       "args": [
         "music_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_music_selector__scanCustomBGM": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_music_selector__scanCustomBGM",
@@ -178,15 +178,15 @@
       "args": [
         "music_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getAudioFile": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getAudioFile",
@@ -195,15 +195,15 @@
       "args": [
         "filepath"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getDispName": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getDispName",
@@ -214,15 +214,15 @@
         "_ext",
         "_filename"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getLoopData": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getLoopData",
@@ -232,15 +232,15 @@
         "_audio_file",
         "_ext"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getMP3": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getMP3",
@@ -249,15 +249,15 @@
       "args": [
         "filepath"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getMP3Name": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getMP3Name",
@@ -266,15 +266,15 @@
       "args": [
         "_audio_file"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getOgg": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getOgg",
@@ -283,15 +283,15 @@
       "args": [
         "filepath"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getOggName": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getOggName",
@@ -300,15 +300,15 @@
       "args": [
         "_audio_file"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getOggLoop": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getOggLoop",
@@ -318,15 +318,15 @@
         "_audio_file",
         "_ext"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getOggLoopMAS": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getOggLoopMAS",
@@ -337,15 +337,15 @@
         "loopend",
         "_audio_file"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getOggLoopRPG": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getOggLoopRPG",
@@ -356,15 +356,15 @@
         "looplen",
         "_audio_file"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_getOpus": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_getOpus",
@@ -373,15 +373,15 @@
       "args": [
         "filepath"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isValidExt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isValidExt",
@@ -390,15 +390,15 @@
       "args": [
         "filename"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "cleanGUIText": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "cleanGUIText",
@@ -407,15 +407,15 @@
       "args": [
         "unclean"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isInMusicList": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isInMusicList",
@@ -424,12 +424,445 @@
       "args": [
         "filepath"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "adjustVolume",
+    "function_args": {
+      "args": [
+        "channel",
+        "up"
+      ],
+      "defaults": [
+        "'music'",
+        "True"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getVolume",
+    "docstring": "Gets the volume of the given audio channel.\nNOTE: gets the real volume, not user-defined slider volume.\n\nIN:\n    channel - audio channel to get volume for (string)\n\nRETURNS: volume of the audio channel as double/float",
+    "function_args": {
+      "args": [
+        "channel"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getUserVolume",
+    "docstring": "Gets user-defined slider volume of the given channel.\nNOTE: this is indepenent of the actual channel volume.\n    Using set_volume will NOT affect this.\n\nIN:\n    channel - audio channel to get volume for (string)\n\nRETURNS: value of the user slider for the audio channel (double/float)",
+    "function_args": {
+      "args": [
+        "channel"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "hasMusicMuted",
+    "docstring": "Checks if the player has the music channel muted or the 'Mute All' option enabled.\n\nRETURNS: True if the music channel is muted or the 'Mute All' option is enabled, False otherwise",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getPlayingMusicName",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "initMusicChoices",
+    "function_args": {
+      "args": [
+        "sayori"
+      ],
+      "defaults": [
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "setUserVolume",
+    "docstring": "Sets user volume to the given value.\nNOTE: this does a preference edit, so there's no delay options.\nNOTE: this changes mixer volume, so it may affect other channels.\n\nIN:\n    value - value to set volume to. Should be between 0.0 and 1.0.\n    channel - channel to set.",
+    "function_args": {
+      "args": [
+        "value",
+        "channel"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_sanitizeVolume",
+    "docstring": "Santizes the given value as if it were a volume.\nNOTE: does not check if its a number.\n\nIN:\n    value - value to sanitize\n\nRETURNS: valid volume value",
+    "function_args": {
+      "args": [
+        "value"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_music_selector__paginate",
+    "docstring": "Paginates the music list and returns a dict of the pages.\n\nIN:\n    music_list - list of music choice tuples (see initMusicChoices)\n\nRETURNS:\n    dict of music choices, paginated nicely:\n    [0]: first page of music\n    [1]: next page of music\n    ...\n    [n]: last page of music",
+    "function_args": {
+      "args": [
+        "music_list"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_music_selector__genPage",
+    "docstring": "Generates the a page of music choices\n\nIN:\n    music_list - list of music choice tuples (see initMusicChoices)\n\nRETURNS:\n    tuple of the following format:\n        [0] - page of the music choices\n        [1] - reamining items in the music_list",
+    "function_args": {
+      "args": [
+        "music_list"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_music_selector__scanCustomBGM",
+    "docstring": "Scans the custom music directory for custom musics and adds them to\nthe given music_list.\n\nIN/OUT:\n    music_list - list of music tuples to append to",
+    "function_args": {
+      "args": [
+        "music_list"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getAudioFile",
+    "docstring": "Atteempts to retrive the correct audio object based on file extension\n\nIN:\n    filepath - full filepath to the audio file we want\n\nRETURNS:\n    tuple of the following format:\n    [0]: audio object we want (May be None if this failed to load)\n    [1]: extension of this audio object",
+    "function_args": {
+      "args": [
+        "filepath"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getDispName",
+    "docstring": "Attempts to retreive the display name for an audio file\nIf that fails, then it will use the _filename as song name, minus\nextension.\n\nIN:\n    _audio_file - audio object\n    _ext - extension of the audio file\n    _filename - filename of the audio file\n\nRETURNS:\n    The name of this Song (probably)",
+    "function_args": {
+      "args": [
+        "_audio_file",
+        "_ext",
+        "_filename"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getLoopData",
+    "docstring": "Attempts to retrieve loop data from the given audio file and\ngenerates the appropraite string to put in front of the file name\n\nIN:\n    _audio_file - audio object\n    _ext - extension of hte audio file\n\nRETURNS:\n    loop string, or and empty string if no loop string available",
+    "function_args": {
+      "args": [
+        "_audio_file",
+        "_ext"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getMP3",
+    "docstring": "Attempts to retrieve the MP3 object from the given audio file\n\nIN:\n    filepath - full filepath to the mp3 file want tags from\n\nRETURNS:\n    mutagen.mp3.EasyMP3 object, or None if we coudlnt do it",
+    "function_args": {
+      "args": [
+        "filepath"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getMP3Name",
+    "docstring": "Attempts to retrieve song name from mp3 id3 tag\n\nIN:\n    _audio_file - audio object\n\nRETURNS:\n    The display name for this song, or None if not possible",
+    "function_args": {
+      "args": [
+        "_audio_file"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getOgg",
+    "docstring": "Attempts to retreive the Ogg object from the given audio file\n\nIN:\n    filepath - full filepath to the ogg file\n\nRETURNS:\n    mutagen.ogg.OggVorbis or None if we coudlnt get the info",
+    "function_args": {
+      "args": [
+        "filepath"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getOggName",
+    "docstring": "Attempts to retreive song name from Ogg tag\n\nIN:\n    _audio_file - audio object\n\nRETURNS:\n    The display name for this song, or None if not possible",
+    "function_args": {
+      "args": [
+        "_audio_file"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getOggLoop",
+    "docstring": "Attempts to retreive loop data from Ogg tags\n\nIN:\n    _audio_file - audio object\n    _ext - extension of the audio file\n\nRETURNS:\n    the loop string we should use, or \"\" if no loop",
+    "function_args": {
+      "args": [
+        "_audio_file",
+        "_ext"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getOggLoopMAS",
+    "docstring": "Attempts to retrieve MAS-based loop data from Ogg tags\n\nIN:\n    loopstart - list of loopstart tags\n    loopend - list of loopend tags\n    _audio_file - audio object\n\nRETURNS:\n    the loop string we should use or \"\" if no loop",
+    "function_args": {
+      "args": [
+        "loopstart",
+        "loopend",
+        "_audio_file"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getOggLoopRPG",
+    "docstring": "Attempts to retrieve RPGMaker-based loop data form Ogg tags\n\nNOTE: unlike the MAS tags, loopstart is REQUIRED\n\nIN:\n    loopstart - list of loopstart tags\n    looplen - list of loop length tags\n    _audio_file - audio object\n\nRETURNS:\n    the loop string we should use or \"\" if no loop",
+    "function_args": {
+      "args": [
+        "loopstart",
+        "looplen",
+        "_audio_file"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_getOpus",
+    "docstring": "Attempts to retrieve the Opus object from the given audio file\n\nIN:\n    filepath - full filepath to the opus file\n\nRETURNS:\n    mutagen.ogg.OggOpus or None if we couldnt get the info",
+    "function_args": {
+      "args": [
+        "filepath"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isValidExt",
+    "docstring": "Checks if the given filename has an appropriate extension\n\nIN:\n    filename - filename to check\n\nRETURNS:\n    True if valid extension, false otherwise",
+    "function_args": {
+      "args": [
+        "filename"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "cleanGUIText",
+    "docstring": "Cleans the given text so its applicable for gui usage\n\nIN:\n    unclean - unclean text\n\nRETURNS:\n    cleaned text",
+    "function_args": {
+      "args": [
+        "unclean"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isInMusicList",
+    "docstring": "Checks if the a song with the given filepath is in the music choices\nlist\n\nIN:\n    filepath - filepath of song to check\n\nRETURNS:\n    True if filepath is in the music_choices list, False otherwise",
+    "function_args": {
+      "args": [
+        "filepath"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

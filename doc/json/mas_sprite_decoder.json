@@ -1,5 +1,5 @@
-{
-  "MASSpriteException": {
+[
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASSpriteException",
@@ -16,10 +16,10 @@
             "self",
             "message"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -32,32 +32,32 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "_m1_sprite0x2ddecoder__loadSpriteMapData": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__loadSpriteMapData",
     "docstring": "Loads sprite map data from the sprite map json file",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_sprite0x2ddecoder__process_blush": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_blush",
@@ -68,15 +68,15 @@
         "index",
         "export_dict"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "prefixes"
     }
   },
-  "_m1_sprite0x2ddecoder__process_s": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_s",
@@ -87,15 +87,15 @@
         "index",
         "export_dict"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "prefixes"
     }
   },
-  "_m1_sprite0x2ddecoder__process_sweatdrop": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_sweatdrop",
@@ -106,15 +106,15 @@
         "index",
         "export_dict"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "prefixes"
     }
   },
-  "_m1_sprite0x2ddecoder__process_tears": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_sprite0x2ddecoder__process_tears",
@@ -125,15 +125,15 @@
         "index",
         "export_dict"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "prefixes"
     }
   },
-  "parse_exp_to_kwargs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "parse_exp_to_kwargs",
@@ -142,15 +142,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isValidSpritecode": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isValidSpritecode",
@@ -159,12 +159,180 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASSpriteException",
+    "class_bases": [
+      "Exception"
+    ],
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "message"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__str__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_sprite0x2ddecoder__loadSpriteMapData",
+    "docstring": "Loads sprite map data from the sprite map json file",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_sprite0x2ddecoder__process_blush",
+    "docstring": "Processes a blush off the given sprite code at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the blush was valid, False if not\n        [1] - the number of spots to increase the index by",
+    "function_args": {
+      "args": [
+        "spcode",
+        "index",
+        "export_dict"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": "prefixes"
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_sprite0x2ddecoder__process_s",
+    "docstring": "Processes the s-prefixed spcodes at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the processes were valid, False if not\n        [1] - the number of spots to increase the index by",
+    "function_args": {
+      "args": [
+        "spcode",
+        "index",
+        "export_dict"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": "prefixes"
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_sprite0x2ddecoder__process_sweatdrop",
+    "docstring": "Processes a sweatdrop off the given spcode at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the sweatdrops were valid, False if not\n        [1] - the number of spots to increase the index by",
+    "function_args": {
+      "args": [
+        "spcode",
+        "index",
+        "export_dict"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": "prefixes"
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_sprite0x2ddecoder__process_tears",
+    "docstring": "Processes a tear off the given spcode at the given index\n\nIN:\n    spcode the spcode to check\n    index the next index to check\n    export_dict - dict to add the sprite data to\n    prefixes letters to prefix the code with\n\nOUT:\n    Tuple of the following format:\n        [0] - True if the tears were valid, False if not\n        [1] - the number of spots to increase the index by",
+    "function_args": {
+      "args": [
+        "spcode",
+        "index",
+        "export_dict"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": "prefixes"
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "parse_exp_to_kwargs",
+    "docstring": "Converts exp codes to kwargs to pass into mas_drawmonika_rk\n\nIN:\n    exp - spritecode to convert\n\nOUT:\n    dict representing the exp as kwargs for mas_drawmonika_rk\n\nASSUMES:\n    exp is not in the staticsprite format (not exp_static)\n\nRAISES:\n    - KeyError if pose, eyes, eyebrows, or mouth is invalid\n    - Exception if optional sprite is invalid",
+    "function_args": {
+      "args": [
+        "exp"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isValidSpritecode",
+    "docstring": "Spritecode validity tester\n\nIN:\n    exp - exp to check validity\n\nOUT:\n    boolean:\n        - True if code is valid\n        - False otherwise",
+    "function_args": {
+      "args": [
+        "exp"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

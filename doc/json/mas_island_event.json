@@ -1,5 +1,5 @@
-{
-  "isFilterSupported": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isFilterSupported",
@@ -8,15 +8,15 @@
       "args": [
         "flt"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_select_img": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_select_img",
@@ -27,30 +27,30 @@
         "at",
         "mfwm"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "IslandFilterWeatherDisplayable": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "IslandFilterWeatherDisplayable",
     "docstring": "DynamicDisplayable for Island images.\n\nIN:\n    **filter_pairs - filter pairs to MASFilterWeatherMap.\n\nOUT:\n    DynamicDisplayable for Island images that respect filters and\n        weather.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "filter_pairs",
       "var_arg": null
     }
   },
-  "_handle_raw_pkg_data": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_handle_raw_pkg_data",
@@ -60,30 +60,30 @@
         "pkg_data",
         "base_err_msg"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "decode_data": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "decode_data",
     "docstring": "Attempts to decode the images\n\nOUT:\n    True upon success, False otherwise",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_build_filter_pairs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_build_filter_pairs",
@@ -92,15 +92,15 @@
       "args": [
         "img_map"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_build_ifwd": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_build_ifwd",
@@ -109,15 +109,15 @@
       "args": [
         "img_map"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_build_fwd": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_build_fwd",
@@ -126,15 +126,15 @@
       "args": [
         "img_map"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_build_weather_overlay_transform": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_build_weather_overlay_transform",
@@ -144,15 +144,15 @@
         "child",
         "speed"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_build_displayables": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_build_displayables",
@@ -167,15 +167,15 @@
         "glitch_frames",
         "tree_lights_imgs"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_get_room_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_get_room_sprite",
@@ -185,15 +185,15 @@
         "key",
         "is_lit"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_apply_flt_on_room_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_apply_flt_on_room_sprite",
@@ -203,15 +203,15 @@
         "room_img_tag",
         "flt"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_is_unlocked": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_is_unlocked",
@@ -220,15 +220,15 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_unlock": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_unlock",
@@ -237,15 +237,15 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_lock": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_lock",
@@ -254,213 +254,213 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_unlock_one": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_unlock_one",
     "docstring": "Unlocks one of the sprites at random.\nRuns only once\n\nIN:\n    *items - the ids of the sprites\n\nOUT:\n    boolean whether or not a sprite was unlocked",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "items"
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_0": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_0",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_1": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_1",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_2": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_2",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_3": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_3",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_4": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_4",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_5": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_5",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_6": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_6",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_7": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_7",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_8": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_8",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_final_unlocks": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_final_unlocks",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_9": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_9",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__unlocks_for_lvl_10": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_10",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__handle_unlocks": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__handle_unlocks",
     "docstring": "Method to unlock various islands features when the player progresses.\nFor example: new decals, new islands, new extra events, set persistent vars, etc.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_calc_progress": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_calc_progress",
@@ -470,105 +470,105 @@
         "curr_lvl",
         "start_lvl"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "advance_progression": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "advance_progression",
     "docstring": "Increments the lvl of progression of the islands event,\nit will do nothing if the player hasn't unlocked the islands yet or if\nthe current lvl is invalid",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_get_progression": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_get_progression",
     "docstring": "Returns current islands progress lvl",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "start_progression": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "start_progression",
     "docstring": "Starts islands progression",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_reset_progression": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_reset_progression",
     "docstring": "Resets island progress",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "play_music": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "play_music",
     "docstring": "Plays appropriate music based on the current weather",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "stop_music": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "stop_music",
     "docstring": "Stops islands music",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_islands_displayable": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_islands_displayable",
@@ -578,48 +578,668 @@
         "enable_interaction",
         "check_progression"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True",
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_winter_weather": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_winter_weather",
     "docstring": "Checks if the weather on the islands is wintery\n\nOUT:\n    boolean:\n        - True if we're using snow islands\n        - False otherwise",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_cloudy_weather": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_cloudy_weather",
     "docstring": "Checks if the weather on the islands is cloudy\n\nOUT:\n    boolean:\n        - True if we're using overcast/rain islands\n        - False otherwise",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "IslandsDataDefinition": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isFilterSupported",
+    "docstring": "Checks if the event supports a filter\n\nIN:\n    flt - the filter to check (perhaps one of the constants in mas_sprites)\n\nOUT:\n    boolean",
+    "function_args": {
+      "args": [
+        "flt"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_select_img",
+    "docstring": "Selection function to use in Island-based images\n\nIN:\n    st - renpy related\n    at - renpy related\n    mfwm - MASFilterWeatherMap for this island\n\nRETURNS:\n    displayable data",
+    "function_args": {
+      "args": [
+        "st",
+        "at",
+        "mfwm"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "IslandFilterWeatherDisplayable",
+    "docstring": "DynamicDisplayable for Island images.\n\nIN:\n    **filter_pairs - filter pairs to MASFilterWeatherMap.\n\nOUT:\n    DynamicDisplayable for Island images that respect filters and\n        weather.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": "filter_pairs",
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_handle_raw_pkg_data",
+    "docstring": "Handles raw data and returns clean, parsed data\nLogs errors\n\nIN:\n    pkg_data - memory buffer\n\nOUT:\n    memory buffer or None",
+    "function_args": {
+      "args": [
+        "pkg_data",
+        "base_err_msg"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "decode_data",
+    "docstring": "Attempts to decode the images\n\nOUT:\n    True upon success, False otherwise",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_build_filter_pairs",
+    "docstring": "Builds filter pairs for IslandFilterWeatherDisplayable\nor MASFilterWeatherDisplayable",
+    "function_args": {
+      "args": [
+        "img_map"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_build_ifwd",
+    "docstring": "Builds a single IslandFilterWeatherDisplayable\nusing the given image map",
+    "function_args": {
+      "args": [
+        "img_map"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_build_fwd",
+    "docstring": "Builds a single MASFilterWeatherDisplayable\nusing the given image map",
+    "function_args": {
+      "args": [
+        "img_map"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_build_weather_overlay_transform",
+    "docstring": "A wrapper around mas_islands_weather_overlay_transform\nIt exists so we can properly pass the child argument\nto the transform",
+    "function_args": {
+      "args": [
+        "child",
+        "speed"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_build_displayables",
+    "docstring": "Takes multiple maps with images and builds displayables from them, sets global vars\nNOTE: no sanity checks\nFIXME: py3 update\n\nIN:\n    island_imgs_maps - the map from island names to raw images map\n    decal_imgs_maps - the map from decal names to raw images map\n    bg_imgs_maps - the map from bg ids to raw images map\n    overlay_imgs_maps - the map from overlay ids to raw images map\n    interior_imgs_map - the map from the interior stuff to the raw images map\n    glitch_frames - tuple of glitch raw anim frames\n    tree_lights_imgs - map of images for the tree lights, format:\n        img_name: disp",
+    "function_args": {
+      "args": [
+        "island_imgs_maps",
+        "decal_imgs_maps",
+        "bg_imgs_maps",
+        "overlay_imgs_maps",
+        "interior_imgs_map",
+        "glitch_frames",
+        "tree_lights_imgs"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_get_room_sprite",
+    "docstring": "Returns the appropriate displayable for the room sprite based on the criteria\n\nIN:\n    key - str - the sprite key\n    is_lit - bool - sprite for the lit or unlit version?\n\nOUT:\n    MASImageData\n    or Null displayable if we failed to get the image",
+    "function_args": {
+      "args": [
+        "key",
+        "is_lit"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_apply_flt_on_room_sprite",
+    "docstring": "Returns the room image with the filter applied on it\n\nIN:\n    room_img_tag - str - the image tag\n    flt - str - the filter id to use\n\nOUT:\n    image manipulator\n    or Null displayable if we failed to decode the images",
+    "function_args": {
+      "args": [
+        "room_img_tag",
+        "flt"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_is_unlocked",
+    "docstring": "Checks if a sprite is unlocked\n\nIN:\n    id_ - the unique id of the sprite\n\nOUT:\n    boolean",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_unlock",
+    "docstring": "Unlocks a sprite\n\nIN:\n    id_ - the unique id of the sprite\n\nOUT:\n    boolean whether or not the sprite was unlocked",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_lock",
+    "docstring": "Locks a sprite\n\nIN:\n    id_ - the unique id of the sprite\n\nOUT:\n    boolean whether or not the sprite was locked",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_unlock_one",
+    "docstring": "Unlocks one of the sprites at random.\nRuns only once\n\nIN:\n    *items - the ids of the sprites\n\nOUT:\n    boolean whether or not a sprite was unlocked",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": "items"
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_0",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_1",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_2",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_3",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_4",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_5",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_6",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_7",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_8",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_final_unlocks",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_9",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__unlocks_for_lvl_10",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__handle_unlocks",
+    "docstring": "Method to unlock various islands features when the player progresses.\nFor example: new decals, new islands, new extra events, set persistent vars, etc.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_calc_progress",
+    "docstring": "Returns islands progress for the given current and start levels\nNOTE: this has no sanity checks, don't use this directly\n\nIN:\n    curr_lvl - int, current level\n    start_lvl - int, start level\n\nOUT:\n    int, progress",
+    "function_args": {
+      "args": [
+        "curr_lvl",
+        "start_lvl"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "advance_progression",
+    "docstring": "Increments the lvl of progression of the islands event,\nit will do nothing if the player hasn't unlocked the islands yet or if\nthe current lvl is invalid",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_get_progression",
+    "docstring": "Returns current islands progress lvl",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "start_progression",
+    "docstring": "Starts islands progression",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_reset_progression",
+    "docstring": "Resets island progress",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "play_music",
+    "docstring": "Plays appropriate music based on the current weather",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "stop_music",
+    "docstring": "Stops islands music",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "get_islands_displayable",
+    "docstring": "Builds an image for islands and returns it\nNOTE: This is temporary until we split islands into foreground/background\nFIXME: py3 update\n\nIN:\n    enable_interaction - whether to enable events or not (including parallax effect)\n        (Default: True)\n    check_progression - whether to check for new unlocks or not,\n        this might be a little slow\n        (Default: False)\n\nOUT:\n    ParallaxBackground",
+    "function_args": {
+      "args": [
+        "enable_interaction",
+        "check_progression"
+      ],
+      "defaults": [
+        "True",
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "is_winter_weather",
+    "docstring": "Checks if the weather on the islands is wintery\n\nOUT:\n    boolean:\n        - True if we're using snow islands\n        - False otherwise",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "is_cloudy_weather",
+    "docstring": "Checks if the weather on the islands is cloudy\n\nOUT:\n    boolean:\n        - True if we're using overcast/rain islands\n        - False otherwise",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "IslandsDataDefinition",
@@ -643,7 +1263,6 @@
             "fp_map",
             "partial_disp"
           ],
-          "pos_only_args": [],
           "defaults": [
             "None",
             "False",
@@ -651,8 +1270,9 @@
             "None",
             "None"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -666,10 +1286,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -683,10 +1303,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -700,10 +1320,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -720,10 +1340,10 @@
             "cls",
             "id_"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -740,10 +1360,10 @@
             "cls",
             "id_"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -759,10 +1379,10 @@
           "args": [
             "cls"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -779,17 +1399,17 @@
             "cls",
             "type_"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "_m1_script0x2dislands0x2devent__isld_1_transform_func": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__isld_1_transform_func",
@@ -800,15 +1420,15 @@
         "st",
         "at"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__isld_2_transform_func": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__isld_2_transform_func",
@@ -819,15 +1439,15 @@
         "st",
         "at"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__isld_3_transform_func": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__isld_3_transform_func",
@@ -838,15 +1458,15 @@
         "st",
         "at"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__isld_5_transform_func": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__isld_5_transform_func",
@@ -857,15 +1477,15 @@
         "st",
         "at"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_script0x2dislands0x2devent__chibi_transform_func": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_script0x2dislands0x2devent__chibi_transform_func",
@@ -876,15 +1496,15 @@
         "st",
         "at"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_play_thunder": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_play_thunder",
@@ -895,15 +1515,299 @@
         "st",
         "at"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_living_room_entry": {
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "IslandsDataDefinition",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "A generalised abstraction around raw data for the islands sprites",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Constructor\n\nIN:\n    id_ - unique id for this sprite\n        NOTE: SUPPORTED FORMATS:\n            - 'island_###'\n            - 'decal_###'\n            - 'bg_###'\n            - 'overlay_###'\n            - 'other_###'\n            where ### is something unique\n    type_ - type of this sprite, if None, we automatically get it from the id\n        (Default: None)\n    default_unlocked - whether or not this sprite is unlocked from the get go\n        (Default: False)\n    filenames - the used filenames for this data, those are the keys for fp_map, if None, will be used default\n        paths in the FILENAMES_MAP or DEF_FILENAMES\n        (Default: None)\n    fp_map - the map of the images for this sprite, if None, we automatically generate it\n        NOTE: after decoding this will point to a loaded ImageData object instead of a failepath\n        (Default: None)\n    partial_disp - functools.partial of the displayable for this sprite\n        (Default: None)",
+        "function_args": {
+          "args": [
+            "self",
+            "id_",
+            "type_",
+            "default_unlocked",
+            "filenames",
+            "fp_map",
+            "partial_disp"
+          ],
+          "defaults": [
+            "None",
+            "False",
+            "None",
+            "None",
+            "None"
+          ],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_getType",
+        "docstring": "Private method to get type of this sprite if it hasn't been passed in\n\nOUT:\n    str",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_buildFPMap",
+        "docstring": "Private method to build filepath map if one hasn't been passed in\n\nOUT:\n    dict",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_split_id",
+        "docstring": "Splits an id into type and name strings",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "classmethod"
+        ],
+        "identifier": "_m1_script0x2dislands0x2devent__split_id",
+        "docstring": "Splits an id into type and name strings",
+        "function_args": {
+          "args": [
+            "cls",
+            "id_"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "classmethod"
+        ],
+        "identifier": "getDataFor",
+        "docstring": "Returns data for an id\n\nOUT:\n    IslandsDataDefinition\n    or None",
+        "function_args": {
+          "args": [
+            "cls",
+            "id_"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "classmethod"
+        ],
+        "identifier": "getDefaultUnlocks",
+        "docstring": "Returns default unlocks for sprites\n\nOUT:\n    dict",
+        "function_args": {
+          "args": [
+            "cls"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "classmethod"
+        ],
+        "identifier": "getFilepathsForType",
+        "docstring": "Returns filepaths for images of sprites of the given type\n\nOUT:\n    dict",
+        "function_args": {
+          "args": [
+            "cls",
+            "type_"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__isld_1_transform_func",
+    "docstring": "A function which we use as a transform, updates the child",
+    "function_args": {
+      "args": [
+        "transform",
+        "st",
+        "at"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__isld_2_transform_func",
+    "docstring": "A function which we use as a transform, updates the child",
+    "function_args": {
+      "args": [
+        "transform",
+        "st",
+        "at"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__isld_3_transform_func",
+    "docstring": "A function which we use as a transform, updates the child",
+    "function_args": {
+      "args": [
+        "transform",
+        "st",
+        "at"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__isld_5_transform_func",
+    "docstring": "A function which we use as a transform, updates the child",
+    "function_args": {
+      "args": [
+        "transform",
+        "st",
+        "at"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_script0x2dislands0x2devent__chibi_transform_func",
+    "docstring": "A function which we use as a transform, updates the child",
+    "function_args": {
+      "args": [
+        "transform",
+        "st",
+        "at"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_play_thunder",
+    "docstring": "This is used in a transform to play the THUNDER sound effect",
+    "function_args": {
+      "args": [
+        "transform",
+        "st",
+        "at"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_living_room_entry",
@@ -912,15 +1816,15 @@
       "args": [
         "_old"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_living_room_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_living_room_exit",
@@ -929,15 +1833,15 @@
       "args": [
         "_new"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "register_room": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "register_room",
@@ -946,12 +1850,63 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_living_room_entry",
+    "docstring": "Entry pp for lr background",
+    "function_args": {
+      "args": [
+        "_old"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_living_room_exit",
+    "docstring": "Exit pp for lr background",
+    "function_args": {
+      "args": [
+        "_new"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "register_room",
+    "docstring": "Registers lr as a background object\n\nIN:\n    id_ - the id to register under\n\nOUT:\n    MASFilterableBackground",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

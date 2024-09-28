@@ -1,20 +1,35 @@
-{
-  "can_use_https": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "can_use_https",
     "docstring": "Checks if we can safely use https in general - this combines several\nchecks, mainly:\n    - ssl\n    - a cert\n\nNOTE: https can still be used with sites that do not require SSL verify\neven if no cert is found.\n\nRETURNS: True if https can be used.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "all_none": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "can_use_https",
+    "docstring": "Checks if we can safely use https in general - this combines several\nchecks, mainly:\n    - ssl\n    - a cert\n\nNOTE: https can still be used with sites that do not require SSL verify\neven if no cert is found.\n\nRETURNS: True if https can be used.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "all_none",
@@ -24,18 +39,18 @@
         "data",
         "lata"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "clean_gui_text": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "clean_gui_text",
@@ -44,15 +59,15 @@
       "args": [
         "text"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "eqfloat": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "eqfloat",
@@ -63,17 +78,17 @@
         "right",
         "places"
       ],
-      "pos_only_args": [],
       "defaults": [
         "6"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "truncround": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "truncround",
@@ -83,17 +98,17 @@
         "value",
         "places"
       ],
-      "pos_only_args": [],
       "defaults": [
         "6"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "floatcombine_i": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "floatcombine_i",
@@ -103,17 +118,17 @@
         "value",
         "places"
       ],
-      "pos_only_args": [],
       "defaults": [
         "6"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "floatsplit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "floatsplit",
@@ -122,15 +137,15 @@
       "args": [
         "value"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "floatsplit_i": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "floatsplit_i",
@@ -140,17 +155,17 @@
         "value",
         "places"
       ],
-      "pos_only_args": [],
       "defaults": [
         "6"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "pdget": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "pdget",
@@ -162,18 +177,18 @@
         "validator",
         "defval"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "td2hr": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "td2hr",
@@ -182,45 +197,45 @@
       "args": [
         "duration"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_localzone": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_localzone",
     "docstring": "Wrapper around tzlocal.get_localzone() that won't raise exceptions\n\nNOTE: this caches the timezone. Call reload_localzone() to gurantee\ntimezone is updated.\n\nRETURNS: pytz tzinfo object of the local time zone.\n    if system timezone info is configured wrong, then a special-MAS\n    version of a timezone is returned instead. This version works\n    like a static, unchanging timezone, using the time.timezone/altzone\n    values.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "reload_localzone": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "reload_localzone",
     "docstring": "Reloads the cached localzone.\n\nRETURNS: see get_localzone()",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "local_to_utc": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "local_to_utc",
@@ -230,17 +245,17 @@
         "local_dt",
         "latest"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "utc_to_any": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "utc_to_any",
@@ -250,15 +265,15 @@
         "utc_dt",
         "target_tz"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "utc_to_local": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "utc_to_local",
@@ -268,17 +283,17 @@
         "utc_dt",
         "latest"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "stdout_as": {
+  {
     "type": "function",
     "function_decorators": [
       "contextmanager"
@@ -289,15 +304,15 @@
       "args": [
         "outstream"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "tryparsedt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "tryparsedt",
@@ -308,18 +323,18 @@
         "default",
         "sep"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "' '"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_file_present": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_file_present",
@@ -328,15 +343,15 @@
       "args": [
         "filename"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "weightedChoice": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "weightedChoice",
@@ -345,15 +360,15 @@
       "args": [
         "choice_weight_tuple_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "tryparsefloat": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "tryparsefloat",
@@ -363,17 +378,17 @@
         "value",
         "default"
       ],
-      "pos_only_args": [],
       "defaults": [
         "0"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "bullet_list": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "bullet_list",
@@ -383,17 +398,17 @@
         "_list",
         "bullet"
       ],
-      "pos_only_args": [],
       "defaults": [
         "'  -'"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "nested_defaultdict": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "nested_defaultdict",
@@ -403,18 +418,18 @@
         "final_factory",
         "levels"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "1"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "add_years": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "add_years",
@@ -424,15 +439,15 @@
         "initial_date",
         "years"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "add_months": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "add_months",
@@ -442,15 +457,15 @@
         "starting_date",
         "months"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "sod": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "sod",
@@ -458,15 +473,15 @@
       "args": [
         "starting_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "mdnt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "mdnt",
@@ -475,15 +490,15 @@
       "args": [
         "starting_date"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "am3": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "am3",
@@ -492,30 +507,30 @@
       "args": [
         "_datetime"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "secInDay": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "secInDay",
     "docstring": "RETURNS: number of seconds in a day",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "time2sec": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "time2sec",
@@ -524,15 +539,15 @@
       "args": [
         "_time"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "fli_indk": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "fli_indk",
@@ -542,15 +557,15 @@
         "lst",
         "d"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "insert_sort": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "insert_sort",
@@ -561,15 +576,15 @@
         "item",
         "key"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "insert_sort_compare": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "insert_sort_compare",
@@ -580,15 +595,15 @@
         "item",
         "cmp_func"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "insert_sort_keyless": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "insert_sort_keyless",
@@ -598,15 +613,15 @@
         "sort_list",
         "item"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "normalize_points": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "normalize_points",
@@ -617,17 +632,17 @@
         "offsets",
         "add"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "nz_count": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "nz_count",
@@ -636,15 +651,15 @@
       "args": [
         "value_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "ev_distribute": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "ev_distribute",
@@ -655,17 +670,17 @@
         "amt",
         "nz"
       ],
-      "pos_only_args": [],
       "defaults": [
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "fz_distribute": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "fz_distribute",
@@ -674,15 +689,15 @@
       "args": [
         "value_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "ip_distribute": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "ip_distribute",
@@ -692,15 +707,15 @@
         "value_list",
         "amt_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "lo_distribute": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "lo_distribute",
@@ -712,18 +727,18 @@
         "reverse",
         "nz"
       ],
-      "pos_only_args": [],
       "defaults": [
         "False",
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_EVgenY": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_EVgenY",
@@ -735,15 +750,15 @@
         "current",
         "for_start"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "randomblob": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "randomblob",
@@ -753,17 +768,17 @@
         "size",
         "seed"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "randomblob_fast": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "randomblob_fast",
@@ -772,15 +787,15 @@
       "args": [
         "size"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "intersperse": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "intersperse",
@@ -790,15 +805,15 @@
         "_list",
         "_sep"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "log_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "log_entry",
@@ -808,15 +823,15 @@
         "entry_log",
         "value"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "ISCRAM": {
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "ISCRAM",
@@ -825,7 +840,7 @@
     ],
     "class_functions": []
   },
-  "FSCRAM": {
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "FSCRAM",
@@ -834,7 +849,7 @@
     ],
     "class_functions": []
   },
-  "_ntoub": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ntoub",
@@ -844,15 +859,15 @@
         "num",
         "bsize"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_itoIS": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_itoIS",
@@ -861,15 +876,15 @@
       "args": [
         "num"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_IStoi": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_IStoi",
@@ -878,15 +893,15 @@
       "args": [
         "packednum"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_ftoFS": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ftoFS",
@@ -895,15 +910,15 @@
       "args": [
         "num"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_FStof": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_FStof",
@@ -912,15 +927,15 @@
       "args": [
         "packednum"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_splitfloat": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_splitfloat",
@@ -929,15 +944,15 @@
       "args": [
         "num"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "sanitize_filename": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "sanitize_filename",
@@ -946,12 +961,12 @@
       "args": [
         "s"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

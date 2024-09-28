@@ -1,5 +1,5 @@
-{
-  "writeLog": {
+[
+  {
     "type": "function",
     "function_decorators": [
       "store.mas_utils.deprecated(use_instead='submod_log.debug, submod_log.info, submod_log.warning, submod_log.error, submod_log.exception')"
@@ -10,15 +10,15 @@
       "args": [
         "msg"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "SubmodError": {
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "SubmodError",
@@ -35,10 +35,10 @@
             "self",
             "_msg"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -51,17 +51,17 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "Submod": {
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "Submod",
@@ -87,7 +87,6 @@
             "version_updates",
             "coauthors"
           ],
-          "pos_only_args": [],
           "defaults": [
             "None",
             "{}",
@@ -95,8 +94,9 @@
             "{}",
             "[]"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -110,10 +110,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -127,10 +127,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -144,10 +144,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -162,10 +162,10 @@
             "self",
             "version"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -180,10 +180,10 @@
             "self",
             "comparative_vers"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -197,10 +197,10 @@
         "docstring": "Checks if submods have updated and sets the appropriate update scripts for them to run",
         "function_args": {
           "args": [],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -214,10 +214,10 @@
         "docstring": "Checks to see if the dependencies for this submod are met",
         "function_args": {
           "args": [],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -233,17 +233,17 @@
           "args": [
             "name"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "isSubmodInstalled": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isSubmodInstalled",
@@ -253,17 +253,281 @@
         "name",
         "version"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "functionplugin": {
+  {
+    "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated(use_instead='submod_log.debug, submod_log.info, submod_log.warning, submod_log.error, submod_log.exception')"
+    ],
+    "identifier": "writeLog",
+    "docstring": "Writes to the submod log if it is open\n\nIN:\n    msg - message to write to log",
+    "function_args": {
+      "args": [
+        "msg"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "SubmodError",
+    "class_bases": [
+      "Exception"
+    ],
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "function_args": {
+          "args": [
+            "self",
+            "_msg"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__str__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "Submod",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Submod class\n\nPROPERTIES:\n    author - submod author\n    name - submod name\n    version - version of the submod installed\n    description - submod description\n    dependencies - dependencies required for the submod\n    settings_pane - string referring to the screen used for the submod's settings\n    version_updates - update labels",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Submod object constructor\n\nIN:\n    author - string, author name.\n\n    name - submod name\n\n    version - version number in format SPECIFICALLY like so: `1.2.3`\n        (You can add more or less as need be, but splits MUST be made using periods)\n\n    description - a short description for the submod\n        (Default: None)\n\n    dependencies - dictionary in the following structure: {\"name\": (\"minimum_version\", \"maximum_version\")}\n    corresponding to the needed submod name and version required\n    NOTE: versions must be passed in the same way as the version property is done\n        (Default: empty dict)\n\n    settings_pane - a string representing the screen for this submod's settings\n\n    version_updates - dict of the format {\"old_version_update_label_name\": \"new_version_update_label_name\"}\n        NOTE: submods MUST use the format <author>_<name>_v<version> for update labels relating to their submods\n        NOTE: capital letters will be forced to lower and spaces will be replaced with underscores\n        NOTE: Update labels MUST accept a version parameter, defaulted to the version of the label\n        For example:\n            author name: MonikaAfterStory,\n            submod name: Example Submod\n            submod vers: 1.2.3\n\n        becomes:\n            label monikaafterstory_example_submod_v1_2_3(version=\"v1_2_3\")\n\n    coauthors - list/tuple of co-authors of this submod\n        (Default: empty list)",
+        "function_args": {
+          "args": [
+            "self",
+            "author",
+            "name",
+            "version",
+            "description",
+            "dependencies",
+            "settings_pane",
+            "version_updates",
+            "coauthors"
+          ],
+          "defaults": [
+            "None",
+            "{}",
+            "None",
+            "{}",
+            "[]"
+          ],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__repr__",
+        "docstring": "Representation of this object",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "getVersionNumberList",
+        "docstring": "Gets the version number as a list of integers\n\nOUT:\n    List of integers representing the version number",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "hasUpdated",
+        "docstring": "Checks if this submod instance was updated (version number has incremented)\n\nOUT:\n    boolean:\n        - True if the version number has incremented from the persistent one\n        - False otherwise",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "updateFrom",
+        "docstring": "Updates the submod, starting at the given start version\n\nIN:\n    version - the version number in the parsed format ('author_name_v#_#_#')",
+        "function_args": {
+          "args": [
+            "self",
+            "version"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "checkVersions",
+        "docstring": "Generic version checker for submods\n\nIN:\n    curr_vers - current installed version of the submod as a list\n    comparative_vers - the version we're comparing to (or need the current version to be at or greater than) as a list\n\nOUT:\n    integer:\n        - (-1) if the current version number is less than the comparitive version\n        - 0 if the current version is the same as the comparitive version\n        - 1 if the current version is greater than the comparitive version",
+        "function_args": {
+          "args": [
+            "self",
+            "comparative_vers"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "staticmethod"
+        ],
+        "identifier": "_checkUpdates",
+        "docstring": "Checks if submods have updated and sets the appropriate update scripts for them to run",
+        "function_args": {
+          "args": [],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "staticmethod"
+        ],
+        "identifier": "_checkDependencies",
+        "docstring": "Checks to see if the dependencies for this submod are met",
+        "function_args": {
+          "args": [],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [
+          "staticmethod"
+        ],
+        "identifier": "_getSubmod",
+        "docstring": "Gets the submod with the name provided\n\nIN:\n    name - name of the submod to get\n\nOUT:\n    Submod object representing the submod by name if installed and registered\n    None if not found",
+        "function_args": {
+          "args": [
+            "name"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isSubmodInstalled",
+    "docstring": "Checks if a submod with `name` is installed\n\nIN:\n    name - name of the submod to check for\n    version - if a specific version (or greater) is installed\n    (NOTE: if None, this is ignored. Default: None)\n\nOUT:\n    boolean:\n        - True if submod with name is installed\n        - False otherwise",
+    "function_args": {
+      "args": [
+        "name",
+        "version"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "functionplugin",
@@ -275,19 +539,19 @@
         "auto_error_handling",
         "priority"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "True",
         "0"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getAndRunFunctions": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getAndRunFunctions",
@@ -296,17 +560,17 @@
       "args": [
         "key"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "registerFunction": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "registerFunction",
@@ -319,19 +583,19 @@
         "auto_error_handling",
         "priority"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "True",
         "DEF_PRIORITY"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_submods__getArgs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_submods__getArgs",
@@ -341,15 +605,15 @@
         "key",
         "_function"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getArgs": {
+  {
     "type": "function",
     "function_decorators": [
       "mas_utils.deprecated(use_instead='functools.partial', use_instead_msg_fmt=\"Wrap your callable in '{use_instead}' to provide it args/kwargs.\")"
@@ -361,15 +625,15 @@
         "key",
         "_function"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "setArgs": {
+  {
     "type": "function",
     "function_decorators": [
       "mas_utils.deprecated(use_instead='functools.partial', use_instead_msg_fmt=\"Wrap your callable in '{use_instead}' to provide it args/kwargs.\")"
@@ -382,17 +646,17 @@
         "_function",
         "args"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "unregisterFunction": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "unregisterFunction",
@@ -402,15 +666,15 @@
         "key",
         "_function"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_submods__prioritySort": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_submods__prioritySort",
@@ -419,15 +683,15 @@
       "args": [
         "_label"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_m1_zz_submods__getOverrideLabel": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_m1_zz_submods__getOverrideLabel",
@@ -436,12 +700,193 @@
       "args": [
         "_label"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "functionplugin",
+    "docstring": "Decorator function to register a plugin\n\nThe same as registerFunction. See its doc for parameter details",
+    "function_args": {
+      "args": [
+        "_label",
+        "_args",
+        "auto_error_handling",
+        "priority"
+      ],
+      "defaults": [
+        "None",
+        "True",
+        "0"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getAndRunFunctions",
+    "docstring": "Gets and runs functions within the key provided\n\nIN:\n    key - Key to retrieve and run functions from",
+    "function_args": {
+      "args": [
+        "key"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "registerFunction",
+    "docstring": "Registers a function to the function_plugins dict\n\nNOTE: Does NOT allow overwriting of existing functions in the dict\nNOTE: Function must be callable\nNOTE: Functions run when a label matching the key for the function is:\n    called, jumped, or fallen through to.\n    Or if plugged into a function, when a function by the name of the key calls getAndRunFunctions\nNOTE: If you need to provide args/kwargs to the function,\n    wrap it into functools.partial\n\nIN:\n    key - key to add the function to.\n        NOTE: The key is either a label, or a function name\n        NOTE: Function names only work if the function contains a getAndRunFunctions call.\n            Without it, it does nothing.\n    _function - function to register\n    auto_error_handling - whether or function plugins should ignore errors in functions\n        (Set this to False for functions which call or jump)\n    priority - Order priority to run functions\n        (Like init levels, the lower the number, the earlier it runs)\n\nOUT:\n    boolean:\n        - True if the function was registered successfully\n        - False otherwise",
+    "function_args": {
+      "args": [
+        "key",
+        "_function",
+        "args",
+        "auto_error_handling",
+        "priority"
+      ],
+      "defaults": [
+        "None",
+        "True",
+        "DEF_PRIORITY"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_submods__getArgs",
+    "docstring": "TODO: remove this with r8\nGets args for the given function at the given key\n\nIN:\n    key - key to retrieve the function from\n    _function - function to retrieve args from\n\nOUT:\n    list of args if the function is present\n    If function is not present, None is returned",
+    "function_args": {
+      "args": [
+        "key",
+        "_function"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "mas_utils.deprecated(use_instead='functools.partial', use_instead_msg_fmt=\"Wrap your callable in '{use_instead}' to provide it args/kwargs.\")"
+    ],
+    "identifier": "getArgs",
+    "docstring": "Gets args for the given function at the given key\n\nIN:\n    key - key to retrieve the function from\n    _function - function to retrieve args from\n\nOUT:\n    list of args if the function is present\n    If function is not present, None is returned",
+    "function_args": {
+      "args": [
+        "key",
+        "_function"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "mas_utils.deprecated(use_instead='functools.partial', use_instead_msg_fmt=\"Wrap your callable in '{use_instead}' to provide it args/kwargs.\")"
+    ],
+    "identifier": "setArgs",
+    "docstring": "Sets args for the given function at the key\n\nIN:\n    key - key that the function's function dict is stored in\n    _function - function to set the args\n\nOUT:\n    boolean:\n        - True if args were set successfully\n        - False if not",
+    "function_args": {
+      "args": [
+        "key",
+        "_function",
+        "args"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "unregisterFunction",
+    "docstring": "Unregisters a function from the function_plugins dict\n\nIN:\n    key - key the function we want to unregister is in\n    _function - function we want to unregister\n\nOUT:\n    boolean:\n        - True if function was unregistered successfully\n        - False otherwise",
+    "function_args": {
+      "args": [
+        "key",
+        "_function"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_submods__prioritySort",
+    "docstring": "Sorts function plugins based on the priority order system\n\nIN:\n    _label - label to sort functions by priority for\n\nOUT:\n    sorted list of (_function, data_tuple) tuples\n\nNOTE: This assumes that the label exists in the function_plugins dict",
+    "function_args": {
+      "args": [
+        "_label"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_m1_zz_submods__getOverrideLabel",
+    "docstring": "Gets the override label for the given label (will follow the chain if overrides are overridden)\n\nIN:\n    _label - label to get the override label for\n\nOUT:\n    string representing the last label in the override chain or _label if there are no overrides",
+    "function_args": {
+      "args": [
+        "_label"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

@@ -1,47 +1,92 @@
-{
-  "_auto_mode_toggle": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_auto_mode_toggle",
     "docstring": "Handles the toggling of fields so the menu options become mutually exclusive",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_dark_mode_toggle": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_dark_mode_toggle",
     "docstring": "Handles the toggling of fields so the menu options become mutually exclusive",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_ui_change_wrapper": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ui_change_wrapper",
     "docstring": "Wrapper around UI changes\n\nIN:\n    *args - values to pass to dark mode",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": "args"
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_auto_mode_toggle",
+    "docstring": "Handles the toggling of fields so the menu options become mutually exclusive",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_dark_mode_toggle",
+    "docstring": "Handles the toggling of fields so the menu options become mutually exclusive",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_ui_change_wrapper",
+    "docstring": "Wrapper around UI changes\n\nIN:\n    *args - values to pass to dark mode",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "args"
     }
   }
-}
+]

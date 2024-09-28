@@ -93,10 +93,10 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
 
     data["function_args"] = {
         "args": [arg.arg for arg in struct[1].args],
-        "pos_only_args": [arg.arg for arg in struct[1].posonlyargs],
         "defaults": [ast.unparse(_def) for _def in struct[1].defaults],
-        "kw_defaults": [ast.unparse(_def) for _def in struct[1].kw_defaults],
+        "pos_only_args": [arg.arg for arg in struct[1].posonlyargs],
         "kw_only_args": [arg.arg for arg in struct[1].kwonlyargs],
+        "kw_defaults": [ast.unparse(_def) for _def in struct[1].kw_defaults],
         "kw_arg": struct[1].kwarg.arg if struct[1].kwarg is not None else None,
         "var_arg": struct[1].vararg.arg if struct[1].vararg is not None else None
     }
@@ -106,7 +106,7 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
 
 # Python parsing
 
-def extract_docs(path: Path) -> Dict[str, DocDict]:
+def extract_docs(path: Path) -> List[DocDict]:
     """Parses Python code at given path and returns dictionary of documented
        members (identifier -> doc dict)."""
 
@@ -118,23 +118,20 @@ def extract_docs(path: Path) -> Dict[str, DocDict]:
     src_text = convert_octal_literals(src_text)
 
     src_ast = ast.parse(src_text, filename=path)
-    doc_dicts: Dict[str, DocDict] = {}
+    doc_dicts: List[DocDict] = []
 
     for node in src_ast.body:
-        doc_type: str | None = None
         doc_dict: DocDict | None = None
 
         if isinstance(node, ast.FunctionDef):
             st = decompose_func(node)
             doc_dict = export_func_doc(st)
-            doc_type = st[0]
         elif isinstance(node, ast.ClassDef):
             st = decompose_class(node)
             doc_dict = export_class_doc(st)
-            doc_type = st[0]
 
-        if doc_type is not None and doc_dict is not None:
-            doc_dicts[doc_type] = doc_dict
+        if doc_dict is not None:
+            doc_dicts.append(doc_dict)
 
     return doc_dicts
 

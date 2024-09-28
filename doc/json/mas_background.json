@@ -1,5 +1,5 @@
-{
-  "MASBackgroundChangeInfo": {
+[
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASBackgroundChangeInfo",
@@ -19,13 +19,13 @@
             "hides",
             "shows"
           ],
-          "pos_only_args": [],
           "defaults": [
             "None",
             "None"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -39,10 +39,10 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -55,107 +55,107 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "build": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "build",
     "docstring": "Builds all background objects using current time settings.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "buildupdate": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "buildupdate",
     "docstring": "Builds all background objects and updates current time settings.\nThis properly saves prev_flt.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "default_MBGFM": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "default_MBGFM",
     "docstring": "Generates a MASBackgroundFilterManager using the default\n(aka pre0.11.3) settings.\n\nRETURNS: MASBackgroundFilterManager object",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "loadMBGData": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "loadMBGData",
     "docstring": "Loads persistent MASBackground data into the weather map\n\nASSUMES: background map is already filled",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "saveMBGData": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "saveMBGData",
     "docstring": "Saves MASBackground data from bg map into persistent",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getUnlockedBGCount": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getUnlockedBGCount",
     "docstring": "Gets the number of unlocked backgrounds",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "hasXUnlockedBGs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "hasXUnlockedBGs",
@@ -164,15 +164,15 @@
       "args": [
         "min_amt_unlocked"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getBackground": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getBackground",
@@ -181,15 +181,15 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_toggleBackgroundUnlock": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_toggleBackgroundUnlock",
@@ -199,15 +199,15 @@
         "id_",
         "value"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "unlockBackground": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "unlockBackground",
@@ -216,15 +216,15 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "lockBackground": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "lockBackground",
@@ -233,15 +233,15 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "isBackgroundUnlocked": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "isBackgroundUnlocked",
@@ -250,15 +250,15 @@
       "args": [
         "id_"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "log_bg": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "log_bg",
@@ -268,17 +268,296 @@
         "bg_obj",
         "exc_info"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "run_gbl_flt_change": {
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASBackgroundChangeInfo",
+    "class_bases": [
+      "object"
+    ],
+    "docstring": "Encapsulation class that knows the information needed for a bg change\nto go smoothly.\n\nPROPERTIES:\n    hides - dict:\n        key: image tag (override)\n        value: MASAdvancedDecoFrame to hide\n    shows - dict:\n        key: image tag (override)\n        value: tuple:\n            [0] - image tag (actual)\n            [1] - MASAdvancedDecoFrame to show",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Constructor\n\nIN:\n    hides - dict of image tags and MASAdvancedDecoFrames to\n        hide in the dissolve\n        (Default: None)\n    shows - dict of image tags and MASAdvancedDecoFrames to\n        show in the dissolve\n        (Default: None)",
+        "function_args": {
+          "args": [
+            "self",
+            "hides",
+            "shows"
+          ],
+          "defaults": [
+            "None",
+            "None"
+          ],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__repr__",
+        "docstring": "Returns description of this object",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__len__",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "build",
+    "docstring": "Builds all background objects using current time settings.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "buildupdate",
+    "docstring": "Builds all background objects and updates current time settings.\nThis properly saves prev_flt.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "default_MBGFM",
+    "docstring": "Generates a MASBackgroundFilterManager using the default\n(aka pre0.11.3) settings.\n\nRETURNS: MASBackgroundFilterManager object",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "loadMBGData",
+    "docstring": "Loads persistent MASBackground data into the weather map\n\nASSUMES: background map is already filled",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "saveMBGData",
+    "docstring": "Saves MASBackground data from bg map into persistent",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getUnlockedBGCount",
+    "docstring": "Gets the number of unlocked backgrounds",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "hasXUnlockedBGs",
+    "docstring": "Checks if we have at least min_amt_unlocked bgs unlocked\n\nIN:\n    min_amt_unlocked - minimum number of BGs which should be unlocked to return true\n\nOUT:\n    True if we have at least min_amt_unlocked BGs unlocked, False otherwise",
+    "function_args": {
+      "args": [
+        "min_amt_unlocked"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getBackground",
+    "docstring": "Returns a bg object\n\nIN:\n    id_ - str - background id\n\nOUT:\n    background object\n    or None if not found",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_toggleBackgroundUnlock",
+    "docstring": "Locks/unlocks a bg\n\nIN:\n    id_ - str - background id\n    value - bool - the value for the unlocked field",
+    "function_args": {
+      "args": [
+        "id_",
+        "value"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "unlockBackground",
+    "docstring": "Unlocks a bg\n\nIN:\n    id_ - str - background id",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "lockBackground",
+    "docstring": "Locks a bg\n\nIN:\n    id_ - str - background id",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "isBackgroundUnlocked",
+    "docstring": "Checks if a background is unlocked\n\nIN:\n    id_ - str - background id\n\nOUT:\n    boolean",
+    "function_args": {
+      "args": [
+        "id_"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "log_bg",
+    "docstring": "Logs the given BG object to standard bg log\n\nIN:\n    bg_obj - bg object to log\n    exc_info - exception info. Should be tuple:\n        [0] - exception type\n        [1] - exception value\n        [2] - traceback\n        (Default: None)",
+    "function_args": {
+      "args": [
+        "bg_obj",
+        "exc_info"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "run_gbl_flt_change",
@@ -289,15 +568,15 @@
         "new_flt",
         "curr_time"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_gbl_flt_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_gbl_flt_change",
@@ -308,15 +587,15 @@
         "new_flt",
         "curr_time"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_gbl_chunk_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_gbl_chunk_change",
@@ -327,15 +606,15 @@
         "new_chunk",
         "curr_time"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_def_background_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_def_background_entry",
@@ -344,15 +623,15 @@
       "args": [
         "_old"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_def_background_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_def_background_exit",
@@ -361,12 +640,103 @@
       "args": [
         "_new"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "run_gbl_flt_change",
+    "docstring": "Runs global filter change progpoint, logging for errors\n\nIN:\n    See _gbl_flt_change",
+    "function_args": {
+      "args": [
+        "old_flt",
+        "new_flt",
+        "curr_time"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_gbl_flt_change",
+    "docstring": "Runs when a filter change occurs\n\nIN:\n    old_flt - outgoing filter. Will be None on startup.\n    new_flt - incoming filter.\n    curr_time - current time as datetime.time",
+    "function_args": {
+      "args": [
+        "old_flt",
+        "new_flt",
+        "curr_time"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_gbl_chunk_change",
+    "docstring": "Runs when a chunk change occurs\n\nIN:\n    old_chunk - outgoing chunk, will be None on startup\n    new_flt - incoming chunk\n    curr_time - current time as datetime.time",
+    "function_args": {
+      "args": [
+        "old_chunk",
+        "new_chunk",
+        "curr_time"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_def_background_entry",
+    "docstring": "Entry programming point for default background",
+    "function_args": {
+      "args": [
+        "_old"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_def_background_exit",
+    "docstring": "Exit programming point for default background",
+    "function_args": {
+      "args": [
+        "_new"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   }
-}
+]

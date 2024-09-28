@@ -1,5 +1,5 @@
-{
-  "getMoodType": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getMoodType",
@@ -8,12 +8,29 @@
       "args": [
         "mood_label"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getMoodType",
+    "docstring": "Gets the mood type for the given mood label\n\nIN:\n    mood_label - label of a mood\n\nRETURNS:\n    type of the mood, or None if no type found",
+    "function_args": {
+      "args": [
+        "mood_label"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

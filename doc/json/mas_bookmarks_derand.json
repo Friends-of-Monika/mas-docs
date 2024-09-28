@@ -1,20 +1,20 @@
-{
-  "resetDefaultValues": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "resetDefaultValues",
     "docstring": "Resets the globals to their default values",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getLabelPrefix": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getLabelPrefix",
@@ -23,30 +23,30 @@
       "args": [
         "test_str"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "getDerandomedEVLs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "getDerandomedEVLs",
     "docstring": "Gets a list of derandomed eventlabels\n\nOUT:\n    list of derandomed eventlabels",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "shouldRandom": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "shouldRandom",
@@ -55,15 +55,15 @@
       "args": [
         "eventlabel"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "wrappedGainAffection": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "wrappedGainAffection",
@@ -74,19 +74,19 @@
         "modifier",
         "bypass"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "1.0",
         "False"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "removeDerand": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "removeDerand",
@@ -95,12 +95,116 @@
       "args": [
         "eventlabel"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "resetDefaultValues",
+    "docstring": "Resets the globals to their default values",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getLabelPrefix",
+    "docstring": "Checks if test_str starts with anything in the list of prefixes, and if so, returns the matching prefix\n\nIN:\n    test_str - string to test\n\nOUT:\n    string:\n        - label_prefix if test_string starts with a prefix in list_prefixes\n        - empty string otherwise",
+    "function_args": {
+      "args": [
+        "test_str"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "getDerandomedEVLs",
+    "docstring": "Gets a list of derandomed eventlabels\n\nOUT:\n    list of derandomed eventlabels",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "shouldRandom",
+    "docstring": "Checks if we should random the given eventlabel\nThis is determined by whether or not the event is in any derandom list\n\nIN:\n    eventlabel to check if we should random_seen\n\nOUT:\n    boolean: True if we should random this event, False otherwise",
+    "function_args": {
+      "args": [
+        "eventlabel"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "wrappedGainAffection",
+    "docstring": "Wrapper function for mas_gainAffection which allows it to be used in event rules at init 5\n\nSee mas_gainAffection for documentation",
+    "function_args": {
+      "args": [
+        "amount",
+        "modifier",
+        "bypass"
+      ],
+      "defaults": [
+        "None",
+        "1.0",
+        "False"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "removeDerand",
+    "docstring": "Removes a derandomed eventlabel from ALL derandom dbs\n\nIN:\n    eventlabel - Eventlabel to remove",
+    "function_args": {
+      "args": [
+        "eventlabel"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

@@ -1,20 +1,20 @@
-{
-  "allowdismiss": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "allowdismiss",
     "docstring": "Justreturns current state of no_dismiss",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "set_dismiss": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "set_dismiss",
@@ -23,12 +23,44 @@
       "args": [
         "value"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "allowdismiss",
+    "docstring": "Justreturns current state of no_dismiss",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "set_dismiss",
+    "docstring": "Sets dismiss to the given value, if it is not locked.\n\nIN:\n    value - True will allow dismiss, False will not",
+    "function_args": {
+      "args": [
+        "value"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

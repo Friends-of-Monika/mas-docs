@@ -1,5 +1,5 @@
-{
-  "ACSTemplate": {
+[
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "ACSTemplate",
@@ -21,14 +21,14 @@
             "ex_props",
             "keep_on_desk"
           ],
-          "pos_only_args": [],
           "defaults": [
             "None",
             "None",
             "None"
           ],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -43,10 +43,10 @@
             "self",
             "acs"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -61,10 +61,10 @@
             "self",
             "acs"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -79,10 +79,10 @@
             "self",
             "acs"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -97,17 +97,17 @@
             "self",
             "acs"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "apply_ACSTemplate": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "apply_ACSTemplate",
@@ -116,30 +116,30 @@
       "args": [
         "acs"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "apply_ACSTemplates": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "apply_ACSTemplates",
     "docstring": "RUNTIME ONLY\n        Applies all templates to the available ACS.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_ACSTemplate": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_ACSTemplate",
@@ -148,15 +148,15 @@
       "args": [
         "acs"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_ACSTemplate_by_type": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_ACSTemplate_by_type",
@@ -165,15 +165,15 @@
       "args": [
         "acs_type"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "add_filter": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "add_filter",
@@ -184,17 +184,17 @@
         "imx",
         "base"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_decide_filter": {
+  {
     "type": "function",
     "function_decorators": [
       "store.mas_utils.deprecated(use_instead='get_filter', should_raise=True)"
@@ -203,30 +203,30 @@
     "docstring": "DEPRECATED\n        Please use get_filter",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_filter": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_filter",
     "docstring": "Returns the current filter\n\nRETURNS: filter to use",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_filter": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_filter",
@@ -235,15 +235,15 @@
       "args": [
         "flt"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rslv_flt": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rslv_flt",
@@ -252,15 +252,15 @@
       "args": [
         "flt"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "set_filter": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "set_filter",
@@ -269,15 +269,15 @@
       "args": [
         "flt_enum"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_test_filter": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_test_filter",
@@ -286,15 +286,136 @@
       "args": [
         "flt_enum"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "alt_bcode": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "add_filter",
+    "docstring": "Adds a filter to the global filters\nYou can also use this to override built-in filters.\n\nNOTE: if you plan to use this, please use it before init level -1\nFilters beyond this level will be ignored.\n\nNOn-pythonable filter names are ignored\n\nIN:\n    flt_enum - enum key to use as a filter.\n    imx - image matrix to use as filter\n    base - filter to use as a backup for this filter. Any images\n        that are unable to be shown for flt_enum will be revert to\n        the base filter.\n        This should also be a FLT_ENUM.\n        This is checked to make sure it is a valid, preexisting enum,\n        so if chaining multiple bases, add them in order.\n        If None, no base is given for the flt.\n        (Default: None)",
+    "function_args": {
+      "args": [
+        "flt_enum",
+        "imx",
+        "base"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [
+      "store.mas_utils.deprecated(use_instead='get_filter', should_raise=True)"
+    ],
+    "identifier": "_decide_filter",
+    "docstring": "DEPRECATED\n        Please use get_filter",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "get_filter",
+    "docstring": "Returns the current filter\n\nRETURNS: filter to use",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "is_filter",
+    "docstring": "Checks if the given filter is a valid filter\n\nIN:\n    flt - filter enum to check\n\nRETURNS: True if valid filter, False if not",
+    "function_args": {
+      "args": [
+        "flt"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rslv_flt",
+    "docstring": "Gets base filter for a flt.\n\nIN:\n    flt - flt to get base filter for\n\nRETURNS: base flt for flt, or the flt itself if no base",
+    "function_args": {
+      "args": [
+        "flt"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "set_filter",
+    "docstring": "Sets the current filter if it is valid.\nInvalid filters are ignored.\n\nIN:\n    flt_enum - filter to set",
+    "function_args": {
+      "args": [
+        "flt_enum"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_test_filter",
+    "docstring": "Checks if this filter enum can be a filter enum.\n\nLogs to mas log if there are errors\n\nIN:\n    flt_enum - filter enum to test\n\nRETURNS: True if passed test, False if not",
+    "function_args": {
+      "args": [
+        "flt_enum"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "alt_bcode",
@@ -305,15 +426,15 @@
         "prefix",
         "inc_night"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "alt_hsplit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "alt_hsplit",
@@ -324,60 +445,60 @@
         "prefix",
         "inc_night"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "adjust_zoom": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "adjust_zoom",
     "docstring": "Sets the value zoom to an appropraite amoutn based on the current\nzoom level.\nNOTE: also sets the persistent save for zoom",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "reset_zoom": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "reset_zoom",
     "docstring": "Resets the zoom to the default value\nNOTE: also set sthe persistent save for zoom",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "zoom_out": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "zoom_out",
     "docstring": "zooms out to the farthest zoom level\nNOTE: also sets the persistent save for zoom",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "tryparsehair": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "tryparsehair",
@@ -387,17 +508,17 @@
         "_hair",
         "default"
       ],
-      "pos_only_args": [],
       "defaults": [
         "'def'"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "tryparseclothes": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "tryparseclothes",
@@ -407,17 +528,17 @@
         "_clothes",
         "default"
       ],
-      "pos_only_args": [],
       "defaults": [
         "'def'"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_genLK": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_genLK",
@@ -426,15 +547,15 @@
       "args": [
         "keys"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_uprightpose": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_uprightpose",
@@ -442,15 +563,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_lean": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_lean",
@@ -458,15 +579,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_leaningpose": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_leaningpose",
@@ -474,15 +595,15 @@
       "args": [
         "val"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_pose": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_pose",
@@ -491,17 +612,17 @@
         "val",
         "allow_none"
       ],
-      "pos_only_args": [],
       "defaults": [
         "True"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_lean_mode": {
+  {
     "type": "function",
     "function_decorators": [
       "store.mas_utils.deprecated(should_raise=True)"
@@ -513,15 +634,15 @@
         "sprite_list",
         "lean"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "face_lean_mode": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "face_lean_mode",
@@ -530,15 +651,15 @@
       "args": [
         "lean"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "create_remover": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "create_remover",
@@ -549,15 +670,15 @@
         "group",
         "mux_types"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_acs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_acs",
@@ -566,15 +687,15 @@
       "args": [
         "acs_name"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_acs_of_type": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_acs_of_type",
@@ -583,15 +704,15 @@
       "args": [
         "acs_type"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "init_acs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "init_acs",
@@ -600,15 +721,15 @@
       "args": [
         "mas_acs"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "init_hair": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "init_hair",
@@ -617,15 +738,15 @@
       "args": [
         "mas_hair"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "init_clothes": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "init_clothes",
@@ -634,15 +755,15 @@
       "args": [
         "mas_cloth"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "rm_acs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "rm_acs",
@@ -651,15 +772,15 @@
       "args": [
         "acs"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "lock_exprop_topics": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "lock_exprop_topics",
@@ -668,15 +789,15 @@
       "args": [
         "exprop"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "lock_acstype_topics": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "lock_acstype_topics",
@@ -685,15 +806,15 @@
       "args": [
         "acs_type"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "unlock_exprop_topics": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "unlock_exprop_topics",
@@ -702,15 +823,15 @@
       "args": [
         "exprop"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "unlock_acstype_topics": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "unlock_acstype_topics",
@@ -719,15 +840,15 @@
       "args": [
         "acs_type"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "should_disable_lean": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "should_disable_lean",
@@ -738,45 +859,45 @@
         "arms",
         "character"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "build_loc": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "build_loc",
     "docstring": "RETURNS location string for the sprite",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "build_loc_val": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "build_loc_val",
     "docstring": "RETURNS location tuple for a sprite",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_sprite",
@@ -786,15 +907,15 @@
         "sprite_type",
         "sprite_name"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_installed_sprites": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_installed_sprites",
@@ -804,17 +925,17 @@
         "sprite_type",
         "predicate"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_installed_acs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_installed_acs",
@@ -823,17 +944,17 @@
       "args": [
         "predicate"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_installed_hair": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_installed_hair",
@@ -842,17 +963,17 @@
       "args": [
         "predicate"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "get_installed_clothes": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_installed_clothes",
@@ -861,17 +982,17 @@
       "args": [
         "predicate"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_rm_exit_pre_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "acs_rm_exit_pre_change",
@@ -883,15 +1004,15 @@
         "rm_acs",
         "acs_loc"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_rm_exit_pst_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "acs_rm_exit_pst_change",
@@ -903,15 +1024,15 @@
         "rm_acs",
         "acs_loc"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_rm_exit_pst_removal": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "acs_rm_exit_pst_removal",
@@ -923,15 +1044,15 @@
         "rm_acs",
         "acs_loc"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_wear_mux_pre_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "acs_wear_mux_pre_change",
@@ -943,15 +1064,15 @@
         "new_acs",
         "acs_loc"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_wear_mux_pst_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "acs_wear_mux_pst_change",
@@ -963,15 +1084,15 @@
         "new_acs",
         "acs_loc"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_wear_entry_pre_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "acs_wear_entry_pre_change",
@@ -983,15 +1104,15 @@
         "new_acs",
         "acs_loc"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "acs_wear_entry_pst_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "acs_wear_entry_pst_change",
@@ -1003,15 +1124,15 @@
         "new_acs",
         "acs_loc"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "clothes_exit_pre_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "clothes_exit_pre_change",
@@ -1023,15 +1144,15 @@
         "prev_cloth",
         "new_cloth"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "clothes_exit_pst_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "clothes_exit_pst_change",
@@ -1043,15 +1164,15 @@
         "prev_cloth",
         "new_cloth"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "clothes_entry_pre_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "clothes_entry_pre_change",
@@ -1063,15 +1184,15 @@
         "prev_cloth",
         "new_cloth"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "clothes_entry_pst_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "clothes_entry_pst_change",
@@ -1083,15 +1204,15 @@
         "prev_cloth",
         "new_cloth"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "hair_exit_pre_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "hair_exit_pre_change",
@@ -1103,15 +1224,15 @@
         "prev_hair",
         "new_hair"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "hair_exit_pst_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "hair_exit_pst_change",
@@ -1123,15 +1244,15 @@
         "prev_hair",
         "new_hair"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "hair_entry_pre_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "hair_entry_pre_change",
@@ -1143,15 +1264,15 @@
         "prev_hair",
         "new_hair"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "hair_entry_pst_change": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "hair_entry_pst_change",
@@ -1163,15 +1284,15 @@
         "prev_hair",
         "new_hair"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_hairacs_compatible": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_hairacs_compatible",
@@ -1181,15 +1302,15 @@
         "hair",
         "acs"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_clotheshair_compatible": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_clotheshair_compatible",
@@ -1199,15 +1320,15 @@
         "clothes",
         "hair"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_ms_head": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ms_head",
@@ -1218,15 +1339,15 @@
         "hair",
         "head"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_ms_left": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ms_left",
@@ -1237,15 +1358,15 @@
         "hair",
         "left"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_ms_right": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ms_right",
@@ -1256,15 +1377,15 @@
         "hair",
         "right"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_ms_standing": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ms_standing",
@@ -1278,15 +1399,15 @@
         "right",
         "acs_list"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_ms_standingstock": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_ms_standingstock",
@@ -1299,32 +1420,32 @@
         "acs_list",
         "single"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_clear_caches": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clear_caches",
     "docstring": "Clears all caches",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "MASMonikaRender": {
+  {
     "type": "class",
     "class_decorators": [],
     "identifier": "MASMonikaRender",
@@ -1348,10 +1469,10 @@
             "width",
             "height"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -1369,10 +1490,10 @@
             "st",
             "at"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -1389,10 +1510,10 @@
             "st",
             "at"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -1410,10 +1531,10 @@
             "st",
             "at"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
@@ -1427,17 +1548,17 @@
           "args": [
             "self"
           ],
-          "pos_only_args": [],
           "defaults": [],
-          "kw_defaults": [],
+          "pos_only_args": [],
           "kw_only_args": [],
+          "kw_defaults": [],
           "kw_arg": null,
           "var_arg": null
         }
       }
     ]
   },
-  "_add_arms_rk": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_add_arms_rk",
@@ -1452,15 +1573,15 @@
         "clothing_t",
         "leanpose"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_bhli": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_bhli",
@@ -1470,15 +1591,15 @@
         "img_list",
         "hlcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_bhlifp": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_bhlifp",
@@ -1488,15 +1609,15 @@
         "img_path",
         "hlcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_cgen_im": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_cgen_im",
@@ -1508,15 +1629,15 @@
         "cid",
         "img_base"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_cgha_im": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_cgha_im",
@@ -1527,15 +1648,15 @@
         "flt",
         "render_key"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_cs_im": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_cs_im",
@@ -1546,15 +1667,15 @@
         "cid",
         "img_base"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_dayify": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_dayify",
@@ -1563,15 +1684,15 @@
       "args": [
         "img_key"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_gc": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_gc",
@@ -1580,15 +1701,15 @@
       "args": [
         "cid"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_gen_im": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_gen_im",
@@ -1598,15 +1719,15 @@
         "flt",
         "img_base"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_hlify": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hlify",
@@ -1616,15 +1737,15 @@
         "key",
         "cid"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_accessory": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_accessory",
@@ -1637,17 +1758,17 @@
         "arm_split",
         "leanpose"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_accessory_list": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_accessory_list",
@@ -1660,18 +1781,18 @@
         "leanpose",
         "arm_split"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None",
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_arms_base_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_arms_base_nh",
@@ -1684,15 +1805,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_arms_base_lean_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_arms_base_lean_nh",
@@ -1706,15 +1827,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_arms_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_arms_nh",
@@ -1728,15 +1849,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_arms_lean_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_arms_lean_nh",
@@ -1751,15 +1872,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_arms_nh_wbase": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_arms_nh_wbase",
@@ -1776,15 +1897,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_base_body_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_base_body_nh",
@@ -1795,15 +1916,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_base_body_lean_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_base_body_lean_nh",
@@ -1815,15 +1936,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_body_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_body_nh",
@@ -1835,15 +1956,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_body_lean_nh": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_body_lean_nh",
@@ -1856,15 +1977,15 @@
         "flt",
         "bcode"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_body_nh_wbase": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_body_nh_wbase",
@@ -1879,17 +2000,17 @@
         "leanpose",
         "lean"
       ],
-      "pos_only_args": [],
       "defaults": [
         "None"
       ],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_chair": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_chair",
@@ -1900,15 +2021,15 @@
         "mtc",
         "flt"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_face": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_face",
@@ -1927,15 +2048,15 @@
         "tears",
         "emote"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_face_pre": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_face_pre",
@@ -1948,15 +2069,15 @@
         "lean",
         "blush"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_hair": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_hair",
@@ -1970,15 +2091,15 @@
         "lean",
         "leanpose"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_head": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_head",
@@ -1989,15 +2110,15 @@
         "flt",
         "lean"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_table": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_table",
@@ -2009,15 +2130,15 @@
         "show_shadow",
         "flt"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_rk_sitting": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_rk_sitting",
@@ -2058,15 +2179,772 @@
         "tablechair",
         "show_shadow"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_wear_if_found": {
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_clear_caches",
+    "docstring": "Clears all caches",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "class",
+    "class_decorators": [],
+    "identifier": "MASMonikaRender",
+    "class_bases": [
+      "store.MASFilterable"
+    ],
+    "docstring": "custom rendering class for MASMonika. This does caching and rendering\nat the same time.\n\nINHERED PROPS:\n    flt - filter we are using (string)\n\nPROPERTIES:\n    render_keys - list of tuples of the following format:\n        [0] - key of an image to generate. used to check cache\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image, IF NOT IN CACHE.\n            This should be set to None if we are sure a surf\n            object is in the cache.\n        [3] - ImageBase to build the highlight. Set to None if no\n            no highlight or in cache.\n    xpos - xposition to blit objects with\n    ypos - yposition to blit objects with\n    width - width to render objects with\n    height - height to render objects with",
+    "class_functions": [
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "__init__",
+        "docstring": "Constructor for a MASMOnikaRender object\n\nIN:\n    render_keys - image keys and ImageBase if needed.\n        See props.\n    flt - filter we are using (string)\n    xpos - xposition to blit objects with\n    ypos - yposition to blit objects with\n    width - width to render objects with\n    height - height to render objects with",
+        "function_args": {
+          "args": [
+            "self",
+            "render_keys",
+            "flt",
+            "xpos",
+            "ypos",
+            "width",
+            "height"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_l_render_hl",
+        "docstring": "Retrieves highlight image from cache, or renders if needed\n\nIN:\n    render_key - tuple of the following format\n        [0] - key of image to generate\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nOUT:\n    render_list - list to add render to, if needed",
+        "function_args": {
+          "args": [
+            "self",
+            "render_list",
+            "render_key",
+            "st",
+            "at"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "_render_surf",
+        "docstring": "Retrieves surf image from cache, or renders if needed\n\nIN:\n    render_key - tuple of the following format:\n        [0] - key of image to generate\n        [1] - cache ID of the cache to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nRETURNS: rendered surf image to use",
+        "function_args": {
+          "args": [
+            "self",
+            "render_key",
+            "st",
+            "at"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "render",
+        "docstring": "Render function",
+        "function_args": {
+          "args": [
+            "self",
+            "width",
+            "height",
+            "st",
+            "at"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      },
+      {
+        "type": "function",
+        "function_decorators": [],
+        "identifier": "visit",
+        "docstring": "Returns a list of displayables we obtain\nNOTE: will also save to our cache",
+        "function_args": {
+          "args": [
+            "self"
+          ],
+          "defaults": [],
+          "pos_only_args": [],
+          "kw_only_args": [],
+          "kw_defaults": [],
+          "kw_arg": null,
+          "var_arg": null
+        }
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_add_arms_rk",
+    "docstring": "Adds render key for multiple MASArm objects, if needed\n\nIN:\n    arms - MASArm objects to add render key for\n    pfx - prefix tuple to generate image string with\n    flt - filter code to use\n    bcode - base code to use\n    clothing_t - type of clothing to use\n    leanpose - leanpose to use\n\nOUT:\n    rk_list - render key list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "arms",
+        "pfx",
+        "flt",
+        "bcode",
+        "clothing_t",
+        "leanpose"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_bhli",
+    "docstring": "Builds a\nHigh-\nLight\nImage using the base image path\n\nIN:\n    img_list - list of strings that form the base image string\n        NOTE: we assume that the last item in this string is the\n        FILE_EXT. This also assumes highlight codes are always inserted\n        right before the file extension.\n    hlcode - highlight code to use. Can be None.\n\nRETURNS: Image to use for highlight, or None if no highlight.",
+    "function_args": {
+      "args": [
+        "img_list",
+        "hlcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_bhlifp",
+    "docstring": "Builds a\nHigh-\nLight\nImage using an image's\nFile\nPath\n\nIN:\n    img_path - full filepath to an image, including extension.\n    hlcode - highlight code to use. Can be None\n\nRETURNS: Image to use for highlight, or None if no highlight",
+    "function_args": {
+      "args": [
+        "img_path",
+        "hlcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_cgen_im",
+    "docstring": "Checks cache for an im,\nGENerates the im if not found\n\nIN:\n    flt - filter to use\n    key - key of the image\n    cid - cache ID of the cache to use\n    img_base - ImageBase to build the image\n\nRETURNS: Image Manipulator for this render",
+    "function_args": {
+      "args": [
+        "flt",
+        "key",
+        "cid",
+        "img_base"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_cgha_im",
+    "docstring": "Checks cache of an image\nGenerates the im if not found, and sets\nHighlight if needed.\nAdds IMs to the given render list\n\nNOTE: should only be used by the visit function\n\nIN:\n    flt - filter to use\n    render_key - tuple of the following format:\n        [0] - key of the image to generate\n        [1] - cache ID of the cahce to use\n        [2] - ImageBase to build the image\n        [3] - ImageBase to build the highlight\n    st - renpy related\n    at - renpy related\n\nOUT:\n    render_list - list to add IMs to",
+    "function_args": {
+      "args": [
+        "render_list",
+        "flt",
+        "render_key"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_cs_im",
+    "docstring": "Checks cache for an im\nStores the img_base if not found\n\nIN:\n    key - key of the image\n    cid - cache ID of the cache to use\n    img_base - ImageBase to build the image\n\nRETURNS: ImageBase",
+    "function_args": {
+      "args": [
+        "key",
+        "cid",
+        "img_base"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_dayify",
+    "docstring": "Dayifies the given image key.\nDAying simply replaces the filter portion of the key with \"day\"\n\nIN:\n    img_key - image key to dayify\n\nRETURNS: dayified key",
+    "function_args": {
+      "args": [
+        "img_key"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_gc",
+    "docstring": "Gets the\nCache\n\nIN:\n    cid - cache ID of the cache to get\n\nRETURNS: cache, or empty dict if cache not found",
+    "function_args": {
+      "args": [
+        "cid"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_gen_im",
+    "docstring": "GENerates an image maniuplator\nNOTE: always assumes we have an available filter.\n\nIN:\n    flt - filter to use\n    img_base - image path or manipulator to use\n\nRETURNS: generated render key",
+    "function_args": {
+      "args": [
+        "flt",
+        "img_base"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_hlify",
+    "docstring": "Highlightifies the given key.\nHighlightifying is just prefixing the key with the cid\n\nIN:\n    key - key to highlightify\n    cid - cid to use when highlighting\n\nRETURNS: highlightified key",
+    "function_args": {
+      "args": [
+        "key",
+        "cid"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_accessory",
+    "docstring": "Adds accessory render key if needed\n\nIN:\n    acs - MASAccessory object\n    flt - filter to apply\n    arm_split - see MASAccessory.arm_split for codes. None for no\n        codes at all.\n    leanpose - current pose\n        (Default: None)\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "acs",
+        "flt",
+        "arm_split",
+        "leanpose"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_accessory_list",
+    "docstring": "Adds accessory render keys for a list of accessories\n\nIN:\n    acs_list - list of MASAccessory objects, in order of rendering\n    flt - filter to use\n    arm_split - set to MASAccessory.arm_split code if we are rendering\n        arm_split-affected ACS. If None, we use standard algs.\n        (Default: None)\n    leanpose - arms pose for we are currently rendering\n        (Default: None)\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "acs_list",
+        "flt",
+        "leanpose",
+        "arm_split"
+      ],
+      "defaults": [
+        "None",
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_arms_base_nh",
+    "docstring": "Adds arms base render keys\n(equiv to _ms_arms_nh_up_base)\n\nIN:\n    barms - tuple of MASArm objects to use\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "barms",
+        "leanpose",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_arms_base_lean_nh",
+    "docstring": "Adds arms base lean render key\n(eqiv to _ms_arms_nh_leaning_base)\n\nIN:\n    barms - tuple of MASArm objects to use\n    lean - type of lean\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "barms",
+        "lean",
+        "leanpose",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_arms_nh",
+    "docstring": "Adds arms render key\n(equiv to _ms_arms_nh_up_arms)\n\nIN:\n    parms - tuple of MASArm objects to use\n    clothing - MASClothes object\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "parms",
+        "clothing",
+        "leanpose",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_arms_lean_nh",
+    "docstring": "Adds arms lean render key\n(equiv to _ms_arms_nh_leaning_arms)\n\nIN:\n    parms - tuple of MASArm objects to use\n    clothing - MASClothes object\n    lean - type of lean\n    leanpose - leanpose to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "parms",
+        "clothing",
+        "lean",
+        "leanpose",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_arms_nh_wbase",
+    "docstring": "Adds arms render keys, no hair, with baes\n\nIN:\n    barms - tuple of MASArm objects for base\n    parms - tuple of MASArm objects for pose\n    clothing - MASClothes object\n    acs_ase_list - acs between arms-base-0 and arms-0\n    leanpose - leanpose to pass to accessorylist\n    lean - lean to use\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "barms",
+        "parms",
+        "clothing",
+        "acs_ase_list",
+        "leanpose",
+        "lean",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_base_body_nh",
+    "docstring": "Adds base body render keys, no hair\n(equiv of _ms_torso_nh_base)\n\nIN:\n    flt - filter ot use\n    bcode- base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_base_body_lean_nh",
+    "docstring": "Adds base body lean render keys, no hair\n(equivalent of _ms_torsoleaning_nh_base)\n\nIN:\n    lean - type of lean\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "lean",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_body_nh",
+    "docstring": "Adds body render keys, no hair\n(equiv of _ms_torso_nh)\n\nIN:\n    clothing - MASClothes object\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "clothing",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_body_lean_nh",
+    "docstring": "Adds body leaning render keys, no hair\n(equiv of _ms_torsoleaning_nh)\n\nIN:\n    clothing - MASClothes object\n    lean - type of lean\n    flt - filter to use\n    bcode - base code to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "clothing",
+        "lean",
+        "flt",
+        "bcode"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_body_nh_wbase",
+    "docstring": "Adds body render keys, including base and bse acs, no hair\n\nIN:\n    clothing - MASClothes object\n    acs_bse_list - acs between base-0 and body-0\n    bcode - base code to use\n    flt - filter to use\n    leanpose - leanpose to pass to accessorylist\n    lean - type of lean\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "clothing",
+        "acs_bse_list",
+        "bcode",
+        "flt",
+        "leanpose",
+        "lean"
+      ],
+      "defaults": [
+        "None"
+      ],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_chair",
+    "docstring": "Adds chair render key\n\nIN:\n    mtc - MASTableChair object\n    flt - filter to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "mtc",
+        "flt"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_face",
+    "docstring": "Adds face render keys\n\nIN:\n    eyes - type of eyes\n    eyebrows - type of eyebrows\n    nose - type of nose\n    mouth - type of mouth\n    flt - filter to use\n    fpfx - face prefix to use\n    lean - type of lean to use\n    sweat - type of sweat drop\n    tears - type of tears\n    emote - type of emote\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "eyes",
+        "eyebrows",
+        "nose",
+        "mouth",
+        "flt",
+        "fpfx",
+        "lean",
+        "sweat",
+        "tears",
+        "emote"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_face_pre",
+    "docstring": "Adds face render keys that go before hair\n\nIN:\n    flt - filter to use\n    fpfx - face prefix to use\n    lean - type of lean to use\n    blush - type of blush\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "flt",
+        "fpfx",
+        "lean",
+        "blush"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_hair",
+    "docstring": "Adds hair render key\n\nIN:\n    hair - MASHair object\n    flt - filter to use\n    hair_key - hair key to use (front/back/mid)\n    lean - tyoe of lean\n    leanpose - leanpose\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "hair",
+        "flt",
+        "hair_key",
+        "lean",
+        "leanpose"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_head",
+    "docstring": "Adds head render keys.\n\nIN:\n    bcode - base code to use\n    flt - filter to use\n    lean - type of lean\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "flt",
+        "lean"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_table",
+    "docstring": "Adds table render key\n\nIN:\n    table - MASTableChair object\n    show_shadow - True if shadow should be included, false if not\n    flt filter to use\n\nOUT:\n    rk_list - list to add render keys to",
+    "function_args": {
+      "args": [
+        "rk_list",
+        "tablechair",
+        "show_shadow",
+        "flt"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_rk_sitting",
+    "docstring": "Creates a list of render keys in order of desired render.\n\nIN:\n    clothing - MASClothes object\n    hair - MASHair object\n    base_arms - tuple of MASArm objects to use for the base\n    pose_arms - tuple of MASArm objects to use for the clothes arms\n    eyebrows - type of eyebrows\n    eyes - type of eyes\n    nose - type of nose\n    mouth - type of mouth\n    flt - filter to use\n    acs_pre_list - sorted list of MASAccessories to draw prior to body\n    acs_bbh_list - sroted list of MASAccessories to draw between back\n        hair and body\n    acs_bse_list - sorted list of MASAccessories to draw between base\n        body and outfit\n    acs_bba_list - sorted list of MASAccessories to draw between\n        body and back arms\n    acs_ase_list - sorted list of MASAccessories to draw between base\n        arms and outfit\n    acs_bmh_list - sorted list of MASAccessories to draw betrween back\n        arms and mid hair\n    acs_mmh_list - sorted list of MASAccessories to draw between mid\n        hair and head\n    acs_bat_list - sorted list of MASAccessories to draw before table\n    acs_mat_list - sorted list of MASAccessories to draw between\n        middle arms and table\n    acs_mab_list - sorted list of MASAccessories to draw between\n        middle arms and boobs\n    acs_bfh_list - sorted list of MASAccessories to draw between boobs\n        and front hair\n    acs_afh_list - sorted list of MASAccessories to draw between front\n        hair and face\n    acs_mid_list - sorted list of MASAccessories to draw between body\n        and arms\n    acs_pst_list - sorted list of MASAccessories to draw after arms\n    leanpose - lean and arms together\n    lean - type of lean\n    arms - type of arms\n    eyebags - type of eyebags\n    sweat - type of sweatdrop\n    blush - type of blush\n    tears - type of tears\n    emote - type of emote\n    tablechair - MASTableChair object\n    show_shadow - True will show shadow, false will not\n\nRETURNS: list of render keys",
+    "function_args": {
+      "args": [
+        "clothing",
+        "hair",
+        "base_arms",
+        "pose_arms",
+        "eyebrows",
+        "eyes",
+        "nose",
+        "mouth",
+        "flt",
+        "acs_pre_list",
+        "acs_bbh_list",
+        "acs_bse_list",
+        "acs_bba_list",
+        "acs_ase_list",
+        "acs_bmh_list",
+        "acs_mhh_list",
+        "acs_bat_list",
+        "acs_mat_list",
+        "acs_mab_list",
+        "acs_bfh_list",
+        "acs_afh_list",
+        "acs_mid_list",
+        "acs_pst_list",
+        "leanpose",
+        "lean",
+        "arms",
+        "eyebags",
+        "sweat",
+        "blush",
+        "tears",
+        "emote",
+        "tablechair",
+        "show_shadow"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_wear_if_found",
@@ -2076,15 +2954,15 @@
         "_moni_chr",
         "acs_name"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_wear_if_gifted": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_wear_if_gifted",
@@ -2094,15 +2972,15 @@
         "_moni_chr",
         "acs_name"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_wear_if_in_tempstorage": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_wear_if_in_tempstorage",
@@ -2112,15 +2990,15 @@
         "_moni_chr",
         "key"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_wear_if_in_tempstorage_s": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_wear_if_in_tempstorage_s",
@@ -2130,15 +3008,15 @@
         "_moni_chr",
         "key"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_wear_if_wearing_acs": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_wear_if_wearing_acs",
@@ -2149,15 +3027,15 @@
         "acs",
         "acs_to_wear"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_wear_if_wearing_type": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_wear_if_wearing_type",
@@ -2168,15 +3046,15 @@
         "acs_type",
         "acs_to_wear"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_wear_if_not_wearing_type": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_wear_if_not_wearing_type",
@@ -2187,15 +3065,15 @@
         "acs_type",
         "acs_to_wear"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_remove_if_found": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_remove_if_found",
@@ -2205,15 +3083,15 @@
         "_moni_chr",
         "acs_name"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_ribbon_save_and_remove": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_ribbon_save_and_remove",
@@ -2222,15 +3100,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_ribbon_like_save_and_remove": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_ribbon_like_save_and_remove",
@@ -2239,15 +3117,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_acs_save_and_remove_exprop": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_save_and_remove_exprop",
@@ -2259,30 +3137,30 @@
         "key",
         "lock_topics"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_hair_unlock_select_if_needed": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_unlock_select_if_needed",
     "docstring": "Unlocks the hairdown selector if enough hair is unlocked.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_clothes_baked_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_baked_entry",
@@ -2291,15 +3169,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_hair_def_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_def_entry",
@@ -2308,15 +3186,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_def_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_def_exit",
@@ -2325,15 +3203,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_down_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_down_entry",
@@ -2342,15 +3220,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_down_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_down_exit",
@@ -2359,15 +3237,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_bun_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_bun_entry",
@@ -2376,15 +3254,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_orcaramelo_bunbraid_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_orcaramelo_bunbraid_exit",
@@ -2393,15 +3271,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_braided_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_braided_entry",
@@ -2410,15 +3288,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_braided_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_braided_exit",
@@ -2427,15 +3305,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair_wet_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair_wet_entry",
@@ -2444,15 +3322,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_def_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_def_entry",
@@ -2461,15 +3339,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_def_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_def_exit",
@@ -2478,15 +3356,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_rin_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_rin_exit",
@@ -2495,15 +3373,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_marisa_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_marisa_exit",
@@ -2512,15 +3390,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_orcaramelo_hatsune_miku_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_orcaramelo_hatsune_miku_entry",
@@ -2529,15 +3407,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_orcaramelo_hatsune_miku_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_orcaramelo_hatsune_miku_exit",
@@ -2546,15 +3424,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_orcaramelo_sakuya_izayoi_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_orcaramelo_sakuya_izayoi_entry",
@@ -2563,15 +3441,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_orcaramelo_sakuya_izayoi_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_orcaramelo_sakuya_izayoi_exit",
@@ -2580,15 +3458,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_dress_newyears_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_dress_newyears_entry",
@@ -2597,15 +3475,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_dress_newyears_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_dress_newyears_exit",
@@ -2614,15 +3492,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_sundress_white_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_sundress_white_exit",
@@ -2631,15 +3509,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_velius94_dress_whitenavyblue_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_velius94_dress_whitenavyblue_entry",
@@ -2648,15 +3526,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_bath_towel_white_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_bath_towel_white_entry",
@@ -2665,15 +3543,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_bath_towel_white_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_bath_towel_white_exit",
@@ -2682,15 +3560,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_briaryoung_shuchiin_academy_uniform_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_briaryoung_shuchiin_academy_uniform_entry",
@@ -2699,15 +3577,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_briaryoung_shuchiin_academy_uniform_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_briaryoung_shuchiin_academy_uniform_exit",
@@ -2716,15 +3594,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_hatana_2b_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_hatana_2b_entry",
@@ -2733,15 +3611,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes_hatana_2b_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes_hatana_2b_exit",
@@ -2750,15 +3628,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_quetzalplushie_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_quetzalplushie_entry",
@@ -2767,15 +3645,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_quetzalplushie_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_quetzalplushie_exit",
@@ -2784,15 +3662,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_center_quetzalplushie_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_center_quetzalplushie_entry",
@@ -2801,15 +3679,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_center_quetzalplushie_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_center_quetzalplushie_exit",
@@ -2818,15 +3696,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_quetzalplushie_santahat_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_quetzalplushie_santahat_entry",
@@ -2835,15 +3713,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_center_quetzalplushie_santahat_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_center_quetzalplushie_santahat_entry",
@@ -2852,15 +3730,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_quetzalplushie_antlers_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_quetzalplushie_antlers_entry",
@@ -2869,15 +3747,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_heartchoc_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_heartchoc_entry",
@@ -2886,15 +3764,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs_heartchoc_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs_heartchoc_exit",
@@ -2903,15 +3781,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "use_bma": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "use_bma",
@@ -2920,15 +3798,15 @@
       "args": [
         "arm_id"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "use_bmpm": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "use_bmpm",
@@ -2937,15 +3815,15 @@
       "args": [
         "posenum"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "use_bmpm_s": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "use_bmpm_s",
@@ -2954,15 +3832,15 @@
       "args": [
         "leanpose"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_hair__testingxcp_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair__testingxcp_entry",
@@ -2970,15 +3848,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_hair__testingxcp_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_hair__testingxcp_exit",
@@ -2986,15 +3864,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes__testingxcp_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes__testingxcp_entry",
@@ -3002,15 +3880,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_clothes__testingxcp_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_clothes__testingxcp_exit",
@@ -3018,15 +3896,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs__testingxcp_entry": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs__testingxcp_entry",
@@ -3034,15 +3912,15 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "_acs__testingxcp_exit": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_acs__testingxcp_exit",
@@ -3050,30 +3928,30 @@
       "args": [
         "_moni_chr"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   },
-  "show_empty_desk": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "show_empty_desk",
     "docstring": "shows empty desk",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "register_image": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "register_image",
@@ -3083,15 +3961,15 @@
         "name",
         "d"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "needs_closed_eye_variant": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "needs_closed_eye_variant",
@@ -3100,15 +3978,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_wink_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_wink_sprite",
@@ -3117,15 +3995,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "is_follow_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "is_follow_sprite",
@@ -3134,15 +4012,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "needs_tear_atl": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "needs_tear_atl",
@@ -3151,15 +4029,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "replace_eyes": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "replace_eyes",
@@ -3169,15 +4047,15 @@
         "exp",
         "replacement_eyes"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "generate_static_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "generate_static_sprite",
@@ -3186,15 +4064,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "generate_follow_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "generate_follow_sprite",
@@ -3203,15 +4081,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "add_static_sprite_alias": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "add_static_sprite_alias",
@@ -3220,15 +4098,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "generate_normal_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "generate_normal_sprite",
@@ -3237,15 +4115,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "generate_wink_sprite": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "generate_wink_sprite",
@@ -3254,15 +4132,15 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "generate_images": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "generate_images",
@@ -3271,30 +4149,30 @@
       "args": [
         "exp"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_fwm_db": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_fwm_db",
     "docstring": "Verifies that data in the FW_DB is correct.\nMASFilterWeatherMaps are valid if:\n    1. if the MFWM is fallback-based:\n        a) All filters provided include a fallback filter with\n            PRECIP_TYPE_DEF set.\n    2. If the MFWM is standard:\n        a) All filters contain a PRECIP_TYPE_DEF set.\n\nRaises all errors.",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_mfwm": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_mfwm",
@@ -3304,15 +4182,15 @@
         "mfwm_id",
         "mfwm"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_mfwm_find_fb_def": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_mfwm_find_fb_def",
@@ -3323,15 +4201,15 @@
         "flt",
         "flt_defs"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_find_circ_fb": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_find_circ_fb",
@@ -3341,15 +4219,15 @@
         "flt",
         "memo"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_find_next_fb": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_find_next_fb",
@@ -3360,27 +4238,131 @@
         "memo",
         "ordered_memo"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "_verify_flt_fb": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "_verify_flt_fb",
     "docstring": "Verifies that there are no circular fallbacks in the filter\nfallback dict.\n\nRaises an error if circular fallbacks are found",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_fwm_db",
+    "docstring": "Verifies that data in the FW_DB is correct.\nMASFilterWeatherMaps are valid if:\n    1. if the MFWM is fallback-based:\n        a) All filters provided include a fallback filter with\n            PRECIP_TYPE_DEF set.\n    2. If the MFWM is standard:\n        a) All filters contain a PRECIP_TYPE_DEF set.\n\nRaises all errors.",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_mfwm",
+    "docstring": "Verifies a MASFilterWeatherMap object.\n\nRaises all errors.\n\nIN:\n    mfwm_id - ID of the MASFilterWeatherMap object\n    mfwm - MASFilterWeatherMap object to verify",
+    "function_args": {
+      "args": [
+        "mfwm_id",
+        "mfwm"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_mfwm_find_fb_def",
+    "docstring": "Finds fallbacks from a starting flt that are covered with a default\nprecip type.\n\nIN:\n    mfwm - MASFilterWeatherMap object we are checking\n    flt - filter we are checking for fallbacks\n    flt_defs - dict containing keys of filters that already have known\n        defaults in their fallback chains.\n\nOUT:\n    flt_defs - additional filters with known defaults are added to this\n        dict as we go through the fallback chain of the given flt.\n\nRETURNS: True if we found a non-None default precip type. False if not",
+    "function_args": {
+      "args": [
+        "mfwm",
+        "flt",
+        "flt_defs"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_find_circ_fb",
+    "docstring": "Tries to find circular fallbacks.\nAssumes that the current flt has not been placed into memo yet.\n\nIN:\n    flt - flt we are checking\n    memo - dict of all flts we traversed here\n\nOUT:\n    memo - if False is returned, all keys in this memo are deemed to\n        be non-circular fallbacks.\n\nRETURNS: True if circular fallback is found, False otherwise",
+    "function_args": {
+      "args": [
+        "flt",
+        "memo"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_find_next_fb",
+    "docstring": "Finds next filter and stores in memo and ordered memo\n\nIN:\n    flt - filter to find next filter for\n\nOUT:\n    memo - dict to add the next filter as a key if not None\n    ordered memo - list to append the next filter if not None\n\nRETURNS: the next filter, or None if no next filter.",
+    "function_args": {
+      "args": [
+        "flt",
+        "memo",
+        "ordered_memo"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "_verify_flt_fb",
+    "docstring": "Verifies that there are no circular fallbacks in the filter\nfallback dict.\n\nRaises an error if circular fallbacks are found",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

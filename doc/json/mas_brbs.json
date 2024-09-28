@@ -1,20 +1,20 @@
-{
-  "get_wb_quip": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "get_wb_quip",
     "docstring": "Picks a random welcome back quip and returns it\nShould be used for normal+ quips\n\nOUT:\n    A randomly selected quip for coming back to the spaceroom",
     "function_args": {
       "args": [],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   },
-  "was_idle_for_at_least": {
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "was_idle_for_at_least",
@@ -24,12 +24,45 @@
         "idle_time",
         "brb_evl"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "get_wb_quip",
+    "docstring": "Picks a random welcome back quip and returns it\nShould be used for normal+ quips\n\nOUT:\n    A randomly selected quip for coming back to the spaceroom",
+    "function_args": {
+      "args": [],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": null,
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "was_idle_for_at_least",
+    "docstring": "Checks if the user was idle (from the brb_evl provided) for at least idle_time\n\nIN:\n    idle_time - Minimum amount of time the user should have been idle for in order to return True\n    brb_evl - Eventlabel of the brb to use for the start time\n\nOUT:\n    boolean:\n        - True if it has been at least idle_time since seeing the brb_evl\n        - False otherwise",
+    "function_args": {
+      "args": [
+        "idle_time",
+        "brb_evl"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
     }
   }
-}
+]

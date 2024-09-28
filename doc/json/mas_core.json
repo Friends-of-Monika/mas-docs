@@ -1,5 +1,5 @@
-{
-  "show_display_say": {
+[
+  {
     "type": "function",
     "function_decorators": [],
     "identifier": "show_display_say",
@@ -9,12 +9,30 @@
         "who",
         "what_string"
       ],
-      "pos_only_args": [],
       "defaults": [],
-      "kw_defaults": [],
+      "pos_only_args": [],
       "kw_only_args": [],
+      "kw_defaults": [],
+      "kw_arg": "kwargs",
+      "var_arg": null
+    }
+  },
+  {
+    "type": "function",
+    "function_decorators": [],
+    "identifier": "show_display_say",
+    "docstring": "semi-override of show_display_say so we can force text to render\nimmediately.",
+    "function_args": {
+      "args": [
+        "who",
+        "what_string"
+      ],
+      "defaults": [],
+      "pos_only_args": [],
+      "kw_only_args": [],
+      "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
     }
   }
-}
+]
