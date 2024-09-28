@@ -204,11 +204,31 @@ def get_deprecated_decorator(unparsed_list: List[str]) -> ast.Call | None:
 def generate_doc_markdown(json_path: Path, out_path: Path) -> None: # pylint: disable=redefined-outer-name
     """Generates .md page for given JSON doc path."""
 
+    def write_func_md(doc_json: List[Dict[str, Any]], f: IO, header_depth: int = 2) -> None:
+        pub_funcs = list(filter(lambda it: not is_internal_func(it), doc_json))
+        # int_funcs = list(filter(is_internal_func, doc_json))
+
+        if pub_funcs:
+            f.write(f"{'#' * header_depth} Public functions\n\n")
+            for func_doc in pub_funcs:
+                f.write(generate_func_markdown(func_doc, header_depth=header_depth + 1))
+
+        ## No private funcs for ya folks :P
+        # if int_funcs:
+        #     f.write(f"{'#' * header_depth} Internal functions\n\n"
+        #             "> [!CAUTION]\n"
+        #             "> These functions are *internal* and are not recommended for use.\n\n")
+
+        #     for func_doc in int_funcs:
+        #         f.write(generate_func_markdown(func_doc, header_depth=header_depth + 1))
+
+    def write_class_md(doc_json: List[Dict[str, Any]], f: IO) -> None:
+        for class_doc in doc_json:
+            pass
+
     def write_md(doc_json: List[Dict[str, Any]], f: IO) -> None:
         classes = list(filter(lambda it: it["type"] == "class", doc_json))
         all_funcs = list(filter(lambda it: it["type"] == "function", doc_json))
-        pub_funcs = list(filter(lambda it: not is_internal_func(it), all_funcs))
-        int_funcs = list(filter(is_internal_func, all_funcs))
 
         store_name = json_path.name.split(".")[0]
         f.write(f"# store {store_name}\n\n")
@@ -216,27 +236,20 @@ def generate_doc_markdown(json_path: Path, out_path: Path) -> None: # pylint: di
                 "> These docs are auto-generated. Please [open an issue](https://github.com/Friends-of-Monika/mas-docs/issues/new)\n" # pylint: disable=line-too-long
                 "> in case you found inconsistencies, errors or other things we should correct.\n\n") # pylint: disable=line-too-long
 
-        for class_doc in classes:
-            pass
-
-        if pub_funcs:
-            f.write("## Public functions\n\n")
-            for func_doc in pub_funcs:
-                f.write(generate_func_markdown(func_doc))
-
-        if int_funcs:
-            f.write("## Internal functions\n\n"
-                    "> [!CAUTION]\n"
-                    "> These functions are *internal* and are not recommended for use.\n\n")
-
-            for func_doc in int_funcs:
-                f.write(generate_func_markdown(func_doc))
+        write_class_md(classes, f)
+        write_func_md(all_funcs, f, header_depth=2)
 
     with json_path.open("r") as f:
         doc_json = json.load(f)
 
     with out_path.open("w") as f:
         write_md(doc_json, f)
+
+
+def generate_class_markdown(data: Dict[str, Any], header_depth: int = 3) -> str:  # pylint: disable=too-many-locals
+    """Generates Markdown section for given class doc data.
+       Optional header_depth parameter defines Markdown header depth for
+       class section."""
 
 
 def generate_func_markdown(data: Dict[str, Any], header_depth: int = 3) -> str: # pylint: disable=too-many-locals
