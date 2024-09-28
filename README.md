@@ -3,6 +3,11 @@
 An experimental attempt to extract Python code from `init x python in ...` blocks
 in `.rpy` scripts of [Monika After Story](https://github.com/Monika-After-Story/MonikaModDev).
 
+## Reading docs
+
+See [doc/pages](doc/pages) for rendered Markdown docs. Classes are currently unsupported, but
+are being worked on.
+
 ## Generating docs
 
 ### Installing RenPy SDK
