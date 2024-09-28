@@ -82,18 +82,6 @@ Registers a function to the function_plugins dict
 **Returns:**<br>
 boolean: - True if the function was registered successfully - False otherwise
 
-### def _m1_zz_submods__getArgs(key, _function)
-
-TODO: remove this with r8 Gets args for the given function at the given key
-
-**Parameters:**
-- `key` &mdash; key to retrieve the function from
-- `_function` &mdash; function to retrieve args from
-
-
-**Returns:**<br>
-list of args if the function is present If function is not present, None is returned
-
 ### def getArgs(key, _function)
 
 > [!WARNING]
@@ -145,28 +133,6 @@ Unregisters a function from the function_plugins dict
 
 **Returns:**<br>
 boolean: - True if function was unregistered successfully - False otherwise
-
-### def _m1_zz_submods__prioritySort(_label)
-
-Sorts function plugins based on the priority order system
-
-**Parameters:**
-- `_label` &mdash; label to sort functions by priority for
-
-
-**Returns:**<br>
-sorted list of (_function, data_tuple) tuples
-
-### def _m1_zz_submods__getOverrideLabel(_label)
-
-Gets the override label for the given label (will follow the chain if overrides are overridden)
-
-**Parameters:**
-- `_label` &mdash; label to get the override label for
-
-
-**Returns:**<br>
-string representing the last label in the override chain or _label if there are no overrides
 
 ### def functionplugin(_label, _args=None, auto_error_handling=True, priority=0)
 
@@ -194,18 +160,6 @@ Registers a function to the function_plugins dict
 **Returns:**<br>
 boolean: - True if the function was registered successfully - False otherwise
 
-### def _m1_zz_submods__getArgs(key, _function)
-
-TODO: remove this with r8 Gets args for the given function at the given key
-
-**Parameters:**
-- `key` &mdash; key to retrieve the function from
-- `_function` &mdash; function to retrieve args from
-
-
-**Returns:**<br>
-list of args if the function is present If function is not present, None is returned
-
 ### def getArgs(key, _function)
 
 > [!WARNING]
@@ -257,26 +211,4 @@ Unregisters a function from the function_plugins dict
 
 **Returns:**<br>
 boolean: - True if function was unregistered successfully - False otherwise
-
-### def _m1_zz_submods__prioritySort(_label)
-
-Sorts function plugins based on the priority order system
-
-**Parameters:**
-- `_label` &mdash; label to sort functions by priority for
-
-
-**Returns:**<br>
-sorted list of (_function, data_tuple) tuples
-
-### def _m1_zz_submods__getOverrideLabel(_label)
-
-Gets the override label for the given label (will follow the chain if overrides are overridden)
-
-**Parameters:**
-- `_label` &mdash; label to get the override label for
-
-
-**Returns:**<br>
-string representing the last label in the override chain or _label if there are no overrides
 

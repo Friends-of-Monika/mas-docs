@@ -11,28 +11,6 @@ Gets a zodiac sign for a date Idea from https://stackoverflow.com/questions/3274
 **Returns:**<br>
 string with the sign
 
-### def _formatDay(day)
-
-Properly formats the given day so it displays with the correct suffixes.
-
-**Parameters:**
-- `day` &mdash; day to get a nice display string
-
-
-**Returns:**<br>
-nice display string for the day
-
-### def _formatYears(years)
-
-Properly formats the given years var so it says a user friendly way to show years.  Basically if years is: 0 - "" 1 - "last year" 2+ - "x years ago"
-
-**Parameters:**
-- `years` &mdash; number of years to get a nice display string
-
-
-**Returns:**<br>
-nice display string for the years
-
 ### def genFriendlyDispDate(_datetime)
 
 > [!WARNING]
@@ -79,28 +57,6 @@ Returns the database read from the file renpy.config.savedir + '/db.mcal' as a d
 
 **Returns:**<br>
 a dict containing the events for the calendar
-
-### def _m1_zz_calendar__addEvent_md(ev_label, month, day)
-
-Adds an event to the calendar at a precise month / day
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to add
-- `month` &mdash; month to add to
-- `day` &mdash; day to add to
-
-
-### def _addRepeatable_md(identifier, display_label, month, day, year_param)
-
-Adds a repeatable to the calendar at a precise month / day
-
-**Parameters:**
-- `identifier` &mdash; label of the event that it's unique
-- `display_label` &mdash; label that will be displayed
-- `month` &mdash; month to add to
-- `day` &mdash; day to add to
-- `year_param` &mdash; data to put in the year part of the tuple
-
 
 ### def addEvent(ev)
 
@@ -160,113 +116,6 @@ Adds a repeatable to the calendar at a precise datetime
 - `_datetime` &mdash; datetime to add to
 - `year_param` &mdash; data to put in the year part of the tuple
 
-
-### def _findEvent_md(ev_label, month, day)
-
-Finds the event tuple from the calendar at a precise month / day.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to find
-- `month` &mdash; month we should look at for finding
-- `day` &mdash; day we should look at for finding
-
-
-**Returns:**<br>
-the event tuple if it was found, None otherwise
-
-### def _findRepeatable_md(identifier, month, day)
-
-Finds the repeatable dtuple from the calendar at a precise month / day
-
-**Parameters:**
-- `identifier` &mdash; the id of the repeatable to find
-- `month` &mdash; month we should look at for finding
-- `day` &mdash; day we should look at for finding
-
-
-**Returns:**<br>
-the repeatable tuple if itw as found, None otherwise
-
-### def _removeEvent(ev_label, remove_all=False)
-
-Removs an event from the calendar.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `remove_all` &mdash; SEE removeEvent_el
-
-
-### def _removeEvent_d(ev_label, day, remove_all=False)
-
-Removes an event from the calendar on a particular day.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `day` &mdash; day we should look at for removal
-- `remove_all` &mdash; SEE removeEvent_el
-
-
-### def _removeEvent_m(ev_label, month, remove_all=False)
-
-Removes an event from the calendar in a particular month.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `month` &mdash; month we should look at for removal
-- `remove_all` &mdash; SEE removeEvent_el
-
-
-### def _removeEvent_md(ev_label, month, day)
-
-Removes an event from the calendar at a precise month / day.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `month` &mdash; month we should look at for removal
-- `day` &mdash; day we should look at for removal
-
-
-**Returns:**<br>
-True if we removed something, False otherwise
-
-### def _removeRepeatable(identifier)
-
-Removes a repeatable from teh calendar.
-
-**Parameters:**
-- `identifier` &mdash; identifier of the repeatable to remove
-
-
-### def _removeRepeatable_d(identifier, day)
-
-Removes a repeatable from teh calendar in a particular month.
-
-**Parameters:**
-- `identifier` &mdash; identifier of the repeatable to remove
-- `day` &mdash; day we should look at for removal
-
-
-### def _removeRepeatable_m(identifier, month)
-
-Removes a repeatable from the calendar in a particular month.
-
-**Parameters:**
-- `identifier` &mdash; identifier of the repeatable to remove
-- `month` &mdash; month we should look at for removal
-
-
-### def _removeRepeatable_md(identifier, month, day)
-
-Removes a repeatable from teh calendar at a precise month / day.
-
-**Parameters:**
-- `identifider` &mdash; identifier of the repeatable to remove
-- `month` &mdash; month we should look at for removal
-- `day` &mdash; day we should look at for removal
-
-
-**Returns:**<br>
-True if we removed somethign, False otherwise
 
 ### def removeEvent(ev)
 
@@ -373,28 +222,6 @@ Gets a zodiac sign for a date Idea from https://stackoverflow.com/questions/3274
 **Returns:**<br>
 string with the sign
 
-### def _formatDay(day)
-
-Properly formats the given day so it displays with the correct suffixes.
-
-**Parameters:**
-- `day` &mdash; day to get a nice display string
-
-
-**Returns:**<br>
-nice display string for the day
-
-### def _formatYears(years)
-
-Properly formats the given years var so it says a user friendly way to show years.  Basically if years is: 0 - "" 1 - "last year" 2+ - "x years ago"
-
-**Parameters:**
-- `years` &mdash; number of years to get a nice display string
-
-
-**Returns:**<br>
-nice display string for the years
-
 ### def genFriendlyDispDate(_datetime)
 
 > [!WARNING]
@@ -441,28 +268,6 @@ Returns the database read from the file renpy.config.savedir + '/db.mcal' as a d
 
 **Returns:**<br>
 a dict containing the events for the calendar
-
-### def _m1_zz_calendar__addEvent_md(ev_label, month, day)
-
-Adds an event to the calendar at a precise month / day
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to add
-- `month` &mdash; month to add to
-- `day` &mdash; day to add to
-
-
-### def _addRepeatable_md(identifier, display_label, month, day, year_param)
-
-Adds a repeatable to the calendar at a precise month / day
-
-**Parameters:**
-- `identifier` &mdash; label of the event that it's unique
-- `display_label` &mdash; label that will be displayed
-- `month` &mdash; month to add to
-- `day` &mdash; day to add to
-- `year_param` &mdash; data to put in the year part of the tuple
-
 
 ### def addEvent(ev)
 
@@ -522,113 +327,6 @@ Adds a repeatable to the calendar at a precise datetime
 - `_datetime` &mdash; datetime to add to
 - `year_param` &mdash; data to put in the year part of the tuple
 
-
-### def _findEvent_md(ev_label, month, day)
-
-Finds the event tuple from the calendar at a precise month / day.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to find
-- `month` &mdash; month we should look at for finding
-- `day` &mdash; day we should look at for finding
-
-
-**Returns:**<br>
-the event tuple if it was found, None otherwise
-
-### def _findRepeatable_md(identifier, month, day)
-
-Finds the repeatable dtuple from the calendar at a precise month / day
-
-**Parameters:**
-- `identifier` &mdash; the id of the repeatable to find
-- `month` &mdash; month we should look at for finding
-- `day` &mdash; day we should look at for finding
-
-
-**Returns:**<br>
-the repeatable tuple if itw as found, None otherwise
-
-### def _removeEvent(ev_label, remove_all=False)
-
-Removs an event from the calendar.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `remove_all` &mdash; SEE removeEvent_el
-
-
-### def _removeEvent_d(ev_label, day, remove_all=False)
-
-Removes an event from the calendar on a particular day.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `day` &mdash; day we should look at for removal
-- `remove_all` &mdash; SEE removeEvent_el
-
-
-### def _removeEvent_m(ev_label, month, remove_all=False)
-
-Removes an event from the calendar in a particular month.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `month` &mdash; month we should look at for removal
-- `remove_all` &mdash; SEE removeEvent_el
-
-
-### def _removeEvent_md(ev_label, month, day)
-
-Removes an event from the calendar at a precise month / day.
-
-**Parameters:**
-- `ev_label` &mdash; eventlabel of the event to remove
-- `month` &mdash; month we should look at for removal
-- `day` &mdash; day we should look at for removal
-
-
-**Returns:**<br>
-True if we removed something, False otherwise
-
-### def _removeRepeatable(identifier)
-
-Removes a repeatable from teh calendar.
-
-**Parameters:**
-- `identifier` &mdash; identifier of the repeatable to remove
-
-
-### def _removeRepeatable_d(identifier, day)
-
-Removes a repeatable from teh calendar in a particular month.
-
-**Parameters:**
-- `identifier` &mdash; identifier of the repeatable to remove
-- `day` &mdash; day we should look at for removal
-
-
-### def _removeRepeatable_m(identifier, month)
-
-Removes a repeatable from the calendar in a particular month.
-
-**Parameters:**
-- `identifier` &mdash; identifier of the repeatable to remove
-- `month` &mdash; month we should look at for removal
-
-
-### def _removeRepeatable_md(identifier, month, day)
-
-Removes a repeatable from teh calendar at a precise month / day.
-
-**Parameters:**
-- `identifider` &mdash; identifier of the repeatable to remove
-- `month` &mdash; month we should look at for removal
-- `day` &mdash; day we should look at for removal
-
-
-**Returns:**<br>
-True if we removed somethign, False otherwise
 
 ### def removeEvent(ev)
 

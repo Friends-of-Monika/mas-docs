@@ -45,18 +45,6 @@ Cleans an aPI key
 **Returns:**<br>
 cleaned key
 
-### def _run_on_change(feature, api_key)
-
-Runs on change for a feature with api key
-
-**Parameters:**
-- `feature` &mdash; feature to run on change for
-- `api_key` &mdash; api key to run on change with
-
-
-**Returns:**<br>
-tuple of the following format: [0] - True if valid key, False if not [1] - error message to show
-
 ### def screen_clear(feature)
 
 Called when the clear button is used on the api key screen
@@ -129,18 +117,6 @@ Cleans an aPI key
 
 **Returns:**<br>
 cleaned key
-
-### def _run_on_change(feature, api_key)
-
-Runs on change for a feature with api key
-
-**Parameters:**
-- `feature` &mdash; feature to run on change for
-- `api_key` &mdash; api key to run on change with
-
-
-**Returns:**<br>
-tuple of the following format: [0] - True if valid key, False if not [1] - error message to show
 
 ### def screen_clear(feature)
 

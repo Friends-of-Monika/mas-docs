@@ -12,14 +12,6 @@ Adds a reaction to the file reactions database.
 - `exclude_on` &mdash; keys marking times to exclude this gift
 
 
-### def _initConnectorQuips()
-
-Initializes the connector quips
-
-### def _initStarterQuips()
-
-Initializes the starter quips
-
 ### def build_gift_react_labels(evb_details=[], gsp_details=[], gen_details=[], gift_cntrs=None, ending_label=None, starting_label=None, prepare_data=True)
 
 Processes gift details into a list of labels to show labels to queue/push whatever.
@@ -97,50 +89,6 @@ registers gifts given sprite-based GiftReactDetails list
 **Parameters:**
 - `details` &mdash; list of GiftReactDetails objcts to register
 
-
-### def _pick_starter_label()
-
-Internal function that returns the appropriate starter label for reactions
-
-**Returns:**<br>
-- The label as a string, that should be used today.
-
-### def _core_delete(_filename, _map)
-
-Core deletion file function.
-
-**Parameters:**
-- `_filename` &mdash; name of file to delete, if None, we delete one randomly
-- `_map` &mdash; the map to use when deleting file.
-
-
-### def _core_delete_list(_filename_list, _map)
-
-Core deletion filename list function
-
-**Parameters:**
-- `_filename` &mdash; list of filenames to delete.
-- `_map` &mdash; the map to use when deleting files
-
-
-### def _register_received_gift(eventlabel)
-
-Registers when player gave a gift successfully
-
-**Parameters:**
-- `eventlabel` &mdash; the event label for the gift reaction
-
-
-### def _get_full_stats_for_date(date=None)
-
-Getter for the full stats dict for gifts on a given date
-
-**Parameters:**
-- `date` &mdash; the date to get the report for, if None is given will check today's date (Defaults to None)
-
-
-**Returns:**<br>
-The dict containing the full stats or None if it's empty
 
 ### def delete_file(_filename)
 
@@ -198,14 +146,6 @@ Adds a reaction to the file reactions database.
 - `exclude_on` &mdash; keys marking times to exclude this gift
 
 
-### def _initConnectorQuips()
-
-Initializes the connector quips
-
-### def _initStarterQuips()
-
-Initializes the starter quips
-
 ### def build_gift_react_labels(evb_details=[], gsp_details=[], gen_details=[], gift_cntrs=None, ending_label=None, starting_label=None, prepare_data=True)
 
 Processes gift details into a list of labels to show labels to queue/push whatever.
@@ -283,50 +223,6 @@ registers gifts given sprite-based GiftReactDetails list
 **Parameters:**
 - `details` &mdash; list of GiftReactDetails objcts to register
 
-
-### def _pick_starter_label()
-
-Internal function that returns the appropriate starter label for reactions
-
-**Returns:**<br>
-- The label as a string, that should be used today.
-
-### def _core_delete(_filename, _map)
-
-Core deletion file function.
-
-**Parameters:**
-- `_filename` &mdash; name of file to delete, if None, we delete one randomly
-- `_map` &mdash; the map to use when deleting file.
-
-
-### def _core_delete_list(_filename_list, _map)
-
-Core deletion filename list function
-
-**Parameters:**
-- `_filename` &mdash; list of filenames to delete.
-- `_map` &mdash; the map to use when deleting files
-
-
-### def _register_received_gift(eventlabel)
-
-Registers when player gave a gift successfully
-
-**Parameters:**
-- `eventlabel` &mdash; the event label for the gift reaction
-
-
-### def _get_full_stats_for_date(date=None)
-
-Getter for the full stats dict for gifts on a given date
-
-**Parameters:**
-- `date` &mdash; the date to get the report for, if None is given will check today's date (Defaults to None)
-
-
-**Returns:**<br>
-The dict containing the full stats or None if it's empty
 
 ### def delete_file(_filename)
 

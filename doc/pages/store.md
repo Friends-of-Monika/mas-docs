@@ -9,10 +9,6 @@ Label override function
 - `override_label` &mdash; the label to override with
 
 
-### def _m1_zz_submods__run(_function, args)
-
-Private function to run a function in the global store
-
 ### def mas_getSessionLength()
 
 Gets length of current session, IF this cannot be determined, a time delta of 0 is returned
@@ -100,44 +96,6 @@ Registers a feature that accepts an API key. Features are NOT registered if they
 
 **Returns:**<br>
 True if the feature was added, False if not.
-
-### def __mas__extractNumbers(partname, filelist)
-
-Extracts a list of the number parts of the given file list  Also sorts them nicely
-
-**Parameters:**
-- `partname` &mdash; part of the filename prior to the numbers
-- `filelist` &mdash; list of filenames
-
-
-### def __mas__backupAndDelete(loaddir, org_fname, savedir=None, numnum=None)
-
-Does a file backup / and iterative deletion.
-
-**Parameters:**
-- `loaddir` &mdash; directory we are copying files from
-- `org_fname` &mdash; filename of the original file / aka file to copy
-- `savedir` &mdash; directory we are copying files to (and deleting old files) If None, we use loaddir instead (Default: None)
-- `numnum` &mdash; if passed in, use this number instead of figuring out the next numbernumber. (Default: None)
-
-
-**Returns:**<br>
-tuple of the following format: [0]: numbernumber we just made [1]: numbernumber we deleted (None means no deletion)
-
-### def __mas__memoryBackup()
-
-Backs up both persistent and calendar info
-
-### def __mas__memoryCleanup()
-
-Cleans up persistent data by removing uncessary parts.
-
-### def _mas_getBadFiles()
-
-Searches through the entire mod_assets folder for any file with the '.new' extension and returns their paths
-
-**Returns:**<br>
-a list containing the file names, list will be empty if there was no 'bad' files
 
 ### def mas_cleanBadUpdateFiles()
 
@@ -427,14 +385,6 @@ True if the deco is being shown, false if not
 ### def mas_player_bday_curr(_date=None)
 
 sets date of current year bday, accounting for leap years
-
-### def _mas_AffSave()
-
-Runs saving algo for affection
-
-### def _mas_AffLoad()
-
-Runs loading algo for affection
 
 ### def mas_isA01(_date=None)
 
@@ -1541,43 +1491,6 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 - `@mas_utils.deprecated()`
 
 
-### def _mas_getAffection()
-
-Tries to return current affection
-
-**Returns:**<br>
-float
-
-### def _mas_getBadExp()
-
-> [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**<br>
-> Instead, consider using `_get_current_aff_lose`.
-
-**Decorators:**
-- `@mas_utils.deprecated(use_instead='_get_current_aff_lose')`
-
-
-### def _mas_getGoodExp()
-
-> [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**<br>
-> Instead, consider using `_get_current_aff_gain`.
-
-**Decorators:**
-- `@mas_utils.deprecated(use_instead='_get_current_aff_gain')`
-
-
-### def _mas_getTodayExp()
-
-> [!WARNING]
-> This function is flagged as **deprecated** and **is not recommended for use.**<br>
-> Instead, consider using `None`.
-
-**Decorators:**
-- `@mas_utils.deprecated()`
-
-
 ### def mas_isBelowZero()
 
 Checks if affection is negative
@@ -1756,12 +1669,6 @@ True if monika is in happy group, false otherwise
 
 ### def mas_updateAffectionExp(skipPP=False)
 
-### def _get_current_aff_gain()
-
-### def _get_current_aff_lose()
-
-### def _get_current_aff_fraction_lose()
-
 ### def mas_gainAffection(amount=None, modifier=1.0, bypass=False, current_evlabel=None)
 
 Grants some affection whenever something positive happens
@@ -1797,18 +1704,6 @@ See mas_loseAffection for more info Subtracts portion of affection whenever some
 - `modifier` &mdash; float - modifier for the amount value NOTE: the modifier is being applied AFTER min_amount (Default: 1.0)
 
 
-### def _mas_revertFreshStart()
-
-Revert affection to before the fresh start
-
-### def _mas_shatterAffection()
-
-Sets affection to the lowest value
-
-### def _mas_doFreshStart()
-
-Resets affection
-
 ### def mas_setAffection()
 
 > [!WARNING]
@@ -1831,20 +1726,6 @@ Sets a reason for apologizing
 
 
 ### def mas_checkAffection()
-
-### def _m1_script0x2daffection__long_absence_check()
-
-### def _mas_AffStartup()
-
-### def _write_txt(path, text, update=False)
-
-Writes the text file in the specified path using basedir as starting path
-
-**Parameters:**
-- `path` &mdash; String path to the file this function will write it will always start at basedir
-- `text` &mdash; actual text for the txt file
-- `update` &mdash; if it should override the file if it exists defaults to False
-
 
 ### def mas_cute_message()
 
@@ -2314,8 +2195,6 @@ Safely deletes variables from persistent
 - `varname` &mdash; name of the variable to delete from persistent as string
 
 
-### def _Shake(start, time, child=None, dist=100.0)
-
 ### def mas_DropShield_core()
 
 Enables: - Talk button + hotkey - Extra button + hotkey - Music button + hotkey + volume keys + mute key - Play button + hotkey - Calendar overlay - Escape key
@@ -2503,69 +2382,6 @@ Enables the escape key so you can go to the game menu
 ### def disable_esc()
 
 disables the escape key so you cant go to game menu
-
-### def _mas_hk_mute_music()
-
-hotkey specific muting / unmuting music channel
-
-### def _mas_hk_inc_musicvol()
-
-hotkey specific music volume increasing
-
-### def _mas_hk_dec_musicvol()
-
-hotkey specific music volume decreasing
-
-### def _mas_hk_show_dialogue_box()
-
-hotkey specific show dialgoue box
-
-### def _mas_hk_open_extra_menu()
-
-hotkey specific open extras menu
-
-### def _mas_hk_pick_game()
-
-hotkey specific pick game
-
-### def _mas_hk_select_music()
-
-Runs the select music function if we are allowed to. INTENDED FOR HOTKEY USAGE ONLY
-
-### def _mas_hk_derandom_topic()
-
-hotkey specific derandom topics
-
-### def _mas_hk_bookmark_topic()
-
-hotkey specific bookmark topics
-
-### def _mas_game_menu_start(scope)
-
-Runs code prior to opening the game menu in any way.
-
-**Returns:**<br>
-scope - use this dict as temp space
-
-### def _mas_game_menu_end(scope)
-
-Runs code after exiting the game menu in any way.
-
-**Parameters:**
-- `scope` &mdash; temp space used in `_mas_game_menu_start`
-
-
-### def _mas_game_menu()
-
-Wrapper aound _invoke_game_menu that follows additional ui rules
-
-### def _mas_quick_menu_cb(screen_name)
-
-Opens game menu to the appropraite quick screen.
-
-### def _mas_hide_windows()
-
-Wrapper around the _hide_windows label that hides windows
 
 ### def set_keymaps()
 
@@ -3022,44 +2838,6 @@ Checks if a background with the given id is unlocked
 
 **Returns:**<br>
 boolean
-
-### def _mas_check_ev_type_bool(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type_dict(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type_dt(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type_evact(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type_int(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type_str(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type_tuli(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type_tuli_aff(val, name, report, delim=' | ', str_rep=True)
-
-### def _mas_check_ev_type(ev, str_rep=True)
-
-Checks typers of the given event, then returns a string report
-
-**Parameters:**
-- `ev` &mdash; event to check
-
-
-**Returns:**<br>
-single line string report
-
-### def _mas_check_ev_type_per(ev_line, str_rep=True)
-
-Checks typers of the given event line, then returns a string report
-
-**Parameters:**
-- `ev_line` &mdash; line of persistent tuple data to check
-
-
-**Returns:**<br>
-single line string report
 
 ### def mas_check_event_types(per_db, str_buffer=None, str_rep=True)
 
@@ -3618,17 +3396,9 @@ Checks if a background has support for the given deco tag(s)
 - `background_id` &mdash; id of the background to check if it supports deco If None, mas_current_background's id is used (Default: None)
 
 
-### def _mas_backgroundUpdateCheck()
-
-THIS IS A PRIVATE FUNCTION Background update check
-
 ### def mas_backgroundUpdateCheck()
 
 This launches the background update thread
-
-### def _mas_resetVersionUpdates()
-
-Resets all version update script's seen status
 
 ### def mas_get_player_nickname(capitalize=False, exclude_names=[], _default=None, regex_replace_with_nullstr=None)
 
@@ -3711,35 +3481,6 @@ Generates a MASBackgroundFilterManager using sample number of slice sizes.
 **Returns:**<br>
 MASBackgroundFilterManager object with the given settings
 
-### def _mas_build_fake_slices(flt_pfx, size, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
-
-Builds fake slices with the given size
-
-**Parameters:**
-- `flt_pfx` &mdash; prefix to use for each slice filter
-- `size` &mdash; number of slices to make
-- `ml_min` &mdash; min minlength time to use in seconds
-- `ml_max` &mdash; max minlength time ot use in seconds
-- `pr_min` &mdash; min priority to use
-- `pr_max` &mdash; max priority to use
-- `mx_min` &mdash; min maxlength time to use in seconds
-- `mx_max` &mdash; max maxlength time ot use in seconds
-
-
-**Returns:**<br>
-list of created slices.
-
-### def _mas_build_random_fake_slice(flt, ml_min, ml_max, pr_min, pr_max, mx_min, mx_max)
-
-Builds a fake slice with the given filter name and randomized minlength and pr based on the given values
-
-**Parameters:**
-- `flt` &mdash; filter name to use
-
-
-**Returns:**<br>
-MASBackgroundFilterSlice object
-
 ### def mas_qb_mbgfm()
 
 ### def mas_qb_mbgfm_otm()
@@ -3747,22 +3488,6 @@ MASBackgroundFilterSlice object
 ### def mas_qb_mbgfm_irl()
 
 once slice for everything except day, which uses a 5 minute sunrise and sunset
-
-### def _mas_qb_alg_test(spread=False)
-
-Test alg and write output to log
-
-**Parameters:**
-- `spread` &mdash; pass True to use expand_sld instead of expand_once
-
-
-### def _mas_qb_fast_a(abc)
-
-Pass in a mbgfm, unbuilt
-
-### def _mas_qb_fast()
-
-Makes somethign and writes it out
 
 ### def mas_OVLDropShield()
 
@@ -3919,12 +3644,4 @@ Checks if the data dump flag (file) exists
 ### def label_callback(name, abnormal)
 
 Function to run plugin functions and store the last label
-
-### def _m1_zz_submods__build_override_label_to_base_label_map()
-
-Populates a lookup dict for all label overrides which are in effect
-
-**Decorators:**
-- `@store.mas_submod_utils.functionplugin('ch30_reset', priority=-999)`
-
 

@@ -1,22 +1,11 @@
 ## Functions
 
-### def _add_monika_words(wordlist)
-
 ### def copyWordsList(_mode)
 
 Does a deepcopy of the words for the given mode.  Sets the hm_words dict for that mode
 
 **Returns:**<br>
 the copied list of words. This is the same reference as hm_words's list. (empty list if mode is invalid)
-
-### def _buildWordList(filepath, _mode)
-
-Builds a list of words given the filepath and mode
-
-**Parameters:**
-- `filepath` &mdash; filepath of words to load in
-- `_mode` &mdash; mode to build word list for
-
 
 ### def buildEasyList()
 
@@ -68,23 +57,12 @@ Formats a word so it can be displayed in hangman
 **Returns:**<br>
 display word
 
-### def _add_monika_words(wordlist)
-
 ### def copyWordsList(_mode)
 
 Does a deepcopy of the words for the given mode.  Sets the hm_words dict for that mode
 
 **Returns:**<br>
 the copied list of words. This is the same reference as hm_words's list. (empty list if mode is invalid)
-
-### def _buildWordList(filepath, _mode)
-
-Builds a list of words given the filepath and mode
-
-**Parameters:**
-- `filepath` &mdash; filepath of words to load in
-- `_mode` &mdash; mode to build word list for
-
 
 ### def buildEasyList()
 

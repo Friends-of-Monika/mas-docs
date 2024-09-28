@@ -178,6 +178,15 @@ def is_deprecated(data: Dict[str, Any]) -> Tuple[bool, bool, str | None, str | N
     return True, should_raise, use_instead
 
 
+def is_internal_func(data: Dict[str, Any]) -> bool:
+    """Checks if function is internal (prefixed by _ or __)."""
+    return data["identifier"].startswith("_")
+
+def is_mangled_name(data: Dict[str, Any]) -> bool:
+    """Checks if function name is mangled (prefixed by _m1_XXX__)."""
+    return bool(re.match(r"^_m1_\w+__\w+$", data["identifier"]))
+
+
 def get_deprecated_decorator(unparsed_list: List[str]) -> ast.Call | None:
     """Tries to get AST of @store.mas_utils.deprecated decorator."""
 
@@ -197,13 +206,14 @@ def generate_doc_markdown(json_path: Path, out_path: Path) -> None: # pylint: di
 
     def write_md(doc_json: List[Dict[str, Any]], f: IO) -> None:
         classes = list(filter(lambda it: it["type"] == "class", doc_json))
-        funcs = list(filter(lambda it: it["type"] == "function", doc_json))
+        all_funcs = list(filter(lambda it: it["type"] == "function", doc_json))
+        pub_funcs = list(filter(lambda it: not is_internal_func(it), all_funcs))
 
         for class_doc in classes:
             pass
 
         f.write("## Functions\n\n")
-        for func_doc in funcs:
+        for func_doc in pub_funcs:
             f.write(generate_func_markdown(func_doc))
 
     with json_path.open("r") as f:

@@ -74,18 +74,6 @@ Runs reset code for sprites
 - `@ch30_reset(-860)`
 
 
-### def _sprites_init()
-
-Runs reset code for initializing sprites
-
-### def _sprites_fixes()
-
-Runs reset code for fixing sprite issues
-
-### def _sprites_setup()
-
-Runs other sprite setup that is not init or fixes
-
 ### def random_chatter()
 
 Runs reset code for random chatter
@@ -125,18 +113,6 @@ Runs reset code for deco
 **Decorators:**
 - `@ch30_reset(-760)`
 
-
-### def _deco_bday()
-
-Runs reset code for bday deco
-
-### def _deco_d25()
-
-Runs reset code for d25 deco
-
-### def _deco_o31()
-
-Runs reset code for o31 deco
 
 ### def farewells()
 
@@ -286,18 +262,6 @@ Runs reset code for sprites
 - `@ch30_reset(-860)`
 
 
-### def _sprites_init()
-
-Runs reset code for initializing sprites
-
-### def _sprites_fixes()
-
-Runs reset code for fixing sprite issues
-
-### def _sprites_setup()
-
-Runs other sprite setup that is not init or fixes
-
 ### def random_chatter()
 
 Runs reset code for random chatter
@@ -337,18 +301,6 @@ Runs reset code for deco
 **Decorators:**
 - `@ch30_reset(-760)`
 
-
-### def _deco_bday()
-
-Runs reset code for bday deco
-
-### def _deco_d25()
-
-Runs reset code for d25 deco
-
-### def _deco_o31()
-
-Runs reset code for o31 deco
 
 ### def farewells()
 

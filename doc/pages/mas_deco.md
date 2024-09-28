@@ -9,14 +9,6 @@ Adds deco object to the deco db. Raises an exception if there are duplicates. Al
 - `obj` &mdash; MASDecoration object to add to the deco db
 
 
-### def _add_it_deco(obj)
-
-Adds a MASImageTagDecoration object to the deco db. Raises exceptions if a duplicate was found OR if the object is not a MASImageTagDecoration.
-
-**Parameters:**
-- `obj` &mdash; MASImageTagDecoration object to add to the deco db
-
-
 ### def get_deco(name)
 
 Gets a deco object by name. This accepts shortname or regular deco name
@@ -35,14 +27,6 @@ Adds deco object to the deco db. Raises an exception if there are duplicates. Al
 **Parameters:**
 - `s_name` &mdash; shorthand name to apply to this deco object
 - `obj` &mdash; MASDecoration object to add to the deco db
-
-
-### def _add_it_deco(obj)
-
-Adds a MASImageTagDecoration object to the deco db. Raises exceptions if a duplicate was found OR if the object is not a MASImageTagDecoration.
-
-**Parameters:**
-- `obj` &mdash; MASImageTagDecoration object to add to the deco db
 
 
 ### def get_deco(name)

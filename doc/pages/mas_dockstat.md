@@ -58,20 +58,6 @@ Sets the appropriate persistent size for monika
 - `tdelta` &mdash; timedelta to use
 
 
-### def _buildMetaDataList(_outbuffer)
-
-Writes out a pipe-delimeted metadata list to the given buffer
-
-**Returns:**<br>
-_outbuffer - buffer to write metadata to
-
-### def _buildMetaDataPer(_outbuffer, log)
-
-Writes out the persistent's data into the given buffer  Exceptions are logged
-
-**Returns:**<br>
-_outbuffer - buffer to write persistent data to log - log to write messages to, if needed True on success, False if failed
-
 ### def checkMonika(status, moni_data)
 
 Parses if a given set of monika data is a rogue monika, our monika, and so on, and does checkins and more for the appropriate case.
@@ -215,32 +201,6 @@ Given a date, return how long monika has been out  We assume that checkout logs 
 - `_date` &mdash; date to check
 
 
-### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
-
-Grants an amount of affection based on time out. This is designed for use ONLY with the returned home greeting.
-
-**Parameters:**
-- `_time_out` &mdash; timedelta we want to treat as monika being out
-- `max_hour_out` &mdash; how many hours is considered max (anthing OVER this will be maxxed)
-- `max_aff_gain` &mdash; amount of aff to be gained when max+
-- `min_aff_gain` &mdash; smallest amount of aff gain
-- `aff_mult` &mdash; multipler to hours to use as aff gain when between min and max (Default: 1)
-
-
-### def _buildMetaDataList(_outbuffer)
-
-Writes out a pipe-delimeted metadata list to the given buffer
-
-**Returns:**<br>
-_outbuffer - buffer to write metadata to
-
-### def _buildMetaDataPer(_outbuffer, log)
-
-Writes out the persistent's data into the given buffer  Exceptions are logged
-
-**Returns:**<br>
-_outbuffer - buffer to write persistent data to log - log to write messages to, if needed True on success, False if failed
-
 ### def checkMonika(status, moni_data)
 
 Parses if a given set of monika data is a rogue monika, our monika, and so on, and does checkins and more for the appropriate case.
@@ -382,18 +342,6 @@ Given a date, return how long monika has been out  We assume that checkout logs 
 
 **Parameters:**
 - `_date` &mdash; date to check
-
-
-### def _ds_aff_for_tout(_time_out, max_hour_out, max_aff_gain, min_aff_gain, aff_mult=1)
-
-Grants an amount of affection based on time out. This is designed for use ONLY with the returned home greeting.
-
-**Parameters:**
-- `_time_out` &mdash; timedelta we want to treat as monika being out
-- `max_hour_out` &mdash; how many hours is considered max (anthing OVER this will be maxxed)
-- `max_aff_gain` &mdash; amount of aff to be gained when max+
-- `min_aff_gain` &mdash; smallest amount of aff gain
-- `aff_mult` &mdash; multipler to hours to use as aff gain when between min and max (Default: 1)
 
 
 ### def abortGenPromise()

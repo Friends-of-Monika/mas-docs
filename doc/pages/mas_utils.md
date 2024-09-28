@@ -425,20 +425,6 @@ LeftOver Distribute Applies leftovers to the given value list.  If leftovers are
 **Returns:**<br>
 value_list - some items will have leftovers added to them
 
-### def _EVgenY(_start, _end, current, for_start)
-
-Generates/decides if a given start/end datetime/date should have its year incremented or not.
-
-**Parameters:**
-- `_start` &mdash; datetime/date that begins this period
-- `_end` &mdash; datetime/date that ends this period
-- `current` &mdash; datetime/date to compare with (should be either today or now)
-- `for_start` &mdash; True if we want the next valid start, False for end
-
-
-**Returns:**<br>
-either next valid _start or next valid _end.
-
 ### def randomblob(size, seed=None)
 
 Generates a blob of StringIO data with the given size
@@ -474,30 +460,6 @@ Generic entry add to the given log. Stores both time and given value as a tuple:
 - `entry_log` &mdash; list to log entry to
 - `value` &mdash; value to log in this entry
 
-
-### def _ntoub(num, bsize)
-
-Partial packing.
-
-### def _itoIS(num)
-
-integer packing
-
-### def _IStoi(packednum)
-
-integer unpacking
-
-### def _ftoFS(num)
-
-Float packing
-
-### def _FStof(packednum)
-
-Float unpacking
-
-### def _splitfloat(num)
-
-Splits a float into integer parts:  [0]: integer [1]: numerator [2]: denominator
 
 ### def sanitize_filename(s)
 

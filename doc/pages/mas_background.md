@@ -49,15 +49,6 @@ Returns a bg object
 **Returns:**<br>
 background object or None if not found
 
-### def _toggleBackgroundUnlock(id_, value)
-
-Locks/unlocks a bg
-
-**Parameters:**
-- `id_` &mdash; str - background id
-- `value` &mdash; bool - the value for the unlocked field
-
-
 ### def unlockBackground(id_)
 
 Unlocks a bg
@@ -143,15 +134,6 @@ Returns a bg object
 **Returns:**<br>
 background object or None if not found
 
-### def _toggleBackgroundUnlock(id_, value)
-
-Locks/unlocks a bg
-
-**Parameters:**
-- `id_` &mdash; str - background id
-- `value` &mdash; bool - the value for the unlocked field
-
-
 ### def unlockBackground(id_)
 
 Unlocks a bg
@@ -192,63 +174,7 @@ Logs the given BG object to standard bg log
 
 Runs global filter change progpoint, logging for errors
 
-### def _gbl_flt_change(old_flt, new_flt, curr_time)
-
-Runs when a filter change occurs
-
-**Parameters:**
-- `old_flt` &mdash; outgoing filter. Will be None on startup.
-- `new_flt` &mdash; incoming filter.
-- `curr_time` &mdash; current time as datetime.time
-
-
-### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
-
-Runs when a chunk change occurs
-
-**Parameters:**
-- `old_chunk` &mdash; outgoing chunk, will be None on startup
-- `new_flt` &mdash; incoming chunk
-- `curr_time` &mdash; current time as datetime.time
-
-
-### def _def_background_entry(_old)
-
-Entry programming point for default background
-
-### def _def_background_exit(_new)
-
-Exit programming point for default background
-
 ### def run_gbl_flt_change(old_flt, new_flt, curr_time)
 
 Runs global filter change progpoint, logging for errors
-
-### def _gbl_flt_change(old_flt, new_flt, curr_time)
-
-Runs when a filter change occurs
-
-**Parameters:**
-- `old_flt` &mdash; outgoing filter. Will be None on startup.
-- `new_flt` &mdash; incoming filter.
-- `curr_time` &mdash; current time as datetime.time
-
-
-### def _gbl_chunk_change(old_chunk, new_chunk, curr_time)
-
-Runs when a chunk change occurs
-
-**Parameters:**
-- `old_chunk` &mdash; outgoing chunk, will be None on startup
-- `new_flt` &mdash; incoming chunk
-- `curr_time` &mdash; current time as datetime.time
-
-
-### def _def_background_entry(_old)
-
-Entry programming point for default background
-
-### def _def_background_exit(_new)
-
-Exit programming point for default background
 

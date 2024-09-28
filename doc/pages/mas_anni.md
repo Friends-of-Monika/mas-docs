@@ -110,28 +110,6 @@ True if current date is past the 3 month threshold False if below the 3 month th
 **Returns:**<br>
 True if current date is past the 6 month threshold False if below the 6 month threshold
 
-### def _month_adjuster(ev, new_start_date, months, span)
-
-Adjusts the start_date / end_date of an anniversary event.
-
-**Parameters:**
-- `ev` &mdash; event to adjust
-- `new_start_date` &mdash; new start date to calculate the event's dates
-- `months` &mdash; number of months to advance
-- `span` &mdash; the time from the event's new start_date to end_date
-
-
-### def _day_adjuster(ev, new_start_date, days, span)
-
-Adjusts the start_date / end_date of an anniversary event.
-
-**Parameters:**
-- `ev` &mdash; event to adjust
-- `new_start_date` &mdash; new start date to calculate the event's dates
-- `days` &mdash; number of months to advance
-- `span` &mdash; the time from the event's new start_date to end_date
-
-
 ### def add_cal_annis()
 
 Goes through the anniversary database and adds them to the calendar
@@ -151,28 +129,6 @@ Reset the anniversaries according to the new start date.
 ### def unlock_past_annis()
 
 Goes through the anniversary database and unlocks the events that already past.
-
-### def _month_adjuster(ev, new_start_date, months, span)
-
-Adjusts the start_date / end_date of an anniversary event.
-
-**Parameters:**
-- `ev` &mdash; event to adjust
-- `new_start_date` &mdash; new start date to calculate the event's dates
-- `months` &mdash; number of months to advance
-- `span` &mdash; the time from the event's new start_date to end_date
-
-
-### def _day_adjuster(ev, new_start_date, days, span)
-
-Adjusts the start_date / end_date of an anniversary event.
-
-**Parameters:**
-- `ev` &mdash; event to adjust
-- `new_start_date` &mdash; new start date to calculate the event's dates
-- `days` &mdash; number of months to advance
-- `span` &mdash; the time from the event's new start_date to end_date
-
 
 ### def add_cal_annis()
 

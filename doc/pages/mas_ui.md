@@ -33,43 +33,6 @@ A method to handle delegate logic for some of our events when the user skips a d
 - `ev_label` &mdash; the ev_label of the event the user's selected
 
 
-### def _twopane_menu_filter_events(ev, search_query, search_kws, only_pool, only_random, only_unseen, only_seen)
-
-The filter for events in the twopane menu
-
-**Parameters:**
-- `ev` &mdash; event object
-- `search_query` &mdash; search query to filter by
-- `search_kws` &mdash; search_query splitted using spaces
-
-
-**Returns:**<br>
-boolean whether or not the event pass the criteria
-
-### def _twopane_menu_sort_events(ev, search_query, search_kws)
-
-The sortkey for events in the twopane menu.
-
-**Parameters:**
-- `ev` &mdash; event object
-- `search_query` &mdash; search query to sort by
-- `search_kws` &mdash; search_query splitted using spaces
-
-
-**Returns:**<br>
-weight as int
-
-### def _twopane_menu_search_events(search_query)
-
-The actual method that does filtering and searching for the twopane menu.
-
-**Parameters:**
-- `search_query` &mdash; search query to filter and sort by
-
-
-**Returns:**<br>
-list of event objects or None if empty query was given
-
 ### def twopane_menu_adj_ranged_callback(adj)
 
 This is called by an adjustment of the twopane menu when its range is being changed (set)
@@ -118,43 +81,6 @@ A method to handle delegate logic for some of our events when the user skips a d
 **Parameters:**
 - `ev_label` &mdash; the ev_label of the event the user's selected
 
-
-### def _twopane_menu_filter_events(ev, search_query, search_kws, only_pool, only_random, only_unseen, only_seen)
-
-The filter for events in the twopane menu
-
-**Parameters:**
-- `ev` &mdash; event object
-- `search_query` &mdash; search query to filter by
-- `search_kws` &mdash; search_query splitted using spaces
-
-
-**Returns:**<br>
-boolean whether or not the event pass the criteria
-
-### def _twopane_menu_sort_events(ev, search_query, search_kws)
-
-The sortkey for events in the twopane menu.
-
-**Parameters:**
-- `ev` &mdash; event object
-- `search_query` &mdash; search query to sort by
-- `search_kws` &mdash; search_query splitted using spaces
-
-
-**Returns:**<br>
-weight as int
-
-### def _twopane_menu_search_events(search_query)
-
-The actual method that does filtering and searching for the twopane menu.
-
-**Parameters:**
-- `search_query` &mdash; search query to filter and sort by
-
-
-**Returns:**<br>
-list of event objects or None if empty query was given
 
 ### def twopane_menu_adj_ranged_callback(adj)
 

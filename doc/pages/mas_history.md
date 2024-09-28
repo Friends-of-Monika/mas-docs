@@ -40,32 +40,6 @@ dict of the following format: year: tuple (SEE lookup)
 
 Internali version of mas_HistVerify
 
-### def _valid_year_range()
-
-generates the range of years that are valid for historical lookups.
-
-**Returns:**<br>
-range of years from 2017 to todays year.
-
-### def _store(value, key, year)
-
-Stores data in the historical archives.
-
-**Parameters:**
-- `value` &mdash; value to store
-- `key` &mdash; data key to store value
-- `year` &mdash; year to store value
-
-
-### def _store_all(year_data, key)
-
-Stores multiple year's worth of data in the historical archives.
-
-**Parameters:**
-- `year_data` &mdash; dictionary of the following format: year: data tuple from mas_HistLookup
-- `key` &mdash; data key to store values
-
-
 ### def loadMHSData()
 
 Loads persistent MASHistorySaver data into the mhs_db  Also adds MHS to the sorted list and sorts it.
@@ -133,32 +107,6 @@ dict of the following format: year: tuple (SEE lookup)
 
 Internali version of mas_HistVerify
 
-### def _valid_year_range()
-
-generates the range of years that are valid for historical lookups.
-
-**Returns:**<br>
-range of years from 2017 to todays year.
-
-### def _store(value, key, year)
-
-Stores data in the historical archives.
-
-**Parameters:**
-- `value` &mdash; value to store
-- `key` &mdash; data key to store value
-- `year` &mdash; year to store value
-
-
-### def _store_all(year_data, key)
-
-Stores multiple year's worth of data in the historical archives.
-
-**Parameters:**
-- `year_data` &mdash; dictionary of the following format: year: data tuple from mas_HistLookup
-- `key` &mdash; data key to store values
-
-
 ### def loadMHSData()
 
 Loads persistent MASHistorySaver data into the mhs_db  Also adds MHS to the sorted list and sorts it.
@@ -185,32 +133,4 @@ Gets the MASHistorySaver object with the given id
 
 **Returns:**<br>
 MASHistorySaver object, or None if not found
-
-### def _bday_exit_pp(mhs)
-
-### def _pm_holdme_adj_times(elapsed)
-
-Sets the appropraite persistent vars according to the elasped time for the hold me topic
-
-### def _bday_exit_pp(mhs)
-
-### def _pm_holdme_adj_times(elapsed)
-
-Sets the appropraite persistent vars according to the elasped time for the hold me topic
-
-### def _runMHSAlg()
-
-Runs the historical data saving algorithm
-
-### def _runMHSResetAlg()
-
-Runs special resets in the case of TT. Do NOT call if TT not detected.
-
-### def _runMHSAlg()
-
-Runs the historical data saving algorithm
-
-### def _runMHSResetAlg()
-
-Runs special resets in the case of TT. Do NOT call if TT not detected.
 
