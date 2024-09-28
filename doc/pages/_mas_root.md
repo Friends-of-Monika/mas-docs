@@ -38,3 +38,8 @@ Completely resets player data in persistents.
 
 Completely resets session data to usable initial values.
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

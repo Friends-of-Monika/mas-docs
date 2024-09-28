@@ -16,3 +16,8 @@ fixes the pbday mhs usin gthe given date as pbday
 - `d_pbday` &mdash; player birthdate
 
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

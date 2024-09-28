@@ -22,3 +22,8 @@ Reacts to gifts using the d25 protocol (exclusions)
 **Returns:**<br>
 found_map - map of found reactions key: lowercase giftname, no extension val: giftname wtih extension
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

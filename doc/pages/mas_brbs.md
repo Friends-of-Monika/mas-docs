@@ -38,3 +38,8 @@ Checks if the user was idle (from the brb_evl provided) for at least idle_time
 **Returns:**<br>
 boolean: - True if it has been at least idle_time since seeing the brb_evl - False otherwise
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

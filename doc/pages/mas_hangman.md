@@ -114,3 +114,30 @@ Formats a word so it can be displayed in hangman
 **Returns:**<br>
 display word
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+
+### def _add_monika_words(wordlist)
+
+### def _buildWordList(filepath, _mode)
+
+Builds a list of words given the filepath and mode
+
+**Parameters:**
+- `filepath` &mdash; filepath of words to load in
+- `_mode` &mdash; mode to build word list for
+
+
+### def _add_monika_words(wordlist)
+
+### def _buildWordList(filepath, _mode)
+
+Builds a list of words given the filepath and mode
+
+**Parameters:**
+- `filepath` &mdash; filepath of words to load in
+- `_mode` &mdash; mode to build word list for
+
+

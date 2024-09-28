@@ -78,3 +78,8 @@ Checks if the yuri egg should be enabled
 **Returns:**<br>
 True if yuri egg should be enabled
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

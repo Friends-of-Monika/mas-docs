@@ -70,3 +70,32 @@ Generates a vertex list from the given zoom
 **Returns:**<br>
 list of vertexes
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+
+### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
+
+Generates vertex list for zooming.
+
+**Parameters:**
+- `vx_list` &mdash; list of vetex points to adjust for zoom. NOTE: we generate a new list, so dont worry about this changing
+- `zoom_out` &mdash; True if we are zooming out, False if zooming in
+
+
+**Returns:**<br>
+adjustd list of vertexes
+
+### def _vx_list_zoom(zoom_level, vx_list, zoom_out)
+
+Generates vertex list for zooming.
+
+**Parameters:**
+- `vx_list` &mdash; list of vetex points to adjust for zoom. NOTE: we generate a new list, so dont worry about this changing
+- `zoom_out` &mdash; True if we are zooming out, False if zooming in
+
+
+**Returns:**<br>
+adjustd list of vertexes
+

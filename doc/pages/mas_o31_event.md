@@ -30,3 +30,8 @@ True upon success, False otherwise
 
 Removes decoded images at the end of their lifecycle
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

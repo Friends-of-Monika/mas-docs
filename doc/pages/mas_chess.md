@@ -80,3 +80,144 @@ A random chess960 opening fen.
 
 ### def enqueue_output(out, queue, lock)
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+
+### def _checkInProgressGame(pgn_game, mth)
+
+Checks if the given pgn game is valid and in progress.
+
+**Parameters:**
+- `pgn_game` &mdash; pgn game to check
+- `mth` &mdash; monika twitter handle. pass it in since I'm too lazy to find context from a store
+
+
+**Returns:**<br>
+SEE isInProgressGame
+
+### def _increment_chess_difficulty()
+
+Increments chess difficulty
+
+### def _decrement_chess_difficulty()
+
+Decrements chess difficulty
+
+### def _get_player_color(loaded_game)
+
+Gets player color
+
+**Parameters:**
+- `loaded_game` &mdash; pgn representing the loaded game
+
+
+**Returns:**<br>
+The player's color
+
+### def _get_piece_chance(piece_type, selected_pieces_count_dict, available_points)
+
+Gets the piece chance and returns the piece and weight in tuple form for a `mas_utils.weightedChoice` selection
+
+**Parameters:**
+- `piece_type` &mdash; type of the piece ('b', 'r', 'n', 'q')
+
+
+**Returns:**<br>
+tuple - (piece_type, weight) of the piece
+
+### def _gen_side(white=True, max_side_value=14)
+
+Generates a player's side
+
+**Parameters:**
+- `white` &mdash; whether or not we should generate for white (Default: True)
+- `max_side_value` &mdash; The current upper limit for piece selection (Default: 14 -- minimum weight, most pieces are pawns)
+
+
+**Returns:**<br>
+2 strings representing a random assortment of pieces (front row and back row)
+
+### def _validate_sides(white_front, white_back, black_front, black_back)
+
+Validates sides for really bad chess so we don't end up in a check/check mate after the first turn
+
+**Parameters:**
+- `white_front` &mdash; front row for white
+- `white_back` &mdash; back row for white
+- `black_front` &mdash; front row for black
+- `black_back` &mdash; back row for black
+
+
+**Returns:**<br>
+boolean, whether or not both sides are good to go
+
+### def _checkInProgressGame(pgn_game, mth)
+
+Checks if the given pgn game is valid and in progress.
+
+**Parameters:**
+- `pgn_game` &mdash; pgn game to check
+- `mth` &mdash; monika twitter handle. pass it in since I'm too lazy to find context from a store
+
+
+**Returns:**<br>
+SEE isInProgressGame
+
+### def _increment_chess_difficulty()
+
+Increments chess difficulty
+
+### def _decrement_chess_difficulty()
+
+Decrements chess difficulty
+
+### def _get_player_color(loaded_game)
+
+Gets player color
+
+**Parameters:**
+- `loaded_game` &mdash; pgn representing the loaded game
+
+
+**Returns:**<br>
+The player's color
+
+### def _get_piece_chance(piece_type, selected_pieces_count_dict, available_points)
+
+Gets the piece chance and returns the piece and weight in tuple form for a `mas_utils.weightedChoice` selection
+
+**Parameters:**
+- `piece_type` &mdash; type of the piece ('b', 'r', 'n', 'q')
+
+
+**Returns:**<br>
+tuple - (piece_type, weight) of the piece
+
+### def _gen_side(white=True, max_side_value=14)
+
+Generates a player's side
+
+**Parameters:**
+- `white` &mdash; whether or not we should generate for white (Default: True)
+- `max_side_value` &mdash; The current upper limit for piece selection (Default: 14 -- minimum weight, most pieces are pawns)
+
+
+**Returns:**<br>
+2 strings representing a random assortment of pieces (front row and back row)
+
+### def _validate_sides(white_front, white_back, black_front, black_back)
+
+Validates sides for really bad chess so we don't end up in a check/check mate after the first turn
+
+**Parameters:**
+- `white_front` &mdash; front row for white
+- `white_back` &mdash; back row for white
+- `black_front` &mdash; front row for black
+- `black_back` &mdash; back row for black
+
+
+**Returns:**<br>
+boolean, whether or not both sides are good to go
+

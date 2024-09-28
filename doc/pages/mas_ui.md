@@ -98,3 +98,82 @@ The callback the input calls when the user enters anything. Updates flt_evs of t
 - `search_query` &mdash; search query to filter and sort by
 
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+
+### def _twopane_menu_filter_events(ev, search_query, search_kws, only_pool, only_random, only_unseen, only_seen)
+
+The filter for events in the twopane menu
+
+**Parameters:**
+- `ev` &mdash; event object
+- `search_query` &mdash; search query to filter by
+- `search_kws` &mdash; search_query splitted using spaces
+
+
+**Returns:**<br>
+boolean whether or not the event pass the criteria
+
+### def _twopane_menu_sort_events(ev, search_query, search_kws)
+
+The sortkey for events in the twopane menu.
+
+**Parameters:**
+- `ev` &mdash; event object
+- `search_query` &mdash; search query to sort by
+- `search_kws` &mdash; search_query splitted using spaces
+
+
+**Returns:**<br>
+weight as int
+
+### def _twopane_menu_search_events(search_query)
+
+The actual method that does filtering and searching for the twopane menu.
+
+**Parameters:**
+- `search_query` &mdash; search query to filter and sort by
+
+
+**Returns:**<br>
+list of event objects or None if empty query was given
+
+### def _twopane_menu_filter_events(ev, search_query, search_kws, only_pool, only_random, only_unseen, only_seen)
+
+The filter for events in the twopane menu
+
+**Parameters:**
+- `ev` &mdash; event object
+- `search_query` &mdash; search query to filter by
+- `search_kws` &mdash; search_query splitted using spaces
+
+
+**Returns:**<br>
+boolean whether or not the event pass the criteria
+
+### def _twopane_menu_sort_events(ev, search_query, search_kws)
+
+The sortkey for events in the twopane menu.
+
+**Parameters:**
+- `ev` &mdash; event object
+- `search_query` &mdash; search query to sort by
+- `search_kws` &mdash; search_query splitted using spaces
+
+
+**Returns:**<br>
+weight as int
+
+### def _twopane_menu_search_events(search_query)
+
+The actual method that does filtering and searching for the twopane menu.
+
+**Parameters:**
+- `search_query` &mdash; search query to filter and sort by
+
+
+**Returns:**<br>
+list of event objects or None if empty query was given
+

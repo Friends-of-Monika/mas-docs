@@ -472,3 +472,46 @@ Sanitizes a filename by removing characters that might have special meaning on c
 **Returns:**<br>
 str: Sanitized string, stripped of special characters.
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+
+### def _EVgenY(_start, _end, current, for_start)
+
+Generates/decides if a given start/end datetime/date should have its year incremented or not.
+
+**Parameters:**
+- `_start` &mdash; datetime/date that begins this period
+- `_end` &mdash; datetime/date that ends this period
+- `current` &mdash; datetime/date to compare with (should be either today or now)
+- `for_start` &mdash; True if we want the next valid start, False for end
+
+
+**Returns:**<br>
+either next valid _start or next valid _end.
+
+### def _ntoub(num, bsize)
+
+Partial packing.
+
+### def _itoIS(num)
+
+integer packing
+
+### def _IStoi(packednum)
+
+integer unpacking
+
+### def _ftoFS(num)
+
+Float packing
+
+### def _FStof(packednum)
+
+Float unpacking
+
+### def _splitfloat(num)
+
+Splits a float into integer parts:  [0]: integer [1]: numerator [2]: denominator
+

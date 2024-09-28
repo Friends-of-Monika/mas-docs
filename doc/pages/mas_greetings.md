@@ -46,3 +46,38 @@ Checks if we should clear the current greeting type because of a timeout.
 **Returns:**<br>
 passed in gre_type, or None if timeout occured.
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+
+### def _filterGreeting(ev, curr_pri, aff, check_time, gre_type=None)
+
+Filters a greeting for the given type, among other things.
+
+**Parameters:**
+- `ev` &mdash; ev to filter
+- `curr_pri` &mdash; current loweset priority to compare to
+- `aff` &mdash; affection to use in aff_range comparisons
+- `check_time` &mdash; datetime to check against timed rules
+- `gre_type` &mdash; type of greeting we want. We just do a basic in check for category. We no longer do combinations (Default: None)
+
+
+**Returns:**<br>
+True if this ev passes the filter, False otherwise
+
+### def _filterGreeting(ev, curr_pri, aff, check_time, gre_type=None)
+
+Filters a greeting for the given type, among other things.
+
+**Parameters:**
+- `ev` &mdash; ev to filter
+- `curr_pri` &mdash; current loweset priority to compare to
+- `aff` &mdash; affection to use in aff_range comparisons
+- `check_time` &mdash; datetime to check against timed rules
+- `gre_type` &mdash; type of greeting we want. We just do a basic in check for category. We no longer do combinations (Default: None)
+
+
+**Returns:**<br>
+True if this ev passes the filter, False otherwise
+

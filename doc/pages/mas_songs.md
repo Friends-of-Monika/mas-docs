@@ -178,3 +178,8 @@ Gets the suffix for songs to display in the bookmarks menu
 **Returns:**<br>
 Suffix for song prompt
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

@@ -108,3 +108,8 @@ Gets a random poem from the specified category
 **Returns:**<br>
 A random poem
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

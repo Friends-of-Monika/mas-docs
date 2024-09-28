@@ -22,3 +22,8 @@ Checks if the tip with the given number has already been seen and a day has past
 **Returns:**<br>
 true if the tip has been seen and a day has past since it was unlocked, False otherwise
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+

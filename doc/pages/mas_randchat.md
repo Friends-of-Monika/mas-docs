@@ -76,3 +76,8 @@ Checks whether the waiting time is up yet.
 **Returns:**<br>
 boolean to determine whether the wait is over
 
+### Internal functions
+
+> [!CAUTION]
+> These functions are *internal* and are not recommended for use.
+
