@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 273
   },
   {
     "type": "function",
@@ -35,7 +36,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 285
   },
   {
     "type": "function",
@@ -53,7 +55,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 294
   },
   {
     "type": "function",
@@ -71,7 +74,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 306
   },
   {
     "type": "function",
@@ -89,7 +93,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 318
   },
   {
     "type": "function",
@@ -109,7 +114,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 273
   },
   {
     "type": "function",
@@ -127,7 +133,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 285
   },
   {
     "type": "function",
@@ -145,7 +152,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 294
   },
   {
     "type": "function",
@@ -163,7 +171,8 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 306
   },
   {
     "type": "function",
@@ -181,6 +190,7 @@
     },
     "rpy_script": "game/script-easter-eggs.rpy",
     "rpy_store": "mas_egg_manager",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 318
   }
 ]

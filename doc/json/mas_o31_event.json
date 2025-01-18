@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_o31_event",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 641
   },
   {
     "type": "function",
@@ -35,7 +36,8 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_o31_event",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 653
   },
   {
     "type": "function",
@@ -55,7 +57,8 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_o31_event",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 641
   },
   {
     "type": "function",
@@ -73,6 +76,7 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_o31_event",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 653
   }
 ]

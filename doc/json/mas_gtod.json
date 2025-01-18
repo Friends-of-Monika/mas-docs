@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/script-grammar.rpy",
     "rpy_store": "mas_gtod",
-    "rpy_init": 4
+    "rpy_init": 4,
+    "rpy_lineno": 22
   },
   {
     "type": "function",
@@ -37,6 +38,7 @@
     },
     "rpy_script": "game/script-grammar.rpy",
     "rpy_store": "mas_gtod",
-    "rpy_init": 4
+    "rpy_init": 4,
+    "rpy_lineno": 22
   }
 ]

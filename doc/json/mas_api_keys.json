@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 344
   },
   {
     "type": "function",
@@ -38,7 +39,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 356
   },
   {
     "type": "function",
@@ -56,7 +58,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 367
   },
   {
     "type": "function",
@@ -74,7 +77,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 392
   },
   {
     "type": "function",
@@ -94,7 +98,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 401
   },
   {
     "type": "function",
@@ -115,7 +120,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 413
   },
   {
     "type": "function",
@@ -135,7 +141,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 463
   },
   {
     "type": "function",
@@ -155,7 +162,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 481
   },
   {
     "type": "function",
@@ -173,7 +181,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 519
   },
   {
     "type": "function",
@@ -191,7 +200,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 533
   },
   {
     "type": "function",
@@ -209,7 +219,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 563
   },
   {
     "type": "function",
@@ -229,7 +240,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 344
   },
   {
     "type": "function",
@@ -250,7 +262,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 356
   },
   {
     "type": "function",
@@ -268,7 +281,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 367
   },
   {
     "type": "function",
@@ -286,7 +300,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 392
   },
   {
     "type": "function",
@@ -306,7 +321,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 401
   },
   {
     "type": "function",
@@ -327,7 +343,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 413
   },
   {
     "type": "function",
@@ -347,7 +364,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 463
   },
   {
     "type": "function",
@@ -367,7 +385,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 481
   },
   {
     "type": "function",
@@ -385,7 +404,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 519
   },
   {
     "type": "function",
@@ -403,7 +423,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 533
   },
   {
     "type": "function",
@@ -421,7 +442,8 @@
     },
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 563
   },
   {
     "type": "class",
@@ -731,7 +753,8 @@
     ],
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -750
+    "rpy_init": -750,
+    "rpy_lineno": 52
   },
   {
     "type": "class",
@@ -1041,6 +1064,7 @@
     ],
     "rpy_script": "game/zz_apikeys.rpy",
     "rpy_store": "mas_api_keys",
-    "rpy_init": -750
+    "rpy_init": -750,
+    "rpy_lineno": 52
   }
 ]

@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_d25_utils",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 2077
   },
   {
     "type": "function",
@@ -35,7 +36,8 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_d25_utils",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 2093
   },
   {
     "type": "function",
@@ -53,7 +55,8 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_d25_utils",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 2077
   },
   {
     "type": "function",
@@ -73,6 +76,7 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_d25_utils",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 2093
   }
 ]

@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/zz_poemgame.rpy",
     "rpy_store": "mas_poemgame_fun",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 257
   },
   {
     "type": "function",
@@ -43,7 +44,8 @@
     },
     "rpy_script": "game/zz_poemgame.rpy",
     "rpy_store": "mas_poemgame_fun",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 273
   },
   {
     "type": "function",
@@ -62,7 +64,8 @@
     },
     "rpy_script": "game/zz_poemgame.rpy",
     "rpy_store": "mas_poemgame_fun",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 323
   },
   {
     "type": "function",
@@ -82,7 +85,8 @@
     },
     "rpy_script": "game/zz_poemgame.rpy",
     "rpy_store": "mas_poemgame_fun",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 257
   },
   {
     "type": "function",
@@ -108,7 +112,8 @@
     },
     "rpy_script": "game/zz_poemgame.rpy",
     "rpy_store": "mas_poemgame_fun",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 273
   },
   {
     "type": "function",
@@ -127,6 +132,7 @@
     },
     "rpy_script": "game/zz_poemgame.rpy",
     "rpy_store": "mas_poemgame_fun",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 323
   }
 ]

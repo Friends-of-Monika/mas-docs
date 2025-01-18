@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_player_bday_event",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 5193
   },
   {
     "type": "function",
@@ -37,6 +38,7 @@
     },
     "rpy_script": "game/script-holidays.rpy",
     "rpy_store": "mas_player_bday_event",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 5193
   }
 ]

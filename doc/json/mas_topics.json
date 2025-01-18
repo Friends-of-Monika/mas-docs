@@ -18,7 +18,8 @@
     },
     "rpy_script": "game/script-topics.rpy",
     "rpy_store": "mas_topics",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 33
   },
   {
     "type": "function",
@@ -39,6 +40,7 @@
     },
     "rpy_script": "game/script-topics.rpy",
     "rpy_store": "mas_topics",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 33
   }
 ]

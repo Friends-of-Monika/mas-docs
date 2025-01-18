@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 119
   },
   {
     "type": "function",
@@ -33,7 +34,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 155
   },
   {
     "type": "function",
@@ -51,7 +53,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 168
   },
   {
     "type": "function",
@@ -69,7 +72,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 179
   },
   {
     "type": "function",
@@ -87,7 +91,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 243
   },
   {
     "type": "function",
@@ -107,7 +112,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 255
   },
   {
     "type": "function",
@@ -125,7 +131,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 119
   },
   {
     "type": "function",
@@ -143,7 +150,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 155
   },
   {
     "type": "function",
@@ -161,7 +169,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 168
   },
   {
     "type": "function",
@@ -179,7 +188,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 179
   },
   {
     "type": "function",
@@ -197,7 +207,8 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 243
   },
   {
     "type": "function",
@@ -217,6 +228,7 @@
     },
     "rpy_script": "game/zz_seasons.rpy",
     "rpy_store": "mas_seasons",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 255
   }
 ]

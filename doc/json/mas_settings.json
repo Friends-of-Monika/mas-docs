@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/styles.rpy",
     "rpy_store": "mas_settings",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 235
   },
   {
     "type": "function",
@@ -33,7 +34,8 @@
     },
     "rpy_script": "game/styles.rpy",
     "rpy_store": "mas_settings",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 250
   },
   {
     "type": "function",
@@ -51,7 +53,8 @@
     },
     "rpy_script": "game/styles.rpy",
     "rpy_store": "mas_settings",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 264
   },
   {
     "type": "function",
@@ -69,7 +72,8 @@
     },
     "rpy_script": "game/styles.rpy",
     "rpy_store": "mas_settings",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 235
   },
   {
     "type": "function",
@@ -87,7 +91,8 @@
     },
     "rpy_script": "game/styles.rpy",
     "rpy_store": "mas_settings",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 250
   },
   {
     "type": "function",
@@ -105,6 +110,7 @@
     },
     "rpy_script": "game/styles.rpy",
     "rpy_store": "mas_settings",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 264
   }
 ]

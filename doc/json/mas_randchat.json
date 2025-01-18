@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8303
   },
   {
     "type": "function",
@@ -37,7 +38,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8312
   },
   {
     "type": "function",
@@ -57,7 +59,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8334
   },
   {
     "type": "function",
@@ -75,7 +78,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8349
   },
   {
     "type": "function",
@@ -93,7 +97,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8358
   },
   {
     "type": "function",
@@ -111,7 +116,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8382
   },
   {
     "type": "function",
@@ -131,7 +137,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8303
   },
   {
     "type": "function",
@@ -151,7 +158,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8312
   },
   {
     "type": "function",
@@ -171,7 +179,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8334
   },
   {
     "type": "function",
@@ -189,7 +198,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8349
   },
   {
     "type": "function",
@@ -207,7 +217,8 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8358
   },
   {
     "type": "function",
@@ -225,6 +236,7 @@
     },
     "rpy_script": "game/definitions.rpy",
     "rpy_store": "mas_randchat",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 8382
   }
 ]

@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1001
   },
   {
     "type": "function",
@@ -39,7 +40,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1013
   },
   {
     "type": "function",
@@ -57,7 +59,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1033
   },
   {
     "type": "function",
@@ -78,7 +81,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1050
   },
   {
     "type": "function",
@@ -96,7 +100,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1092
   },
   {
     "type": "function",
@@ -116,7 +121,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1181
   },
   {
     "type": "function",
@@ -136,7 +142,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1219
   },
   {
     "type": "function",
@@ -156,7 +163,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1227
   },
   {
     "type": "function",
@@ -177,7 +185,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1235
   },
   {
     "type": "function",
@@ -203,7 +212,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1246
   },
   {
     "type": "function",
@@ -224,7 +234,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1366
   },
   {
     "type": "function",
@@ -245,7 +256,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1385
   },
   {
     "type": "function",
@@ -265,7 +277,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1405
   },
   {
     "type": "function",
@@ -285,7 +298,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1417
   },
   {
     "type": "function",
@@ -305,7 +319,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1433
   },
   {
     "type": "function",
@@ -323,7 +338,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1449
   },
   {
     "type": "function",
@@ -340,7 +356,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1468
   },
   {
     "type": "function",
@@ -357,7 +374,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1472
   },
   {
     "type": "function",
@@ -374,7 +392,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1480
   },
   {
     "type": "function",
@@ -391,7 +410,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1483
   },
   {
     "type": "function",
@@ -408,7 +428,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1487
   },
   {
     "type": "function",
@@ -425,7 +446,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1491
   },
   {
     "type": "function",
@@ -442,7 +464,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1500
   },
   {
     "type": "function",
@@ -459,7 +482,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1507
   },
   {
     "type": "function",
@@ -476,7 +500,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1526
   },
   {
     "type": "function",
@@ -493,7 +518,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1539
   },
   {
     "type": "function",
@@ -510,7 +536,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1556
   },
   {
     "type": "function",
@@ -527,7 +554,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1564
   },
   {
     "type": "function",
@@ -545,7 +573,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1575
   },
   {
     "type": "function",
@@ -566,7 +595,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1587
   },
   {
     "type": "function",
@@ -584,7 +614,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1628
   },
   {
     "type": "function",
@@ -602,7 +633,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1665
   },
   {
     "type": "function",
@@ -620,7 +652,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1671
   },
   {
     "type": "function",
@@ -638,7 +671,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1679
   },
   {
     "type": "function",
@@ -656,7 +690,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1687
   },
   {
     "type": "function",
@@ -674,7 +709,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1706
   },
   {
     "type": "function",
@@ -698,7 +734,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1717
   },
   {
     "type": "function",
@@ -716,7 +753,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1853
   },
   {
     "type": "function",
@@ -734,7 +772,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1864
   },
   {
     "type": "function",
@@ -754,7 +793,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1001
   },
   {
     "type": "function",
@@ -776,7 +816,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1013
   },
   {
     "type": "function",
@@ -794,7 +835,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1033
   },
   {
     "type": "function",
@@ -815,7 +857,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1050
   },
   {
     "type": "function",
@@ -833,7 +876,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1092
   },
   {
     "type": "function",
@@ -853,7 +897,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1181
   },
   {
     "type": "function",
@@ -873,7 +918,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1219
   },
   {
     "type": "function",
@@ -893,7 +939,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1227
   },
   {
     "type": "function",
@@ -914,7 +961,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1235
   },
   {
     "type": "function",
@@ -940,7 +988,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1246
   },
   {
     "type": "function",
@@ -961,7 +1010,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1366
   },
   {
     "type": "function",
@@ -982,7 +1032,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1385
   },
   {
     "type": "function",
@@ -1002,7 +1053,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1405
   },
   {
     "type": "function",
@@ -1022,7 +1074,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1417
   },
   {
     "type": "function",
@@ -1042,7 +1095,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1433
   },
   {
     "type": "function",
@@ -1060,7 +1114,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1449
   },
   {
     "type": "function",
@@ -1077,7 +1132,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1468
   },
   {
     "type": "function",
@@ -1094,7 +1150,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1472
   },
   {
     "type": "function",
@@ -1111,7 +1168,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1480
   },
   {
     "type": "function",
@@ -1128,7 +1186,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1483
   },
   {
     "type": "function",
@@ -1145,7 +1204,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1487
   },
   {
     "type": "function",
@@ -1162,7 +1222,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1491
   },
   {
     "type": "function",
@@ -1179,7 +1240,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1500
   },
   {
     "type": "function",
@@ -1196,7 +1258,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1507
   },
   {
     "type": "function",
@@ -1213,7 +1276,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1526
   },
   {
     "type": "function",
@@ -1230,7 +1294,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1539
   },
   {
     "type": "function",
@@ -1247,7 +1312,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1556
   },
   {
     "type": "function",
@@ -1264,7 +1330,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1564
   },
   {
     "type": "function",
@@ -1282,7 +1349,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1575
   },
   {
     "type": "function",
@@ -1303,7 +1371,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1587
   },
   {
     "type": "function",
@@ -1321,7 +1390,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1628
   },
   {
     "type": "function",
@@ -1339,7 +1409,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1665
   },
   {
     "type": "function",
@@ -1357,7 +1428,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1671
   },
   {
     "type": "function",
@@ -1375,7 +1447,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1679
   },
   {
     "type": "function",
@@ -1393,7 +1466,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1687
   },
   {
     "type": "function",
@@ -1411,7 +1485,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1706
   },
   {
     "type": "function",
@@ -1435,7 +1510,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1717
   },
   {
     "type": "function",
@@ -1453,7 +1529,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1853
   },
   {
     "type": "function",
@@ -1471,7 +1548,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -25
+    "rpy_init": -25,
+    "rpy_lineno": 1864
   },
   {
     "type": "class",
@@ -1644,7 +1722,8 @@
     ],
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 173
   },
   {
     "type": "function",
@@ -1666,7 +1745,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 361
   },
   {
     "type": "function",
@@ -1688,7 +1768,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 377
   },
   {
     "type": "function",
@@ -1710,7 +1791,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 395
   },
   {
     "type": "function",
@@ -1732,7 +1814,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 409
   },
   {
     "type": "function",
@@ -1754,7 +1837,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 427
   },
   {
     "type": "function",
@@ -1776,7 +1860,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 442
   },
   {
     "type": "class",
@@ -1949,7 +2034,8 @@
     ],
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 173
   },
   {
     "type": "function",
@@ -1971,7 +2057,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 361
   },
   {
     "type": "function",
@@ -1993,7 +2080,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 377
   },
   {
     "type": "function",
@@ -2015,7 +2103,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 395
   },
   {
     "type": "function",
@@ -2037,7 +2126,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 409
   },
   {
     "type": "function",
@@ -2059,7 +2149,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 427
   },
   {
     "type": "function",
@@ -2081,7 +2172,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 442
   },
   {
     "type": "function",
@@ -2101,7 +2193,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1885
   },
   {
     "type": "function",
@@ -2121,7 +2214,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1893
   },
   {
     "type": "function",
@@ -2141,7 +2235,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1900
   },
   {
     "type": "function",
@@ -2161,7 +2256,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1885
   },
   {
     "type": "function",
@@ -2181,7 +2277,8 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1893
   },
   {
     "type": "function",
@@ -2201,6 +2298,7 @@
     },
     "rpy_script": "game/script-islands-event.rpy",
     "rpy_store": "mas_island_event",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1900
   }
 ]

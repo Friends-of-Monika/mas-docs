@@ -19,7 +19,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 33
   },
   {
     "type": "class",
@@ -65,7 +66,8 @@
     ],
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 44
   },
   {
     "type": "class",
@@ -250,7 +252,8 @@
     ],
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 50
   },
   {
     "type": "function",
@@ -273,7 +276,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 316
   },
   {
     "type": "function",
@@ -295,7 +299,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 33
   },
   {
     "type": "class",
@@ -341,7 +346,8 @@
     ],
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 44
   },
   {
     "type": "class",
@@ -526,7 +532,8 @@
     ],
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 50
   },
   {
     "type": "function",
@@ -549,7 +556,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -991
+    "rpy_init": -991,
+    "rpy_lineno": 316
   },
   {
     "type": "function",
@@ -576,7 +584,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 359
   },
   {
     "type": "function",
@@ -598,7 +607,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 378
   },
   {
     "type": "function",
@@ -626,7 +636,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 409
   },
   {
     "type": "function",
@@ -647,7 +658,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 473
   },
   {
     "type": "function",
@@ -670,7 +682,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 501
   },
   {
     "type": "function",
@@ -696,7 +709,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 519
   },
   {
     "type": "function",
@@ -717,7 +731,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 557
   },
   {
     "type": "function",
@@ -737,7 +752,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 586
   },
   {
     "type": "function",
@@ -757,7 +773,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 608
   },
   {
     "type": "function",
@@ -784,7 +801,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 359
   },
   {
     "type": "function",
@@ -806,7 +824,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 378
   },
   {
     "type": "function",
@@ -834,7 +853,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 409
   },
   {
     "type": "function",
@@ -855,7 +875,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 473
   },
   {
     "type": "function",
@@ -878,7 +899,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 501
   },
   {
     "type": "function",
@@ -904,7 +926,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 519
   },
   {
     "type": "function",
@@ -925,7 +948,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 557
   },
   {
     "type": "function",
@@ -945,7 +969,8 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 586
   },
   {
     "type": "function",
@@ -965,6 +990,7 @@
     },
     "rpy_script": "game/zz_submods.rpy",
     "rpy_store": "mas_submod_utils",
-    "rpy_init": -980
+    "rpy_init": -980,
+    "rpy_lineno": 608
   }
 ]

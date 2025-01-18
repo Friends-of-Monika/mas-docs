@@ -43,7 +43,8 @@
     ],
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 26
   },
   {
     "type": "function",
@@ -61,7 +62,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 33
   },
   {
     "type": "function",
@@ -83,7 +85,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 73
   },
   {
     "type": "function",
@@ -105,7 +108,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 101
   },
   {
     "type": "function",
@@ -127,7 +131,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 140
   },
   {
     "type": "function",
@@ -149,7 +154,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 168
   },
   {
     "type": "function",
@@ -169,7 +175,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 214
   },
   {
     "type": "function",
@@ -189,7 +196,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 295
   },
   {
     "type": "class",
@@ -235,7 +243,8 @@
     ],
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 26
   },
   {
     "type": "function",
@@ -253,7 +262,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 33
   },
   {
     "type": "function",
@@ -275,7 +285,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 73
   },
   {
     "type": "function",
@@ -297,7 +308,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 101
   },
   {
     "type": "function",
@@ -319,7 +331,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 140
   },
   {
     "type": "function",
@@ -341,7 +354,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 168
   },
   {
     "type": "function",
@@ -361,7 +375,8 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 214
   },
   {
     "type": "function",
@@ -381,6 +396,7 @@
     },
     "rpy_script": "game/sprite-decoder.rpy",
     "rpy_store": "mas_sprite_decoder",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 295
   }
 ]

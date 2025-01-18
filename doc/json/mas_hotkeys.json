@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/zz_hotkeys.rpy",
     "rpy_store": "mas_hotkeys",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 14
   },
   {
     "type": "function",
@@ -35,7 +36,8 @@
     },
     "rpy_script": "game/zz_hotkeys.rpy",
     "rpy_store": "mas_hotkeys",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 21
   },
   {
     "type": "function",
@@ -53,7 +55,8 @@
     },
     "rpy_script": "game/zz_hotkeys.rpy",
     "rpy_store": "mas_hotkeys",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 14
   },
   {
     "type": "function",
@@ -73,6 +76,7 @@
     },
     "rpy_script": "game/zz_hotkeys.rpy",
     "rpy_store": "mas_hotkeys",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 21
   }
 ]

@@ -157,7 +157,8 @@
     ],
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1560
   },
   {
     "type": "function",
@@ -177,7 +178,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1675
   },
   {
     "type": "function",
@@ -197,7 +199,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1692
   },
   {
     "type": "function",
@@ -220,7 +223,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1708
   },
   {
     "type": "function",
@@ -243,7 +247,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1740
   },
   {
     "type": "function",
@@ -263,7 +268,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1772
   },
   {
     "type": "function",
@@ -292,7 +298,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1800
   },
   {
     "type": "function",
@@ -323,7 +330,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1825
   },
   {
     "type": "function",
@@ -343,7 +351,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1847
   },
   {
     "type": "function",
@@ -366,7 +375,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1854
   },
   {
     "type": "function",
@@ -386,7 +396,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1861
   },
   {
     "type": "function",
@@ -409,7 +420,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1869
   },
   {
     "type": "function",
@@ -430,7 +442,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1876
   },
   {
     "type": "function",
@@ -448,7 +461,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1889
   },
   {
     "type": "function",
@@ -468,7 +482,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1899
   },
   {
     "type": "class",
@@ -628,7 +643,8 @@
     ],
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1560
   },
   {
     "type": "function",
@@ -648,7 +664,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1675
   },
   {
     "type": "function",
@@ -668,7 +685,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1692
   },
   {
     "type": "function",
@@ -691,7 +709,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1708
   },
   {
     "type": "function",
@@ -714,7 +733,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1740
   },
   {
     "type": "function",
@@ -734,7 +754,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1772
   },
   {
     "type": "function",
@@ -763,7 +784,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1800
   },
   {
     "type": "function",
@@ -794,7 +816,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1825
   },
   {
     "type": "function",
@@ -814,7 +837,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1847
   },
   {
     "type": "function",
@@ -837,7 +861,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1854
   },
   {
     "type": "function",
@@ -857,7 +882,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1861
   },
   {
     "type": "function",
@@ -880,7 +906,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1869
   },
   {
     "type": "function",
@@ -901,7 +928,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1876
   },
   {
     "type": "function",
@@ -919,7 +947,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1889
   },
   {
     "type": "function",
@@ -939,7 +968,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 1899
   },
   {
     "type": "function",
@@ -959,7 +989,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3012
   },
   {
     "type": "function",
@@ -979,7 +1010,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3022
   },
   {
     "type": "function",
@@ -999,7 +1031,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3032
   },
   {
     "type": "function",
@@ -1019,7 +1052,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3045
   },
   {
     "type": "function",
@@ -1039,7 +1073,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3058
   },
   {
     "type": "function",
@@ -1059,7 +1094,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3012
   },
   {
     "type": "function",
@@ -1079,7 +1115,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3022
   },
   {
     "type": "function",
@@ -1099,7 +1136,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3032
   },
   {
     "type": "function",
@@ -1119,7 +1157,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3045
   },
   {
     "type": "function",
@@ -1139,6 +1178,7 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "evhand",
-    "rpy_init": 1
+    "rpy_init": 1,
+    "rpy_lineno": 3058
   }
 ]

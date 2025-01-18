@@ -18,7 +18,8 @@
     },
     "rpy_script": "game/zz_spritedeco.rpy",
     "rpy_store": "mas_deco",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 42
   },
   {
     "type": "function",
@@ -38,7 +39,8 @@
     },
     "rpy_script": "game/zz_spritedeco.rpy",
     "rpy_store": "mas_deco",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 64
   },
   {
     "type": "function",
@@ -58,7 +60,8 @@
     },
     "rpy_script": "game/zz_spritedeco.rpy",
     "rpy_store": "mas_deco",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 86
   },
   {
     "type": "function",
@@ -79,7 +82,8 @@
     },
     "rpy_script": "game/zz_spritedeco.rpy",
     "rpy_store": "mas_deco",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 42
   },
   {
     "type": "function",
@@ -99,7 +103,8 @@
     },
     "rpy_script": "game/zz_spritedeco.rpy",
     "rpy_store": "mas_deco",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 64
   },
   {
     "type": "function",
@@ -119,6 +124,7 @@
     },
     "rpy_script": "game/zz_spritedeco.rpy",
     "rpy_store": "mas_deco",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 86
   }
 ]

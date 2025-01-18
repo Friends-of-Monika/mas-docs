@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -99
+    "rpy_init": -99,
+    "rpy_lineno": 224
   },
   {
     "type": "function",
@@ -37,7 +38,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -99
+    "rpy_init": -99,
+    "rpy_lineno": 224
   },
   {
     "type": "function",
@@ -55,7 +57,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 255
   },
   {
     "type": "function",
@@ -73,7 +76,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 310
   },
   {
     "type": "function",
@@ -91,7 +95,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 325
   },
   {
     "type": "function",
@@ -109,7 +114,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 333
   },
   {
     "type": "function",
@@ -129,7 +135,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 349
   },
   {
     "type": "function",
@@ -149,7 +156,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 372
   },
   {
     "type": "function",
@@ -169,7 +177,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 389
   },
   {
     "type": "function",
@@ -189,7 +198,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 406
   },
   {
     "type": "function",
@@ -209,7 +219,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 414
   },
   {
     "type": "function",
@@ -229,7 +240,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 427
   },
   {
     "type": "function",
@@ -249,7 +261,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 440
   },
   {
     "type": "function",
@@ -269,7 +282,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 448
   },
   {
     "type": "function",
@@ -287,7 +301,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 255
   },
   {
     "type": "function",
@@ -305,7 +320,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 310
   },
   {
     "type": "function",
@@ -323,7 +339,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 325
   },
   {
     "type": "function",
@@ -341,7 +358,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 333
   },
   {
     "type": "function",
@@ -361,7 +379,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 349
   },
   {
     "type": "function",
@@ -381,7 +400,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 372
   },
   {
     "type": "function",
@@ -401,7 +421,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 389
   },
   {
     "type": "function",
@@ -421,7 +442,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 406
   },
   {
     "type": "function",
@@ -441,7 +463,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 414
   },
   {
     "type": "function",
@@ -461,7 +484,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 427
   },
   {
     "type": "function",
@@ -481,7 +505,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 440
   },
   {
     "type": "function",
@@ -501,7 +526,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": -20
+    "rpy_init": -20,
+    "rpy_lineno": 448
   },
   {
     "type": "function",
@@ -518,7 +544,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 103
   },
   {
     "type": "function",
@@ -543,7 +570,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 133
   },
   {
     "type": "function",
@@ -560,7 +588,8 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 103
   },
   {
     "type": "function",
@@ -585,6 +614,7 @@
     },
     "rpy_script": "game/zz_weather.rpy",
     "rpy_store": "mas_weather",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 133
   }
 ]

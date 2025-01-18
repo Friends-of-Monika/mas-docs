@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/script-farewells.rpy",
     "rpy_store": "mas_farewells",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 43
   },
   {
     "type": "function",
@@ -38,7 +39,8 @@
     },
     "rpy_script": "game/script-farewells.rpy",
     "rpy_store": "mas_farewells",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 54
   },
   {
     "type": "function",
@@ -60,7 +62,8 @@
     },
     "rpy_script": "game/script-farewells.rpy",
     "rpy_store": "mas_farewells",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 122
   },
   {
     "type": "function",
@@ -78,7 +81,8 @@
     },
     "rpy_script": "game/script-farewells.rpy",
     "rpy_store": "mas_farewells",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 43
   },
   {
     "type": "function",
@@ -101,7 +105,8 @@
     },
     "rpy_script": "game/script-farewells.rpy",
     "rpy_store": "mas_farewells",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 54
   },
   {
     "type": "function",
@@ -123,6 +128,7 @@
     },
     "rpy_script": "game/script-farewells.rpy",
     "rpy_store": "mas_farewells",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 122
   }
 ]

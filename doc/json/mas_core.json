@@ -18,7 +18,8 @@
     },
     "rpy_script": "game/sprite-chart.rpy",
     "rpy_store": "mas_core",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 147
   },
   {
     "type": "function",
@@ -39,6 +40,7 @@
     },
     "rpy_script": "game/sprite-chart.rpy",
     "rpy_store": "mas_core",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 147
   }
 ]

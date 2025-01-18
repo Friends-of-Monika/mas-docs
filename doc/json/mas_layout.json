@@ -62,7 +62,8 @@
     ],
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -800
+    "rpy_init": -800,
+    "rpy_lineno": 195
   },
   {
     "type": "class",
@@ -127,7 +128,8 @@
     ],
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -800
+    "rpy_init": -800,
+    "rpy_lineno": 195
   },
   {
     "type": "function",
@@ -148,7 +150,8 @@
     },
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 103
   },
   {
     "type": "function",
@@ -174,7 +177,8 @@
     },
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 124
   },
   {
     "type": "function",
@@ -192,7 +196,8 @@
     },
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 140
   },
   {
     "type": "function",
@@ -213,7 +218,8 @@
     },
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 103
   },
   {
     "type": "function",
@@ -239,7 +245,8 @@
     },
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 124
   },
   {
     "type": "function",
@@ -257,6 +264,7 @@
     },
     "rpy_script": "game/screens.rpy",
     "rpy_store": "mas_layout",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 140
   }
 ]

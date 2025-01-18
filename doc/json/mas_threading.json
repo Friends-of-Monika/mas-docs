@@ -136,7 +136,8 @@
     ],
     "rpy_script": "game/zz_threading.rpy",
     "rpy_store": "mas_threading",
-    "rpy_init": -2000
+    "rpy_init": -2000,
+    "rpy_lineno": 6
   },
   {
     "type": "class",
@@ -275,6 +276,7 @@
     ],
     "rpy_script": "game/zz_threading.rpy",
     "rpy_store": "mas_threading",
-    "rpy_init": -2000
+    "rpy_init": -2000,
+    "rpy_lineno": 6
   }
 ]

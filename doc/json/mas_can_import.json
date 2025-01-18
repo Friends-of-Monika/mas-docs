@@ -196,7 +196,8 @@
     ],
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1510
+    "rpy_init": -1510,
+    "rpy_lineno": 308
   },
   {
     "type": "function",
@@ -214,7 +215,8 @@
     },
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1510
+    "rpy_init": -1510,
+    "rpy_lineno": 455
   },
   {
     "type": "class",
@@ -413,7 +415,8 @@
     ],
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1510
+    "rpy_init": -1510,
+    "rpy_lineno": 308
   },
   {
     "type": "function",
@@ -431,7 +434,8 @@
     },
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1510
+    "rpy_init": -1510,
+    "rpy_lineno": 455
   },
   {
     "type": "class",
@@ -691,7 +695,8 @@
     ],
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1505
+    "rpy_init": -1505,
+    "rpy_lineno": 25
   },
   {
     "type": "class",
@@ -739,7 +744,8 @@
     ],
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1505
+    "rpy_init": -1505,
+    "rpy_lineno": 224
   },
   {
     "type": "class",
@@ -999,7 +1005,8 @@
     ],
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1505
+    "rpy_init": -1505,
+    "rpy_lineno": 25
   },
   {
     "type": "class",
@@ -1047,6 +1054,7 @@
     ],
     "rpy_script": "game/0imports.rpy",
     "rpy_store": "mas_can_import",
-    "rpy_init": -1505
+    "rpy_init": -1505,
+    "rpy_lineno": 224
   }
 ]

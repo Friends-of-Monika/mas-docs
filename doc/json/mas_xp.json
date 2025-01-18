@@ -20,7 +20,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 41
   },
   {
     "type": "function",
@@ -38,7 +39,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 83
   },
   {
     "type": "function",
@@ -59,7 +61,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 110
   },
   {
     "type": "function",
@@ -80,7 +83,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 153
   },
   {
     "type": "function",
@@ -101,7 +105,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 169
   },
   {
     "type": "function",
@@ -119,7 +124,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 192
   },
   {
     "type": "function",
@@ -139,7 +145,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 215
   },
   {
     "type": "function",
@@ -157,7 +164,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 234
   },
   {
     "type": "function",
@@ -177,7 +185,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 245
   },
   {
     "type": "function",
@@ -197,7 +206,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 261
   },
   {
     "type": "function",
@@ -215,7 +225,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 276
   },
   {
     "type": "function",
@@ -233,7 +244,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 285
   },
   {
     "type": "function",
@@ -256,7 +268,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 41
   },
   {
     "type": "function",
@@ -274,7 +287,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 83
   },
   {
     "type": "function",
@@ -295,7 +309,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 110
   },
   {
     "type": "function",
@@ -316,7 +331,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 153
   },
   {
     "type": "function",
@@ -337,7 +353,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 169
   },
   {
     "type": "function",
@@ -355,7 +372,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 192
   },
   {
     "type": "function",
@@ -375,7 +393,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 215
   },
   {
     "type": "function",
@@ -393,7 +412,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 234
   },
   {
     "type": "function",
@@ -413,7 +433,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 245
   },
   {
     "type": "function",
@@ -433,7 +454,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 261
   },
   {
     "type": "function",
@@ -451,7 +473,8 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 276
   },
   {
     "type": "function",
@@ -469,6 +492,7 @@
     },
     "rpy_script": "game/progression.rpy",
     "rpy_store": "mas_xp",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 285
   }
 ]

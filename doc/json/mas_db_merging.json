@@ -18,7 +18,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_db_merging",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 7
   },
   {
     "type": "function",
@@ -36,7 +37,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_db_merging",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 18
   },
   {
     "type": "function",
@@ -57,7 +59,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_db_merging",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 7
   },
   {
     "type": "function",
@@ -75,6 +78,7 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_db_merging",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 18
   }
 ]

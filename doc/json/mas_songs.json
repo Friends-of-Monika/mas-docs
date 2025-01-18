@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 31
   },
   {
     "type": "function",
@@ -37,7 +38,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 66
   },
   {
     "type": "function",
@@ -59,7 +61,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 90
   },
   {
     "type": "function",
@@ -81,7 +84,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 118
   },
   {
     "type": "function",
@@ -103,7 +107,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 131
   },
   {
     "type": "function",
@@ -125,7 +130,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 151
   },
   {
     "type": "function",
@@ -147,7 +153,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 165
   },
   {
     "type": "function",
@@ -169,7 +176,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 178
   },
   {
     "type": "function",
@@ -189,7 +197,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 189
   },
   {
     "type": "function",
@@ -207,7 +216,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 31
   },
   {
     "type": "function",
@@ -229,7 +239,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 66
   },
   {
     "type": "function",
@@ -251,7 +262,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 90
   },
   {
     "type": "function",
@@ -273,7 +285,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 118
   },
   {
     "type": "function",
@@ -295,7 +308,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 131
   },
   {
     "type": "function",
@@ -317,7 +331,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 151
   },
   {
     "type": "function",
@@ -339,7 +354,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 165
   },
   {
     "type": "function",
@@ -361,7 +377,8 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 178
   },
   {
     "type": "function",
@@ -381,6 +398,7 @@
     },
     "rpy_script": "game/script-songs.rpy",
     "rpy_store": "mas_songs",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 189
   }
 ]

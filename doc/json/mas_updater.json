@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/updater.rpy",
     "rpy_store": "mas_updater",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 676
   },
   {
     "type": "function",
@@ -33,6 +34,7 @@
     },
     "rpy_script": "game/updater.rpy",
     "rpy_store": "mas_updater",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 676
   }
 ]

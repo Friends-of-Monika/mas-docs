@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 663
   },
   {
     "type": "function",
@@ -38,7 +39,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 685
   },
   {
     "type": "function",
@@ -58,7 +60,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 715
   },
   {
     "type": "function",
@@ -78,7 +81,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 728
   },
   {
     "type": "function",
@@ -100,7 +104,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 750
   },
   {
     "type": "function",
@@ -123,7 +128,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 772
   },
   {
     "type": "function",
@@ -147,7 +153,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 790
   },
   {
     "type": "function",
@@ -171,7 +178,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 814
   },
   {
     "type": "function",
@@ -195,7 +203,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 838
   },
   {
     "type": "function",
@@ -219,7 +228,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 863
   },
   {
     "type": "function",
@@ -243,7 +253,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 888
   },
   {
     "type": "class",
@@ -289,7 +300,8 @@
     ],
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 914
   },
   {
     "type": "class",
@@ -452,7 +464,8 @@
     ],
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 954
   },
   {
     "type": "class",
@@ -583,7 +596,8 @@
     ],
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 1189
   },
   {
     "type": "function",
@@ -603,7 +617,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 663
   },
   {
     "type": "function",
@@ -624,7 +639,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 685
   },
   {
     "type": "function",
@@ -644,7 +660,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 715
   },
   {
     "type": "function",
@@ -664,7 +681,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 728
   },
   {
     "type": "function",
@@ -686,7 +704,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 750
   },
   {
     "type": "function",
@@ -709,7 +728,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 772
   },
   {
     "type": "function",
@@ -733,7 +753,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 790
   },
   {
     "type": "function",
@@ -757,7 +778,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 814
   },
   {
     "type": "function",
@@ -781,7 +803,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 838
   },
   {
     "type": "function",
@@ -805,7 +828,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 863
   },
   {
     "type": "function",
@@ -829,7 +853,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 888
   },
   {
     "type": "class",
@@ -875,7 +900,8 @@
     ],
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 914
   },
   {
     "type": "class",
@@ -1038,7 +1064,8 @@
     ],
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 954
   },
   {
     "type": "class",
@@ -1169,7 +1196,8 @@
     ],
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": -3
+    "rpy_init": -3,
+    "rpy_lineno": 1189
   },
   {
     "type": "function",
@@ -1192,7 +1220,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 790
+    "rpy_init": 790,
+    "rpy_lineno": 1460
   },
   {
     "type": "function",
@@ -1210,7 +1239,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 790
+    "rpy_init": 790,
+    "rpy_lineno": 1496
   },
   {
     "type": "function",
@@ -1228,7 +1258,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 790
+    "rpy_init": 790,
+    "rpy_lineno": 1522
   },
   {
     "type": "function",
@@ -1251,7 +1282,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 790
+    "rpy_init": 790,
+    "rpy_lineno": 1460
   },
   {
     "type": "function",
@@ -1269,7 +1301,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 790
+    "rpy_init": 790,
+    "rpy_lineno": 1496
   },
   {
     "type": "function",
@@ -1287,7 +1320,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 790
+    "rpy_init": 790,
+    "rpy_lineno": 1522
   },
   {
     "type": "function",
@@ -1305,7 +1339,8 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 800
+    "rpy_init": 800,
+    "rpy_lineno": 1945
   },
   {
     "type": "function",
@@ -1323,6 +1358,7 @@
     },
     "rpy_script": "game/zz_pianokeys.rpy",
     "rpy_store": "mas_piano_keys",
-    "rpy_init": 800
+    "rpy_init": 800,
+    "rpy_lineno": 1945
   }
 ]

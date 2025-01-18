@@ -21,7 +21,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 1072
   },
   {
     "type": "function",
@@ -47,7 +48,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 1157
   },
   {
     "type": "function",
@@ -71,7 +73,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 1072
   },
   {
     "type": "function",
@@ -97,7 +100,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": -11
+    "rpy_init": -11,
+    "rpy_lineno": 1157
   },
   {
     "type": "function",
@@ -117,7 +121,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 1190
   },
   {
     "type": "function",
@@ -137,7 +142,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 1190
   },
   {
     "type": "function",
@@ -157,7 +163,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1229
   },
   {
     "type": "function",
@@ -178,7 +185,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1269
   },
   {
     "type": "function",
@@ -199,7 +207,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1297
   },
   {
     "type": "function",
@@ -217,7 +226,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1313
   },
   {
     "type": "function",
@@ -237,7 +247,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1325
   },
   {
     "type": "function",
@@ -257,7 +268,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1348
   },
   {
     "type": "function",
@@ -284,7 +296,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1379
   },
   {
     "type": "function",
@@ -305,7 +318,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1441
   },
   {
     "type": "function",
@@ -325,7 +339,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1680
   },
   {
     "type": "function",
@@ -347,7 +362,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1693
   },
   {
     "type": "function",
@@ -368,7 +384,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1779
   },
   {
     "type": "function",
@@ -389,7 +406,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1818
   },
   {
     "type": "function",
@@ -411,7 +429,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1845
   },
   {
     "type": "function",
@@ -433,7 +452,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1874
   },
   {
     "type": "function",
@@ -455,7 +475,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1922
   },
   {
     "type": "function",
@@ -475,7 +496,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1966
   },
   {
     "type": "function",
@@ -501,7 +523,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1999
   },
   {
     "type": "function",
@@ -521,7 +544,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1229
   },
   {
     "type": "function",
@@ -542,7 +566,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1269
   },
   {
     "type": "function",
@@ -563,7 +588,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1297
   },
   {
     "type": "function",
@@ -581,7 +607,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1313
   },
   {
     "type": "function",
@@ -601,7 +628,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1325
   },
   {
     "type": "function",
@@ -621,7 +649,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1348
   },
   {
     "type": "function",
@@ -648,7 +677,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1379
   },
   {
     "type": "function",
@@ -669,7 +699,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1441
   },
   {
     "type": "function",
@@ -689,7 +720,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1680
   },
   {
     "type": "function",
@@ -711,7 +743,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1693
   },
   {
     "type": "function",
@@ -732,7 +765,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1779
   },
   {
     "type": "function",
@@ -753,7 +787,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1818
   },
   {
     "type": "function",
@@ -775,7 +810,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1845
   },
   {
     "type": "function",
@@ -797,7 +833,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1874
   },
   {
     "type": "function",
@@ -819,7 +856,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1922
   },
   {
     "type": "function",
@@ -839,7 +877,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1966
   },
   {
     "type": "function",
@@ -865,7 +904,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 200
+    "rpy_init": 200,
+    "rpy_lineno": 1999
   },
   {
     "type": "function",
@@ -883,7 +923,8 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 205
+    "rpy_init": 205,
+    "rpy_lineno": 2061
   },
   {
     "type": "function",
@@ -901,6 +942,7 @@
     },
     "rpy_script": "game/zz_dockingstation.rpy",
     "rpy_store": "mas_dockstat",
-    "rpy_init": 205
+    "rpy_init": 205,
+    "rpy_lineno": 2061
   }
 ]

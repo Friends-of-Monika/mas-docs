@@ -225,7 +225,8 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 10
   },
   {
     "type": "class",
@@ -527,7 +528,8 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 131
   },
   {
     "type": "class",
@@ -1028,7 +1030,8 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 315
   },
   {
     "type": "class",
@@ -1173,7 +1176,8 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 749
   },
   {
     "type": "class",
@@ -1401,7 +1405,8 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 10
   },
   {
     "type": "class",
@@ -1703,7 +1708,8 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 131
   },
   {
     "type": "class",
@@ -2204,7 +2210,8 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 315
   },
   {
     "type": "class",
@@ -2349,6 +2356,7 @@
     ],
     "rpy_script": "game/special-effects.rpy",
     "rpy_store": "mas_parallax",
-    "rpy_init": -500
+    "rpy_init": -500,
+    "rpy_lineno": 749
   }
 ]

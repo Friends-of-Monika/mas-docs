@@ -234,7 +234,8 @@
     ],
     "rpy_script": "game/dev/dev_db.rpy",
     "rpy_store": "dev_mas_shared",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 224
   },
   {
     "type": "class",
@@ -471,6 +472,7 @@
     ],
     "rpy_script": "game/dev/dev_db.rpy",
     "rpy_store": "dev_mas_shared",
-    "rpy_init": 0
+    "rpy_init": 0,
+    "rpy_lineno": 224
   }
 ]

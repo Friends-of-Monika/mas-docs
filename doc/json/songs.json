@@ -20,7 +20,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 58
   },
   {
     "type": "function",
@@ -40,7 +41,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 76
   },
   {
     "type": "function",
@@ -60,7 +62,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 89
   },
   {
     "type": "function",
@@ -78,7 +81,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 106
   },
   {
     "type": "function",
@@ -95,7 +99,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 115
   },
   {
     "type": "function",
@@ -116,7 +121,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 155
   },
   {
     "type": "function",
@@ -137,7 +143,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 202
   },
   {
     "type": "function",
@@ -157,7 +164,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 217
   },
   {
     "type": "function",
@@ -177,7 +185,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 234
   },
   {
     "type": "function",
@@ -197,7 +206,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 259
   },
   {
     "type": "function",
@@ -217,7 +227,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 274
   },
   {
     "type": "function",
@@ -237,7 +248,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 327
   },
   {
     "type": "function",
@@ -259,7 +271,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 352
   },
   {
     "type": "function",
@@ -280,7 +293,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 385
   },
   {
     "type": "function",
@@ -300,7 +314,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 413
   },
   {
     "type": "function",
@@ -320,7 +335,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 429
   },
   {
     "type": "function",
@@ -340,7 +356,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 444
   },
   {
     "type": "function",
@@ -360,7 +377,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 460
   },
   {
     "type": "function",
@@ -381,7 +399,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 489
   },
   {
     "type": "function",
@@ -403,7 +422,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 521
   },
   {
     "type": "function",
@@ -425,7 +445,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 576
   },
   {
     "type": "function",
@@ -445,7 +466,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 641
   },
   {
     "type": "function",
@@ -465,7 +487,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 657
   },
   {
     "type": "function",
@@ -485,7 +508,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 674
   },
   {
     "type": "function",
@@ -505,7 +529,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 695
   },
   {
     "type": "function",
@@ -528,7 +553,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 58
   },
   {
     "type": "function",
@@ -548,7 +574,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 76
   },
   {
     "type": "function",
@@ -568,7 +595,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 89
   },
   {
     "type": "function",
@@ -586,7 +614,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 106
   },
   {
     "type": "function",
@@ -603,7 +632,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 115
   },
   {
     "type": "function",
@@ -624,7 +654,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 155
   },
   {
     "type": "function",
@@ -645,7 +676,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 202
   },
   {
     "type": "function",
@@ -665,7 +697,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 217
   },
   {
     "type": "function",
@@ -685,7 +718,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 234
   },
   {
     "type": "function",
@@ -705,7 +739,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 259
   },
   {
     "type": "function",
@@ -725,7 +760,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 274
   },
   {
     "type": "function",
@@ -745,7 +781,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 327
   },
   {
     "type": "function",
@@ -767,7 +804,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 352
   },
   {
     "type": "function",
@@ -788,7 +826,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 385
   },
   {
     "type": "function",
@@ -808,7 +847,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 413
   },
   {
     "type": "function",
@@ -828,7 +868,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 429
   },
   {
     "type": "function",
@@ -848,7 +889,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 444
   },
   {
     "type": "function",
@@ -868,7 +910,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 460
   },
   {
     "type": "function",
@@ -889,7 +932,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 489
   },
   {
     "type": "function",
@@ -911,7 +955,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 521
   },
   {
     "type": "function",
@@ -933,7 +978,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 576
   },
   {
     "type": "function",
@@ -953,7 +999,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 641
   },
   {
     "type": "function",
@@ -973,7 +1020,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 657
   },
   {
     "type": "function",
@@ -993,7 +1041,8 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 674
   },
   {
     "type": "function",
@@ -1013,6 +1062,7 @@
     },
     "rpy_script": "game/zz_music_selector.rpy",
     "rpy_store": "songs",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 695
   }
 ]

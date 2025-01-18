@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -150
+    "rpy_init": -150,
+    "rpy_lineno": 26
   },
   {
     "type": "function",
@@ -33,7 +34,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -150
+    "rpy_init": -150,
+    "rpy_lineno": 26
   },
   {
     "type": "function",
@@ -63,7 +65,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 99
   },
   {
     "type": "function",
@@ -83,7 +86,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 147
   },
   {
     "type": "function",
@@ -106,7 +110,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 164
   },
   {
     "type": "function",
@@ -129,7 +134,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 180
   },
   {
     "type": "function",
@@ -149,7 +155,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 193
   },
   {
     "type": "function",
@@ -167,7 +174,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 205
   },
   {
     "type": "function",
@@ -185,7 +193,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 215
   },
   {
     "type": "function",
@@ -205,7 +214,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 228
   },
   {
     "type": "function",
@@ -228,7 +238,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 240
   },
   {
     "type": "function",
@@ -248,7 +259,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 261
   },
   {
     "type": "function",
@@ -266,7 +278,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 273
   },
   {
     "type": "function",
@@ -296,7 +309,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 99
   },
   {
     "type": "function",
@@ -316,7 +330,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 147
   },
   {
     "type": "function",
@@ -339,7 +354,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 164
   },
   {
     "type": "function",
@@ -362,7 +378,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 180
   },
   {
     "type": "function",
@@ -382,7 +399,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 193
   },
   {
     "type": "function",
@@ -400,7 +418,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 205
   },
   {
     "type": "function",
@@ -418,7 +437,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 215
   },
   {
     "type": "function",
@@ -438,7 +458,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 228
   },
   {
     "type": "function",
@@ -461,7 +482,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 240
   },
   {
     "type": "function",
@@ -481,7 +503,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 261
   },
   {
     "type": "function",
@@ -499,7 +522,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -100
+    "rpy_init": -100,
+    "rpy_lineno": 273
   },
   {
     "type": "function",
@@ -519,7 +543,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 732
   },
   {
     "type": "function",
@@ -537,7 +562,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 744
   },
   {
     "type": "function",
@@ -555,7 +581,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 763
   },
   {
     "type": "function",
@@ -575,7 +602,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 771
   },
   {
     "type": "function",
@@ -593,7 +621,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 788
   },
   {
     "type": "function",
@@ -613,7 +642,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 797
   },
   {
     "type": "function",
@@ -637,7 +667,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 815
   },
   {
     "type": "function",
@@ -657,7 +688,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 852
   },
   {
     "type": "function",
@@ -691,7 +723,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 879
   },
   {
     "type": "function",
@@ -723,7 +756,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 930
   },
   {
     "type": "function",
@@ -755,7 +789,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 979
   },
   {
     "type": "function",
@@ -786,7 +821,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1028
   },
   {
     "type": "function",
@@ -809,7 +845,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1163
   },
   {
     "type": "function",
@@ -835,7 +872,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1211
   },
   {
     "type": "function",
@@ -861,7 +899,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1243
   },
   {
     "type": "function",
@@ -881,7 +920,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1273
   },
   {
     "type": "function",
@@ -902,7 +942,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1287
   },
   {
     "type": "function",
@@ -923,7 +964,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1311
   },
   {
     "type": "function",
@@ -941,7 +983,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1323
   },
   {
     "type": "function",
@@ -962,7 +1005,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1338
   },
   {
     "type": "function",
@@ -980,7 +1024,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1351
   },
   {
     "type": "function",
@@ -1002,7 +1047,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1362
   },
   {
     "type": "function",
@@ -1026,7 +1072,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1382
   },
   {
     "type": "function",
@@ -1049,7 +1096,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1402
   },
   {
     "type": "function",
@@ -1072,7 +1120,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1417
   },
   {
     "type": "function",
@@ -1095,7 +1144,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1432
   },
   {
     "type": "function",
@@ -1116,7 +1166,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1447
   },
   {
     "type": "function",
@@ -1136,7 +1187,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1469
   },
   {
     "type": "function",
@@ -1156,7 +1208,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1491
   },
   {
     "type": "function",
@@ -1176,7 +1229,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1503
   },
   {
     "type": "function",
@@ -1196,7 +1250,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1515
   },
   {
     "type": "function",
@@ -1217,7 +1272,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1527
   },
   {
     "type": "function",
@@ -1238,7 +1294,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1544
   },
   {
     "type": "function",
@@ -1259,7 +1316,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1561
   },
   {
     "type": "function",
@@ -1279,7 +1337,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1574
   },
   {
     "type": "function",
@@ -1299,7 +1358,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1584
   },
   {
     "type": "function",
@@ -1319,7 +1379,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1594
   },
   {
     "type": "function",
@@ -1340,7 +1401,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1604
   },
   {
     "type": "function",
@@ -1361,7 +1423,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1623
   },
   {
     "type": "function",
@@ -1382,7 +1445,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1642
   },
   {
     "type": "function",
@@ -1402,7 +1466,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1655
   },
   {
     "type": "function",
@@ -1422,7 +1487,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1665
   },
   {
     "type": "function",
@@ -1442,7 +1508,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1675
   },
   {
     "type": "function",
@@ -1464,7 +1531,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1685
   },
   {
     "type": "function",
@@ -1487,7 +1555,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1695
   },
   {
     "type": "function",
@@ -1509,7 +1578,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1720
   },
   {
     "type": "function",
@@ -1531,7 +1601,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1749
   },
   {
     "type": "function",
@@ -1552,7 +1623,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1804
   },
   {
     "type": "function",
@@ -1572,7 +1644,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1830
   },
   {
     "type": "function",
@@ -1592,7 +1665,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1851
   },
   {
     "type": "function",
@@ -1612,7 +1686,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1869
   },
   {
     "type": "class",
@@ -2032,7 +2107,8 @@
     ],
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1890
   },
   {
     "type": "function",
@@ -2052,7 +2128,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 732
   },
   {
     "type": "function",
@@ -2070,7 +2147,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 744
   },
   {
     "type": "function",
@@ -2088,7 +2166,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 763
   },
   {
     "type": "function",
@@ -2108,7 +2187,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 771
   },
   {
     "type": "function",
@@ -2126,7 +2206,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 788
   },
   {
     "type": "function",
@@ -2146,7 +2227,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 797
   },
   {
     "type": "function",
@@ -2170,7 +2252,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 815
   },
   {
     "type": "function",
@@ -2190,7 +2273,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 852
   },
   {
     "type": "function",
@@ -2224,7 +2308,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 879
   },
   {
     "type": "function",
@@ -2256,7 +2341,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 930
   },
   {
     "type": "function",
@@ -2288,7 +2374,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 979
   },
   {
     "type": "function",
@@ -2319,7 +2406,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1028
   },
   {
     "type": "function",
@@ -2342,7 +2430,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1163
   },
   {
     "type": "function",
@@ -2368,7 +2457,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1211
   },
   {
     "type": "function",
@@ -2394,7 +2484,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1243
   },
   {
     "type": "function",
@@ -2414,7 +2505,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1273
   },
   {
     "type": "function",
@@ -2435,7 +2527,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1287
   },
   {
     "type": "function",
@@ -2456,7 +2549,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1311
   },
   {
     "type": "function",
@@ -2474,7 +2568,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1323
   },
   {
     "type": "function",
@@ -2495,7 +2590,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1338
   },
   {
     "type": "function",
@@ -2513,7 +2609,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1351
   },
   {
     "type": "function",
@@ -2535,7 +2632,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1362
   },
   {
     "type": "function",
@@ -2559,7 +2657,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1382
   },
   {
     "type": "function",
@@ -2582,7 +2681,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1402
   },
   {
     "type": "function",
@@ -2605,7 +2705,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1417
   },
   {
     "type": "function",
@@ -2628,7 +2729,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1432
   },
   {
     "type": "function",
@@ -2649,7 +2751,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1447
   },
   {
     "type": "function",
@@ -2669,7 +2772,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1469
   },
   {
     "type": "function",
@@ -2689,7 +2793,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1491
   },
   {
     "type": "function",
@@ -2709,7 +2814,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1503
   },
   {
     "type": "function",
@@ -2729,7 +2835,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1515
   },
   {
     "type": "function",
@@ -2750,7 +2857,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1527
   },
   {
     "type": "function",
@@ -2771,7 +2879,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1544
   },
   {
     "type": "function",
@@ -2792,7 +2901,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1561
   },
   {
     "type": "function",
@@ -2812,7 +2922,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1574
   },
   {
     "type": "function",
@@ -2832,7 +2943,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1584
   },
   {
     "type": "function",
@@ -2852,7 +2964,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1594
   },
   {
     "type": "function",
@@ -2873,7 +2986,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1604
   },
   {
     "type": "function",
@@ -2894,7 +3008,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1623
   },
   {
     "type": "function",
@@ -2915,7 +3030,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1642
   },
   {
     "type": "function",
@@ -2935,7 +3051,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1655
   },
   {
     "type": "function",
@@ -2955,7 +3072,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1665
   },
   {
     "type": "function",
@@ -2975,7 +3093,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1675
   },
   {
     "type": "function",
@@ -2997,7 +3116,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1685
   },
   {
     "type": "function",
@@ -3020,7 +3140,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1695
   },
   {
     "type": "function",
@@ -3042,7 +3163,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1720
   },
   {
     "type": "function",
@@ -3064,7 +3186,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1749
   },
   {
     "type": "function",
@@ -3085,7 +3208,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1804
   },
   {
     "type": "function",
@@ -3105,7 +3229,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1830
   },
   {
     "type": "function",
@@ -3125,7 +3250,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1851
   },
   {
     "type": "function",
@@ -3145,7 +3271,8 @@
     },
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1869
   },
   {
     "type": "class",
@@ -3565,6 +3692,7 @@
     ],
     "rpy_script": "game/zz_selector.rpy",
     "rpy_store": "mas_selspr",
-    "rpy_init": -10
+    "rpy_init": -10,
+    "rpy_lineno": 1890
   }
 ]

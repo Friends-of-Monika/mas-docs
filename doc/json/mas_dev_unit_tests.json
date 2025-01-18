@@ -86,7 +86,8 @@
     ],
     "rpy_script": "game/dev/dev_unittest.rpy",
     "rpy_store": "mas_dev_unit_tests",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 20
   },
   {
     "type": "class",
@@ -387,7 +388,8 @@
     ],
     "rpy_script": "game/dev/dev_unittest.rpy",
     "rpy_store": "mas_dev_unit_tests",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 79
   },
   {
     "type": "class",
@@ -476,7 +478,8 @@
     ],
     "rpy_script": "game/dev/dev_unittest.rpy",
     "rpy_store": "mas_dev_unit_tests",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 20
   },
   {
     "type": "class",
@@ -777,6 +780,7 @@
     ],
     "rpy_script": "game/dev/dev_unittest.rpy",
     "rpy_store": "mas_dev_unit_tests",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 79
   }
 ]

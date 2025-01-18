@@ -16,7 +16,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 189
   },
   {
     "type": "function",
@@ -36,7 +37,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 202
   },
   {
     "type": "function",
@@ -57,7 +59,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 221
   },
   {
     "type": "function",
@@ -75,7 +78,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 236
   },
   {
     "type": "function",
@@ -93,7 +97,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 261
   },
   {
     "type": "function",
@@ -111,7 +116,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 272
   },
   {
     "type": "function",
@@ -131,7 +137,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 283
   },
   {
     "type": "function",
@@ -151,7 +158,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 300
   },
   {
     "type": "function",
@@ -171,7 +179,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 312
   },
   {
     "type": "function",
@@ -191,7 +200,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 335
   },
   {
     "type": "function",
@@ -210,7 +220,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 189
   },
   {
     "type": "function",
@@ -230,7 +241,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 202
   },
   {
     "type": "function",
@@ -251,7 +263,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 221
   },
   {
     "type": "function",
@@ -269,7 +282,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 236
   },
   {
     "type": "function",
@@ -287,7 +301,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 261
   },
   {
     "type": "function",
@@ -305,7 +320,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 272
   },
   {
     "type": "function",
@@ -325,7 +341,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 283
   },
   {
     "type": "function",
@@ -345,7 +362,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 300
   },
   {
     "type": "function",
@@ -365,7 +383,8 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 312
   },
   {
     "type": "function",
@@ -385,6 +404,7 @@
     },
     "rpy_script": "game/zz_hangman.rpy",
     "rpy_store": "mas_hangman",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 335
   }
 ]

@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/script-moods.rpy",
     "rpy_store": "mas_moods",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 57
   },
   {
     "type": "function",
@@ -37,6 +38,7 @@
     },
     "rpy_script": "game/script-moods.rpy",
     "rpy_store": "mas_moods",
-    "rpy_init": -1
+    "rpy_init": -1,
+    "rpy_lineno": 57
   }
 ]

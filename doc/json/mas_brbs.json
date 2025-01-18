@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/script-brbs.rpy",
     "rpy_store": "mas_brbs",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 167
   },
   {
     "type": "function",
@@ -36,7 +37,8 @@
     },
     "rpy_script": "game/script-brbs.rpy",
     "rpy_store": "mas_brbs",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 177
   },
   {
     "type": "function",
@@ -54,7 +56,8 @@
     },
     "rpy_script": "game/script-brbs.rpy",
     "rpy_store": "mas_brbs",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 167
   },
   {
     "type": "function",
@@ -75,6 +78,7 @@
     },
     "rpy_script": "game/script-brbs.rpy",
     "rpy_store": "mas_brbs",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 177
   }
 ]

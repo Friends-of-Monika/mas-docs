@@ -17,7 +17,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 65
   },
   {
     "type": "function",
@@ -35,7 +36,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 84
   },
   {
     "type": "function",
@@ -53,7 +55,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 92
   },
   {
     "type": "function",
@@ -73,7 +76,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 385
   },
   {
     "type": "function",
@@ -93,7 +97,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 65
   },
   {
     "type": "function",
@@ -111,7 +116,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 84
   },
   {
     "type": "function",
@@ -129,7 +135,8 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 92
   },
   {
     "type": "function",
@@ -149,6 +156,7 @@
     },
     "rpy_script": "game/updates_topics.rpy",
     "rpy_store": "mas_versions",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 385
   }
 ]

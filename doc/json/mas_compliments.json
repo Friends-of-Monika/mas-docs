@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/script-compliments.rpy",
     "rpy_store": "mas_compliments",
-    "rpy_init": 22
+    "rpy_init": 22,
+    "rpy_lineno": 45
   },
   {
     "type": "function",
@@ -33,7 +34,8 @@
     },
     "rpy_script": "game/script-compliments.rpy",
     "rpy_store": "mas_compliments",
-    "rpy_init": 22
+    "rpy_init": 22,
+    "rpy_lineno": 52
   },
   {
     "type": "function",
@@ -51,7 +53,8 @@
     },
     "rpy_script": "game/script-compliments.rpy",
     "rpy_store": "mas_compliments",
-    "rpy_init": 22
+    "rpy_init": 22,
+    "rpy_lineno": 45
   },
   {
     "type": "function",
@@ -69,6 +72,7 @@
     },
     "rpy_script": "game/script-compliments.rpy",
     "rpy_store": "mas_compliments",
-    "rpy_init": 22
+    "rpy_init": 22,
+    "rpy_lineno": 52
   }
 ]

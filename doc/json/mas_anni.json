@@ -25,7 +25,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 8
   },
   {
     "type": "function",
@@ -51,7 +52,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 58
   },
   {
     "type": "function",
@@ -73,7 +75,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 66
   },
   {
     "type": "function",
@@ -90,7 +93,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 124
   },
   {
     "type": "function",
@@ -107,7 +111,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 127
   },
   {
     "type": "function",
@@ -124,7 +129,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 130
   },
   {
     "type": "function",
@@ -141,7 +147,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 133
   },
   {
     "type": "function",
@@ -158,7 +165,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 136
   },
   {
     "type": "function",
@@ -176,7 +184,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 139
   },
   {
     "type": "function",
@@ -194,7 +203,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 163
   },
   {
     "type": "function",
@@ -212,7 +222,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 171
   },
   {
     "type": "function",
@@ -230,7 +241,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 179
   },
   {
     "type": "function",
@@ -248,7 +260,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 187
   },
   {
     "type": "function",
@@ -276,7 +289,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 8
   },
   {
     "type": "function",
@@ -302,7 +316,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 58
   },
   {
     "type": "function",
@@ -324,7 +339,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 66
   },
   {
     "type": "function",
@@ -341,7 +357,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 124
   },
   {
     "type": "function",
@@ -358,7 +375,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 127
   },
   {
     "type": "function",
@@ -375,7 +393,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 130
   },
   {
     "type": "function",
@@ -392,7 +411,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 133
   },
   {
     "type": "function",
@@ -409,7 +429,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 136
   },
   {
     "type": "function",
@@ -427,7 +448,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 139
   },
   {
     "type": "function",
@@ -445,7 +467,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 163
   },
   {
     "type": "function",
@@ -463,7 +486,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 171
   },
   {
     "type": "function",
@@ -481,7 +505,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 179
   },
   {
     "type": "function",
@@ -499,7 +524,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": -2
+    "rpy_init": -2,
+    "rpy_lineno": 187
   },
   {
     "type": "function",
@@ -522,7 +548,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 226
   },
   {
     "type": "function",
@@ -545,7 +572,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 244
   },
   {
     "type": "function",
@@ -563,7 +591,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 262
   },
   {
     "type": "function",
@@ -581,7 +610,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 270
   },
   {
     "type": "function",
@@ -601,7 +631,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 279
   },
   {
     "type": "function",
@@ -619,7 +650,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 332
   },
   {
     "type": "function",
@@ -642,7 +674,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 226
   },
   {
     "type": "function",
@@ -665,7 +698,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 244
   },
   {
     "type": "function",
@@ -683,7 +717,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 262
   },
   {
     "type": "function",
@@ -701,7 +736,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 270
   },
   {
     "type": "function",
@@ -721,7 +757,8 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 279
   },
   {
     "type": "function",
@@ -739,6 +776,7 @@
     },
     "rpy_script": "game/script-anniversary.rpy",
     "rpy_store": "mas_anni",
-    "rpy_init": 10
+    "rpy_init": 10,
+    "rpy_lineno": 332
   }
 ]

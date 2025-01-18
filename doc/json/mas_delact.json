@@ -15,7 +15,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "mas_delact",
-    "rpy_init": -880
+    "rpy_init": -880,
+    "rpy_lineno": 1383
   },
   {
     "type": "function",
@@ -33,7 +34,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "mas_delact",
-    "rpy_init": -880
+    "rpy_init": -880,
+    "rpy_lineno": 1400
   },
   {
     "type": "function",
@@ -54,7 +56,8 @@
     },
     "rpy_script": "game/script-story-events.rpy",
     "rpy_store": "mas_delact",
-    "rpy_init": -876
+    "rpy_init": -876,
+    "rpy_lineno": 2325
   },
   {
     "type": "function",
@@ -71,7 +74,8 @@
     },
     "rpy_script": "game/script-story-events.rpy",
     "rpy_store": "mas_delact",
-    "rpy_init": -876
+    "rpy_init": -876,
+    "rpy_lineno": 2329
   },
   {
     "type": "function",
@@ -89,7 +93,8 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "mas_delact",
-    "rpy_init": 994
+    "rpy_init": 994,
+    "rpy_lineno": 1450
   },
   {
     "type": "function",
@@ -107,6 +112,7 @@
     },
     "rpy_script": "game/event-handler.rpy",
     "rpy_store": "mas_delact",
-    "rpy_init": 994
+    "rpy_init": 994,
+    "rpy_lineno": 1460
   }
 ]

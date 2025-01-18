@@ -72,11 +72,13 @@ def dump_init_blocks(all_dict):
             f.write("# pylint: skip-file\n")
             for block in sorted(blocks, key=lambda it: it[0]):
                 rel_path = Path(block[2]).relative_to(mas_dir)
-                metadata = json.dumps([str(rel_path), store_name, block[0]])
+                metadata = json.dumps([str(rel_path), store_name, block[0], block[3]])
                 f.write(f'"""*** {metadata}"""\n'
                         f"# init {block[0]} python in {store_name}:\n")
+
+                if not block[4].endswith("\n"):
+                    block[4] += "\n"
                 f.write(block[4])
-                f.write("\n\n")
 
 
 all_init_stores = {}

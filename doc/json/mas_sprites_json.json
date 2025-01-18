@@ -29,7 +29,8 @@
     ],
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 414
   },
   {
     "type": "class",
@@ -61,7 +62,8 @@
     ],
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 436
   },
   {
     "type": "function",
@@ -82,7 +84,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 489
   },
   {
     "type": "function",
@@ -103,7 +106,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 522
   },
   {
     "type": "function",
@@ -124,7 +128,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 527
   },
   {
     "type": "function",
@@ -146,7 +151,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 701
   },
   {
     "type": "class",
@@ -178,7 +184,8 @@
     ],
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 414
   },
   {
     "type": "class",
@@ -210,7 +217,8 @@
     ],
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 436
   },
   {
     "type": "function",
@@ -231,7 +239,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 489
   },
   {
     "type": "function",
@@ -252,7 +261,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 522
   },
   {
     "type": "function",
@@ -273,7 +283,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 527
   },
   {
     "type": "function",
@@ -295,7 +306,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": -21
+    "rpy_init": -21,
+    "rpy_lineno": 701
   },
   {
     "type": "function",
@@ -315,7 +327,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 833
   },
   {
     "type": "function",
@@ -335,7 +348,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 854
   },
   {
     "type": "function",
@@ -356,7 +370,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 874
   },
   {
     "type": "function",
@@ -377,7 +392,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 895
   },
   {
     "type": "function",
@@ -397,7 +413,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 907
   },
   {
     "type": "function",
@@ -420,7 +437,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 951
   },
   {
     "type": "function",
@@ -444,7 +462,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1001
   },
   {
     "type": "function",
@@ -466,7 +485,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1040
   },
   {
     "type": "function",
@@ -484,7 +504,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1055
   },
   {
     "type": "function",
@@ -509,7 +530,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1070
   },
   {
     "type": "function",
@@ -531,7 +553,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1123
   },
   {
     "type": "function",
@@ -553,7 +576,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1149
   },
   {
     "type": "function",
@@ -575,7 +599,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1187
   },
   {
     "type": "function",
@@ -601,7 +626,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1241
   },
   {
     "type": "function",
@@ -626,7 +652,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1323
   },
   {
     "type": "function",
@@ -650,7 +677,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1387
   },
   {
     "type": "function",
@@ -674,7 +702,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1596
   },
   {
     "type": "function",
@@ -698,7 +727,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1660
   },
   {
     "type": "function",
@@ -725,7 +755,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1760
   },
   {
     "type": "function",
@@ -749,7 +780,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1941
   },
   {
     "type": "function",
@@ -773,7 +805,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1997
   },
   {
     "type": "function",
@@ -797,7 +830,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2034
   },
   {
     "type": "function",
@@ -821,7 +855,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2141
   },
   {
     "type": "function",
@@ -842,7 +877,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2227
   },
   {
     "type": "function",
@@ -862,7 +898,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2578
   },
   {
     "type": "function",
@@ -880,7 +917,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2604
   },
   {
     "type": "function",
@@ -898,7 +936,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2610
   },
   {
     "type": "function",
@@ -918,7 +957,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2642
   },
   {
     "type": "function",
@@ -939,7 +979,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2687
   },
   {
     "type": "function",
@@ -957,7 +998,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2723
   },
   {
     "type": "function",
@@ -977,7 +1019,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 833
   },
   {
     "type": "function",
@@ -997,7 +1040,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 854
   },
   {
     "type": "function",
@@ -1018,7 +1062,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 874
   },
   {
     "type": "function",
@@ -1039,7 +1084,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 895
   },
   {
     "type": "function",
@@ -1059,7 +1105,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 907
   },
   {
     "type": "function",
@@ -1082,7 +1129,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 951
   },
   {
     "type": "function",
@@ -1106,7 +1154,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1001
   },
   {
     "type": "function",
@@ -1128,7 +1177,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1040
   },
   {
     "type": "function",
@@ -1146,7 +1196,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1055
   },
   {
     "type": "function",
@@ -1171,7 +1222,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1070
   },
   {
     "type": "function",
@@ -1193,7 +1245,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1123
   },
   {
     "type": "function",
@@ -1215,7 +1268,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1149
   },
   {
     "type": "function",
@@ -1237,7 +1291,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1187
   },
   {
     "type": "function",
@@ -1263,7 +1318,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1241
   },
   {
     "type": "function",
@@ -1288,7 +1344,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1323
   },
   {
     "type": "function",
@@ -1312,7 +1369,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1387
   },
   {
     "type": "function",
@@ -1336,7 +1394,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1596
   },
   {
     "type": "function",
@@ -1360,7 +1419,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1660
   },
   {
     "type": "function",
@@ -1387,7 +1447,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1760
   },
   {
     "type": "function",
@@ -1411,7 +1472,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1941
   },
   {
     "type": "function",
@@ -1435,7 +1497,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 1997
   },
   {
     "type": "function",
@@ -1459,7 +1522,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2034
   },
   {
     "type": "function",
@@ -1483,7 +1547,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2141
   },
   {
     "type": "function",
@@ -1504,7 +1569,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2227
   },
   {
     "type": "function",
@@ -1524,7 +1590,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2578
   },
   {
     "type": "function",
@@ -1542,7 +1609,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2604
   },
   {
     "type": "function",
@@ -1560,7 +1628,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2610
   },
   {
     "type": "function",
@@ -1580,7 +1649,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2642
   },
   {
     "type": "function",
@@ -1601,7 +1671,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2687
   },
   {
     "type": "function",
@@ -1619,7 +1690,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 189
+    "rpy_init": 189,
+    "rpy_lineno": 2723
   },
   {
     "type": "function",
@@ -1636,7 +1708,8 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 190
+    "rpy_init": 190,
+    "rpy_lineno": 2766
   },
   {
     "type": "function",
@@ -1653,6 +1726,7 @@
     },
     "rpy_script": "game/zz_spritejsons.rpy",
     "rpy_store": "mas_sprites_json",
-    "rpy_init": 190
+    "rpy_init": 190,
+    "rpy_lineno": 2766
   }
 ]

@@ -19,7 +19,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 995
+    "rpy_init": 995,
+    "rpy_lineno": 834
   },
   {
     "type": "function",
@@ -41,7 +42,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 995
+    "rpy_init": 995,
+    "rpy_lineno": 834
   },
   {
     "type": "function",
@@ -61,7 +63,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 877
   },
   {
     "type": "function",
@@ -81,7 +84,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 887
   },
   {
     "type": "function",
@@ -101,7 +105,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 910
   },
   {
     "type": "function",
@@ -121,7 +126,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 920
   },
   {
     "type": "function",
@@ -141,7 +147,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 937
   },
   {
     "type": "function",
@@ -161,7 +168,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 953
   },
   {
     "type": "function",
@@ -181,7 +189,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 981
   },
   {
     "type": "function",
@@ -199,7 +208,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 995
   },
   {
     "type": "function",
@@ -217,7 +227,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1015
   },
   {
     "type": "function",
@@ -235,7 +246,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1044
   },
   {
     "type": "function",
@@ -255,7 +267,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1082
   },
   {
     "type": "function",
@@ -275,7 +288,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1091
   },
   {
     "type": "function",
@@ -295,7 +309,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1103
   },
   {
     "type": "function",
@@ -315,7 +330,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1138
   },
   {
     "type": "function",
@@ -335,7 +351,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1147
   },
   {
     "type": "function",
@@ -353,7 +370,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1164
   },
   {
     "type": "function",
@@ -371,7 +389,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1184
   },
   {
     "type": "function",
@@ -389,7 +408,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1202
   },
   {
     "type": "function",
@@ -409,7 +429,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1218
   },
   {
     "type": "function",
@@ -429,7 +450,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1230
   },
   {
     "type": "function",
@@ -449,7 +471,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1261
   },
   {
     "type": "function",
@@ -469,7 +492,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1300
   },
   {
     "type": "function",
@@ -489,7 +513,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1312
   },
   {
     "type": "function",
@@ -509,7 +534,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1331
   },
   {
     "type": "function",
@@ -529,7 +555,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1350
   },
   {
     "type": "function",
@@ -549,7 +576,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1359
   },
   {
     "type": "function",
@@ -569,7 +597,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1368
   },
   {
     "type": "function",
@@ -589,7 +618,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1389
   },
   {
     "type": "function",
@@ -609,7 +639,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1399
   },
   {
     "type": "function",
@@ -627,7 +658,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1409
   },
   {
     "type": "function",
@@ -647,7 +679,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 877
   },
   {
     "type": "function",
@@ -667,7 +700,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 887
   },
   {
     "type": "function",
@@ -687,7 +721,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 910
   },
   {
     "type": "function",
@@ -707,7 +742,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 920
   },
   {
     "type": "function",
@@ -727,7 +763,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 937
   },
   {
     "type": "function",
@@ -747,7 +784,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 953
   },
   {
     "type": "function",
@@ -767,7 +805,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 981
   },
   {
     "type": "function",
@@ -785,7 +824,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 995
   },
   {
     "type": "function",
@@ -803,7 +843,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1015
   },
   {
     "type": "function",
@@ -821,7 +862,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1044
   },
   {
     "type": "function",
@@ -841,7 +883,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1082
   },
   {
     "type": "function",
@@ -861,7 +904,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1091
   },
   {
     "type": "function",
@@ -881,7 +925,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1103
   },
   {
     "type": "function",
@@ -901,7 +946,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1138
   },
   {
     "type": "function",
@@ -921,7 +967,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1147
   },
   {
     "type": "function",
@@ -939,7 +986,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1164
   },
   {
     "type": "function",
@@ -957,7 +1005,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1184
   },
   {
     "type": "function",
@@ -975,7 +1024,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1202
   },
   {
     "type": "function",
@@ -995,7 +1045,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1218
   },
   {
     "type": "function",
@@ -1015,7 +1066,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1230
   },
   {
     "type": "function",
@@ -1035,7 +1087,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1261
   },
   {
     "type": "function",
@@ -1055,7 +1108,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1300
   },
   {
     "type": "function",
@@ -1075,7 +1129,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1312
   },
   {
     "type": "function",
@@ -1095,7 +1150,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1331
   },
   {
     "type": "function",
@@ -1115,7 +1171,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1350
   },
   {
     "type": "function",
@@ -1135,7 +1192,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1359
   },
   {
     "type": "function",
@@ -1155,7 +1213,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1368
   },
   {
     "type": "function",
@@ -1175,7 +1234,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1389
   },
   {
     "type": "function",
@@ -1195,7 +1255,8 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1399
   },
   {
     "type": "function",
@@ -1213,6 +1274,7 @@
     },
     "rpy_script": "game/script-ch30.rpy",
     "rpy_store": "mas_reset",
-    "rpy_init": 999
+    "rpy_init": 999,
+    "rpy_lineno": 1409
   }
 ]
