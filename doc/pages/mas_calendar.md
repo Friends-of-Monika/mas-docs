@@ -19,7 +19,7 @@ string with the sign
 
 ---
 
-### def genFriendlyDispDate(_datetime)
+### ⚠️ def genFriendlyDispDate(_datetime)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -274,7 +274,7 @@ string with the sign
 
 ---
 
-### def genFriendlyDispDate(_datetime)
+### ⚠️ def genFriendlyDispDate(_datetime)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>

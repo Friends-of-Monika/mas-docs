@@ -563,11 +563,11 @@ Unlocks the given hair's selectable
 
 ---
 
-### def unlock_selector(group)
+### 🔥 def unlock_selector(group)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `unlock_prompt`.
+> Instead, use `unlock_prompt`.
 
 DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.
 
@@ -964,11 +964,11 @@ Unlocks the given hair's selectable
 
 ---
 
-### def unlock_selector(group)
+### 🔥 def unlock_selector(group)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `unlock_prompt`.
+> Instead, use `unlock_prompt`.
 
 DEPRECATED - Use unlock_prompt instead Unlocks the selector of the given group.
 

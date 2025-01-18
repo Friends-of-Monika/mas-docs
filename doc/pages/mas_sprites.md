@@ -210,11 +210,11 @@ the clothes if it exists, or default if not
 
 ---
 
-### def acs_lean_mode(sprite_list, lean)
+### 🔥 def acs_lean_mode(sprite_list, lean)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `None`.
+> Instead, use `None`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated(should_raise=True)`

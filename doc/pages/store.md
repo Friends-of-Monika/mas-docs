@@ -396,7 +396,7 @@ True if flt is the current filter, false if not
 
 ---
 
-### def MASWeather(weather_id, prompt, sp_day, sp_night=None, precip_type=store.mas_weather.PRECIP_TYPE_DEF, isbg_wf_day=None, isbg_wof_day=None, isbg_wf_night=None, isbg_wof_night=None, entry_pp=None, exit_pp=None, unlocked=False)
+### ⚠️ def MASWeather(weather_id, prompt, sp_day, sp_night=None, precip_type=store.mas_weather.PRECIP_TYPE_DEF, isbg_wf_day=None, isbg_wof_day=None, isbg_wf_night=None, isbg_wof_night=None, entry_pp=None, exit_pp=None, unlocked=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -831,7 +831,7 @@ Frame object, or None if failed to make it
 
 ---
 
-### def MASBackground(background_id, prompt, image_day, image_night, image_rain_day=None, image_rain_night=None, image_overcast_day=None, image_overcast_night=None, image_snow_day=None, image_snow_night=None, hide_calendar=False, hide_masks=False, disable_progressive=None, unlocked=False, entry_pp=None, exit_pp=None)
+### ⚠️ def MASBackground(background_id, prompt, image_day, image_night, image_rain_day=None, image_rain_night=None, image_overcast_day=None, image_overcast_night=None, image_snow_day=None, image_snow_night=None, hide_calendar=False, hide_masks=False, disable_progressive=None, unlocked=False, entry_pp=None, exit_pp=None)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1531,11 +1531,11 @@ boolean showing whether or not it's winter right now
 
 ---
 
-### def clearUpdateStructs()
+### 🔥 def clearUpdateStructs()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `mas_versions.clear`.
+> Instead, use `mas_versions.clear`.
 
 DEPRECATED Use mas_versions.clear instead
 
@@ -1743,11 +1743,11 @@ bool - Whether or not the given year is a leap year
 
 ---
 
-### def grant_xp(experience)
+### 🔥 def grant_xp(experience)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `None`.
+> Instead, use `None`.
 
 DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
@@ -1757,11 +1757,11 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
 ---
 
-### def get_level()
+### 🔥 def get_level()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `None`.
+> Instead, use `None`.
 
 DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
@@ -1771,7 +1771,7 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
 ---
 
-### def mas_FreezeGoodAffExp()
+### ⚠️ def mas_FreezeGoodAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1783,7 +1783,7 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
 ---
 
-### def mas_FreezeBadAffExp()
+### ⚠️ def mas_FreezeBadAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1795,7 +1795,7 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
 ---
 
-### def mas_FreezeBothAffExp()
+### ⚠️ def mas_FreezeBothAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1807,7 +1807,7 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
 ---
 
-### def mas_UnfreezeBadAffExp()
+### ⚠️ def mas_UnfreezeBadAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1819,7 +1819,7 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
 ---
 
-### def mas_UnfreezeGoodAffExp()
+### ⚠️ def mas_UnfreezeGoodAffExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -1831,7 +1831,7 @@ DEPRECATED This does not do anything anymore. Around for compatibility purposes
 
 ---
 
-### def mas_UnfreezeBothExp()
+### ⚠️ def mas_UnfreezeBothExp()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -2094,7 +2094,7 @@ See mas_loseAffection for more info Subtracts portion of affection whenever some
 
 ---
 
-### def mas_setAffection()
+### ⚠️ def mas_setAffection()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -2280,7 +2280,7 @@ literally just plays a song onto the music channel Also sets the currentt track
 
 ---
 
-### def play_song()
+### ⚠️ def play_song()
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -2413,11 +2413,11 @@ Callback for whenever monika talks
 
 ---
 
-### def mas_isMorning()
+### 🔥 def mas_isMorning()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `mas_isDayNow`.
+> Instead, use `mas_isDayNow`.
 
 DEPRECATED Checks if it is day or night via suntimes
 
@@ -2439,11 +2439,11 @@ True upon a filter change, False if not
 
 ---
 
-### def mas_shouldChangeTime()
+### 🔥 def mas_shouldChangeTime()
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `None`.
+> Instead, use `None`.
 
 DEPRECATED This no longer makes sense with the filtering system.
 
@@ -3131,11 +3131,11 @@ Adds an event object to the given eventdb dict Properly checksfor label and cond
 
 ---
 
-### def hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=evhand.event_database)
+### 🔥 def hideEventLabel(eventlabel, lock=False, derandom=False, depool=False, decond=False, eventdb=evhand.event_database)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `mas_hideEVL`.
+> Instead, use `mas_hideEVL`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='mas_hideEVL', should_raise=True)`
@@ -3143,7 +3143,7 @@ Adds an event object to the given eventdb dict Properly checksfor label and cond
 
 ---
 
-### def hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
+### ⚠️ def hideEvent(event, lock=False, derandom=False, depool=False, decond=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -3211,11 +3211,11 @@ Shows an event label, by Truing the unlocked, random, and pool properties.
 
 ---
 
-### def lockEvent(ev)
+### 🔥 def lockEvent(ev)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `mas_lockEvent`.
+> Instead, use `mas_lockEvent`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='mas_lockEvent', should_raise=True)`
@@ -3227,11 +3227,11 @@ Shows an event label, by Truing the unlocked, random, and pool properties.
 
 ---
 
-### def lockEventLabel(evlabel, eventdb=evhand.event_database)
+### 🔥 def lockEventLabel(evlabel, eventdb=evhand.event_database)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `mas_lockEventLabel`.
+> Instead, use `mas_lockEventLabel`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='mas_lockEventLabel', should_raise=True)`
@@ -3265,7 +3265,7 @@ Locks the given event label
 
 ---
 
-### def pushEvent(event_label, skipeval=False, notify=False)
+### ⚠️ def pushEvent(event_label, skipeval=False, notify=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -3284,7 +3284,7 @@ This pushes high priority or time sensitive events onto the top of the event lis
 
 ---
 
-### def queueEvent(event_label, notify=False)
+### ⚠️ def queueEvent(event_label, notify=False)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -3302,11 +3302,11 @@ This adds low priority or order-sensitive events onto the bottom of the event li
 
 ---
 
-### def unlockEvent(ev)
+### 🔥 def unlockEvent(ev)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `mas_unlockEvent`.
+> Instead, use `mas_unlockEvent`.
 
 **Decorators:**
 - `@store.mas_utils.deprecated(use_instead='mas_unlockEvent', should_raise=True)`
@@ -3318,7 +3318,7 @@ This adds low priority or order-sensitive events onto the bottom of the event li
 
 ---
 
-### def unlockEventLabel(evlabel, eventdb=evhand.event_database)
+### ⚠️ def unlockEventLabel(evlabel, eventdb=evhand.event_database)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -3397,11 +3397,11 @@ True if current time is inside the  Event's start_date/end_date interval, False 
 
 ---
 
-### def popEvent(remove=True)
+### 🔥 def popEvent(remove=True)
 
 > [!CAUTION]
 > This function is flagged as **deprecated** and **will raise an error.**<br>
-> Instead, consider using `MASEventList.pop`.
+> Instead, use `MASEventList.pop`.
 
 DO NOT USE.  Use MASEventList.pop instead (not exactly the same)
 

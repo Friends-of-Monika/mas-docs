@@ -6,7 +6,7 @@
 
 ## Public functions
 
-### def writelog(msg)
+### ⚠️ def writelog(msg)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -18,7 +18,7 @@
 
 ---
 
-### def writelogs(msgs)
+### ⚠️ def writelogs(msgs)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -30,7 +30,7 @@
 
 ---
 
-### def writelog(msg)
+### ⚠️ def writelog(msg)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -42,7 +42,7 @@
 
 ---
 
-### def writelogs(msgs)
+### ⚠️ def writelogs(msgs)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>

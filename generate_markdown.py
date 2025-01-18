@@ -169,8 +169,13 @@ def is_deprecated(data: Dict[str, Any]) -> Tuple[bool, bool, str | None, str | N
 
     should_raise = kw_params.get("should_raise", False)
     use_instead = kw_params.get("use_instead", None)
-    use_instead_msg_fmt = kw_params.get("use_instead_msg_fmt",
-                                        "Instead, consider using `{use_instead}`.")
+
+    if should_raise:
+        use_instead_msg_fmt = kw_params.get("use_instead_msg_fmt",
+                                            "Instead, use `{use_instead}`.")
+    else:
+        use_instead_msg_fmt = kw_params.get("use_instead_msg_fmt",
+                                            "Instead, consider using `{use_instead}`.")
 
     if use_instead_msg_fmt is not None:
         use_instead = use_instead_msg_fmt.format(use_instead=use_instead)
@@ -279,22 +284,26 @@ def generate_func_markdown(data: Dict[str, Any], header_depth: int = 3) -> str: 
     doc_outputs = doc_data["returns"]
 
     md = StringIO()
-    md.write(f"{"#" * header_depth} def {name}({join_args(args_with_defs)})\n\n")
 
     is_depr, depr_raises, depr_use_instead = is_deprecated(data)
     if is_depr:
         if depr_raises:
+            md.write(f"{"#" * header_depth} 🔥 def {name}({join_args(args_with_defs)})\n\n")
             md.write("> [!CAUTION]\n"
                      "> This function is flagged as **deprecated** and **will raise an error.**")
         else:
+            md.write(f"{"#" * header_depth} ⚠️ def {name}({join_args(args_with_defs)})\n\n")
             md.write("> [!WARNING]\n"
                      "> This function is flagged as **deprecated** and **is not recommended "
                      "for use.**")
         if depr_use_instead is not None:
             md.write(f"<br>\n> {depr_use_instead}")
         md.write("\n\n")
+    else:
+        md.write(f"{"#" * header_depth} def {name}({join_args(args_with_defs)})\n\n")
 
     if doc_desc:
+        doc_desc = re.sub(r"(?<!\n)\n(?!\n)", "\n\n", doc_desc)
         md.write(f"{doc_desc}\n\n")
 
     if deco:

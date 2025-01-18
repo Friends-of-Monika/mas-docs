@@ -6,7 +6,7 @@
 
 ## Public functions
 
-### def writeLog(msg)
+### ⚠️ def writeLog(msg)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -38,7 +38,7 @@ boolean: - True if submod with name is installed - False otherwise
 
 ---
 
-### def writeLog(msg)
+### ⚠️ def writeLog(msg)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -102,7 +102,7 @@ boolean: - True if the function was registered successfully - False otherwise
 
 ---
 
-### def getArgs(key, _function)
+### ⚠️ def getArgs(key, _function)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -124,7 +124,7 @@ list of args if the function is present If function is not present, None is retu
 
 ---
 
-### def setArgs(key, _function, args=None)
+### ⚠️ def setArgs(key, _function, args=None)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -192,7 +192,7 @@ boolean: - True if the function was registered successfully - False otherwise
 
 ---
 
-### def getArgs(key, _function)
+### ⚠️ def getArgs(key, _function)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
@@ -214,7 +214,7 @@ list of args if the function is present If function is not present, None is retu
 
 ---
 
-### def setArgs(key, _function, args=None)
+### ⚠️ def setArgs(key, _function, args=None)
 
 > [!WARNING]
 > This function is flagged as **deprecated** and **is not recommended for use.**<br>
