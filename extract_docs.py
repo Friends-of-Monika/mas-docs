@@ -160,5 +160,9 @@ for py_path in pysrc_dir.glob("*.py"):
 
     script_name = ".".join(py_path.name.split(".")[:-1]) # pylint: disable=invalid-name
     doc_path = Path(doc_dir, f"{script_name}.json")
+    if script_name.startswith("_"):
+        print(f"    x Skipping internal store {script_name}")
+        continue
+
     with open(doc_path, "w", encoding="utf-8") as f:
         json.dump(docs, f, indent=2)
