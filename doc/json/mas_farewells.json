@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-farewells.rpy",
+    "rpy_store": "mas_farewells",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -32,7 +35,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-farewells.rpy",
+    "rpy_store": "mas_farewells",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -51,7 +57,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-farewells.rpy",
+    "rpy_store": "mas_farewells",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -66,7 +75,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-farewells.rpy",
+    "rpy_store": "mas_farewells",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -86,7 +98,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-farewells.rpy",
+    "rpy_store": "mas_farewells",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -105,6 +120,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-farewells.rpy",
+    "rpy_store": "mas_farewells",
+    "rpy_init": -1
   }
 ]

@@ -15,7 +15,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -33,7 +36,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -52,7 +58,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -69,7 +78,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -86,7 +98,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -100,7 +115,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -116,7 +134,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -130,7 +151,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -145,7 +169,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "args"
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -162,7 +189,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -179,7 +209,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -196,7 +229,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -213,7 +249,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -230,7 +269,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -247,7 +289,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -264,7 +309,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -279,7 +327,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "data"
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -294,7 +345,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -309,7 +363,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -324,7 +381,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -339,7 +399,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -354,7 +417,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -372,7 +438,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -393,7 +462,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -413,7 +485,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -428,7 +503,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -443,7 +521,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -462,7 +543,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -477,7 +561,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -497,7 +584,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -514,7 +604,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -529,7 +622,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -544,7 +640,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -563,7 +662,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -578,7 +680,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -593,7 +698,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -608,7 +716,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -626,7 +737,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -644,7 +758,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -663,7 +780,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -680,7 +800,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -697,7 +820,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -711,7 +837,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -727,7 +856,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -741,7 +873,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -756,7 +891,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "args"
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -773,7 +911,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -790,7 +931,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -807,7 +951,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -824,7 +971,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -841,7 +991,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -858,7 +1011,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -875,7 +1031,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -890,7 +1049,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "data"
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -905,7 +1067,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -920,7 +1085,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -935,7 +1103,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -950,7 +1121,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -965,7 +1139,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -983,7 +1160,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1004,7 +1184,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1024,7 +1207,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1039,7 +1225,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1054,7 +1243,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1073,7 +1265,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1088,7 +1283,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1108,7 +1306,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1125,7 +1326,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1140,7 +1344,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1155,7 +1362,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1174,7 +1384,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1189,7 +1402,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1204,7 +1420,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1219,7 +1438,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -900
   },
   {
     "type": "function",
@@ -1246,7 +1468,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1266,7 +1491,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1284,7 +1512,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1301,7 +1532,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1328,7 +1562,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1348,7 +1585,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1366,7 +1606,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1383,7 +1626,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": -500
   },
   {
     "type": "function",
@@ -1398,7 +1644,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1413,7 +1662,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1428,7 +1680,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1443,7 +1698,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1458,7 +1716,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1473,7 +1734,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1488,7 +1752,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1503,7 +1770,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1518,7 +1788,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1533,7 +1806,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1548,7 +1824,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1563,7 +1842,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1578,7 +1860,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1593,7 +1878,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1608,7 +1896,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1623,7 +1914,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1638,7 +1932,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1653,7 +1950,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1671,7 +1971,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1689,7 +1992,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1712,7 +2018,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1735,7 +2044,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1750,7 +2062,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1765,7 +2080,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1782,7 +2100,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1797,7 +2118,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1812,7 +2136,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1827,7 +2154,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1842,7 +2172,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1857,7 +2190,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1872,7 +2208,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1887,7 +2226,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1902,7 +2244,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1917,7 +2262,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1932,7 +2280,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1947,7 +2298,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1962,7 +2316,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1977,7 +2334,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -1992,7 +2352,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2007,7 +2370,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2022,7 +2388,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2037,7 +2406,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2052,7 +2424,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2067,7 +2442,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2082,7 +2460,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2100,7 +2481,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2118,7 +2502,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2141,7 +2528,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2164,7 +2554,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2179,7 +2572,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2194,7 +2590,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2211,7 +2610,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2226,7 +2628,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   },
   {
     "type": "function",
@@ -2241,6 +2646,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-affection.rpy",
+    "rpy_store": "mas_affection",
+    "rpy_init": 15
   }
 ]

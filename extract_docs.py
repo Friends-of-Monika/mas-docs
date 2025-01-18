@@ -14,6 +14,7 @@ import re
 ClassStruct = Tuple[str, List[ast.expr], str | None, List[ast.FunctionDef], int]
 FuncStruct = Tuple[str, ast.arguments, str | None, int]
 DocDict = Dict[str, Any]
+Metadata = Tuple[str, str, int]
 
 
 # Python 2 syntax incompatibilities (quick) fixes
@@ -77,7 +78,7 @@ def decompose_class(node: ast.ClassDef) -> ClassStruct:
 
 # Data exporting (e.g. converting to renderable parameters)
 
-def export_class_doc(struct: ClassStruct) -> Dict[str, Any]:
+def export_class_doc(struct: ClassStruct, metadata: Metadata | None) -> Dict[str, Any]:
     """Serializes class structure to dictionary suitable for rendering."""
 
     data: Dict[str, Any] = {}
@@ -89,11 +90,15 @@ def export_class_doc(struct: ClassStruct) -> Dict[str, Any]:
     if struct[2] is not None:
         data["docstring"] = dedent(fix_dedent(struct[2])).strip()
 
-    data["class_functions"] = [export_func_doc(fn) for fn in struct[3]]
+    data["class_functions"] = [export_func_doc(fn, None) for fn in struct[3]]
+    if metadata is not None:
+        data["rpy_script"] = metadata[0]
+        data["rpy_store"] = metadata[1]
+        data["rpy_init"] = metadata[2]
 
     return data
 
-def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
+def export_func_doc(struct: FuncStruct, metadata: Metadata | None) -> Dict[str, Any]:
     """Serializes function structure to dictionary suitable for rendering."""
 
     data: Dict[str, Any] = {}
@@ -114,6 +119,11 @@ def export_func_doc(struct: FuncStruct) -> Dict[str, Any]:
         "var_arg": struct[1].vararg.arg if struct[1].vararg is not None else None
     }
 
+    if metadata is not None:
+        data["rpy_script"] = metadata[0]
+        data["rpy_store"] = metadata[1]
+        data["rpy_init"] = metadata[2]
+
     return data
 
 
@@ -132,16 +142,24 @@ def extract_docs(path: Path) -> List[DocDict]:
 
     src_ast = ast.parse(src_text, filename=path)
     doc_dicts: List[DocDict] = []
+    last_metadata = None
 
     for node in src_ast.body:
         doc_dict: DocDict | None = None
 
+        if isinstance(node, ast.Expr) and \
+           isinstance(node.value, ast.Constant) and \
+           node.value.value.startswith("***"):
+            metadata_json = node.value.value.partition(" ")[2]
+            last_metadata = json.loads(metadata_json)
+            continue
+
         if isinstance(node, ast.FunctionDef):
             st = decompose_func(node)
-            doc_dict = export_func_doc(st)
+            doc_dict = export_func_doc(st, last_metadata)
         elif isinstance(node, ast.ClassDef):
             st = decompose_class(node)
-            doc_dict = export_class_doc(st)
+            doc_dict = export_class_doc(st, last_metadata)
 
         if doc_dict is not None:
             doc_dicts.append(doc_dict)

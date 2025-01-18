@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -29,7 +32,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -44,7 +50,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -61,7 +70,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -78,7 +90,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -93,7 +108,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -108,7 +126,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -125,6 +146,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/updates_topics.rpy",
+    "rpy_store": "mas_versions",
+    "rpy_init": -2
   }
 ]

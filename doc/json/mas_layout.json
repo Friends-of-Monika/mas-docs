@@ -59,7 +59,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -800
   },
   {
     "type": "class",
@@ -121,7 +124,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -800
   },
   {
     "type": "function",
@@ -139,7 +145,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -162,7 +171,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -177,7 +189,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -195,7 +210,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -218,7 +236,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -233,6 +254,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/screens.rpy",
+    "rpy_store": "mas_layout",
+    "rpy_init": -2
   }
 ]

@@ -133,7 +133,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_threading.rpy",
+    "rpy_store": "mas_threading",
+    "rpy_init": -2000
   },
   {
     "type": "class",
@@ -269,6 +272,9 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_threading.rpy",
+    "rpy_store": "mas_threading",
+    "rpy_init": -2000
   }
 ]

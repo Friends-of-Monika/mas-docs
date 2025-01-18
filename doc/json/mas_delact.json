@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "ids"
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "mas_delact",
+    "rpy_init": -880
   },
   {
     "type": "function",
@@ -27,7 +30,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": "ids"
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "mas_delact",
+    "rpy_init": -880
   },
   {
     "type": "function",
@@ -45,7 +51,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-story-events.rpy",
+    "rpy_store": "mas_delact",
+    "rpy_init": -876
   },
   {
     "type": "function",
@@ -59,7 +68,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-story-events.rpy",
+    "rpy_store": "mas_delact",
+    "rpy_init": -876
   },
   {
     "type": "function",
@@ -74,7 +86,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "mas_delact",
+    "rpy_init": 994
   },
   {
     "type": "function",
@@ -89,6 +104,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "mas_delact",
+    "rpy_init": 994
   }
 ]

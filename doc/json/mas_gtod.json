@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-grammar.rpy",
+    "rpy_store": "mas_gtod",
+    "rpy_init": 4
   },
   {
     "type": "function",
@@ -31,6 +34,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-grammar.rpy",
+    "rpy_store": "mas_gtod",
+    "rpy_init": 4
   }
 ]

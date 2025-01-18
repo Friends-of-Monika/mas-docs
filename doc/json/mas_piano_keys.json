@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -32,7 +35,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -49,7 +55,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -66,7 +75,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -85,7 +97,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -105,7 +120,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -126,7 +144,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -147,7 +168,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -168,7 +192,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -189,7 +216,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -210,7 +240,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "class",
@@ -253,7 +286,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "class",
@@ -413,7 +449,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "class",
@@ -541,7 +580,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -558,7 +600,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -576,7 +621,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -593,7 +641,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -610,7 +661,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -629,7 +683,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -649,7 +706,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -670,7 +730,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -691,7 +754,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -712,7 +778,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -733,7 +802,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -754,7 +826,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "class",
@@ -797,7 +872,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "class",
@@ -957,7 +1035,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "class",
@@ -1085,7 +1166,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": -3
   },
   {
     "type": "function",
@@ -1105,7 +1189,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 790
   },
   {
     "type": "function",
@@ -1120,7 +1207,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 790
   },
   {
     "type": "function",
@@ -1135,7 +1225,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 790
   },
   {
     "type": "function",
@@ -1155,7 +1248,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 790
   },
   {
     "type": "function",
@@ -1170,7 +1266,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 790
   },
   {
     "type": "function",
@@ -1185,7 +1284,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 790
   },
   {
     "type": "function",
@@ -1200,7 +1302,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 800
   },
   {
     "type": "function",
@@ -1215,6 +1320,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_pianokeys.rpy",
+    "rpy_store": "mas_piano_keys",
+    "rpy_init": 800
   }
 ]

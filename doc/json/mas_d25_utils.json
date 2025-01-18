@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-holidays.rpy",
+    "rpy_store": "mas_d25_utils",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -29,7 +32,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-holidays.rpy",
+    "rpy_store": "mas_d25_utils",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -44,7 +50,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-holidays.rpy",
+    "rpy_store": "mas_d25_utils",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -61,6 +70,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-holidays.rpy",
+    "rpy_store": "mas_d25_utils",
+    "rpy_init": -10
   }
 ]

@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -29,7 +32,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -44,7 +50,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -61,7 +70,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -84,7 +96,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -101,7 +116,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -116,7 +134,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -133,7 +154,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -148,7 +172,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -165,7 +192,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -188,7 +218,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -205,6 +238,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-topics.rpy",
+    "rpy_store": "mas_bookmarks_derand",
+    "rpy_init": 0
   }
 ]

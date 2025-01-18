@@ -231,7 +231,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/dev/dev_db.rpy",
+    "rpy_store": "dev_mas_shared",
+    "rpy_init": 0
   },
   {
     "type": "class",
@@ -465,6 +468,9 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/dev/dev_db.rpy",
+    "rpy_store": "dev_mas_shared",
+    "rpy_init": 0
   }
 ]

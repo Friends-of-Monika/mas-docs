@@ -63,7 +63,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -78,7 +81,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -93,7 +99,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -108,7 +117,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -123,7 +135,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -138,7 +153,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -153,7 +171,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -170,7 +191,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -187,7 +211,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -205,7 +232,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -222,7 +252,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -239,7 +272,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -256,7 +292,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -276,7 +315,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "class",
@@ -342,7 +384,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -357,7 +402,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -372,7 +420,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -387,7 +438,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -402,7 +456,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -417,7 +474,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -432,7 +492,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -449,7 +512,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -466,7 +532,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -484,7 +553,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -501,7 +573,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -518,7 +593,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -535,7 +613,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -555,7 +636,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -574,7 +658,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -593,7 +680,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -612,7 +702,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -629,7 +722,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -646,7 +742,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -665,7 +764,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -684,7 +786,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -703,7 +808,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -720,7 +828,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -737,6 +848,9 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_backgrounds.rpy",
+    "rpy_store": "mas_background",
+    "rpy_init": -2
   }
 ]

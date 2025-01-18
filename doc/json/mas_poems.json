@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -27,7 +30,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -47,7 +53,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -62,7 +71,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -77,7 +89,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -94,7 +109,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -109,7 +127,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -129,7 +150,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -149,7 +173,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -164,7 +191,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -179,7 +209,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -196,7 +229,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -211,7 +247,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   },
   {
     "type": "function",
@@ -231,6 +270,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_poems.rpy",
+    "rpy_store": "mas_poems",
+    "rpy_init": 11
   }
 ]

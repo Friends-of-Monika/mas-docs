@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -31,7 +34,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -50,7 +56,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -69,7 +78,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -88,7 +100,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -107,7 +122,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -126,7 +144,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -145,7 +166,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -162,7 +186,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -177,7 +204,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -196,7 +226,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -215,7 +248,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -234,7 +270,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -253,7 +292,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -272,7 +314,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -291,7 +336,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -310,7 +358,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -327,6 +378,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-songs.rpy",
+    "rpy_store": "mas_songs",
+    "rpy_init": 0
   }
 ]

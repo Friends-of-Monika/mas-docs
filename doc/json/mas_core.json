@@ -15,7 +15,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_core",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -33,6 +36,9 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_core",
+    "rpy_init": -10
   }
 ]

@@ -788,7 +788,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -856,7 +859,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -903,7 +909,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -1030,7 +1039,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -1305,7 +1317,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1320,7 +1335,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1339,7 +1357,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1354,7 +1375,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1371,7 +1395,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1389,7 +1416,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1406,7 +1436,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1421,7 +1454,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1436,7 +1472,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1451,7 +1490,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1466,7 +1508,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1483,7 +1528,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1500,7 +1548,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -1515,7 +1566,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -2306,7 +2360,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -2374,7 +2431,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -2421,7 +2481,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -2548,7 +2611,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "class",
@@ -2823,7 +2889,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2838,7 +2907,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2857,7 +2929,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2872,7 +2947,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2889,7 +2967,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2907,7 +2988,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2924,7 +3008,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2939,7 +3026,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2954,7 +3044,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2969,7 +3062,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -2984,7 +3080,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -3001,7 +3100,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -3018,7 +3120,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   },
   {
     "type": "function",
@@ -3033,6 +3138,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_cardgames.rpy",
+    "rpy_store": "mas_nou",
+    "rpy_init": 5
   }
 ]

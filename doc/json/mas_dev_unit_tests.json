@@ -83,7 +83,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/dev/dev_unittest.rpy",
+    "rpy_store": "mas_dev_unit_tests",
+    "rpy_init": -1
   },
   {
     "type": "class",
@@ -381,7 +384,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/dev/dev_unittest.rpy",
+    "rpy_store": "mas_dev_unit_tests",
+    "rpy_init": -1
   },
   {
     "type": "class",
@@ -467,7 +473,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/dev/dev_unittest.rpy",
+    "rpy_store": "mas_dev_unit_tests",
+    "rpy_init": -1
   },
   {
     "type": "class",
@@ -765,6 +774,9 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/dev/dev_unittest.rpy",
+    "rpy_store": "mas_dev_unit_tests",
+    "rpy_init": -1
   }
 ]

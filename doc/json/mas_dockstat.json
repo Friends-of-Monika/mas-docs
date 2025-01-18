@@ -18,7 +18,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": -11
   },
   {
     "type": "function",
@@ -41,7 +44,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": -11
   },
   {
     "type": "function",
@@ -62,7 +68,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": -11
   },
   {
     "type": "function",
@@ -85,7 +94,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": -11
   },
   {
     "type": "function",
@@ -102,7 +114,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -119,7 +134,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -136,7 +154,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -154,7 +175,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -172,7 +196,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -187,7 +214,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -204,7 +234,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -221,7 +254,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -245,7 +281,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -263,7 +302,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -280,7 +322,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -299,7 +344,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -317,7 +365,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -335,7 +386,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -354,7 +408,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -373,7 +430,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -392,7 +452,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -409,7 +472,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -432,7 +498,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -449,7 +518,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -467,7 +539,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -485,7 +560,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -500,7 +578,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -517,7 +598,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -534,7 +618,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -558,7 +645,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -576,7 +666,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -593,7 +686,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -612,7 +708,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -630,7 +729,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -648,7 +750,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -667,7 +772,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -686,7 +794,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -705,7 +816,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -722,7 +836,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -745,7 +862,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 200
   },
   {
     "type": "function",
@@ -760,7 +880,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 205
   },
   {
     "type": "function",
@@ -775,6 +898,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_dockingstation.rpy",
+    "rpy_store": "mas_dockstat",
+    "rpy_init": 205
   }
 ]

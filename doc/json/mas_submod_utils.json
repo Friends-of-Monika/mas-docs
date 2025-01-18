@@ -16,7 +16,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "class",
@@ -59,7 +62,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "class",
@@ -241,7 +247,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "function",
@@ -261,7 +270,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "function",
@@ -280,7 +292,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "class",
@@ -323,7 +338,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "class",
@@ -505,7 +523,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "function",
@@ -525,7 +546,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -991
   },
   {
     "type": "function",
@@ -549,7 +573,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -568,7 +595,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -593,7 +623,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -611,7 +644,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -631,7 +667,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -654,7 +693,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -672,7 +714,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -689,7 +734,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -706,7 +754,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -730,7 +781,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -749,7 +803,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -774,7 +831,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -792,7 +852,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -812,7 +875,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -835,7 +901,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -853,7 +922,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -870,7 +942,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -887,6 +962,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_submods.rpy",
+    "rpy_store": "mas_submod_utils",
+    "rpy_init": -980
   }
 ]

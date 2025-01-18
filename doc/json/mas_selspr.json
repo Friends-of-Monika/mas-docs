@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -150
   },
   {
     "type": "function",
@@ -27,7 +30,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -150
   },
   {
     "type": "function",
@@ -54,7 +60,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -71,7 +80,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -91,7 +103,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -111,7 +126,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -128,7 +146,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -143,7 +164,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -158,7 +182,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -175,7 +202,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -195,7 +225,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -212,7 +245,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -227,7 +263,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -254,7 +293,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -271,7 +313,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -291,7 +336,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -311,7 +359,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -328,7 +379,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -343,7 +397,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -358,7 +415,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -375,7 +435,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -395,7 +458,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -412,7 +478,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -427,7 +496,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -444,7 +516,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -459,7 +534,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -474,7 +552,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -491,7 +572,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -506,7 +590,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -523,7 +610,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -544,7 +634,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -561,7 +654,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -592,7 +688,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -621,7 +720,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -650,7 +752,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -678,7 +783,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -698,7 +806,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -721,7 +832,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -744,7 +858,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -761,7 +878,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -779,7 +899,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -797,7 +920,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -812,7 +938,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -830,7 +959,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -845,7 +977,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -864,7 +999,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -885,7 +1023,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -905,7 +1046,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -925,7 +1069,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -945,7 +1092,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -963,7 +1113,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -980,7 +1133,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -997,7 +1153,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1014,7 +1173,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1031,7 +1193,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1049,7 +1214,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1067,7 +1235,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1085,7 +1256,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1102,7 +1276,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1119,7 +1296,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1136,7 +1316,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1154,7 +1337,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1172,7 +1358,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1190,7 +1379,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1207,7 +1399,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1224,7 +1419,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1241,7 +1439,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1260,7 +1461,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1280,7 +1484,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1299,7 +1506,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1318,7 +1528,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1336,7 +1549,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1353,7 +1569,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1370,7 +1589,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1387,7 +1609,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "class",
@@ -1804,7 +2029,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1821,7 +2049,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1836,7 +2067,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1851,7 +2085,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1868,7 +2105,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1883,7 +2123,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1900,7 +2143,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1921,7 +2167,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1938,7 +2187,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1969,7 +2221,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -1998,7 +2253,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2027,7 +2285,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2055,7 +2316,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2075,7 +2339,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2098,7 +2365,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2121,7 +2391,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2138,7 +2411,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2156,7 +2432,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2174,7 +2453,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2189,7 +2471,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2207,7 +2492,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2222,7 +2510,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2241,7 +2532,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2262,7 +2556,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2282,7 +2579,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2302,7 +2602,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2322,7 +2625,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2340,7 +2646,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2357,7 +2666,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2374,7 +2686,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2391,7 +2706,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2408,7 +2726,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2426,7 +2747,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2444,7 +2768,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2462,7 +2789,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2479,7 +2809,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2496,7 +2829,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2513,7 +2849,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2531,7 +2870,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2549,7 +2891,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2567,7 +2912,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2584,7 +2932,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2601,7 +2952,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2618,7 +2972,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2637,7 +2994,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2657,7 +3017,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2676,7 +3039,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2695,7 +3061,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2713,7 +3082,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2730,7 +3102,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2747,7 +3122,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -2764,7 +3142,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   },
   {
     "type": "class",
@@ -3181,6 +3562,9 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_selector.rpy",
+    "rpy_store": "mas_selspr",
+    "rpy_init": -10
   }
 ]

@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-moods.rpy",
+    "rpy_store": "mas_moods",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -31,6 +34,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-moods.rpy",
+    "rpy_store": "mas_moods",
+    "rpy_init": -1
   }
 ]

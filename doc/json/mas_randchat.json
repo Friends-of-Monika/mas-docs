@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -31,7 +34,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -48,7 +54,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -63,7 +72,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -78,7 +90,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -93,7 +108,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -110,7 +128,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -127,7 +148,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -144,7 +168,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -159,7 +186,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -174,7 +204,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -189,6 +222,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/definitions.rpy",
+    "rpy_store": "mas_randchat",
+    "rpy_init": -1
   }
 ]

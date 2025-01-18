@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -29,7 +32,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -44,7 +50,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -59,7 +68,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -74,7 +86,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -91,7 +106,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -106,7 +124,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -121,7 +142,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -136,7 +160,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -151,6 +178,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-easter-eggs.rpy",
+    "rpy_store": "mas_egg_manager",
+    "rpy_init": -1
   }
 ]

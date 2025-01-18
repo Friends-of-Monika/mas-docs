@@ -193,7 +193,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1510
   },
   {
     "type": "function",
@@ -208,7 +211,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1510
   },
   {
     "type": "class",
@@ -404,7 +410,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1510
   },
   {
     "type": "function",
@@ -419,7 +428,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1510
   },
   {
     "type": "class",
@@ -676,7 +688,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1505
   },
   {
     "type": "class",
@@ -721,7 +736,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1505
   },
   {
     "type": "class",
@@ -978,7 +996,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1505
   },
   {
     "type": "class",
@@ -1023,6 +1044,9 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/0imports.rpy",
+    "rpy_store": "mas_can_import",
+    "rpy_init": -1505
   }
 ]

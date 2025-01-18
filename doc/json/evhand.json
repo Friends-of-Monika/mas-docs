@@ -154,7 +154,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -171,7 +174,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -188,7 +194,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -208,7 +217,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -228,7 +240,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -245,7 +260,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -271,7 +289,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -299,7 +320,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -316,7 +340,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -336,7 +363,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -353,7 +383,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -373,7 +406,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -391,7 +427,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -406,7 +445,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -423,7 +465,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "class",
@@ -580,7 +625,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -597,7 +645,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -614,7 +665,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -634,7 +688,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -654,7 +711,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -671,7 +731,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -697,7 +760,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -725,7 +791,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -742,7 +811,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -762,7 +834,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -779,7 +854,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -799,7 +877,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -817,7 +898,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -832,7 +916,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -849,7 +936,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -866,7 +956,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -883,7 +976,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -900,7 +996,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -917,7 +1016,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -934,7 +1036,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -951,7 +1056,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -968,7 +1076,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -985,7 +1096,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -1002,7 +1116,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -1019,6 +1136,9 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/event-handler.rpy",
+    "rpy_store": "evhand",
+    "rpy_init": 1
   }
 ]

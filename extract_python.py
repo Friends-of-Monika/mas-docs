@@ -4,6 +4,7 @@
 
 # We'll need this to stub renpy.game.args
 from argparse import Namespace
+import json
 
 # Entrypoint to Ren'Py
 import renpy
@@ -68,9 +69,11 @@ def dump_init_blocks(all_dict):
     for store, blocks in all_dict.items():
         store_name = store.split(".")[1] if store != "store" else "store"
         with open(Path(src_dir, f"{store_name}.py"), "w") as f:
-            for block in blocks:
+            f.write("# pylint: skip-file\n")
+            for block in sorted(blocks, key=lambda it: it[0]):
                 rel_path = Path(block[2]).relative_to(mas_dir)
-                f.write(f"# *** Extracted from [{rel_path}] ***\n"
+                metadata = json.dumps([str(rel_path), store_name, block[0]])
+                f.write(f'"""*** {metadata}"""\n'
                         f"# init {block[0]} python in {store_name}:\n")
                 f.write(block[4])
                 f.write("\n\n")

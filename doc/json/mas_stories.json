@@ -18,7 +18,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-stories.rpy",
+    "rpy_store": "mas_stories",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -35,7 +38,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-stories.rpy",
+    "rpy_store": "mas_stories",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -54,7 +60,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-stories.rpy",
+    "rpy_store": "mas_stories",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -75,7 +84,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-stories.rpy",
+    "rpy_store": "mas_stories",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -92,7 +104,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-stories.rpy",
+    "rpy_store": "mas_stories",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -111,7 +126,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-stories.rpy",
+    "rpy_store": "mas_stories",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -126,6 +144,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/dev/dev_stories.rpy",
+    "rpy_store": "mas_stories",
+    "rpy_init": 20
   }
 ]

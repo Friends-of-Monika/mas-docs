@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-holidays.rpy",
+    "rpy_store": "mas_player_bday_event",
+    "rpy_init": -11
   },
   {
     "type": "function",
@@ -31,6 +34,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-holidays.rpy",
+    "rpy_store": "mas_player_bday_event",
+    "rpy_init": -11
   }
 ]

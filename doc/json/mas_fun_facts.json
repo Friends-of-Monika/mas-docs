@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-fun-facts.rpy",
+    "rpy_store": "mas_fun_facts",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -27,7 +30,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-fun-facts.rpy",
+    "rpy_store": "mas_fun_facts",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -42,7 +48,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-fun-facts.rpy",
+    "rpy_store": "mas_fun_facts",
+    "rpy_init": -10
   },
   {
     "type": "function",
@@ -57,6 +66,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-fun-facts.rpy",
+    "rpy_store": "mas_fun_facts",
+    "rpy_init": -10
   }
 ]

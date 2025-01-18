@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -32,7 +35,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -47,7 +53,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -62,7 +71,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -79,7 +91,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -97,7 +112,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -114,7 +132,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -131,7 +152,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -146,7 +170,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -161,7 +188,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -176,7 +206,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -193,7 +226,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -211,7 +247,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -226,7 +265,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -241,7 +283,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -258,7 +303,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -276,7 +324,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -293,7 +344,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -310,7 +364,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -325,7 +382,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -340,7 +400,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "function",
@@ -355,7 +418,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -980
   },
   {
     "type": "class",
@@ -662,7 +728,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -750
   },
   {
     "type": "class",
@@ -969,6 +1038,9 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/zz_apikeys.rpy",
+    "rpy_store": "mas_api_keys",
+    "rpy_init": -750
   }
 ]

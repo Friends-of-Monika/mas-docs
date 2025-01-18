@@ -13,7 +13,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -30,7 +33,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -48,7 +54,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -63,7 +72,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -78,7 +90,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -93,7 +108,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -110,7 +128,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -127,7 +148,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -144,7 +168,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -161,7 +188,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -177,7 +207,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -194,7 +227,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -212,7 +248,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -227,7 +266,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -242,7 +284,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -257,7 +302,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -274,7 +322,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -291,7 +342,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -308,7 +362,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -325,6 +382,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_hangman.rpy",
+    "rpy_store": "mas_hangman",
+    "rpy_init": -1
   }
 ]

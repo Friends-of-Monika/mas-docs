@@ -22,7 +22,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -45,7 +48,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -64,7 +70,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -78,7 +87,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -92,7 +104,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -106,7 +121,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -120,7 +138,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -134,7 +155,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -149,7 +173,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -164,7 +191,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -179,7 +209,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -194,7 +227,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -209,7 +245,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -234,7 +273,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -257,7 +299,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -276,7 +321,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -290,7 +338,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -304,7 +355,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -318,7 +372,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -332,7 +389,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -346,7 +406,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -361,7 +424,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -376,7 +442,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -391,7 +460,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -406,7 +478,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -421,7 +496,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -441,7 +519,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -461,7 +542,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -476,7 +560,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -491,7 +578,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -508,7 +598,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -523,7 +616,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -543,7 +639,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -563,7 +662,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -578,7 +680,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -593,7 +698,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -610,7 +718,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -625,6 +736,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-anniversary.rpy",
+    "rpy_store": "mas_anni",
+    "rpy_init": 10
   }
 ]

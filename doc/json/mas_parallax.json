@@ -222,7 +222,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   },
   {
     "type": "class",
@@ -521,7 +524,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   },
   {
     "type": "class",
@@ -1019,7 +1025,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   },
   {
     "type": "class",
@@ -1161,7 +1170,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   },
   {
     "type": "class",
@@ -1386,7 +1398,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   },
   {
     "type": "class",
@@ -1685,7 +1700,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   },
   {
     "type": "class",
@@ -2183,7 +2201,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   },
   {
     "type": "class",
@@ -2325,6 +2346,9 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/special-effects.rpy",
+    "rpy_store": "mas_parallax",
+    "rpy_init": -500
   }
 ]

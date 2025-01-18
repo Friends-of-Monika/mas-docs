@@ -12,7 +12,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -27,7 +30,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -42,7 +48,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -57,7 +66,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -72,7 +84,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -89,7 +104,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -104,7 +122,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -119,7 +140,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -134,7 +158,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -149,7 +176,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -164,7 +194,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   },
   {
     "type": "function",
@@ -181,6 +214,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_seasons.rpy",
+    "rpy_store": "mas_seasons",
+    "rpy_init": 10
   }
 ]

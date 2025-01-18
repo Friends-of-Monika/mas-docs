@@ -105,7 +105,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -101
   },
   {
     "type": "function",
@@ -122,7 +125,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -137,7 +143,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -154,7 +163,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -171,7 +183,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -100
   },
   {
     "type": "function",
@@ -192,7 +207,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -209,7 +227,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -224,7 +245,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -241,7 +265,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -258,7 +285,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -275,7 +305,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -292,7 +325,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -313,7 +349,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -330,7 +369,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -345,7 +387,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -362,7 +407,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -379,7 +427,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -396,7 +447,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -413,7 +467,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -432,7 +489,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -451,7 +511,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -466,7 +529,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -481,7 +547,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -496,7 +565,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -516,7 +588,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -536,7 +611,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -553,7 +631,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -569,7 +650,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -585,7 +669,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -601,7 +688,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -620,7 +710,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -640,7 +733,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -657,7 +753,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -676,7 +775,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -693,7 +795,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -710,7 +815,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -727,7 +835,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -744,7 +855,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -761,7 +875,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -778,7 +895,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -795,7 +915,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -812,7 +935,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -829,7 +955,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -846,7 +975,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -865,7 +997,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -880,7 +1015,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -895,7 +1033,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -913,7 +1054,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -933,7 +1077,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -952,7 +1099,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -971,7 +1121,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -990,7 +1143,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1010,7 +1166,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1030,7 +1189,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1050,7 +1212,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1070,7 +1235,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1090,7 +1258,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1110,7 +1281,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1130,7 +1304,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1150,7 +1327,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1170,7 +1350,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1190,7 +1373,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1210,7 +1396,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1230,7 +1419,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1250,7 +1442,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1270,7 +1465,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1290,7 +1488,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1308,7 +1509,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1326,7 +1530,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1345,7 +1552,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1364,7 +1574,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1383,7 +1596,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1405,7 +1621,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1428,7 +1647,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -5
   },
   {
     "type": "function",
@@ -1443,7 +1665,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "class",
@@ -1556,7 +1781,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1579,7 +1807,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1597,7 +1828,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1615,7 +1849,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1635,7 +1872,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1654,7 +1894,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1673,7 +1916,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1690,7 +1936,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1707,7 +1956,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1725,7 +1977,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1743,7 +1998,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1766,7 +2024,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1790,7 +2051,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1811,7 +2075,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1833,7 +2100,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1855,7 +2125,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1878,7 +2151,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1903,7 +2179,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1922,7 +2201,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1942,7 +2224,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1962,7 +2247,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -1983,7 +2271,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2008,7 +2299,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2027,7 +2321,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2054,7 +2351,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2075,7 +2375,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2097,7 +2400,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2116,7 +2422,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2136,7 +2445,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2185,7 +2497,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2200,7 +2515,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "class",
@@ -2313,7 +2631,10 @@
           "var_arg": null
         }
       }
-    ]
+    ],
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2336,7 +2657,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2354,7 +2678,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2372,7 +2699,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2392,7 +2722,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2411,7 +2744,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2430,7 +2766,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2447,7 +2786,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2464,7 +2806,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2482,7 +2827,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2500,7 +2848,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2523,7 +2874,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2547,7 +2901,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2568,7 +2925,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2590,7 +2950,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2612,7 +2975,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2635,7 +3001,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2660,7 +3029,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2679,7 +3051,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2699,7 +3074,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2719,7 +3097,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2740,7 +3121,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2765,7 +3149,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2784,7 +3171,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2811,7 +3201,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2832,7 +3225,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2854,7 +3250,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2873,7 +3272,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2893,7 +3295,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2942,7 +3347,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -4
   },
   {
     "type": "function",
@@ -2960,7 +3368,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -2978,7 +3389,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -2996,7 +3410,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3014,7 +3431,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3033,7 +3453,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3052,7 +3475,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3071,7 +3497,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3089,7 +3518,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3106,7 +3538,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3123,7 +3558,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3143,7 +3581,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3158,7 +3599,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3175,7 +3619,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3192,7 +3639,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3209,7 +3659,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3226,7 +3679,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3243,7 +3699,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3260,7 +3719,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3277,7 +3739,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3294,7 +3759,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3311,7 +3779,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3328,7 +3799,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3345,7 +3819,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3362,7 +3839,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3379,7 +3859,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3396,7 +3879,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3413,7 +3899,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3430,7 +3919,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3447,7 +3939,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3464,7 +3959,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3481,7 +3979,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3498,7 +3999,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3515,7 +4019,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3532,7 +4039,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3549,7 +4059,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3566,7 +4079,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3583,7 +4099,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3600,7 +4119,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3617,7 +4139,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3634,7 +4159,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3651,7 +4179,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3668,7 +4199,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3685,7 +4219,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3702,7 +4239,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3719,7 +4259,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3736,7 +4279,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3753,7 +4299,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3770,7 +4319,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3787,7 +4339,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_spriteobjects.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3804,7 +4359,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3821,7 +4379,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3838,7 +4399,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3854,7 +4418,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/dev/dev_sprites.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3870,7 +4437,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/dev/dev_sprites.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3886,7 +4456,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/dev/dev_sprites.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3902,7 +4475,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/dev/dev_sprites.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3918,7 +4494,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/dev/dev_sprites.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3934,7 +4513,10 @@
       "kw_defaults": [],
       "kw_arg": "kwargs",
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/dev/dev_sprites.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -2
   },
   {
     "type": "function",
@@ -3949,7 +4531,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -3967,7 +4552,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -3984,7 +4572,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4001,7 +4592,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4018,7 +4612,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4035,7 +4632,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4053,7 +4653,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4070,7 +4673,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4087,7 +4693,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4104,7 +4713,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4121,7 +4733,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4138,7 +4753,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4155,7 +4773,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-generator.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -4170,7 +4791,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4188,7 +4812,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4207,7 +4834,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4225,7 +4855,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4244,7 +4877,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4259,7 +4895,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4274,7 +4913,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4292,7 +4934,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4311,7 +4956,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4329,7 +4977,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4348,7 +4999,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   },
   {
     "type": "function",
@@ -4363,6 +5017,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/sprite-chart-matrix.rpy",
+    "rpy_store": "mas_sprites",
+    "rpy_init": 1
   }
 ]

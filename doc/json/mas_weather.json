@@ -14,7 +14,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -31,7 +34,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -99
   },
   {
     "type": "function",
@@ -46,7 +52,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -61,7 +70,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -76,7 +88,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -91,7 +106,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -108,7 +126,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -125,7 +146,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -142,7 +166,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -159,7 +186,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -176,7 +206,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -193,7 +226,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -210,7 +246,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -227,7 +266,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -242,7 +284,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -257,7 +302,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -272,7 +320,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -287,7 +338,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -304,7 +358,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -321,7 +378,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -338,7 +398,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -355,7 +418,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -372,7 +438,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -389,7 +458,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -406,7 +478,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -423,7 +498,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": -20
   },
   {
     "type": "function",
@@ -437,7 +515,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -459,7 +540,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -473,7 +557,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": 0
   },
   {
     "type": "function",
@@ -495,6 +582,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/zz_weather.rpy",
+    "rpy_store": "mas_weather",
+    "rpy_init": 0
   }
 ]

@@ -20,7 +20,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-greetings.rpy",
+    "rpy_store": "mas_greetings",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -41,7 +44,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-greetings.rpy",
+    "rpy_store": "mas_greetings",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -58,7 +64,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-greetings.rpy",
+    "rpy_store": "mas_greetings",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -81,7 +90,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-greetings.rpy",
+    "rpy_store": "mas_greetings",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -102,7 +114,10 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-greetings.rpy",
+    "rpy_store": "mas_greetings",
+    "rpy_init": -1
   },
   {
     "type": "function",
@@ -119,6 +134,9 @@
       "kw_defaults": [],
       "kw_arg": null,
       "var_arg": null
-    }
+    },
+    "rpy_script": "game/script-greetings.rpy",
+    "rpy_store": "mas_greetings",
+    "rpy_init": -1
   }
 ]
